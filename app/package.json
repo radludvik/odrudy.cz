@@ -1,36 +1,20 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "@neondatabase/serverless": "^1.1.0",
-    "@t3-oss/env-nextjs": "^0.13.11",
-    "drizzle-kit": "^0.31.10",
-    "drizzle-orm": "^0.45.2",
-    "html-to-text": "^9.0.5",
-    "next": "16.2.4",
-    "postgres": "^3.4.9",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "slugify": "^1.6.9",
-    "zod": "^4.3.6"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20.19.39",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.4",
-    "mysql2": "^3.22.3",
-    "tailwindcss": "^4",
-    "tsx": "^4.21.0",
-    "typescript": "^5"
-  }
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.5.0",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.5.12",
+        "tailwindcss": "^3.4.19"
+    }
 }
