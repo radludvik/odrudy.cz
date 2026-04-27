@@ -63,6 +63,20 @@ return [
             ]) : [],
         ],
 
+        // Read-only spojení na zdrojovou WordPress DB (pro import)
+        'wp' => [
+            'driver' => 'mysql',
+            'host' => env('WP_DB_HOST', '127.0.0.1'),
+            'port' => env('WP_DB_PORT', '3306'),
+            'database' => env('WP_DB_DATABASE', 'odrudy_audit'),
+            'username' => env('WP_DB_USERNAME', 'root'),
+            'password' => env('WP_DB_PASSWORD', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => 'wp491_',
+            'strict' => false,
+        ],
+
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
