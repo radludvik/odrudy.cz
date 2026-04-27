@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prose (pro HTML obsah odrůd a blogů) */
+@layer components {
+    .prose h1 { @apply text-2xl font-bold text-gray-900 mt-8 mb-3; }
+    .prose h2 { @apply text-xl font-semibold text-gray-800 mt-6 mb-2; }
+    .prose h3 { @apply text-base font-semibold text-gray-800 mt-4 mb-1; }
+    .prose p  { @apply text-gray-600 leading-relaxed mb-4; }
+    .prose ul { @apply list-disc list-inside space-y-1 mb-4 text-gray-600; }
+    .prose ol { @apply list-decimal list-inside space-y-1 mb-4 text-gray-600; }
+    .prose strong { @apply font-semibold text-gray-800; }
+    .prose a  { @apply text-brand-600 hover:underline; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
