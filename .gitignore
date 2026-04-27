@@ -1,0 +1,23 @@
+# Exporty a lokální DB (velké soubory, citlivá data)
+exports/
+audit/db/*.tsv
+audit/api/*.json
+audit/samples/*.json
+
+# Node
+app/node_modules/
+app/.next/
+app/scripts/output-*.json
+
+# Env
+.env
+.env.local
+app/.env
+app/.env.local
+
+# Editor
+.vscode/
+*.DS_Store
+
+# XAMPP DB (jen lokální)
+*.sql.bak
