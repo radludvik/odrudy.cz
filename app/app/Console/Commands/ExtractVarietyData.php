@@ -249,8 +249,17 @@ PROMPT;
 
             $bar->advance();
 
-            // Šetrný rate limit — ~50 req/min, OpenAI zvládne klidně 500
-            usleep(150_000); // 150 ms
+            // Logování každé 50. extrakce (jistota že běží)
+            if (($stats['success'] + $stats['failed']) % 50 === 0) {
+                \Log::info('extract:variety-data progress', [
+                    'done'   => $stats['success'] + $stats['failed'],
+                    'total'  => $total,
+                    'tokens' => $stats['tokens_in'] + $stats['tokens_out'],
+                ]);
+            }
+
+            // Šetrný rate limit — ~30 req/min
+            usleep(50_000); // 50 ms
         }
 
         $bar->finish();

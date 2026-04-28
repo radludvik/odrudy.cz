@@ -41,11 +41,7 @@ class OpenAiClient
     ): array {
         $response = Http::withToken($this->apiKey)
             ->timeout($this->timeoutSec)
-            ->retry(3, 2000, function ($exception, $request) {
-                // Retry jen na network/5xx, ne na 4xx
-                return $exception instanceof \Illuminate\Http\Client\ConnectionException
-                    || ($exception->response && $exception->response->status() >= 500);
-            })
+            ->retry(3, 2000)
             ->post('https://api.openai.com/v1/chat/completions', [
                 'model' => $this->model,
                 'messages' => [
