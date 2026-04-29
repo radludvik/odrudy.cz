@@ -15,9 +15,11 @@
         </nav>
         <h1 class="text-3xl font-bold text-gray-900">{{ $category->name }}</h1>
         @if($category->description)
-            <p class="mt-2 text-gray-500 max-w-2xl">{!! $category->description !!}</p>
+            <div class="mt-3 max-w-3xl prose">
+                {!! $category->description !!}
+            </div>
         @endif
-        <p class="mt-1 text-sm text-gray-400">{{ $varieties->total() }} odrůd</p>
+        <p class="mt-3 text-sm text-gray-400">{{ $varieties->total() }} odrůd</p>
     </div>
 </div>
 

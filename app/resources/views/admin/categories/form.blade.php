@@ -2,6 +2,18 @@
 @section('title', $category->exists ? 'Upravit kategorii' : 'Nová kategorie')
 @section('page_title', $category->exists ? 'Upravit kategorii: ' . $category->name : 'Nová kategorie')
 
+@section('head')
+    <link rel="stylesheet" href="https://unpkg.com/trix@2.1.15/dist/trix.css">
+    <script type="text/javascript" src="https://unpkg.com/trix@2.1.15/dist/trix.umd.min.js"></script>
+    <style>
+        trix-editor { min-height: 200px; background: white; border: 1px solid #d1d5db; border-radius: 0.5rem; }
+        trix-editor:focus { outline: none; border-color: #16a34a; box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1); }
+        trix-toolbar { background: #f9fafb; border-radius: 0.5rem 0.5rem 0 0; padding: 0.5rem; }
+        .trix-button-group { border: 1px solid #d1d5db !important; border-radius: 0.375rem !important; background: white; }
+        .trix-button { border: none !important; }
+    </style>
+@endsection
+
 @section('page_actions')
     <a href="{{ route('admin.categories.index') }}" class="text-sm text-gray-500 hover:text-gray-700">← Zpět na seznam</a>
 @endsection
@@ -52,10 +64,10 @@
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Popis (intro text)</label>
-                    <textarea name="description" rows="4"
-                              class="w-full px-3 py-2 border border-gray-300 rounded-lg">{{ old('description', $category->description) }}</textarea>
-                    <p class="text-xs text-gray-500 mt-1">HTML povoleno. Zobrazí se nad seznamem odrůd.</p>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Popis (intro text nad seznamem odrůd)</label>
+                    <input id="category_desc_input" type="hidden" name="description" value="{{ old('description', $category->description) }}">
+                    <trix-editor input="category_desc_input"></trix-editor>
+                    <p class="text-xs text-gray-500 mt-1">Krátký úvodní text. Zobrazí se na <code>/{{ $category->slug ?: 'kategorie' }}</code> nad seznamem odrůd.</p>
                 </div>
             </div>
 

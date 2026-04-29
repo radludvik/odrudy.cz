@@ -83,8 +83,30 @@ class CategoryController extends Controller
         $data = $request->validate($rules);
         $data['visible']    = $request->boolean('visible');
         $data['sort_order'] = (int) ($data['sort_order'] ?? 0);
+        if (!empty($data['description'])) {
+            $data['description'] = $this->sanitizeRichText($data['description']);
+        }
         unset($data['image']);
         return $data;
+    }
+
+    /**
+     * Vyčistí HTML — povolí jen tagy které generuje Trix.
+     * Brání XSS přes <script>, on* atributy, javascript: URL atd.
+     */
+    private function sanitizeRichText(string $html): string
+    {
+        // Whitelist tagů (Trix 2.x používá tyto)
+        $allowed = '<p><br><strong><b><em><i><u><s><strike><del>'
+                 . '<a><ul><ol><li><h1><h2><h3><h4><blockquote><pre><code>';
+        $clean = strip_tags($html, $allowed);
+        // Odstranit on* event handlery (onclick, onmouseover, ...)
+        $clean = preg_replace('/\s+on[a-z]+\s*=\s*"[^"]*"/iu', '', $clean);
+        $clean = preg_replace("/\s+on[a-z]+\s*=\s*'[^']*'/iu", '', $clean);
+        // Odstranit javascript: a data: schémata v href/src
+        $clean = preg_replace('/(href|src)\s*=\s*"\s*javascript:[^"]*"/iu', '$1="#"', $clean);
+        $clean = preg_replace("/(href|src)\s*=\s*'\s*javascript:[^']*'/iu", '$1="#"', $clean);
+        return trim($clean);
     }
 
     private function handleImage(Request $request, ?Category $category): ?string
