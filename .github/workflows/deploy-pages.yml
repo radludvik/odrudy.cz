@@ -2,7 +2,10 @@ name: Deploy ADHD site to GitHub Pages
 
 on:
   push:
-    branches: ["claude/adhd-website-cz-q5cf9o"]
+    branches: ["main"]
+    paths:
+      - "adhd-bez-chaosu-web/site/**"
+      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
