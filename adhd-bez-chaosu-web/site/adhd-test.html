@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADHD test pro dospělé – orientační sebehodnocení zdarma | ADHD bez chaosu</title>
+  <meta name="description" content="Nezávazné orientační sebehodnocení ADHD pro dospělé. Není to diagnóza — jen pomůcka k zamyšlení, zda má smysl téma řešit dál.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">ADHD<span> bez chaosu</span></a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="co-je-adhd-u-dospelych.html">Co je ADHD</a></li>
+          <li><a href="priznaky-adhd.html">Příznaky</a></li>
+          <li><a href="adhd-test.html" class="active">Test</a></li>
+          <li><a href="prakticke-tipy.html">Praktické tipy</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="o-projektu.html">O projektu</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <a href="ebook.html" class="btn btn--primary">E-book za 190 Kč</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container-text">
+      <span class="eyebrow">Orientační sebehodnocení</span>
+      <h1>Orientační sebehodnocení ADHD</h1>
+      <div class="disclaimer">
+        <strong>Důležité:</strong> Tento test je orientační a slouží pouze k zamyšlení. <strong>Nejde o diagnostický nástroj</strong> a jeho výsledek neznamená diagnózu ADHD. Diagnostiku může provést jedině odborník (psychiatr nebo klinický psycholog). Berte výsledek jako vodítko, ne jako verdikt.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--narrow">
+    <div class="container" style="max-width:780px;">
+      <p class="muted">U každého výroku zvolte, jak často se vás týká. Vyplnění zabere pár minut a je anonymní — nikam se neodesílá.</p>
+
+      <form id="quiz-form">
+        <!-- 14 otázek; hodnoty 0=Nikdy, 1=Občas, 2=Často, 3=Téměř vždy -->
+        <!-- Otázky se generují stejnou strukturou -->
+        <div class="quiz-question" data-q="1"><p>1. Mám potíže dokončit úkol, jakmile odezní počáteční nadšení.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q1" id="q1a" value="0"><label for="q1a">Nikdy</label>
+            <input type="radio" name="q1" id="q1b" value="1"><label for="q1b">Občas</label>
+            <input type="radio" name="q1" id="q1c" value="2"><label for="q1c">Často</label>
+            <input type="radio" name="q1" id="q1d" value="3"><label for="q1d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="2"><p>2. Odkládám úkoly, které vyžadují hodně přemýšlení nebo organizace.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q2" id="q2a" value="0"><label for="q2a">Nikdy</label>
+            <input type="radio" name="q2" id="q2b" value="1"><label for="q2b">Občas</label>
+            <input type="radio" name="q2" id="q2c" value="2"><label for="q2c">Často</label>
+            <input type="radio" name="q2" id="q2d" value="3"><label for="q2d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="3"><p>3. Zapomínám na schůzky, termíny nebo závazky.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q3" id="q3a" value="0"><label for="q3a">Nikdy</label>
+            <input type="radio" name="q3" id="q3b" value="1"><label for="q3b">Občas</label>
+            <input type="radio" name="q3" id="q3c" value="2"><label for="q3c">Často</label>
+            <input type="radio" name="q3" id="q3d" value="3"><label for="q3d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="4"><p>4. Ztrácím nebo nemůžu najít běžné věci (klíče, doklady, telefon).</p>
+          <div class="quiz-options">
+            <input type="radio" name="q4" id="q4a" value="0"><label for="q4a">Nikdy</label>
+            <input type="radio" name="q4" id="q4b" value="1"><label for="q4b">Občas</label>
+            <input type="radio" name="q4" id="q4c" value="2"><label for="q4c">Často</label>
+            <input type="radio" name="q4" id="q4d" value="3"><label for="q4d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="5"><p>5. Snadno se nechám vyrušit okolním děním nebo vlastními myšlenkami.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q5" id="q5a" value="0"><label for="q5a">Nikdy</label>
+            <input type="radio" name="q5" id="q5b" value="1"><label for="q5b">Občas</label>
+            <input type="radio" name="q5" id="q5c" value="2"><label for="q5c">Často</label>
+            <input type="radio" name="q5" id="q5d" value="3"><label for="q5d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="6"><p>6. Mám pocit vnitřního neklidu, „jako bych byl/a poháněný/á motorem“.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q6" id="q6a" value="0"><label for="q6a">Nikdy</label>
+            <input type="radio" name="q6" id="q6b" value="1"><label for="q6b">Občas</label>
+            <input type="radio" name="q6" id="q6c" value="2"><label for="q6c">Často</label>
+            <input type="radio" name="q6" id="q6d" value="3"><label for="q6d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="7"><p>7. Skáču druhým do řeči nebo dokončuji věty za ně.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q7" id="q7a" value="0"><label for="q7a">Nikdy</label>
+            <input type="radio" name="q7" id="q7b" value="1"><label for="q7b">Občas</label>
+            <input type="radio" name="q7" id="q7c" value="2"><label for="q7c">Často</label>
+            <input type="radio" name="q7" id="q7d" value="3"><label for="q7d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="8"><p>8. Dělám rychlá rozhodnutí, kterých později lituji.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q8" id="q8a" value="0"><label for="q8a">Nikdy</label>
+            <input type="radio" name="q8" id="q8b" value="1"><label for="q8b">Občas</label>
+            <input type="radio" name="q8" id="q8c" value="2"><label for="q8c">Často</label>
+            <input type="radio" name="q8" id="q8d" value="3"><label for="q8d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="9"><p>9. Mám problém odhadnout, jak dlouho mi co bude trvat.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q9" id="q9a" value="0"><label for="q9a">Nikdy</label>
+            <input type="radio" name="q9" id="q9b" value="1"><label for="q9b">Občas</label>
+            <input type="radio" name="q9" id="q9c" value="2"><label for="q9c">Často</label>
+            <input type="radio" name="q9" id="q9d" value="3"><label for="q9d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="10"><p>10. Cítím se zahlcený/á i z běžných každodenních povinností.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q10" id="q10a" value="0"><label for="q10a">Nikdy</label>
+            <input type="radio" name="q10" id="q10b" value="1"><label for="q10b">Občas</label>
+            <input type="radio" name="q10" id="q10c" value="2"><label for="q10c">Často</label>
+            <input type="radio" name="q10" id="q10d" value="3"><label for="q10d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="11"><p>11. Zaseknu se v činnosti, která mě baví, a ztratím pojem o čase.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q11" id="q11a" value="0"><label for="q11a">Nikdy</label>
+            <input type="radio" name="q11" id="q11b" value="1"><label for="q11b">Občas</label>
+            <input type="radio" name="q11" id="q11c" value="2"><label for="q11c">Často</label>
+            <input type="radio" name="q11" id="q11d" value="3"><label for="q11d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="12"><p>12. Mé emoce přicházejí silně a rychle, hůř je krotím.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q12" id="q12a" value="0"><label for="q12a">Nikdy</label>
+            <input type="radio" name="q12" id="q12b" value="1"><label for="q12b">Občas</label>
+            <input type="radio" name="q12" id="q12c" value="2"><label for="q12c">Často</label>
+            <input type="radio" name="q12" id="q12d" value="3"><label for="q12d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="13"><p>13. Často si vyčítám, že se „dostatečně nesnažím“.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q13" id="q13a" value="0"><label for="q13a">Nikdy</label>
+            <input type="radio" name="q13" id="q13b" value="1"><label for="q13b">Občas</label>
+            <input type="radio" name="q13" id="q13c" value="2"><label for="q13c">Často</label>
+            <input type="radio" name="q13" id="q13d" value="3"><label for="q13d">Téměř vždy</label>
+          </div>
+        </div>
+        <div class="quiz-question" data-q="14"><p>14. Začínám mnoho věcí najednou a málo jich dokončím.</p>
+          <div class="quiz-options">
+            <input type="radio" name="q14" id="q14a" value="0"><label for="q14a">Nikdy</label>
+            <input type="radio" name="q14" id="q14b" value="1"><label for="q14b">Občas</label>
+            <input type="radio" name="q14" id="q14c" value="2"><label for="q14c">Často</label>
+            <input type="radio" name="q14" id="q14d" value="3"><label for="q14d">Téměř vždy</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--lg" style="margin-top:8px;">Zobrazit výsledek</button>
+      </form>
+
+      <div class="quiz-result" id="quiz-result">
+        <span class="eyebrow">Vaše orientační shrnutí</span>
+        <div class="result-band" id="result-band"></div>
+        <p id="result-text"></p>
+        <div class="disclaimer">
+          <strong>Upozornění:</strong> Výsledek tohoto sebehodnocení neslouží ke stanovení diagnózy a nenahrazuje odborné vyšetření. Pokud řešíte závažné potíže nebo myšlenky, které vás ohrožují, vyhledejte prosím odbornou pomoc nebo využijte linku důvěry; v ohrožení života volejte <strong>112</strong>.
+        </div>
+        <div class="btn-row mt-2">
+          <a href="ebook.html" class="btn btn--primary">Získat praktická řešení (e-book 190 Kč)</a>
+          <a href="prakticke-tipy.html" class="btn btn--secondary">Praktické tipy zdarma</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">ADHD<span> bez chaosu</span></a>
+          <p>Praktický průvodce pro dospělé, kteří chtějí lépe zvládat pozornost, prokrastinaci, chaos a každodenní povinnosti.</p>
+          <a href="ebook.html" class="btn btn--primary">E-book za 190 Kč</a>
+        </div>
+        <div><h4>Web</h4><a href="co-je-adhd-u-dospelych.html">Co je ADHD</a><a href="prakticke-tipy.html">Praktické tipy</a><a href="ebook.html">E-book</a></div>
+        <div><h4>Téma</h4><a href="priznaky-adhd.html">Příznaky ADHD</a><a href="adhd-test.html">Orientační test</a><a href="blog.html">Blog</a></div>
+        <div><h4>Projekt</h4><a href="o-projektu.html">O projektu</a><a href="kontakt.html">Kontakt</a></div>
+        <div><h4>Právní</h4><a href="pravni-upozorneni.html">Právní upozornění</a><a href="pravni-upozorneni.html#obchodni">Obchodní podmínky</a><a href="pravni-upozorneni.html#gdpr">Ochrana údajů</a></div>
+      </div>
+      <div class="footer-disclaimer">
+        <strong>Důležité upozornění:</strong> Obsah webu ADHD bez chaosu slouží ke vzdělávání a podpoře. Nenahrazuje lékařskou ani psychologickou péči, diagnostiku ani léčbu a neslouží ke stanovení diagnózy. Máte-li podezření na ADHD nebo jiné potíže, obraťte se na odborníka (psychiatr nebo klinický psycholog).
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ADHD bez chaosu · provozovatel a fakturační údaje doplní zadavatel</span>
+        <span>info@adhdbezchaosu.cz</span>
+      </div>
+    </div>
+  </footer>
+  <div class="sticky-cta"><a href="ebook.html" class="btn btn--primary">E-book za 190 Kč</a></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
