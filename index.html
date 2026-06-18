@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>První akvárium – kompletní průvodce pro začátečníky</title>
+<meta name="description" content="Jak založit první akvárium bez chyb. Rybičky, krevetky, kompatibilita druhů, péče o vodu, nemoci ryb a praktický e-book pro začátečníky.">
+<meta name="author" content="První akvárium">
+<meta property="og:type" content="website">
+<meta property="og:title" content="První akvárium – kompletní průvodce pro začátečníky">
+<meta property="og:description" content="Jak založit první akvárium bez chyb. Rybičky, krevetky, kompatibilita druhů, péče o vodu, nemoci ryb a praktický e-book pro začátečníky.">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:site_name" content="První akvárium">
+<meta property="og:url" content="https://www.prvni-akvarium.cz/">
+<meta property="og:image" content="https://www.prvni-akvarium.cz/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="První akvárium – kompletní průvodce pro začátečníky">
+<meta name="twitter:description" content="Jak založit první akvárium bez chyb. Rybičky, krevetky, kompatibilita, péče o vodu a praktický e-book.">
+<meta name="theme-color" content="#0b2545">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Jak velké akvárium je vhodné pro úplného začátečníka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ideální je akvárium o objemu alespoň 54 litrů. Větší objem vody je stabilnější, snáze se udržuje v rovnováze a odpouští začátečnické chyby. Malé nádrže pod 20 litrů se kazí mnohem rychleji a nejsou pro začátek vhodné."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kdy mohu nasadit první rybičky?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Až po zajetí akvária, tedy zhruba po 3 až 4 týdnech, kdy se ve filtru namnoží užitečné bakterie a testy ukáží nulový amoniak i dusitany. Nasazení ryb hned první den je nejčastější příčinou úhynů."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak často mám měnit vodu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vyměňujte zhruba 20 až 30 % vody jednou týdně. Nikdy neměňte veškerou vodu najednou – zničili byste tím bakteriální kulturu a rozkolísali celý ekosystém."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jsou krevetky vhodné jako první akvárium?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ano. Druhy jako Red Cherry nebo Blue Dream jsou nenáročné, vejdou se i do malého nano akvária a jsou skvělou volbou pro malé prostory i pro rodiny s dětmi. Potřebují ale zajetou nádrž a stabilní vodu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mohu nechat akvárium bez krmení během dovolené?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zdravé dospělé ryby vydrží bez krmení klidně 7 až 10 dní. Na delší dobu pořiďte automatické krmítko a před odjezdem zkontrolujte filtr i topítko."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Proč se mi zakalila voda v novém akváriu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bílý zákal v prvních dnech je tzv. bakteriální zákal a je normální. Sám zmizí, jakmile se akvárium zajede. Nevyměňujte kvůli němu veškerou vodu ani nevypínejte filtr."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kolik ryb mohu nasadit do akvária?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Orientačně počítejte zhruba 1 cm dospělé ryby na 1 až 2 litry vody, vždy ale berte v úvahu druh, plavecký prostor a zatížení filtru. Lepší je nasadit méně ryb a postupně."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Potřebuji do akvária topítko?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U tropických ryb a krevetek ano. Většina běžných druhů potřebuje stabilní teplotu 23 až 26 °C. Bez topítka teplota kolísá a ryby stresuje."
+      }
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --navy:#0b2545;
+  --navy2:#13325c;
+  --turq:#17b3b0;
+  --turq-dark:#0e8f8c;
+  --light-blue:#5bc8e8;
+  --pale-blue:#e8f6fb;
+  --sand:#f6efe3;
+  --white:#ffffff;
+  --coral:#ff7a59;
+  --coral-dark:#f4633e;
+  --text:#2a3b4d;
+  --muted:#5f7385;
+  --line:#e4ecf2;
+  --ok:#1ea672;
+  --warn:#e8a23d;
+  --bad:#e15b5b;
+  --shadow:0 10px 30px rgba(11,37,69,.08);
+  --shadow-lg:0 18px 50px rgba(11,37,69,.14);
+  --radius:18px;
+  --radius-lg:26px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{
+  font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;
+  color:var(--text);background:var(--white);line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%}
+a{color:var(--turq-dark);text-decoration:none}
+.container{max-width:1180px;margin:0 auto;padding:0 22px}
+section{padding:78px 0}
+h1,h2,h3,h4{line-height:1.2;color:var(--navy);font-weight:800}
+h2.section-title{font-size:clamp(1.7rem,3.6vw,2.5rem);text-align:center;margin-bottom:10px}
+.section-sub{text-align:center;color:var(--muted);max-width:680px;margin:0 auto 46px;font-size:1.05rem}
+.eyebrow{display:inline-block;background:var(--pale-blue);color:var(--turq-dark);
+  font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:6px 14px;border-radius:999px;margin-bottom:14px}
+.center{text-align:center}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);font-size:1.2rem}
+.logo .fish{width:34px;height:34px;background:linear-gradient(135deg,var(--turq),var(--light-blue));
+  border-radius:50%;display:grid;place-items:center;color:#fff;font-size:1.05rem}
+.nav-links{display:flex;gap:4px;align-items:center;list-style:none}
+.nav-links a{color:var(--text);font-weight:600;font-size:.94rem;padding:8px 11px;border-radius:10px;transition:.2s}
+.nav-links a:hover{background:var(--pale-blue);color:var(--turq-dark)}
+.btn{display:inline-block;border:none;cursor:pointer;font-weight:700;font-family:inherit;
+  border-radius:999px;padding:13px 26px;transition:transform .15s,box-shadow .2s,background .2s;font-size:1rem}
+.btn-cta{background:linear-gradient(135deg,var(--coral),var(--coral-dark));color:#fff;
+  box-shadow:0 8px 20px rgba(255,122,89,.35)}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(255,122,89,.45)}
+.btn-ghost{background:#fff;color:var(--navy);border:2px solid var(--line)}
+.btn-ghost:hover{border-color:var(--turq);color:var(--turq-dark)}
+.btn-sm{padding:9px 18px;font-size:.9rem}
+.nav-cta{margin-left:6px}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
+.burger span{width:26px;height:3px;background:var(--navy);border-radius:3px;transition:.3s}
+
+/* HERO */
+.hero{background:
+  radial-gradient(1200px 500px at 80% -10%,rgba(91,200,232,.25),transparent),
+  radial-gradient(900px 500px at 0% 110%,rgba(23,179,176,.18),transparent),
+  linear-gradient(180deg,#fbfdff,#eef8fc);
+  position:relative;overflow:hidden;padding-top:64px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.hero h1{font-size:clamp(2rem,4.6vw,3.2rem);margin-bottom:18px}
+.hero h1 .hl{color:var(--turq-dark)}
+.hero p.lead{font-size:1.18rem;color:var(--muted);margin-bottom:30px;max-width:560px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:24px}
+.hero-trust{display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.92rem;font-weight:600}
+.hero-trust span{display:flex;align-items:center;gap:7px}
+.hero-trust .dot{color:var(--turq)}
+.hero-art{position:relative}
+.tank{background:linear-gradient(180deg,#bfeaf6,#7fd3ec);border-radius:var(--radius-lg);
+  height:360px;position:relative;overflow:hidden;box-shadow:var(--shadow-lg);
+  border:8px solid #fff}
+.tank .water-line{position:absolute;top:14px;left:0;right:0;height:2px;background:rgba(255,255,255,.5)}
+.tank .sand{position:absolute;bottom:0;left:0;right:0;height:60px;
+  background:linear-gradient(180deg,#f0e2c4,#e3cf9f);border-radius:0 0 14px 14px}
+.tank .plant{position:absolute;bottom:46px;width:14px;border-radius:8px 8px 0 0;
+  background:linear-gradient(180deg,#3fae6a,#1f7d45)}
+.tank .p1{height:130px;left:34px}.tank .p2{height:90px;left:58px}
+.tank .p3{height:160px;right:50px}.tank .p4{height:110px;right:74px}
+.bubble{position:absolute;background:rgba(255,255,255,.7);border-radius:50%;animation:rise linear infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-330px);opacity:0}}
+.swim{position:absolute;font-size:1.8rem;animation:swim 9s ease-in-out infinite}
+@keyframes swim{0%{left:-12%;transform:scaleX(1)}48%{left:90%;transform:scaleX(1)}
+  50%{transform:scaleX(-1)}52%{transform:scaleX(-1)}98%{left:-12%;transform:scaleX(-1)}100%{transform:scaleX(1)}}
+.hero-badge{position:absolute;right:-10px;bottom:-18px;background:#fff;border-radius:16px;
+  padding:14px 18px;box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:12px}
+.hero-badge .price{font-weight:800;color:var(--coral-dark);font-size:1.5rem}
+.hero-badge small{color:var(--muted);display:block;font-size:.78rem}
+
+/* CARDS GENERIC */
+.grid{display:grid;gap:22px}
+.cols-2{grid-template-columns:repeat(2,1fr)}
+.cols-3{grid-template-columns:repeat(3,1fr)}
+.cols-4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}
+.card .ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
+  font-size:1.4rem;margin-bottom:14px;background:var(--pale-blue)}
+.card h3{font-size:1.12rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.96rem}
+.card .fix{margin-top:12px;background:#eafaf3;border-left:4px solid var(--ok);
+  padding:10px 12px;border-radius:0 10px 10px 0;color:#16734f;font-size:.9rem}
+.card .fix b{color:var(--ok)}
+
+/* MISTAKES */
+.mistakes{background:var(--sand)}
+.mistake-num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;
+  background:var(--coral);color:#fff;font-weight:800;font-size:.85rem;margin-bottom:12px}
+
+/* TIMELINE */
+.timeline{position:relative;max-width:820px;margin:0 auto}
+.timeline::before{content:"";position:absolute;left:27px;top:8px;bottom:8px;width:3px;
+  background:linear-gradient(var(--turq),var(--light-blue))}
+.tl-item{position:relative;padding:0 0 26px 80px;cursor:pointer}
+.tl-dot{position:absolute;left:10px;top:0;width:38px;height:38px;border-radius:50%;
+  background:#fff;border:3px solid var(--turq);color:var(--turq-dark);display:grid;place-items:center;
+  font-weight:800;z-index:2;transition:.2s}
+.tl-item.open .tl-dot,.tl-item:hover .tl-dot{background:var(--turq);color:#fff}
+.tl-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
+.tl-card h3{font-size:1.05rem;display:flex;align-items:center;justify-content:space-between}
+.tl-card .toggle{color:var(--turq);font-weight:800;font-size:1.3rem;transition:.2s}
+.tl-item.open .toggle{transform:rotate(45deg)}
+.tl-body{max-height:0;overflow:hidden;transition:max-height .35s ease,margin .3s}
+.tl-item.open .tl-body{max-height:240px;margin-top:10px}
+.tl-body p{color:var(--muted);font-size:.96rem}
+
+/* SPECIES CARDS */
+.species .card{display:flex;flex-direction:column}
+.species-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.species-emoji{font-size:2rem;width:54px;height:54px;border-radius:14px;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--pale-blue),#d7f0f7)}
+.species-head h3{font-size:1.15rem;margin:0}
+.species-head .lat{color:var(--muted);font-size:.82rem;font-style:italic}
+.species p.desc{font-size:.95rem;color:var(--muted);margin-bottom:14px}
+.spec-list{list-style:none;display:grid;gap:7px;font-size:.9rem;margin-top:auto}
+.spec-list li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line);padding-bottom:6px}
+.spec-list li span:first-child{color:var(--muted)}
+.spec-list li span:last-child{font-weight:700;color:var(--navy);text-align:right}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px}
+.tag.easy{background:#e7f8ef;color:var(--ok)}
+.tag.mid{background:#fdf2e0;color:#b9791f}
+.tag.kids{background:#eaf3ff;color:#2f6fd0}
+.fun{margin-top:12px;background:var(--pale-blue);border-radius:10px;padding:10px 12px;font-size:.88rem;color:var(--navy2)}
+.fun b{color:var(--turq-dark)}
+
+/* SHRIMP TANK / BUDGET */
+.shrimp-intro{background:linear-gradient(180deg,#fff,#f3fbfd)}
+.budget-table{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--radius);
+  overflow:hidden;box-shadow:var(--shadow);font-size:.94rem;margin-top:14px}
+.budget-table th,.budget-table td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line)}
+.budget-table thead th{background:var(--navy);color:#fff;font-size:.92rem}
+.budget-table tbody tr:nth-child(even){background:#f9fcfe}
+.budget-table td:not(:first-child){text-align:center;font-weight:600}
+.budget-table tfoot td{font-weight:800;color:var(--navy);background:var(--pale-blue);font-size:1rem}
+.budget-table .col-mid{background:rgba(23,179,176,.06)}
+
+/* COMPAT TOOL */
+.compat{background:var(--navy);color:#fff}
+.compat h2,.compat .section-sub{color:#fff}
+.compat .section-sub{opacity:.85}
+.compat-box{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);
+  border-radius:var(--radius-lg);padding:30px;max-width:860px;margin:0 auto}
+.compat-selects{display:grid;grid-template-columns:1fr auto 1fr;gap:18px;align-items:center}
+.compat-selects label{display:block;font-size:.85rem;opacity:.8;margin-bottom:8px;font-weight:600}
+.compat-selects select{width:100%;padding:14px 16px;border-radius:12px;border:none;
+  font-size:1rem;font-family:inherit;background:#fff;color:var(--text);cursor:pointer}
+.vs{font-weight:800;color:var(--light-blue);font-size:1.3rem;text-align:center;padding-top:24px}
+.compat-result{margin-top:24px;border-radius:16px;padding:22px;text-align:center;
+  background:rgba(255,255,255,.08);transition:.3s}
+.compat-result.ok{background:rgba(30,166,114,.18);border:1px solid var(--ok)}
+.compat-result.warn{background:rgba(232,162,61,.18);border:1px solid var(--warn)}
+.compat-result.bad{background:rgba(225,91,91,.18);border:1px solid var(--bad)}
+.compat-result .verdict{font-size:1.3rem;font-weight:800;margin-bottom:6px;display:flex;align-items:center;justify-content:center;gap:10px}
+.compat-result.ok .verdict{color:#7ff0c0}
+.compat-result.warn .verdict{color:#ffcd86}
+.compat-result.bad .verdict{color:#ff9d9d}
+.compat-result p{opacity:.95}
+
+/* WATER CARE / ACCORDIONS as cards */
+.water .card .ic{background:#e6f7ff}
+
+/* DISEASES */
+.diseases{background:var(--sand)}
+.disease-card .sym{font-size:.9rem;color:var(--muted)}
+.disease-card .row{margin-top:10px;font-size:.92rem}
+.disease-card .row b{color:var(--navy)}
+.notice{background:#fff6e6;border:1px solid #f3d795;border-radius:14px;padding:16px 18px;
+  color:#8a6520;margin-top:30px;font-size:.95rem;display:flex;gap:12px;align-items:flex-start}
+
+/* VACATION */
+.vacation{background:linear-gradient(180deg,#eef8fc,#fff)}
+
+/* SALES */
+.sales{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff}
+.sales-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.ebook-cover{background:linear-gradient(160deg,var(--turq),var(--navy2));border-radius:18px;
+  padding:34px;box-shadow:var(--shadow-lg);position:relative;min-height:380px;
+  display:flex;flex-direction:column;justify-content:space-between;border:1px solid rgba(255,255,255,.15)}
+.ebook-cover .badge{position:absolute;top:-14px;right:-14px;background:var(--coral);color:#fff;
+  font-weight:800;border-radius:50%;width:88px;height:88px;display:grid;place-items:center;
+  text-align:center;font-size:.95rem;line-height:1.1;box-shadow:var(--shadow-lg);transform:rotate(8deg)}
+.ebook-cover .eb-top{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+.ebook-cover h3{color:#fff;font-size:2rem;margin:14px 0}
+.ebook-cover .eb-sub{opacity:.9}
+.ebook-cover .eb-fish{font-size:3rem}
+.sales h2{color:#fff;text-align:left}
+.toc{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:18px 0 22px}
+.toc li{display:flex;gap:9px;align-items:flex-start;font-size:.95rem;opacity:.95}
+.toc li::before{content:"✓";color:var(--turq);font-weight:800}
+.chapter-highlight{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+  border-radius:14px;padding:16px 18px;margin-bottom:22px}
+.chapter-highlight h4{color:var(--light-blue);margin-bottom:8px}
+.chapter-highlight ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.chapter-highlight li{background:rgba(255,255,255,.1);padding:5px 12px;border-radius:999px;font-size:.85rem}
+.sales-cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.sales-price{font-size:2.4rem;font-weight:800}
+.sales-price small{font-size:1rem;opacity:.7;font-weight:600}
+
+/* BONUSES */
+.bonus-list{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.bonus{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center;
+  box-shadow:var(--shadow);transition:.2s}
+.bonus:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.bonus .ic{font-size:1.8rem;margin-bottom:8px}
+.bonus b{display:block;color:var(--navy);font-size:.95rem}
+
+/* AFFILIATE */
+.affiliate{background:var(--sand)}
+.aff-card h3{display:flex;align-items:center;gap:10px;font-size:1.08rem}
+.aff-card .warn-line{margin:10px 0;font-size:.88rem;color:#a9700f;background:#fdf3df;
+  border-radius:10px;padding:8px 10px}
+.aff-disclaimer{background:#fff;border:1px dashed var(--line);border-radius:14px;
+  padding:14px 18px;margin-bottom:30px;color:var(--muted);font-size:.9rem;text-align:center}
+
+/* BLOG */
+.blog-card{padding:0;overflow:hidden}
+.blog-thumb{height:120px;display:grid;place-items:center;font-size:2.6rem;color:#fff}
+.blog-card .inner{padding:18px}
+.blog-card .cat{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--turq-dark)}
+.blog-card h3{font-size:1.05rem;margin:6px 0 8px}
+.blog-card p{font-size:.9rem;color:var(--muted)}
+.blog-card .more{display:inline-block;margin-top:10px;font-weight:700;color:var(--coral-dark);font-size:.9rem}
+
+/* FAQ */
+.faq{background:linear-gradient(180deg,#fff,#f3fbfd)}
+.faq-list{max-width:820px;margin:0 auto;display:grid;gap:12px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.faq-q{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:18px 22px;
+  font-size:1.03rem;font-weight:700;color:var(--navy);display:flex;justify-content:space-between;gap:14px;font-family:inherit}
+.faq-q .plus{color:var(--turq);font-size:1.4rem;transition:.25s;flex-shrink:0}
+.faq-item.open .plus{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.faq-a p{padding:0 22px 18px;color:var(--muted)}
+
+/* CONTACT */
+.contact{background:linear-gradient(135deg,var(--turq),var(--turq-dark));color:#fff}
+.contact h2{color:#fff}
+.contact .section-sub{color:rgba(255,255,255,.9)}
+.order-form{max-width:520px;margin:0 auto;background:#fff;border-radius:var(--radius-lg);
+  padding:30px;box-shadow:var(--shadow-lg)}
+.order-form .field{margin-bottom:16px;text-align:left}
+.order-form label{display:block;font-weight:700;color:var(--navy);margin-bottom:6px;font-size:.92rem}
+.order-form input{width:100%;padding:13px 15px;border:2px solid var(--line);border-radius:12px;
+  font-size:1rem;font-family:inherit;transition:.2s}
+.order-form input:focus{outline:none;border-color:var(--turq)}
+.order-form .btn{width:100%;margin-top:6px}
+.order-form .price-note{text-align:center;color:var(--muted);margin-top:14px;font-size:.88rem}
+.form-msg{margin-top:16px;background:#eafaf3;border:1px solid var(--ok);color:#16734f;
+  border-radius:12px;padding:14px;text-align:center;font-weight:600;display:none}
+.form-msg.show{display:block}
+
+/* FOOTER */
+footer{background:var(--navy);color:#cdd9e6;padding:54px 0 26px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px;margin-bottom:30px}
+footer h4{color:#fff;margin-bottom:14px;font-size:1.05rem}
+footer .logo{color:#fff;margin-bottom:12px}
+footer p{font-size:.92rem;opacity:.85}
+footer ul{list-style:none}
+footer ul li{margin-bottom:8px}
+footer ul a{color:#cdd9e6;font-size:.92rem}
+footer ul a:hover{color:var(--turq)}
+.footer-note{border-top:1px solid rgba(255,255,255,.12);padding-top:20px;font-size:.82rem;opacity:.7}
+.footer-note p{margin-bottom:8px}
+
+/* SCROLL ANIMATION */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* RESPONSIVE */
+@media(max-width:980px){
+  .hero-grid,.sales-grid{grid-template-columns:1fr;gap:36px}
+  .cols-4{grid-template-columns:repeat(2,1fr)}
+  .bonus-list{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .sales h2{text-align:center}
+}
+@media(max-width:760px){
+  .nav-links{position:fixed;inset:70px 0 auto 0;background:#fff;flex-direction:column;
+    align-items:stretch;padding:16px 22px;gap:4px;box-shadow:var(--shadow-lg);
+    transform:translateY(-150%);transition:transform .3s;border-bottom:1px solid var(--line)}
+  .nav-links.open{transform:translateY(0)}
+  .nav-links a{padding:12px}
+  .nav-cta{margin:6px 0 0}
+  .burger{display:flex}
+  .cols-3{grid-template-columns:1fr}
+  .cols-2{grid-template-columns:1fr}
+  .compat-selects{grid-template-columns:1fr}
+  .vs{padding:0}
+  .toc{grid-template-columns:1fr}
+  .budget-table{font-size:.84rem}
+  .budget-table th,.budget-table td{padding:9px 8px}
+  section{padding:56px 0}
+}
+@media(max-width:480px){
+  .cols-4{grid-template-columns:1fr}
+  .bonus-list{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-cta .btn{width:100%}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#uvod" class="logo"><span class="fish">🐠</span> První akvárium</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#uvod">Úvod</a></li>
+      <li><a href="#jak-zacit">Jak začít</a></li>
+      <li><a href="#rybicky">Rybičky</a></li>
+      <li><a href="#krevetky">Krevetky</a></li>
+      <li><a href="#kompatibilita">Kompatibilita</a></li>
+      <li><a href="#voda">Péče o vodu</a></li>
+      <li><a href="#nemoci">Nemoci</a></li>
+      <li><a href="#ebook">E-book</a></li>
+      <li><a href="#vybaveni">Vybavení</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="#ebook" class="btn btn-cta btn-sm nav-cta">Koupit e-book</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="uvod">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <span class="eyebrow">Praktický průvodce pro začátečníky</span>
+      <h1>Zakládáte první akvárium? Vyhněte se chybám, kvůli kterým začátečníkům <span class="hl">hynou ryby i krevetky</span>.</h1>
+      <p class="lead">Jednoduchý průvodce pro rodiče a začínající akvaristy. Naučíte se vybrat správné akvárium, založit ho krok za krokem, zvolit vhodné ryby i krevetky a udržet vodu v perfektní kondici.</p>
+      <div class="hero-cta">
+        <a href="#jak-zacit" class="btn btn-cta">Chci začít správně</a>
+        <a href="#ebook" class="btn btn-ghost">Koupit e-book za 199 Kč</a>
+      </div>
+      <div class="hero-trust">
+        <span><span class="dot">●</span> Krok za krokem</span>
+        <span><span class="dot">●</span> Pro děti i rodiče</span>
+        <span><span class="dot">●</span> Ryby i krevetky</span>
+      </div>
+    </div>
+    <div class="hero-art reveal">
+      <div class="tank" id="tank">
+        <div class="water-line"></div>
+        <div class="plant p1"></div><div class="plant p2"></div>
+        <div class="plant p3"></div><div class="plant p4"></div>
+        <div class="sand"></div>
+        <div class="swim" style="top:40%;animation-delay:0s">🐠</div>
+        <div class="swim" style="top:62%;animation-delay:2.5s">🐟</div>
+        <div class="swim" style="top:25%;animation-delay:5s">🦐</div>
+      </div>
+      <div class="hero-badge">
+        <span class="eb-fish" style="font-size:1.8rem">📘</span>
+        <div><span class="price">199 Kč</span><small>E-book bez chyb</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEJČASTĚJŠÍ CHYBY -->
+<section class="mistakes" id="chyby">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Učte se z cizích chyb</span>
+      <h2 class="section-title">10 nejčastějších chyb začátečníků</h2>
+      <p class="section-sub">Většina úhynů nemá na svědomí smůlu, ale jednu z těchto chyb. Dobrá zpráva? Všem se dá snadno vyhnout.</p>
+    </div>
+    <div class="grid cols-3" id="mistakesGrid"></div>
+  </div>
+</section>
+
+<!-- JAK ZALOŽIT -->
+<section id="jak-zacit">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Návod krok za krokem</span>
+      <h2 class="section-title">Jak založit akvárium krok za krokem</h2>
+      <p class="section-sub">Klikněte na jednotlivé kroky a rozbalte si podrobné vysvětlení. Dodržte pořadí a vyhnete se 90 % problémů.</p>
+    </div>
+    <div class="timeline reveal" id="timeline"></div>
+  </div>
+</section>
+
+<!-- RYBIČKY -->
+<section class="species" id="rybicky">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Ideální první obyvatelé</span>
+      <h2 class="section-title">Rybičky pro začátečníky</h2>
+      <p class="section-sub">Odolné, klidné a krásné druhy, které odpustí drobné začátečnické chyby a hodí se i pro děti.</p>
+    </div>
+    <div class="grid cols-4" id="fishGrid"></div>
+  </div>
+</section>
+
+<!-- KREVETKY -->
+<section class="species" id="krevetky" style="background:var(--sand)">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Malé čističky akvária</span>
+      <h2 class="section-title">Krevetky pro začátečníky</h2>
+      <p class="section-sub">Barevné, mírumilovné a fascinující. Skvělá volba do malých nádrží i jako první akvaristický projekt.</p>
+    </div>
+    <div class="grid cols-3" id="shrimpGrid"></div>
+  </div>
+</section>
+
+<!-- KREVETKÁRIUM JAKO PRVNÍ -->
+<section class="shrimp-intro" id="krevetkarium">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Malý prostor, velká radost</span>
+      <h2 class="section-title">Krevetkárium jako první akvárium</h2>
+      <p class="section-sub">Nemáte místo na velkou nádrž? Krevetkárium je ideální start do akvaristiky.</p>
+    </div>
+    <div class="grid cols-2 reveal">
+      <div class="card">
+        <div class="ic">❤️</div>
+        <h3>Proč jsou krevetky tak populární</h3>
+        <p>Krevetky jsou nenáročné, mírumilovné a celý den se na ně dá dívat, jak neúnavně „uklízejí“ akvárium. Hodí se pro lidi s málo časem i pro rodiny, protože krmení i péče jsou jednoduché.</p>
+      </div>
+      <div class="card">
+        <div class="ic">📏</div>
+        <h3>Proč se hodí do malých prostor</h3>
+        <p>Spokojené krevetky žijí už v nano akváriu od 20 do 30 litrů. Takovou nádrž umístíte i na psací stůl, poličku nebo do dětského pokoje, kde by se velké akvárium nevešlo.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🔧</div>
+        <h3>Jaké vybavení potřebují</h3>
+        <p>Stačí menší nádrž, jemný houbový (molitanový) filtr, topítko, světlo, jemný substrát a testy vody. Houbový filtr je důležitý, protože nenasaje drobná mláďata krevetek.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🌿</div>
+        <h3>Jaké rostliny se hodí</h3>
+        <p>Sázejte nenáročné rostliny – mech (např. Java mech), Anubias, Bucephalandra nebo plovoucí rostliny. Mech je oblíbený, protože se v něm krevetky ukrývají a okusují z něj nárosty.</p>
+      </div>
+    </div>
+
+    <h3 class="center reveal" style="margin:42px 0 6px;font-size:1.3rem">Kolik stojí založení krevetkária</h3>
+    <p class="section-sub reveal">Orientační rozpočet podle úrovně vybavení. Ceny jsou přibližné a slouží pro představu.</p>
+    <div style="overflow-x:auto" class="reveal">
+    <table class="budget-table">
+      <thead>
+        <tr><th>Položka</th><th>Základní</th><th class="col-mid">Střední</th><th>Prémiová</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Akvárium (nádrž)</td><td>400 Kč</td><td class="col-mid">900 Kč</td><td>2 000 Kč</td></tr>
+        <tr><td>Filtrace</td><td>200 Kč</td><td class="col-mid">450 Kč</td><td>1 200 Kč</td></tr>
+        <tr><td>Topítko</td><td>250 Kč</td><td class="col-mid">450 Kč</td><td>900 Kč</td></tr>
+        <tr><td>Osvětlení</td><td>300 Kč</td><td class="col-mid">700 Kč</td><td>1 800 Kč</td></tr>
+        <tr><td>Substrát</td><td>150 Kč</td><td class="col-mid">500 Kč</td><td>1 200 Kč</td></tr>
+        <tr><td>Rostliny</td><td>150 Kč</td><td class="col-mid">400 Kč</td><td>900 Kč</td></tr>
+        <tr><td>Testy a přípravky</td><td>250 Kč</td><td class="col-mid">500 Kč</td><td>1 000 Kč</td></tr>
+        <tr><td>Krevetky (10–15 ks)</td><td>300 Kč</td><td class="col-mid">600 Kč</td><td>1 500 Kč</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td>Celkem přibližně</td><td>cca 2 000 Kč</td><td class="col-mid">cca 4 500 Kč</td><td>cca 10 500 Kč</td></tr>
+      </tfoot>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- KOMPATIBILITA -->
+<section class="compat" id="kompatibilita">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff">Interaktivní nástroj</span>
+      <h2 class="section-title">Mohou být spolu?</h2>
+      <p class="section-sub">Vyberte dva druhy a zjistěte, zda se k sobě hodí do jednoho akvária. Výsledek je orientační – záleží i na velikosti nádrže a počtu ryb.</p>
+    </div>
+    <div class="compat-box reveal">
+      <div class="compat-selects">
+        <div>
+          <label for="selA">První druh</label>
+          <select id="selA"></select>
+        </div>
+        <div class="vs">+</div>
+        <div>
+          <label for="selB">Druhý druh</label>
+          <select id="selB"></select>
+        </div>
+      </div>
+      <div class="compat-result" id="compatResult">
+        <div class="verdict">🔎 Vyberte dva druhy</div>
+        <p>Po výběru zobrazíme, jak dobře spolu vychází.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PÉČE O VODU -->
+<section class="water" id="voda">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Voda je základ</span>
+      <h2 class="section-title">Péče o vodu jednoduše</h2>
+      <p class="section-sub">Zdravá voda = zdravé ryby. Tady jsou základy vysvětlené tak, aby je pochopil opravdu každý.</p>
+    </div>
+    <div class="grid cols-4" id="waterGrid"></div>
+  </div>
+</section>
+
+<!-- NEMOCI -->
+<section class="diseases" id="nemoci">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Když rybka stoná</span>
+      <h2 class="section-title">Nejčastější nemoci ryb</h2>
+      <p class="section-sub">Naučte se rozpoznat první příznaky. Včasný zásah často znamená rozdíl mezi životem a smrtí rybky.</p>
+    </div>
+    <div class="grid cols-3" id="diseaseGrid"></div>
+    <div class="notice reveal">
+      <span style="font-size:1.4rem">⚠️</span>
+      <div><b>Upozornění:</b> Informace mají pouze orientační charakter a nenahrazují odbornou diagnostiku ani veterinární péči. Při vážných potížích se obraťte na zkušeného akvaristu nebo veterináře se specializací na ryby.</div>
+    </div>
+  </div>
+</section>
+
+<!-- DOVOLENÁ -->
+<section class="vacation" id="dovolena">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Klid na cestách</span>
+      <h2 class="section-title">Akvárium a dovolená</h2>
+      <p class="section-sub">Odjíždíte na dovolenou? S několika přípravami se o své ryby ani krevetky nemusíte bát.</p>
+    </div>
+    <div class="grid cols-3" id="vacationGrid"></div>
+  </div>
+</section>
+
+<!-- PRODEJ E-BOOK -->
+<section class="sales" id="ebook">
+  <div class="container">
+    <div class="sales-grid">
+      <div class="reveal">
+        <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff">Hlavní průvodce</span>
+        <h2>E-book: První akvárium bez chyb</h2>
+        <p style="opacity:.9;margin:10px 0 4px">Kompletní průvodce od výběru akvária až po zdravé ryby a prosperující krevetky.</p>
+        <ul class="toc">
+          <li>Výběr akvária</li><li>Vybavení</li>
+          <li>Založení akvária</li><li>Zajetí nádrže</li>
+          <li>Výběr ryb</li><li>Kompatibilita ryb</li>
+          <li>Krmení</li><li>Údržba</li>
+          <li>Péče o vodu</li><li>Nemoci ryb</li>
+          <li>Akvárium a dovolená</li><li>Nejčastější chyby</li>
+          <li>Plán prvních 30 dní</li>
+        </ul>
+        <div class="chapter-highlight">
+          <h4>🦐 Samostatná kapitola: Krevetky pro začátečníky</h4>
+          <ul>
+            <li>Založení krevetkária</li><li>Nejlepší druhy</li>
+            <li>Svlékání</li><li>Rozmnožování</li>
+            <li>Nejčastější problémy</li><li>Prevence úhynů</li>
+          </ul>
+        </div>
+        <div class="sales-cta">
+          <div class="sales-price">199 Kč <small>/ jednorázově</small></div>
+          <a href="#kontakt" class="btn btn-cta">Koupit e-book za 199 Kč</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="ebook-cover">
+          <div class="badge">199<br>Kč</div>
+          <div>
+            <div class="eb-top">E-book pro začátečníky</div>
+            <h3>První akvárium bez chyb</h3>
+            <p class="eb-sub">Kompletní průvodce od výběru akvária až po zdravé ryby a prosperující krevetky.</p>
+          </div>
+          <div class="eb-fish">🐠🌿🦐</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BONUSY -->
+<section id="bonusy">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Zdarma k e-booku</span>
+      <h2 class="section-title">Bonusy ke každému e-booku</h2>
+      <p class="section-sub">Praktické checklisty a tahák ke stažení, které využijete hned od prvního dne.</p>
+    </div>
+    <div class="bonus-list reveal" id="bonusGrid"></div>
+  </div>
+</section>
+
+<!-- AFFILIATE -->
+<section class="affiliate" id="vybaveni">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Ověřené tipy</span>
+      <h2 class="section-title">Doporučené vybavení</h2>
+      <p class="section-sub">Vybavení, které se osvědčilo začátečníkům. U každé kategorie poradíme, na co si dát pozor.</p>
+    </div>
+    <div class="aff-disclaimer reveal">ℹ️ Odkazy v této sekci jsou affiliate odkazy. Když přes ně nakoupíte, můžeme získat malou provizi, která nám pomáhá web provozovat. Cena pro vás zůstává stejná. Děkujeme za podporu.</div>
+    <div class="grid cols-3" id="affGrid"></div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog" id="blog">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Čtení na doma</span>
+      <h2 class="section-title">Blog a rady z praxe</h2>
+      <p class="section-sub">Praktické články, které vás provedou prvními měsíci v akvaristice.</p>
+    </div>
+    <div class="grid cols-3" id="blogGrid"></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Časté dotazy</span>
+      <h2 class="section-title">Často kladené otázky</h2>
+      <p class="section-sub">Odpovědi na to, co nejčastěji řeší úplní začátečníci.</p>
+    </div>
+    <div class="faq-list reveal" id="faqList"></div>
+  </div>
+</section>
+
+<!-- KONTAKT / OBJEDNÁVKA -->
+<section class="contact" id="kontakt">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow" style="background:rgba(255,255,255,.18);color:#fff">Objednávka</span>
+      <h2 class="section-title">Objednejte si e-book</h2>
+      <p class="section-sub">Vyplňte jméno a e-mail a získejte průvodce První akvárium bez chyb i se všemi bonusy.</p>
+    </div>
+    <form class="order-form reveal" id="orderForm" novalidate>
+      <div class="field">
+        <label for="name">Jméno</label>
+        <input type="text" id="name" name="name" placeholder="Vaše jméno" required>
+      </div>
+      <div class="field">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="vas@email.cz" required>
+      </div>
+      <button type="submit" class="btn btn-cta">Objednat e-book za 199 Kč</button>
+      <p class="price-note">📘 E-book + 8 bonusů · jednorázová platba 199 Kč</p>
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span class="fish">🐠</span> První akvárium</div>
+        <p>Praktický průvodce pro začátečníky, rodiče a budoucí chovatele krevetek. Pomáháme založit první akvárium bez zbytečných chyb, stresu a uhynulých rybiček.</p>
+      </div>
+      <div>
+        <h4>Navigace</h4>
+        <ul>
+          <li><a href="#jak-zacit">Jak začít</a></li>
+          <li><a href="#rybicky">Rybičky</a></li>
+          <li><a href="#krevetky">Krevetky</a></li>
+          <li><a href="#kompatibilita">Kompatibilita</a></li>
+          <li><a href="#voda">Péče o vodu</a></li>
+          <li><a href="#nemoci">Nemoci</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Více</h4>
+        <ul>
+          <li><a href="#ebook">E-book za 199 Kč</a></li>
+          <li><a href="#vybaveni">Doporučené vybavení</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#faq">Časté dotazy</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">
+      <p><b>Upozornění:</b> Informace na webu mají vzdělávací charakter a nenahrazují odborné poradenství ani veterinární péči.</p>
+      <p><b>Affiliate upozornění:</b> Web obsahuje affiliate odkazy. Při nákupu přes tyto odkazy můžeme získat provizi bez vlivu na vaši cenu.</p>
+      <p>© <span id="year"></span> První akvárium · Akvárium bez zbytečných chyb, stresu a uhynulých rybiček.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const mistakes=[
+{t:"Příliš malé akvárium",d:"Malé nádrže pod 20 litrů se rychle znečistí a teplota i chemie vody v nich prudce kolísá. Pro začátečníka je to nejtěžší varianta.",f:"Začněte s akváriem alespoň 54 litrů. Větší objem vody je stabilnější a odpustí více chyb."},
+{t:"Ryby už první den",d:"V čerstvě napuštěné nádrži ještě nejsou bakterie, které zpracují rybí odpad. Amoniak rychle stoupne a ryby otráví.",f:"Nechte akvárium nejdřív 3–4 týdny zajet a ryby nasaďte až po nulovém amoniaku a dusitanech."},
+{t:"Špatná kombinace druhů",d:"Dravé, teritoriální nebo studenomilné druhy nepatří k drobným klidným rybkám. Vzniká stres, okusování ploutví i úhyny.",f:"Před nákupem si ověřte kompatibilitu druhů – třeba naším nástrojem „Mohou být spolu?“."},
+{t:"Překrmování",d:"Nesnězené krmivo se rozkládá, kazí vodu a živí řasy. Překrmování je jednou z hlavních příčin problémů začátečníků.",f:"Krmte 1–2× denně jen tolik, co ryby sní do 2 minut. Jeden den v týdnu klidně vynechejte."},
+{t:"Vypínání filtru na noc",d:"Ve filtru žijí užitečné bakterie, které potřebují stálý přísun kyslíku a vody. Vypnutím je za pár hodin zahubíte.",f:"Filtr nechte běžet nepřetržitě 24 hodin denně. Šetří to ryby i vaše nervy."},
+{t:"Výměna veškeré vody",d:"Kompletní výměna vody smaže bakteriální kulturu a rozhází celý ekosystém. Akvárium pak začíná znovu od nuly.",f:"Měňte jen 20–30 % vody jednou týdně. Nikdy ne všechnu najednou."},
+{t:"Nezajeté akvárium",d:"Bez dokončeného koloběhu dusíku nádrž nezvládne zpracovat odpad. Ryby v ní trpí už od začátku.",f:"Počkejte na zajetí (3–4 týdny) a hlídejte testy. Trpělivost je tu největší ctnost."},
+{t:"Nákup ryb podle vzhledu",d:"Nejhezčí rybka v obchodě může dorůst do 30 cm nebo potřebovat úplně jinou vodu. Impulzivní nákup končí problémy.",f:"Vždy si nejdřív zjistěte velikost, nároky a povahu druhu – až potom kupujte."},
+{t:"Přerybnění",d:"Příliš mnoho ryb přetíží filtr, sníží kyslík a zvýší nemocnost. Akvárium se nestíhá čistit.",f:"Orientačně počítejte 1 cm dospělé ryby na 1–2 litry vody a raději nasaďte méně."},
+{t:"Špatné čištění filtru",d:"Propláchnutí filtrační náplně pod kohoutkem zničí bakterie chlorovanou vodou. Nádrž pak znovu „nezajede“.",f:"Filtrační hmotu jen lehce vymačkejte v odebrané akvarijní vodě, nikdy ne pod tekoucí kohoutkovou."}
+];
+
+const steps=[
+{t:"Výběr nádrže",d:"Zvolte akvárium alespoň 54 litrů – větší objem je pro začátečníka stabilnější. Postavte ho na pevný, vodorovný nábytek, který hmotnost unese."},
+{t:"Filtrace",d:"Nainstalujte filtr odpovídající objemu nádrže. Filtr nejen čistí vodu mechanicky, ale hlavně hostí bakterie, které zpracují rybí odpad."},
+{t:"Topítko",d:"Umístěte topítko a nastavte teplotu podle druhů (obvykle 24–26 °C). Stabilní teplota je pro tropické ryby i krevetky zásadní."},
+{t:"Substrát",d:"Na dno nasypte propláchnutý písek nebo štěrk, případně živný substrát pod rostliny. Vrstva 4–6 cm dá rostlinám prostor zakořenit."},
+{t:"Rostliny",d:"Zasaďte živé rostliny – pomáhají s kvalitou vody, dodávají kyslík a poskytují úkryt. Začněte nenáročnými druhy jako Anubias nebo kryptokoryny."},
+{t:"Napuštění vody",d:"Napouštějte odstátou vodu pomalu přes talířek, ať nerozvíříte substrát. Přidejte přípravek na odstranění chloru z kohoutkové vody."},
+{t:"Spuštění filtru",d:"Zapněte filtr i topítko a nechte je běžet nepřetržitě. Voda se může na pár dní zakalit – to je normální bakteriální zákal."},
+{t:"Zajíždění akvária",d:"Nejdůležitější fáze. Po 3–4 týdny se ve filtru množí bakterie, které rozkládají amoniak. Bez ryb, jen s trpělivostí a kontrolou testů."},
+{t:"Test vody",d:"Změřte amoniak, dusitany a dusičnany. Teprve když jsou amoniak i dusitany na nule, je nádrž připravená na obyvatele."},
+{t:"První obyvatelé",d:"Nasaďte jen malou skupinku odolných ryb nebo krevetek. Aklimatizujte je pomalu a postupně přidávejte další druhy po týdnech."},
+{t:"Údržba",d:"Týdně měňte 20–30 % vody, čistěte sklo, kontrolujte techniku a krmte s mírou. Pravidelnost je tajemstvím dlouhodobě krásného akvária."}
+];
+
+const fish=[
+{e:"🐠",n:"Paví očko",l:"Poecilia reticulata",desc:"Drobná, pestrobarevná a extrémně odolná rybka. Klasika pro úplné začátečníky i pro děti.",size:"3–5 cm",tank:"54 l",care:["Velmi snadná","easy"],kids:"Výborná",comp:"Mírumilovná",fun:"Rodí živá mláďata, množí se velmi snadno – brzy budete mít celou školku."},
+{e:"🐟",n:"Neonka obecná",l:"Paracheirodon innesi",desc:"Zářivě modro-červená hejnová rybka, která v houfu vypadá nádherně.",size:"3–4 cm",tank:"54 l",care:["Snadná","easy"],kids:"Velmi dobrá",comp:"Klidná, hejnová",fun:"Drží se v hejnu – kupujte vždy alespoň 8–10 kusů, jinak strádá."},
+{e:"🐠",n:"Platy",l:"Xiphophorus maculatus",desc:"Veselá, barevná a nenáročná rybka s klidnou povahou. Skvělá do společenské nádrže.",size:"4–6 cm",tank:"54 l",care:["Velmi snadná","easy"],kids:"Výborná",comp:"Velmi snášenlivá",fun:"Existuje v desítkách barevných variant – od korálové po černou."},
+{e:"🗡️",n:"Mečovka",l:"Xiphophorus hellerii",desc:"Aktivní a otužilá rybka, samci nesou na ocasu nápadný „mečík“.",size:"do 10 cm",tank:"80 l",care:["Snadná","easy"],kids:"Dobrá",comp:"Většinou klidná",fun:"Samci spolu občas soupeří – držte jednoho samce na více samic."},
+{e:"🐡",n:"Pancéřníček",l:"Corydoras",desc:"Roztomilá rybka u dna, která neúnavně prohledává substrát. Pracovitý uklízeč.",size:"4–7 cm",tank:"54 l",care:["Snadná","easy"],kids:"Výborná",comp:"Velmi mírumilovná",fun:"Žije v hejnu a umí se nadechnout u hladiny – přijímá vzdušný kyslík."},
+{e:"🐟",n:"Ancistrus",l:"Ancistrus sp.",desc:"Krunýřovec přisátý na sklech a dekoracích, který spásá řasy. Užitečný pomocník.",size:"do 12 cm",tank:"80 l",care:["Snadná","easy"],kids:"Dobrá",comp:"Klidný",fun:"Spořádá hodně řas, ale přikrmujte ho i tabletami a kouskem okurky."},
+{e:"🐠",n:"Razbora klínoskvrnná",l:"Trigonostigma heteromorpha",desc:"Elegantní hejnová rybka s charakteristickou černou „skvrnou“ ve tvaru klínu.",size:"3–4 cm",tank:"54 l",care:["Snadná","easy"],kids:"Velmi dobrá",comp:"Mírumilovná, hejnová",fun:"V hustě osázené nádrži s tmavým dnem vynikne její oranžové zbarvení."},
+{e:"🐉",n:"Bojovnice pestrá",l:"Betta splendens",desc:"Nádherná rybka s dlouhými ploutvemi a velkou osobností. Vhodná i do menší nádrže.",size:"5–7 cm",tank:"20 l",care:["Snadná","mid"],kids:"Dobrá (s dozorem)",comp:"Samci útoční",fun:"Dýchá i atmosférický vzduch labyrintem a samci si staví hnízda z bublin."}
+];
+
+const shrimp=[
+{e:"🔴",n:"Red Cherry",l:"Neocaridina davidi",desc:"Sytě červená krevetka, nejoblíbenější druh pro začátečníky. Nenáročná a vděčná.",diff:["Velmi snadná","easy"],vol:"20 l",beg:"Ideální",temp:"20–26 °C",repro:"Velmi snadné",fun:"V dobré nádrži se rychle množí – z deseti kusů máte za pár měsíců kolonii."},
+{e:"🔵",n:"Blue Dream",l:"Neocaridina davidi",desc:"Zářivě modrá varianta téhož druhu jako Red Cherry. Stejně odolná, jen jinak zbarvená.",diff:["Velmi snadná","easy"],vol:"20 l",beg:"Ideální",temp:"20–26 °C",repro:"Velmi snadné",fun:"S červenými se nemíchá – potomci by ztratili barvu a zhnědli."},
+{e:"🟡",n:"Yellow Neon",l:"Neocaridina davidi",desc:"Svítivě žlutá krevetka, která krásně kontrastuje se zelenými rostlinami.",diff:["Velmi snadná","easy"],vol:"20 l",beg:"Ideální",temp:"20–26 °C",repro:"Velmi snadné",fun:"Některé kusy mají i oranžový pruh na hřbetě – tzv. „Yellow Neon Back“."},
+{e:"⚪",n:"Amano",l:"Caridina multidentata",desc:"Větší, průsvitná krevetka a legendární pohlcovač řas. Pracovitý čistič akvária.",diff:["Snadná","easy"],vol:"40 l",beg:"Dobrá",temp:"18–27 °C",repro:"Velmi obtížné",fun:"V čistě sladkovodní nádrži se prakticky nerozmnoží – larvy potřebují slanou vodu."},
+{e:"❤️",n:"Crystal Red",l:"Caridina cantonensis",desc:"Nádherná bílo-červená krevetka pro náročnější oko. Citlivější na kvalitu vody.",diff:["Náročnější","mid"],vol:"30 l",beg:"Pro pokročilé",temp:"20–24 °C",repro:"Středně obtížné",fun:"Vyžaduje měkkou, mírně kyselou vodu – odměnou je nádherné zbarvení."}
+];
+
+const water=[
+{e:"⚙️",n:"Filtrace",d:"Filtr není jen na nečistoty. Hlavní práci dělají bakterie v jeho náplni, které mění jedovatý odpad na méně škodlivé látky. Proto filtr nikdy nevypínejte."},
+{e:"♻️",n:"Koloběh dusíku",d:"Rybí odpad → amoniak → dusitany → dusičnany. Tuto cestu zajišťují užitečné bakterie. Než se namnoží (zajetí nádrže), trvá to 3–4 týdny."},
+{e:"🌫️",n:"Zakalená voda",d:"Bílý zákal v prvních dnech je bakteriální a sám zmizí. Zelený zákal značí přemnožené řasy z přebytku světla a živin. Neměňte kvůli němu všechnu vodu."},
+{e:"💧",n:"Výměny vody",d:"Pravidelná výměna 20–30 % vody týdně odvádí dusičnany a doplňuje minerály. Je to nejjednodušší a nejúčinnější údržba vůbec."},
+{e:"🧪",n:"Testování vody",d:"Kapkové testy na amoniak, dusitany, dusičnany a pH vám řeknou, co se v nádrži děje. Zvlášť v prvních týdnech jsou nenahraditelné."},
+{e:"🟢",n:"Řasy",d:"Trochu řas je normální. Přemnožení způsobuje příliš světla a přebytek živin. Pomáhá kratší svícení, méně krmení a živé rostliny jako konkurence."},
+{e:"🍽️",n:"Překrmování",d:"Nejčastější příčina špatné vody. Co ryby nesní, hnije a živí řasy. Krmte málo, raději vícekrát, a sledujte, zda vše zmizí do 2 minut."},
+{e:"📊",n:"Přerybnění",d:"Příliš mnoho ryb přetíží filtr i kyslík ve vodě. Méně ryb znamená stabilnější vodu, méně nemocí a méně práce s údržbou."}
+];
+
+const diseases=[
+{e:"⚪",n:"Krupička (Ichtyo)",sym:"Bílé tečky jako krupice na těle a ploutvích, ryba se otírá o předměty.",cause:"Parazit, často po stresu, podchlazení nebo zavlečení s novou rybou.",help:"Pozvolna zvyšte teplotu a nasaďte přípravek na krupičku z obchodu. Nové ryby vždy karanténujte."},
+{e:"🦠",n:"Plísně",sym:"Bílé, vatovité chomáčky na kůži, ploutvích nebo v okolí poranění.",cause:"Druhotná infekce na oslabené nebo poraněné rybě ve znečištěné vodě.",help:"Zlepšete kvalitu vody, odstraňte zdroj poranění a použijte protiplísňový přípravek."},
+{e:"🪶",n:"Hniloba ploutví",sym:"Roztřepené, zkracující se ploutve s tmavými nebo zarudlými okraji.",cause:"Bakterie ve špatné vodě, často po okousání jinou rybou nebo stresu.",help:"Vyměňte část vody, zlepšete podmínky a podle potřeby nasaďte antibakteriální přípravek."},
+{e:"🎈",n:"Nafouklé břicho",sym:"Otoklé tělo, odstávající šupiny připomínající šišku, ryba špatně plave.",cause:"Vnitřní infekce, problém s ledvinami nebo nevhodné krmení (často nezvratné).",help:"Izolujte rybu, zlepšete vodu a omezte krmení. Prognóza bývá bohužel nejistá."},
+{e:"💨",n:"Rychlé dýchání",sym:"Zrychlené pohyby žaber, ryba visí u hladiny a lapá po vzduchu.",cause:"Nedostatek kyslíku, vysoký amoniak nebo příliš teplá voda.",help:"Ihned provzdušněte vodu, vyměňte její část a zkontrolujte testy a teplotu."},
+{e:"😴",n:"Apatie",sym:"Ryba se schovává, nežere, drží se u dna a má složené ploutve.",cause:"Stres, špatná voda, nemoc v počátku nebo nevhodní spolubydlící.",help:"Otestujte vodu, zkontrolujte podmínky a sledujte další příznaky. Apatie bývá první varování."}
+];
+
+const vacation=[
+{e:"⏱️",n:"Automatická krmítka",d:"Na delší cesty pořiďte automatické krmítko, které dávkuje přesné porce v nastavený čas. Vyzkoušejte ho pár dní předem, ať dávkuje správně."},
+{e:"🔌",n:"Kontrola filtru a techniky",d:"Před odjezdem vyčistěte filtr, zkontrolujte topítko i osvětlení a ujistěte se, že vše spolehlivě běží. Časovač na světlo udrží stálý režim."},
+{e:"🍽️",n:"Jak dlouho vydrží bez krmení",d:"Zdravé dospělé ryby zvládnou klidně 7–10 dní bez jídla, krevetky díky řasám ještě déle. Krátkou dovolenou tedy v pohodě přečkají."},
+{e:"✅",n:"Příprava před odjezdem",d:"Den před odjezdem vyměňte 20–30 % vody, nepřekrmujte „do zásoby“ a raději ryby nedávejte nové. Stabilní nádrž zvládne pauzu nejlépe."},
+{e:"⚠️",n:"Nejčastější chyby",d:"Velké překrmení před odjezdem zničí vodu, stejně jako poprosit souseda, ať „pořádně nasype“. Méně je tu vždy bezpečnější než více."},
+{e:"🧑‍🤝‍🧑",n:"Hlídání od souseda",d:"Pokud někoho poprosíte, připravte předem rozdělené denní porce v krabičce. Zabráníte tak nechtěnému překrmení a zakalení vody."}
+];
+
+const bonuses=[
+{e:"🛒",t:"Checklist nákupu prvního akvária"},
+{e:"🦐",t:"Checklist založení krevetkária"},
+{e:"📋",t:"Tabulka kompatibility ryb"},
+{e:"🔗",t:"Tabulka kompatibility ryb a krevetek"},
+{e:"🗓️",t:"Plán údržby akvária"},
+{e:"🌫️",t:"Tahák: zakalená voda"},
+{e:"🩺",t:"Tahák: nemocná ryba"},
+{e:"🧒",t:"Dětský průvodce péčí o rybičky"}
+];
+
+const affiliate=[
+{e:"📦",n:"Startovací sety",d:"Kompletní balíčky s nádrží, filtrem i osvětlením. Ideální, když chcete mít vše naráz a bez přemýšlení.",warn:"Pozor na sety s příliš malou nádrží – pod 40 litrů se hůře udržují."},
+{e:"🪟",n:"Akvária",d:"Samostatné nádrže různých objemů. Pro začátek vsaďte na klasický tvar a objem od 54 litrů výš.",warn:"Vždy ověřte, že nábytek pod akváriem unese jeho plnou hmotnost."},
+{e:"🔲",n:"Nano akvária",d:"Malé nádrže 10–30 litrů ideální pro krevetky nebo bojovnici na stůl či poličku.",warn:"Malý objem vyžaduje pečlivější údržbu a stabilní topítko."},
+{e:"⚙️",n:"Filtry",d:"Vnitřní, vnější i houbové filtry. Houbový je nejjemnější a nejlepší pro krevetky a mláďata.",warn:"Filtr volte raději výkonnější, ale s regulací proudění."},
+{e:"🌡️",n:"Topítka",d:"Udrží stabilní teplotu vody. Vybírejte podle objemu nádrže a s ochranou proti přehřátí.",warn:"Levná topítka bez termostatu mohou vodu nebezpečně přehřát."},
+{e:"💡",n:"Osvětlení",d:"LED světla pro zdravý růst rostlin i krásné vybarvení ryb. S časovačem se svítí samo.",warn:"Příliš silné nebo dlouhé svícení podporuje řasy."},
+{e:"🏖️",n:"Substráty",d:"Písek, štěrk i živné podklady pod rostliny. Pro krevetky a rostliny se hodí jemnější frakce.",warn:"Substrát před použitím vždy důkladně propláchněte."},
+{e:"🧪",n:"Testy vody",d:"Kapkové sady na amoniak, dusitany, dusičnany a pH. Nenahraditelné při zajíždění nádrže.",warn:"Proužkové testy jsou méně přesné než kapkové."},
+{e:"🧴",n:"Přípravky na vodu",d:"Odstraňovače chloru a startovací bakterie pomohou nádrži rychleji a bezpečně zajet.",warn:"Žádný přípravek nenahradí trpělivost při zajíždění."},
+{e:"🍤",n:"Krmiva",d:"Vločky, granule a mražené krmivo pro pestrou stravu. Pro krevetky existují speciální krmiva.",warn:"Kupujte menší balení – krmivo časem ztrácí kvalitu."},
+{e:"🥅",n:"Síťky a pomůcky",d:"Síťky, hadice na odkalení dna a škrabky na sklo. Drobnosti, které šetří spoustu času.",warn:"Pro krevetky volte síťku s velmi jemným okem."},
+{e:"🪨",n:"Dekorace",d:"Kořeny, kameny a úkryty pro rybky. Vytvoří přirozené prostředí a místa ke schování.",warn:"Používejte jen dekorace určené do akvárií, ať neuvolňují škodliviny."},
+{e:"🌿",n:"Rostliny",d:"Živé rostliny zlepšují vodu a dodávají kyslík. Pro start jsou ideální nenáročné druhy.",warn:"Nové rostliny mohou zanést škůdce – krátká karanténa neuškodí."},
+{e:"🦐",n:"Vybavení pro krevetky",d:"Krmítkové misky, mineralizátory a předfiltry. Drobnosti, které z krevetkária udělají ráj.",warn:"Krevetky citlivě reagují na měď – hlídejte složení přípravků."}
+];
+
+const blog=[
+{c:"Začínáme",e:"🪟",t:"Jak vybrat první akvárium",d:"Objem, tvar i umístění. Poradíme, jaká nádrž je pro úplný start nejrozumnější.",col:"#17b3b0"},
+{c:"Pro děti",e:"🧒",t:"Nejlepší ryby pro děti",d:"Odolné a klidné druhy, které zvládne i dětská péče pod dohledem rodičů.",col:"#5bc8e8"},
+{c:"Krevetky",e:"🦐",t:"Nejlepší krevetky pro začátečníky",d:"Které druhy odpustí chyby a rychle vás odmění barevnou kolonií.",col:"#ff7a59"},
+{c:"Voda",e:"🌫️",t:"Proč se zakalila voda",d:"Bílý i zelený zákal vysvětlený jednoduše – a co s ním (ne)dělat.",col:"#13325c"},
+{c:"Zdraví",e:"🩺",t:"Jak poznat nemocnou rybu",d:"První varovné signály, kterých si všimnete dřív, než bude pozdě.",col:"#1ea672"},
+{c:"Krevetky",e:"🪴",t:"Jak založit krevetkárium",d:"Krok za krokem od nádrže přes rostliny až po první krevetky.",col:"#17b3b0"},
+{c:"Návod",e:"🔴",t:"Red Cherry krok za krokem",d:"Kompletní průvodce chovem nejoblíbenější krevetky pro začátečníky.",col:"#ff7a59"},
+{c:"Kompatibilita",e:"🐉",t:"Bojovnice a jiné ryby",d:"S kým bojovnici ano a s kým rozhodně ne – a proč na tom záleží.",col:"#5bc8e8"},
+{c:"Začínáme",e:"📊",t:"Kolik ryb do akvária",d:"Jednoduchá pravidla, jak nádrž nepřeplnit a vyhnout se problémům.",col:"#13325c"},
+{c:"Údržba",e:"🗓️",t:"Jak často čistit akvárium",d:"Reálný plán údržby, který zabere pár minut týdně a opravdu funguje.",col:"#1ea672"},
+{c:"Technika",e:"⚙️",t:"Jak funguje filtr",d:"Co se děje uvnitř filtru a proč jsou bakterie důležitější než houba.",col:"#17b3b0"},
+{c:"Praxe",e:"🏖️",t:"Akvárium během dovolené",d:"Jak připravit nádrž na cestu, aby ryby v klidu přečkaly vaši nepřítomnost.",col:"#ff7a59"},
+{c:"Nákup",e:"🛒",t:"Co koupit k prvnímu akváriu",d:"Přehledný seznam toho, co opravdu potřebujete – a co počká.",col:"#5bc8e8"},
+{c:"Chyby",e:"⚠️",t:"Nejčastější chyby začátečníků",d:"Deset omylů, kvůli kterým nejčastěji hynou ryby, a jak se jim vyhnout.",col:"#13325c"},
+{c:"Krevetky",e:"💔",t:"Proč umírají krevetky",d:"Nejčastější příčiny úhynů krevetek a jak jim předejít hned od začátku.",col:"#1ea672"}
+];
+
+const faqs=[
+{q:"Jak velké akvárium je vhodné pro úplného začátečníka?",a:"Ideální je nádrž alespoň 54 litrů. Větší objem vody je stabilnější, snáze se udržuje v rovnováze a odpouští začátečnické chyby. Malé nádrže pod 20 litrů se kazí mnohem rychleji."},
+{q:"Kdy mohu nasadit první rybičky?",a:"Až po zajetí akvária, tedy zhruba po 3 až 4 týdnech, kdy se ve filtru namnoží užitečné bakterie a testy ukáží nulový amoniak i dusitany. Nasazení ryb hned první den je nejčastější příčinou úhynů."},
+{q:"Jak často mám měnit vodu?",a:"Vyměňujte zhruba 20 až 30 % vody jednou týdně. Nikdy neměňte veškerou vodu najednou – zničili byste tím bakteriální kulturu a rozkolísali celý ekosystém."},
+{q:"Jsou krevetky vhodné jako první akvárium?",a:"Ano. Druhy jako Red Cherry nebo Blue Dream jsou nenáročné, vejdou se i do malého nano akvária a jsou skvělou volbou pro malé prostory i pro rodiny s dětmi. Potřebují ale zajetou nádrž a stabilní vodu."},
+{q:"Kolik ryb mohu nasadit do akvária?",a:"Orientačně počítejte zhruba 1 cm dospělé ryby na 1 až 2 litry vody, vždy ale berte v úvahu druh, plavecký prostor a zatížení filtru. Lepší je nasadit méně ryb a postupně."},
+{q:"Musím mít v akváriu topítko?",a:"U tropických ryb a krevetek ano. Většina běžných druhů potřebuje stabilní teplotu 23 až 26 °C. Bez topítka teplota kolísá a ryby to stresuje."},
+{q:"Proč se mi zakalila voda v novém akváriu?",a:"Bílý zákal v prvních dnech je tzv. bakteriální zákal a je normální. Sám zmizí, jakmile se akvárium zajede. Nevyměňujte kvůli němu veškerou vodu ani nevypínejte filtr."},
+{q:"Můžu nechat ryby bez krmení během dovolené?",a:"Zdravé dospělé ryby vydrží bez krmení klidně 7 až 10 dní. Na delší dobu pořiďte automatické krmítko a před odjezdem zkontrolujte filtr i topítko."},
+{q:"Mohu míchat různé druhy ryb dohromady?",a:"Ano, ale jen pokud mají podobné nároky a povahu. Vyhněte se kombinaci dravých, teritoriálních a studenomilných druhů. Pomůže vám náš nástroj „Mohou být spolu?“."},
+{q:"Proč mi rostou v akváriu řasy?",a:"Nejčastěji kvůli příliš dlouhému nebo silnému svícení a přebytku živin z překrmování. Pomáhá zkrátit dobu svícení, krmit méně a vysadit více živých rostlin."},
+{q:"Potřebuji do akvária živé rostliny?",a:"Nejsou povinné, ale velmi pomáhají. Zlepšují kvalitu vody, dodávají kyslík, konkurují řasám a ryby i krevetky se v nich cítí bezpečněji. Pro start zvolte nenáročné druhy."},
+{q:"Jak často a kolik mám krmit?",a:"Krmte 1 až 2× denně jen tolik, co ryby sní do dvou minut. Jeden den v týdnu klidně krmení vynechte. Překrmování je častější problém než hlad."},
+{q:"Co dělat, když mi rybka onemocní?",a:"Nejprve otestujte vodu a zlepšete podmínky – řada potíží zmizí už po výměně vody. Nemocnou rybu ideálně oddělte a podle příznaků nasaďte vhodný přípravek. Informace na webu jsou orientační a nenahrazují veterináře."},
+{q:"Jak poznám, že je akvárium zajeté?",a:"Akvárium je zajeté, když testy ukazují nulový amoniak i dusitany a objevují se dusičnany. Voda je čirá a stabilní. Teprve pak je připravené na obyvatele."}
+];
+
+function el(tag,cls,html){const e=document.createElement(tag);if(cls)e.className=cls;if(html!=null)e.innerHTML=html;return e;}
+
+const mg=document.getElementById('mistakesGrid');
+mistakes.forEach((m,i)=>{
+  mg.appendChild(el('div','card reveal',
+   `<div class="mistake-num">${i+1}</div><h3>${m.t}</h3><p>${m.d}</p>
+    <div class="fix"><b>Řešení:</b> ${m.f}</div>`));
+});
+
+const tl=document.getElementById('timeline');
+steps.forEach((s,i)=>{
+  const item=el('div','tl-item reveal',
+   `<div class="tl-dot">${i+1}</div>
+    <div class="tl-card">
+      <h3>${s.t}<span class="toggle">+</span></h3>
+      <div class="tl-body"><p>${s.d}</p></div>
+    </div>`);
+  item.querySelector('.tl-card h3').addEventListener('click',()=>item.classList.toggle('open'));
+  tl.appendChild(item);
+});
+
+const fg=document.getElementById('fishGrid');
+fish.forEach(f=>{
+  fg.appendChild(el('div','card reveal',
+   `<div class="species-head"><div class="species-emoji">${f.e}</div>
+      <div><h3>${f.n}</h3><div class="lat">${f.l}</div></div></div>
+    <p class="desc">${f.desc}</p>
+    <ul class="spec-list">
+      <li><span>Velikost</span><span>${f.size}</span></li>
+      <li><span>Min. akvárium</span><span>${f.tank}</span></li>
+      <li><span>Náročnost</span><span><span class="tag ${f.care[1]}">${f.care[0]}</span></span></li>
+      <li><span>Pro děti</span><span>${f.kids}</span></li>
+      <li><span>Kompatibilita</span><span>${f.comp}</span></li>
+    </ul>
+    <div class="fun"><b>Zajímavost:</b> ${f.fun}</div>`));
+});
+
+const sg=document.getElementById('shrimpGrid');
+shrimp.forEach(s=>{
+  sg.appendChild(el('div','card reveal',
+   `<div class="species-head"><div class="species-emoji">${s.e}</div>
+      <div><h3>${s.n}</h3><div class="lat">${s.l}</div></div></div>
+    <p class="desc">${s.desc}</p>
+    <ul class="spec-list">
+      <li><span>Obtížnost chovu</span><span><span class="tag ${s.diff[1]}">${s.diff[0]}</span></span></li>
+      <li><span>Min. objem</span><span>${s.vol}</span></li>
+      <li><span>Pro začátečníky</span><span>${s.beg}</span></li>
+      <li><span>Teplota vody</span><span>${s.temp}</span></li>
+      <li><span>Rozmnožování</span><span>${s.repro}</span></li>
+    </ul>
+    <div class="fun"><b>Zajímavost:</b> ${s.fun}</div>`));
+});
+
+const wg=document.getElementById('waterGrid');
+water.forEach(w=>{
+  wg.appendChild(el('div','card reveal',
+   `<div class="ic">${w.e}</div><h3>${w.n}</h3><p>${w.d}</p>`));
+});
+
+const dg=document.getElementById('diseaseGrid');
+diseases.forEach(d=>{
+  dg.appendChild(el('div','card disease-card reveal',
+   `<div class="ic">${d.e}</div><h3>${d.n}</h3>
+    <div class="row"><b>Příznaky:</b> <span class="sym">${d.sym}</span></div>
+    <div class="row"><b>Příčiny:</b> <span class="sym">${d.cause}</span></div>
+    <div class="row"><b>První pomoc:</b> <span class="sym">${d.help}</span></div>`));
+});
+
+const vg=document.getElementById('vacationGrid');
+vacation.forEach(v=>{
+  vg.appendChild(el('div','card reveal',
+   `<div class="ic">${v.e}</div><h3>${v.n}</h3><p>${v.d}</p>`));
+});
+
+const bg=document.getElementById('bonusGrid');
+bonuses.forEach(b=>{
+  bg.appendChild(el('div','bonus',`<div class="ic">${b.e}</div><b>${b.t}</b>`));
+});
+
+const ag=document.getElementById('affGrid');
+affiliate.forEach(a=>{
+  ag.appendChild(el('div','card aff-card reveal',
+   `<h3><span>${a.e}</span> ${a.n}</h3><p>${a.d}</p>
+    <div class="warn-line">⚠️ Na co si dát pozor: ${a.warn}</div>
+    <a href="#affiliate" class="btn btn-cta btn-sm" rel="sponsored nofollow">Zobrazit doporučení</a>`));
+});
+
+const blg=document.getElementById('blogGrid');
+blog.forEach(b=>{
+  blg.appendChild(el('article','card blog-card reveal',
+   `<div class="blog-thumb" style="background:linear-gradient(135deg,${b.col},#0b2545)">${b.e}</div>
+    <div class="inner"><span class="cat">${b.c}</span><h3>${b.t}</h3><p>${b.d}</p>
+    <a href="#blog" class="more">Číst článek →</a></div>`));
+});
+
+const fl=document.getElementById('faqList');
+faqs.forEach(f=>{
+  const item=el('div','faq-item reveal',
+   `<button class="faq-q">${f.q}<span class="plus">+</span></button>
+    <div class="faq-a"><p>${f.a}</p></div>`);
+  const btn=item.querySelector('.faq-q');
+  const ans=item.querySelector('.faq-a');
+  btn.addEventListener('click',()=>{
+    const open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(o=>{o.classList.remove('open');o.querySelector('.faq-a').style.maxHeight=null;});
+    if(!open){item.classList.add('open');ans.style.maxHeight=ans.scrollHeight+'px';}
+  });
+  fl.appendChild(item);
+});
+
+const species=[
+{k:"guppy",n:"Paví očko",t:"fish",temp:"tropical"},
+{k:"neon",n:"Neonka",t:"fish",temp:"tropical"},
+{k:"betta",n:"Bojovnice",t:"fish",temp:"tropical"},
+{k:"cory",n:"Pancéřníček",t:"fish",temp:"tropical"},
+{k:"ancistrus",n:"Ancistrus",t:"fish",temp:"tropical"},
+{k:"platy",n:"Platy",t:"fish",temp:"tropical"},
+{k:"sword",n:"Mečovka",t:"fish",temp:"tropical"},
+{k:"angel",n:"Skalára",t:"fish",temp:"tropical"},
+{k:"barb",n:"Parmička čtyřpruhá",t:"fish",temp:"tropical"},
+{k:"gold",n:"Závojnatka",t:"fish",temp:"cold"},
+{k:"cherry",n:"Red Cherry",t:"shrimp",genus:"neo"},
+{k:"blue",n:"Blue Dream",t:"shrimp",genus:"neo"},
+{k:"amano",n:"Amano",t:"shrimp",genus:"amano"},
+{k:"crystal",n:"Crystal Red",t:"shrimp",genus:"caridina"}
+];
+const byKey={};species.forEach(s=>byKey[s.k]=s);
+
+function pairRule(a,b){
+  const keys=[a.k,b.k];
+  const has=k=>keys.includes(k);
+  const both=(x,y)=>has(x)&&has(y);
+
+  if(a.t==="shrimp"&&b.t==="shrimp"){
+    if(a.k===b.k) return["ok","Stejný druh krevetek se ve skupině cítí nejlépe – ideální start kolonie."];
+    if(a.genus==="neo"&&b.genus==="neo")
+      return["warn","Red Cherry a Blue Dream jsou stejný druh v různé barvě. Žít spolu mohou, ale budou se křížit a potomci zhnědnou a ztratí barvu. Pokud chcete čisté barvy, chovejte je odděleně."];
+    if((a.genus==="caridina"||b.genus==="caridina")&&(a.genus==="neo"||b.genus==="neo"))
+      return["warn","Nekříží se, ale Crystal Red (Caridina) potřebuje měkčí a kyselejší vodu než Neocaridina. V kompromisní vodě se jedné z nich nemusí dařit – pro začátečníka náročnější."];
+    return["ok","Tyto krevetky se nekříží a snesou podobné podmínky. V dostatečně velké nádrži vyjdou dobře."];
+  }
+
+  if(a.temp==="cold"||b.temp==="cold"){
+    if(a.k===b.k) return["ok","Závojnatky patří k sobě – jsou to studenomilné ryby do nevytápěné nádrže."];
+    if((has("gold"))&&(a.t==="shrimp"||b.t==="shrimp"))
+      return["bad","Závojnatka je studenomilná a navíc krevetky ráda sní. Tato kombinace nefunguje hned ze dvou důvodů."];
+    return["bad","Závojnatka je studenomilná ryba do nevytápěné vody, zatímco tropické druhy potřebují 24–26 °C. Rozdílné nároky na teplotu je dělají neslučitelnými."];
+  }
+
+  if(a.t!==b.t){
+    const fishKey=a.t==="fish"?a.k:b.k;
+    const shrimpObj=a.t==="shrimp"?a:b;
+    if(fishKey==="angel"||fishKey==="betta")
+      return["bad","Skalára i bojovnice krevetky aktivně loví. Drobné krevetky by skončily jako pochoutka – nevhodná kombinace."];
+    if(fishKey==="barb")
+      return["bad","Parmička čtyřpruhá je rychlá a dotěrná – krevetky i jejich mláďata by pronásledovala a požírala."];
+    if(fishKey==="sword")
+      return["warn","Mečovka dospělé krevetky obvykle nechá být, ale mláďata bude lovit. Kolonie poroste jen pomalu nebo vůbec."];
+    if(shrimpObj.genus==="amano")
+      return["ok","Amano krevetky jsou dost velké, aby je drobné klidné rybky neohrozily. Spolehlivá kombinace do společné nádrže."];
+    if(shrimpObj.genus==="caridina")
+      return["warn","Crystal Red jsou citlivé na vodu a jejich mláďata budou rybky požírat. Dospělci přežijí, ale chov bez úkrytů z mechu bude náročný."];
+    if(fishKey==="cory"||fishKey==="ancistrus")
+      return["ok","Pancéřníčci i Ancistrus jsou mírumilovní a krevetkám neublíží. Dospělé krevetky s nimi žijí v klidu, jen drobná mláďata se občas ztratí."];
+    return["warn","Dospělé krevetky tyto klidné rybky obvykle nechají být, ale drobná mláďata budou požírat. S dostatkem mechu a úkrytů kolonie přesto pomalu poroste."];
+  }
+
+  if(both("betta","betta")) return["bad","Dva samci bojovnice se urputně perou až k vážnému zranění. Do jedné nádrže patří vždy jen jeden samec."];
+  if(has("betta")){
+    if(has("barb")) return["bad","Parmička čtyřpruhá je známý okusovač ploutví. Dlouhé ploutve bojovnice by neustále trhala – vyložená nevhodná kombinace."];
+    if(has("guppy")) return["warn","Bojovnice si může barevné paví očko s dlouhými ploutvemi splést se sokem a napadat ho. Funguje to jen v prostorné, hustě osázené nádrži."];
+    if(has("angel")) return["warn","Bojovnice i skalára umí být teritoriální. V malé nádrži hrozí konflikty – potřebují hodně prostoru a úkrytů."];
+    return["warn","Bojovnice bývá nevyzpytatelná. S klidnými druhy u dna často vyjde, ale je nutné sledovat, zda nezačne sousedy napadat."];
+  }
+
+  if(has("barb")){
+    if(has("guppy")||has("angel")) return["bad","Parmička čtyřpruhá okusuje dlouhé a vlající ploutve. Paví očko i skalára by tím trpěly – nedávejte je dohromady."];
+    return["warn","Parmička čtyřpruhá je živá a může okusovat ploutve. Chovejte ji vždy ve větším hejnu (8+), které dotěrnost rozptýlí mezi sebe."];
+  }
+
+  if(has("angel")){
+    if(has("neon")) return["warn","Dospělá skalára si malou neonku snadno splete s potravou. Funguje to jen se skalárami odchovanými spolu s neonkami od malička."];
+    if(has("guppy")) return["warn","Velká skalára může drobné paví očko lovit. V prostorné nádrži s úkryty to lze zkusit, ale jistota to není."];
+    return["ok","Skalára se ke klidným středně velkým rybám hodí dobře. Potřebuje ale vyšší nádrž kvůli svému tvaru těla."];
+  }
+
+  if(a.k===b.k) return["ok","Stejný druh se obvykle drží pohromadě a v hejnu se cítí nejlépe. Bezpečná volba pro začátek."];
+  return["ok","Mírumilovné druhy s podobnými nároky na vodu i teplotu. Skvělá kombinace do společenského akvária pro začátečníky."];
+}
+
+const selA=document.getElementById('selA');
+const selB=document.getElementById('selB');
+species.forEach(s=>{
+  selA.appendChild(new Option(s.n,s.k));
+  selB.appendChild(new Option(s.n,s.k));
+});
+selA.value="guppy";selB.value="cherry";
+
+function updateCompat(){
+  const a=byKey[selA.value],b=byKey[selB.value];
+  if(!a||!b)return;
+  const[level,text]=pairRule(a,b);
+  const box=document.getElementById('compatResult');
+  box.className="compat-result "+level;
+  const labels={ok:["✅","Vhodná kombinace"],warn:["⚠️","Opatrně"],bad:["⛔","Nevhodná kombinace"]};
+  box.innerHTML=`<div class="verdict">${labels[level][0]} ${labels[level][1]}</div><p>${a.n} + ${b.n}: ${text}</p>`;
+}
+selA.addEventListener('change',updateCompat);
+selB.addEventListener('change',updateCompat);
+updateCompat();
+
+document.getElementById('orderForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const name=document.getElementById('name').value.trim();
+  const email=document.getElementById('email').value.trim();
+  const msg=document.getElementById('formMsg');
+  const valid=name.length>1&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if(!valid){
+    msg.style.background="#fdeaea";msg.style.borderColor="#e15b5b";msg.style.color="#b13838";
+    msg.textContent="Vyplňte prosím své jméno a platný e-mail.";
+    msg.classList.add('show');return;
+  }
+  msg.style.background="#eafaf3";msg.style.borderColor="#1ea672";msg.style.color="#16734f";
+  msg.textContent="Děkujeme, "+name+". V ostré verzi webu by následovalo přesměrování na platební bránu.";
+  msg.classList.add('show');
+  document.getElementById('orderForm').reset();
+});
+
+const burger=document.getElementById('burger');
+const navLinks=document.getElementById('navLinks');
+burger.addEventListener('click',()=>navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
+
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(en=>{if(en.isIntersecting){en.target.classList.add('visible');obs.unobserve(en.target);}});
+},{threshold:.12});
+function observeReveals(){document.querySelectorAll('.reveal:not(.visible)').forEach(r=>obs.observe(r));}
+observeReveals();
+
+const tank=document.getElementById('tank');
+for(let i=0;i<14;i++){
+  const b=el('div','bubble');
+  const size=4+Math.random()*8;
+  b.style.width=size+'px';b.style.height=size+'px';
+  b.style.left=(10+Math.random()*80)+'%';
+  b.style.bottom='60px';
+  b.style.animationDuration=(4+Math.random()*5)+'s';
+  b.style.animationDelay=(Math.random()*5)+'s';
+  tank.appendChild(b);
+}
+
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
