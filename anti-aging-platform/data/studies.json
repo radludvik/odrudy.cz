@@ -1,82 +1,334 @@
 [
   {
-    "id": "study-mukherjee-2006", "slug": "mukherjee-2006-retinol", "type": "study", "name": "Retinoidy a stárnutí pleti (Mukherjee, 2006)",
+    "id": "study-mukherjee-2006",
+    "slug": "mukherjee-2006-retinol",
+    "type": "study",
+    "name": "Retinoidy a stárnutí pleti (Mukherjee, 2006)",
     "title": "Studie: Retinoidy v léčbě stárnutí pleti (2006) | antiagelab.cz",
     "metaDescription": "Přehledová studie shrnující důkazy o retinoidech v anti-agingu. Shrnutí, síla důkazů a praktický závěr.",
-    "h1": "Retinoidy v léčbě stárnutí pleti (Mukherjee, 2006)", "excerpt": "Přehledová práce shrnující silnou důkazní základnu retinoidů pro vrásky a fotopoškození.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "h1": "Retinoidy v léčbě stárnutí pleti (Mukherjee, 2006)",
+    "excerpt": "Přehledová práce shrnující silnou důkazní základnu retinoidů pro vrásky a fotopoškození.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
     "summary": "Přehled klinických dat o retinolu a dalších retinoidech; konzistentní zlepšení jemných vrásek, textury a pigmentace.",
-    "design": "narativní přehled", "sampleSize": "souhrn více studií", "year": 2006, "journal": "Clinical Interventions in Aging",
+    "design": "narativní přehled",
+    "sampleSize": "souhrn více studií",
+    "year": 2006,
+    "journal": "Clinical Interventions in Aging",
     "outcome": "Retinoidy zlepšují fotostárnutí; retinol je účinný při lepší snášenlivosti než tretinoin.",
     "practicalTakeaway": "Retinol je oprávněně zlatý standard domácího anti-agingu. Začněte nízkou koncentrací a buďte trpěliví.",
-    "image": { "src": "/assets/img/studies/study.svg", "alt": "Klinická studie — ilustrace", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/studies/study.svg",
+      "alt": "Klinická studie — ilustrace",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Co studie zjistila" },
-      { "p": "Souhrn ukázal konzistentní efekt retinoidů na fotostárnutí napříč studiemi. Retinol nabízí dobrý poměr účinnosti a snášenlivosti." },
-      { "note": "Silná, opakovaně potvrzená evidence.", "evidence": "strong" }
+      {
+        "h2": "Co studie zjistila"
+      },
+      {
+        "p": "Souhrn ukázal konzistentní efekt retinoidů na fotostárnutí napříč studiemi. Retinol nabízí dobrý poměr účinnosti a snášenlivosti."
+      },
+      {
+        "note": "Silná, opakovaně potvrzená evidence.",
+        "evidence": "strong"
+      }
     ],
     "faq": [],
-    "sources": [ { "title": "Mukherjee S. et al.", "journal": "Clin Interv Aging", "year": 2006, "type": "review" } ],
-    "relations": { "ingredients": ["retinol", "retinal"], "problems": ["jemne-vrasky", "pigmentace"] }
+    "sources": [
+      {
+        "title": "Mukherjee S. et al.",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "retinal"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "pigmentace"
+      ]
+    }
   },
   {
-    "id": "study-dhaliwal-2019", "slug": "dhaliwal-2019-bakuchiol", "type": "study", "name": "Bakuchiol vs retinol (Dhaliwal, 2019)",
+    "id": "study-dhaliwal-2019",
+    "slug": "dhaliwal-2019-bakuchiol",
+    "type": "study",
+    "name": "Bakuchiol vs retinol (Dhaliwal, 2019)",
     "title": "Studie: Bakuchiol vs retinol, randomizované srovnání (2019) | antiagelab.cz",
     "metaDescription": "Randomizovaná studie porovnávající bakuchiol a retinol. Srovnatelný efekt na vrásky při lepší snášenlivosti bakuchiolu.",
-    "h1": "Bakuchiol vs retinol (Dhaliwal, 2019)", "excerpt": "Randomizovaná dvojitě zaslepená studie: srovnatelný efekt, bakuchiol lépe snášen.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "h1": "Bakuchiol vs retinol (Dhaliwal, 2019)",
+    "excerpt": "Randomizovaná dvojitě zaslepená studie: srovnatelný efekt, bakuchiol lépe snášen.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
     "summary": "44 účastníků používalo 12 týdnů buď bakuchiol, nebo retinol. Obě skupiny zlepšily vrásky a pigmentaci, bakuchiol méně dráždil.",
-    "design": "randomizovaná, dvojitě zaslepená", "sampleSize": "44 účastníků", "year": 2019, "journal": "British Journal of Dermatology",
+    "design": "randomizovaná, dvojitě zaslepená",
+    "sampleSize": "44 účastníků",
+    "year": 2019,
+    "journal": "British Journal of Dermatology",
     "outcome": "Srovnatelné zlepšení vrásek a pigmentace; bakuchiol méně olupování a štípání.",
     "practicalTakeaway": "Bakuchiol je rozumná alternativa pro ty, kdo retinol nesnášejí — ale jde o jednu menší studii.",
-    "image": { "src": "/assets/img/studies/study.svg", "alt": "Klinická studie — ilustrace", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/studies/study.svg",
+      "alt": "Klinická studie — ilustrace",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Co studie zjistila" },
-      { "p": "Při přímém srovnání dosáhly obě látky podobného efektu, bakuchiol byl ale lépe snášen. Vzorek byl malý." },
-      { "note": "Povzbudivé, ale omezené jednou menší studií.", "evidence": "moderate" }
+      {
+        "h2": "Co studie zjistila"
+      },
+      {
+        "p": "Při přímém srovnání dosáhly obě látky podobného efektu, bakuchiol byl ale lépe snášen. Vzorek byl malý."
+      },
+      {
+        "note": "Povzbudivé, ale omezené jednou menší studií.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [],
-    "sources": [ { "title": "Dhaliwal S. et al.", "journal": "Br J Dermatol", "year": 2019, "type": "rct" } ],
-    "relations": { "ingredients": ["bakuchiol", "retinol"], "comparisons": ["bakuchiol-vs-retinol"] }
+    "sources": [
+      {
+        "title": "Dhaliwal S. et al.",
+        "journal": "Br J Dermatol",
+        "year": 2019,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "bakuchiol",
+        "retinol"
+      ],
+      "comparisons": [
+        "bakuchiol-vs-retinol"
+      ]
+    }
   },
   {
-    "id": "study-wunsch-2014", "slug": "wunsch-2014-led", "type": "study", "name": "Červené a NIR světlo (Wunsch, 2014)",
+    "id": "study-wunsch-2014",
+    "slug": "wunsch-2014-led",
+    "type": "study",
+    "name": "Červené a NIR světlo (Wunsch, 2014)",
     "title": "Studie: Účinnost červeného a NIR světla na pleť (2014) | antiagelab.cz",
     "metaDescription": "Kontrolovaná studie fotobiomodulace ukázala zlepšení vrásek a kolagenu po sériích ošetření červeným a infračerveným světlem.",
-    "h1": "Červené a NIR světlo (Wunsch, 2014)", "excerpt": "Kontrolovaná studie: zlepšení vrásek a kolagenové denzity po fotobiomodulaci.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "h1": "Červené a NIR světlo (Wunsch, 2014)",
+    "excerpt": "Kontrolovaná studie: zlepšení vrásek a kolagenové denzity po fotobiomodulaci.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
     "summary": "113 účastníků; opakovaná ošetření červeným/NIR světlem vedla ke zlepšení pleti a měřitelnému nárůstu kolagenu oproti kontrole.",
-    "design": "prospektivní kontrolovaná", "sampleSize": "113 účastníků", "year": 2014, "journal": "Photomedicine and Laser Surgery",
+    "design": "prospektivní kontrolovaná",
+    "sampleSize": "113 účastníků",
+    "year": 2014,
+    "journal": "Photomedicine and Laser Surgery",
     "outcome": "Zlepšení vrásek, textury a kolagenové denzity.",
     "practicalTakeaway": "LED terapie funguje, ale postupně a při pravidelnosti. Není to zázrak přes noc.",
-    "image": { "src": "/assets/img/studies/study.svg", "alt": "Klinická studie — ilustrace", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/studies/study.svg",
+      "alt": "Klinická studie — ilustrace",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Co studie zjistila" },
-      { "p": "Fotobiomodulace přinesla měřitelné zlepšení pleti i kolagenu. Efekt vyžadoval opakovaná ošetření." },
-      { "note": "Středně silné důkazy pro fotobiomodulaci.", "evidence": "moderate" }
+      {
+        "h2": "Co studie zjistila"
+      },
+      {
+        "p": "Fotobiomodulace přinesla měřitelné zlepšení pleti i kolagenu. Efekt vyžadoval opakovaná ošetření."
+      },
+      {
+        "note": "Středně silné důkazy pro fotobiomodulaci.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [],
-    "sources": [ { "title": "Wunsch A., Matuschka K.", "journal": "Photomed Laser Surg", "year": 2014, "type": "rct" } ],
-    "relations": { "technologies": ["led-terapie"], "problems": ["jemne-vrasky"] }
+    "sources": [
+      {
+        "title": "Wunsch A., Matuschka K.",
+        "journal": "Photomed Laser Surg",
+        "year": 2014,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ]
+    }
   },
   {
-    "id": "study-hughes-2013", "slug": "hughes-2013-spf", "type": "study", "name": "SPF a stárnutí pleti (Hughes, 2013)",
+    "id": "study-hughes-2013",
+    "slug": "hughes-2013-spf",
+    "type": "study",
+    "name": "SPF a stárnutí pleti (Hughes, 2013)",
     "title": "Studie: Opalovací krém a prevence stárnutí pleti (2013) | antiagelab.cz",
     "metaDescription": "Randomizovaná studie prokázala, že denní používání SPF prokazatelně zpomaluje viditelné stárnutí pleti.",
-    "h1": "SPF a stárnutí pleti (Hughes, 2013)", "excerpt": "Randomizovaná studie: denní SPF prokazatelně zpomaluje fotostárnutí.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "h1": "SPF a stárnutí pleti (Hughes, 2013)",
+    "excerpt": "Randomizovaná studie: denní SPF prokazatelně zpomaluje fotostárnutí.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
     "summary": "903 dospělých; skupina s denním používáním SPF vykazovala po 4,5 letech výrazně menší známky stárnutí než skupina s běžným používáním.",
-    "design": "randomizovaná kontrolovaná", "sampleSize": "903 účastníků", "year": 2013, "journal": "Annals of Internal Medicine",
+    "design": "randomizovaná kontrolovaná",
+    "sampleSize": "903 účastníků",
+    "year": 2013,
+    "journal": "Annals of Internal Medicine",
     "outcome": "Denní SPF o 24 % méně viditelného stárnutí oproti kontrole.",
     "practicalTakeaway": "Denní opalovací krém je nejlépe doloženým anti-aging krokem. Žádné sérum ho nenahradí.",
-    "image": { "src": "/assets/img/studies/study.svg", "alt": "Klinická studie — ilustrace", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/studies/study.svg",
+      "alt": "Klinická studie — ilustrace",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Co studie zjistila" },
-      { "p": "Skupina s denním SPF stárla viditelně pomaleji. Jde o jeden z nejcitovanějších důkazů v dermatologii." },
-      { "note": "Silná randomizovaná evidence.", "evidence": "strong" }
+      {
+        "h2": "Co studie zjistila"
+      },
+      {
+        "p": "Skupina s denním SPF stárla viditelně pomaleji. Jde o jeden z nejcitovanějších důkazů v dermatologii."
+      },
+      {
+        "note": "Silná randomizovaná evidence.",
+        "evidence": "strong"
+      }
     ],
     "faq": [],
-    "sources": [ { "title": "Hughes MCB et al.", "journal": "Ann Intern Med", "year": 2013, "type": "rct" } ],
-    "relations": { "products": ["spf-50-denni"], "problems": ["jemne-vrasky", "pigmentace"], "ingredients": ["vitamin-c"] }
+    "sources": [
+      {
+        "title": "Hughes MCB et al.",
+        "journal": "Ann Intern Med",
+        "year": 2013,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "products": [
+        "spf-50-denni"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "pigmentace"
+      ],
+      "ingredients": [
+        "vitamin-c"
+      ]
+    }
+  },
+  {
+    "type": "study",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/studies/study.svg",
+      "alt": "Klinická studie — ilustrace",
+      "type": "illustration"
+    },
+    "faq": [],
+    "id": "study-bala-2018",
+    "slug": "bala-2018-tranexamic",
+    "name": "Tranexamová kyselina na melasmu (přehled, 2018)",
+    "title": "Studie: Tranexamová kyselina v léčbě melasmy (2018)",
+    "metaDescription": "Přehled dat o tranexamové kyselině u melasmy — topicky i perorálně. Shrnutí a praktický závěr.",
+    "h1": "Tranexamová kyselina na melasmu (2018)",
+    "excerpt": "Přehled: tranexamová kyselina zlepšuje melasmu, nejsilnější data má perorální forma.",
+    "evidenceLevel": "moderate",
+    "summary": "Souhrn studií ukazuje, že tranexamová kyselina (topicky i perorálně) zmírňuje melasmu; perorální forma má nejsilnější efekt, ale patří na předpis.",
+    "design": "systematický přehled",
+    "sampleSize": "souhrn více studií",
+    "year": 2018,
+    "journal": "Dermatologic Surgery",
+    "outcome": "Významné zlepšení melasmy oproti kontrole, zejména u perorální formy.",
+    "practicalTakeaway": "Na tvrdošíjnou melasmu zvažte tranexamovou kyselinu (topicky) plus důsledné SPF; perorální nasazení patří lékaři.",
+    "body": [
+      {
+        "h2": "Co přehled ukázal"
+      },
+      {
+        "p": "Napříč studiemi tranexamová kyselina konzistentně zmírňovala melasmu. Topická forma je dobrým doplňkem, perorální má silnější efekt i více rizik."
+      },
+      {
+        "note": "Středně silné, konzistentní důkazy u melasmy.",
+        "evidence": "moderate"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bala HR et al.",
+        "journal": "Dermatol Surg",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "tranexamova-kyselina",
+        "niacinamid"
+      ],
+      "problems": [
+        "pigmentace"
+      ]
+    }
+  },
+  {
+    "type": "study",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/studies/study.svg",
+      "alt": "Klinická studie — ilustrace",
+      "type": "illustration"
+    },
+    "faq": [],
+    "id": "study-tierney-2009",
+    "slug": "tierney-2009-fraxel",
+    "name": "Frakční laser na fotostárnutí (2009)",
+    "title": "Studie: Frakční laser v obnově pleti (2009)",
+    "metaDescription": "Přehled účinnosti frakčního laseru u fotostárnutí, jizev a textury. Shrnutí a praktický závěr.",
+    "h1": "Frakční laser na fotostárnutí (2009)",
+    "excerpt": "Přehled: frakční fototermolýza zlepšuje texturu, jizvy i fotopoškození s přijatelnou rekonvalescencí.",
+    "evidenceLevel": "strong",
+    "summary": "Přehled klinických dat potvrzuje účinnost frakčního laseru u fotostárnutí, jizev po akné a textury, s kratší rekonvalescencí než plně ablativní lasery.",
+    "design": "narativní přehled",
+    "sampleSize": "souhrn více studií",
+    "year": 2009,
+    "journal": "Dermatologic Surgery",
+    "outcome": "Konzistentní zlepšení textury, jizev a fotopoškození.",
+    "practicalTakeaway": "Frakční laser je dobře doložená volba pro obnovu pleti; u tmavších fototypů je nutná opatrnost a zkušený lékař.",
+    "body": [
+      {
+        "h2": "Co přehled ukázal"
+      },
+      {
+        "p": "Frakční princip nabízí silný efekt s rozumnou rekonvalescencí, proto patří mezi nejpoužívanější laserové metody."
+      },
+      {
+        "note": "Silná důkazní základna pro texturu a jizvy.",
+        "evidence": "strong"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tierney EP et al.",
+        "journal": "Dermatol Surg",
+        "year": 2009,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "procedures": [
+        "frakcni-laser",
+        "co2-laser"
+      ],
+      "technologies": [
+        "domaci-laser"
+      ],
+      "problems": [
+        "textura",
+        "pigmentace",
+        "hluboke-vrasky"
+      ]
+    }
   }
 ]

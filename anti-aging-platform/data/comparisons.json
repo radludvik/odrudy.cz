@@ -1,99 +1,512 @@
 [
   {
-    "id": "cmp-retinol-retinal", "slug": "retinol-vs-retinal", "type": "comparison", "name": "Retinol vs Retinal",
+    "id": "cmp-retinol-retinal",
+    "slug": "retinol-vs-retinal",
+    "type": "comparison",
+    "name": "Retinol vs Retinal",
     "title": "Retinol vs Retinal: které je lepší? | antiagelab.cz",
     "metaDescription": "Srovnání retinolu a retinaldehydu — rychlost, síla, snášenlivost a pro koho se který hodí.",
-    "h1": "Retinol vs Retinal", "excerpt": "Dva nejoblíbenější domácí retinoidy. Retinal bývá rychlejší, retinol má víc dat.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "items": ["retinol", "retinal"],
+    "h1": "Retinol vs Retinal",
+    "excerpt": "Dva nejoblíbenější domácí retinoidy. Retinal bývá rychlejší, retinol má víc dat.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "items": [
+      "retinol",
+      "retinal"
+    ],
     "dimensions": [
-      { "name": "Rychlost účinku", "values": ["pomalejší", "rychlejší"] },
-      { "name": "Konverzní kroky k aktivní formě", "values": ["2", "1"] },
-      { "name": "Síla důkazů", "values": ["silná", "středně silná"] },
-      { "name": "Snášenlivost", "values": ["dobrá", "dobrá"] },
-      { "name": "Typická koncentrace", "values": ["0,1–1 %", "0,05–0,1 %"] }
+      {
+        "name": "Rychlost účinku",
+        "values": [
+          "pomalejší",
+          "rychlejší"
+        ]
+      },
+      {
+        "name": "Konverzní kroky k aktivní formě",
+        "values": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "name": "Síla důkazů",
+        "values": [
+          "silná",
+          "středně silná"
+        ]
+      },
+      {
+        "name": "Snášenlivost",
+        "values": [
+          "dobrá",
+          "dobrá"
+        ]
+      },
+      {
+        "name": "Typická koncentrace",
+        "values": [
+          "0,1–1 %",
+          "0,05–0,1 %"
+        ]
+      }
     ],
     "verdict": "Chcete-li nejvíc dat a osvědčenou volbu, sáhněte po retinolu. Chcete-li rychlejší nástup při dobré toleranci, zkuste retinal.",
-    "image": { "src": "/assets/img/comparisons/retinol-vs-retinal.svg", "alt": "Retinol vs Retinal — srovnání", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/comparisons/retinol-vs-retinal.svg",
+      "alt": "Retinol vs Retinal — srovnání",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Hlavní rozdíl" },
-      { "p": "Retinal je o jeden konverzní krok blíž účinné formě, proto často působí rychleji. Retinol má za sebou víc studií a je snadno dostupný." },
-      { "note": "Přímých srovnávacích RCT je málo; rozdíl bývá v rychlosti, ne v cílovém efektu.", "evidence": "moderate" }
+      {
+        "h2": "Hlavní rozdíl"
+      },
+      {
+        "p": "Retinal je o jeden konverzní krok blíž účinné formě, proto často působí rychleji. Retinol má za sebou víc studií a je snadno dostupný."
+      },
+      {
+        "note": "Přímých srovnávacích RCT je málo; rozdíl bývá v rychlosti, ne v cílovém efektu.",
+        "evidence": "moderate"
+      }
     ],
-    "faq": [ { "q": "Můžu přejít z retinolu na retinal?", "a": "Ano, postupně. Začněte nižší koncentrací retinalu a sledujte toleranci." } ],
+    "faq": [
+      {
+        "q": "Můžu přejít z retinolu na retinal?",
+        "a": "Ano, postupně. Začněte nižší koncentrací retinalu a sledujte toleranci."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["retinol", "retinal"], "problems": ["jemne-vrasky"], "products": ["medik8-crystal-retinal-6"] }
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "retinal"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ],
+      "products": [
+        "medik8-crystal-retinal-6"
+      ]
+    }
   },
   {
-    "id": "cmp-bakuchiol-retinol", "slug": "bakuchiol-vs-retinol", "type": "comparison", "name": "Bakuchiol vs Retinol",
+    "id": "cmp-bakuchiol-retinol",
+    "slug": "bakuchiol-vs-retinol",
+    "type": "comparison",
+    "name": "Bakuchiol vs Retinol",
     "title": "Bakuchiol vs Retinol: rostlinná alternativa? | antiagelab.cz",
     "metaDescription": "Srovnání bakuchiolu a retinolu — účinnost, snášenlivost, těhotenství a pro koho se který hodí.",
-    "h1": "Bakuchiol vs Retinol", "excerpt": "Retinol má víc důkazů, bakuchiol lépe snášenlivost a je vhodný v těhotenství.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "items": ["bakuchiol", "retinol"],
+    "h1": "Bakuchiol vs Retinol",
+    "excerpt": "Retinol má víc důkazů, bakuchiol lépe snášenlivost a je vhodný v těhotenství.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "items": [
+      "bakuchiol",
+      "retinol"
+    ],
     "dimensions": [
-      { "name": "Síla důkazů", "values": ["středně silná", "silná"] },
-      { "name": "Snášenlivost", "values": ["výborná", "dobrá"] },
-      { "name": "Vhodnost v těhotenství", "values": ["obvykle ano (konzultovat)", "ne"] },
-      { "name": "Fotostabilita", "values": ["ano (i ráno)", "ne (večer)"] }
+      {
+        "name": "Síla důkazů",
+        "values": [
+          "středně silná",
+          "silná"
+        ]
+      },
+      {
+        "name": "Snášenlivost",
+        "values": [
+          "výborná",
+          "dobrá"
+        ]
+      },
+      {
+        "name": "Vhodnost v těhotenství",
+        "values": [
+          "obvykle ano (konzultovat)",
+          "ne"
+        ]
+      },
+      {
+        "name": "Fotostabilita",
+        "values": [
+          "ano (i ráno)",
+          "ne (večer)"
+        ]
+      }
     ],
     "verdict": "Retinol pro maximální účinnost a data. Bakuchiol pro citlivou pleť, těhotenství a ty, kdo retinol nesnášejí.",
-    "image": { "src": "/assets/img/comparisons/bakuchiol-vs-retinol.svg", "alt": "Bakuchiol vs Retinol — srovnání", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/comparisons/bakuchiol-vs-retinol.svg",
+      "alt": "Bakuchiol vs Retinol — srovnání",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Pro koho co" },
-      { "p": "Retinol zůstává zlatým standardem. Bakuchiol je jemnější náhrada se srovnatelným, ale méně doloženým efektem." },
-      { "note": "Klíčová studie ukázala srovnatelný efekt při lepší toleranci bakuchiolu (jedna menší RCT).", "evidence": "moderate" }
+      {
+        "h2": "Pro koho co"
+      },
+      {
+        "p": "Retinol zůstává zlatým standardem. Bakuchiol je jemnější náhrada se srovnatelným, ale méně doloženým efektem."
+      },
+      {
+        "note": "Klíčová studie ukázala srovnatelný efekt při lepší toleranci bakuchiolu (jedna menší RCT).",
+        "evidence": "moderate"
+      }
     ],
-    "faq": [ { "q": "Můžu kombinovat oba?", "a": "Ano, někteří je kombinují pro lepší toleranci retinolu." } ],
+    "faq": [
+      {
+        "q": "Můžu kombinovat oba?",
+        "a": "Ano, někteří je kombinují pro lepší toleranci retinolu."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["bakuchiol", "retinol"], "studies": ["dhaliwal-2019-bakuchiol"], "skinTypes": ["citliva"] }
+    "relations": {
+      "ingredients": [
+        "bakuchiol",
+        "retinol"
+      ],
+      "studies": [
+        "dhaliwal-2019-bakuchiol"
+      ],
+      "skinTypes": [
+        "citliva"
+      ]
+    }
   },
   {
-    "id": "cmp-vitc-niacinamid", "slug": "vitamin-c-vs-niacinamid", "type": "comparison", "name": "Vitamin C vs Niacinamid",
+    "id": "cmp-vitc-niacinamid",
+    "slug": "vitamin-c-vs-niacinamid",
+    "type": "comparison",
+    "name": "Vitamin C vs Niacinamid",
     "title": "Vitamin C vs Niacinamid: který antioxidant? | antiagelab.cz",
     "metaDescription": "Srovnání vitaminu C a niacinamidu — k čemu slouží, zda je kombinovat a pro koho se který hodí.",
-    "h1": "Vitamin C vs Niacinamid", "excerpt": "Nemusíte volit — skvěle se doplňují. Liší se hlavním zaměřením.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
-    "items": ["vitamin-c", "niacinamid"],
+    "h1": "Vitamin C vs Niacinamid",
+    "excerpt": "Nemusíte volit — skvěle se doplňují. Liší se hlavním zaměřením.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "items": [
+      "vitamin-c",
+      "niacinamid"
+    ],
     "dimensions": [
-      { "name": "Hlavní role", "values": ["antioxidant, jas", "bariéra, póry, maz"] },
-      { "name": "Snášenlivost", "values": ["dobrá (může štípat)", "výborná"] },
-      { "name": "Stabilita", "values": ["nižší (oxiduje)", "vysoká"] },
-      { "name": "Lze kombinovat?", "values": ["ano", "ano"] }
+      {
+        "name": "Hlavní role",
+        "values": [
+          "antioxidant, jas",
+          "bariéra, póry, maz"
+        ]
+      },
+      {
+        "name": "Snášenlivost",
+        "values": [
+          "dobrá (může štípat)",
+          "výborná"
+        ]
+      },
+      {
+        "name": "Stabilita",
+        "values": [
+          "nižší (oxiduje)",
+          "vysoká"
+        ]
+      },
+      {
+        "name": "Lze kombinovat?",
+        "values": [
+          "ano",
+          "ano"
+        ]
+      }
     ],
     "verdict": "Nejde o souboj — vitamin C ráno na ochranu a jas, niacinamid kdykoli na bariéru a póry. Skvěle fungují spolu.",
-    "image": { "src": "/assets/img/comparisons/vitamin-c-vs-niacinamid.svg", "alt": "Vitamin C vs Niacinamid — srovnání", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/comparisons/vitamin-c-vs-niacinamid.svg",
+      "alt": "Vitamin C vs Niacinamid — srovnání",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Mýtus o nekombinovatelnosti" },
-      { "p": "Starší obava, že se vitamin C a niacinamid \"ruší\", je u moderních formulací překonaná. Klidně je používejte spolu." },
-      { "note": "Oba mají silné důkazy ve svých rolích.", "evidence": "strong" }
+      {
+        "h2": "Mýtus o nekombinovatelnosti"
+      },
+      {
+        "p": "Starší obava, že se vitamin C a niacinamid \"ruší\", je u moderních formulací překonaná. Klidně je používejte spolu."
+      },
+      {
+        "note": "Oba mají silné důkazy ve svých rolích.",
+        "evidence": "strong"
+      }
     ],
-    "faq": [ { "q": "Co když chci jen jeden?", "a": "Pro jas a ochranu vitamin C, pro bariéru a póry niacinamid." } ],
+    "faq": [
+      {
+        "q": "Co když chci jen jeden?",
+        "a": "Pro jas a ochranu vitamin C, pro bariéru a póry niacinamid."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["vitamin-c", "niacinamid"], "problems": ["pigmentace", "matna-plet"] }
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "niacinamid"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet"
+      ]
+    }
   },
   {
-    "id": "cmp-led-laser", "slug": "led-vs-laser", "type": "comparison", "name": "LED vs Laser",
+    "id": "cmp-led-laser",
+    "slug": "led-vs-laser",
+    "type": "comparison",
+    "name": "LED vs Laser",
     "title": "LED terapie vs Laser: jaký je rozdíl? | antiagelab.cz",
     "metaDescription": "Srovnání LED terapie a laseru — princip, intenzita, rekonvalescence a pro koho se který hodí.",
-    "h1": "LED vs Laser", "excerpt": "LED jemně nabíjí buňky bez poškození, laser cíleně poškozuje pro silnější efekt.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "items": ["led-terapie", "led-terapie"],
+    "h1": "LED vs Laser",
+    "excerpt": "LED jemně nabíjí buňky bez poškození, laser cíleně poškozuje pro silnější efekt.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "items": [
+      "led-terapie",
+      "frakcni-laser"
+    ],
     "dimensions": [
-      { "name": "Princip", "values": ["fotobiomodulace (bez poškození)", "řízené poškození tkáně"] },
-      { "name": "Intenzita / efekt", "values": ["mírný, kumulativní", "silnější, rychlejší"] },
-      { "name": "Rekonvalescence", "values": ["žádná", "dle typu (dny)"] },
-      { "name": "Kde", "values": ["doma i v salonu", "odborné pracoviště"] }
+      {
+        "name": "Princip",
+        "values": [
+          "fotobiomodulace (bez poškození)",
+          "řízené poškození tkáně"
+        ]
+      },
+      {
+        "name": "Intenzita / efekt",
+        "values": [
+          "mírný, kumulativní",
+          "silnější, rychlejší"
+        ]
+      },
+      {
+        "name": "Rekonvalescence",
+        "values": [
+          "žádná",
+          "dle typu (dny)"
+        ]
+      },
+      {
+        "name": "Kde",
+        "values": [
+          "doma i v salonu",
+          "odborné pracoviště"
+        ]
+      }
     ],
     "verdict": "LED pro jemnou, bezpečnou domácí údržbu. Laser pro výraznější, ale invazivnější zákroky pod dohledem odborníka.",
-    "image": { "src": "/assets/img/comparisons/led-vs-laser.svg", "alt": "LED vs Laser — srovnání", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/comparisons/led-vs-laser.svg",
+      "alt": "LED vs Laser — srovnání",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Dvě různé filozofie" },
-      { "p": "LED buňky šetrně stimuluje, laser je naopak cíleně poškozuje, aby spustil silnější obnovu. Liší se efektem i riziky." },
-      { "note": "Laser má silnější efekt a důkazy u řady indikací; LED je jemnější a bezpečnější.", "evidence": "moderate" }
+      {
+        "h2": "Dvě různé filozofie"
+      },
+      {
+        "p": "LED buňky šetrně stimuluje, laser je naopak cíleně poškozuje, aby spustil silnější obnovu. Liší se efektem i riziky."
+      },
+      {
+        "note": "Laser má silnější efekt a důkazy u řady indikací; LED je jemnější a bezpečnější.",
+        "evidence": "moderate"
+      }
     ],
-    "faq": [ { "q": "Nahradí LED maska laser?", "a": "Ne, jsou to jiné kategorie. LED je údržba, laser je zákrok." } ],
+    "faq": [
+      {
+        "q": "Nahradí LED maska laser?",
+        "a": "Ne, jsou to jiné kategorie. LED je údržba, laser je zákrok."
+      }
+    ],
     "sources": [],
-    "relations": { "technologies": ["led-terapie"], "products": ["currentbody-led-mask"], "problems": ["jemne-vrasky", "pigmentace"] }
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ],
+      "products": [
+        "currentbody-led-mask"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "pigmentace"
+      ]
+    }
+  },
+  {
+    "type": "comparison",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/comparisons/aha-vs-bha.svg",
+      "alt": "AHA vs BHA",
+      "type": "infographic"
+    },
+    "id": "cmp-aha-bha",
+    "slug": "aha-vs-bha",
+    "name": "AHA vs BHA",
+    "title": "AHA vs BHA: kterou kyselinu zvolit?",
+    "metaDescription": "Srovnání AHA a BHA — povrch vs póry, pro jaký typ pleti a problém se který exfoliant hodí.",
+    "h1": "AHA vs BHA",
+    "excerpt": "AHA na povrch (jas, textura), BHA do pórů (mastná a aknózní pleť).",
+    "evidenceLevel": "strong",
+    "items": [
+      "aha",
+      "bha"
+    ],
+    "dimensions": [
+      {
+        "name": "Rozpustnost",
+        "values": [
+          "ve vodě",
+          "v tuku"
+        ]
+      },
+      {
+        "name": "Kde působí",
+        "values": [
+          "povrch pokožky",
+          "uvnitř pórů"
+        ]
+      },
+      {
+        "name": "Ideální pleť",
+        "values": [
+          "suchá, matná, zralá",
+          "mastná, aknózní"
+        ]
+      },
+      {
+        "name": "Hlavní přínos",
+        "values": [
+          "jas, textura, pigmentace",
+          "póry, černé tečky, akné"
+        ]
+      }
+    ],
+    "verdict": "AHA pro jas a texturu suché/zralé pleti, BHA do pórů mastné a aknózní pleti. Lze i kombinovat opatrně.",
+    "body": [
+      {
+        "h2": "Voda vs tuk"
+      },
+      {
+        "p": "Klíčový rozdíl je rozpustnost: AHA pracuje na povrchu, BHA proniká mazem do pórů. Podle toho se vybírá dle typu pleti."
+      },
+      {
+        "note": "Obě skupiny mají silné důkazy ve svých indikacích.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Můžu AHA i BHA naráz?",
+        "a": "Opatrně ano (některé produkty je kombinují), ale hlídejte podráždění a nepřidávejte ještě retinoid."
+      }
+    ],
+    "sources": [],
+    "relations": {
+      "ingredients": [
+        "aha",
+        "bha"
+      ],
+      "problems": [
+        "textura",
+        "rozsirene-pory",
+        "matna-plet"
+      ],
+      "terms": [
+        "exfoliace"
+      ]
+    }
+  },
+  {
+    "type": "comparison",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/comparisons/hifu-vs-radiofrekvence.svg",
+      "alt": "HIFU vs Radiofrekvence",
+      "type": "infographic"
+    },
+    "id": "cmp-hifu-rf",
+    "slug": "hifu-vs-radiofrekvence",
+    "name": "HIFU vs Radiofrekvence",
+    "title": "HIFU vs radiofrekvence: které zpevnění zvolit?",
+    "metaDescription": "Srovnání HIFU a RF — hloubka, intenzita, počet sezení a pro koho se která metoda zpevnění hodí.",
+    "h1": "HIFU vs Radiofrekvence",
+    "excerpt": "HIFU jde hlouběji (SMAS) s výraznějším liftingem, RF zpevňuje postupně a pohodlněji.",
+    "evidenceLevel": "moderate",
+    "items": [
+      "hifu",
+      "radiofrekvence"
+    ],
+    "dimensions": [
+      {
+        "name": "Hloubka zásahu",
+        "values": [
+          "hluboká (až SMAS)",
+          "dermis / podkoží"
+        ]
+      },
+      {
+        "name": "Intenzita / lifting",
+        "values": [
+          "výraznější",
+          "mírnější, postupný"
+        ]
+      },
+      {
+        "name": "Komfort",
+        "values": [
+          "může být nepříjemné",
+          "obvykle příjemné (teplo)"
+        ]
+      },
+      {
+        "name": "Sezení",
+        "values": [
+          "často 1×, efekt za 2–3 měsíce",
+          "série + udržování"
+        ]
+      }
+    ],
+    "verdict": "HIFU pro výraznější lifting dolní třetiny obličeje a krku; RF pro pozvolné, pohodlné zpevnění a údržbu.",
+    "body": [
+      {
+        "h2": "Hloubka rozhoduje"
+      },
+      {
+        "p": "HIFU jako jediná neinvazivní metoda zasáhne vrstvu SMAS, proto dává výraznější lifting. RF je pohodlnější a postupné."
+      },
+      {
+        "note": "Obě mají slušné důkazy pro zpevnění; HIFU jde hlouběji.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Dá se HIFU a RF kombinovat?",
+        "a": "Ano, někteří je kombinují (RF na povrchovější zpevnění, HIFU do hloubky). Vždy konzultujte odborníka."
+      }
+    ],
+    "sources": [],
+    "relations": {
+      "technologies": [
+        "hifu",
+        "radiofrekvence"
+      ],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
   }
 ]

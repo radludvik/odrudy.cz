@@ -1,78 +1,757 @@
 [
   {
-    "id": "proc-botox", "slug": "botox", "type": "procedure", "name": "Botox (botulotoxin)",
+    "id": "proc-botox",
+    "slug": "botox",
+    "type": "procedure",
+    "name": "Botox (botulotoxin)",
     "title": "Botox: jak funguje a na co se hodí | antiagelab.cz",
     "metaDescription": "Botulotoxin uvolňuje mimické svaly a vyhlazuje dynamické vrásky. Princip, výsledky, rizika a realistická očekávání.",
-    "h1": "Botox (botulotoxin)", "excerpt": "Uvolňuje mimické svaly a vyhlazuje dynamické vrásky (čelo, mračivka, oční okolí).",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "h1": "Botox (botulotoxin)",
+    "excerpt": "Uvolňuje mimické svaly a vyhlazuje dynamické vrásky (čelo, mračivka, oční okolí).",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
     "principle": "Botulotoxin dočasně blokuje nervosvalový přenos a tím uvolní mimický sval, který tvoří dynamickou vrásku.",
-    "invasiveness": "miniinvazivní (injekce)", "downtime": "minimální", "frequency": "obvykle každé 3–4 měsíce",
-    "results": "Vyhlazení dynamických vrásek, efekt 3–6 měsíců.", "risks": ["Přechodné modřiny", "Asymetrie při nevhodné aplikaci", "Pokleslé víčko (vzácné)"], "priceRange": "tisíce Kč dle rozsahu",
-    "image": { "src": "/assets/img/procedures/botox.svg", "alt": "Botox — princip uvolnění svalu", "type": "illustration" },
-    "body": [
-      { "h2": "Na co se hodí" },
-      { "p": "Botox je nejúčinnější na dynamické (mimické) vrásky — čelo, mračivku a vrásky kolem očí. Statické vrásky řeší méně." },
-      { "note": "Účinnost a bezpečnost botulotoxinu na dynamické vrásky jsou velmi dobře doloženy.", "evidence": "strong" }
+    "invasiveness": "miniinvazivní (injekce)",
+    "downtime": "minimální",
+    "frequency": "obvykle každé 3–4 měsíce",
+    "results": "Vyhlazení dynamických vrásek, efekt 3–6 měsíců.",
+    "risks": [
+      "Přechodné modřiny",
+      "Asymetrie při nevhodné aplikaci",
+      "Pokleslé víčko (vzácné)"
     ],
-    "faq": [ { "q": "Je botox neinvazivní?", "a": "Je miniinvazivní (injekce), ale bez rekonvalescence. Patří do rukou lékaře." } ],
+    "priceRange": "tisíce Kč dle rozsahu",
+    "image": {
+      "src": "/assets/img/procedures/botox.svg",
+      "alt": "Botox — princip uvolnění svalu",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Na co se hodí"
+      },
+      {
+        "p": "Botox je nejúčinnější na dynamické (mimické) vrásky — čelo, mračivku a vrásky kolem očí. Statické vrásky řeší méně."
+      },
+      {
+        "note": "Účinnost a bezpečnost botulotoxinu na dynamické vrásky jsou velmi dobře doloženy.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je botox neinvazivní?",
+        "a": "Je miniinvazivní (injekce), ale bez rekonvalescence. Patří do rukou lékaře."
+      }
+    ],
     "sources": [],
-    "relations": { "problems": ["hluboke-vrasky"], "skinTypes": ["zrala"], "ageGroups": ["30-plus", "40-plus", "50-plus"], "terms": ["dynamicka-vraska"] }
+    "relations": {
+      "problems": [
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "dynamicka-vraska"
+      ]
+    }
   },
   {
-    "id": "proc-profhilo", "slug": "profhilo", "type": "procedure", "name": "Profhilo",
+    "id": "proc-profhilo",
+    "slug": "profhilo",
+    "type": "procedure",
+    "name": "Profhilo",
     "title": "Profhilo: bioremodelace hyaluronem | antiagelab.cz",
     "metaDescription": "Profhilo je injekční bioremodelace stabilizovanou kyselinou hyaluronovou pro hydrataci a pevnost pleti. Princip a výsledky.",
-    "h1": "Profhilo", "excerpt": "Injekční bioremodelace hyaluronem — hydratuje a zpevňuje, nevyplňuje rysy.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "h1": "Profhilo",
+    "excerpt": "Injekční bioremodelace hyaluronem — hydratuje a zpevňuje, nevyplňuje rysy.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
     "principle": "Vysoce koncentrovaná stabilizovaná kyselina hyaluronová se aplikuje do několika bodů a rozlije se, hydratuje a stimuluje kolagen i elastin.",
-    "invasiveness": "miniinvazivní (injekce)", "downtime": "minimální", "frequency": "2 sezení po 4 týdnech, poté udržovací",
-    "results": "Hydratovanější, pevnější a zářivější pleť.", "risks": ["Přechodné bulky v místě vpichu", "Modřiny"], "priceRange": "tisíce Kč za sezení",
-    "image": { "src": "/assets/img/procedures/profhilo.svg", "alt": "Profhilo — bioremodelace", "type": "illustration" },
-    "body": [
-      { "h2": "Není to výplň" },
-      { "p": "Profhilo nemění rysy jako klasické výplně — působí plošně na kvalitu pleti: hydrataci, pružnost a jas." },
-      { "note": "Studie ukazují zlepšení hydratace a pružnosti, dat je zatím střední množství.", "evidence": "moderate" }
+    "invasiveness": "miniinvazivní (injekce)",
+    "downtime": "minimální",
+    "frequency": "2 sezení po 4 týdnech, poté udržovací",
+    "results": "Hydratovanější, pevnější a zářivější pleť.",
+    "risks": [
+      "Přechodné bulky v místě vpichu",
+      "Modřiny"
     ],
-    "faq": [ { "q": "Jaký je rozdíl proti výplním?", "a": "Výplně tvarují a doplňují objem, Profhilo zlepšuje kvalitu pleti plošně." } ],
+    "priceRange": "tisíce Kč za sezení",
+    "image": {
+      "src": "/assets/img/procedures/profhilo.svg",
+      "alt": "Profhilo — bioremodelace",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Není to výplň"
+      },
+      {
+        "p": "Profhilo nemění rysy jako klasické výplně — působí plošně na kvalitu pleti: hydrataci, pružnost a jas."
+      },
+      {
+        "note": "Studie ukazují zlepšení hydratace a pružnosti, dat je zatím střední množství.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jaký je rozdíl proti výplním?",
+        "a": "Výplně tvarují a doplňují objem, Profhilo zlepšuje kvalitu pleti plošně."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["kyselina-hyaluronova"], "problems": ["povolena-plet", "matna-plet"], "skinTypes": ["zrala", "sucha"], "ageGroups": ["40-plus", "50-plus"] }
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "povolena-plet",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "zrala",
+        "sucha"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
   },
   {
-    "id": "proc-microneedling", "slug": "microneedling-procedura", "type": "procedure", "name": "Microneedling (procedura)",
+    "id": "proc-microneedling",
+    "slug": "microneedling-procedura",
+    "type": "procedure",
+    "name": "Microneedling (procedura)",
     "title": "Microneedling jako procedura: profesionální dermapen | antiagelab.cz",
     "metaDescription": "Profesionální microneedling dermapenem stimuluje kolagen a zlepšuje jizvy i texturu. Průběh, výsledky a péče po.",
-    "h1": "Microneedling (procedura)", "excerpt": "Profesionální mikrojehličkování dermapenem pro jizvy, póry a texturu.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "h1": "Microneedling (procedura)",
+    "excerpt": "Profesionální mikrojehličkování dermapenem pro jizvy, póry a texturu.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
     "principle": "Sterilní jehly s nastavitelnou hloubkou vytvoří kontrolovaná mikroporanění a spustí tvorbu kolagenu.",
-    "invasiveness": "miniinvazivní", "downtime": "1–3 dny zarudnutí", "frequency": "série 3–6 sezení po 4 týdnech",
-    "results": "Zlepšení jizev po akné, pórů a textury.", "risks": ["Zarudnutí", "Infekce při špatné hygieně", "Postzánětlivá pigmentace"], "priceRange": "stovky až tisíce Kč za sezení",
-    "image": { "src": "/assets/img/procedures/microneedling-procedura.svg", "alt": "Microneedling procedura", "type": "illustration" },
-    "body": [
-      { "h2": "Kdy do salonu" },
-      { "p": "Profesionální microneedling pracuje s větší hloubkou a sterilitou než domácí dermaroller — vhodný hlavně na jizvy po akné." },
-      { "note": "Dobré důkazy pro jizvy po akné a texturu.", "evidence": "moderate" }
+    "invasiveness": "miniinvazivní",
+    "downtime": "1–3 dny zarudnutí",
+    "frequency": "série 3–6 sezení po 4 týdnech",
+    "results": "Zlepšení jizev po akné, pórů a textury.",
+    "risks": [
+      "Zarudnutí",
+      "Infekce při špatné hygieně",
+      "Postzánětlivá pigmentace"
     ],
-    "faq": [ { "q": "Jak se starat po microneedlingu?", "a": "Jen jemná hydratace a SPF, žádné aktivní látky první dny." } ],
+    "priceRange": "stovky až tisíce Kč za sezení",
+    "image": {
+      "src": "/assets/img/procedures/microneedling-procedura.svg",
+      "alt": "Microneedling procedura",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Kdy do salonu"
+      },
+      {
+        "p": "Profesionální microneedling pracuje s větší hloubkou a sterilitou než domácí dermaroller — vhodný hlavně na jizvy po akné."
+      },
+      {
+        "note": "Dobré důkazy pro jizvy po akné a texturu.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jak se starat po microneedlingu?",
+        "a": "Jen jemná hydratace a SPF, žádné aktivní látky první dny."
+      }
+    ],
     "sources": [],
-    "relations": { "technologies": ["microneedling"], "problems": ["textura", "rozsirene-pory"], "ageGroups": ["30-plus", "40-plus"] }
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ],
+      "problems": [
+        "textura",
+        "rozsirene-pory"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
   },
   {
-    "id": "proc-chemicky-peeling", "slug": "chemicky-peeling", "type": "procedure", "name": "Chemický peeling",
+    "id": "proc-chemicky-peeling",
+    "slug": "chemicky-peeling",
+    "type": "procedure",
+    "name": "Chemický peeling",
     "title": "Chemický peeling: jas a obnova pleti | antiagelab.cz",
     "metaDescription": "Chemické peelingy kyselinami obnovují povrch pleti, rozjasňují a vyhlazují. Druhy peelingů a čemu odpovídají.",
-    "h1": "Chemický peeling", "excerpt": "Řízená exfoliace kyselinami pro jas, texturu a pigmentaci. Od povrchových po hloubkové.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "h1": "Chemický peeling",
+    "excerpt": "Řízená exfoliace kyselinami pro jas, texturu a pigmentaci. Od povrchových po hloubkové.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
     "principle": "Kyseliny (AHA, BHA, TCA) v koncentraci aplikované odborníkem řízeně odstraní vrstvy pokožky a spustí obnovu.",
-    "invasiveness": "neinvazivní až miniinvazivní", "downtime": "dle hloubky 0–7 dní", "frequency": "série dle typu",
-    "results": "Jasnější, hladší pleť, zlepšení pigmentace.", "risks": ["Zarudnutí, olupování", "Pigmentace při špatné péči", "Citlivost na slunce"], "priceRange": "stovky až tisíce Kč",
-    "image": { "src": "/assets/img/procedures/chemicky-peeling.svg", "alt": "Chemický peeling", "type": "illustration" },
-    "body": [
-      { "h2": "Povrchový vs hloubkový" },
-      { "p": "Povrchové peelingy (AHA/BHA) jsou bez rekonvalescence a dají se opakovat. Hloubkové (TCA) mají větší efekt i rekonvalescenci." },
-      { "note": "Peelingy mají dobré důkazy pro jas, texturu a pigmentaci.", "evidence": "strong" }
+    "invasiveness": "neinvazivní až miniinvazivní",
+    "downtime": "dle hloubky 0–7 dní",
+    "frequency": "série dle typu",
+    "results": "Jasnější, hladší pleť, zlepšení pigmentace.",
+    "risks": [
+      "Zarudnutí, olupování",
+      "Pigmentace při špatné péči",
+      "Citlivost na slunce"
     ],
-    "faq": [ { "q": "Můžu peeling v létě?", "a": "Povrchové opatrně s důsledným SPF; hloubkové se doporučují mimo letní měsíce." } ],
+    "priceRange": "stovky až tisíce Kč",
+    "image": {
+      "src": "/assets/img/procedures/chemicky-peeling.svg",
+      "alt": "Chemický peeling",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Povrchový vs hloubkový"
+      },
+      {
+        "p": "Povrchové peelingy (AHA/BHA) jsou bez rekonvalescence a dají se opakovat. Hloubkové (TCA) mají větší efekt i rekonvalescenci."
+      },
+      {
+        "note": "Peelingy mají dobré důkazy pro jas, texturu a pigmentaci.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Můžu peeling v létě?",
+        "a": "Povrchové opatrně s důsledným SPF; hloubkové se doporučují mimo letní měsíce."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["aha", "bha"], "problems": ["pigmentace", "matna-plet", "textura"], "skinTypes": ["mastna", "zrala"], "ageGroups": ["30-plus", "40-plus"] }
+    "relations": {
+      "ingredients": [
+        "aha",
+        "bha"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet",
+        "textura"
+      ],
+      "skinTypes": [
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/skinboostery.svg",
+      "alt": "Skinboostery — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-skinboostery",
+    "slug": "skinboostery",
+    "name": "Skinboostery",
+    "title": "Skinboostery: injekční hydratace pleti",
+    "metaDescription": "Skinboostery jsou injekce řídké kyseliny hyaluronové pro hloubkovou hydrataci a kvalitu pleti. Princip a výsledky.",
+    "h1": "Skinboostery",
+    "excerpt": "Injekce řídké kyseliny hyaluronové pro hloubkovou hydrataci, jas a pružnost — nevyplňují rysy.",
+    "evidenceLevel": "moderate",
+    "principle": "Mikroinjekce řídké, nestabilizované nebo lehce stabilizované kyseliny hyaluronové do dermis, kde váže vodu a postupně podporuje kvalitu pleti.",
+    "invasiveness": "miniinvazivní (injekce)",
+    "downtime": "minimální (drobné papuly 1–2 dny)",
+    "frequency": "série 2–3 sezení, poté udržovací",
+    "results": "Hydratovaná, zářivější a pružnější pleť; zlepšení jemných vrásek.",
+    "risks": [
+      "Modřiny, papuly",
+      "Vzácně infekce",
+      "Bulky při nesprávné aplikaci"
+    ],
+    "priceRange": "tisíce Kč za sezení",
+    "body": [
+      {
+        "h2": "Hydratace zevnitř"
+      },
+      {
+        "p": "Skinboostery dodají vlhkost přímo do pleti, kam topická hyaluronka nedosáhne. Nemění objem rysů — zlepšují kvalitu a jas."
+      },
+      {
+        "note": "Studie ukazují zlepšení hydratace, pružnosti a jemných vrásek.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jaký je rozdíl proti výplním?",
+        "a": "Výplně tvarují objem, skinboostery plošně zlepšují kvalitu a hydrataci pleti."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Distante F. et al. — Stabilized HA skin boosters",
+        "journal": "Dermatol Surg",
+        "year": 2009,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova",
+        "pdrn"
+      ],
+      "problems": [
+        "matna-plet",
+        "povolena-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "sucha",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/prp.svg",
+      "alt": "PRP (plazma, „vampire facial\") — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-prp",
+    "slug": "prp",
+    "name": "PRP (plazma, „vampire facial\")",
+    "title": "PRP: vlastní plazma pro regeneraci pleti",
+    "metaDescription": "PRP využívá vaší vlastní krevní plazmu bohatou na destičky ke stimulaci kolagenu a hojení. Co o tom víme.",
+    "h1": "PRP (plazma bohatá na destičky)",
+    "excerpt": "Vlastní krevní plazma bohatá na růstové faktory pro regeneraci, kolagen a kvalitu pleti.",
+    "evidenceLevel": "moderate",
+    "principle": "Z malého odběru krve se odstředěním získá plazma bohatá na destičky a růstové faktory, která se vpraví do pleti (injekčně nebo s microneedlingem).",
+    "invasiveness": "miniinvazivní",
+    "downtime": "1–3 dny zarudnutí",
+    "frequency": "série 3 sezení po 4 týdnech",
+    "results": "Zlepšení kvality, jasu a jemných vrásek; podpora hojení.",
+    "risks": [
+      "Modřiny, zarudnutí",
+      "Vzácně infekce"
+    ],
+    "priceRange": "tisíce Kč za sezení",
+    "body": [
+      {
+        "h2": "Z vlastní krve"
+      },
+      {
+        "p": "PRP („vampire facial\") využívá růstové faktory z vlastní krve. Často se kombinuje s microneedlingem pro lepší průnik."
+      },
+      {
+        "note": "Pro texturu, jas a jizvy po akné jsou důkazy povzbudivé, byť heterogenní.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je PRP bezpečné?",
+        "a": "Protože jde o vlastní krev, riziko alergie je minimální; klíčová je sterilita a zkušený lékař."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hesseler MJ et al. — PRP in facial rejuvenation",
+        "journal": "J Am Acad Dermatol",
+        "year": 2019,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ],
+      "problems": [
+        "textura",
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/frakcni-laser.svg",
+      "alt": "Frakční laser (Fraxel) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-frakcni-laser",
+    "slug": "frakcni-laser",
+    "name": "Frakční laser (Fraxel)",
+    "title": "Frakční laser (Fraxel): obnova pleti",
+    "metaDescription": "Neablativní frakční laser stimuluje kolagen a zlepšuje texturu, jizvy a pigmentaci s minimální rekonvalescencí.",
+    "h1": "Frakční laser (Fraxel)",
+    "excerpt": "Mikrosloupce tepla obnovují pleť — textura, jizvy, pigmentace. Méně rekonvalescence než ablativní laser.",
+    "evidenceLevel": "strong",
+    "principle": "Laser ošetří jen zlomek plochy mikroskopickými sloupci tepla; okolní zdravá tkáň urychlí hojení a remodelaci kolagenu.",
+    "invasiveness": "neablativní/ablativní frakční",
+    "downtime": "2–5 dní zarudnutí a olupování",
+    "frequency": "série 3–5 sezení",
+    "results": "Zlepšení textury, jizev po akné, pigmentace a jemných vrásek.",
+    "risks": [
+      "Zarudnutí, otok",
+      "Riziko pigmentace u tmavších fototypů",
+      "Vzácně infekce/jizvy"
+    ],
+    "priceRange": "tisíce až desetitisíce Kč za sérii",
+    "body": [
+      {
+        "h2": "Kompromis síla/rekonvalescence"
+      },
+      {
+        "p": "Frakční laser nabízí výrazné zlepšení s kratší rekonvalescencí než plně ablativní CO₂ laser. Patří mezi nejlépe doložené metody obnovy pleti."
+      },
+      {
+        "note": "Frakční fototermolýza má silné důkazy pro texturu, jizvy a fotopoškození.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Fraxel, nebo CO₂ laser?",
+        "a": "Fraxel je obvykle šetrnější s kratší rekonvalescencí; CO₂ má silnější efekt, ale delší hojení."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tierney EP et al. — Fractional laser resurfacing",
+        "journal": "Dermatol Surg",
+        "year": 2009,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ],
+      "problems": [
+        "textura",
+        "pigmentace",
+        "jemne-vrasky",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/co2-laser.svg",
+      "alt": "CO₂ laser (ablativní) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-co2-laser",
+    "slug": "co2-laser",
+    "name": "CO₂ laser (ablativní)",
+    "title": "CO₂ laser: nejsilnější obnova pleti",
+    "metaDescription": "Ablativní CO₂ laser zásadně obnovuje pleť a vrásky, za cenu delší rekonvalescence. Pro koho se hodí.",
+    "h1": "CO₂ laser (ablativní)",
+    "excerpt": "Nejsilnější nechirurgická obnova pleti — výrazné vrásky a jizvy. Delší rekonvalescence.",
+    "evidenceLevel": "strong",
+    "principle": "Ablativní laser odpaří svrchní vrstvy kůže a zahřeje dermis, čímž spustí výraznou novotvorbu kolagenu a kompletní obnovu povrchu.",
+    "invasiveness": "ablativní (výkonný zákrok)",
+    "downtime": "7–14 dní hojení",
+    "frequency": "obvykle jednorázově, dle indikace",
+    "results": "Výrazné zlepšení hlubokých vrásek, jizev a fotopoškození.",
+    "risks": [
+      "Delší zarudnutí a hojení",
+      "Riziko pigmentace/jizev",
+      "Nutná pečlivá péče a SPF"
+    ],
+    "priceRange": "desetitisíce Kč",
+    "body": [
+      {
+        "h2": "Maximální efekt, delší hojení"
+      },
+      {
+        "p": "CO₂ laser je z nechirurgických metod nejúčinnější na hluboké vrásky a jizvy, vyžaduje ale rekonvalescenci a zkušeného lékaře."
+      },
+      {
+        "note": "Ablativní laser má silné důkazy pro fotostárnutí a jizvy.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jak dlouhé je hojení po CO₂ laseru?",
+        "a": "Obvykle 1–2 týdny zarudnutí a olupování; plný efekt se rozvíjí měsíce."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Omi T., Numano K. — CO2 laser resurfacing",
+        "journal": "Laser Ther",
+        "year": 2014,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "problems": [
+        "hluboke-vrasky",
+        "textura",
+        "pigmentace"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/ipl-procedura.svg",
+      "alt": "IPL fotorejuvenace — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-ipl-procedura",
+    "slug": "ipl-procedura",
+    "name": "IPL fotorejuvenace",
+    "title": "IPL fotorejuvenace: ošetření pigmentace a zarudnutí",
+    "metaDescription": "IPL fotorejuvenace cílí na sluneční skvrny a zarudnutí a sjednocuje tón pleti. Průběh a očekávání.",
+    "h1": "IPL fotorejuvenace",
+    "excerpt": "Profesionální IPL ošetření na sluneční skvrny, zarudnutí a sjednocení tónu.",
+    "evidenceLevel": "moderate",
+    "principle": "Pulzy širokospektrého světla selektivně zahřejí pigment a cévky, které se rozpadnou a odbourají, čímž se sjednotí tón.",
+    "invasiveness": "neinvazivní",
+    "downtime": "minimální (skvrny mohou dočasně ztmavnout a oloupat se)",
+    "frequency": "série 3–5 sezení",
+    "results": "Zesvětlení slunečních skvrn, zmírnění zarudnutí, jasnější tón.",
+    "risks": [
+      "Popálení/pigmentace u tmavších a opálených typů",
+      "Přechodné ztmavnutí skvrn"
+    ],
+    "priceRange": "stovky až tisíce Kč za sezení",
+    "body": [
+      {
+        "h2": "Na skvrny a zarudnutí"
+      },
+      {
+        "p": "IPL fotorejuvenace je oblíbená u sluneční pigmentace a rosacey. Není vhodná na opálenou ani tmavší pleť."
+      },
+      {
+        "note": "Dobré důkazy pro pigmentaci a cévní projevy.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Můžu IPL v létě?",
+        "a": "Nedoporučuje se na opálenou pleť — roste riziko popálení a pigmentace. Lepší je mimo sezónu, vždy s SPF."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Goldberg DJ — IPL photorejuvenation",
+        "journal": "J Clin Aesthet Dermatol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ],
+      "problems": [
+        "pigmentace",
+        "rosacea"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/biostimulatory.svg",
+      "alt": "Biostimulátory kolagenu — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-biostimulatory",
+    "slug": "biostimulatory",
+    "name": "Biostimulátory kolagenu",
+    "title": "Biostimulátory kolagenu (PLLA, CaHA)",
+    "metaDescription": "Biostimulátory jako kyselina polymléčná nebo CaHA postupně stimulují vlastní kolagen a zlepšují pevnost.",
+    "h1": "Biostimulátory kolagenu (PLLA, CaHA)",
+    "excerpt": "Injekční látky (kyselina polymléčná, CaHA), které postupně stimulují vlastní kolagen a pevnost.",
+    "evidenceLevel": "moderate",
+    "principle": "Na rozdíl od výplní nedoplňují objem okamžitě, ale dráždí tkáň k tvorbě vlastního kolagenu během týdnů až měsíců.",
+    "invasiveness": "miniinvazivní (injekce)",
+    "downtime": "minimální",
+    "frequency": "série dle produktu, efekt rok i déle",
+    "results": "Postupné zpevnění, zlepšení kvality a mírné obnovení objemu.",
+    "risks": [
+      "Modřiny, otok",
+      "Vzácně uzlíky",
+      "Vyžaduje zkušeného lékaře"
+    ],
+    "priceRange": "tisíce až desetitisíce Kč",
+    "body": [
+      {
+        "h2": "Pomalý, ale dlouhý efekt"
+      },
+      {
+        "p": "Biostimulátory pracují s vaším vlastním kolagenem, proto se efekt rozvíjí postupně a vydrží dlouho. Vhodné na celkovou kvalitu a pevnost."
+      },
+      {
+        "note": "Studie potvrzují postupné zpevnění a tvorbu kolagenu.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jsou biostimulátory totéž co výplně?",
+        "a": "Ne. Výplně doplní objem hned; biostimulátory pomalu budují vlastní kolagen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Haddad A. et al. — Collagen biostimulators",
+        "journal": "J Cosmet Dermatol",
+        "year": 2022,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "peptidy"
+      ],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ]
+    }
+  },
+  {
+    "type": "procedure",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/procedures/vyplne.svg",
+      "alt": "Výplně (dermální fillery) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "proc-vyplne",
+    "slug": "vyplne",
+    "name": "Výplně (dermální fillery)",
+    "title": "Výplně kyselinou hyaluronovou: objem a kontury",
+    "metaDescription": "Dermální výplně z kyseliny hyaluronové doplní objem, vyhladí rýhy a obnoví kontury. Princip a rizika.",
+    "h1": "Výplně (dermální fillery)",
+    "excerpt": "Injekční kyselina hyaluronová pro doplnění objemu, vyhlazení rýh a obnovu kontur.",
+    "evidenceLevel": "strong",
+    "principle": "Stabilizovaná kyselina hyaluronová se aplikuje do míst úbytku objemu (lícní kosti, rýhy, rty), kde okamžitě doplní tvar a váže vodu.",
+    "invasiveness": "miniinvazivní (injekce)",
+    "downtime": "minimální (modřiny, otok pár dní)",
+    "frequency": "efekt 6–18 měsíců dle oblasti",
+    "results": "Okamžité doplnění objemu, vyhlazení rýh, obnovení kontur.",
+    "risks": [
+      "Modřiny, otok",
+      "Asymetrie/přeplnění při nadužití",
+      "Vzácně cévní komplikace (nutný zkušený lékař)"
+    ],
+    "priceRange": "tisíce až desetitisíce Kč",
+    "body": [
+      {
+        "h2": "Objem, ne kvalita pleti"
+      },
+      {
+        "p": "Výplně řeší ztrátu objemu a statické rýhy, které kosmetika ani technologie nezvládnou. Klíčem je střídmost a zkušený lékař — výsledek má být přirozený."
+      },
+      {
+        "note": "HA výplně mají silné důkazy pro doplnění objemu a vyhlazení rýh.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jdou výplně odstranit?",
+        "a": "Hyaluronové ano — enzymem hyaluronidázou je lze rozpustit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bass LS — HA fillers efficacy and safety",
+        "journal": "Facial Plast Surg Clin",
+        "year": 2015,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "hluboke-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ]
+    }
   }
 ]

@@ -12,35 +12,120 @@
     "updated": "2026-06-01",
     "principle": "LED diody vyzařují světlo o přesné vlnové délce. Různé vlnové délky pronikají do různé hloubky a spouštějí různé buněčné reakce, bez tepla a bez poškození pokožky.",
     "mechanism": "Červené (630–660 nm) a near-infrared (810–850 nm) světlo působí na mitochondrie (fotobiomodulace), zvyšuje produkci ATP, stimuluje fibroblasty a tvorbu kolagenu. Modré (415 nm) ničí bakterie způsobující akné.",
-    "pros": ["Neinvazivní a bezbolestná", "Bez rekonvalescence", "Vhodná i pro citlivou pleť", "Lze používat doma"],
-    "cons": ["Vyžaduje pravidelnost (týdny až měsíce)", "Efekt je mírný a kumulativní", "Kvalita domácích zařízení se liší"],
-    "contraindications": ["Fotosenzitivní onemocnění", "Užívání fotosenzibilizujících léků", "Aktivní kožní nádory"],
+    "pros": [
+      "Neinvazivní a bezbolestná",
+      "Bez rekonvalescence",
+      "Vhodná i pro citlivou pleť",
+      "Lze používat doma"
+    ],
+    "cons": [
+      "Vyžaduje pravidelnost (týdny až měsíce)",
+      "Efekt je mírný a kumulativní",
+      "Kvalita domácích zařízení se liší"
+    ],
+    "contraindications": [
+      "Fotosenzitivní onemocnění",
+      "Užívání fotosenzibilizujících léků",
+      "Aktivní kožní nádory"
+    ],
     "evidenceSummary": "Fotobiomodulace má rostoucí důkazní základnu pro mírné zlepšení vrásek, jasu a hojení; účinky jsou reálné, ale postupné.",
-    "image": { "src": "/assets/img/technologies/led-terapie.svg", "alt": "LED terapie a pronikání vlnových délek do pokožky", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/technologies/led-terapie.svg",
+      "alt": "LED terapie a pronikání vlnových délek do pokožky",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Jak LED terapie funguje" },
-      { "p": "LED terapie není laser — nepoškozuje tkáň, ale jemně \"nabíjí\" buňky energií. Klíčem je správná vlnová délka a dostatečná dávka (pravidelnost)." },
-      { "note": "Studie ukazují mírné, ale konzistentní zlepšení kolagenu a jasu při pravidelném používání.", "evidence": "moderate" },
-      { "h2": "Barvy a jejich účel" },
-      { "table": { "head": ["Barva", "Vlnová délka", "Cíl"], "rows": [["Červená", "630–660 nm", "Kolagen, vrásky, jas"], ["Near-infrared", "810–850 nm", "Hlubší vrstvy, hojení"], ["Modrá", "415 nm", "Akné, bakterie"]] } }
+      {
+        "h2": "Jak LED terapie funguje"
+      },
+      {
+        "p": "LED terapie není laser — nepoškozuje tkáň, ale jemně \"nabíjí\" buňky energií. Klíčem je správná vlnová délka a dostatečná dávka (pravidelnost)."
+      },
+      {
+        "note": "Studie ukazují mírné, ale konzistentní zlepšení kolagenu a jasu při pravidelném používání.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Barvy a jejich účel"
+      },
+      {
+        "table": {
+          "head": [
+            "Barva",
+            "Vlnová délka",
+            "Cíl"
+          ],
+          "rows": [
+            [
+              "Červená",
+              "630–660 nm",
+              "Kolagen, vrásky, jas"
+            ],
+            [
+              "Near-infrared",
+              "810–850 nm",
+              "Hlubší vrstvy, hojení"
+            ],
+            [
+              "Modrá",
+              "415 nm",
+              "Akné, bakterie"
+            ]
+          ]
+        }
+      }
     ],
     "faq": [
-      { "q": "Jak často LED masku používat?", "a": "Typicky 3–5× týdně po 10–20 minutách. Výsledky se ukazují po 8–12 týdnech." },
-      { "q": "Funguje LED doma stejně jako v salonu?", "a": "Domácí zařízení mívají nižší výkon, ale při pravidelnosti dávají reálné výsledky. Sledujte výkon a vlnovou délku." }
+      {
+        "q": "Jak často LED masku používat?",
+        "a": "Typicky 3–5× týdně po 10–20 minutách. Výsledky se ukazují po 8–12 týdnech."
+      },
+      {
+        "q": "Funguje LED doma stejně jako v salonu?",
+        "a": "Domácí zařízení mívají nižší výkon, ale při pravidelnosti dávají reálné výsledky. Sledujte výkon a vlnovou délku."
+      }
     ],
     "sources": [
-      { "title": "Wunsch A. — A Controlled Trial to Determine the Efficacy of Red and NIR Light", "journal": "Photomed Laser Surg", "year": 2014, "type": "rct" }
+      {
+        "title": "Wunsch A. — A Controlled Trial to Determine the Efficacy of Red and NIR Light",
+        "journal": "Photomed Laser Surg",
+        "year": 2014,
+        "type": "rct"
+      }
     ],
-    "alternativeTech": ["radiofrekvence", "microcurrent"],
+    "alternativeTech": [
+      "radiofrekvence",
+      "microcurrent"
+    ],
     "relations": {
-      "products": ["currentbody-led-mask"],
-      "studies": ["wunsch-2014-led"],
-      "ingredients": ["peptidy"],
-      "problems": ["jemne-vrasky", "povolena-plet"],
-      "skinTypes": ["citliva", "zrala"],
-      "ageGroups": ["30-plus", "40-plus", "50-plus"],
-      "comparisons": ["led-vs-laser"],
-      "terms": ["fotobiomodulace"]
+      "products": [
+        "currentbody-led-mask"
+      ],
+      "studies": [
+        "wunsch-2014-led"
+      ],
+      "ingredients": [
+        "peptidy"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ],
+      "terms": [
+        "fotobiomodulace"
+      ]
     }
   },
   {
@@ -56,27 +141,71 @@
     "updated": "2026-06-01",
     "principle": "RF energie prochází pokožkou a zahřívá dermis na 40–45 °C. Teplo způsobí okamžité stažení kolagenových vláken a spustí dlouhodobou tvorbu nového kolagenu.",
     "mechanism": "Kontrolované teplo denaturuje a smršťuje kolagen a aktivuje fibroblasty (neokolagenezi). Efekt je dvojí: okamžité mírné zpevnění a postupné zlepšení během týdnů.",
-    "pros": ["Zpevnění a vypnutí kontur", "Neinvazivní, bez rekonvalescence", "Vhodné na ovál obličeje a krk"],
-    "cons": ["Domácí zařízení jsou slabší než profesionální", "Vyžaduje série a údržbu", "Výsledky jsou jemné"],
-    "contraindications": ["Kovové implantáty/kardiostimulátor v oblasti", "Těhotenství", "Aktivní záněty"],
+    "pros": [
+      "Zpevnění a vypnutí kontur",
+      "Neinvazivní, bez rekonvalescence",
+      "Vhodné na ovál obličeje a krk"
+    ],
+    "cons": [
+      "Domácí zařízení jsou slabší než profesionální",
+      "Vyžaduje série a údržbu",
+      "Výsledky jsou jemné"
+    ],
+    "contraindications": [
+      "Kovové implantáty/kardiostimulátor v oblasti",
+      "Těhotenství",
+      "Aktivní záněty"
+    ],
     "evidenceSummary": "Profesionální RF má dobré důkazy pro zpevnění; domácí zařízení působí mírněji a vyžadují pravidelnost.",
-    "image": { "src": "/assets/img/technologies/radiofrekvence.svg", "alt": "Radiofrekvence zahřívá dermis a stahuje kolagen", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/technologies/radiofrekvence.svg",
+      "alt": "Radiofrekvence zahřívá dermis a stahuje kolagen",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Princip tepla" },
-      { "p": "Radiofrekvence pracuje s teplem v hloubce, kam se běžná kosmetika nedostane. Cílem je \"přeprogramovat\" kolagen, aby se stáhl a obnovil." },
-      { "note": "Profesionální RF má slušné důkazy pro zpevnění; u domácích přístrojů jsou výsledky mírnější.", "evidence": "moderate" }
+      {
+        "h2": "Princip tepla"
+      },
+      {
+        "p": "Radiofrekvence pracuje s teplem v hloubce, kam se běžná kosmetika nedostane. Cílem je \"přeprogramovat\" kolagen, aby se stáhl a obnovil."
+      },
+      {
+        "note": "Profesionální RF má slušné důkazy pro zpevnění; u domácích přístrojů jsou výsledky mírnější.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [
-      { "q": "Jak rychle RF zabere?", "a": "Část efektu je okamžitá, plný výsledek po sérii a několika týdnech tvorby kolagenu." }
+      {
+        "q": "Jak rychle RF zabere?",
+        "a": "Část efektu je okamžitá, plný výsledek po sérii a několika týdnech tvorby kolagenu."
+      }
     ],
     "sources": [
-      { "title": "Sadick N. — Radiofrequency for skin tightening", "journal": "J Cosmet Laser Ther", "year": 2008, "type": "review" }
+      {
+        "title": "Sadick N. — Radiofrequency for skin tightening",
+        "journal": "J Cosmet Laser Ther",
+        "year": 2008,
+        "type": "review"
+      }
     ],
-    "alternativeTech": ["hifu", "led-terapie", "microcurrent"],
+    "alternativeTech": [
+      "hifu",
+      "led-terapie",
+      "microcurrent"
+    ],
     "relations": {
-      "problems": ["povolena-plet", "hluboke-vrasky"],
-      "skinTypes": ["zrala"],
-      "ageGroups": ["40-plus", "50-plus", "60-plus"],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ],
       "comparisons": []
     }
   },
@@ -93,28 +222,72 @@
     "updated": "2026-06-01",
     "principle": "Velmi slabý elektrický proud (mikroampéry) stimuluje obličejové svaly a buněčný metabolismus, čímž navozuje dojem zpevnění a \"liftingu\".",
     "mechanism": "Proud má tonizovat mimické svaly a zvyšovat tvorbu ATP. Efekt je převážně dočasný a kumulativní — funguje jako \"cvičení\" pro obličej.",
-    "pros": ["Okamžitý dočasný lifting", "Neinvazivní a příjemné", "Vhodné před událostí"],
-    "cons": ["Efekt je dočasný, vyžaduje opakování", "Slabá důkazní základna pro trvalé výsledky"],
-    "contraindications": ["Kardiostimulátor", "Těhotenství", "Epilepsie", "Kovové implantáty v oblasti"],
+    "pros": [
+      "Okamžitý dočasný lifting",
+      "Neinvazivní a příjemné",
+      "Vhodné před událostí"
+    ],
+    "cons": [
+      "Efekt je dočasný, vyžaduje opakování",
+      "Slabá důkazní základna pro trvalé výsledky"
+    ],
+    "contraindications": [
+      "Kardiostimulátor",
+      "Těhotenství",
+      "Epilepsie",
+      "Kovové implantáty v oblasti"
+    ],
     "evidenceSummary": "Důkazy pro dočasný tonizační efekt jsou omezené; pro trvalou změnu chybí kvalitní data.",
-    "image": { "src": "/assets/img/technologies/microcurrent.svg", "alt": "Microcurrent stimuluje obličejové svaly", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/technologies/microcurrent.svg",
+      "alt": "Microcurrent stimuluje obličejové svaly",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Cvičení pro obličej" },
-      { "p": "Microcurrent se přirovnává k posilování — výsledek drží, dokud trénujete. Hodí se na dočasné zpevnění a tonizaci." },
-      { "note": "Pro dočasný efekt existují náznaky účinnosti, kvalitních dlouhodobých studií je málo.", "evidence": "limited" }
+      {
+        "h2": "Cvičení pro obličej"
+      },
+      {
+        "p": "Microcurrent se přirovnává k posilování — výsledek drží, dokud trénujete. Hodí se na dočasné zpevnění a tonizaci."
+      },
+      {
+        "note": "Pro dočasný efekt existují náznaky účinnosti, kvalitních dlouhodobých studií je málo.",
+        "evidence": "limited"
+      }
     ],
     "faq": [
-      { "q": "Vydrží efekt microcurrentu?", "a": "Spíše ne natrvalo — funguje při pravidelném používání, jinak postupně mizí." }
+      {
+        "q": "Vydrží efekt microcurrentu?",
+        "a": "Spíše ne natrvalo — funguje při pravidelném používání, jinak postupně mizí."
+      }
     ],
     "sources": [
-      { "title": "Review of microcurrent in aesthetic dermatology", "journal": "J Cosmet Dermatol", "year": 2020, "type": "review" }
+      {
+        "title": "Review of microcurrent in aesthetic dermatology",
+        "journal": "J Cosmet Dermatol",
+        "year": 2020,
+        "type": "review"
+      }
     ],
-    "alternativeTech": ["radiofrekvence", "ems"],
+    "alternativeTech": [
+      "radiofrekvence",
+      "ems"
+    ],
     "relations": {
-      "products": ["nuface-trinity"],
-      "problems": ["povolena-plet"],
-      "skinTypes": ["zrala"],
-      "ageGroups": ["30-plus", "40-plus", "50-plus"],
+      "products": [
+        "nuface-trinity"
+      ],
+      "problems": [
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
       "comparisons": []
     }
   },
@@ -131,27 +304,70 @@
     "updated": "2026-06-01",
     "principle": "HIFU soustředí ultrazvukovou energii do přesných bodů v hloubce, kde lokálním zahřátím vytvoří mikrokoagulační body a spustí silnou tvorbu kolagenu — bez poškození povrchu.",
     "mechanism": "Energie zasahuje až do vrstvy SMAS (kterou jinak ovlivňuje chirurgický lifting). Tepelné body iniciují neokolagenezi a remodelaci po dobu 2–3 měsíců.",
-    "pros": ["Lifting bez operace a rekonvalescence", "Dosáhne hlubokých vrstev", "Dlouhodobější efekt než povrchové metody"],
-    "cons": ["Profesionální procedura, ne domácí", "Může být nepříjemné", "Výsledky závisí na operatérovi"],
-    "contraindications": ["Těhotenství", "Aktivní infekce/záněty v oblasti", "Implantáty v ošetřované zóně"],
+    "pros": [
+      "Lifting bez operace a rekonvalescence",
+      "Dosáhne hlubokých vrstev",
+      "Dlouhodobější efekt než povrchové metody"
+    ],
+    "cons": [
+      "Profesionální procedura, ne domácí",
+      "Může být nepříjemné",
+      "Výsledky závisí na operatérovi"
+    ],
+    "contraindications": [
+      "Těhotenství",
+      "Aktivní infekce/záněty v oblasti",
+      "Implantáty v ošetřované zóně"
+    ],
     "evidenceSummary": "HIFU má dobré důkazy pro lifting dolní třetiny obličeje a krku, výsledek se rozvíjí v řádu měsíců.",
-    "image": { "src": "/assets/img/technologies/hifu.svg", "alt": "HIFU cílí ultrazvuk do hloubky SMAS", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/technologies/hifu.svg",
+      "alt": "HIFU cílí ultrazvuk do hloubky SMAS",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Nejblíž k chirurgickému liftingu" },
-      { "p": "HIFU je z neinvazivních metod nejúčinnější pro skutečné zpevnění, protože jako jediná zasahuje hlubokou vrstvu SMAS." },
-      { "note": "Klinické studie potvrzují zlepšení ochablosti v dolní třetině obličeje a krku.", "evidence": "moderate" }
+      {
+        "h2": "Nejblíž k chirurgickému liftingu"
+      },
+      {
+        "p": "HIFU je z neinvazivních metod nejúčinnější pro skutečné zpevnění, protože jako jediná zasahuje hlubokou vrstvu SMAS."
+      },
+      {
+        "note": "Klinické studie potvrzují zlepšení ochablosti v dolní třetině obličeje a krku.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [
-      { "q": "Bolí HIFU?", "a": "Může být nepříjemný v okamžiku zásahu energie, intenzita se dá regulovat." }
+      {
+        "q": "Bolí HIFU?",
+        "a": "Může být nepříjemný v okamžiku zásahu energie, intenzita se dá regulovat."
+      }
     ],
     "sources": [
-      { "title": "Suh D. — Intense focused ultrasound tightening", "journal": "Dermatol Surg", "year": 2011, "type": "rct" }
+      {
+        "title": "Suh D. — Intense focused ultrasound tightening",
+        "journal": "Dermatol Surg",
+        "year": 2011,
+        "type": "rct"
+      }
     ],
-    "alternativeTech": ["radiofrekvence", "ultrazvuk"],
+    "alternativeTech": [
+      "radiofrekvence",
+      "ultrazvuk"
+    ],
     "relations": {
-      "problems": ["povolena-plet", "hluboke-vrasky"],
-      "skinTypes": ["zrala"],
-      "ageGroups": ["40-plus", "50-plus", "60-plus"],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ],
       "procedures": []
     }
   },
@@ -168,29 +384,77 @@
     "updated": "2026-06-01",
     "principle": "Jemné jehličky vytvoří v pokožce mikroskopické kanálky. Tělo je vnímá jako poranění a spustí hojení provázené tvorbou nového kolagenu a elastinu.",
     "mechanism": "Mikroporanění aktivují kaskádu růstových faktorů a neokolagenezi. Kanálky zároveň dočasně zvyšují průnik účinných látek.",
-    "pros": ["Zlepšení jizev po akné, pórů a textury", "Stimulace kolagenu", "Profesionální i šetrné domácí varianty"],
-    "cons": ["Riziko infekce při špatné hygieně", "Domácí dermaroller je výrazně slabší", "Krátká rekonvalescence u hlubších ošetření"],
-    "contraindications": ["Aktivní akné a infekce", "Sklon ke keloidům", "Poruchy srážlivosti"],
+    "pros": [
+      "Zlepšení jizev po akné, pórů a textury",
+      "Stimulace kolagenu",
+      "Profesionální i šetrné domácí varianty"
+    ],
+    "cons": [
+      "Riziko infekce při špatné hygieně",
+      "Domácí dermaroller je výrazně slabší",
+      "Krátká rekonvalescence u hlubších ošetření"
+    ],
+    "contraindications": [
+      "Aktivní akné a infekce",
+      "Sklon ke keloidům",
+      "Poruchy srážlivosti"
+    ],
     "evidenceSummary": "Profesionální microneedling má dobré důkazy pro jizvy a texturu; domácí dermarollery působí mírněji.",
-    "image": { "src": "/assets/img/technologies/microneedling.svg", "alt": "Microneedling vytváří mikrokanálky v pokožce", "type": "infographic" },
+    "image": {
+      "src": "/assets/img/technologies/microneedling.svg",
+      "alt": "Microneedling vytváří mikrokanálky v pokožce",
+      "type": "infographic"
+    },
     "body": [
-      { "h2": "Domácí vs profesionální" },
-      { "p": "Profesionální dermapen pracuje s nastavitelnou hloubkou a sterilními jehlami. Domácí dermarollery jsou bezpečnější, ale méně účinné a vyžadují pečlivou hygienu." },
-      { "note": "Studie podporují účinnost u jizev po akné a celkové textury.", "evidence": "moderate" }
+      {
+        "h2": "Domácí vs profesionální"
+      },
+      {
+        "p": "Profesionální dermapen pracuje s nastavitelnou hloubkou a sterilními jehlami. Domácí dermarollery jsou bezpečnější, ale méně účinné a vyžadují pečlivou hygienu."
+      },
+      {
+        "note": "Studie podporují účinnost u jizev po akné a celkové textury.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [
-      { "q": "Můžu po microneedlingu retinol?", "a": "Bezprostředně po ošetření ne — počkejte na zhojení a aktivní látky nasazujte postupně dle doporučení odborníka." }
+      {
+        "q": "Můžu po microneedlingu retinol?",
+        "a": "Bezprostředně po ošetření ne — počkejte na zhojení a aktivní látky nasazujte postupně dle doporučení odborníka."
+      }
     ],
     "sources": [
-      { "title": "Hou A. — Microneedling: A Comprehensive Review", "journal": "Dermatol Surg", "year": 2017, "type": "review" }
+      {
+        "title": "Hou A. — Microneedling: A Comprehensive Review",
+        "journal": "Dermatol Surg",
+        "year": 2017,
+        "type": "review"
+      }
     ],
-    "alternativeTech": ["radiofrekvence", "led-terapie"],
+    "alternativeTech": [
+      "radiofrekvence",
+      "led-terapie"
+    ],
     "relations": {
-      "ingredients": ["retinol"],
-      "problems": ["rozsirene-pory", "textura", "jemne-vrasky"],
-      "skinTypes": ["mastna", "zrala"],
-      "ageGroups": ["30-plus", "40-plus"],
-      "procedures": ["microneedling-procedura"]
+      "ingredients": [
+        "retinol"
+      ],
+      "problems": [
+        "rozsirene-pory",
+        "textura",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "procedures": [
+        "microneedling-procedura"
+      ]
     }
   },
   {
@@ -206,27 +470,1034 @@
     "updated": "2026-06-01",
     "principle": "EMS vysílá proud, který vyvolá viditelné stažení obličejových svalů, podobně jako cvičení. Cílem je posílení a tonizace.",
     "mechanism": "Opakované kontrakce mají posilovat mimické svaly a podpořit prokrvení. Efekt je převážně dočasný.",
-    "pros": ["Tonizace a dočasné zpevnění", "Často kombinováno s dalšími funkcemi přístroje"],
-    "cons": ["Omezené důkazy", "Efekt dočasný", "Nevhodné pro některé stavy"],
-    "contraindications": ["Kardiostimulátor", "Těhotenství", "Epilepsie"],
+    "pros": [
+      "Tonizace a dočasné zpevnění",
+      "Často kombinováno s dalšími funkcemi přístroje"
+    ],
+    "cons": [
+      "Omezené důkazy",
+      "Efekt dočasný",
+      "Nevhodné pro některé stavy"
+    ],
+    "contraindications": [
+      "Kardiostimulátor",
+      "Těhotenství",
+      "Epilepsie"
+    ],
     "evidenceSummary": "Pro trvalé anti-aging výsledky chybí kvalitní data; krátkodobá tonizace je pravděpodobná.",
-    "image": { "src": "/assets/img/technologies/ems.svg", "alt": "EMS stimulace obličejových svalů", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/technologies/ems.svg",
+      "alt": "EMS stimulace obličejových svalů",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "EMS vs microcurrent" },
-      { "p": "EMS používá silnější proud a vyvolá viditelnou kontrakci, microcurrent pracuje pod prahem vnímání. Oba cílí na svaly, EMS výrazněji." },
-      { "note": "Důkazy pro dlouhodobý efekt jsou omezené.", "evidence": "limited" }
+      {
+        "h2": "EMS vs microcurrent"
+      },
+      {
+        "p": "EMS používá silnější proud a vyvolá viditelnou kontrakci, microcurrent pracuje pod prahem vnímání. Oba cílí na svaly, EMS výrazněji."
+      },
+      {
+        "note": "Důkazy pro dlouhodobý efekt jsou omezené.",
+        "evidence": "limited"
+      }
     ],
     "faq": [
-      { "q": "Je EMS lepší než microcurrent?", "a": "Není to lepší/horší, ale jiná intenzita. Pro citlivou pleť bývá microcurrent příjemnější." }
+      {
+        "q": "Je EMS lepší než microcurrent?",
+        "a": "Není to lepší/horší, ale jiná intenzita. Pro citlivou pleť bývá microcurrent příjemnější."
+      }
     ],
     "sources": [
-      { "title": "Overview of facial muscle stimulation", "journal": "J Cosmet Dermatol", "year": 2019, "type": "review" }
+      {
+        "title": "Overview of facial muscle stimulation",
+        "journal": "J Cosmet Dermatol",
+        "year": 2019,
+        "type": "review"
+      }
     ],
-    "alternativeTech": ["microcurrent", "radiofrekvence"],
+    "alternativeTech": [
+      "microcurrent",
+      "radiofrekvence"
+    ],
     "relations": {
-      "problems": ["povolena-plet"],
-      "skinTypes": ["zrala"],
-      "ageGroups": ["40-plus", "50-plus"]
+      "problems": [
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/ipl.svg",
+      "alt": "IPL (intenzivní pulzní světlo) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-ipl",
+    "slug": "ipl",
+    "name": "IPL (intenzivní pulzní světlo)",
+    "title": "IPL: fotorejuvenace na pigmentaci a zarudnutí",
+    "metaDescription": "IPL využívá široké spektrum světla na pigmentaci, zarudnutí a fotorejuvenaci. Princip, výsledky a limity.",
+    "h1": "IPL (intenzivní pulzní světlo)",
+    "excerpt": "Široké spektrum světla cílí na pigment a cévky. Fotorejuvenace pro skvrny a zarudnutí.",
+    "evidenceLevel": "moderate",
+    "principle": "IPL vysílá široké spektrum světla, které selektivně pohlcuje pigment (melanin) a hemoglobin v cévkách, aniž by poškodilo okolí.",
+    "mechanism": "Světelná energie se mění na teplo v pigmentových a cévních strukturách, ty se rozpadnou a tělo je odbourá. Zlepšuje tón, skvrny, zarudnutí a celkovou „fotorejuvenaci\".",
+    "pros": [
+      "Účinné na sluneční pigmentaci a zarudnutí",
+      "Krátká rekonvalescence",
+      "Zlepší celkový tón"
+    ],
+    "cons": [
+      "Nevhodné pro tmavší fototypy (riziko popálení/pigmentace)",
+      "Nutná série",
+      "Nepůsobí na vrásky přímo"
+    ],
+    "contraindications": [
+      "Tmavší/opálená pleť",
+      "Fotosenzitivita",
+      "Těhotenství",
+      "Aktivní opar/infekce"
+    ],
+    "evidenceSummary": "IPL má dobré důkazy pro sluneční pigmentaci, zarudnutí a rosaceu; není primárně na vrásky.",
+    "body": [
+      {
+        "h2": "Na koho cílí"
+      },
+      {
+        "p": "IPL je vlajková loď „fotorejuvenace\" — řeší hlavně pigmentové skvrny a zarudnutí. U tmavších a opálených typů pleti je ale rizikové."
+      },
+      {
+        "note": "Solidní důkazy pro pigmentaci a cévní projevy.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je IPL totéž co laser?",
+        "a": "Ne. IPL je široké spektrum světla, laser jedna vlnová délka. Laser bývá cílenější a silnější."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Goldberg DJ — Current trends in IPL",
+        "journal": "J Clin Aesthet Dermatol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "led-terapie",
+      "radiofrekvence"
+    ],
+    "relations": {
+      "procedures": [
+        "ipl-procedura"
+      ],
+      "problems": [
+        "pigmentace",
+        "rosacea"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/ultrazvuk.svg",
+      "alt": "Ultrazvuk (kosmetický) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-ultrazvuk",
+    "slug": "ultrazvuk",
+    "name": "Ultrazvuk (kosmetický)",
+    "title": "Kosmetický ultrazvuk: čištění a vstřebávání",
+    "metaDescription": "Kosmetický ultrazvuk (ne HIFU) čistí pleť a podporuje vstřebávání látek. Co reálně umí.",
+    "h1": "Ultrazvuk (kosmetický)",
+    "excerpt": "Vibrace pro čištění (špachtle) a lepší vstřebávání látek. Mírný, doplňkový efekt.",
+    "evidenceLevel": "limited",
+    "principle": "Nízkofrekvenční ultrazvukové vibrace čistí póry (ultrazvuková špachtle) nebo zvyšují průnik účinných látek (sonoforéza).",
+    "mechanism": "Mechanické vlnění uvolňuje nečistoty z pórů a dočasně zvyšuje propustnost pokožky pro aktivní látky. Nezaměňovat s HIFU, který pracuje s fokusovanou energií v hloubce.",
+    "pros": [
+      "Šetrné čištění pórů",
+      "Lepší vstřebání sér",
+      "Příjemné a bezbolestné"
+    ],
+    "cons": [
+      "Mírný a dočasný efekt",
+      "Není to anti-aging zázrak",
+      "Slabá důkazní základna"
+    ],
+    "contraindications": [
+      "Aktivní záněty",
+      "Kardiostimulátor (dle zařízení)",
+      "Těhotenství (opatrnost)"
+    ],
+    "evidenceSummary": "Pro čištění a sonoforézu existují náznaky účinnosti; pro vypínání pleti slouží spíše HIFU.",
+    "body": [
+      {
+        "h2": "Pozor na záměnu s HIFU"
+      },
+      {
+        "p": "Běžný kosmetický ultrazvuk je mírná doplňková metoda. Skutečný liftingový efekt nabízí jen fokusovaný ultrazvuk (HIFU)."
+      },
+      {
+        "note": "Důkazy pro výrazný anti-aging efekt jsou omezené.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je ultrazvuk totéž co HIFU?",
+        "a": "Ne. HIFU je fokusovaný ultrazvuk zasahující hloubku; kosmetický ultrazvuk působí povrchově."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Review of therapeutic ultrasound in dermatology",
+        "journal": "J Cosmet Dermatol",
+        "year": 2019,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "hifu",
+      "microcurrent"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ],
+      "problems": [
+        "rozsirene-pory",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "mastna"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/near-infrared.svg",
+      "alt": "Near-infrared (blízké infračervené světlo) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-near-infrared",
+    "slug": "near-infrared",
+    "name": "Near-infrared (blízké infračervené světlo)",
+    "title": "Near-infrared světlo: hloubková fotobiomodulace",
+    "metaDescription": "Near-infrared (810–850 nm) proniká hlouběji než červené světlo a podporuje hojení a kolagen.",
+    "h1": "Near-infrared (blízké infračervené světlo)",
+    "excerpt": "Vlnové délky 810–850 nm pronikají hlouběji než červené světlo. Hojení a kolagen.",
+    "evidenceLevel": "moderate",
+    "principle": "Near-infrared (NIR) světlo proniká hlouběji do tkáně než viditelné červené a působí na mitochondrie buněk (fotobiomodulace) bez tepla a poškození.",
+    "mechanism": "Zvyšuje tvorbu ATP, podporuje fibroblasty, mikrocirkulaci a hojení. Často se kombinuje s červeným světlem v LED maskách.",
+    "pros": [
+      "Hlubší průnik než červené světlo",
+      "Podpora kolagenu a hojení",
+      "Bez tepla, bezbolestné"
+    ],
+    "cons": [
+      "Efekt postupný a kumulativní",
+      "Vyžaduje pravidelnost",
+      "Není vidět „okamžitě\""
+    ],
+    "contraindications": [
+      "Fotosenzitivní onemocnění",
+      "Fotosenzibilizující léky"
+    ],
+    "evidenceSummary": "NIR má rostoucí důkazy pro kolagen a hojení, podobně jako červené světlo.",
+    "body": [
+      {
+        "h2": "Hlubší než červené"
+      },
+      {
+        "p": "Near-infrared je „neviditelná\" část LED terapie, která se dostane hlouběji a podporuje regeneraci a kolagen."
+      },
+      {
+        "note": "Středně silné důkazy pro fotobiomodulaci.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Vidím u NIR nějaké světlo?",
+        "a": "NIR je pro oko téměř neviditelné; LED masky ho proto kombinují s viditelným červeným."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Avci P. et al. — Low-level laser/light therapy in skin",
+        "journal": "Semin Cutan Med Surg",
+        "year": 2013,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "led-terapie",
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ],
+      "products": [
+        "currentbody-led-mask"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala",
+        "citliva"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "fotobiomodulace"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/domaci-laser.svg",
+      "alt": "Domácí frakční laser — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-domaci-laser",
+    "slug": "domaci-laser",
+    "name": "Domácí frakční laser",
+    "title": "Domácí frakční laser: opatrný anti-aging doma",
+    "metaDescription": "Domácí frakční lasery napodobují profesionální ošetření v menší intenzitě. Co čekat a na co pozor.",
+    "h1": "Domácí frakční laser",
+    "excerpt": "Zmenšená verze profesionálního frakčního laseru pro domácí použití. Mírnější a pomalejší.",
+    "evidenceLevel": "limited",
+    "principle": "Vytváří mikroskopické sloupce kontrolovaného tepelného poškození, které spustí hojení a tvorbu kolagenu — v nízké intenzitě bezpečné pro domácí použití.",
+    "mechanism": "Frakční princip ošetří jen část plochy, okolní zdravá tkáň urychlí hojení. Domácí přístroje mají nízký výkon, proto je efekt postupný a vyžaduje série.",
+    "pros": [
+      "Princip profesionálního laseru doma",
+      "Postupné zlepšení textury a jemných vrásek",
+      "Krátká rekonvalescence"
+    ],
+    "cons": [
+      "Výrazně slabší než klinické lasery",
+      "Pomalé výsledky",
+      "Riziko při nesprávném použití"
+    ],
+    "contraindications": [
+      "Tmavší fototypy (riziko pigmentace)",
+      "Aktivní akné/infekce",
+      "Těhotenství"
+    ],
+    "evidenceSummary": "Domácí frakční lasery mají omezenou, ale rostoucí evidenci pro texturu a jemné vrásky.",
+    "body": [
+      {
+        "h2": "Trpělivost nutná"
+      },
+      {
+        "p": "Domácí laser nikdy nenahradí klinické ošetření, ale při pravidelnosti dává viditelné zlepšení textury. Dodržujte protokol a SPF."
+      },
+      {
+        "note": "Omezené důkazy, převážně menší studie.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je domácí laser bezpečný?",
+        "a": "Při dodržení návodu ano; pozor u tmavších fototypů a vždy s důsledným SPF."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Review of at-home fractional devices",
+        "journal": "Lasers Surg Med",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "microneedling",
+      "radiofrekvence"
+    ],
+    "relations": {
+      "procedures": [
+        "frakcni-laser"
+      ],
+      "problems": [
+        "textura",
+        "jemne-vrasky",
+        "pigmentace"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/galvanicka-pece.svg",
+      "alt": "Galvanická péče (iontoforéza) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-galvanicka-pece",
+    "slug": "galvanicka-pece",
+    "name": "Galvanická péče (iontoforéza)",
+    "title": "Galvanická péče a iontoforéza: vstřebávání látek",
+    "metaDescription": "Galvanický proud čistí (desinkrustace) a zlepšuje průnik účinných látek (iontoforéza). Co umí.",
+    "h1": "Galvanická péče (iontoforéza)",
+    "excerpt": "Slabý stejnosměrný proud pro hloubkové čištění a lepší vstřebávání aktivních látek.",
+    "evidenceLevel": "limited",
+    "principle": "Stejnosměrný galvanický proud buď uvolňuje maz a nečistoty (desinkrustace), nebo „protlačuje\" nabité molekuly aktivních látek hlouběji (iontoforéza).",
+    "mechanism": "Elektrický potenciál mění propustnost pokožky a pohybuje ionty účinných látek. Efekt je dočasný a doplňkový.",
+    "pros": [
+      "Hloubkové čištění",
+      "Lepší průnik sér",
+      "Příjemné"
+    ],
+    "cons": [
+      "Dočasný, mírný efekt",
+      "Slabá důkazní základna",
+      "Kontraindikace u některých stavů"
+    ],
+    "contraindications": [
+      "Kardiostimulátor",
+      "Těhotenství",
+      "Kovové implantáty v oblasti",
+      "Epilepsie"
+    ],
+    "evidenceSummary": "Iontoforéza prokazatelně zvyšuje průnik některých látek; anti-aging efekt sám o sobě je omezený.",
+    "body": [
+      {
+        "h2": "Pomocník, ne hlavní hráč"
+      },
+      {
+        "p": "Galvanická péče zlepší čištění a vstřebávání, ale stárnutí pleti sama o sobě neřeší. Hodí se jako součást salonního ošetření."
+      },
+      {
+        "note": "Důkazy pro průnik látek existují; pro anti-aging jsou omezené.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Co je desinkrustace?",
+        "a": "Fáze galvanické péče, která rozpouští maz a čistí póry před dalším ošetřením."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Review of iontophoresis in cosmetics",
+        "journal": "Int J Cosmet Sci",
+        "year": 2016,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "ultrazvuk",
+      "microcurrent"
+    ],
+    "relations": {
+      "problems": [
+        "rozsirene-pory",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "mastna"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/plasma-pen.svg",
+      "alt": "Plasma pen (fibroblast) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-plasma-pen",
+    "slug": "plasma-pen",
+    "name": "Plasma pen (fibroblast)",
+    "title": "Plasma pen: zpevnění mikrovýboji",
+    "metaDescription": "Plasma pen vytváří drobné výboje, které stáhnou kůži (např. víčka). Výrazný efekt, ale i rizika.",
+    "h1": "Plasma pen (fibroblast)",
+    "excerpt": "Drobné plazmové výboje stáhnou přebytečnou kůži (typicky víčka). Účinné, ale rizikovější.",
+    "evidenceLevel": "limited",
+    "principle": "Hrot vytvoří bez dotyku drobný plazmový oblouk, který bodově sublimuje (odpaří) svrchní vrstvu kůže a okamžitě ji stáhne; spustí i tvorbu kolagenu.",
+    "mechanism": "Mřížka drobných tepelných bodů kůži okamžitě smrští a v hojení dochází k remodelaci. Používá se hlavně na povolená horní víčka a jemné vrásky.",
+    "pros": [
+      "Viditelné stažení kůže (např. víčka) bez skalpelu",
+      "Jednorázový výrazný efekt",
+      "Alternativa drobných operací"
+    ],
+    "cons": [
+      "Strupy a rekonvalescence",
+      "Riziko jizev a pigmentace při špatném provedení",
+      "Patří do rukou školeného profesionála"
+    ],
+    "contraindications": [
+      "Tmavší fototypy",
+      "Sklon ke keloidům",
+      "Těhotenství",
+      "Aktivní infekce"
+    ],
+    "evidenceSummary": "Pro stažení kůže existují povzbudivé série, ale chybí velké kontrolované studie; bezpečnost závisí na operatérovi.",
+    "body": [
+      {
+        "h2": "Výrazný, ale rizikový"
+      },
+      {
+        "p": "Plasma pen dává z neinvazivních metod nezvykle viditelný efekt, zato s rekonvalescencí a vyšším rizikem. Vyžaduje zkušeného profesionála."
+      },
+      {
+        "note": "Důkazy jsou omezené, převážně menší série.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Nahradí plasma pen operaci víček?",
+        "a": "U mírného převisu může být alternativou, u výraznějšího je vhodnější chirurgie. Konzultujte odborníka."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Review of plasma skin regeneration",
+        "journal": "Dermatol Surg",
+        "year": 2020,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "hifu",
+      "radiofrekvence",
+      "microneedling"
+    ],
+    "relations": {
+      "problems": [
+        "povolena-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/oxygenoterapie.svg",
+      "alt": "Oxygenoterapie (kyslíková péče) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-oxygenoterapie",
+    "slug": "oxygenoterapie",
+    "name": "Oxygenoterapie (kyslíková péče)",
+    "title": "Kyslíková péče: rozjasnění a hydratace",
+    "metaDescription": "Kyslíková ošetření slibují rozjasnění a hydrataci. Co reálně dělají a jaké jsou důkazy.",
+    "h1": "Oxygenoterapie (kyslíková péče)",
+    "excerpt": "Salonní ošetření pro okamžité rozjasnění a hydrataci. Efekt je hlavně krátkodobý.",
+    "evidenceLevel": "preliminary",
+    "principle": "Pod tlakem se na pleť aplikuje kyslík spolu se séry. Cílem je okamžité projasnění, hydratace a „naplnění\" pleti před událostí.",
+    "mechanism": "Hlavní přínos je mechanická aplikace hydratačních látek a dočasné prokrvení; tvrzení o „okysličení\" hlubších vrstev nejsou dobře podložená.",
+    "pros": [
+      "Okamžité projasnění a svěžest",
+      "Příjemné, bez rekonvalescence",
+      "Hodí se před událostí"
+    ],
+    "cons": [
+      "Efekt krátkodobý",
+      "Slabá důkazní základna pro anti-aging",
+      "Spíše „event\" ošetření"
+    ],
+    "contraindications": [
+      "Aktivní záněty"
+    ],
+    "evidenceSummary": "Pro dlouhodobý anti-aging efekt chybí kvalitní data; přínos je hlavně okamžitý kosmetický.",
+    "body": [
+      {
+        "h2": "Hezké před akcí"
+      },
+      {
+        "p": "Kyslíková péče je příjemný „glow\" booster před událostí, ne dlouhodobé anti-aging řešení."
+      },
+      {
+        "note": "Důkazy jsou převážně předběžné.",
+        "evidence": "preliminary"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Vydrží efekt oxygenoterapie?",
+        "a": "Spíše ne — jde o krátkodobé projasnění a hydrataci."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Overview of oxygen facials",
+        "journal": "J Cosmet Dermatol",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "led-terapie",
+      "microcurrent"
+    ],
+    "relations": {
+      "problems": [
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/kryoterapie.svg",
+      "alt": "Kryoterapie (chlazení pleti) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-kryoterapie",
+    "slug": "kryoterapie",
+    "name": "Kryoterapie (chlazení pleti)",
+    "title": "Kryoterapie obličeje: chlad pro tonus a otoky",
+    "metaDescription": "Kryoterapie chladem stahuje póry, tlumí otoky a osvěží pleť. Co umí a co ne.",
+    "h1": "Kryoterapie (chlazení pleti)",
+    "excerpt": "Chlad pro dočasné stažení pórů, zmírnění otoků a svěží vzhled.",
+    "evidenceLevel": "limited",
+    "principle": "Krátké působení chladu (kryo-nástroje, studený vzduch) zúží cévy a póry, sníží otok a navodí svěží, vypnutý vzhled.",
+    "mechanism": "Vazokonstrikce a protizánětlivý efekt vedou k dočasnému zmírnění otoků, zarudnutí a „nahuštění\" pleti. Efekt je krátkodobý.",
+    "pros": [
+      "Okamžité zmírnění otoků a zarudnutí",
+      "Svěží, vypnutý vzhled",
+      "Příjemné a dostupné (i doma)"
+    ],
+    "cons": [
+      "Krátkodobý efekt",
+      "Žádná trvalá tvorba kolagenu",
+      "Opatrnost u rozacey (reaktivní cévy)"
+    ],
+    "contraindications": [
+      "Citlivost na chlad",
+      "Některé cévní stavy"
+    ],
+    "evidenceSummary": "Dočasné zmírnění otoků a zarudnutí je věrohodné; trvalý anti-aging efekt doložen není.",
+    "body": [
+      {
+        "h2": "Ranní deflamace"
+      },
+      {
+        "p": "Kryoterapie (i jednoduchý ledový válec ráno) zmírní otoky a osvěží. Jako trvalé anti-aging řešení ji ale neberte."
+      },
+      {
+        "note": "Důkazy pro krátkodobé efekty; pro trvalé chybí.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomůže led na vrásky?",
+        "a": "Dočasně zmírní otoky a navodí svěžest, vrásky ale neodstraní."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Review of cryotherapy in aesthetics",
+        "journal": "J Cosmet Dermatol",
+        "year": 2019,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "gua-sha",
+      "face-roller"
+    ],
+    "relations": {
+      "problems": [
+        "matna-plet",
+        "rosacea"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/gua-sha.svg",
+      "alt": "Gua Sha — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-gua-sha",
+    "slug": "gua-sha",
+    "name": "Gua Sha",
+    "title": "Gua Sha: masážní destička pro lymfu a tonus",
+    "metaDescription": "Gua Sha je masážní technika, která podporuje lymfu, prokrvení a uvolnění napětí. Realistická očekávání.",
+    "h1": "Gua Sha",
+    "excerpt": "Masážní destička pro lymfatickou drenáž, prokrvení a uvolnění napětí v obličeji.",
+    "evidenceLevel": "preliminary",
+    "principle": "Plochým kamenem (jadeit, růženín) se jemně „škrábe\" a hladí pleť po masážních liniích, čímž se podporuje lymfatický odtok a prokrvení.",
+    "mechanism": "Mechanická masáž zlepšuje mikrocirkulaci, podporuje lymfu (zmírnění otoků) a uvolňuje svalové napětí. Trvalou tvorbu kolagenu nečekejte.",
+    "pros": [
+      "Zmírnění otoků a „nahuštění\" pleti",
+      "Uvolnění napětí (čelist, čelo)",
+      "Relaxační rituál, lze doma"
+    ],
+    "cons": [
+      "Efekt dočasný",
+      "Při hrubé technice riziko popraskaných cévek",
+      "Žádný trvalý lifting"
+    ],
+    "contraindications": [
+      "Aktivní akné a záněty",
+      "Rosacea (opatrně)",
+      "Čerstvé výplně/botox (konzultovat)"
+    ],
+    "evidenceSummary": "Lymfatický a relaxační efekt je věrohodný; tvrzení o trvalém liftingu nejsou doložena.",
+    "body": [
+      {
+        "h2": "Rituál, ne lifting"
+      },
+      {
+        "p": "Gua Sha je skvělý relaxační a deflamační rituál. Berte ho jako podporu, ne jako náhradu aktivních látek a technologií."
+      },
+      {
+        "note": "Důkazy jsou převážně předběžné.",
+        "evidence": "preliminary"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Zvedne Gua Sha obličej natrvalo?",
+        "a": "Ne. Pomáhá dočasně s otoky a napětím, trvalý lifting nezajistí."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nielsen A. et al. — Gua sha research",
+        "journal": "Explore",
+        "year": 2014,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "face-roller",
+      "microcurrent"
+    ],
+    "relations": {
+      "problems": [
+        "povolena-plet",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/face-roller.svg",
+      "alt": "Face Roller (obličejový váleček) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-face-roller",
+    "slug": "face-roller",
+    "name": "Face Roller (obličejový váleček)",
+    "title": "Face Roller: váleček pro otoky a relaxaci",
+    "metaDescription": "Obličejový váleček (jadeit, růženín) zmírňuje otoky a pomáhá vstřebat sérum. Co od něj čekat.",
+    "h1": "Face Roller (obličejový váleček)",
+    "excerpt": "Chladivý váleček pro zmírnění otoků, prokrvení a příjemné vstřebání séra.",
+    "evidenceLevel": "preliminary",
+    "principle": "Válcováním kamene po pleti se jemně masíruje, podporuje lymfatický odtok a roztírá se sérum. Chladný kámen navíc stahuje a osvěžuje.",
+    "mechanism": "Masáž a chlad zlepšují mikrocirkulaci a dočasně zmírňují otoky. Efekt je krátkodobý a kosmetický.",
+    "pros": [
+      "Ranní deflamace otoků",
+      "Příjemné roztření séra",
+      "Relaxace, lze doma"
+    ],
+    "cons": [
+      "Dočasný efekt",
+      "Žádná trvalá změna struktury pleti"
+    ],
+    "contraindications": [
+      "Aktivní akné/záněty (riziko šíření)"
+    ],
+    "evidenceSummary": "Krátkodobé zmírnění otoků je věrohodné; anti-aging efekt sám o sobě je zanedbatelný.",
+    "body": [
+      {
+        "h2": "Hezký doplněk"
+      },
+      {
+        "p": "Face roller je příjemný rituál a pomocník na ranní otoky. Funguje nejlépe v chladu z lednice."
+      },
+      {
+        "note": "Důkazy jsou předběžné.",
+        "evidence": "preliminary"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Má váleček smysl?",
+        "a": "Jako deflamace a relaxace ano, jako anti-aging „nástroj\" jen okrajově."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Overview of facial massage tools",
+        "journal": "J Cosmet Dermatol",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "gua-sha",
+      "kryoterapie"
+    ],
+    "relations": {
+      "problems": [
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/silikonove-naplasti.svg",
+      "alt": "Silikonové náplasti — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-silikonove-naplasti",
+    "slug": "silikonove-naplasti",
+    "name": "Silikonové náplasti",
+    "title": "Silikonové náplasti na vrásky: jak fungují",
+    "metaDescription": "Silikonové náplasti vyhlazují statické vrásky (dekolt, čelo) hydratací a fixací. Co umí a komu sednou.",
+    "h1": "Silikonové náplasti",
+    "excerpt": "Hydratační fixace, která vyhladí statické vrásky na dekoltu, čele či kolem úst.",
+    "evidenceLevel": "limited",
+    "principle": "Silikonová náplast vytvoří okluzivní vrstvu, která zadrží vlhkost a mechanicky fixuje pokožku v hladké poloze (zabraňuje „skládání\").",
+    "mechanism": "Okluze výrazně zvýší hydrataci stratum corneum a fixace omezí mechanické tvoření rýh ze spánku a mimiky. Efekt je nejvýraznější u vrásek z pozice/spánku (dekolt).",
+    "pros": [
+      "Vyhlazení statických vrásek (dekolt, čelo, okolo úst)",
+      "Jednoduché a opakovaně použitelné",
+      "Bez podráždění"
+    ],
+    "cons": [
+      "Efekt je převážně dočasný (drží dny, ne trvale)",
+      "Neřeší ztrátu kolagenu",
+      "Nutná pravidelnost"
+    ],
+    "contraindications": [
+      "Alergie na lepidlo/silikon",
+      "Aktivní akné v místě"
+    ],
+    "evidenceSummary": "Pro hydrataci a dočasné vyhlazení (zejména jizvy a vrásky z pozice) existují slušné důkazy; trvalý anti-aging efekt je omezený.",
+    "body": [
+      {
+        "h2": "Nejlepší na dekolt"
+      },
+      {
+        "p": "Silikonové náplasti excelují u vrásek z polohy ve spánku (dekolt, mezi prsy) a jako hydratační fixace. Trvalou změnu kolagenu ale nečekejte."
+      },
+      {
+        "note": "Silikon má dobré důkazy u jizev a hydratace; u vrásek je efekt spíše dočasný.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Fungují náplasti na dekolt?",
+        "a": "Ano, na vrásky z polohy ve spánku patří k nejúčinnějším jednoduchým pomůckám."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Review of silicone in scar and wrinkle care",
+        "journal": "Dermatol Surg",
+        "year": 2016,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "microneedling",
+      "led-terapie"
+    ],
+    "relations": {
+      "problems": [
+        "jemne-vrasky",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala",
+        "normalni"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "type": "technology",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/technologies/dermaroller.svg",
+      "alt": "Dermaroller (domácí microneedling) — ilustrace",
+      "type": "illustration"
+    },
+    "id": "tech-dermaroller",
+    "slug": "dermaroller",
+    "name": "Dermaroller (domácí microneedling)",
+    "title": "Dermaroller: domácí microneedling a jeho limity",
+    "metaDescription": "Dermaroller je domácí váleček s jehličkami. Jak ho používat bezpečně a v čem zaostává za dermapenem.",
+    "h1": "Dermaroller (domácí microneedling)",
+    "excerpt": "Domácí váleček s jehličkami. Šetrnější a slabší než profesionální dermapen.",
+    "evidenceLevel": "limited",
+    "principle": "Váleček s tenkými jehličkami vytváří v pokožce drobné kanálky, které spustí hojení a dočasně zvýší průnik účinných látek.",
+    "mechanism": "Mikroporanění aktivují hojivou kaskádu a mírnou tvorbu kolagenu. Domácí jehly jsou krátké (0,2–0,5 mm), proto je efekt mnohem mírnější než u profesionálního dermapenu.",
+    "pros": [
+      "Dostupné a jednoduché",
+      "Lepší vstřebání sér",
+      "Mírné zlepšení textury"
+    ],
+    "cons": [
+      "Riziko infekce při špatné hygieně",
+      "Slabší než dermapen",
+      "Delší jehly doma nepatří"
+    ],
+    "contraindications": [
+      "Aktivní akné a infekce",
+      "Rosacea",
+      "Sklon ke keloidům",
+      "Špatná hygiena nástroje"
+    ],
+    "evidenceSummary": "Domácí dermaroller má omezené důkazy; profesionální microneedling je výrazně účinnější.",
+    "body": [
+      {
+        "h2": "Hygiena především"
+      },
+      {
+        "p": "Dermaroller může zlepšit texturu a průnik látek, ale klíčem je sterilita a krátké jehly. Na jizvy je vhodnější profesionální dermapen."
+      },
+      {
+        "note": "Domácí varianta má omezené důkazy; profesionální microneedling je doložen lépe.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Dermaroller, nebo dermapen?",
+        "a": "Doma jen krátký dermaroller s důslednou hygienou; na jizvy a výrazné výsledky profesionální dermapen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hou A. — Microneedling review",
+        "journal": "Dermatol Surg",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "alternativeTech": [
+      "microneedling",
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ],
+      "procedures": [
+        "microneedling-procedura"
+      ],
+      "problems": [
+        "textura",
+        "rozsirene-pory"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
     }
   }
 ]
