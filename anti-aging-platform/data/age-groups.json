@@ -1,7 +1,7 @@
 [
   {
     "id": "age-20", "slug": "20-plus", "type": "ageGroup", "name": "Péče 20+", "decade": "20+",
-    "title": "Anti-aging po dvacítce (20+): prevence především | Aevia",
+    "title": "Anti-aging po dvacítce (20+): prevence především | antiagelab.cz",
     "metaDescription": "Ve 20 letech je nejdůležitější prevence: SPF, antioxidanty a základní rutina. Co budovat a čemu se vyhnout.",
     "h1": "Péče o pleť 20+", "excerpt": "Zlatá éra prevence. SPF, antioxidanty a zdravé základy se vyplatí na celý život.",
     "evidenceLevel": "strong", "updated": "2026-06-01", "focus": "prevence, ochrana, základy",
@@ -17,7 +17,7 @@
   },
   {
     "id": "age-30", "slug": "30-plus", "type": "ageGroup", "name": "Péče 30+", "decade": "30+",
-    "title": "Anti-aging po třicítce (30+): nástup aktivních látek | Aevia",
+    "title": "Anti-aging po třicítce (30+): nástup aktivních látek | antiagelab.cz",
     "metaDescription": "Po třicítce klesá kolagen. Čas nasadit retinoidy, peptidy a cílenou hydrataci. Kompletní strategie 30+.",
     "h1": "Péče o pleť 30+", "excerpt": "Kolagen začíná klesat. Ideální čas nasadit retinoidy a antioxidanty naplno.",
     "evidenceLevel": "strong", "updated": "2026-06-01", "focus": "retinoidy, antioxidanty, hydratace",
@@ -33,7 +33,7 @@
   },
   {
     "id": "age-40", "slug": "40-plus", "type": "ageGroup", "name": "Péče 40+", "decade": "40+",
-    "title": "Anti-aging po čtyřicítce (40+): kolagen a zpevnění | Aevia",
+    "title": "Anti-aging po čtyřicítce (40+): kolagen a zpevnění | antiagelab.cz",
     "metaDescription": "Po čtyřicítce se hodí kombinovat retinoidy, peptidy a zpevňující technologie. Kompletní strategie 40+.",
     "h1": "Péče o pleť 40+", "excerpt": "Výraznější pokles kolagenu. Kombinujte aktivní látky s technologiemi a zvažte procedury.",
     "evidenceLevel": "strong", "updated": "2026-06-01", "focus": "kolagen, zpevnění, hydratace",
@@ -49,7 +49,7 @@
   },
   {
     "id": "age-50", "slug": "50-plus", "type": "ageGroup", "name": "Péče 50+", "decade": "50+",
-    "title": "Anti-aging po padesátce (50+): menopauza a pleť | Aevia",
+    "title": "Anti-aging po padesátce (50+): menopauza a pleť | antiagelab.cz",
     "metaDescription": "Po padesátce a v menopauze pleť rychle ztrácí kolagen a vlhkost. Které látky, technologie a procedury pomáhají nejvíc.",
     "h1": "Péče o pleť 50+", "excerpt": "Menopauza urychluje ztrátu kolagenu. Důraz na hydrataci, retinoidy, peptidy a zpevnění.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "focus": "menopauza, suchost, ztráta objemu",
@@ -65,7 +65,7 @@
   },
   {
     "id": "age-60", "slug": "60-plus", "type": "ageGroup", "name": "Péče 60+", "decade": "60+",
-    "title": "Anti-aging po šedesátce (60+): komfort a péče | Aevia",
+    "title": "Anti-aging po šedesátce (60+): komfort a péče | antiagelab.cz",
     "metaDescription": "Po šedesátce je prioritou komfort, hydratace a ochrana. Jemné aktivní látky a realistická očekávání.",
     "h1": "Péče o pleť 60+", "excerpt": "Priorita komfort, hydratace a ochrana. Jemné aktivní látky a šetrné technologie.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "focus": "komfort, hydratace, jemnost",

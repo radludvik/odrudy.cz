@@ -1,7 +1,7 @@
 [
   {
     "id": "prob-jemne-vrasky", "slug": "jemne-vrasky", "type": "problem", "name": "Jemné vrásky",
-    "title": "Jemné vrásky: příčiny a co na ně funguje | Aevia",
+    "title": "Jemné vrásky: příčiny a co na ně funguje | antiagelab.cz",
     "metaDescription": "Jemné vrásky jsou první známkou stárnutí pleti. Které ingredience, technologie a rutina je nejlépe řeší.",
     "h1": "Jemné vrásky", "excerpt": "První linie a \"dehydratační\" vrásky. Dobře reagují na retinoidy, hydrataci a SPF.",
     "evidenceLevel": "strong", "updated": "2026-06-01", "area": "celý obličej",
@@ -18,7 +18,7 @@
   },
   {
     "id": "prob-hluboke-vrasky", "slug": "hluboke-vrasky", "type": "problem", "name": "Hluboké vrásky",
-    "title": "Hluboké vrásky: co na ně reálně zabere | Aevia",
+    "title": "Hluboké vrásky: co na ně reálně zabere | antiagelab.cz",
     "metaDescription": "Hluboké vrásky vyžadují kombinaci aktivní kosmetiky, technologií a často i procedur. Realistický přehled možností.",
     "h1": "Hluboké vrásky", "excerpt": "Vyžadují kombinaci kosmetiky, technologií a často i procedur.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "čelo, nasolabiální rýhy",
@@ -35,7 +35,7 @@
   },
   {
     "id": "prob-pigmentace", "slug": "pigmentace", "type": "problem", "name": "Pigmentace",
-    "title": "Pigmentace a tmavé skvrny: jak je zesvětlit | Aevia",
+    "title": "Pigmentace a tmavé skvrny: jak je zesvětlit | antiagelab.cz",
     "metaDescription": "Pigmentové skvrny a nerovnoměrný tón řeší antioxidanty, kyseliny a hlavně ochrana před sluncem. Přehled možností.",
     "h1": "Pigmentace", "excerpt": "Tmavé skvrny a nerovnoměrný tón. Klíč: rozjasňující látky + důsledné SPF.",
     "evidenceLevel": "strong", "updated": "2026-06-01", "area": "tváře, čelo",
@@ -52,7 +52,7 @@
   },
   {
     "id": "prob-rozsirene-pory", "slug": "rozsirene-pory", "type": "problem", "name": "Rozšířené póry",
-    "title": "Rozšířené póry: jak je zjemnit | Aevia",
+    "title": "Rozšířené póry: jak je zjemnit | antiagelab.cz",
     "metaDescription": "Rozšířené póry zjemní regulace mazu, BHA a stimulace kolagenu. Co reálně funguje a co je mýtus.",
     "h1": "Rozšířené póry", "excerpt": "Opticky se zjemní regulací mazu, BHA a podporou kolagenu kolem pórů.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "T-zóna, tváře",
@@ -69,7 +69,7 @@
   },
   {
     "id": "prob-rosacea", "slug": "rosacea", "type": "problem", "name": "Rosacea a zarudnutí",
-    "title": "Rosacea a zarudnutí: šetrná péče | Aevia",
+    "title": "Rosacea a zarudnutí: šetrná péče | antiagelab.cz",
     "metaDescription": "Rosacea vyžaduje jemnou péči a látky tlumící zánět. Co pomáhá, čemu se vyhnout a kdy k lékaři.",
     "h1": "Rosacea a zarudnutí", "excerpt": "Chronické zarudnutí a citlivost. Klíč: jemnost, azelaová kyselina, bariéra, žádné spouštěče.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "tváře, nos",
@@ -86,7 +86,7 @@
   },
   {
     "id": "prob-povolena-plet", "slug": "povolena-plet", "type": "problem", "name": "Povolená pleť",
-    "title": "Povolená pleť a ztráta pevnosti: co pomáhá | Aevia",
+    "title": "Povolená pleť a ztráta pevnosti: co pomáhá | antiagelab.cz",
     "metaDescription": "Ztráta pevnosti a ochablost se řeší stimulací kolagenu — technologiemi (RF, HIFU) i procedurami. Přehled.",
     "h1": "Povolená pleť", "excerpt": "Ztráta pevnosti a kontur. Nejlépe reaguje na zpevňující technologie a procedury.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "ovál, krk, podbradek",
@@ -103,7 +103,7 @@
   },
   {
     "id": "prob-textura", "slug": "textura", "type": "problem", "name": "Nerovnoměrná textura",
-    "title": "Nerovnoměrná textura pleti: hladší a jasnější | Aevia",
+    "title": "Nerovnoměrná textura pleti: hladší a jasnější | antiagelab.cz",
     "metaDescription": "Hrubá a nerovnoměrná textura se zlepšuje exfoliací, retinoidy a microneedlingem. Přehled účinných postupů.",
     "h1": "Nerovnoměrná textura", "excerpt": "Drsnost a nerovnosti. Reaguje na exfoliaci, retinoidy a microneedling.",
     "evidenceLevel": "strong", "updated": "2026-06-01", "area": "tváře, čelo",
@@ -120,7 +120,7 @@
   },
   {
     "id": "prob-matna-plet", "slug": "matna-plet", "type": "problem", "name": "Matná pleť",
-    "title": "Matná unavená pleť: jak vrátit jas | Aevia",
+    "title": "Matná unavená pleť: jak vrátit jas | antiagelab.cz",
     "metaDescription": "Matná pleť ožije s antioxidanty, exfoliací a hydratací. Které kroky vrátí pleti zdravý jas.",
     "h1": "Matná pleť", "excerpt": "Ztráta jasu a svěžesti. Pomáhá vitamin C, jemná exfoliace a hydratace.",
     "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "celý obličej",

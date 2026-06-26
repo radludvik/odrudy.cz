@@ -22,7 +22,7 @@ const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const ORIGIN = process.env.SITE_ORIGIN || 'https://aevia.cz';
 
 const SITE = {
-  name: 'Aevia',
+  name: 'antiagelab.cz',
   tagline: 'Věda o mladší pleti',
   description: 'Nejkomplexnější česká znalostní databáze o neinvazivním anti-agingu — encyklopedie, magazín a inteligentní doporučovací systém.',
   url: ORIGIN + BASE,
@@ -241,7 +241,7 @@ ${ld}
 <a class="skip" href="#main">Přeskočit na obsah</a>
 <header class="site-header">
   <div class="container nav">
-    <a class="brand" href="/"><span class="brand-mark">Aevia</span></a>
+    <a class="brand" href="/"><span class="brand-mark">${esc(SITE.name)}</span></a>
     <nav class="primary-nav" aria-label="Hlavní navigace">${navHtml()}</nav>
     <div class="nav-right">
       <a class="search-link" href="/hledat/" aria-label="Hledat">⌕</a>
@@ -256,7 +256,7 @@ ${body}
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <div class="brand-mark">Aevia</div>
+      <div class="brand-mark">${esc(SITE.name)}</div>
       <p class="muted">${esc(SITE.description)}</p>
     </div>
     <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li></ul></div>
@@ -514,8 +514,8 @@ function homepage() {
   <section class="hero">
     <div class="container hero-inner">
       <span class="eyebrow">${esc(SITE.tagline)}</span>
-      <h1 class="hero-title">Neinvazivní anti-aging<br>opřený o vědu</h1>
-      <p class="lead hero-lead">Nejkomplexnější česká znalostní databáze ingrediencí, technologií, produktů a studií — propojená do jednoho celku a doplněná o&nbsp;inteligentní nástroje.</p>
+      <h1 class="hero-title">Najděte anti-aging řešení, která opravdu fungují.</h1>
+      <p class="lead hero-lead">Vyberte si vhodné ingredience, technologie, produkty i rutinu podle svého věku, typu pleti a konkrétního problému. Každé doporučení vychází z dostupných vědeckých důkazů.</p>
       <form class="hero-search" action="/hledat/" method="get" role="search">
         <input type="search" name="q" placeholder="Hledejte ingredienci, technologii, problém…" aria-label="Hledat">
         <button type="submit" class="btn btn--primary">Hledat</button>
@@ -606,7 +606,7 @@ function searchPage() {
     <form class="hero-search" id="searchForm"><input type="search" id="searchInput" name="q" placeholder="Zadejte hledaný výraz…" aria-label="Hledat" autofocus><button class="btn btn--primary" type="submit">Hledat</button></form>
   </div></section>
   <section class="section"><div class="container"><div id="searchResults" class="card-grid"></div></div></section>`;
-  writePage('/hledat/', layout({ title: `Hledat | ${SITE.name}`, description: 'Fulltextové vyhledávání v databázi Aevia.', canonical: '/hledat/', breadcrumbTrail: [{ label: 'Domů', href: '/' }, { label: 'Hledat', href: '/hledat/' }], body: body + `<script src="/assets/js/search.js" defer></script>` }));
+  writePage('/hledat/', layout({ title: `Hledat | ${SITE.name}`, description: `Fulltextové vyhledávání v databázi ${SITE.name}.`, canonical: '/hledat/', breadcrumbTrail: [{ label: 'Domů', href: '/' }, { label: 'Hledat', href: '/hledat/' }], body: body + `<script src="/assets/js/search.js" defer></script>` }));
 }
 
 /* ----------------------------------------------------------------------------

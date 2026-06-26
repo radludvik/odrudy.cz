@@ -1,6 +1,6 @@
-# Aevia — Inteligentní anti-aging platforma
+# antiagelab.cz — Inteligentní anti-aging platforma
 
-> **Aevia** (pracovní název, z lat. *aevum* = věk) je škálovatelná znalostní
+> **antiagelab.cz** je škálovatelná znalostní
 > platforma o **neinvazivním anti-agingu**: encyklopedie + luxusní magazín +
 > databáze ingrediencí, technologií, produktů a studií + inteligentní
 > doporučovací systém + interaktivní nástroje + affiliate vrstva.
@@ -69,7 +69,7 @@ a [`docs/03-obsah-a-seo.md`](docs/03-obsah-a-seo.md).
 
 GitHub Pages obsluhuje **jeden web na repozitář**. V repu už běží workflow pro
 ADHD web, proto se `deploy-aevia.yml` spouští **jen ručně** (workflow_dispatch),
-aby ho nepřepsal. Až bude Aevia hlavním webem, doplňte do workflow trigger
+aby ho nepřepsal. Až bude antiagelab.cz hlavním webem, doplňte do workflow trigger
 `push` na `main`.
 
 ## Důležité upozornění

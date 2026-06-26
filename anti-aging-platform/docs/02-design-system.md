@@ -1,4 +1,4 @@
-# Aevia — Designový systém
+# antiagelab.cz — Designový systém
 
 Platforma musí působit jako **prémiová značka**: minimalismus, luxusní estetika,
 mnoho bílého prostoru, klid. Inspirace: Apple, Aesop, Typology, Medik8, CurrentBody.

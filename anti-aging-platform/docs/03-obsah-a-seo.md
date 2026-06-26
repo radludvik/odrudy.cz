@@ -1,4 +1,4 @@
-# Aevia — Obsahová a SEO strategie
+# antiagelab.cz — Obsahová a SEO strategie
 
 Cíl: dlouhodobá organická autorita pro vyhledávače **i AI systémy** a
 monetizace přes affiliate. Obsah musí být odborný, propojený a důvěryhodný.

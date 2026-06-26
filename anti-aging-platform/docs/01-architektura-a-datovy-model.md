@@ -1,6 +1,6 @@
-# Aevia — Architektura platformy a datový model
+# antiagelab.cz — Architektura platformy a datový model
 
-> **Aevia** je pracovní název platformy (z lat. *aevum* = věk, trvání). Cílem je
+> **antiagelab.cz** je platforma, jejímž cílem je
 > vybudovat nejkomplexnější českou znalostní databázi o neinvazivním anti-agingu —
 > encyklopedii, magazín a inteligentní doporučovací systém v jednom.
 
@@ -13,7 +13,7 @@ z tohoto modelu vychází.
 
 ## 1. Filozofie: znalostní graf, ne web
 
-Aevia **není** blog, e-shop ani magazín. Je to **znalostní graf**, kde každá stránka
+antiagelab.cz **není** blog, e-shop ani magazín. Je to **znalostní graf**, kde každá stránka
 je uzel (node) a každý odkaz je hrana (edge). Obsah se nepíše jako izolované články,
 ale jako **entity s atributy a vztahy**. Stránky se z těchto entit **generují**, takže:
 
