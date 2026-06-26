@@ -529,20 +529,6 @@ function homepage() {
   </section>
 
   <section class="section"><div class="container">
-    <div class="hub">${hubTiles}</div>
-  </div></section>
-
-  <section class="section section--ivory"><div class="container">
-    <div class="sec-head"><span class="eyebrow">Doporučené technologie</span><h2>Přístroje a metody</h2><a class="sec-more" href="/technologie/">Všechny technologie →</a></div>
-    <div class="card-grid">${featTech}</div>
-  </div></section>
-
-  <section class="section"><div class="container">
-    <div class="sec-head"><span class="eyebrow">Doporučené ingredience</span><h2>Účinné látky</h2><a class="sec-more" href="/ingredience/">Všechny ingredience →</a></div>
-    <div class="card-grid">${featIng}</div>
-  </div></section>
-
-  <section class="section section--ivory"><div class="container">
     <div class="sec-head"><span class="eyebrow">Inteligentní nástroje</span><h2>Najděte si péči na míru</h2></div>
     <div class="card-grid tools-grid">
       <a class="tool-card" href="/nastroje/poradce/"><h3>Anti-aging poradce</h3><p>Zadejte věk, typ pleti a cíl. Doporučíme ingredience, technologie i rutinu.</p><span class="card-arrow">→</span></a>
@@ -550,6 +536,20 @@ function homepage() {
       <a class="tool-card" href="/nastroje/kompatibilita/"><h3>Kompatibilita látek</h3><p>Zkontrolujte, zda se vaše aktivní látky snesou.</p><span class="card-arrow">→</span></a>
       <a class="tool-card" href="/nastroje/vyhledavac-ingredienci/"><h3>Vyhledávač ingrediencí</h3><p>Najděte látku podle problému, typu pleti nebo cíle.</p><span class="card-arrow">→</span></a>
     </div>
+  </div></section>
+
+  <section class="section section--ivory"><div class="container">
+    <div class="hub">${hubTiles}</div>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <div class="sec-head"><span class="eyebrow">Doporučené technologie</span><h2>Přístroje a metody</h2><a class="sec-more" href="/technologie/">Všechny technologie →</a></div>
+    <div class="card-grid">${featTech}</div>
+  </div></section>
+
+  <section class="section section--ivory"><div class="container">
+    <div class="sec-head"><span class="eyebrow">Doporučené ingredience</span><h2>Účinné látky</h2><a class="sec-more" href="/ingredience/">Všechny ingredience →</a></div>
+    <div class="card-grid">${featIng}</div>
   </div></section>
 
   <section class="section"><div class="container">
