@@ -1,11 +1,13 @@
 name: Build & deploy Aevia (anti-aging platform)
 
-# POZOR: GitHub Pages obsluhuje jeden web na repozitář. V repu už existuje
-# workflow pro ADHD web (deploy-pages.yml). Tento workflow se proto spouští
-# POUZE ručně (workflow_dispatch), aby automaticky nepřepsal stávající Pages.
-# Až se rozhodnete Aevii nasadit jako hlavní web, doplňte trigger `push`.
-
+# GitHub Pages obsluhuje jeden web na repozitář. Tento workflow nasazuje Aevii
+# na project-pages podcestu /odrudy.cz/ a tím nahrazuje předchozí Pages obsah.
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - "anti-aging-platform/**"
+      - ".github/workflows/deploy-aevia.yml"
   workflow_dispatch:
 
 permissions:
@@ -30,6 +32,9 @@ jobs:
       - name: Build static site
         run: node build/build.mjs
         working-directory: anti-aging-platform
+        env:
+          BASE_PATH: /odrudy.cz
+          SITE_ORIGIN: https://radludvik.github.io
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:

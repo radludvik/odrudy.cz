@@ -16,11 +16,16 @@ const DATA = join(ROOT, 'data');
 const OUT = join(ROOT, 'site');
 const ASSETS_SRC = join(ROOT, 'build', 'assets');
 
+// Base path pro nasazení do podsložky (GitHub Pages project site = "/odrudy.cz").
+// Lokálně prázdné → web běží z kořene. Nastaví se přes env BASE_PATH.
+const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
+const ORIGIN = process.env.SITE_ORIGIN || 'https://aevia.cz';
+
 const SITE = {
   name: 'Aevia',
   tagline: 'Věda o mladší pleti',
   description: 'Nejkomplexnější česká znalostní databáze o neinvazivním anti-agingu — encyklopedie, magazín a inteligentní doporučovací systém.',
-  url: 'https://aevia.cz',
+  url: ORIGIN + BASE,
   lang: 'cs',
 };
 
@@ -229,6 +234,7 @@ function layout({ title, description, canonical, body, jsonld = [], breadcrumbTr
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<script>window.AEVIA_BASE=${JSON.stringify(BASE)};</script>
 ${ld}
 </head>
 <body>
@@ -269,10 +275,17 @@ ${body}
 /* ----------------------------------------------------------------------------
  * Zápis souborů
  * ------------------------------------------------------------------------- */
+// Prefixuje všechny vnitřní absolutní odkazy (href|src|action="/...") base cestou.
+// Externí odkazy (https://) ani fragmenty (#) nezasahuje.
+function applyBase(html) {
+  if (!BASE) return html;
+  return html.replace(/(href|src|action)="\/(?!\/)/g, `$1="${BASE}/`);
+}
+
 function writePage(url, html) {
   const dir = join(OUT, url.replace(/^\//, ''));
   mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, 'index.html'), html);
+  writeFileSync(join(dir, 'index.html'), applyBase(html));
 }
 
 /* ----------------------------------------------------------------------------

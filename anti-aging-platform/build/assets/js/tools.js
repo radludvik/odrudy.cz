@@ -1,11 +1,12 @@
 /* Aevia — interaktivní nástroje (poradce, builder, kompatibilita, vyhledávač, porovnání, technologie)
    Data: /assets/data/tools-data.json (generováno z datového modelu). */
 (function () {
+  var BASE = window.AEVIA_BASE || '';
   var DATA = null;
   var mounts = ['advisor', 'routineBuilder', 'compatChecker', 'ingredientFinder', 'productCompare', 'techRecommender'];
   if (!mounts.some(function (id) { return document.getElementById(id); })) return;
 
-  fetch('/assets/data/tools-data.json').then(function (r) { return r.json(); }).then(function (d) {
+  fetch(BASE + '/assets/data/tools-data.json').then(function (r) { return r.json(); }).then(function (d) {
     DATA = d;
     if (document.getElementById('advisor')) initAdvisor();
     if (document.getElementById('routineBuilder')) initRoutineBuilder();
@@ -17,7 +18,7 @@
 
   /* ---------- helpers ---------- */
   var EV = { strong: '🟢 Silné důkazy', moderate: '🟡 Středně silné', limited: '🟠 Omezené', preliminary: '⚪ Předběžné' };
-  function link(item) { return '<a class="chip" href="' + item.url + '">' + item.name + (item.evidenceLevel ? ' <span class="muted small">' + (EV[item.evidenceLevel] || '').slice(0, 2) + '</span>' : '') + '</a>'; }
+  function link(item) { return '<a class="chip" href="' + BASE + item.url + '">' + item.name + (item.evidenceLevel ? ' <span class="muted small">' + (EV[item.evidenceLevel] || '').slice(0, 2) + '</span>' : '') + '</a>'; }
   function chips(items) { return items.length ? '<div class="chips">' + items.map(link).join('') + '</div>' : '<p class="empty">Žádné položky.</p>'; }
   function optionGroup(name, opts, multi) {
     return '<div class="opts" data-group="' + name + '" data-multi="' + (multi ? '1' : '') + '">' +
@@ -84,10 +85,10 @@
       out += '<h3>Doporučené ingredience</h3>' + chips(ings.slice(0, 6));
       out += '<h3>Technologie</h3>' + chips(techs.slice(0, 5));
       out += '<h3>Produkty</h3>' + chips(prods.slice(0, 5));
-      out += '<h3>Rutina</h3><p class="muted">Doporučujeme začít ranní rutinou (ochrana + SPF) a večerní rutinou s aktivní látkou. <a href="/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="/rutiny/vecerni-rutina/">Večerní rutina</a></p>';
+      out += '<h3>Rutina</h3><p class="muted">Doporučujeme začít ranní rutinou (ochrana + SPF) a večerní rutinou s aktivní látkou. <a href="' + BASE + '/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="' + BASE + '/rutiny/vecerni-rutina/">Večerní rutina</a></p>';
       if (pref !== 'home') {
         var procs = DATA.technologies; // procedury jsou v jiné sekci; odkážeme na péči podle problému
-        out += '<h3>Profesionální péče</h3><p class="muted">Zvažte odbornou konzultaci. Přehled procedur podle problému najdete na stránce <a href="/pece-podle-problemu/' + problem + '/">' + (DATA.problems.find(function (p) { return p.slug === problem; }) || {}).name + '</a>.</p>';
+        out += '<h3>Profesionální péče</h3><p class="muted">Zvažte odbornou konzultaci. Přehled procedur podle problému najdete na stránce <a href="' + BASE + '/pece-podle-problemu/' + problem + '/">' + (DATA.problems.find(function (p) { return p.slug === problem; }) || {}).name + '</a>.</p>';
       }
       out += '<p class="muted small" style="margin-top:1.2rem">Doporučení má vzdělávací charakter. Při zdravotních potížích konzultujte dermatologa.</p>';
       out += '</div>';
@@ -115,7 +116,7 @@
       if (skin === 'mastna' || skin === 'aknozni') pm.splice(1, 0, 'BHA do T-zóny (ve dnech bez retinoidu)');
       var out = '<div class="result-block"><h3>☀️ Ranní rutina</h3><ol class="steps">' + am.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>' +
         '<h3>🌙 Večerní rutina</h3><ol class="steps">' + pm.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>' +
-        '<p class="muted">Podrobně: <a href="/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="/rutiny/vecerni-rutina/">Večerní rutina</a>. Nikdy nekombinujte více silných aktivních látek naráz.</p></div>';
+        '<p class="muted">Podrobně: <a href="' + BASE + '/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="' + BASE + '/rutiny/vecerni-rutina/">Večerní rutina</a>. Nikdy nekombinujte více silných aktivních látek naráz.</p></div>';
       el.querySelector('#rbOut').innerHTML = out;
     });
   }

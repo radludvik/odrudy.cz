@@ -5,15 +5,16 @@
   var results = document.getElementById('searchResults');
   if (!input || !results) return;
 
+  var BASE = window.AEVIA_BASE || '';
   var index = [];
-  fetch('/assets/data/search-index.json').then(function (r) { return r.json(); }).then(function (data) {
+  fetch(BASE + '/assets/data/search-index.json').then(function (r) { return r.json(); }).then(function (data) {
     index = data;
     var q = new URLSearchParams(location.search).get('q');
     if (q) { input.value = q; run(q); }
   });
 
   function card(item) {
-    return '<a class="card" href="' + item.url + '"><span class="card-type">' + item.type +
+    return '<a class="card" href="' + BASE + item.url + '"><span class="card-type">' + item.type +
       '</span><h3 class="card-title">' + item.name + '</h3><p class="card-excerpt">' +
       (item.excerpt || '') + '</p><span class="card-foot"><span></span><span class="card-arrow">→</span></span></a>';
   }
