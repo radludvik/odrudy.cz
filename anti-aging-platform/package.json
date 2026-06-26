@@ -1,0 +1,14 @@
+{
+  "name": "aevia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aevia — inteligentní anti-aging znalostní platforma (statický generátor bez závislostí).",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "serve": "node build/build.mjs && npx --yes serve site"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

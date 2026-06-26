@@ -1,0 +1,51 @@
+[
+  {
+    "id": "art-jak-zacit-s-retinoidy", "slug": "jak-zacit-s-retinoidy", "type": "article", "name": "Jak začít s retinoidy bez podráždění", "category": "navody", "pillar": true,
+    "title": "Jak začít s retinoidy bez podráždění: kompletní návod | Aevia",
+    "metaDescription": "Praktický návod, jak bezpečně nasadit retinol nebo retinal: koncentrace, frekvence, metoda sandwich a nejčastější chyby.",
+    "h1": "Jak začít s retinoidy bez podráždění", "excerpt": "Pilířový návod krok za krokem: od výběru koncentrace po zvládnutí retinizace.",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "image": { "src": "/assets/img/articles/jak-zacit-s-retinoidy.svg", "alt": "Jak začít s retinoidy", "type": "hero" },
+    "body": [
+      { "h2": "1. Vyberte správnou formu a koncentraci" },
+      { "p": "Začátečníci by měli začít retinolem 0,2–0,3 % nebo retinalem 0,05 %. Vyšší koncentrace nepřináší rychlejší výsledek, jen vyšší riziko podráždění." },
+      { "h2": "2. Začněte pomalu" },
+      { "list": ["2× týdně první 2–3 týdny", "Poté obden", "Až nakonec denně, pokud pleť snáší"] },
+      { "h2": "3. Metoda sandwich" },
+      { "p": "Naneste hydratační krém, pak retinoid a znovu krém. Sníží to podráždění, aniž by se výrazně oslabil účinek." },
+      { "h2": "4. Ráno vždy SPF" },
+      { "note": "Retinoidy zvyšují citlivost na slunce — denní SPF 50 je nezbytný a zároveň nejúčinnější anti-aging krok.", "evidence": "strong" },
+      { "h2": "5. Co nekombinovat" },
+      { "p": "První týdny nemíchejte retinoid s kyselinami (AHA/BHA) ani vitaminem C ve stejném kroku. Niacinamid a hyaluron naopak pomáhají." }
+    ],
+    "faq": [
+      { "q": "Jak dlouho než uvidím výsledky?", "a": "Texturu a jas za 8–12 týdnů, vrásky po několika měsících." },
+      { "q": "Co když pleť pálí a olupuje se?", "a": "Jde nejspíš o retinizaci. Snižte frekvenci a posilte hydrataci. Pokud nepřejde, přerušte." }
+    ],
+    "sources": [ { "title": "Mukherjee S. et al.", "journal": "Clin Interv Aging", "year": 2006, "type": "review" } ],
+    "relatedEntities": ["retinol", "retinal"],
+    "relations": { "ingredients": ["retinol", "retinal", "niacinamid"], "problems": ["jemne-vrasky", "textura"], "routines": ["vecerni-rutina"], "terms": ["retinizace", "purging"], "comparisons": ["retinol-vs-retinal"] }
+  },
+  {
+    "id": "art-spf-nejlepsi-anti-aging", "slug": "spf-nejlepsi-anti-aging", "type": "article", "name": "Proč je SPF nejlepší anti-aging", "category": "zaklady", "pillar": true,
+    "title": "Proč je SPF nejlepší anti-aging produkt (a jak ho používat) | Aevia",
+    "metaDescription": "Až 80 % vnějšího stárnutí pleti způsobuje slunce. Proč je denní SPF nejúčinnější a jak ho používat správně.",
+    "h1": "Proč je SPF nejlepší anti-aging produkt", "excerpt": "Žádné sérum nepřekoná každodenní opalovací krém. Vysvětlujeme proč a jak na to.",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "image": { "src": "/assets/img/articles/spf-nejlepsi-anti-aging.svg", "alt": "SPF jako nejlepší anti-aging", "type": "hero" },
+    "body": [
+      { "h2": "Slunce stárne pleť nejvíc" },
+      { "p": "Odhaduje se, že až 80 % viditelného vnějšího stárnutí pleti způsobuje UV záření (fotostárnutí). Proto je ochrana před sluncem účinnější než jakákoli aktivní látka." },
+      { "note": "Randomizovaná studie ukázala, že denní SPF výrazně zpomaluje viditelné stárnutí pleti.", "evidence": "strong" },
+      { "h2": "Jak SPF používat" },
+      { "list": ["Každý den, celoročně, i v interiéru u oken (UVA prochází sklem).", "Dostatek produktu (~2 prsty na obličej a krk).", "Obnovovat při pobytu venku.", "SPF je poslední krok ranní rutiny."] }
+    ],
+    "faq": [
+      { "q": "Stačí SPF v denním krému?", "a": "Často se nanáší příliš málo. Lepší je samostatný SPF v dostatečném množství." },
+      { "q": "Chemický, nebo minerální filtr?", "a": "Oba chrání. Vyberte ten, který vám textura a pleti vyhovuje, abyste ho nosili denně." }
+    ],
+    "sources": [ { "title": "Hughes MCB et al.", "journal": "Ann Intern Med", "year": 2013, "type": "rct" } ],
+    "relatedEntities": ["spf-50-denni"],
+    "relations": { "products": ["spf-50-denni"], "problems": ["jemne-vrasky", "pigmentace"], "studies": ["hughes-2013-spf"], "routines": ["ranni-rutina"], "ageGroups": ["20-plus"] }
+  }
+]
