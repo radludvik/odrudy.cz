@@ -1,0 +1,45 @@
+[
+  {
+    "id": "rt-ranni", "slug": "ranni-rutina", "type": "routine", "name": "Ranní rutina", "timeOfDay": "am",
+    "title": "Ranní anti-aging rutina krok za krokem | Aevia",
+    "metaDescription": "Ideální ranní rutina chrání: čištění, antioxidant, hydratace a SPF. Kompletní postup a doporučené látky.",
+    "h1": "Ranní rutina", "excerpt": "Ráno je o ochraně: antioxidant, hydratace a hlavně SPF.",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "steps": [
+      { "step": "Jemné čištění", "note": "Stačí voda nebo jemný gel." },
+      { "step": "Antioxidant (vitamin C)", "note": "Ochrana před volnými radikály." },
+      { "step": "Hydratace", "note": "Hyaluron / lehký krém dle typu pleti." },
+      { "step": "SPF 50", "note": "Nejdůležitější krok celé rutiny." }
+    ],
+    "image": { "src": "/assets/img/routines/ranni-rutina.svg", "alt": "Ranní rutina — kroky", "type": "infographic" },
+    "body": [
+      { "h2": "Princip: chránit" },
+      { "p": "Ranní rutina má pleť ochránit na celý den. Srdcem je antioxidant a opalovací krém — vše ostatní je nadstavba." },
+      { "note": "Antioxidant + SPF má nejsilnější důkazy pro prevenci stárnutí.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Musím ráno čistit pleť mýdlem?", "a": "Ne nutně. Mnoha typům stačí ráno opláchnout vodou." } ],
+    "sources": [],
+    "relations": { "ingredients": ["vitamin-c", "niacinamid", "kyselina-hyaluronova"], "products": ["vitamin-c-serum-15", "spf-50-denni"], "ageGroups": ["20-plus", "30-plus", "40-plus"], "skinTypes": ["normalni", "mastna", "sucha"] }
+  },
+  {
+    "id": "rt-vecerni", "slug": "vecerni-rutina", "type": "routine", "name": "Večerní rutina", "timeOfDay": "pm",
+    "title": "Večerní anti-aging rutina krok za krokem | Aevia",
+    "metaDescription": "Večer je o regeneraci: odličení, aktivní látky (retinoid) a výživná hydratace. Kompletní postup.",
+    "h1": "Večerní rutina", "excerpt": "Večer je o regeneraci: aktivní látky (retinoid) a výživná hydratace.",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "steps": [
+      { "step": "Odličení / dvojí čištění", "note": "Důkladně odstranit SPF a nečistoty." },
+      { "step": "Aktivní látka", "note": "Retinoid (večer), nebo kyseliny ve dnech bez retinoidu." },
+      { "step": "Hydratace / výživa", "note": "Bohatší krém, případně sandwich kolem retinolu." }
+    ],
+    "image": { "src": "/assets/img/routines/vecerni-rutina.svg", "alt": "Večerní rutina — kroky", "type": "infographic" },
+    "body": [
+      { "h2": "Princip: obnovit" },
+      { "p": "V noci se pleť regeneruje. Večer proto patří aktivním látkám (retinoidy, kyseliny) a výživné hydrataci. Nikdy nemíchejte více silných aktiv naráz." },
+      { "note": "Večerní retinoid má silné důkazy pro dlouhodobé zlepšení pleti.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Můžu retinol i kyselinu ve stejný večer?", "a": "Raději ne. Střídejte je ve dnech, snížíte riziko podráždění." } ],
+    "sources": [],
+    "relations": { "ingredients": ["retinol", "retinal", "bakuchiol", "aha", "bha", "peptidy"], "products": ["medik8-crystal-retinal-6"], "ageGroups": ["30-plus", "40-plus", "50-plus"], "skinTypes": ["mastna", "zrala"] }
+  }
+]

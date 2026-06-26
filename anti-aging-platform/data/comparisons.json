@@ -1,0 +1,99 @@
+[
+  {
+    "id": "cmp-retinol-retinal", "slug": "retinol-vs-retinal", "type": "comparison", "name": "Retinol vs Retinal",
+    "title": "Retinol vs Retinal: které je lepší? | Aevia",
+    "metaDescription": "Srovnání retinolu a retinaldehydu — rychlost, síla, snášenlivost a pro koho se který hodí.",
+    "h1": "Retinol vs Retinal", "excerpt": "Dva nejoblíbenější domácí retinoidy. Retinal bývá rychlejší, retinol má víc dat.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "items": ["retinol", "retinal"],
+    "dimensions": [
+      { "name": "Rychlost účinku", "values": ["pomalejší", "rychlejší"] },
+      { "name": "Konverzní kroky k aktivní formě", "values": ["2", "1"] },
+      { "name": "Síla důkazů", "values": ["silná", "středně silná"] },
+      { "name": "Snášenlivost", "values": ["dobrá", "dobrá"] },
+      { "name": "Typická koncentrace", "values": ["0,1–1 %", "0,05–0,1 %"] }
+    ],
+    "verdict": "Chcete-li nejvíc dat a osvědčenou volbu, sáhněte po retinolu. Chcete-li rychlejší nástup při dobré toleranci, zkuste retinal.",
+    "image": { "src": "/assets/img/comparisons/retinol-vs-retinal.svg", "alt": "Retinol vs Retinal — srovnání", "type": "infographic" },
+    "body": [
+      { "h2": "Hlavní rozdíl" },
+      { "p": "Retinal je o jeden konverzní krok blíž účinné formě, proto často působí rychleji. Retinol má za sebou víc studií a je snadno dostupný." },
+      { "note": "Přímých srovnávacích RCT je málo; rozdíl bývá v rychlosti, ne v cílovém efektu.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Můžu přejít z retinolu na retinal?", "a": "Ano, postupně. Začněte nižší koncentrací retinalu a sledujte toleranci." } ],
+    "sources": [],
+    "relations": { "ingredients": ["retinol", "retinal"], "problems": ["jemne-vrasky"], "products": ["medik8-crystal-retinal-6"] }
+  },
+  {
+    "id": "cmp-bakuchiol-retinol", "slug": "bakuchiol-vs-retinol", "type": "comparison", "name": "Bakuchiol vs Retinol",
+    "title": "Bakuchiol vs Retinol: rostlinná alternativa? | Aevia",
+    "metaDescription": "Srovnání bakuchiolu a retinolu — účinnost, snášenlivost, těhotenství a pro koho se který hodí.",
+    "h1": "Bakuchiol vs Retinol", "excerpt": "Retinol má víc důkazů, bakuchiol lépe snášenlivost a je vhodný v těhotenství.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "items": ["bakuchiol", "retinol"],
+    "dimensions": [
+      { "name": "Síla důkazů", "values": ["středně silná", "silná"] },
+      { "name": "Snášenlivost", "values": ["výborná", "dobrá"] },
+      { "name": "Vhodnost v těhotenství", "values": ["obvykle ano (konzultovat)", "ne"] },
+      { "name": "Fotostabilita", "values": ["ano (i ráno)", "ne (večer)"] }
+    ],
+    "verdict": "Retinol pro maximální účinnost a data. Bakuchiol pro citlivou pleť, těhotenství a ty, kdo retinol nesnášejí.",
+    "image": { "src": "/assets/img/comparisons/bakuchiol-vs-retinol.svg", "alt": "Bakuchiol vs Retinol — srovnání", "type": "infographic" },
+    "body": [
+      { "h2": "Pro koho co" },
+      { "p": "Retinol zůstává zlatým standardem. Bakuchiol je jemnější náhrada se srovnatelným, ale méně doloženým efektem." },
+      { "note": "Klíčová studie ukázala srovnatelný efekt při lepší toleranci bakuchiolu (jedna menší RCT).", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Můžu kombinovat oba?", "a": "Ano, někteří je kombinují pro lepší toleranci retinolu." } ],
+    "sources": [],
+    "relations": { "ingredients": ["bakuchiol", "retinol"], "studies": ["dhaliwal-2019-bakuchiol"], "skinTypes": ["citliva"] }
+  },
+  {
+    "id": "cmp-vitc-niacinamid", "slug": "vitamin-c-vs-niacinamid", "type": "comparison", "name": "Vitamin C vs Niacinamid",
+    "title": "Vitamin C vs Niacinamid: který antioxidant? | Aevia",
+    "metaDescription": "Srovnání vitaminu C a niacinamidu — k čemu slouží, zda je kombinovat a pro koho se který hodí.",
+    "h1": "Vitamin C vs Niacinamid", "excerpt": "Nemusíte volit — skvěle se doplňují. Liší se hlavním zaměřením.",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "items": ["vitamin-c", "niacinamid"],
+    "dimensions": [
+      { "name": "Hlavní role", "values": ["antioxidant, jas", "bariéra, póry, maz"] },
+      { "name": "Snášenlivost", "values": ["dobrá (může štípat)", "výborná"] },
+      { "name": "Stabilita", "values": ["nižší (oxiduje)", "vysoká"] },
+      { "name": "Lze kombinovat?", "values": ["ano", "ano"] }
+    ],
+    "verdict": "Nejde o souboj — vitamin C ráno na ochranu a jas, niacinamid kdykoli na bariéru a póry. Skvěle fungují spolu.",
+    "image": { "src": "/assets/img/comparisons/vitamin-c-vs-niacinamid.svg", "alt": "Vitamin C vs Niacinamid — srovnání", "type": "infographic" },
+    "body": [
+      { "h2": "Mýtus o nekombinovatelnosti" },
+      { "p": "Starší obava, že se vitamin C a niacinamid \"ruší\", je u moderních formulací překonaná. Klidně je používejte spolu." },
+      { "note": "Oba mají silné důkazy ve svých rolích.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Co když chci jen jeden?", "a": "Pro jas a ochranu vitamin C, pro bariéru a póry niacinamid." } ],
+    "sources": [],
+    "relations": { "ingredients": ["vitamin-c", "niacinamid"], "problems": ["pigmentace", "matna-plet"] }
+  },
+  {
+    "id": "cmp-led-laser", "slug": "led-vs-laser", "type": "comparison", "name": "LED vs Laser",
+    "title": "LED terapie vs Laser: jaký je rozdíl? | Aevia",
+    "metaDescription": "Srovnání LED terapie a laseru — princip, intenzita, rekonvalescence a pro koho se který hodí.",
+    "h1": "LED vs Laser", "excerpt": "LED jemně nabíjí buňky bez poškození, laser cíleně poškozuje pro silnější efekt.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "items": ["led-terapie", "led-terapie"],
+    "dimensions": [
+      { "name": "Princip", "values": ["fotobiomodulace (bez poškození)", "řízené poškození tkáně"] },
+      { "name": "Intenzita / efekt", "values": ["mírný, kumulativní", "silnější, rychlejší"] },
+      { "name": "Rekonvalescence", "values": ["žádná", "dle typu (dny)"] },
+      { "name": "Kde", "values": ["doma i v salonu", "odborné pracoviště"] }
+    ],
+    "verdict": "LED pro jemnou, bezpečnou domácí údržbu. Laser pro výraznější, ale invazivnější zákroky pod dohledem odborníka.",
+    "image": { "src": "/assets/img/comparisons/led-vs-laser.svg", "alt": "LED vs Laser — srovnání", "type": "infographic" },
+    "body": [
+      { "h2": "Dvě různé filozofie" },
+      { "p": "LED buňky šetrně stimuluje, laser je naopak cíleně poškozuje, aby spustil silnější obnovu. Liší se efektem i riziky." },
+      { "note": "Laser má silnější efekt a důkazy u řady indikací; LED je jemnější a bezpečnější.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Nahradí LED maska laser?", "a": "Ne, jsou to jiné kategorie. LED je údržba, laser je zákrok." } ],
+    "sources": [],
+    "relations": { "technologies": ["led-terapie"], "products": ["currentbody-led-mask"], "problems": ["jemne-vrasky", "pigmentace"] }
+  }
+]

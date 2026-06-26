@@ -1,0 +1,138 @@
+[
+  {
+    "id": "prob-jemne-vrasky", "slug": "jemne-vrasky", "type": "problem", "name": "Jemné vrásky",
+    "title": "Jemné vrásky: příčiny a co na ně funguje | Aevia",
+    "metaDescription": "Jemné vrásky jsou první známkou stárnutí pleti. Které ingredience, technologie a rutina je nejlépe řeší.",
+    "h1": "Jemné vrásky", "excerpt": "První linie a \"dehydratační\" vrásky. Dobře reagují na retinoidy, hydrataci a SPF.",
+    "evidenceLevel": "strong", "updated": "2026-06-01", "area": "celý obličej",
+    "causes": ["Fotopoškození (UV)", "Pokles kolagenu s věkem", "Dehydratace", "Mimika"],
+    "image": { "src": "/assets/img/problems/jemne-vrasky.svg", "alt": "Jemné vrásky — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Co pomáhá nejvíc" },
+      { "p": "Jemné vrásky dobře reagují na retinoidy, hydrataci (hyaluron) a hlavně na důslednou ochranu před sluncem." },
+      { "note": "Retinoidy a SPF mají nejsilnější důkazy pro prevenci i zlepšení.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Zmizí jemné vrásky úplně?", "a": "Dají se výrazně zmírnit, hlavně ty z dehydratace. Prevence (SPF) je nejúčinnější." } ],
+    "sources": [],
+    "relations": { "ingredients": ["retinol", "retinal", "bakuchiol", "kyselina-hyaluronova"], "technologies": ["led-terapie", "microneedling"], "skinTypes": ["zrala", "sucha"], "ageGroups": ["20-plus", "30-plus"], "routines": ["vecerni-rutina"], "products": ["spf-50-denni"] }
+  },
+  {
+    "id": "prob-hluboke-vrasky", "slug": "hluboke-vrasky", "type": "problem", "name": "Hluboké vrásky",
+    "title": "Hluboké vrásky: co na ně reálně zabere | Aevia",
+    "metaDescription": "Hluboké vrásky vyžadují kombinaci aktivní kosmetiky, technologií a často i procedur. Realistický přehled možností.",
+    "h1": "Hluboké vrásky", "excerpt": "Vyžadují kombinaci kosmetiky, technologií a často i procedur.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "čelo, nasolabiální rýhy",
+    "causes": ["Výrazná ztráta kolagenu", "Opakovaná mimika", "Pokles podkožní podpory"],
+    "image": { "src": "/assets/img/problems/hluboke-vrasky.svg", "alt": "Hluboké vrásky — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Realistická očekávání" },
+      { "p": "Kosmetika hluboké vrásky zmírní, ale obvykle nezruší. Pro výraznější efekt se kombinuje s RF/HIFU a procedurami (botox, výplně)." },
+      { "note": "Neinvazivní metody hluboké vrásky zmírňují; výrazné vyhlazení obvykle vyžaduje procedury.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Pomůže krém na hluboké vrásky?", "a": "Zmírní je a zlepší pleť kolem, ale na výraznou změnu obvykle nestačí sám." } ],
+    "sources": [],
+    "relations": { "ingredients": ["retinol", "peptidy"], "technologies": ["radiofrekvence", "hifu", "microneedling"], "skinTypes": ["zrala"], "ageGroups": ["40-plus", "50-plus", "60-plus"], "procedures": ["botox", "profhilo"] }
+  },
+  {
+    "id": "prob-pigmentace", "slug": "pigmentace", "type": "problem", "name": "Pigmentace",
+    "title": "Pigmentace a tmavé skvrny: jak je zesvětlit | Aevia",
+    "metaDescription": "Pigmentové skvrny a nerovnoměrný tón řeší antioxidanty, kyseliny a hlavně ochrana před sluncem. Přehled možností.",
+    "h1": "Pigmentace", "excerpt": "Tmavé skvrny a nerovnoměrný tón. Klíč: rozjasňující látky + důsledné SPF.",
+    "evidenceLevel": "strong", "updated": "2026-06-01", "area": "tváře, čelo",
+    "causes": ["UV záření", "Postzánětlivá reakce (po akné)", "Hormonální vlivy (melasma)"],
+    "image": { "src": "/assets/img/problems/pigmentace.svg", "alt": "Pigmentace — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Bez SPF to nejde" },
+      { "p": "Jakákoli léčba pigmentace je marná bez důsledné ochrany před sluncem. Pak pomáhá vitamin C, niacinamid, azelaová kyselina a kyseliny." },
+      { "note": "Fotoprotekce + rozjasňující látky mají silné důkazy; melasma bývá tvrdošíjná.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Proč se mi skvrny vrací?", "a": "Nejčastěji kvůli nedostatečné ochraně před sluncem. SPF je základ." } ],
+    "sources": [],
+    "relations": { "ingredients": ["vitamin-c", "niacinamid", "azelaova-kyselina", "aha"], "technologies": ["microneedling"], "skinTypes": ["aknozni"], "ageGroups": ["30-plus", "40-plus"], "products": ["spf-50-denni"], "procedures": ["chemicky-peeling"] }
+  },
+  {
+    "id": "prob-rozsirene-pory", "slug": "rozsirene-pory", "type": "problem", "name": "Rozšířené póry",
+    "title": "Rozšířené póry: jak je zjemnit | Aevia",
+    "metaDescription": "Rozšířené póry zjemní regulace mazu, BHA a stimulace kolagenu. Co reálně funguje a co je mýtus.",
+    "h1": "Rozšířené póry", "excerpt": "Opticky se zjemní regulací mazu, BHA a podporou kolagenu kolem pórů.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "T-zóna, tváře",
+    "causes": ["Vyšší produkce mazu", "Ztráta pružnosti kolem pórů", "Ucpání"],
+    "image": { "src": "/assets/img/problems/rozsirene-pory.svg", "alt": "Rozšířené póry — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Co zabere" },
+      { "p": "Póry nelze \"zavřít\", ale lze je opticky zmenšit: čistit (BHA), regulovat maz (niacinamid) a posilovat kolagen (retinoidy, microneedling)." },
+      { "note": "Niacinamid a retinoidy mají solidní důkazy pro vzhled pórů.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Dají se póry trvale zmenšit?", "a": "Velikost je dána i geneticky; lze je výrazně zjemnit, ne nutně zmizet." } ],
+    "sources": [],
+    "relations": { "ingredients": ["bha", "niacinamid", "retinol"], "technologies": ["microneedling"], "skinTypes": ["mastna", "aknozni"], "ageGroups": ["20-plus", "30-plus"] }
+  },
+  {
+    "id": "prob-rosacea", "slug": "rosacea", "type": "problem", "name": "Rosacea a zarudnutí",
+    "title": "Rosacea a zarudnutí: šetrná péče | Aevia",
+    "metaDescription": "Rosacea vyžaduje jemnou péči a látky tlumící zánět. Co pomáhá, čemu se vyhnout a kdy k lékaři.",
+    "h1": "Rosacea a zarudnutí", "excerpt": "Chronické zarudnutí a citlivost. Klíč: jemnost, azelaová kyselina, bariéra, žádné spouštěče.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "tváře, nos",
+    "causes": ["Cévní reaktivita", "Spouštěče (teplo, alkohol, koření)", "Narušená bariéra"],
+    "image": { "src": "/assets/img/problems/rosacea.svg", "alt": "Rosacea — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Méně dráždit, více chránit" },
+      { "p": "U rosacey vyhrává minimalismus, posílení bariéry, azelaová kyselina a vyhýbání se spouštěčům. Závažnější formy patří k dermatologovi." },
+      { "note": "Azelaová kyselina patří mezi doporučované látky na rosacea.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Můžu na rosacea retinol?", "a": "Opatrně a jen ve stabilní fázi; mnohým vyhovuje spíš azelaová kyselina." } ],
+    "sources": [],
+    "relations": { "ingredients": ["azelaova-kyselina", "niacinamid", "kyselina-hyaluronova"], "technologies": ["led-terapie"], "skinTypes": ["citliva"], "ageGroups": ["30-plus", "40-plus"] }
+  },
+  {
+    "id": "prob-povolena-plet", "slug": "povolena-plet", "type": "problem", "name": "Povolená pleť",
+    "title": "Povolená pleť a ztráta pevnosti: co pomáhá | Aevia",
+    "metaDescription": "Ztráta pevnosti a ochablost se řeší stimulací kolagenu — technologiemi (RF, HIFU) i procedurami. Přehled.",
+    "h1": "Povolená pleť", "excerpt": "Ztráta pevnosti a kontur. Nejlépe reaguje na zpevňující technologie a procedury.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "ovál, krk, podbradek",
+    "causes": ["Pokles kolagenu a elastinu", "Gravitace a ztráta objemu", "Fotopoškození"],
+    "image": { "src": "/assets/img/problems/povolena-plet.svg", "alt": "Povolená pleť — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Zpevnění v hloubce" },
+      { "p": "Topická kosmetika ochablost zmírní jen mírně. Výraznější efekt mají technologie zasahující hlubší vrstvy (RF, HIFU) a procedury." },
+      { "note": "HIFU a RF mají z neinvazivních metod nejlepší důkazy pro zpevnění.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Co je nejúčinnější neinvazivní zpevnění?", "a": "HIFU pro hloubku, RF pro postupné zpevnění; oba vyžadují čas a opakování." } ],
+    "sources": [],
+    "relations": { "ingredients": ["peptidy", "retinol"], "technologies": ["hifu", "radiofrekvence", "microcurrent", "ems", "led-terapie"], "skinTypes": ["zrala"], "ageGroups": ["40-plus", "50-plus", "60-plus"], "procedures": ["profhilo"] }
+  },
+  {
+    "id": "prob-textura", "slug": "textura", "type": "problem", "name": "Nerovnoměrná textura",
+    "title": "Nerovnoměrná textura pleti: hladší a jasnější | Aevia",
+    "metaDescription": "Hrubá a nerovnoměrná textura se zlepšuje exfoliací, retinoidy a microneedlingem. Přehled účinných postupů.",
+    "h1": "Nerovnoměrná textura", "excerpt": "Drsnost a nerovnosti. Reaguje na exfoliaci, retinoidy a microneedling.",
+    "evidenceLevel": "strong", "updated": "2026-06-01", "area": "tváře, čelo",
+    "causes": ["Nahromadění odumřelých buněk", "Fotopoškození", "Jizvičky po akné"],
+    "image": { "src": "/assets/img/problems/textura.svg", "alt": "Textura pleti — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Hladkost krok za krokem" },
+      { "p": "Pravidelná šetrná exfoliace (AHA), retinoidy a u jizev microneedling postupně vyhladí povrch." },
+      { "note": "AHA a retinoidy mají silné důkazy pro zlepšení textury.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Jak rychle se textura zlepší?", "a": "První zlepšení za pár týdnů, výraznější po 2–3 měsících." } ],
+    "sources": [],
+    "relations": { "ingredients": ["aha", "retinol", "retinal"], "technologies": ["microneedling"], "skinTypes": ["mastna", "zrala"], "ageGroups": ["20-plus", "30-plus"], "routines": ["vecerni-rutina"] }
+  },
+  {
+    "id": "prob-matna-plet", "slug": "matna-plet", "type": "problem", "name": "Matná pleť",
+    "title": "Matná unavená pleť: jak vrátit jas | Aevia",
+    "metaDescription": "Matná pleť ožije s antioxidanty, exfoliací a hydratací. Které kroky vrátí pleti zdravý jas.",
+    "h1": "Matná pleť", "excerpt": "Ztráta jasu a svěžesti. Pomáhá vitamin C, jemná exfoliace a hydratace.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01", "area": "celý obličej",
+    "causes": ["Nahromadění odumřelých buněk", "Dehydratace", "Oxidační stres", "Únava a kouření"],
+    "image": { "src": "/assets/img/problems/matna-plet.svg", "alt": "Matná pleť — schéma", "type": "illustration" },
+    "body": [
+      { "h2": "Návrat jasu" },
+      { "p": "Jas vrací kombinace antioxidantu (vitamin C), jemné exfoliace (AHA) a dostatečné hydratace. Pomáhá i spánek a SPF." },
+      { "note": "Vitamin C a AHA mají dobré důkazy pro jas a tón.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Proč je moje pleť unavená i po spánku?", "a": "Může jít o dehydrataci, nahromaděné buňky nebo oxidační stres — řeší se hydratací, exfoliací a antioxidanty." } ],
+    "sources": [],
+    "relations": { "ingredients": ["vitamin-c", "aha", "kyselina-hyaluronova", "niacinamid"], "skinTypes": ["sucha", "smisena"], "ageGroups": ["20-plus", "30-plus"], "routines": ["ranni-rutina"] }
+  }
+]

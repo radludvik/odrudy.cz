@@ -1,0 +1,232 @@
+[
+  {
+    "id": "tech-led-terapie",
+    "slug": "led-terapie",
+    "type": "technology",
+    "name": "LED terapie",
+    "title": "LED terapie pleti: červené a infračervené světlo | Aevia",
+    "metaDescription": "LED terapie využívá konkrétní vlnové délky světla k podpoře kolagenu a hojení. Co funguje, jaké barvy a jaké jsou důkazy.",
+    "h1": "LED terapie",
+    "excerpt": "Světelná terapie konkrétními vlnovými délkami. Červené světlo podporuje kolagen, modré cílí na akné.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "principle": "LED diody vyzařují světlo o přesné vlnové délce. Různé vlnové délky pronikají do různé hloubky a spouštějí různé buněčné reakce, bez tepla a bez poškození pokožky.",
+    "mechanism": "Červené (630–660 nm) a near-infrared (810–850 nm) světlo působí na mitochondrie (fotobiomodulace), zvyšuje produkci ATP, stimuluje fibroblasty a tvorbu kolagenu. Modré (415 nm) ničí bakterie způsobující akné.",
+    "pros": ["Neinvazivní a bezbolestná", "Bez rekonvalescence", "Vhodná i pro citlivou pleť", "Lze používat doma"],
+    "cons": ["Vyžaduje pravidelnost (týdny až měsíce)", "Efekt je mírný a kumulativní", "Kvalita domácích zařízení se liší"],
+    "contraindications": ["Fotosenzitivní onemocnění", "Užívání fotosenzibilizujících léků", "Aktivní kožní nádory"],
+    "evidenceSummary": "Fotobiomodulace má rostoucí důkazní základnu pro mírné zlepšení vrásek, jasu a hojení; účinky jsou reálné, ale postupné.",
+    "image": { "src": "/assets/img/technologies/led-terapie.svg", "alt": "LED terapie a pronikání vlnových délek do pokožky", "type": "infographic" },
+    "body": [
+      { "h2": "Jak LED terapie funguje" },
+      { "p": "LED terapie není laser — nepoškozuje tkáň, ale jemně \"nabíjí\" buňky energií. Klíčem je správná vlnová délka a dostatečná dávka (pravidelnost)." },
+      { "note": "Studie ukazují mírné, ale konzistentní zlepšení kolagenu a jasu při pravidelném používání.", "evidence": "moderate" },
+      { "h2": "Barvy a jejich účel" },
+      { "table": { "head": ["Barva", "Vlnová délka", "Cíl"], "rows": [["Červená", "630–660 nm", "Kolagen, vrásky, jas"], ["Near-infrared", "810–850 nm", "Hlubší vrstvy, hojení"], ["Modrá", "415 nm", "Akné, bakterie"]] } }
+    ],
+    "faq": [
+      { "q": "Jak často LED masku používat?", "a": "Typicky 3–5× týdně po 10–20 minutách. Výsledky se ukazují po 8–12 týdnech." },
+      { "q": "Funguje LED doma stejně jako v salonu?", "a": "Domácí zařízení mívají nižší výkon, ale při pravidelnosti dávají reálné výsledky. Sledujte výkon a vlnovou délku." }
+    ],
+    "sources": [
+      { "title": "Wunsch A. — A Controlled Trial to Determine the Efficacy of Red and NIR Light", "journal": "Photomed Laser Surg", "year": 2014, "type": "rct" }
+    ],
+    "alternativeTech": ["radiofrekvence", "microcurrent"],
+    "relations": {
+      "products": ["currentbody-led-mask"],
+      "studies": ["wunsch-2014-led"],
+      "ingredients": ["peptidy"],
+      "problems": ["jemne-vrasky", "povolena-plet"],
+      "skinTypes": ["citliva", "zrala"],
+      "ageGroups": ["30-plus", "40-plus", "50-plus"],
+      "comparisons": ["led-vs-laser"],
+      "terms": ["fotobiomodulace"]
+    }
+  },
+  {
+    "id": "tech-radiofrekvence",
+    "slug": "radiofrekvence",
+    "type": "technology",
+    "name": "Radiofrekvence (RF)",
+    "title": "Radiofrekvence na pleť: zpevnění teplem | Aevia",
+    "metaDescription": "Radiofrekvence zahřívá hlubší vrstvy pokožky a stimuluje kolagen pro zpevnění. Jak funguje a co čekat od domácích RF zařízení.",
+    "h1": "Radiofrekvence (RF)",
+    "excerpt": "Řízené zahřívání hlubších vrstev kůže, které stáhne stávající kolagen a podpoří tvorbu nového.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "principle": "RF energie prochází pokožkou a zahřívá dermis na 40–45 °C. Teplo způsobí okamžité stažení kolagenových vláken a spustí dlouhodobou tvorbu nového kolagenu.",
+    "mechanism": "Kontrolované teplo denaturuje a smršťuje kolagen a aktivuje fibroblasty (neokolagenezi). Efekt je dvojí: okamžité mírné zpevnění a postupné zlepšení během týdnů.",
+    "pros": ["Zpevnění a vypnutí kontur", "Neinvazivní, bez rekonvalescence", "Vhodné na ovál obličeje a krk"],
+    "cons": ["Domácí zařízení jsou slabší než profesionální", "Vyžaduje série a údržbu", "Výsledky jsou jemné"],
+    "contraindications": ["Kovové implantáty/kardiostimulátor v oblasti", "Těhotenství", "Aktivní záněty"],
+    "evidenceSummary": "Profesionální RF má dobré důkazy pro zpevnění; domácí zařízení působí mírněji a vyžadují pravidelnost.",
+    "image": { "src": "/assets/img/technologies/radiofrekvence.svg", "alt": "Radiofrekvence zahřívá dermis a stahuje kolagen", "type": "infographic" },
+    "body": [
+      { "h2": "Princip tepla" },
+      { "p": "Radiofrekvence pracuje s teplem v hloubce, kam se běžná kosmetika nedostane. Cílem je \"přeprogramovat\" kolagen, aby se stáhl a obnovil." },
+      { "note": "Profesionální RF má slušné důkazy pro zpevnění; u domácích přístrojů jsou výsledky mírnější.", "evidence": "moderate" }
+    ],
+    "faq": [
+      { "q": "Jak rychle RF zabere?", "a": "Část efektu je okamžitá, plný výsledek po sérii a několika týdnech tvorby kolagenu." }
+    ],
+    "sources": [
+      { "title": "Sadick N. — Radiofrequency for skin tightening", "journal": "J Cosmet Laser Ther", "year": 2008, "type": "review" }
+    ],
+    "alternativeTech": ["hifu", "led-terapie", "microcurrent"],
+    "relations": {
+      "problems": ["povolena-plet", "hluboke-vrasky"],
+      "skinTypes": ["zrala"],
+      "ageGroups": ["40-plus", "50-plus", "60-plus"],
+      "comparisons": []
+    }
+  },
+  {
+    "id": "tech-microcurrent",
+    "slug": "microcurrent",
+    "type": "technology",
+    "name": "Microcurrent",
+    "title": "Microcurrent: mikroproudy pro tonizaci obličeje | Aevia",
+    "metaDescription": "Microcurrent stimuluje obličejové svaly slabým proudem pro \"liftingový\" efekt. Co funguje, jak často a jaké jsou limity.",
+    "h1": "Microcurrent",
+    "excerpt": "Slabé proudy tonizují obličejové svaly a dávají dočasný liftingový efekt. Vyžaduje pravidelnost.",
+    "evidenceLevel": "limited",
+    "updated": "2026-06-01",
+    "principle": "Velmi slabý elektrický proud (mikroampéry) stimuluje obličejové svaly a buněčný metabolismus, čímž navozuje dojem zpevnění a \"liftingu\".",
+    "mechanism": "Proud má tonizovat mimické svaly a zvyšovat tvorbu ATP. Efekt je převážně dočasný a kumulativní — funguje jako \"cvičení\" pro obličej.",
+    "pros": ["Okamžitý dočasný lifting", "Neinvazivní a příjemné", "Vhodné před událostí"],
+    "cons": ["Efekt je dočasný, vyžaduje opakování", "Slabá důkazní základna pro trvalé výsledky"],
+    "contraindications": ["Kardiostimulátor", "Těhotenství", "Epilepsie", "Kovové implantáty v oblasti"],
+    "evidenceSummary": "Důkazy pro dočasný tonizační efekt jsou omezené; pro trvalou změnu chybí kvalitní data.",
+    "image": { "src": "/assets/img/technologies/microcurrent.svg", "alt": "Microcurrent stimuluje obličejové svaly", "type": "illustration" },
+    "body": [
+      { "h2": "Cvičení pro obličej" },
+      { "p": "Microcurrent se přirovnává k posilování — výsledek drží, dokud trénujete. Hodí se na dočasné zpevnění a tonizaci." },
+      { "note": "Pro dočasný efekt existují náznaky účinnosti, kvalitních dlouhodobých studií je málo.", "evidence": "limited" }
+    ],
+    "faq": [
+      { "q": "Vydrží efekt microcurrentu?", "a": "Spíše ne natrvalo — funguje při pravidelném používání, jinak postupně mizí." }
+    ],
+    "sources": [
+      { "title": "Review of microcurrent in aesthetic dermatology", "journal": "J Cosmet Dermatol", "year": 2020, "type": "review" }
+    ],
+    "alternativeTech": ["radiofrekvence", "ems"],
+    "relations": {
+      "products": ["nuface-trinity"],
+      "problems": ["povolena-plet"],
+      "skinTypes": ["zrala"],
+      "ageGroups": ["30-plus", "40-plus", "50-plus"],
+      "comparisons": []
+    }
+  },
+  {
+    "id": "tech-hifu",
+    "slug": "hifu",
+    "type": "technology",
+    "name": "HIFU",
+    "title": "HIFU: fokusovaný ultrazvuk pro lifting bez skalpelu | Aevia",
+    "metaDescription": "HIFU cílí ultrazvukovou energii do hloubky a stimuluje kolagen pro lifting. Princip, výsledky a omezení.",
+    "h1": "HIFU (High-Intensity Focused Ultrasound)",
+    "excerpt": "Fokusovaný ultrazvuk zasahuje hlubokou vrstvu (SMAS) a spouští výrazné stažení kolagenu.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "principle": "HIFU soustředí ultrazvukovou energii do přesných bodů v hloubce, kde lokálním zahřátím vytvoří mikrokoagulační body a spustí silnou tvorbu kolagenu — bez poškození povrchu.",
+    "mechanism": "Energie zasahuje až do vrstvy SMAS (kterou jinak ovlivňuje chirurgický lifting). Tepelné body iniciují neokolagenezi a remodelaci po dobu 2–3 měsíců.",
+    "pros": ["Lifting bez operace a rekonvalescence", "Dosáhne hlubokých vrstev", "Dlouhodobější efekt než povrchové metody"],
+    "cons": ["Profesionální procedura, ne domácí", "Může být nepříjemné", "Výsledky závisí na operatérovi"],
+    "contraindications": ["Těhotenství", "Aktivní infekce/záněty v oblasti", "Implantáty v ošetřované zóně"],
+    "evidenceSummary": "HIFU má dobré důkazy pro lifting dolní třetiny obličeje a krku, výsledek se rozvíjí v řádu měsíců.",
+    "image": { "src": "/assets/img/technologies/hifu.svg", "alt": "HIFU cílí ultrazvuk do hloubky SMAS", "type": "infographic" },
+    "body": [
+      { "h2": "Nejblíž k chirurgickému liftingu" },
+      { "p": "HIFU je z neinvazivních metod nejúčinnější pro skutečné zpevnění, protože jako jediná zasahuje hlubokou vrstvu SMAS." },
+      { "note": "Klinické studie potvrzují zlepšení ochablosti v dolní třetině obličeje a krku.", "evidence": "moderate" }
+    ],
+    "faq": [
+      { "q": "Bolí HIFU?", "a": "Může být nepříjemný v okamžiku zásahu energie, intenzita se dá regulovat." }
+    ],
+    "sources": [
+      { "title": "Suh D. — Intense focused ultrasound tightening", "journal": "Dermatol Surg", "year": 2011, "type": "rct" }
+    ],
+    "alternativeTech": ["radiofrekvence", "ultrazvuk"],
+    "relations": {
+      "problems": ["povolena-plet", "hluboke-vrasky"],
+      "skinTypes": ["zrala"],
+      "ageGroups": ["40-plus", "50-plus", "60-plus"],
+      "procedures": []
+    }
+  },
+  {
+    "id": "tech-microneedling",
+    "slug": "microneedling",
+    "type": "technology",
+    "name": "Microneedling",
+    "title": "Microneedling (dermapen): mikrojehličkování pleti | Aevia",
+    "metaDescription": "Microneedling vytváří mikroporanění, která spouští hojení a tvorbu kolagenu. Domácí dermaroller vs profesionální dermapen.",
+    "h1": "Microneedling (mikrojehličkování)",
+    "excerpt": "Řízená mikroporanění spouští hojivou kaskádu a tvorbu kolagenu. Zlepšuje jizvy, póry i texturu.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "principle": "Jemné jehličky vytvoří v pokožce mikroskopické kanálky. Tělo je vnímá jako poranění a spustí hojení provázené tvorbou nového kolagenu a elastinu.",
+    "mechanism": "Mikroporanění aktivují kaskádu růstových faktorů a neokolagenezi. Kanálky zároveň dočasně zvyšují průnik účinných látek.",
+    "pros": ["Zlepšení jizev po akné, pórů a textury", "Stimulace kolagenu", "Profesionální i šetrné domácí varianty"],
+    "cons": ["Riziko infekce při špatné hygieně", "Domácí dermaroller je výrazně slabší", "Krátká rekonvalescence u hlubších ošetření"],
+    "contraindications": ["Aktivní akné a infekce", "Sklon ke keloidům", "Poruchy srážlivosti"],
+    "evidenceSummary": "Profesionální microneedling má dobré důkazy pro jizvy a texturu; domácí dermarollery působí mírněji.",
+    "image": { "src": "/assets/img/technologies/microneedling.svg", "alt": "Microneedling vytváří mikrokanálky v pokožce", "type": "infographic" },
+    "body": [
+      { "h2": "Domácí vs profesionální" },
+      { "p": "Profesionální dermapen pracuje s nastavitelnou hloubkou a sterilními jehlami. Domácí dermarollery jsou bezpečnější, ale méně účinné a vyžadují pečlivou hygienu." },
+      { "note": "Studie podporují účinnost u jizev po akné a celkové textury.", "evidence": "moderate" }
+    ],
+    "faq": [
+      { "q": "Můžu po microneedlingu retinol?", "a": "Bezprostředně po ošetření ne — počkejte na zhojení a aktivní látky nasazujte postupně dle doporučení odborníka." }
+    ],
+    "sources": [
+      { "title": "Hou A. — Microneedling: A Comprehensive Review", "journal": "Dermatol Surg", "year": 2017, "type": "review" }
+    ],
+    "alternativeTech": ["radiofrekvence", "led-terapie"],
+    "relations": {
+      "ingredients": ["retinol"],
+      "problems": ["rozsirene-pory", "textura", "jemne-vrasky"],
+      "skinTypes": ["mastna", "zrala"],
+      "ageGroups": ["30-plus", "40-plus"],
+      "procedures": ["microneedling-procedura"]
+    }
+  },
+  {
+    "id": "tech-ems",
+    "slug": "ems",
+    "type": "technology",
+    "name": "EMS",
+    "title": "EMS pro obličej: elektrostimulace svalů | Aevia",
+    "metaDescription": "EMS používá silnější proud než microcurrent ke stimulaci obličejových svalů. Rozdíly, použití a limity důkazů.",
+    "h1": "EMS (elektrická stimulace svalů)",
+    "excerpt": "Silnější svalová stimulace než microcurrent. Cílí na tonizaci obličejových svalů.",
+    "evidenceLevel": "limited",
+    "updated": "2026-06-01",
+    "principle": "EMS vysílá proud, který vyvolá viditelné stažení obličejových svalů, podobně jako cvičení. Cílem je posílení a tonizace.",
+    "mechanism": "Opakované kontrakce mají posilovat mimické svaly a podpořit prokrvení. Efekt je převážně dočasný.",
+    "pros": ["Tonizace a dočasné zpevnění", "Často kombinováno s dalšími funkcemi přístroje"],
+    "cons": ["Omezené důkazy", "Efekt dočasný", "Nevhodné pro některé stavy"],
+    "contraindications": ["Kardiostimulátor", "Těhotenství", "Epilepsie"],
+    "evidenceSummary": "Pro trvalé anti-aging výsledky chybí kvalitní data; krátkodobá tonizace je pravděpodobná.",
+    "image": { "src": "/assets/img/technologies/ems.svg", "alt": "EMS stimulace obličejových svalů", "type": "illustration" },
+    "body": [
+      { "h2": "EMS vs microcurrent" },
+      { "p": "EMS používá silnější proud a vyvolá viditelnou kontrakci, microcurrent pracuje pod prahem vnímání. Oba cílí na svaly, EMS výrazněji." },
+      { "note": "Důkazy pro dlouhodobý efekt jsou omezené.", "evidence": "limited" }
+    ],
+    "faq": [
+      { "q": "Je EMS lepší než microcurrent?", "a": "Není to lepší/horší, ale jiná intenzita. Pro citlivou pleť bývá microcurrent příjemnější." }
+    ],
+    "sources": [
+      { "title": "Overview of facial muscle stimulation", "journal": "J Cosmet Dermatol", "year": 2019, "type": "review" }
+    ],
+    "alternativeTech": ["microcurrent", "radiofrekvence"],
+    "relations": {
+      "problems": ["povolena-plet"],
+      "skinTypes": ["zrala"],
+      "ageGroups": ["40-plus", "50-plus"]
+    }
+  }
+]

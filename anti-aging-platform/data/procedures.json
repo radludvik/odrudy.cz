@@ -1,0 +1,78 @@
+[
+  {
+    "id": "proc-botox", "slug": "botox", "type": "procedure", "name": "Botox (botulotoxin)",
+    "title": "Botox: jak funguje a na co se hodí | Aevia",
+    "metaDescription": "Botulotoxin uvolňuje mimické svaly a vyhlazuje dynamické vrásky. Princip, výsledky, rizika a realistická očekávání.",
+    "h1": "Botox (botulotoxin)", "excerpt": "Uvolňuje mimické svaly a vyhlazuje dynamické vrásky (čelo, mračivka, oční okolí).",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "principle": "Botulotoxin dočasně blokuje nervosvalový přenos a tím uvolní mimický sval, který tvoří dynamickou vrásku.",
+    "invasiveness": "miniinvazivní (injekce)", "downtime": "minimální", "frequency": "obvykle každé 3–4 měsíce",
+    "results": "Vyhlazení dynamických vrásek, efekt 3–6 měsíců.", "risks": ["Přechodné modřiny", "Asymetrie při nevhodné aplikaci", "Pokleslé víčko (vzácné)"], "priceRange": "tisíce Kč dle rozsahu",
+    "image": { "src": "/assets/img/procedures/botox.svg", "alt": "Botox — princip uvolnění svalu", "type": "illustration" },
+    "body": [
+      { "h2": "Na co se hodí" },
+      { "p": "Botox je nejúčinnější na dynamické (mimické) vrásky — čelo, mračivku a vrásky kolem očí. Statické vrásky řeší méně." },
+      { "note": "Účinnost a bezpečnost botulotoxinu na dynamické vrásky jsou velmi dobře doloženy.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Je botox neinvazivní?", "a": "Je miniinvazivní (injekce), ale bez rekonvalescence. Patří do rukou lékaře." } ],
+    "sources": [],
+    "relations": { "problems": ["hluboke-vrasky"], "skinTypes": ["zrala"], "ageGroups": ["30-plus", "40-plus", "50-plus"], "terms": ["dynamicka-vraska"] }
+  },
+  {
+    "id": "proc-profhilo", "slug": "profhilo", "type": "procedure", "name": "Profhilo",
+    "title": "Profhilo: bioremodelace hyaluronem | Aevia",
+    "metaDescription": "Profhilo je injekční bioremodelace stabilizovanou kyselinou hyaluronovou pro hydrataci a pevnost pleti. Princip a výsledky.",
+    "h1": "Profhilo", "excerpt": "Injekční bioremodelace hyaluronem — hydratuje a zpevňuje, nevyplňuje rysy.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "principle": "Vysoce koncentrovaná stabilizovaná kyselina hyaluronová se aplikuje do několika bodů a rozlije se, hydratuje a stimuluje kolagen i elastin.",
+    "invasiveness": "miniinvazivní (injekce)", "downtime": "minimální", "frequency": "2 sezení po 4 týdnech, poté udržovací",
+    "results": "Hydratovanější, pevnější a zářivější pleť.", "risks": ["Přechodné bulky v místě vpichu", "Modřiny"], "priceRange": "tisíce Kč za sezení",
+    "image": { "src": "/assets/img/procedures/profhilo.svg", "alt": "Profhilo — bioremodelace", "type": "illustration" },
+    "body": [
+      { "h2": "Není to výplň" },
+      { "p": "Profhilo nemění rysy jako klasické výplně — působí plošně na kvalitu pleti: hydrataci, pružnost a jas." },
+      { "note": "Studie ukazují zlepšení hydratace a pružnosti, dat je zatím střední množství.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Jaký je rozdíl proti výplním?", "a": "Výplně tvarují a doplňují objem, Profhilo zlepšuje kvalitu pleti plošně." } ],
+    "sources": [],
+    "relations": { "ingredients": ["kyselina-hyaluronova"], "problems": ["povolena-plet", "matna-plet"], "skinTypes": ["zrala", "sucha"], "ageGroups": ["40-plus", "50-plus"] }
+  },
+  {
+    "id": "proc-microneedling", "slug": "microneedling-procedura", "type": "procedure", "name": "Microneedling (procedura)",
+    "title": "Microneedling jako procedura: profesionální dermapen | Aevia",
+    "metaDescription": "Profesionální microneedling dermapenem stimuluje kolagen a zlepšuje jizvy i texturu. Průběh, výsledky a péče po.",
+    "h1": "Microneedling (procedura)", "excerpt": "Profesionální mikrojehličkování dermapenem pro jizvy, póry a texturu.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "principle": "Sterilní jehly s nastavitelnou hloubkou vytvoří kontrolovaná mikroporanění a spustí tvorbu kolagenu.",
+    "invasiveness": "miniinvazivní", "downtime": "1–3 dny zarudnutí", "frequency": "série 3–6 sezení po 4 týdnech",
+    "results": "Zlepšení jizev po akné, pórů a textury.", "risks": ["Zarudnutí", "Infekce při špatné hygieně", "Postzánětlivá pigmentace"], "priceRange": "stovky až tisíce Kč za sezení",
+    "image": { "src": "/assets/img/procedures/microneedling-procedura.svg", "alt": "Microneedling procedura", "type": "illustration" },
+    "body": [
+      { "h2": "Kdy do salonu" },
+      { "p": "Profesionální microneedling pracuje s větší hloubkou a sterilitou než domácí dermaroller — vhodný hlavně na jizvy po akné." },
+      { "note": "Dobré důkazy pro jizvy po akné a texturu.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Jak se starat po microneedlingu?", "a": "Jen jemná hydratace a SPF, žádné aktivní látky první dny." } ],
+    "sources": [],
+    "relations": { "technologies": ["microneedling"], "problems": ["textura", "rozsirene-pory"], "ageGroups": ["30-plus", "40-plus"] }
+  },
+  {
+    "id": "proc-chemicky-peeling", "slug": "chemicky-peeling", "type": "procedure", "name": "Chemický peeling",
+    "title": "Chemický peeling: jas a obnova pleti | Aevia",
+    "metaDescription": "Chemické peelingy kyselinami obnovují povrch pleti, rozjasňují a vyhlazují. Druhy peelingů a čemu odpovídají.",
+    "h1": "Chemický peeling", "excerpt": "Řízená exfoliace kyselinami pro jas, texturu a pigmentaci. Od povrchových po hloubkové.",
+    "evidenceLevel": "strong", "updated": "2026-06-01",
+    "principle": "Kyseliny (AHA, BHA, TCA) v koncentraci aplikované odborníkem řízeně odstraní vrstvy pokožky a spustí obnovu.",
+    "invasiveness": "neinvazivní až miniinvazivní", "downtime": "dle hloubky 0–7 dní", "frequency": "série dle typu",
+    "results": "Jasnější, hladší pleť, zlepšení pigmentace.", "risks": ["Zarudnutí, olupování", "Pigmentace při špatné péči", "Citlivost na slunce"], "priceRange": "stovky až tisíce Kč",
+    "image": { "src": "/assets/img/procedures/chemicky-peeling.svg", "alt": "Chemický peeling", "type": "illustration" },
+    "body": [
+      { "h2": "Povrchový vs hloubkový" },
+      { "p": "Povrchové peelingy (AHA/BHA) jsou bez rekonvalescence a dají se opakovat. Hloubkové (TCA) mají větší efekt i rekonvalescenci." },
+      { "note": "Peelingy mají dobré důkazy pro jas, texturu a pigmentaci.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Můžu peeling v létě?", "a": "Povrchové opatrně s důsledným SPF; hloubkové se doporučují mimo letní měsíce." } ],
+    "sources": [],
+    "relations": { "ingredients": ["aha", "bha"], "problems": ["pigmentace", "matna-plet", "textura"], "skinTypes": ["mastna", "zrala"], "ageGroups": ["30-plus", "40-plus"] }
+  }
+]

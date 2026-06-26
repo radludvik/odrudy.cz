@@ -1,0 +1,211 @@
+[
+  {
+    "id": "prod-medik8-crystal-retinal-6",
+    "slug": "medik8-crystal-retinal-6",
+    "type": "product",
+    "name": "Medik8 Crystal Retinal 6",
+    "title": "Recenze: Medik8 Crystal Retinal 6 — retinal sérum | Aevia",
+    "metaDescription": "Medik8 Crystal Retinal 6 je stabilizované retinaldehydové sérum. Složení, použití, výhody a nevýhody.",
+    "h1": "Medik8 Crystal Retinal 6",
+    "excerpt": "Stabilizované retinaldehydové sérum řady, kde lze postupně zvyšovat sílu (1 → 24).",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "brand": "Medik8",
+    "manufacturer": "Medik8",
+    "category": "sera",
+    "price": "cca 1 600 Kč",
+    "activeIngredients": ["retinal"],
+    "technologies": [],
+    "pros": ["Stabilizovaný retinaldehyd", "Odstupňovaná síla v rámci řady", "Doplněno o hydratační složky"],
+    "cons": ["Vyšší cena", "Stále vyžaduje opatrné zavádění"],
+    "usage": "Večer na suchou pleť, začít 2–3× týdně, navyšovat dle tolerance. Ráno SPF 50.",
+    "image": { "src": "/assets/img/products/medik8-crystal-retinal-6.svg", "alt": "Medik8 Crystal Retinal 6 sérum", "type": "illustration", "official": "https://www.medik8.com" },
+    "body": [
+      { "h2": "Komu sedne" },
+      { "p": "Vhodné pro ty, kdo chtějí účinný retinoid s dobrou snášenlivostí a možností postupně zvyšovat sílu. Číslo v názvu označuje koncentraci v řadě." },
+      { "note": "Účinnost retinaldehydu na vrásky a texturu je doložena, byť menším počtem studií než u retinolu.", "evidence": "moderate" }
+    ],
+    "faq": [
+      { "q": "Čím se liší čísla v řadě?", "a": "Vyšší číslo = vyšší koncentrace retinalu. Začněte nižším a postupně přejděte výš." }
+    ],
+    "sources": [],
+    "affiliate": [
+      { "label": "Oficiální e-shop značky", "url": "https://www.medik8.com", "disclosure": true }
+    ],
+    "alternatives": [],
+    "relations": {
+      "ingredients": ["retinal", "retinol"],
+      "problems": ["jemne-vrasky", "textura"],
+      "skinTypes": ["mastna", "smisena"],
+      "ageGroups": ["30-plus", "40-plus"],
+      "routines": ["vecerni-rutina"],
+      "reviews": ["recenze-medik8-crystal-retinal-6"]
+    }
+  },
+  {
+    "id": "prod-currentbody-led-mask",
+    "slug": "currentbody-led-mask",
+    "type": "product",
+    "name": "CurrentBody Skin LED maska",
+    "title": "Recenze: CurrentBody Skin LED Mask — LED terapie doma | Aevia",
+    "metaDescription": "CurrentBody Skin LED maska kombinuje červené a near-infrared světlo pro domácí fotobiomodulaci. Výhody, nevýhody, použití.",
+    "h1": "CurrentBody Skin LED maska",
+    "excerpt": "Populární domácí LED maska s červeným a near-infrared světlem pro podporu kolagenu.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "brand": "CurrentBody",
+    "manufacturer": "CurrentBody",
+    "category": "led-masky",
+    "price": "cca 9 000 Kč",
+    "activeIngredients": [],
+    "technologies": ["led-terapie"],
+    "pros": ["Kombinace 633 nm a 830 nm", "Flexibilní silikonový design", "Krátká relace (10 min)"],
+    "cons": ["Vyšší pořizovací cena", "Vyžaduje pravidelnost", "Výsledky jsou postupné"],
+    "usage": "3–5× týdně po 10 minutách na čistou suchou pleť. Výsledky po 8–12 týdnech.",
+    "image": { "src": "/assets/img/products/currentbody-led-mask.svg", "alt": "CurrentBody Skin LED maska", "type": "illustration", "official": "https://www.currentbody.com" },
+    "body": [
+      { "h2": "Co od masky čekat" },
+      { "p": "Domácí LED maska je investice do dlouhodobé péče. Efekt je mírný a kumulativní — klíčem je pravidelnost po týdny a měsíce." },
+      { "note": "Domácí fotobiomodulace má rostoucí, ale zatím střední důkazní základnu.", "evidence": "moderate" }
+    ],
+    "faq": [
+      { "q": "Nahradí maska retinol?", "a": "Ne, jde o doplňkovou metodu. Nejlepší výsledky dává kombinace s aktivní kosmetikou a SPF." }
+    ],
+    "sources": [],
+    "affiliate": [
+      { "label": "Oficiální e-shop", "url": "https://www.currentbody.com", "disclosure": true }
+    ],
+    "alternatives": [],
+    "relations": {
+      "technologies": ["led-terapie"],
+      "problems": ["jemne-vrasky", "povolena-plet"],
+      "skinTypes": ["citliva", "zrala"],
+      "ageGroups": ["30-plus", "40-plus", "50-plus"],
+      "comparisons": ["led-vs-laser"]
+    }
+  },
+  {
+    "id": "prod-nuface-trinity",
+    "slug": "nuface-trinity",
+    "type": "product",
+    "name": "NuFACE Trinity",
+    "title": "Recenze: NuFACE Trinity — microcurrent přístroj | Aevia",
+    "metaDescription": "NuFACE Trinity je domácí microcurrent přístroj pro tonizaci obličeje. Jak funguje, výhody, nevýhody a realistická očekávání.",
+    "h1": "NuFACE Trinity",
+    "excerpt": "Známý domácí microcurrent přístroj pro dočasné zpevnění a tonizaci obličeje.",
+    "evidenceLevel": "limited",
+    "updated": "2026-06-01",
+    "brand": "NuFACE",
+    "manufacturer": "NuFACE",
+    "category": "microcurrent",
+    "price": "cca 8 000 Kč",
+    "activeIngredients": [],
+    "technologies": ["microcurrent"],
+    "pros": ["Příjemná aplikace", "Dočasný liftingový efekt", "Vyměnitelné nástavce"],
+    "cons": ["Efekt dočasný, nutná pravidelnost", "Nutný vodivý gel", "Slabší důkazní základna"],
+    "usage": "5× týdně s vodivým gelem, poté udržovací režim. Efekt nejvýraznější bezprostředně po aplikaci.",
+    "image": { "src": "/assets/img/products/nuface-trinity.svg", "alt": "NuFACE Trinity microcurrent přístroj", "type": "illustration", "official": "https://www.mynuface.com" },
+    "body": [
+      { "h2": "Realistická očekávání" },
+      { "p": "NuFACE dává příjemný okamžitý efekt, který je ale dočasný. Funguje jako rutina, nikoli jako jednorázové řešení." },
+      { "note": "Důkazy pro dlouhodobý efekt microcurrentu jsou omezené.", "evidence": "limited" }
+    ],
+    "faq": [
+      { "q": "Jak dlouho efekt drží?", "a": "Hodiny až den po aplikaci. Pro trvalejší dojem je potřeba pravidelnost." }
+    ],
+    "sources": [],
+    "affiliate": [
+      { "label": "Oficiální e-shop", "url": "https://www.mynuface.com", "disclosure": true }
+    ],
+    "alternatives": [],
+    "relations": {
+      "technologies": ["microcurrent"],
+      "problems": ["povolena-plet"],
+      "skinTypes": ["zrala"],
+      "ageGroups": ["30-plus", "40-plus", "50-plus"],
+      "comparisons": []
+    }
+  },
+  {
+    "id": "prod-vit-c-serum",
+    "slug": "vitamin-c-serum-15",
+    "type": "product",
+    "name": "Vitamin C sérum 15 %",
+    "title": "Vitamin C sérum 15 % — ranní antioxidant | Aevia",
+    "metaDescription": "Stabilizované vitamin C sérum 15 % pro ranní ochranu a jas. Na co se zaměřit při výběru a jak používat.",
+    "h1": "Vitamin C sérum 15 %",
+    "excerpt": "Stabilizované antioxidační sérum pro ranní rutinu pod opalovací krém.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "brand": "—",
+    "manufacturer": "—",
+    "category": "sera",
+    "price": "dle značky",
+    "activeIngredients": ["vitamin-c"],
+    "technologies": [],
+    "pros": ["Antioxidační ochrana", "Podpora jasu a kolagenu", "Vhodné ráno pod SPF"],
+    "cons": ["Citlivost na světlo a vzduch (oxidace)", "U čistých forem může štípat"],
+    "usage": "Ráno na čistou pleť před hydratací a SPF. Skladovat ve tmě, vyměnit, pokud zežloutne.",
+    "image": { "src": "/assets/img/products/vitamin-c-serum-15.svg", "alt": "Vitamin C sérum 15 %", "type": "illustration" },
+    "body": [
+      { "h2": "Na co u vitaminu C koukat" },
+      { "list": ["Forma (L-askorbová vs stabilní deriváty)", "Obal (tmavý, vzduchotěsný)", "Doplňkové antioxidanty (vitamin E, ferulová kyselina)"] },
+      { "note": "Antioxidační ochrana a podpora kolagenu jsou dobře doloženy.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "Co znamená, že sérum zežloutlo?", "a": "Oxidovalo a ztratilo účinnost. Vyměňte ho." }
+    ],
+    "sources": [],
+    "affiliate": [],
+    "alternatives": [],
+    "relations": {
+      "ingredients": ["vitamin-c"],
+      "problems": ["matna-plet", "pigmentace"],
+      "skinTypes": ["normalni", "mastna"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["ranni-rutina"]
+    }
+  },
+  {
+    "id": "prod-spf-50",
+    "slug": "spf-50-denni",
+    "type": "product",
+    "name": "Denní krém SPF 50",
+    "title": "SPF 50 denní krém — nejdůležitější anti-aging krok | Aevia",
+    "metaDescription": "Opalovací krém SPF 50 je vědecky nejúčinnější anti-aging produkt. Proč ho nosit denně a jak vybrat.",
+    "h1": "Denní krém SPF 50",
+    "excerpt": "Nejúčinnější anti-aging produkt vůbec. Chrání před UV — hlavní příčinou vnějšího stárnutí pleti.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "brand": "—",
+    "manufacturer": "—",
+    "category": "spf",
+    "price": "dle značky",
+    "activeIngredients": [],
+    "technologies": [],
+    "pros": ["Prokazatelně zpomaluje fotostárnutí", "Chrání před pigmentací a rakovinou kůže", "Vhodné denně po celý rok"],
+    "cons": ["Nutné dostatečné množství a opakování", "Některé textury mají bílý nádech"],
+    "usage": "Každé ráno jako poslední krok, ~2 mg/cm² (na obličej zhruba dvě prsty délky produktu). Přes den obnovovat.",
+    "image": { "src": "/assets/img/products/spf-50-denni.svg", "alt": "Denní krém SPF 50", "type": "illustration" },
+    "body": [
+      { "h2": "Číslo jedna v anti-agingu" },
+      { "p": "Až 80 % vnějšího stárnutí pleti jde na vrub UV záření. Žádné sérum nenahradí každodenní SPF — je to nejlépe doložený anti-aging krok." },
+      { "note": "Pravidelné používání SPF prokazatelně zpomaluje fotostárnutí.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "I v zimě a v kanceláři?", "a": "Ano, UVA prochází mraky i okny. Denní SPF se vyplatí celoročně." }
+    ],
+    "sources": [
+      { "title": "Hughes M. — Sunscreen and prevention of skin aging (RCT)", "journal": "Ann Intern Med", "year": 2013, "type": "rct" }
+    ],
+    "affiliate": [],
+    "alternatives": [],
+    "relations": {
+      "problems": ["pigmentace", "jemne-vrasky"],
+      "skinTypes": ["normalni", "citliva", "mastna", "sucha", "smisena"],
+      "ageGroups": ["20-plus", "30-plus", "40-plus", "50-plus", "60-plus"],
+      "routines": ["ranni-rutina"],
+      "studies": ["hughes-2013-spf"]
+    }
+  }
+]

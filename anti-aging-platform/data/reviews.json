@@ -1,0 +1,23 @@
+[
+  {
+    "id": "rev-medik8-crystal-retinal-6", "slug": "recenze-medik8-crystal-retinal-6", "type": "review", "name": "Recenze: Medik8 Crystal Retinal 6",
+    "title": "Nezávislá recenze: Medik8 Crystal Retinal 6 | Aevia",
+    "metaDescription": "Transparentní recenze retinaldehydového séra Medik8 Crystal Retinal 6 podle naší metodiky: účinnost, snášenlivost, cena.",
+    "h1": "Recenze: Medik8 Crystal Retinal 6", "excerpt": "Stabilizovaný retinal s odstupňovanou silou. Dobrý poměr účinnost/snášenlivost.",
+    "evidenceLevel": "moderate", "updated": "2026-06-01",
+    "product": "medik8-crystal-retinal-6", "rating": 4.5,
+    "methodology": "Hodnotíme 5 os: doložená účinnost látky, kvalita formulace, snášenlivost, transparentnost značky a poměr cena/výkon. Nepřijímáme platby za hodnocení.",
+    "pros": ["Stabilizovaný retinaldehyd", "Možnost postupně zvyšovat sílu v řadě", "Doplňkové hydratační složky"],
+    "cons": ["Vyšší cena", "Vyžaduje opatrné zavádění"],
+    "verdict": "Jedno z nejlépe formulovaných retinalových sér na trhu. Skvělá volba pro přechod od retinolu k rychlejšímu retinoidu.",
+    "image": { "src": "/assets/img/products/medik8-crystal-retinal-6.svg", "alt": "Recenze Medik8 Crystal Retinal 6", "type": "illustration" },
+    "body": [
+      { "h2": "Účinnost a snášenlivost" },
+      { "p": "Retinaldehyd má solidní důkazní základnu a v praxi působí rychleji než retinol při dobré toleranci. Řada umožňuje růst od slabší po silnější variantu." },
+      { "note": "Účinnost retinalu je doložena, byť menším počtem studií než u retinolu.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Pro koho se hodí?", "a": "Pro pokročilejší uživatele retinoidů hledající rychlejší výsledky při dobré snášenlivosti." } ],
+    "sources": [],
+    "relations": { "products": ["medik8-crystal-retinal-6"], "ingredients": ["retinal"], "comparisons": ["retinol-vs-retinal"] }
+  }
+]

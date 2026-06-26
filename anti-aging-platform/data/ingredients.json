@@ -1,0 +1,467 @@
+[
+  {
+    "id": "ing-retinol",
+    "slug": "retinol",
+    "type": "ingredient",
+    "name": "Retinol",
+    "inci": "Retinol",
+    "title": "Retinol: mechanismus, koncentrace a důkazy | Aevia",
+    "metaDescription": "Retinol je nejlépe prozkoumaná anti-aging látka. Jak funguje, jaké koncentrace volit, jak začít bez podráždění a co říká věda.",
+    "h1": "Retinol",
+    "excerpt": "Zlatý standard neinvazivního anti-agingu. Forma vitaminu A s nejsilnější evidencí pro zlepšení vrásek, textury a pigmentace.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Retinol se v pokožce dvoustupňově přeměňuje na kyselinu retinovou (retinol → retinaldehyd → kyselina retinová). Ta se váže na jaderné receptory (RAR/RXR) a mění expresi genů: zrychluje obrat keratinocytů, stimuluje fibroblasty k tvorbě kolagenu I a III a tlumí aktivitu enzymů (MMP), které kolagen rozkládají.",
+    "concentrations": "Začátečníci 0,1–0,3 %, pokročilí 0,5–1 %. Vyšší koncentrace nemusí znamenat lepší výsledek, ale vyšší riziko podráždění.",
+    "indications": ["Jemné i hlubší vrásky", "Nerovnoměrná textura", "Pigmentace a fotopoškození", "Rozšířené póry", "Akné a postakné"],
+    "contraindications": ["Těhotenství a kojení (vyhnout se retinoidům)", "Aktivní ekzém či rozacea v akutní fázi", "Poškozená kožní bariéra"],
+    "sideEffects": ["Zarudnutí, olupování a suchost v adaptační fázi (retinizace)", "Přechodné zhoršení akné (purging)", "Zvýšená citlivost na slunce"],
+    "suitableSkinTypes": ["normalni", "mastna", "smisena", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus"],
+    "compatibility": [
+      { "with": "niacinamid", "level": "good", "note": "Niacinamid podporuje bariéru a zmírňuje podráždění z retinolu — výborná kombinace." },
+      { "with": "kyselina-hyaluronova", "level": "good", "note": "Hydratace tlumí suchost během retinizace." },
+      { "with": "vitamin-c", "level": "caution", "note": "Lze používat, ale ideálně odděleně: vitamin C ráno, retinol večer." },
+      { "with": "aha", "level": "caution", "note": "Společně zvyšují riziko podráždění — střídejte ve dnech, nepoužívejte naráz." },
+      { "with": "bakuchiol", "level": "good", "note": "Bakuchiol může působit synergicky a zjemnit toleranci." }
+    ],
+    "image": { "src": "/assets/img/ingredients/retinol.svg", "alt": "Schéma přeměny retinolu na kyselinu retinovou v pokožce", "type": "infographic" },
+    "body": [
+      { "h2": "Co je retinol" },
+      { "p": "Retinol je čistá forma vitaminu A a nejlépe prozkoumaná účinná látka v péči proti stárnutí pleti. Patří do skupiny retinoidů, kam spadají i silnější tretinoin (na předpis) a jemnější retinaldehyd či esterové formy." },
+      { "h2": "Mechanismus účinku" },
+      { "p": "Aby retinol fungoval, musí se v kůži přeměnit na kyselinu retinovou. Ta přes jaderné receptory mění chování buněk: urychluje obnovu pokožky, povzbuzuje fibroblasty k tvorbě nového kolagenu a brzdí enzymy, které stávající kolagen rozkládají." },
+      { "note": "Účinek retinolu na vrásky a fotopoškození potvrzuje řada randomizovaných studií i metaanalýz.", "evidence": "strong" },
+      { "h2": "Jak začít bez podráždění" },
+      { "list": ["Začněte nízkou koncentrací (0,2–0,3 %) 2× týdně.", "Nanášejte na suchou pleť, malé množství (velikost hrášku).", "Metoda \"sandwich\": vrstva hydratačního krému před i po retinolu zmírní podráždění.", "Frekvenci zvyšujte postupně podle tolerance.", "Ráno vždy SPF 50 — retinol zvyšuje citlivost na UV."] },
+      { "h2": "Koncentrace a očekávání" },
+      { "table": { "head": ["Úroveň", "Koncentrace", "Pro koho"], "rows": [["Začátečník", "0,1–0,3 %", "První zkušenost, citlivější pleť"], ["Střední", "0,3–0,5 %", "Po adaptaci"], ["Pokročilý", "0,5–1 %", "Tolerance ověřena, výraznější cíle"]] } },
+      { "p": "Viditelné zlepšení textury a jemných vrásek se obvykle dostavuje po 8–12 týdnech pravidelného používání, výraznější efekt po 6 měsících." }
+    ],
+    "faq": [
+      { "q": "Můžu retinol používat v těhotenství?", "a": "Ne. Retinoidy se v těhotenství a při kojení nedoporučují. Bezpečnou alternativou je bakuchiol nebo peptidy." },
+      { "q": "Proč mi po nasazení retinolu zhoršila pleť?", "a": "Jde nejčastěji o adaptační fázi (retinizace) nebo purging. Snižte frekvenci, posilujte bariéru a buďte trpěliví. Pokud podráždění přetrvává týdny, přerušte." },
+      { "q": "Retinol, nebo retinal?", "a": "Retinal (retinaldehyd) je o krok blíž účinné formě a často působí rychleji při dobré toleranci. Podrobné srovnání najdete v porovnání Retinol vs Retinal." }
+    ],
+    "sources": [
+      { "title": "Mukherjee S. et al. — Retinoids in the treatment of skin aging", "journal": "Clin Interv Aging", "year": 2006, "type": "review" },
+      { "title": "Kong R. et al. — A comparative study of the effects of retinol", "journal": "J Cosmet Dermatol", "year": 2016, "type": "rct" }
+    ],
+    "relations": {
+      "technologies": ["microneedling"],
+      "products": ["medik8-crystal-retinal-6"],
+      "studies": ["mukherjee-2006-retinol"],
+      "problems": ["jemne-vrasky", "pigmentace", "hluboke-vrasky"],
+      "skinTypes": ["zrala", "mastna"],
+      "ageGroups": ["30-plus", "40-plus"],
+      "routines": ["vecerni-rutina"],
+      "comparisons": ["retinol-vs-retinal", "bakuchiol-vs-retinol"],
+      "articles": ["jak-zacit-s-retinoidy"],
+      "terms": ["retinizace", "purging", "fotostabilita"]
+    }
+  },
+  {
+    "id": "ing-retinal",
+    "slug": "retinal",
+    "type": "ingredient",
+    "name": "Retinal (retinaldehyd)",
+    "inci": "Retinal",
+    "title": "Retinal (retinaldehyd): rychlejší retinoid s dobrou tolerancí | Aevia",
+    "metaDescription": "Retinaldehyd je o krok blíž účinné formě než retinol — často působí rychleji. Mechanismus, koncentrace a důkazy.",
+    "h1": "Retinal (retinaldehyd)",
+    "excerpt": "O jeden krok účinnější forma vitaminu A. Bývá rychlejší než retinol při srovnatelné toleranci.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "mechanism": "Retinaldehyd potřebuje k přeměně na aktivní kyselinu retinovou jen jeden konverzní krok (oproti dvěma u retinolu). Díky tomu může nastupovat rychleji. Má i mírný antibakteriální efekt.",
+    "concentrations": "Obvykle 0,05–0,1 %. I nízká koncentrace je účinná.",
+    "indications": ["Jemné vrásky", "Textura", "Akné", "Pigmentace"],
+    "contraindications": ["Těhotenství a kojení", "Akutní rozacea/ekzém"],
+    "sideEffects": ["Mírnější retinizace než u silných retinoidů", "Citlivost na světlo"],
+    "suitableSkinTypes": ["normalni", "mastna", "smisena", "citliva", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus"],
+    "compatibility": [
+      { "with": "niacinamid", "level": "good", "note": "Posiluje bariéru, snižuje podráždění." },
+      { "with": "kyselina-hyaluronova", "level": "good", "note": "Hydratace pro hladší toleranci." },
+      { "with": "aha", "level": "caution", "note": "Nepoužívat naráz, raději střídat." }
+    ],
+    "image": { "src": "/assets/img/ingredients/retinal.svg", "alt": "Retinaldehyd a jeho přeměna v pokožce", "type": "infographic" },
+    "body": [
+      { "h2": "Proč retinal" },
+      { "p": "Retinaldehyd je mezistupeň mezi retinolem a kyselinou retinovou. K aktivní formě mu chybí jen jediná přeměna, proto bývá v praxi rychlejší než retinol, přitom snášenlivost zůstává dobrá." },
+      { "note": "Menší klinické studie ukazují rychlejší nástup účinku oproti retinolu, ale velkých srovnávacích RCT je méně.", "evidence": "moderate" },
+      { "h2": "Pro koho je vhodný" },
+      { "list": ["Pro ty, kdo chtějí výsledky retinolu rychleji.", "Pro citlivější pleť, která zvládne nízké koncentrace.", "Jako další krok po toleranci retinolu."] }
+    ],
+    "faq": [
+      { "q": "Je retinal silnější než retinol?", "a": "Je o krok blíž účinné formě, takže často působí rychleji. \"Silnější\" závisí na koncentraci a toleranci." }
+    ],
+    "sources": [
+      { "title": "Boisnic S. et al. — Retinaldehyde studies", "journal": "Dermatology", "year": 1999, "type": "review" }
+    ],
+    "relations": {
+      "products": ["medik8-crystal-retinal-6"],
+      "problems": ["jemne-vrasky", "textura"],
+      "skinTypes": ["citliva", "mastna"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["vecerni-rutina"],
+      "comparisons": ["retinol-vs-retinal"],
+      "terms": ["retinizace"]
+    }
+  },
+  {
+    "id": "ing-bakuchiol",
+    "slug": "bakuchiol",
+    "type": "ingredient",
+    "name": "Bakuchiol",
+    "inci": "Bakuchiol",
+    "title": "Bakuchiol: rostlinná alternativa retinolu | Aevia",
+    "metaDescription": "Bakuchiol je rostlinná látka s retinolu podobnými účinky, vhodná i v těhotenství. Co o něm víme a jak ho používat.",
+    "h1": "Bakuchiol",
+    "excerpt": "Rostlinná alternativa retinolu s lepší snášenlivostí. Vhodný i pro citlivou pleť a během těhotenství.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "mechanism": "Bakuchiol není chemicky retinoid, ale ovlivňuje podobné geny — podporuje tvorbu kolagenu a působí antioxidačně. Nedráždí tolik jako retinoidy a je fotostabilní.",
+    "concentrations": "Obvykle 0,5–2 %.",
+    "indications": ["Jemné vrásky", "Nerovnoměrný tón", "Citlivá pleť", "Těhotenství (jako náhrada retinoidů)"],
+    "contraindications": ["Známá alergie na bakuchiol (vzácné)"],
+    "sideEffects": ["Obecně velmi dobře snášen, podráždění vzácné"],
+    "suitableSkinTypes": ["normalni", "sucha", "citliva", "smisena", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus"],
+    "compatibility": [
+      { "with": "retinol", "level": "good", "note": "Synergická kombinace, může zlepšit toleranci." },
+      { "with": "vitamin-c", "level": "good", "note": "Antioxidační synergie." },
+      { "with": "niacinamid", "level": "good", "note": "Bezpečná kombinace." }
+    ],
+    "image": { "src": "/assets/img/ingredients/bakuchiol.svg", "alt": "Bakuchiol — rostlinná alternativa retinolu", "type": "illustration" },
+    "body": [
+      { "h2": "Co je bakuchiol" },
+      { "p": "Bakuchiol je látka získávaná z rostliny Psoralea corylifolia. Přestože není strukturně retinoidem, v pokožce spouští podobné procesy a stal se oblíbenou volbou pro ty, kdo retinoidy nesnášejí nebo se jim musí vyhnout." },
+      { "note": "Randomizovaná studie porovnávající bakuchiol s retinolem ukázala srovnatelné zlepšení vrásek a pigmentace při lepší snášenlivosti, jde však zatím o omezený počet studií.", "evidence": "moderate" },
+      { "h2": "Hlavní výhoda" },
+      { "p": "Bakuchiol je fotostabilní (lze i ráno) a vhodný v těhotenství, kdy jsou retinoidy zakázané. Pro citlivou pleť je často první volbou." }
+    ],
+    "faq": [
+      { "q": "Je bakuchiol stejně účinný jako retinol?", "a": "Studie naznačují srovnatelný efekt na vrásky a tón při lepší toleranci, ale dat je zatím méně. Retinol má silnější důkazní základnu." },
+      { "q": "Můžu bakuchiol v těhotenství?", "a": "Bakuchiol bývá doporučován jako náhrada retinoidů, vždy ale konzultujte s lékařem." }
+    ],
+    "sources": [
+      { "title": "Dhaliwal S. et al. — Bakuchiol vs retinol, randomized study", "journal": "Br J Dermatol", "year": 2019, "type": "rct" }
+    ],
+    "relations": {
+      "problems": ["jemne-vrasky"],
+      "skinTypes": ["citliva", "sucha"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["vecerni-rutina"],
+      "comparisons": ["bakuchiol-vs-retinol"],
+      "studies": ["dhaliwal-2019-bakuchiol"]
+    }
+  },
+  {
+    "id": "ing-vitamin-c",
+    "slug": "vitamin-c",
+    "type": "ingredient",
+    "name": "Vitamin C",
+    "inci": "Ascorbic Acid",
+    "title": "Vitamin C v kosmetice: antioxidant pro jas a kolagen | Aevia",
+    "metaDescription": "Vitamin C rozjasňuje pleť, chrání před volnými radikály a podporuje kolagen. Formy, koncentrace, stabilita a důkazy.",
+    "h1": "Vitamin C",
+    "excerpt": "Antioxidant pro jas, ochranu a podporu kolagenu. Ideální ranní krok pod opalovací krém.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Kyselina L-askorbová neutralizuje volné radikály, je kofaktorem enzymů pro syntézu kolagenu a tlumí tvorbu melaninu (inhibice tyrozinázy), čímž rozjasňuje pleť a sjednocuje tón.",
+    "concentrations": "L-askorbová kyselina 10–20 %. Stabilní deriváty (např. SAP, ethyl ascorbic acid) i v nižších koncentracích.",
+    "indications": ["Matná pleť", "Pigmentace a nerovnoměrný tón", "Ochrana před fotopoškozením", "Podpora kolagenu"],
+    "contraindications": ["Velmi citlivá pleť může reagovat na vysoké koncentrace čisté kyseliny"],
+    "sideEffects": ["Mírné štípání u čistých forem", "Oxidací žloutne a ztrácí účinnost"],
+    "suitableSkinTypes": ["normalni", "mastna", "smisena", "sucha", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus"],
+    "compatibility": [
+      { "with": "niacinamid", "level": "good", "note": "Moderní formulace se nevylučují, mýtus o nekompatibilitě je překonaný." },
+      { "with": "retinol", "level": "caution", "note": "Lze, ale ideálně C ráno a retinol večer." },
+      { "with": "spf-30", "level": "good", "note": "Vitamin C ráno pod SPF zvyšuje fotoprotekci." }
+    ],
+    "image": { "src": "/assets/img/ingredients/vitamin-c.svg", "alt": "Vitamin C jako antioxidant v pokožce", "type": "infographic" },
+    "body": [
+      { "h2": "Proč vitamin C" },
+      { "p": "Vitamin C je jeden z nejuniverzálnějších antioxidantů. Ráno chrání pleť před oxidačním stresem z UV a znečištění, dlouhodobě podporuje kolagen a rozjasňuje." },
+      { "note": "Antioxidační ochrana a podpora kolagenu jsou dobře doloženy, vliv na pigmentaci je doložen u řady forem.", "evidence": "strong" },
+      { "h2": "Formy a stabilita" },
+      { "list": ["L-askorbová kyselina — nejúčinnější, ale nestabilní (kupujte v tmavém obalu, skladujte ve tmě).", "Deriváty (SAP, ethyl ascorbic acid) — stabilnější, jemnější.", "Žloutnoucí sérum = oxidace, sníží se účinnost."] }
+    ],
+    "faq": [
+      { "q": "Ráno, nebo večer?", "a": "Ideálně ráno pod opalovací krém kvůli antioxidační ochraně. Lze i večer." },
+      { "q": "Vitamin C, nebo niacinamid?", "a": "Nemusíte volit — jde kombinovat. Srovnání obou najdete v sekci Porovnání." }
+    ],
+    "sources": [
+      { "title": "Pullar J. et al. — The Roles of Vitamin C in Skin Health", "journal": "Nutrients", "year": 2017, "type": "review" }
+    ],
+    "relations": {
+      "problems": ["pigmentace", "matna-plet"],
+      "skinTypes": ["normalni", "mastna"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["ranni-rutina"],
+      "comparisons": ["vitamin-c-vs-niacinamid"],
+      "terms": ["antioxidant", "fotostabilita"]
+    }
+  },
+  {
+    "id": "ing-niacinamid",
+    "slug": "niacinamid",
+    "type": "ingredient",
+    "name": "Niacinamid",
+    "inci": "Niacinamide",
+    "title": "Niacinamid: univerzální látka pro bariéru a póry | Aevia",
+    "metaDescription": "Niacinamid posiluje kožní bariéru, reguluje maz, zjemňuje póry a sjednocuje tón. Skvěle se snáší a kombinuje.",
+    "h1": "Niacinamid",
+    "excerpt": "Všestranná, dobře snášená látka. Posiluje bariéru, reguluje maz a zjemňuje póry.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě.",
+    "concentrations": "2–5 %. Vyšší koncentrace nepřinášejí výhodu a mohou dráždit.",
+    "indications": ["Oslabená bariéra", "Rozšířené póry", "Mastná pleť a lesk", "Nerovnoměrný tón", "Zarudnutí"],
+    "contraindications": ["Vzácně zarudnutí u velmi vysokých koncentrací"],
+    "sideEffects": ["Velmi dobře snášen"],
+    "suitableSkinTypes": ["normalni", "mastna", "smisena", "citliva", "sucha", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus"],
+    "compatibility": [
+      { "with": "retinol", "level": "good", "note": "Klasická dvojice — niacinamid tlumí podráždění z retinolu." },
+      { "with": "vitamin-c", "level": "good", "note": "Lze kombinovat bez problémů." },
+      { "with": "kyselina-hyaluronova", "level": "good", "note": "Skvělá hydratační synergie." }
+    ],
+    "image": { "src": "/assets/img/ingredients/niacinamid.svg", "alt": "Niacinamid posiluje kožní bariéru", "type": "infographic" },
+    "body": [
+      { "h2": "Univerzální hráč" },
+      { "p": "Niacinamid je jednou z nejlépe snášených a nejvšestrannějších látek. Hodí se prakticky pro každý typ pleti a kombinuje se téměř se vším." },
+      { "note": "Účinky na bariéru, maz a tón pleti jsou dobře doloženy kontrolovanými studiemi.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "Kolik procent niacinamidu je ideál?", "a": "Obvykle 2–5 %. Více nepřináší lepší efekt, ale může dráždit." }
+    ],
+    "sources": [
+      { "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin", "journal": "Dermatol Surg", "year": 2005, "type": "rct" }
+    ],
+    "relations": {
+      "problems": ["pigmentace", "rozsirene-pory", "matna-plet"],
+      "skinTypes": ["mastna", "citliva", "smisena"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["ranni-rutina", "vecerni-rutina"],
+      "comparisons": ["vitamin-c-vs-niacinamid"],
+      "terms": ["kozni-bariera"]
+    }
+  },
+  {
+    "id": "ing-peptidy",
+    "slug": "peptidy",
+    "type": "ingredient",
+    "name": "Peptidy",
+    "inci": "Palmitoyl Pentapeptide-4 a další",
+    "title": "Peptidy v anti-agingu: signální molekuly pro kolagen | Aevia",
+    "metaDescription": "Peptidy jsou krátké řetězce aminokyselin, které pleti signalizují tvorbu kolagenu. Typy peptidů, účinnost a důkazy.",
+    "h1": "Peptidy",
+    "excerpt": "Signální molekuly, které pleti \"říkají\", aby tvořila kolagen. Jemné a dobře snášené.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "mechanism": "Peptidy jsou krátké řetězce aminokyselin. Signální peptidy (např. Matrixyl) stimulují fibroblasty k tvorbě kolagenu, neurotransmiterové peptidy (Argireline) zmírňují mimické svalové napětí, nosičové peptidy dopravují stopové prvky (měď).",
+    "concentrations": "Záleží na konkrétním peptidu a formulaci.",
+    "indications": ["Ztráta pružnosti", "Jemné vrásky", "Citlivá pleť (jako jemná alternativa)"],
+    "contraindications": ["Prakticky žádné, velmi dobře snášené"],
+    "sideEffects": ["Vzácné"],
+    "suitableSkinTypes": ["normalni", "sucha", "citliva", "zrala", "smisena"],
+    "suitableAgeGroups": ["30-plus", "40-plus", "50-plus", "60-plus"],
+    "compatibility": [
+      { "with": "niacinamid", "level": "good", "note": "Bezpečná kombinace." },
+      { "with": "kyselina-hyaluronova", "level": "good", "note": "Hydratace a podpora bariéry." }
+    ],
+    "image": { "src": "/assets/img/ingredients/peptidy.svg", "alt": "Peptidy jako signální molekuly v pokožce", "type": "illustration" },
+    "body": [
+      { "h2": "Typy peptidů" },
+      { "list": ["Signální (Matrixyl, copper peptides) — podpora kolagenu.", "Neurotransmiterové (Argireline) — \"botox efekt\" v kosmetice, mírnější.", "Nosičové — doprava stopových prvků."] },
+      { "note": "Důkazy se liší podle konkrétního peptidu; nejlepší data má Matrixyl a měďnaté peptidy, efekt bývá mírný.", "evidence": "moderate" }
+    ],
+    "faq": [
+      { "q": "Nahradí peptidy retinol?", "a": "Ne plně, ale jsou skvělý doplněk a jemnější varianta pro citlivou pleť." }
+    ],
+    "sources": [
+      { "title": "Schagen S. — Topical Peptide Treatments", "journal": "Cosmetics", "year": 2017, "type": "review" }
+    ],
+    "relations": {
+      "problems": ["povolena-plet", "jemne-vrasky"],
+      "skinTypes": ["citliva", "zrala"],
+      "ageGroups": ["40-plus", "50-plus"],
+      "routines": ["vecerni-rutina"]
+    }
+  },
+  {
+    "id": "ing-kyselina-hyaluronova",
+    "slug": "kyselina-hyaluronova",
+    "type": "ingredient",
+    "name": "Kyselina hyaluronová",
+    "inci": "Sodium Hyaluronate",
+    "title": "Kyselina hyaluronová: hydratace a vyplnění pleti | Aevia",
+    "metaDescription": "Kyselina hyaluronová váže vodu a vyhlazuje pleť. Jak ji správně používat a proč na vlhkou pleť.",
+    "h1": "Kyselina hyaluronová",
+    "excerpt": "Vázač vody. Hydratuje, vypíná a opticky vyhlazuje jemné vrásky.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Molekula schopná vázat mnohonásobek své hmotnosti ve vodě. V pokožce zadržuje vlhkost, čímž zlepšuje pružnost a opticky vyhlazuje povrch. Různé velikosti molekul působí v různých vrstvách.",
+    "concentrations": "Obvykle 0,1–2 %.",
+    "indications": ["Suchost a dehydratace", "Pocit napnutí", "Optické vyhlazení jemných vrásek"],
+    "contraindications": ["V suchém prostředí bez krému navrch může vytahovat vlhkost z pleti"],
+    "sideEffects": ["Žádné významné"],
+    "suitableSkinTypes": ["normalni", "sucha", "citliva", "mastna", "smisena", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus", "60-plus"],
+    "compatibility": [
+      { "with": "retinol", "level": "good", "note": "Tlumí suchost při retinizaci." },
+      { "with": "niacinamid", "level": "good", "note": "Skvělá hydratační dvojice." }
+    ],
+    "image": { "src": "/assets/img/ingredients/kyselina-hyaluronova.svg", "alt": "Kyselina hyaluronová váže vodu v pokožce", "type": "illustration" },
+    "body": [
+      { "h2": "Jak ji používat" },
+      { "p": "Nanášejte na vlhkou pleť a vždy uzavřete krémem, aby se vlhkost \"zamkla\". V suchém prostředí jinak může táhnout vodu z hlubších vrstev." },
+      { "note": "Hydratační a vyhlazující efekt je dobře doložen.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "Vyplní hyaluronka vrásky natrvalo?", "a": "Topická forma vyhladí opticky a dočasně. Trvalejší výplň nabízejí injekční procedury (skinboostery, Profhilo)." }
+    ],
+    "sources": [
+      { "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging", "journal": "Dermatoendocrinol", "year": 2012, "type": "review" }
+    ],
+    "relations": {
+      "problems": ["matna-plet", "jemne-vrasky"],
+      "skinTypes": ["sucha", "citliva"],
+      "ageGroups": ["20-plus", "30-plus", "40-plus"],
+      "routines": ["ranni-rutina", "vecerni-rutina"],
+      "procedures": ["profhilo"]
+    }
+  },
+  {
+    "id": "ing-aha",
+    "slug": "aha",
+    "type": "ingredient",
+    "name": "AHA (ovocné kyseliny)",
+    "inci": "Glycolic / Lactic Acid",
+    "title": "AHA kyseliny: chemický peeling pro jas a textura | Aevia",
+    "metaDescription": "AHA jako kyselina glykolová a mléčná jemně odstraňují odumřelé buňky, rozjasňují a vyhlazují. Jak je používat bezpečně.",
+    "h1": "AHA (ovocné kyseliny)",
+    "excerpt": "Ve vodě rozpustné exfolianty pro jas, hladkost a sjednocení tónu.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Alfa-hydroxykyseliny (glykolová, mléčná) rozvolňují spoje mezi odumřelými buňkami na povrchu pokožky, urychlují obnovu a při dlouhodobém užívání podporují kolagen.",
+    "concentrations": "5–10 % pro domácí péči, vyšší u odborných peelingů.",
+    "indications": ["Matná pleť", "Nerovnoměrná textura", "Pigmentace", "Jemné vrásky"],
+    "contraindications": ["Poškozená bariéra", "Aktivní podráždění", "Současné použití s retinoidy bez opatrnosti"],
+    "sideEffects": ["Štípání", "Zvýšená citlivost na slunce", "Podráždění při přílišném používání"],
+    "suitableSkinTypes": ["normalni", "mastna", "smisena", "zrala"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus", "50-plus"],
+    "compatibility": [
+      { "with": "retinol", "level": "caution", "note": "Nepoužívat naráz — střídejte ve dnech." },
+      { "with": "vitamin-c", "level": "caution", "note": "Oba mohou dráždit, raději odděleně." },
+      { "with": "niacinamid", "level": "good", "note": "Niacinamid pomáhá obnovit bariéru." }
+    ],
+    "image": { "src": "/assets/img/ingredients/aha.svg", "alt": "AHA kyseliny exfoliují povrch pokožky", "type": "infographic" },
+    "body": [
+      { "h2": "Glykolová vs mléčná" },
+      { "p": "Glykolová kyselina má nejmenší molekulu a proniká nejhlouběji (účinnější, ale dráždivější). Mléčná je jemnější a navíc hydratuje — vhodná pro citlivější pleť." },
+      { "note": "Účinek na texturu, jas a pigmentaci je dobře doložen.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "Jak často AHA?", "a": "Začněte 1–2× týdně večer, vždy s SPF přes den." }
+    ],
+    "sources": [
+      { "title": "Tang S. — Glycolic Acid and Skin", "journal": "Int J Mol Sci", "year": 2018, "type": "review" }
+    ],
+    "relations": {
+      "problems": ["matna-plet", "pigmentace", "textura"],
+      "skinTypes": ["mastna", "zrala"],
+      "ageGroups": ["30-plus", "40-plus"],
+      "routines": ["vecerni-rutina"],
+      "procedures": ["chemicky-peeling"],
+      "terms": ["exfoliace"]
+    }
+  },
+  {
+    "id": "ing-bha",
+    "slug": "bha",
+    "type": "ingredient",
+    "name": "BHA (kyselina salicylová)",
+    "inci": "Salicylic Acid",
+    "title": "BHA / kyselina salicylová: čištění pórů a akné | Aevia",
+    "metaDescription": "BHA proniká do pórů, rozpouští maz a hodí se pro mastnou a aknózní pleť. Mechanismus a použití.",
+    "h1": "BHA (kyselina salicylová)",
+    "excerpt": "V tuku rozpustný exfoliant, který čistí póry zevnitř. Volba pro mastnou a aknózní pleť.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Beta-hydroxykyselina rozpustná v tuku — proniká do pórů, rozpouští maz a odumřelé buňky, působí protizánětlivě (příbuzná aspirinu).",
+    "concentrations": "0,5–2 %.",
+    "indications": ["Mastná a aknózní pleť", "Ucpané a rozšířené póry", "Černé tečky"],
+    "contraindications": ["Velmi suchá pleť (může vysušovat)", "Alergie na salicyláty"],
+    "sideEffects": ["Suchost", "Mírné štípání"],
+    "suitableSkinTypes": ["mastna", "smisena", "aknozni"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus"],
+    "compatibility": [
+      { "with": "niacinamid", "level": "good", "note": "Reguluje maz, posiluje bariéru." },
+      { "with": "retinol", "level": "caution", "note": "Oba aktivní — raději střídat." }
+    ],
+    "image": { "src": "/assets/img/ingredients/bha.svg", "alt": "BHA proniká do pórů a čistí maz", "type": "infographic" },
+    "body": [
+      { "h2": "Pro koho" },
+      { "p": "BHA je první volba pro mastnou a aknózní pleť. Na rozdíl od AHA proniká i do mazem ucpaných pórů." },
+      { "note": "Účinnost u akné a ucpaných pórů je dobře doložena.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "AHA, nebo BHA?", "a": "AHA na povrch (jas, textura), BHA do pórů (mastná/aknózní pleť). Lze kombinovat opatrně." }
+    ],
+    "sources": [
+      { "title": "Arif T. — Salicylic acid as a peeling agent", "journal": "Clin Cosmet Investig Dermatol", "year": 2015, "type": "review" }
+    ],
+    "relations": {
+      "problems": ["rozsirene-pory"],
+      "skinTypes": ["mastna", "aknozni", "smisena"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["vecerni-rutina"],
+      "terms": ["exfoliace"]
+    }
+  },
+  {
+    "id": "ing-azelaova-kyselina",
+    "slug": "azelaova-kyselina",
+    "type": "ingredient",
+    "name": "Azelaová kyselina",
+    "inci": "Azelaic Acid",
+    "title": "Azelaová kyselina: na rozacea, pigmentaci a akné | Aevia",
+    "metaDescription": "Azelaová kyselina sjednocuje tón, tlumí zarudnutí a hodí se na rozacea i pigmentaci. Dobře snášená i v těhotenství.",
+    "h1": "Azelaová kyselina",
+    "excerpt": "Jemná, ale účinná látka na zarudnutí, rozacea a pigmentaci. Vhodná i v těhotenství.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "mechanism": "Působí protizánětlivě, antibakteriálně a tlumí tvorbu melaninu. Hodí se na rozacea, postzánětlivou pigmentaci i akné.",
+    "concentrations": "10 % v kosmetice, 15–20 % na předpis.",
+    "indications": ["Rozacea a zarudnutí", "Pigmentace", "Akné"],
+    "contraindications": ["Vzácně přechodné štípání"],
+    "sideEffects": ["Mírné brnění v začátku"],
+    "suitableSkinTypes": ["citliva", "mastna", "smisena", "aknozni"],
+    "suitableAgeGroups": ["20-plus", "30-plus", "40-plus"],
+    "compatibility": [
+      { "with": "niacinamid", "level": "good", "note": "Společně skvělé na zarudnutí a tón." },
+      { "with": "retinol", "level": "good", "note": "Lze kombinovat, azelaová bývá snášena dobře." }
+    ],
+    "image": { "src": "/assets/img/ingredients/azelaova-kyselina.svg", "alt": "Azelaová kyselina na zarudnutí a pigmentaci", "type": "illustration" },
+    "body": [
+      { "h2": "Všestranná a jemná" },
+      { "p": "Azelaová kyselina je výjimečná tím, že řeší zarudnutí, pigmentaci i akné zároveň a přitom je dobře snášená, včetně těhotenství." },
+      { "note": "Účinnost u rozacea a pigmentace je dobře doložena.", "evidence": "strong" }
+    ],
+    "faq": [
+      { "q": "Pomůže na rozacea?", "a": "Ano, patří mezi doporučované látky na zarudnutí a rozacea." }
+    ],
+    "sources": [
+      { "title": "Sieber M. — Azelaic acid: Properties and mode of action", "journal": "Skin Pharmacol Physiol", "year": 2014, "type": "review" }
+    ],
+    "relations": {
+      "problems": ["rosacea", "pigmentace"],
+      "skinTypes": ["citliva", "aknozni"],
+      "ageGroups": ["20-plus", "30-plus"],
+      "routines": ["vecerni-rutina"]
+    }
+  }
+]
