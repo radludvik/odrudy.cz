@@ -44,6 +44,140 @@
 
   function problemOpts() { return DATA.problems.map(function (p) { return { v: p.slug, l: p.name }; }); }
 
+  /* ===================================================================
+     Sdílený engine pro rutinu (používá Poradce i Builder rutiny)
+     =================================================================== */
+  function ing(slug) { return DATA.ingredients.find(function (i) { return i.slug === slug; }); }
+  function actChips(slugs) {
+    var html = slugs.map(function (s) {
+      if (s.indexOf(':') === 0) return '<span class="chip chip--static">' + s.slice(1) + '</span>'; // ":Text" = nelinkovaný štítek
+      var it = ing(s); return it ? '<a class="chip" href="' + BASE + it.url + '">' + it.name + '</a>' : '<span class="chip chip--static">' + s + '</span>';
+    }).join('');
+    return html ? '<div class="routine-chips">' + html + '</div>' : '';
+  }
+  function skinMoisturizer(skin) {
+    if (skin === 'sucha') return 'bohatší krém s ceramidy a cholesterolem, ideálně na ještě vlhkou pleť';
+    if (skin === 'mastna' || skin === 'aknozni') return 'lehký nekomedogenní gel-krém';
+    if (skin === 'citliva') return 'jednoduchý krém pro citlivou pleť s ceramidy, bez parfemace';
+    if (skin === 'smisena') return 'střední emulze, T-zónu lehčeji, tváře bohatěji';
+    return 'hydratační krém odpovídající ročnímu období';
+  }
+  function cleanseAm(skin) {
+    if (skin === 'sucha' || skin === 'citliva') return 'ráno stačí opláchnout vlažnou vodou — odpustíte bariéře zbytečné mytí';
+    return 'jemný čisticí gel nebo jen vlažná voda; vyhněte se agresivním mýdlům, která narušují bariéru';
+  }
+
+  function composeRoutine(o) {
+    var skin = o.skin || 'normalni', age = o.age || '30-plus', lvl = o.lvl || 'beg',
+      sens = o.sens || 'mid', problem = o.problem || '', preg = !!o.preg;
+    var gentle = preg || sens === 'high' || skin === 'citliva';
+
+    // Hlavní noční aktivní látka
+    var active, activeNote;
+    if (preg) { active = 'bakuchiol'; activeNote = 'retinoidy jsou v těhotenství a při kojení vyloučené — bakuchiol je bezpečná rostlinná alternativa'; }
+    else if (sens === 'high' || skin === 'citliva') { active = 'bakuchiol'; activeNote = 'šetrný start; po zvládnutí tolerance lze přejít na retinal'; }
+    else if (lvl === 'beg') { active = 'retinal'; activeNote = 'začněte nízkou koncentrací (retinal 0,05 % / retinol 0,2–0,3 %)'; }
+    else if (lvl === 'int') { active = 'retinol'; activeNote = 'střední koncentrace (retinol 0,3–0,5 %)'; }
+    else { active = 'retinol'; activeNote = 'vyšší koncentrace (0,5–1 %) dle tolerance'; }
+
+    // Exfoliant
+    var exf, exfNote;
+    if (preg || sens === 'high') { exf = 'aha'; exfNote = 'jen jemná exfoliace (PHA nebo nízké % laktové kyseliny)'; }
+    else if (skin === 'mastna' || skin === 'aknozni' || skin === 'smisena') { exf = 'bha'; exfNote = 'BHA proniká do pórů — ideální pro mastnou a aknózní pleť'; }
+    else { exf = 'aha'; exfNote = 'AHA na povrchu zlepšuje jas a texturu'; }
+
+    // Cílené sérum podle problému
+    var targetAm = null, targetPm = null, targetLabel = '';
+    var P = {
+      'pigmentace': { am: 'vitamin-c', pm: 'azelaova-kyselina', label: 'pigmentace a tónu' },
+      'matna-plet': { am: 'vitamin-c', pm: null, label: 'jasu pleti' },
+      'rozsirene-pory': { am: 'niacinamid', pm: null, label: 'pórů a mazu' },
+      'rosacea': { am: 'niacinamid', pm: 'azelaova-kyselina', label: 'zarudnutí' },
+      'povolena-plet': { am: 'peptidy', pm: 'peptidy', label: 'pevnosti pleti' },
+      'jemne-vrasky': { am: null, pm: 'peptidy', label: 'vrásek' },
+      'hluboke-vrasky': { am: 'peptidy', pm: 'peptidy', label: 'vrásek' },
+      'textura': { am: null, pm: null, label: 'textury' }
+    };
+    if (P[problem]) { targetAm = P[problem].am; targetPm = P[problem].pm; targetLabel = P[problem].label; }
+
+    // --- Ranní rutina (ochrana) ---
+    var am = [];
+    am.push({ name: 'Šetrné čištění', purpose: 'Připraví pleť, aniž by ji vysušilo.', how: cleanseAm(skin), freq: 'denně' });
+    am.push({ name: 'Antioxidant', purpose: 'Neutralizuje volné radikály z UV a znečištění, podporuje kolagen a zesiluje ochranu SPF.',
+      actives: [gentle ? ':Stabilní derivát vitaminu C (jemnější)' : 'vitamin-c'],
+      how: 'na suchou pleť 4–5 kapek, nechte ~1 minutu vstřebat' + (gentle ? '; u citlivé pleti zvolte nižší koncentraci nebo derivát' : ''), freq: 'denně ráno' });
+    if (targetAm && targetAm !== 'vitamin-c') am.push({ name: 'Cílené sérum (' + targetLabel + ')', purpose: 'Řeší váš hlavní cíl.', actives: [targetAm], freq: 'denně' });
+    am.push({ name: 'Hydratace', purpose: 'Doplní vodu i lipidy a uzavře předchozí vrstvy.', actives: ['kyselina-hyaluronova'], how: skinMoisturizer(skin), freq: 'denně' });
+    am.push({ name: 'Oční krém', purpose: 'Tenká pokožka okolo očí ocení cílenou hydrataci.', freq: 'volitelně' });
+    am.push({ name: 'Opalovací krém SPF 50', purpose: 'Nejúčinnější anti-aging krok — bez něj ztrácejí retinoidy i kyseliny smysl.', actives: [':SPF 50, široké spektrum'], how: '~2 prsty na obličej a krk; venku reaplikujte každé 2 hodiny', freq: 'denně, celoročně' });
+
+    // --- Večerní rutina (regenerace) ---
+    var pm = [];
+    pm.push({ name: 'První čištění (odličení)', purpose: 'Olej nebo balzám rozpustí SPF, make-up a maz.', how: 'jemně vmasírujte na suchou pleť a emulgujte vodou', freq: 'večer' });
+    pm.push({ name: 'Druhé čištění', purpose: 'Jemný gel dočistí pleť pro lepší vstřebání aktivních látek.', how: 'krátce, vlažnou vodou', freq: 'večer' });
+    pm.push({ name: 'Aktivní látka dne (dle týdenního rozvrhu)', purpose: 'Jádro anti-agingu. Střídejte retinoid a exfoliaci — nikdy ne ve stejný večer.',
+      actives: [active, exf], how: 'množství velikosti hrášku na suchou pleť' + (gentle ? '; metoda „sandwich" (krém → aktivní látka → krém) sníží podráždění' : '') + '; vyhněte se očnímu okolí a koutkům nosu. ' + activeNote + '; ' + exfNote, freq: 'dle rozvrhu níže' });
+    if (targetPm) pm.push({ name: 'Cílené ošetření (' + targetLabel + ')', purpose: 'Ve dnech bez silné aktivní látky.', actives: [targetPm], freq: 'recovery noci' });
+    pm.push({ name: 'Hydratace / výživa', purpose: 'Podpoří noční regeneraci a bariéru.', how: skinMoisturizer(skin) + '; u retinoidu slouží i jako horní vrstva sandwiche', freq: 'večer' });
+    pm.push({ name: 'Oční krém a balzám na rty', purpose: 'Dokončení a komfort přes noc.', freq: 'volitelně' });
+
+    // --- Týdenní rozvrh nočních aktivních látek ---
+    var aN = ing(active) ? ing(active).name : active, eN = ing(exf) ? ing(exf).name : exf;
+    var R = 'Hydratace / regenerace', Pp = 'Hydratace + peptidy', M = 'Hydratace + maska';
+    var weekly;
+    if (preg || sens === 'high') {
+      weekly = [['Po', aN], ['Út', R], ['St', aN], ['Čt', targetPm ? ing(targetPm).name : R], ['Pá', aN], ['So', eN + ' (jemně)'], ['Ne', M]];
+    } else if (lvl === 'beg') {
+      weekly = [['Po', aN + ' (nízká dávka)'], ['Út', R], ['St', Pp], ['Čt', aN], ['Pá', R], ['So', eN], ['Ne', M]];
+    } else if (lvl === 'int') {
+      weekly = [['Po', aN], ['Út', eN], ['St', aN], ['Čt', Pp], ['Pá', aN], ['So', R], ['Ne', M]];
+    } else {
+      weekly = [['Po', aN], ['Út', eN], ['St', aN], ['Čt', Pp], ['Pá', aN], ['So', eN], ['Ne', R]];
+    }
+
+    var principles = [
+      'Vrstvěte od nejřidší po nejhustší konzistenci: voda → esence → sérum → emulze → krém → (ráno) SPF.',
+      'Každou vrstvu nechte chvíli vstřebat (~1 min); po kyselinách ideálně 10–20 minut před dalším krokem.',
+      'Zavádějte jednu novou aktivní látku po druhé (2–4 týdny) a vždy udělejte patch test na čelisti.',
+      'Retinoidy a kyseliny nikdy ve stejný večer — řiďte se týdenním rozvrhem výše.',
+      'Vitamin C patří ráno (ochrana), retinoidy večer (jsou fotolabilní).',
+      'SPF každý den celoročně, i v zimě a uvnitř u oken — jinak roste pigmentace a fotostárnutí.',
+      'Při retinizaci (zarudnutí, olupování) ubrat frekvenci a posílit bariéru (ceramidy, niacinamid), ne přidávat další aktiva.'
+    ];
+    var cautions = [];
+    if (preg) cautions.push('V těhotenství a při kojení vynechte retinoidy a vysoké koncentrace kyselin. Bezpečné jsou bakuchiol, azelaová kyselina, niacinamid, vitamin C a kyselina hyaluronová.');
+    if (skin === 'aknozni' || problem === 'rosacea') cautions.push('U aktivního akné nebo rozacey postupujte obzvlášť pozvolna; při zhoršení konzultujte dermatologa.');
+    cautions.push('Jde o obecné vzdělávací doporučení sestavené z dostupných důkazů, nikoli o individuální lékařskou radu.');
+
+    return { am: am, pm: pm, weekly: weekly, principles: principles, cautions: cautions };
+  }
+
+  function renderSteps(steps) {
+    return '<ol class="steps routine-steps">' + steps.map(function (s) {
+      return '<li><div class="rstep-head"><strong>' + s.name + '</strong>' + (s.freq ? '<span class="rfreq">' + s.freq + '</span>' : '') + '</div>' +
+        (s.purpose ? '<p class="muted small rpurpose">' + s.purpose + '</p>' : '') +
+        (s.actives && s.actives.length ? actChips(s.actives) : '') +
+        (s.how ? '<p class="rhow small">' + s.how + '</p>' : '') + '</li>';
+    }).join('') + '</ol>';
+  }
+  function renderRoutine(r, opts) {
+    opts = opts || {};
+    var weekly = '<div class="table-wrap"><table class="weekly-table"><thead><tr><th>Den</th><th>Večerní zaměření</th></tr></thead><tbody>' +
+      r.weekly.map(function (d) { return '<tr><td>' + d[0] + '</td><td>' + d[1] + '</td></tr>'; }).join('') + '</tbody></table></div>';
+    var html = '';
+    html += '<div class="routine-cols">';
+    html += '<div class="routine-col"><h3>☀️ Ranní rutina <span class="muted small">— ochrana</span></h3>' + renderSteps(r.am) + '</div>';
+    html += '<div class="routine-col"><h3>🌙 Večerní rutina <span class="muted small">— regenerace</span></h3>' + renderSteps(r.pm) + '</div>';
+    html += '</div>';
+    html += '<h3>🗓️ Týdenní rozvrh aktivních látek</h3><p class="muted small">Aby se silné látky nepřekrývaly a bariéra měla čas na regeneraci.</p>' + weekly;
+    if (!opts.compactPrinciples) {
+      html += '<h3>📋 Zásady aplikace</h3><ul class="rich-list">' + r.principles.map(function (p) { return '<li>' + p + '</li>'; }).join('') + '</ul>';
+    }
+    html += '<div class="callout"><strong>Upozornění</strong><ul class="rich-list" style="margin-top:.4rem">' + r.cautions.map(function (c) { return '<li>' + c + '</li>'; }).join('') + '</ul></div>';
+    html += '<p class="muted small">Podrobné encyklopedické stránky: <a href="' + BASE + '/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="' + BASE + '/rutiny/vecerni-rutina/">Večerní rutina</a></p>';
+    return html;
+  }
+
   /* ---------- 1. Poradce ---------- */
   function initAdvisor() {
     var el = document.getElementById('advisor');
@@ -85,7 +219,8 @@
       out += '<h3>Doporučené ingredience</h3>' + chips(ings.slice(0, 6));
       out += '<h3>Technologie</h3>' + chips(techs.slice(0, 5));
       out += '<h3>Produkty</h3>' + chips(prods.slice(0, 5));
-      out += '<h3>Rutina</h3><p class="muted">Doporučujeme začít ranní rutinou (ochrana + SPF) a večerní rutinou s aktivní látkou. <a href="' + BASE + '/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="' + BASE + '/rutiny/vecerni-rutina/">Večerní rutina</a></p>';
+      var routine = composeRoutine({ skin: skin, age: age, lvl: sens === 'high' ? 'beg' : 'int', sens: sens, problem: problem, preg: false });
+      out += '<div class="routine-result"><h3>Rutina na míru</h3>' + renderRoutine(routine) + '</div>';
       if (pref !== 'home') {
         var procs = DATA.technologies; // procedury jsou v jiné sekci; odkážeme na péči podle problému
         out += '<h3>Profesionální péče</h3><p class="muted">Zvažte odbornou konzultaci. Přehled procedur podle problému najdete na stránce <a href="' + BASE + '/pece-podle-problemu/' + problem + '/">' + (DATA.problems.find(function (p) { return p.slug === problem; }) || {}).name + '</a>.</p>';
@@ -103,21 +238,20 @@
       '<div class="tool-grid">' +
       '<div class="field"><label>Typ pleti</label>' + optionGroup('skin', SKIN) + '</div>' +
       '<div class="field"><label>Věk</label>' + optionGroup('age', AGES) + '</div>' +
-      '<div class="field"><label>Zkušenost s aktivními látkami</label>' + optionGroup('lvl', [{ v: 'beg', l: 'Začátečník' }, { v: 'adv', l: 'Pokročilý' }]) + '</div>' +
       '</div>' +
+      '<div class="tool-grid">' +
+      '<div class="field"><label>Zkušenost s aktivními látkami</label>' + optionGroup('lvl', [{ v: 'beg', l: 'Začátečník' }, { v: 'int', l: 'Středně pokročilý' }, { v: 'adv', l: 'Pokročilý' }]) + '</div>' +
+      '<div class="field"><label>Citlivost pleti</label>' + optionGroup('sens', [{ v: 'low', l: 'Nízká' }, { v: 'mid', l: 'Střední' }, { v: 'high', l: 'Vysoká' }]) + '</div>' +
+      '<div class="field"><label>Těhotenství / kojení</label>' + optionGroup('preg', [{ v: '', l: 'Ne' }, { v: '1', l: 'Ano' }]) + '</div>' +
+      '</div>' +
+      '<div class="field"><label>Hlavní cíl (volitelné)</label>' + optionGroup('problem', [{ v: '', l: 'Obecná prevence' }].concat(problemOpts())) + '</div>' +
       '<button class="btn btn--primary" id="rbRun">Sestavit rutinu</button><div id="rbOut"></div>';
     bindOpts(el);
     el.querySelector('#rbRun').addEventListener('click', function () {
-      var skin = getVal(el, 'skin') || 'normalni', age = getVal(el, 'age') || '30-plus', lvl = getVal(el, 'lvl') || 'beg';
-      function find(slug) { return DATA.ingredients.find(function (i) { return i.slug === slug; }); }
-      var am = ['Jemné čištění', 'Antioxidant (vitamin C)', 'Hydratace' + (skin === 'sucha' ? ' (bohatší krém)' : ''), 'SPF 50'];
-      var active = lvl === 'beg' ? (skin === 'citliva' ? 'bakuchiol' : 'retinal') : 'retinol';
-      var pm = ['Odličení / dvojí čištění', 'Aktivní látka: ' + (find(active) ? find(active).name : active) + (lvl === 'beg' ? ' (2× týdně, postupně navyšovat)' : ' (dle tolerance)'), 'Hydratace / výživa'];
-      if (skin === 'mastna' || skin === 'aknozni') pm.splice(1, 0, 'BHA do T-zóny (ve dnech bez retinoidu)');
-      var out = '<div class="result-block"><h3>☀️ Ranní rutina</h3><ol class="steps">' + am.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>' +
-        '<h3>🌙 Večerní rutina</h3><ol class="steps">' + pm.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>' +
-        '<p class="muted">Podrobně: <a href="' + BASE + '/rutiny/ranni-rutina/">Ranní rutina</a> · <a href="' + BASE + '/rutiny/vecerni-rutina/">Večerní rutina</a>. Nikdy nekombinujte více silných aktivních látek naráz.</p></div>';
-      el.querySelector('#rbOut').innerHTML = out;
+      var o = { skin: getVal(el, 'skin') || 'normalni', age: getVal(el, 'age') || '30-plus', lvl: getVal(el, 'lvl') || 'beg',
+        sens: getVal(el, 'sens') || 'mid', preg: !!getVal(el, 'preg'), problem: getVal(el, 'problem') || '' };
+      var r = composeRoutine(o);
+      el.querySelector('#rbOut').innerHTML = '<div class="result-block routine-result">' + renderRoutine(r) + '</div>';
     });
   }
 

@@ -212,6 +212,21 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1rem}
 .empty{color:var(--ink-soft);padding:20px 0}
 
+/* ---------- Rutina (builder + poradce) ---------- */
+.routine-result h3{margin-top:1.8rem}
+.routine-result>h3:first-child{margin-top:0}
+.routine-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.routine-col h3{margin-top:0}
+.routine-steps li{padding-top:13px;padding-bottom:13px}
+.rstep-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.rfreq{flex:0 0 auto;font-size:.68rem;font-weight:600;color:var(--gold-deep);background:var(--ivory);border:1px solid var(--line);padding:2px 9px;border-radius:60px;white-space:nowrap}
+.rpurpose{margin:.25rem 0 .15rem}
+.rhow{margin:.35rem 0 0;color:var(--ink-soft)}
+.routine-chips{display:flex;flex-wrap:wrap;gap:6px;margin:.45rem 0 .15rem}
+.chip--static{background:var(--ivory);color:var(--ink-soft);cursor:default}
+.weekly-table td:first-child{font-weight:600;white-space:nowrap;width:70px}
+@media (max-width:760px){ .routine-cols{grid-template-columns:1fr} }
+
 /* ---------- Footer ---------- */
 .site-footer{background:var(--ink);color:#d8d2c8;padding:64px 0 28px;margin-top:40px}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
