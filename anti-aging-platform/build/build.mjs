@@ -584,8 +584,13 @@ function homepage() {
   </div></section>
 
   <section class="section"><div class="container">
+    <div class="sec-head"><span class="eyebrow">Doporučené produkty</span><h2>Vybíráme pro vás</h2><a class="sec-more" href="/produkty/">Všechny produkty →</a></div>
+    <div class="card-grid">${featProd}</div>
+  </div></section>
+
+  <section class="section section--ivory"><div class="container">
     <div class="sec-head"><span class="eyebrow">Z magazínu</span><h2>Nejnovější články</h2><a class="sec-more" href="/clanky/">Celý magazín →</a></div>
-    <div class="card-grid">${featArticle}${featProd}</div>
+    <div class="card-grid">${featArticle}</div>
   </div></section>`;
 
   const ld = {
