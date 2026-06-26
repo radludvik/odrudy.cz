@@ -118,6 +118,22 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 .tool-card p{font-size:.9rem;color:var(--ink-soft);flex:1}
 .tool-card .card-arrow{margin-top:.6rem}
 
+/* „Najděte si péči na míru" — očíslované karty s ikonou */
+.steps-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.step-card{display:flex;gap:24px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px;color:var(--ink);transition:.18s}
+.step-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);border-color:var(--sand);color:var(--ink)}
+.step-icon{flex:0 0 auto;width:86px;height:86px;border-radius:50%;background:var(--ivory);display:flex;align-items:center;justify-content:center;color:var(--gold)}
+.step-icon svg{width:48px;height:48px}
+.step-body{flex:1;display:flex;flex-direction:column;min-width:0}
+.step-body h3{font-size:1.45rem;font-weight:500;margin:.2rem 0 .6rem;line-height:1.2}
+.step-num{color:var(--gold-deep);margin-right:.15em}
+.step-body p{color:var(--ink-soft);font-size:.95rem;margin:0 0 1.4rem;flex:1}
+.step-cta{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:.76rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep)}
+.step-card:hover .step-cta{color:var(--gold)}
+.step-arrow{font-size:1.15rem}
+@media (max-width:820px){ .steps-grid{grid-template-columns:1fr} }
+@media (max-width:440px){ .step-card{flex-direction:column;gap:18px;padding:26px} }
+
 /* ---------- Evidence badge ---------- */
 .ev{display:inline-flex;align-items:center;gap:.4rem;font-size:.74rem;font-weight:600;padding:5px 12px;border-radius:60px;border:1px solid var(--line);white-space:nowrap;background:#fff;color:var(--ink-soft)}
 .ev--strong{border-color:#bcd0bc}

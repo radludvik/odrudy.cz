@@ -510,6 +510,32 @@ function homepage() {
   const hubTiles = Object.entries(TYPES).filter(([t]) => !['term', 'review'].includes(t)).map(([t, c]) =>
     `<a class="hub-tile" href="${c.base}"><span class="hub-label">${esc(c.many)}</span><span class="hub-count">${entitiesByType(t).length}</span></a>`).join('');
 
+  // Sekce „Najděte si péči na míru" — 6 očíslovaných karet (1:1 na interaktivní nástroje)
+  const ICONS = {
+    face: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 13c-2 1.5-3 4-3 7 0 6 4 12 11 12s11-6 11-12c0-3-1-5.5-3-7"/><path d="M16 13c1-3.5 4.5-5 8-5s7 1.5 8 5"/><circle cx="20.5" cy="22" r="1"/><circle cx="27.5" cy="22" r="1"/><path d="M21 27.5c1.5 1.3 4.5 1.3 6 0"/><path d="M37.5 13.5l.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9z"/></svg>',
+    bottle: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="13" y="16" width="12" height="22" rx="3"/><path d="M16.5 16v-3h5v3"/><path d="M16.5 23h9"/><path d="M34 38c-.3-6 1.5-9.5 6-11.5-.6 5.5-1.8 9.5-6 11.5z"/><path d="M34 38c-3-2-4.2-5-4-9 3 2 4.2 5 4 9z"/></svg>',
+    molecule: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="13" r="3"/><circle cx="13" cy="27" r="3"/><circle cx="35" cy="27" r="3"/><circle cx="24" cy="37" r="3"/><path d="M22 15.5l-6.5 9M26 15.5l6.5 9M15.5 29l6.5 6M32.5 29l-6.5 6"/></svg>',
+    mask: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 13c-2 2-3 6-3 11s2 11 12 11 12-6 12-11-1-9-3-11c-3 2-6 3-9 3s-6-1-9-3z"/><g fill="currentColor" stroke="none"><circle cx="19" cy="22" r=".9"/><circle cx="24" cy="22" r=".9"/><circle cx="29" cy="22" r=".9"/><circle cx="21.5" cy="27" r=".9"/><circle cx="26.5" cy="27" r=".9"/></g></svg>',
+    search: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="21" cy="21" r="9"/><path d="M27.5 27.5L36 36"/></svg>',
+    target: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 15c-2 1.3-3 3.5-3 6.5 0 5.5 4 11 10 11s10-5.5 10-11c0-3-1-5.2-3-6.5"/><path d="M17 15c1-3 4-4.5 7-4.5s6 1.5 7 4.5"/><circle cx="21" cy="22" r="1"/><circle cx="27" cy="22" r="1"/><path d="M22 27c1 1 3 1 4 0"/><path d="M11 13v-2.5h2.5M37 13v-2.5h-2.5M11 35v2.5h2.5M37 35v2.5h-2.5"/></svg>',
+  };
+  const toolSteps = [
+    { href: '/nastroje/poradce/', icon: 'face', title: 'Najděte ideální péči', desc: 'Doporučíme ingredience, technologie, produkty i procedury na míru vašemu věku, typu pleti a hlavnímu problému.', cta: 'Začít doporučení' },
+    { href: '/nastroje/builder-rutiny/', icon: 'bottle', title: 'Sestavte si rutinu', desc: 'Vytvoříme pro vás ranní i večerní rutinu podle vašich cílů, typu pleti a používaných aktivních látek.', cta: 'Sestavit rutinu' },
+    { href: '/nastroje/kompatibilita/', icon: 'molecule', title: 'Zkontrolujte kombinace látek', desc: 'Zjistěte, zda se vaše aktivní látky snášejí a jak je nejlépe kombinovat pro maximální účinek a bezpečnost.', cta: 'Ověřit kombinaci' },
+    { href: '/nastroje/doporuceni-technologii/', icon: 'mask', title: 'Vyberte správnou technologii', desc: 'Porovnáme technologie a doporučíme nejvhodnější řešení podle vašich potřeb, rozpočtu a očekávaných výsledků.', cta: 'Najít technologii' },
+    { href: '/nastroje/porovnani-produktu/', icon: 'search', title: 'Porovnejte produkty', desc: 'Srovnejte kosmetiku i zařízení podle složení, účinnosti, studií, ceny a zkušeností uživatelů.', cta: 'Porovnat produkty' },
+    { href: '/nastroje/vyhledavac-ingredienci/', icon: 'target', title: 'Najděte řešení svého problému', desc: 'Vyberte oblast, která vás trápí, a zobrazíme nejúčinnější ingredience, technologie, produkty i doporučenou péči.', cta: 'Najít řešení' },
+  ];
+  const toolStepsHtml = toolSteps.map((s, i) => `<a class="step-card" href="${s.href}">
+      <span class="step-icon">${ICONS[s.icon]}</span>
+      <span class="step-body">
+        <h3><span class="step-num">${i + 1}.</span> ${esc(s.title)}</h3>
+        <p>${esc(s.desc)}</p>
+        <span class="step-cta">${esc(s.cta)}<span class="step-arrow">→</span></span>
+      </span>
+    </a>`).join('');
+
   const body = `
   <section class="hero">
     <div class="container hero-inner">
@@ -530,12 +556,7 @@ function homepage() {
 
   <section class="section"><div class="container">
     <div class="sec-head"><span class="eyebrow">Inteligentní nástroje</span><h2>Najděte si péči na míru</h2></div>
-    <div class="card-grid tools-grid">
-      <a class="tool-card" href="/nastroje/poradce/"><h3>Anti-aging poradce</h3><p>Zadejte věk, typ pleti a cíl. Doporučíme ingredience, technologie i rutinu.</p><span class="card-arrow">→</span></a>
-      <a class="tool-card" href="/nastroje/builder-rutiny/"><h3>Builder rutiny</h3><p>Sestavíme ranní i večerní péči podle vašich parametrů.</p><span class="card-arrow">→</span></a>
-      <a class="tool-card" href="/nastroje/kompatibilita/"><h3>Kompatibilita látek</h3><p>Zkontrolujte, zda se vaše aktivní látky snesou.</p><span class="card-arrow">→</span></a>
-      <a class="tool-card" href="/nastroje/vyhledavac-ingredienci/"><h3>Vyhledávač ingrediencí</h3><p>Najděte látku podle problému, typu pleti nebo cíle.</p><span class="card-arrow">→</span></a>
-    </div>
+    <div class="steps-grid">${toolStepsHtml}</div>
   </div></section>
 
   <section class="section section--ivory"><div class="container">
