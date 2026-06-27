@@ -561,7 +561,9 @@
       "rychlost": "2–3 měsíce",
       "naklady": "velmi vysoká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "hifu-zarizeni"
+    ],
     "scores": {
       "quality": {
         "score": 9,
@@ -702,7 +704,10 @@
       "rychlost": "týdny",
       "naklady": "střední"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "microneedling-zarizeni",
+      "dermaroller"
+    ],
     "scores": {
       "quality": {
         "score": 8,
@@ -831,7 +836,8 @@
       "naklady": "střední"
     },
     "deviceCategories": [
-      "ems"
+      "ems",
+      "microcurrent"
     ],
     "scores": {
       "quality": {
@@ -970,7 +976,9 @@
       "rychlost": "série",
       "naklady": "vysoká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "ipl-zarizeni"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -1103,7 +1111,9 @@
       "rychlost": "mírná",
       "naklady": "střední"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "ultrazvuk-zarizeni"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -1517,7 +1527,9 @@
       "rychlost": "dočasná",
       "naklady": "nízká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "galvanicka-zarizeni"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -1904,7 +1916,9 @@
       "rychlost": "okamžitá, dočasná",
       "naklady": "nízká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "kryo-nastroje"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -2034,7 +2048,9 @@
       "rychlost": "dočasná",
       "naklady": "nízká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "gua-sha"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -2159,7 +2175,9 @@
       "rychlost": "dočasná",
       "naklady": "nízká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "face-roller"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -2291,7 +2309,9 @@
       "rychlost": "přes noc, dočasná",
       "naklady": "nízká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "silikonove-naplasti"
+    ],
     "scores": {
       "quality": {
         "score": 7,
@@ -2429,7 +2449,9 @@
       "rychlost": "týdny",
       "naklady": "nízká"
     },
-    "deviceCategories": [],
+    "deviceCategories": [
+      "dermaroller"
+    ],
     "scores": {
       "quality": {
         "score": 7,

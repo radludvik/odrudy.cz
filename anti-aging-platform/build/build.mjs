@@ -429,6 +429,9 @@ const PRODUCT_CATEGORIES = {
   'spf': 'Opalovací krémy (SPF)', 'noeni-kremy': 'Noční krémy', 'ocni-kremy': 'Oční krémy',
   'hydratace': 'Hydratační péče', 'exfolianty': 'Exfolianty', 'led-masky': 'LED masky',
   'microcurrent': 'Microcurrent přístroje', 'radiofrekvence': 'RF zařízení', 'domaci-lasery': 'Domácí lasery', 'ems': 'EMS přístroje',
+  'microneedling-zarizeni': 'Microneedling přístroje', 'dermaroller': 'Dermarollery', 'gua-sha': 'Gua sha', 'face-roller': 'Obličejové válečky',
+  'silikonove-naplasti': 'Silikonové náplasti', 'kryo-nastroje': 'Kryo nástroje', 'ultrazvuk-zarizeni': 'Ultrazvuková zařízení',
+  'galvanicka-zarizeni': 'Galvanická zařízení', 'ipl-zarizeni': 'IPL zařízení', 'hifu-zarizeni': 'HIFU zařízení',
 };
 const SCORE_LABELS = { quality: 'Kvalita složení', potency: 'Síla aktivních látek', evidence: 'Vědecká podpora ingrediencí', innovation: 'Inovativnost formulace', value: 'Poměr cena/výkon', sensitive: 'Vhodnost pro citlivou pleť' };
 const ALT_KIND = { better: 'Lepší varianta', cheaper: 'Levnější varianta', stronger: 'Výkonnější varianta', gentler: 'Šetrnější varianta', similar: 'Podobná varianta' };
