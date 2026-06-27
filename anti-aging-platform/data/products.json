@@ -25393,5 +25393,916 @@
         }
       ]
     }
+  },
+  {
+    "type": "product",
+    "updated": "2026-06-01",
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": null,
+    "image": {
+      "src": "/assets/img/products/omnilux-contour-face.svg",
+      "alt": "Omnilux Contour Face — ilustrace",
+      "type": "illustration",
+      "official": "https://omniluxled.com"
+    },
+    "affiliate": [
+      {
+        "label": "Oficiální zdroj značky",
+        "url": "https://omniluxled.com",
+        "disclosure": true
+      }
+    ],
+    "id": "prod-omnilux-contour-face",
+    "slug": "omnilux-contour-face",
+    "name": "Omnilux Contour Face",
+    "brand": "Omnilux",
+    "manufacturer": "Omnilux",
+    "category": "led-masky",
+    "productType": "flexibilní LED maska",
+    "country": "Velká Británie",
+    "volume": "1 ks",
+    "price": "8 000–10 000 Kč",
+    "official": "https://omniluxled.com",
+    "title": "Omnilux Contour Face: rozbor LED masky | antiagelab.cz",
+    "metaDescription": "Odborný rozbor klinicky studované LED masky Omnilux Contour Face (633 a 830 nm). Hodnocení, komu se hodí a srovnání.",
+    "h1": "Omnilux Contour Face",
+    "excerpt": "Klinicky nejlépe studovaná flexibilní LED maska (633 a 830 nm).",
+    "evidenceLevel": "moderate",
+    "suitableFor": [
+      "30+",
+      "40+",
+      "50+",
+      "jemné vrásky",
+      "ztráta jasu a pevnosti",
+      "citlivá pleť"
+    ],
+    "notSuitable": [
+      "Fotosenzitivní onemocnění",
+      "užívání fotosenzibilizujících léků"
+    ],
+    "scores": {
+      "quality": {
+        "score": 9,
+        "note": "Lékařsky používané vlnové délky 633 a 830 nm, kvalitní flexibilní silikon."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Vyšší výkon než většina domácích masek."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Značka stojí za řadou klinických studií fotobiomodulace."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "Etalon domácích LED masek."
+      },
+      "value": {
+        "score": 6,
+        "note": "Vyšší cena, ale špičkový výkon."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Bez tepla a chemie, vhodné i pro citlivou pleť."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Nejlepší volba mezi domácími LED maskami pro náročné."
+      }
+    },
+    "strengths": [
+      "Klinicky studované vlnové délky",
+      "Vyšší výkon",
+      "Flexibilní pohodlný design",
+      "Vhodné pro citlivou pleť"
+    ],
+    "weaknesses": [
+      "Vyšší cena",
+      "Výsledky postupné a mírné",
+      "Vyžaduje pravidelnost"
+    ],
+    "recommendation": {
+      "yes": "Pro náročné, kteří chtějí nejlépe doloženou domácí LED masku a zvládnou pravidelnost.",
+      "no": "Pro hledající okamžité či výrazné výsledky — ty nabídnou profesionální zákroky."
+    },
+    "faq": [
+      {
+        "q": "Jak často masku/panel používat?",
+        "a": "Typicky 3–5× týdně po cca 10 minutách na čistou suchou pleť."
+      },
+      {
+        "q": "Kdy uvidím výsledky?",
+        "a": "Obvykle po 8–12 týdnech pravidelného používání; efekt je kumulativní."
+      },
+      {
+        "q": "Funguje doma stejně jako v salonu?",
+        "a": "Domácí výkon je nižší, ale při pravidelnosti dává reálné výsledky."
+      },
+      {
+        "q": "Je to bezpečné pro oči?",
+        "a": "Používejte dle návodu, oči mějte zavřené nebo chráněné."
+      },
+      {
+        "q": "Pomáhá na akné?",
+        "a": "Červené/NIR světlo cílí na kolagen; na akné slouží modré světlo, pokud ho zařízení má."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Ano, LED nevyzařuje teplo a nedráždí."
+      },
+      {
+        "q": "Můžu kombinovat se séry?",
+        "a": "Ano, aktivní séra naneste po ošetření; ošetřujte na čistou pleť."
+      },
+      {
+        "q": "Nahradí retinol?",
+        "a": "Ne, je to doplněk. Základ zůstává SPF a aktivní kosmetika."
+      },
+      {
+        "q": "Jak dlouho zařízení vydrží?",
+        "a": "Diody mají dlouhou životnost; sledujte pokyny výrobce."
+      },
+      {
+        "q": "Má certifikaci?",
+        "a": "Renomovaná zařízení uvádějí CE/FDA; ověřte u konkrétního modelu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wunsch A. — Red/NIR light controlled trial",
+        "journal": "Photomed Laser Surg",
+        "year": 2014,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie",
+        "near-infrared"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ]
+    }
+  },
+  {
+    "type": "product",
+    "updated": "2026-06-01",
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": null,
+    "image": {
+      "src": "/assets/img/products/dr-dennis-gross-faceware-pro.svg",
+      "alt": "Dr. Dennis Gross DRx SpectraLite FaceWare Pro — ilustrace",
+      "type": "illustration",
+      "official": "https://drdennisgross.com"
+    },
+    "affiliate": [
+      {
+        "label": "Oficiální zdroj značky",
+        "url": "https://drdennisgross.com",
+        "disclosure": true
+      }
+    ],
+    "id": "prod-ddg-faceware-pro",
+    "slug": "dr-dennis-gross-faceware-pro",
+    "name": "Dr. Dennis Gross DRx SpectraLite FaceWare Pro",
+    "brand": "Dr. Dennis Gross",
+    "manufacturer": "Dr. Dennis Gross",
+    "category": "led-masky",
+    "productType": "pevná LED maska",
+    "country": "USA",
+    "volume": "1 ks",
+    "price": "10 000–12 000 Kč",
+    "official": "https://drdennisgross.com",
+    "title": "Dr. Dennis Gross FaceWare Pro: rozbor LED masky | antiagelab.cz",
+    "metaDescription": "Rozbor LED masky Dr. Dennis Gross SpectraLite FaceWare Pro (červené + modré světlo). Hodnocení a srovnání.",
+    "h1": "Dr. Dennis Gross DRx SpectraLite FaceWare Pro",
+    "excerpt": "Populární LED maska s kombinací červeného a modrého světla.",
+    "evidenceLevel": "moderate",
+    "suitableFor": [
+      "30+",
+      "40+",
+      "jemné vrásky",
+      "akné (modré světlo)",
+      "ztráta jasu"
+    ],
+    "notSuitable": [
+      "Fotosenzitivní onemocnění",
+      "fotosenzibilizující léky"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Kombinace červeného a modrého světla v pevné masce."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Krátká 3min relace, nižší výkon."
+      },
+      "evidence": {
+        "score": 6,
+        "note": "Fotobiomodulace má střední důkazní základnu."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Dvojí vlnové délky (anti-aging + akné)."
+      },
+      "value": {
+        "score": 5,
+        "note": "Vyšší cena."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Bez tepla, šetrné."
+      },
+      "overall": {
+        "score": 7,
+        "note": "Kvalitní maska 2v1 (kolagen + akné) za vyšší cenu."
+      }
+    },
+    "strengths": [
+      "Červené i modré světlo",
+      "Krátká relace (3 min)",
+      "Hands-free"
+    ],
+    "weaknesses": [
+      "Vyšší cena",
+      "Pevný tvar nesedne každému",
+      "Nižší výkon na relaci"
+    ],
+    "recommendation": {
+      "yes": "Pro kombinaci anti-aging (červené) a sklonu k akné (modré) v jednom zařízení.",
+      "no": "Pro toho, kdo chce maximální výkon na anti-aging — zvažte silnější masku."
+    },
+    "faq": [
+      {
+        "q": "Jak často masku/panel používat?",
+        "a": "Typicky 3–5× týdně po cca 10 minutách na čistou suchou pleť."
+      },
+      {
+        "q": "Kdy uvidím výsledky?",
+        "a": "Obvykle po 8–12 týdnech pravidelného používání; efekt je kumulativní."
+      },
+      {
+        "q": "Funguje doma stejně jako v salonu?",
+        "a": "Domácí výkon je nižší, ale při pravidelnosti dává reálné výsledky."
+      },
+      {
+        "q": "Je to bezpečné pro oči?",
+        "a": "Používejte dle návodu, oči mějte zavřené nebo chráněné."
+      },
+      {
+        "q": "Pomáhá na akné?",
+        "a": "Červené/NIR světlo cílí na kolagen; na akné slouží modré světlo, pokud ho zařízení má."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Ano, LED nevyzařuje teplo a nedráždí."
+      },
+      {
+        "q": "Můžu kombinovat se séry?",
+        "a": "Ano, aktivní séra naneste po ošetření; ošetřujte na čistou pleť."
+      },
+      {
+        "q": "Nahradí retinol?",
+        "a": "Ne, je to doplněk. Základ zůstává SPF a aktivní kosmetika."
+      },
+      {
+        "q": "Jak dlouho zařízení vydrží?",
+        "a": "Diody mají dlouhou životnost; sledujte pokyny výrobce."
+      },
+      {
+        "q": "Má certifikaci?",
+        "a": "Renomovaná zařízení uvádějí CE/FDA; ověřte u konkrétního modelu."
+      }
+    ],
+    "sources": [],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "rozsirene-pory"
+      ],
+      "skinTypes": [
+        "citliva",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
+  },
+  {
+    "type": "product",
+    "updated": "2026-06-01",
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": null,
+    "image": {
+      "src": "/assets/img/products/project-e-beauty-led-mask.svg",
+      "alt": "Project E Beauty LED maska — ilustrace",
+      "type": "illustration",
+      "official": null
+    },
+    "affiliate": [],
+    "id": "prod-project-e-led",
+    "slug": "project-e-beauty-led-mask",
+    "name": "Project E Beauty LED maska",
+    "brand": "Project E Beauty",
+    "manufacturer": "Project E Beauty",
+    "category": "led-masky",
+    "productType": "dostupná LED maska",
+    "country": "USA",
+    "volume": "1 ks",
+    "price": "1 500–2 500 Kč",
+    "title": "Project E Beauty LED maska: rozbor dostupné LED | antiagelab.cz",
+    "metaDescription": "Rozbor dostupné LED masky Project E Beauty s více barvami světla. Hodnocení, pro koho se hodí.",
+    "h1": "Project E Beauty LED maska",
+    "excerpt": "Dostupná vícebarevná LED maska pro začátečníky.",
+    "evidenceLevel": "limited",
+    "suitableFor": [
+      "20+",
+      "30+",
+      "začátečníci s LED",
+      "jemné vrásky"
+    ],
+    "notSuitable": [
+      "Fotosenzitivní onemocnění",
+      "fotosenzibilizující léky"
+    ],
+    "scores": {
+      "quality": {
+        "score": 6,
+        "note": "Dostupná konstrukce, více barev světla."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Nižší výkon než prémiové masky."
+      },
+      "evidence": {
+        "score": 5,
+        "note": "Levné masky mívají nižší a hůře doložený výkon."
+      },
+      "innovation": {
+        "score": 5,
+        "note": "Standardní vícebarevná maska."
+      },
+      "value": {
+        "score": 9,
+        "note": "Velmi nízká cena pro vyzkoušení LED."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Bez tepla, šetrné."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Levný vstup do LED terapie s nižším výkonem."
+      }
+    },
+    "strengths": [
+      "Velmi nízká cena",
+      "Více barev světla",
+      "Vhodné na vyzkoušení"
+    ],
+    "weaknesses": [
+      "Nižší a hůře doložený výkon",
+      "Variabilní kvalita",
+      "Pomalejší výsledky"
+    ],
+    "recommendation": {
+      "yes": "Pro toho, kdo chce levně vyzkoušet LED terapii.",
+      "no": "Pro náročné na výkon a doloženost — zvolte prémiovou masku."
+    },
+    "faq": [
+      {
+        "q": "Jak často masku/panel používat?",
+        "a": "Typicky 3–5× týdně po cca 10 minutách na čistou suchou pleť."
+      },
+      {
+        "q": "Kdy uvidím výsledky?",
+        "a": "Obvykle po 8–12 týdnech pravidelného používání; efekt je kumulativní."
+      },
+      {
+        "q": "Funguje doma stejně jako v salonu?",
+        "a": "Domácí výkon je nižší, ale při pravidelnosti dává reálné výsledky."
+      },
+      {
+        "q": "Je to bezpečné pro oči?",
+        "a": "Používejte dle návodu, oči mějte zavřené nebo chráněné."
+      },
+      {
+        "q": "Pomáhá na akné?",
+        "a": "Červené/NIR světlo cílí na kolagen; na akné slouží modré světlo, pokud ho zařízení má."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Ano, LED nevyzařuje teplo a nedráždí."
+      },
+      {
+        "q": "Můžu kombinovat se séry?",
+        "a": "Ano, aktivní séra naneste po ošetření; ošetřujte na čistou pleť."
+      },
+      {
+        "q": "Nahradí retinol?",
+        "a": "Ne, je to doplněk. Základ zůstává SPF a aktivní kosmetika."
+      },
+      {
+        "q": "Jak dlouho zařízení vydrží?",
+        "a": "Diody mají dlouhou životnost; sledujte pokyny výrobce."
+      },
+      {
+        "q": "Má certifikaci?",
+        "a": "Renomovaná zařízení uvádějí CE/FDA; ověřte u konkrétního modelu."
+      }
+    ],
+    "sources": [],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "citliva",
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "type": "product",
+    "updated": "2026-06-01",
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": null,
+    "image": {
+      "src": "/assets/img/products/nuface-mini.svg",
+      "alt": "NuFACE Mini — ilustrace",
+      "type": "illustration",
+      "official": "https://www.mynuface.com"
+    },
+    "affiliate": [
+      {
+        "label": "Oficiální zdroj značky",
+        "url": "https://www.mynuface.com",
+        "disclosure": true
+      }
+    ],
+    "id": "prod-nuface-mini",
+    "slug": "nuface-mini",
+    "name": "NuFACE Mini",
+    "brand": "NuFACE",
+    "manufacturer": "NuFACE",
+    "category": "microcurrent",
+    "productType": "kompaktní microcurrent přístroj",
+    "country": "USA",
+    "volume": "1 ks",
+    "price": "4 500–6 000 Kč",
+    "official": "https://www.mynuface.com",
+    "title": "NuFACE Mini: rozbor microcurrent přístroje | antiagelab.cz",
+    "metaDescription": "Rozbor kompaktního microcurrent přístroje NuFACE Mini pro dočasné zpevnění. Hodnocení a srovnání.",
+    "h1": "NuFACE Mini",
+    "excerpt": "Dostupnější a kompaktní verze populárního microcurrent přístroje.",
+    "evidenceLevel": "limited",
+    "suitableFor": [
+      "30+",
+      "40+",
+      "ztráta tonusu",
+      "před událostí"
+    ],
+    "notSuitable": [
+      "Kardiostimulátor",
+      "těhotenství",
+      "epilepsie",
+      "kovové implantáty v oblasti"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Osvědčený microcurrent v menším balení."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Efekt dočasný, vyžaduje pravidelnost."
+      },
+      "evidence": {
+        "score": 4,
+        "note": "Dlouhodobý efekt microcurrentu má slabou evidenci."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Kompaktnější varianta etablované značky."
+      },
+      "value": {
+        "score": 7,
+        "note": "Levnější než Trinity."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Obecně dobře snášené."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Dobrý vstup do microcurrentu za nižší cenu."
+      }
+    },
+    "strengths": [
+      "Nižší cena než Trinity",
+      "Kompaktní a cestovní",
+      "Příjemná aplikace"
+    ],
+    "weaknesses": [
+      "Efekt dočasný",
+      "Nutný vodivý gel",
+      "Slabší důkazní základna"
+    ],
+    "recommendation": {
+      "yes": "Pro vstup do microcurrentu a dočasné zpevnění před událostí.",
+      "no": "Pro hledající trvalé výsledky nebo s kontraindikacemi."
+    },
+    "faq": [
+      {
+        "q": "Jak dlouho drží efekt?",
+        "a": "Spíše dočasně (hodiny až den); vyžaduje pravidelnost."
+      },
+      {
+        "q": "Potřebuji vodivý gel?",
+        "a": "Ano, microcurrent přístroje gel vyžadují."
+      },
+      {
+        "q": "Jak často používat?",
+        "a": "Zpočátku ~5× týdně, poté udržovací režim."
+      },
+      {
+        "q": "Bolí to?",
+        "a": "Ne, proud je mírný; intenzita se dá regulovat."
+      },
+      {
+        "q": "Kdy přístroj nepoužívat?",
+        "a": "Při kardiostimulátoru, těhotenství nebo epilepsii."
+      },
+      {
+        "q": "Nahradí botox?",
+        "a": "Ne, efekt je jemnější a dočasný."
+      },
+      {
+        "q": "Pro jaký věk?",
+        "a": "Nejčastěji 30+ se ztrátou tonusu."
+      },
+      {
+        "q": "Můžu po něm séra?",
+        "a": "Ano, po ošetření naneste séra."
+      },
+      {
+        "q": "Jak rychle uvidím rozdíl?",
+        "a": "Okamžitý dočasný „lift\", kumulativně při pravidelnosti."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Obvykle ano, mimo kontraindikace."
+      }
+    ],
+    "sources": [],
+    "relations": {
+      "technologies": [
+        "microcurrent"
+      ],
+      "problems": [
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "type": "product",
+    "updated": "2026-06-01",
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": null,
+    "image": {
+      "src": "/assets/img/products/ziip-halo.svg",
+      "alt": "ZIIP Halo — ilustrace",
+      "type": "illustration",
+      "official": "https://ziipbeauty.com"
+    },
+    "affiliate": [
+      {
+        "label": "Oficiální zdroj značky",
+        "url": "https://ziipbeauty.com",
+        "disclosure": true
+      }
+    ],
+    "id": "prod-ziip-halo",
+    "slug": "ziip-halo",
+    "name": "ZIIP Halo",
+    "brand": "ZIIP",
+    "manufacturer": "ZIIP",
+    "category": "microcurrent",
+    "productType": "microcurrent + nanocurrent přístroj",
+    "country": "USA",
+    "volume": "1 ks",
+    "price": "8 000–11 000 Kč",
+    "official": "https://ziipbeauty.com",
+    "title": "ZIIP Halo: rozbor microcurrent přístroje | antiagelab.cz",
+    "metaDescription": "Rozbor přístroje ZIIP Halo (microcurrent + nanocurrent) ovládaného aplikací. Hodnocení a srovnání.",
+    "h1": "ZIIP Halo",
+    "excerpt": "Microcurrent + nanocurrent přístroj řízený aplikací s programy.",
+    "evidenceLevel": "limited",
+    "suitableFor": [
+      "30+",
+      "40+",
+      "50+",
+      "ztráta tonusu",
+      "kdo chce programy v appce"
+    ],
+    "notSuitable": [
+      "Kardiostimulátor",
+      "těhotenství",
+      "epilepsie"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Kombinace micro- a nanocurrentu, řízení aplikací."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Efekt převážně dočasný."
+      },
+      "evidence": {
+        "score": 4,
+        "note": "Nanocurrent má zatím minimum nezávislých dat."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "Programy v aplikaci, nanocurrent."
+      },
+      "value": {
+        "score": 4,
+        "note": "Vysoká cena."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Obecně dobře snášené."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Inovativní, ale drahý přístroj s dočasným efektem."
+      }
+    },
+    "strengths": [
+      "Microcurrent i nanocurrent",
+      "Programy v aplikaci",
+      "Kvalitní zpracování"
+    ],
+    "weaknesses": [
+      "Vysoká cena",
+      "Efekt dočasný",
+      "Nanocurrent slabě doložen"
+    ],
+    "recommendation": {
+      "yes": "Pro nadšence do gadgetů, kteří chtějí řízené programy a pravidelnost.",
+      "no": "Pro úsporné rozpočty a hledající doložený trvalý efekt."
+    },
+    "faq": [
+      {
+        "q": "Jak dlouho drží efekt?",
+        "a": "Spíše dočasně (hodiny až den); vyžaduje pravidelnost."
+      },
+      {
+        "q": "Potřebuji vodivý gel?",
+        "a": "Ano, microcurrent přístroje gel vyžadují."
+      },
+      {
+        "q": "Jak často používat?",
+        "a": "Zpočátku ~5× týdně, poté udržovací režim."
+      },
+      {
+        "q": "Bolí to?",
+        "a": "Ne, proud je mírný; intenzita se dá regulovat."
+      },
+      {
+        "q": "Kdy přístroj nepoužívat?",
+        "a": "Při kardiostimulátoru, těhotenství nebo epilepsii."
+      },
+      {
+        "q": "Nahradí botox?",
+        "a": "Ne, efekt je jemnější a dočasný."
+      },
+      {
+        "q": "Pro jaký věk?",
+        "a": "Nejčastěji 30+ se ztrátou tonusu."
+      },
+      {
+        "q": "Můžu po něm séra?",
+        "a": "Ano, po ošetření naneste séra."
+      },
+      {
+        "q": "Jak rychle uvidím rozdíl?",
+        "a": "Okamžitý dočasný „lift\", kumulativně při pravidelnosti."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Obvykle ano, mimo kontraindikace."
+      }
+    ],
+    "sources": [],
+    "relations": {
+      "technologies": [
+        "microcurrent"
+      ],
+      "problems": [
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "type": "product",
+    "updated": "2026-06-01",
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": null,
+    "image": {
+      "src": "/assets/img/products/tripollar-stop-vx.svg",
+      "alt": "TriPollar STOP Vx — ilustrace",
+      "type": "illustration",
+      "official": null
+    },
+    "affiliate": [],
+    "id": "prod-tripollar-stop",
+    "slug": "tripollar-stop-vx",
+    "name": "TriPollar STOP Vx",
+    "brand": "TriPollar",
+    "manufacturer": "Pollogen",
+    "category": "radiofrekvence",
+    "productType": "domácí RF přístroj",
+    "country": "Izrael",
+    "volume": "1 ks",
+    "price": "7 000–9 000 Kč",
+    "title": "TriPollar STOP Vx: rozbor domácího RF | antiagelab.cz",
+    "metaDescription": "Rozbor domácího radiofrekvenčního přístroje TriPollar STOP Vx pro zpevnění pleti. Hodnocení a srovnání.",
+    "h1": "TriPollar STOP Vx",
+    "excerpt": "Domácí radiofrekvenční přístroj pro postupné zpevnění a kontury.",
+    "evidenceLevel": "moderate",
+    "suitableFor": [
+      "40+",
+      "50+",
+      "ztráta pevnosti",
+      "kontury obličeje"
+    ],
+    "notSuitable": [
+      "Kovové implantáty v oblasti",
+      "kardiostimulátor",
+      "těhotenství",
+      "aktivní záněty"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Multipolární RF s dobrým zpracováním."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Domácí RF je slabší než klinické, ale účinné při pravidelnosti."
+      },
+      "evidence": {
+        "score": 6,
+        "note": "RF má slušné důkazy pro zpevnění, domácí přístroje méně."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Multipolární technologie pro rovnoměrné teplo."
+      },
+      "value": {
+        "score": 6,
+        "note": "Vyšší cena, ale dlouhodobá investice."
+      },
+      "sensitive": {
+        "score": 7,
+        "note": "Při nižší intenzitě i citlivější pleť."
+      },
+      "overall": {
+        "score": 7,
+        "note": "Jeden z lepších domácích RF přístrojů na zpevnění."
+      }
+    },
+    "strengths": [
+      "Multipolární RF",
+      "Cílí na pevnost a kontury",
+      "Pro dlouhodobou domácí péči"
+    ],
+    "weaknesses": [
+      "Vyšší cena",
+      "Vyžaduje pravidelnost a údržbu",
+      "Nutný gel"
+    ],
+    "recommendation": {
+      "yes": "Pro 40+/50+ se ztrátou pevnosti, kdo chce domácí RF a zvládne pravidelnost.",
+      "no": "Pro hledající okamžitý výrazný lifting — zvažte profesionální HIFU/RF."
+    },
+    "faq": [
+      {
+        "q": "Jak často RF přístroj používat?",
+        "a": "Typicky 2–3× týdně v kúře, poté udržovací režim."
+      },
+      {
+        "q": "Kdy uvidím výsledky?",
+        "a": "Část efektu je z tepla okamžitá, plný výsledek po týdnech tvorby kolagenu."
+      },
+      {
+        "q": "Bolí to?",
+        "a": "Obvykle příjemné teplo; nepřehřívejte jedno místo."
+      },
+      {
+        "q": "Potřebuji gel?",
+        "a": "Ano, vodivý/skluzový gel je obvykle nutný."
+      },
+      {
+        "q": "Kdy nepoužívat?",
+        "a": "Kovové implantáty v oblasti, kardiostimulátor, těhotenství."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Spíše ano, ale začněte nižší intenzitou."
+      },
+      {
+        "q": "Domácí vs profesionální RF?",
+        "a": "Domácí je slabší a vyžaduje pravidelnost a údržbu."
+      },
+      {
+        "q": "Pro jaký věk?",
+        "a": "Nejčastěji 40+ se ztrátou pevnosti."
+      },
+      {
+        "q": "Můžu po něm séra?",
+        "a": "Ano, hydratační séra po ošetření."
+      },
+      {
+        "q": "Jak dlouho jedno ošetření trvá?",
+        "a": "Obvykle 10–20 minut dle oblasti."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sadick N. — Radiofrequency for skin tightening",
+        "journal": "J Cosmet Laser Ther",
+        "year": 2008,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
   }
 ]

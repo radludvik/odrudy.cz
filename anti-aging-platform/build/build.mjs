@@ -307,13 +307,23 @@ function detailExtras(e) {
     if (e.compatibility?.length) html += compatibilityBlock(e.compatibility);
   }
   if (e.type === 'technology') {
+    html += techAdvisor(e);
     const rows = [];
     if (e.principle) rows.push(['Princip fungování', e.principle]);
-    if (e.mechanism) rows.push(['Mechanismus účinku', e.mechanism]);
-    if (e.evidenceSummary) rows.push(['Shrnutí důkazů', e.evidenceSummary]);
+    if (e.history) rows.push(['Historie', e.history]);
+    if (e.frequency) rows.push(['Doporučená frekvence', e.frequency]);
+    if (e.sessionLength) rows.push(['Délka procedury', e.sessionLength]);
+    if (e.timeToResults) rows.push(['Doba výsledků', e.timeToResults]);
+    if (e.homeUse) rows.push(['Domácí použití', e.homeUse]);
     html += quickFacts(rows);
+    html += effectivenessBlock(e);
+    html += evidenceBlock(e);
     html += twoCol(listBlock('Výhody', e.pros), listBlock('Nevýhody', e.cons));
     html += listBlock('Kontraindikace', e.contraindications);
+    html += scorecardBlock(e, TECH_SCORE_LABELS);
+    html += techCombine(e);
+    html += techDevices(e);
+    html += techComparisons(e);
   }
   if (e.type === 'product') {
     const rows = [];
@@ -448,12 +458,16 @@ function howItWorksBlock(e) {
   }).join('');
   return `<section class="section-block"><h2>Jak funguje</h2><ul class="rich-list">${items}</ul></section>`;
 }
-function scorecardBlock(e) {
+const TECH_SCORE_LABELS = { quality: 'Kvalita technologie', innovation: 'Inovativnost', evidence: 'Vědecké důkazy', value: 'Poměr cena/výkon', ease: 'Snadnost použití', safety: 'Bezpečnost' };
+const CONCERN_LABEL = { 'jemne-vrasky': 'Jemné vrásky', 'hluboke-vrasky': 'Hluboké vrásky', 'povolena-plet': 'Povolená pleť', 'kontury': 'Kontury obličeje', 'pigmentace': 'Pigmentace', 'akne': 'Akné', 'zarudnuti': 'Zarudnutí', 'jizvy': 'Jizvy', 'elasticita': 'Elasticita', 'hydratace': 'Hydratace' };
+function stars(n, max = 5) { n = Math.max(0, Math.min(max, n | 0)); return `<span class="stars" aria-label="${n} z ${max}">${'★'.repeat(n)}${'☆'.repeat(max - n)}</span>`; }
+
+function scorecardBlock(e, labels = SCORE_LABELS) {
   if (!e.scores) return '';
   const s = e.scores;
-  const rows = Object.keys(SCORE_LABELS).filter((k) => s[k]).map((k) => {
+  const rows = Object.keys(labels).filter((k) => s[k]).map((k) => {
     const v = s[k];
-    return `<div class="score-row"><div class="score-top"><span class="score-label">${esc(SCORE_LABELS[k])}</span><span class="score-num">${v.score}/10</span></div><div class="score-bar"><span style="width:${Math.max(0, Math.min(10, v.score)) * 10}%"></span></div>${v.note ? `<p class="muted small score-note">${esc(v.note)}</p>` : ''}</div>`;
+    return `<div class="score-row"><div class="score-top"><span class="score-label">${esc(labels[k])}</span><span class="score-num">${v.score}/10</span></div><div class="score-bar"><span style="width:${Math.max(0, Math.min(10, v.score)) * 10}%"></span></div>${v.note ? `<p class="muted small score-note">${esc(v.note)}</p>` : ''}</div>`;
   }).join('');
   const o = s.overall;
   const overall = o ? `<div class="score-overall"><span>Celkové redakční hodnocení</span><strong>${o.score}/10</strong></div>${o.note ? `<p class="muted small">${esc(o.note)}</p>` : ''}` : '';
@@ -485,6 +499,97 @@ function inciBlock(e) {
   if (!e.inci) return '';
   return `<section class="section-block"><details class="faq-item inci"><summary>Kompletní INCI složení</summary><div class="faq-a"><p class="small">${esc(e.inci)}</p></div></details></section>`;
 }
+
+/* ---- Technologie: encyklopedické bloky ---- */
+function techAdvisor(e) {
+  const data = { name: e.name, effectiveness: e.effectiveness || {}, home: e.homeUse || '', cost: (e.compareAttrs && e.compareAttrs.naklady) || '', ages: [...(e._rel.ageGroup || [])], skins: [...(e._rel.skinType || [])] };
+  return `<section class="section-block tech-advisor" data-tech="${attr(JSON.stringify(data))}">
+    <h2>Je tato technologie vhodná právě pro vás?</h2>
+    <div class="ta-controls"></div>
+    <div class="ta-result"></div>
+  </section>`;
+}
+function effectivenessBlock(e) {
+  if (!e.effectiveness || !Object.keys(e.effectiveness).length) return '';
+  const entries = Object.entries(e.effectiveness).sort((a, b) => b[1] - a[1]);
+  const rows = entries.map(([k, v]) => `<tr><td>${esc(CONCERN_LABEL[k] || k)}</td><td class="stars-cell">${stars(v)}</td></tr>`).join('');
+  return `<section class="section-block"><h2>Na co technologie funguje</h2><div class="table-wrap"><table class="eff-table"><tbody>${rows}</tbody></table></div><p class="muted small">★ = nízká účinnost, ★★★★★ = vysoká. Vychází z dostupných důkazů a klinické praxe.</p></section>`;
+}
+function evidenceBlock(e) {
+  if (!e.evidenceStars) return '';
+  return `<section class="section-block"><h2>Síla vědeckých důkazů</h2><p class="ev-stars">${stars(e.evidenceStars)} <strong>${esc(e.evidenceWord || '')}</strong></p>${e.evidenceSummary ? `<p class="muted">${esc(e.evidenceSummary)}</p>` : ''}</section>`;
+}
+function techCombine(e) {
+  const groups = [['ingredient', 'Ingredience'], ['product', 'Produkty'], ['procedure', 'Procedury'], ['routine', 'Rutiny'], ['skinType', 'Typy pleti'], ['problem', 'Problémy']];
+  let inner = '';
+  for (const [t, label] of groups) {
+    const set = e._rel[t]; if (!set || !set.size) continue;
+    const items = [...set].map((s) => bySlug.get(`${t}:${s}`)).filter(Boolean);
+    if (!items.length) continue;
+    inner += `<div class="rel-group"><h3 class="rel-h">${label}</h3><div class="chips">${items.map((it) => `<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`).join('')}</div></div>`;
+  }
+  if (!inner) return '';
+  return `<section class="section-block"><h2>Jak kombinovat</h2><p class="muted small">Technologii propojte s těmito látkami, produkty a postupy pro lepší a komplexnější výsledky.</p>${inner}</section>`;
+}
+function techDevices(e) {
+  const cats = e.deviceCategories || [];
+  let prods = entitiesByType('product').filter((p) => cats.includes(p.category));
+  const relSet = e._rel.product;
+  if (relSet) for (const s of relSet) { const p = bySlug.get(`product:${s}`); if (p && prods.indexOf(p) < 0) prods.push(p); }
+  if (!prods.length) return `<section class="section-block"><h2>Doporučená zařízení</h2><p class="muted">Konkrétní zařízení pro tuto technologii zatím doplňujeme do databáze.</p></section>`;
+  const sc = (p) => (p.scores && p.scores.overall ? p.scores.overall.score : 0);
+  const pot = (p) => (p.scores && p.scores.potency ? p.scores.potency.score : 0);
+  const priceNum = (p) => { const m = String(p.price || '').replace(/\s/g, '').match(/\d+/); return m ? +m[0] : Infinity; };
+  const best = [...prods].sort((a, b) => sc(b) - sc(a))[0];
+  const cheapest = [...prods].sort((a, b) => priceNum(a) - priceNum(b))[0];
+  const value = [...prods].sort((a, b) => (sc(b) / Math.max(1, priceNum(b))) - (sc(a) / Math.max(1, priceNum(a))))[0];
+  const powerful = [...prods].sort((a, b) => pot(b) - pot(a) || priceNum(b) - priceNum(a))[0];
+  const beginner = [...prods].sort((a, b) => priceNum(a) - priceNum(b)).find((p) => sc(p) >= 6) || cheapest;
+  const picks = [['Nejlepší celkově', best], ['Nejlepší poměr cena/výkon', value], ['Pro začátečníky', beginner], ['Nejvýkonnější / profi', powerful], ['Nejlevnější doporučená', cheapest]];
+  const cards = picks.filter(([, p]) => p).map(([label, p]) => `<div class="pick"><span class="pick-label">${esc(label)}</span><a class="pick-card" href="${urlOf(p)}"><strong>${esc(p.name)}</strong><span class="muted small">${esc(p.price || '')}${p.scores && p.scores.overall ? ' · ' + p.scores.overall.score + '/10' : ''}</span></a></div>`).join('');
+  const all = prods.map((p) => `<a class="chip" href="${urlOf(p)}">${esc(p.name)}</a>`).join('');
+  return `<section class="section-block"><h2>Doporučená zařízení</h2><p class="muted small">Produkty jsou až poslední vrstvou — nejdřív pochopte technologii, pak vybírejte zařízení. Tipy podle účelu:</p><div class="picks">${cards}</div><h3>Všechna zařízení v databázi</h3><div class="chips">${all}</div></section>`;
+}
+function techComparisons(e) {
+  const alts = (e.alternativeTech || []).map((s) => bySlug.get(`technology:${s}`)).filter(Boolean);
+  if (!alts.length || !e.compareAttrs) return '';
+  const tables = alts.map((alt) => {
+    const ca = e.compareAttrs || {}, cb = alt.compareAttrs || {};
+    const dims = [
+      ['Hloubka působení', ca.hloubka, cb.hloubka],
+      ['Bolestivost', ca.bolestivost, cb.bolestivost],
+      ['Doba regenerace', ca.regenerace, cb.regenerace],
+      ['Domácí použití', ca.domaci, cb.domaci],
+      ['Vhodnost pro citlivou pleť', ca.citliva, cb.citliva],
+      ['Rychlost výsledků', ca.rychlost, cb.rychlost],
+      ['Finanční náročnost', ca.naklady, cb.naklady],
+      ['Síla důkazů', e.evidenceStars ? stars(e.evidenceStars) : '—', alt.evidenceStars ? stars(alt.evidenceStars) : '—'],
+    ];
+    const rows = dims.map(([n, a, b]) => `<tr><th scope="row">${esc(n)}</th><td>${a || '—'}</td><td>${b || '—'}</td></tr>`).join('');
+    return `<h3>${esc(e.name)} vs ${esc(alt.name)}</h3><div class="table-wrap"><table class="compare"><thead><tr><th>Parametr</th><th><a href="${urlOf(e)}">${esc(e.name)}</a></th><th><a href="${urlOf(alt)}">${esc(alt.name)}</a></th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }).join('');
+  return `<section class="section-block"><h2>Porovnání s jinými technologiemi</h2>${tables}</section>`;
+}
+function techFinalReco(e) {
+  const pick = (t, n) => [...(e._rel[t] || [])].map((s) => bySlug.get(`${t}:${s}`)).filter(Boolean).slice(0, n);
+  const row = (label, items) => items.length ? `<div class="rel-group"><h3 class="rel-h">${label}</h3><div class="chips">${items.map((it) => `<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`).join('')}</div></div>` : '';
+  const devices = (() => {
+    const cats = e.deviceCategories || [];
+    let prods = entitiesByType('product').filter((p) => cats.includes(p.category));
+    const relSet = e._rel.product; if (relSet) for (const s of relSet) { const p = bySlug.get(`product:${s}`); if (p && prods.indexOf(p) < 0) prods.push(p); }
+    return prods.sort((a, b) => ((b.scores && b.scores.overall ? b.scores.overall.score : 0) - (a.scores && a.scores.overall ? a.scores.overall.score : 0))).slice(0, 3);
+  })();
+  const blocks = [
+    row('Doporučená zařízení', devices),
+    row('Vhodné ingredience', pick('ingredient', 5)),
+    row('Doporučené rutiny', pick('routine', 3)),
+    row('Související procedury', pick('procedure', 4)),
+    row('Související články', pick('article', 3)),
+    row('Alternativní technologie', (e.alternativeTech || []).map((s) => bySlug.get(`technology:${s}`)).filter(Boolean)),
+  ].join('');
+  if (!blocks.trim()) return '';
+  return `<section class="section-block final-reco"><div class="graph-head"><span class="eyebrow">Shrnutí</span><h2>Pokud jste dočetli až sem…</h2><p class="muted">Tady je vše, co k této technologii doporučujeme prozkoumat dál.</p></div>${blocks}</section>`;
+}
 function comparisonTable(e) {
   const items = e.items.map((slug) => bySlugLoose.get(slug)).filter(Boolean);
   const names = items.map((it) => it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : '');
@@ -512,6 +617,7 @@ function renderDetail(e) {
       ${e.body ? renderBlocks(e.body) : ''}
       ${renderFaq(e.faq)}
       ${renderSources(e.sources)}
+      ${e.type === 'technology' ? techFinalReco(e) : ''}
     </article>
     <aside class="detail-aside">
       ${relatedSection(e)}
@@ -537,7 +643,7 @@ function renderDetail(e) {
     canonical: urlOf(e),
     breadcrumbTrail: trail,
     jsonld: [pageLd, faqLd].filter(Boolean),
-    body: hero + article,
+    body: hero + article + (e.type === 'technology' ? '<script src="/assets/js/tech-advisor.js" defer></script>' : ''),
   });
 }
 
@@ -550,7 +656,9 @@ function renderListing(type) {
   const trail = [{ label: 'Domů', href: '/' }, { label: tc.many, href: tc.base }];
   const inner = type === 'product'
     ? productListingInner(items)
-    : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
+    : type === 'technology'
+      ? techListingInner(items)
+      : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
@@ -564,8 +672,32 @@ function renderListing(type) {
     description: listingIntro(type),
     canonical: tc.base,
     breadcrumbTrail: trail,
-    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : ''),
+    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : ''),
   });
+}
+
+/* ---- Technologie: landing s interaktivním průvodcem „Co chcete řešit?" ---- */
+function techCard(e) {
+  const eff = JSON.stringify(e.effectiveness || {});
+  const ev = e.evidenceStars ? stars(e.evidenceStars) : '';
+  return `<a class="card tech-card" href="${urlOf(e)}" data-effectiveness="${attr(eff)}" data-home="${attr(e.homeUse || '')}">
+    <span class="card-type">Technologie</span>
+    <h3 class="card-title">${esc(e.name)}</h3>
+    <p class="card-excerpt">${esc(e.excerpt || '')}</p>
+    <span class="card-foot"><span class="muted small">${ev}</span><span class="card-arrow">→</span></span>
+  </a>`;
+}
+function techListingInner(items) {
+  const concerns = Object.entries(CONCERN_LABEL);
+  const btns = concerns.map(([v, l]) => `<button type="button" class="opt" data-concern="${v}">${esc(l)}</button>`).join('');
+  const guide = `<div class="tech-finder" id="techFinder">
+    <span class="eyebrow">Interaktivní průvodce</span>
+    <h2>Co chcete řešit?</h2>
+    <div class="opts" id="tfConcerns">${btns}</div>
+    <div class="opts opts--pref" id="tfPref"><button type="button" class="opt is-active" data-pref="">Doma i profesionálně</button><button type="button" class="opt" data-pref="ano">Jen domácí péče</button><button type="button" class="opt" data-pref="profesionální">Jen profesionální</button></div>
+    <p class="muted small" id="tfHint">Vyberte problém a doporučíme nejvhodnější technologie.</p>
+  </div>`;
+  return guide + `<div class="card-grid" id="techGrid">${items.map(techCard).join('')}</div>`;
 }
 
 /* ---- Produktový výpis s filtrem (problém, značka, kategorie, typ pleti,

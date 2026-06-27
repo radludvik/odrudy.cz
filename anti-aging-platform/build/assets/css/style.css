@@ -243,6 +243,41 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .weekly-table td:first-child{font-weight:600;white-space:nowrap;width:70px}
 @media (max-width:760px){ .routine-cols{grid-template-columns:1fr} }
 
+/* ---------- Technologie: encyklopedie ---------- */
+.stars{color:var(--gold);letter-spacing:1px;white-space:nowrap}
+.eff-table td:first-child{font-weight:500}
+.eff-table .stars-cell{text-align:right;width:130px}
+.ev-stars{font-size:1.25rem}
+.ev-stars .stars{font-size:1.35rem;vertical-align:-1px}
+.ev-stars strong{font-family:var(--serif);font-weight:500;margin-left:.4rem}
+.tech-advisor{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.tech-advisor h2{margin-top:0}
+.ta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:6px}
+.ta-grid .filter-field select{background:#fff}
+.ta-box{margin-top:16px;padding:16px 18px;border-radius:var(--radius-sm);background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold)}
+.ta-box.ta-good{border-left-color:var(--ok)}
+.ta-box.ta-ok{border-left-color:var(--gold)}
+.ta-box.ta-mid{border-left-color:var(--warn)}
+.ta-box.ta-bad{border-left-color:var(--bad)}
+.ta-verdict{font-family:var(--serif);font-size:1.3rem;margin:0 0 .5rem}
+.ta-verdict{color:var(--ink)}
+.ta-box .rich-list{margin:.4rem 0 .6rem}
+.picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:1rem 0 1.6rem}
+.pick{display:flex;flex-direction:column;gap:6px}
+.pick-label{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep)}
+.pick-card{display:flex;flex-direction:column;gap:3px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);color:var(--ink)}
+.pick-card:hover{border-color:var(--gold);color:var(--ink)}
+.final-reco{background:var(--ivory);border-radius:var(--radius);padding:26px;margin-top:2.4rem}
+.final-reco .rel-group{margin-bottom:1.2rem}
+
+/* Technologie landing – průvodce */
+.tech-finder{background:linear-gradient(180deg,#fff,var(--ivory));border:1px solid var(--line);border-radius:var(--radius);padding:26px;margin-bottom:26px}
+.tech-finder h2{margin:.2rem 0 1rem}
+.tech-finder .opts{margin-bottom:12px}
+.opts--pref{border-top:1px solid var(--line);padding-top:12px}
+.tech-card.is-recommended{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
+.tech-card.is-recommended .card-type::after{content:" · ★ Doporučeno";color:var(--gold-deep)}
+
 /* ---------- Produktový filtr ---------- */
 .filterbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;align-items:end;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:18px}
 .filter-field{display:flex;flex-direction:column;gap:6px}
