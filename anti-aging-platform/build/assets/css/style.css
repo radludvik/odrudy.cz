@@ -278,6 +278,24 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .tech-card.is-recommended{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
 .tech-card.is-recommended .card-type::after{content:" · ★ Doporučeno";color:var(--gold-deep)}
 
+/* ---------- Doplňky stravy: legislativní compliance ---------- */
+.supp-intro{margin-bottom:22px}
+.supp-card.is-recommended{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
+.supp-card.is-recommended .card-type::after{content:" · ★ Doporučeno";color:var(--gold-deep)}
+.legal-block{background:linear-gradient(180deg,#fff,var(--ivory));border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:var(--radius);padding:24px 26px}
+.legal-block .graph-head{margin-bottom:14px}
+.legal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:8px}
+.legal-col{background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px 18px}
+.legal-col h3{margin:0 0 .5rem;font-size:.95rem}
+.legal-col.legal--ok{border-left:3px solid var(--ok)}
+.legal-col.legal--none{border-left:3px solid var(--warn)}
+.legal-col.legal--bad{border-left:3px solid var(--bad)}
+.legal-col.legal--bad li{color:var(--ink-soft);text-decoration:line-through;text-decoration-color:var(--bad)}
+.legal-row{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.legal-row h3{margin:0 0 .35rem;font-size:.9rem;letter-spacing:.02em}
+.legal-row p{margin:0;color:var(--ink-soft)}
+.legal-disclaimer{margin:16px 0 0;padding:12px 14px;background:var(--porcelain);border-radius:var(--radius-sm);color:var(--ink-soft);font-style:italic}
+
 /* ---------- Produktový filtr ---------- */
 .filterbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;align-items:end;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:18px}
 .filter-field{display:flex;flex-direction:column;gap:6px}

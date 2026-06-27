@@ -41,5 +41,71 @@
     "faq": [ { "q": "Můžu retinol i kyselinu ve stejný večer?", "a": "Raději ne. Střídejte je ve dnech, snížíte riziko podráždění." } ],
     "sources": [],
     "relations": { "ingredients": ["retinol", "retinal", "bakuchiol", "aha", "bha", "peptidy"], "products": ["medik8-crystal-retinal-6"], "ageGroups": ["30-plus", "40-plus", "50-plus"], "skinTypes": ["mastna", "zrala"] }
+  },
+  {
+    "id": "rt-doplnky-basic", "slug": "doplnky-anti-aging-basic", "type": "routine", "name": "Doplňky: Anti-aging Basic", "timeOfDay": "supplement",
+    "title": "Doplňky stravy pro pleť — základ s nejlepšími důkazy | antiagelab.cz",
+    "metaDescription": "Základní skladba doplňků stravy pro pleť postavená jen na látkách s nejsilnější vědeckou oporou. Bez longevity hype. Včetně dávkování a upozornění.",
+    "h1": "Doplňky: Anti-aging Basic", "excerpt": "Minimalistický základ postavený jen na látkách s nejlepší vědeckou oporou — bez zbytečného hype.",
+    "evidenceLevel": "strong", "updated": "2026-06-27",
+    "steps": [
+      { "step": "Vitamin D3 (+ K2)", "note": "Pokud není hladina dostatečná; přispívá k normální funkci imunity." },
+      { "step": "Omega-3 (EPA/DHA)", "note": "Pokud nejíte ryby 2× týdně; přispívá k normální funkci srdce." },
+      { "step": "Vitamin C", "note": "Přispívá k normální tvorbě kolagenu pro normální funkci kůže." },
+      { "step": "Zinek", "note": "Přispívá k normálnímu stavu kůže, vlasů a nehtů; nepřekračovat dávku dlouhodobě." }
+    ],
+    "image": { "src": "/assets/img/routines/ranni-rutina.svg", "alt": "Doplňky Anti-aging Basic", "type": "infographic" },
+    "body": [
+      { "h2": "Princip: jen to, co má důkazy" },
+      { "p": "Tento základ vědomě obsahuje pouze látky se schválenými zdravotními tvrzeními EU a/nebo silnou vědeckou oporou. Záměrně neobsahuje trendy „longevity\" molekuly (NMN, spermidin, resveratrol), u kterých zatím chybí klinické důkazy u lidí." },
+      { "note": "Doplňky nenahrazují pestrou stravu, životní styl ani lékařskou péči. Nejde o léčbu ani prevenci onemocnění.", "evidence": "strong" }
+    ],
+    "faq": [ { "q": "Stačí jen tyto čtyři doplňky?", "a": "Pro většinu lidí jsou rozumným základem, pokud nepokryjí potřebu stravou. Individuální potřeby a hladiny ideálně konzultujte s lékařem." } ],
+    "sources": [],
+    "relations": { "supplements": ["vitamin-d", "omega-3", "vitamin-c", "zinek"], "ageGroups": ["20-plus", "30-plus", "40-plus"] }
+  },
+  {
+    "id": "rt-doplnky-40", "slug": "doplnky-pro-40-plus", "type": "routine", "name": "Doplňky: 40+ pro pleť a pevnost", "timeOfDay": "supplement",
+    "title": "Doplňky stravy 40+ pro pleť a pevnost | antiagelab.cz",
+    "metaDescription": "Skladba doplňků pro pleť po čtyřicítce — kolagenové peptidy, vitamin C, omega-3 a zinek. Podloženo důkazy a se zákonnou kontrolou tvrzení.",
+    "h1": "Doplňky: 40+ pro pleť a pevnost", "excerpt": "Rozšíření základu o kolagenové peptidy a antioxidanty pro zralejší pleť.",
+    "evidenceLevel": "moderate", "updated": "2026-06-27",
+    "steps": [
+      { "step": "Kolagenové peptidy", "note": "2,5–10 g denně; zkoumáno v souvislosti s pružností a hydratací pleti." },
+      { "step": "Vitamin C", "note": "Synergie s kolagenem — přispívá k jeho normální tvorbě." },
+      { "step": "Omega-3", "note": "Podpora kvality pleti a kardiovaskulárního systému." },
+      { "step": "Astaxanthin (volitelně)", "note": "Antioxidant zkoumaný u kvality pleti; pro pleť bez schváleného tvrzení." }
+    ],
+    "image": { "src": "/assets/img/routines/vecerni-rutina.svg", "alt": "Doplňky 40+", "type": "infographic" },
+    "body": [
+      { "h2": "Proč právě tato skladba" },
+      { "p": "Po čtyřicítce přirozeně klesá tvorba kolagenu. Kolagenové peptidy s vitaminem C patří k nejlépe prozkoumaným kombinacím pro pleť, omega-3 a astaxanthin doplňují antioxidační rovinu. U kolagenu ani astaxanthinu nejde o schválené tvrzení pro pleť — popisujeme je proto opatrně." },
+      { "note": "Efekt je postupný (8–12 týdnů) a individuální. Doplněk nenahradí SPF ani lokální retinoidy.", "evidence": "moderate" }
+    ],
+    "faq": [ { "q": "Nahradí kolagen v prášku ztrátu kolagenu v kůži?", "a": "Ne. Peptidy se v kůži přímo „nedoplní\". Studie sledují nepřímý vliv na pružnost a hydrataci, výsledky jsou individuální." } ],
+    "sources": [],
+    "relations": { "supplements": ["kolagen", "vitamin-c", "omega-3", "astaxanthin"], "ageGroups": ["40-plus", "50-plus"] }
+  },
+  {
+    "id": "rt-doplnky-longevity", "slug": "doplnky-premium-longevity", "type": "routine", "name": "Doplňky: Premium Longevity (experimentální)", "timeOfDay": "supplement",
+    "title": "Premium longevity doplňky — co o nich víme | antiagelab.cz",
+    "metaDescription": "Trendy longevity doplňky (NMN, spermidin, resveratrol) na rovinu: co výzkum (ne)potvrzuje, jaká jsou rizika a náklady. Bez slibů zázraků.",
+    "h1": "Doplňky: Premium Longevity (experimentální)", "excerpt": "Trendy „longevity\" molekuly bez příkras — co o nich opravdu víme a proč je nestavíme na první místo.",
+    "evidenceLevel": "preliminary", "updated": "2026-06-27",
+    "steps": [
+      { "step": "Nejdřív základ", "note": "Bez vyřešeného základu (D3, omega-3, C, spánek, pohyb) nemá smysl řešit experimentální látky." },
+      { "step": "Resveratrol", "note": "Antioxidační polyfenol; účinky u lidí zatím nepotvrzené." },
+      { "step": "Spermidin", "note": "Spojován s autofagií; u člověka experimentální oblast." },
+      { "step": "NMN", "note": "Prekurzor NAD+; anti-aging benefity u lidí nedoloženy, regulace se vyvíjí." }
+    ],
+    "image": { "src": "/assets/img/routines/vecerni-rutina.svg", "alt": "Premium longevity doplňky", "type": "infographic" },
+    "body": [
+      { "h2": "Čtěte, než utratíte peníze" },
+      { "p": "Tuto skladbu uvádíme záměrně jako poslední a transparentně. Jde o experimentální látky s vysokou cenou a zatím chybějícími klinickými důkazy přínosu u lidí. Nepřisuzujeme jim žádný zdravotní benefit jako fakt a nedoporučujeme je upřednostnit před podloženým základem." },
+      { "note": "Žádná z těchto látek nemá schválené zdravotní tvrzení pro anti-aging. Nejde o léčbu, prevenci nemocí ani „zastavení stárnutí\".", "evidence": "preliminary" }
+    ],
+    "faq": [ { "q": "Zpomalí NMN nebo spermidin stárnutí?", "a": "Zatím to u lidí není prokázáno. Existují slibná laboratorní a zvířecí data, ale klinické důkazy přínosu chybí. Berte je jako experiment, ne jako jistotu." } ],
+    "sources": [],
+    "relations": { "supplements": ["resveratrol", "spermidin", "nmn"], "ageGroups": ["40-plus", "50-plus", "60-plus"] }
   }
 ]

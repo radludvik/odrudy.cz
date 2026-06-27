@@ -1,0 +1,3005 @@
+[
+  {
+    "id": "supp-kolagen",
+    "slug": "kolagen",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Kolagen (kolagenové peptidy)",
+    "title": "Kolagen (kolagenové peptidy): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Kolagenové peptidy a jejich vztah k pleti — co říká výzkum, dávkování, bezpečnost a legislativní kontrola tvrzení.",
+    "h1": "Kolagen (kolagenové peptidy)",
+    "excerpt": "Hydrolyzované kolagenové peptidy patří mezi nejlépe prozkoumané doplňky v souvislosti s pletí. Pro kolagen ale neexistuje schválené zdravotní tvrzení.",
+    "evidenceLevel": "strong",
+    "image": {
+      "src": "/assets/img/supplements/kolagen.svg",
+      "alt": "Kolagen (kolagenové peptidy) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Kolagen je hlavní strukturní bílkovina pojivových tkání. Jako doplněk se používají hydrolyzované kolagenové peptidy získané nejčastěji z ryb (mořský kolagen) nebo skotu.",
+    "source": "Ryby, hovězí/vepřové pojivo; přirozeně si ho tělo tvoří z aminokyselin.",
+    "effectiveness": {
+      "elasticita": 4,
+      "hydratace": 4,
+      "jemne-vrasky": 3,
+      "pevnost": 3,
+      "nehty": 3,
+      "vlasy": 2
+    },
+    "evidenceStars": 4,
+    "evidenceWord": "dobré",
+    "evidenceSummary": "Na doplňkový kolagen existuje relativně dost randomizovaných studií s povzbudivými výsledky pro hydrataci a pružnost, kvalita a nezávislost studií ale kolísá.",
+    "benefits": [
+      "Patří k nejlépe prozkoumaným doplňkům v souvislosti s pletí",
+      "Dobře snášený, snadné dávkování (prášek)",
+      "Zdroj specifických aminokyselin"
+    ],
+    "limits": [
+      "Kolagen nenahradí SPF ani lokální retinoidy",
+      "Nejde o „náhradu\" kolagenu přímo v kůži",
+      "Efekt je postupný a individuální"
+    ],
+    "sideEffects": [
+      "Obvykle dobře snášen",
+      "Vzácně zažívací diskomfort",
+      "Pozor na alergii (ryby)"
+    ],
+    "contraindications": [
+      "Alergie na zdroj (ryby/hovězí)",
+      "Při onemocnění ledvin konzultujte vyšší příjem bílkovin s lékařem"
+    ],
+    "dosing": {
+      "dose": "2,5–10 g hydrolyzovaných peptidů denně",
+      "when": "kdykoli během dne, klidně s jídlem",
+      "duration": "efekt ve studiích obvykle po 8–12 týdnech"
+    },
+    "scores": {
+      "evidence": {
+        "score": 8,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako dobré."
+      },
+      "safety": {
+        "score": 9,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 7,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 7,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 7,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „kolagenové peptidy, které jsou zkoumány v souvislosti s pružností a hydratací pokožky\". Nelze tvrdit, že „obnovuje kolagen v kůži\" nebo „odstraňuje vrásky\".",
+      "limits": "Pro kolagen neexistuje v EU žádné schválené zdravotní tvrzení. Konkrétní přínos pro pleť proto nesmí být uváděn jako fakt.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "stavební aminokyseliny + signál",
+      "rychlost": "8–12 týdnů",
+      "oblast": "pružnost, hydratace",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "kyselina-hyaluronova",
+      "omega-3"
+    ],
+    "body": [
+      {
+        "h2": "Co je Kolagen (kolagenové peptidy)"
+      },
+      {
+        "p": "Kolagen je hlavní strukturní bílkovina pojivových tkání. Jako doplněk se používají hydrolyzované kolagenové peptidy získané nejčastěji z ryb (mořský kolagen) nebo skotu."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Peptidy se tráví na aminokyseliny a krátké peptidy (např. prolyl-hydroxyprolin), které slouží jako stavební kameny a zároveň jsou zkoumány jako signál pro fibroblasty."
+      },
+      {
+        "p": "Několik randomizovaných studií sledovalo vztah suplementace ke hydrataci a pružnosti pokožky; výsledky jsou povzbudivé, metodika studií se ale liší a část je financována výrobci."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Funguje kolagen v prášku?",
+        "a": "Studie naznačují vztah k hydrataci a pružnosti pokožky, jde ale o oblast bez schváleného zdravotního tvrzení a kvalita studií kolísá."
+      },
+      {
+        "q": "Mořský, nebo hovězí?",
+        "a": "Oba se tráví na aminokyseliny; mořský má menší peptidy a bývá oblíbený, volba je spíš o preferenci a alergiích."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Studie nejčastěji pracují s 2,5–10 g hydrolyzovaných peptidů denně."
+      },
+      {
+        "q": "Kdy ho užívat?",
+        "a": "Načasování není zásadní; klidně s jídlem nebo do nápoje."
+      },
+      {
+        "q": "Pomůže na vlasy a nehty?",
+        "a": "Data jsou slabší než pro pleť; vnímejte to jako možný doplňkový efekt."
+      },
+      {
+        "q": "Je vhodný pro vegany?",
+        "a": "Klasický kolagen ne (živočišný). Existují „vegan collagen booster\" s vitaminem C a aminokyselinami, nejde však o kolagen jako takový."
+      },
+      {
+        "q": "Nahradí péči o pleť?",
+        "a": "Ne. Nenahradí SPF, retinoidy ani vyváženou stravu."
+      },
+      {
+        "q": "Jak rychle uvidím rozdíl?",
+        "a": "Studie hodnotí obvykle po 8–12 týdnech pravidelného užívání."
+      },
+      {
+        "q": "Je bezpečný dlouhodobě?",
+        "a": "Při doporučeném dávkování je obecně dobře snášen; při onemocnění ledvin konzultujte příjem bílkovin."
+      },
+      {
+        "q": "Vstřebá se vůbec?",
+        "a": "Ano, tráví se na aminokyseliny a krátké peptidy, které tělo využije."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Choi FD et al. — Oral collagen supplementation: a review",
+        "journal": "J Drugs Dermatol",
+        "year": 2019,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "peptidy",
+        "vitamin-c",
+        "kyselina-hyaluronova"
+      ],
+      "technologies": [
+        "microneedling",
+        "led-terapie"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala",
+        "sucha"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-vitamin-c",
+    "slug": "vitamin-c",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Vitamin C (kyselina askorbová)",
+    "title": "Vitamin C (kyselina askorbová): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Vitamin C jako doplněk: schválená zdravotní tvrzení EU (kolagen, oxidační stres), dávkování a bezpečnost.",
+    "h1": "Vitamin C (kyselina askorbová)",
+    "excerpt": "Jediná látka v této sekci se schváleným tvrzením přímo pro pleť: „přispívá k normální tvorbě kolagenu pro normální funkci kůže\".",
+    "evidenceLevel": "strong",
+    "image": {
+      "src": "/assets/img/supplements/vitamin-c.svg",
+      "alt": "Vitamin C (kyselina askorbová) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Vitamin C je esenciální ve vodě rozpustný vitamin a kofaktor enzymů pro tvorbu kolagenu a silný antioxidant.",
+    "source": "Citrusy, paprika, brokolice, šípky, černý rybíz.",
+    "effectiveness": {
+      "hojeni": 4,
+      "pigmentace": 3,
+      "elasticita": 3,
+      "jemne-vrasky": 2
+    },
+    "evidenceStars": 4,
+    "evidenceWord": "dobré",
+    "evidenceSummary": "Pro vitamin C platí schválená zdravotní tvrzení EU pro tvorbu kolagenu (kůže) a ochranu před oxidativním stresem; jde o jedno z mála jasně podložených tvrzení v této sekci.",
+    "benefits": [
+      "Schválené tvrzení EU: přispívá k normální tvorbě kolagenu pro normální funkci kůže",
+      "Přispívá k ochraně buněk před oxidativním stresem",
+      "Levný a dostupný"
+    ],
+    "limits": [
+      "Vitamin C sám neodstraní hluboké vrásky",
+      "Při dostatku ve stravě nemá vyšší dávka navíc lineární efekt",
+      "Pro pleť je důležitý i lokální (topický) vitamin C"
+    ],
+    "sideEffects": [
+      "Vysoké dávky mohou způsobit zažívací potíže",
+      "Riziko ledvinových kamenů u predisponovaných při velmi vysokých dávkách"
+    ],
+    "contraindications": [
+      "Hemochromatóza a poruchy metabolismu železa (zvyšuje vstřebávání železa)",
+      "Sklon k oxalátovým ledvinovým kamenům — konzultujte vysoké dávky"
+    ],
+    "dosing": {
+      "dose": "referenční hodnota ~80 mg/den; doplňky často 200–1000 mg",
+      "when": "s jídlem, dělené dávky",
+      "duration": "dlouhodobě bez problémů při rozumné dávce"
+    },
+    "scores": {
+      "evidence": {
+        "score": 8,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako dobré."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 7,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 6,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 9,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "Vitamin C přispívá k normální tvorbě kolagenu pro normální funkci kůže.",
+        "Vitamin C přispívá k ochraně buněk před oxidativním stresem.",
+        "Vitamin C přispívá ke snížení míry únavy a vyčerpání."
+      ],
+      "notAllowed": [
+        "odstraňuje vrásky",
+        "omlazuje pleť",
+        "léčí pigmentové skvrny"
+      ],
+      "safeWording": "Lze legálně použít schválená tvrzení o tvorbě kolagenu a ochraně před oxidativním stresem. Nelze tvrdit „odstraňuje vrásky\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "kofaktor kolagenu + antioxidant",
+      "rychlost": "týdny",
+      "oblast": "kolagen, oxidační stres",
+      "bezpecnost": "vysoká",
+      "cena": "nízká"
+    },
+    "alternativeSupps": [
+      "astaxanthin",
+      "kolagen"
+    ],
+    "body": [
+      {
+        "h2": "Co je Vitamin C (kyselina askorbová)"
+      },
+      {
+        "p": "Vitamin C je esenciální ve vodě rozpustný vitamin a kofaktor enzymů pro tvorbu kolagenu a silný antioxidant."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je nezbytným kofaktorem enzymů (prolyl- a lysyl-hydroxyláz) při tvorbě kolagenu a neutralizuje volné radikály."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Má smysl vitamin C polykat kvůli pleti?",
+        "a": "Vitamin C má schválené tvrzení pro tvorbu kolagenu; nedostatek pleti škodí, nadbytek navíc ale efekt nezvyšuje lineárně."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Referenční hodnota je kolem 80 mg; doplňky bývají 200–1000 mg, vyšší dávky netřeba."
+      },
+      {
+        "q": "Polykat, nebo mazat?",
+        "a": "Pro pleť se doplňují obě cesty — lokální vitamin C ráno + dostatek ve stravě."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "S jídlem, ideálně v dělených dávkách."
+      },
+      {
+        "q": "Může uškodit?",
+        "a": "Velmi vysoké dávky mohou dráždit zažívání; u sklonu k oxalátovým kamenům opatrně."
+      },
+      {
+        "q": "Liposomální vitamin C?",
+        "a": "Marketingově oblíbený; pro běžnou potřebu stačí kvalitní klasická forma."
+      },
+      {
+        "q": "Pomůže na pigmentaci?",
+        "a": "Pro pigmentaci nemá schválené tvrzení; relevantnější je lokální vitamin C a SPF."
+      },
+      {
+        "q": "Kombinace se železem?",
+        "a": "Zvyšuje vstřebávání železa — u hemochromatózy pozor."
+      },
+      {
+        "q": "Je v ovoci dost?",
+        "a": "Pestrá strava obvykle pokryje potřebu; doplněk řeší spíš nedostatek."
+      },
+      {
+        "q": "Nahradí opalovací krém?",
+        "a": "Ne, antioxidant SPF doplňuje, nenahrazuje."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení (nařízení 432/2012)",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "ferulova-kyselina"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-omega-3",
+    "slug": "omega-3",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Omega-3 (EPA a DHA)",
+    "title": "Omega-3 (EPA a DHA): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Omega-3 mastné kyseliny a pleť: schválená tvrzení (srdce, mozek, zrak), výzkum u kůže, dávkování a bezpečnost.",
+    "h1": "Omega-3 (EPA a DHA)",
+    "excerpt": "Omega-3 mají silná data pro celkové zdraví; konkrétně pro pleť jsou důkazy zatím omezené a bez schváleného tvrzení.",
+    "evidenceLevel": "moderate",
+    "image": {
+      "src": "/assets/img/supplements/omega-3.svg",
+      "alt": "Omega-3 (EPA a DHA) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Omega-3 jsou esenciální polynenasycené mastné kyseliny EPA a DHA, které tělo neumí dostatečně tvořit.",
+    "source": "Tučné mořské ryby (losos, makrela, sardinky), řasový olej (vegan), lněné semínko (ALA).",
+    "effectiveness": {
+      "hydratace": 3,
+      "jemne-vrasky": 2,
+      "hojeni": 2
+    },
+    "evidenceStars": 3,
+    "evidenceWord": "omezené",
+    "evidenceSummary": "Pro srdce, mozek a zrak mají omega-3 schválená tvrzení EU. Pro pleť (bariéra, zánětlivé projevy) jsou důkazy zatím omezené, byť biologicky věrohodné.",
+    "benefits": [
+      "EPA a DHA přispívají k normální činnosti srdce (schválené tvrzení)",
+      "DHA podporuje normální činnost mozku a zraku (schválené tvrzení)",
+      "Zkoumané v souvislosti s kožní bariérou a zánětlivými projevy"
+    ],
+    "limits": [
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Nejde o náhradu hydratace a ochrany pleti",
+      "Kvalita olejů (oxidace) se liší"
+    ],
+    "sideEffects": [
+      "Rybí dech, zažívací diskomfort",
+      "Ve vysokých dávkách mírně ovlivňují srážlivost"
+    ],
+    "contraindications": [
+      "Užívání léků na ředění krve — konzultujte s lékařem",
+      "Před operací dle doporučení lékaře"
+    ],
+    "dosing": {
+      "dose": "250–1000 mg EPA+DHA denně (schválené tvrzení pro srdce od 250 mg)",
+      "when": "s jídlem obsahujícím tuk",
+      "duration": "dlouhodobě"
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako omezené."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 8,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 7,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 7,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "EPA a DHA přispívají k normální činnosti srdce (při příjmu 250 mg denně).",
+        "DHA přispívá k udržení normální činnosti mozku.",
+        "DHA přispívá k udržení normálního stavu zraku."
+      ],
+      "notAllowed": [
+        "léčí zánět",
+        "odstraňuje vrásky",
+        "léčí akné"
+      ],
+      "safeWording": "Lze použít schválená tvrzení pro srdce/mozek/zrak. Pro pleť volte „je zkoumána v souvislosti s kožní bariérou\", nikoli „léčí zánět\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "membrány + protizánětlivé dráhy",
+      "rychlost": "týdny–měsíce",
+      "oblast": "bariéra (výzkum), celkové zdraví",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "kolagen",
+      "astaxanthin"
+    ],
+    "body": [
+      {
+        "h2": "Co je Omega-3 (EPA a DHA)"
+      },
+      {
+        "p": "Omega-3 jsou esenciální polynenasycené mastné kyseliny EPA a DHA, které tělo neumí dostatečně tvořit."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "EPA a DHA se zabudovávají do buněčných membrán a vstupují do protizánětlivých drah; jejich role v kožní bariéře a zánětlivé odpovědi je předmětem výzkumu."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhají omega-3 na pleť?",
+        "a": "Jsou zkoumány v souvislosti s kožní bariérou a zánětlivými projevy, schválené tvrzení pro pleť ale neexistuje."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Pro tvrzení o srdci 250 mg EPA+DHA; běžně se užívá 500–1000 mg."
+      },
+      {
+        "q": "Ryby, nebo řasový olej?",
+        "a": "Řasový olej je veganský zdroj EPA/DHA, jinak srovnatelný."
+      },
+      {
+        "q": "Kdy je brát?",
+        "a": "S jídlem obsahujícím tuk pro lepší vstřebání."
+      },
+      {
+        "q": "Jak poznám kvalitu?",
+        "a": "Sledujte obsah EPA/DHA, čerstvost (oxidaci) a certifikace čistoty."
+      },
+      {
+        "q": "Ředí krev?",
+        "a": "Ve vysokých dávkách mírně; při antikoagulanciích konzultujte lékaře."
+      },
+      {
+        "q": "Stačí ryby ve stravě?",
+        "a": "2–3 porce tučných ryb týdně mohou potřebu pokrýt; jinak doplněk."
+      },
+      {
+        "q": "Veganská varianta?",
+        "a": "Ano, řasový olej."
+      },
+      {
+        "q": "Pomohou na suchou pleť?",
+        "a": "Možný doplňkový vliv na bariéru, ale nenahradí lokální hydrataci."
+      },
+      {
+        "q": "Jsou bezpečné dlouhodobě?",
+        "a": "Ano, při rozumném dávkování."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "ceramidy"
+      ],
+      "problems": [
+        "rosacea",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-zinek",
+    "slug": "zinek",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Zinek",
+    "title": "Zinek: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Zinek a pleť: schválená tvrzení EU (kůže, vlasy, nehty, oxidační stres), dávkování a bezpečnost.",
+    "h1": "Zinek",
+    "excerpt": "Minerál se schválenými tvrzeními pro udržení normálního stavu kůže, vlasů a nehtů.",
+    "evidenceLevel": "strong",
+    "image": {
+      "src": "/assets/img/supplements/zinek.svg",
+      "alt": "Zinek — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Zinek je esenciální stopový prvek nezbytný pro stovky enzymů, dělení buněk a imunitu.",
+    "source": "Maso, mořské plody (ústřice), luštěniny, semínka, ořechy, celozrnné obiloviny.",
+    "effectiveness": {
+      "nehty": 4,
+      "vlasy": 3,
+      "hojeni": 3,
+      "pevnost": 1
+    },
+    "evidenceStars": 4,
+    "evidenceWord": "dobré",
+    "evidenceSummary": "Pro zinek platí několik schválených tvrzení EU přímo pro kůži, vlasy, nehty a ochranu před oxidativním stresem.",
+    "benefits": [
+      "Přispívá k udržení normálního stavu kůže, vlasů a nehtů (schválená tvrzení)",
+      "Přispívá k ochraně buněk před oxidativním stresem",
+      "Podporuje normální funkci imunitního systému"
+    ],
+    "limits": [
+      "Vyšší dávka nezlepší pleť „nad normál\" — doplňuje při nedostatku",
+      "Dlouhodobě vysoký zinek snižuje vstřebávání mědi"
+    ],
+    "sideEffects": [
+      "Nevolnost při užití nalačno",
+      "Dlouhodobě vysoké dávky → deficit mědi"
+    ],
+    "contraindications": [
+      "Dlouhodobě > 40 mg/den jen pod dohledem",
+      "Interakce s některými antibiotiky (odstup v užití)"
+    ],
+    "dosing": {
+      "dose": "cca 10–15 mg/den (horní limit ~25–40 mg)",
+      "when": "s jídlem (lépe snášeno)",
+      "duration": "dlouhodobě jen v rozumné dávce"
+    },
+    "scores": {
+      "evidence": {
+        "score": 8,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako dobré."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 7,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 6,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 8,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "Zinek přispívá k udržení normálního stavu kůže.",
+        "Zinek přispívá k udržení normálního stavu vlasů a nehtů.",
+        "Zinek přispívá k ochraně buněk před oxidativním stresem."
+      ],
+      "notAllowed": [
+        "léčí akné",
+        "odstraňuje jizvy",
+        "detoxikuje pleť"
+      ],
+      "safeWording": "Lze použít schválená tvrzení o normálním stavu kůže/vlasů/nehtů. Nelze tvrdit „léčí akné\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "kofaktor enzymů, imunita",
+      "rychlost": "týdny",
+      "oblast": "kůže, vlasy, nehty",
+      "bezpecnost": "vysoká (do limitu)",
+      "cena": "nízká"
+    },
+    "alternativeSupps": [
+      "selen",
+      "med"
+    ],
+    "body": [
+      {
+        "h2": "Co je Zinek"
+      },
+      {
+        "p": "Zinek je esenciální stopový prvek nezbytný pro stovky enzymů, dělení buněk a imunitu."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Účastní se syntézy bílkovin, dělení buněk a antioxidační obrany; tím se podílí na udržení normálního stavu kůže, vlasů a nehtů."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhá zinek na pleť?",
+        "a": "Má schválené tvrzení pro udržení normálního stavu kůže, vlasů a nehtů — doplňuje hlavně při nedostatku."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Obvykle 10–15 mg; vyšší dávky jen krátkodobě a uvážlivě."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "S jídlem, snáší se lépe než nalačno."
+      },
+      {
+        "q": "Pomůže na akné?",
+        "a": "Akné je onemocnění — doplněk nelze prezentovat jako léčbu; zinek podporuje normální stav kůže."
+      },
+      {
+        "q": "Sníží mi měď?",
+        "a": "Dlouhodobě vysoký zinek ano; proto dodržujte rozumnou dávku."
+      },
+      {
+        "q": "Která forma?",
+        "a": "Dobře vstřebatelné jsou citrát, bisglycinát či pikolinát."
+      },
+      {
+        "q": "Mám ho z jídla dost?",
+        "a": "Pestrá strava obvykle pokryje; vegani mají vyšší riziko nedostatku."
+      },
+      {
+        "q": "Lze s vápníkem/železem?",
+        "a": "Velké dávky minerálů se mohou konkurovat; raději s odstupem."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Ano do horního limitu; nepřekračujte dlouhodobě."
+      },
+      {
+        "q": "Pomůže na vypadávání vlasů?",
+        "a": "Při nedostatku ano; při normální hladině přínos navíc nečekejte."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "problems": [
+        "rozsirene-pory"
+      ],
+      "skinTypes": [
+        "mastna",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-astaxanthin",
+    "slug": "astaxanthin",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Astaxanthin",
+    "title": "Astaxanthin: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Astaxanthin a pleť: silný antioxidant zkoumaný v souvislosti s pružností a hydratací. Důkazy a bezpečnost.",
+    "h1": "Astaxanthin",
+    "excerpt": "Červené karotenoidní barvivo s antioxidačními vlastnostmi; pro pleť slibné, ale bez schváleného tvrzení.",
+    "evidenceLevel": "moderate",
+    "image": {
+      "src": "/assets/img/supplements/astaxanthin.svg",
+      "alt": "Astaxanthin — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Astaxanthin je karotenoid z mořských řas (Haematococcus pluvialis), který dává růžovou barvu lososům a krevetám.",
+    "source": "Mikrořasy, losos, krevety; jako doplněk z řasy.",
+    "effectiveness": {
+      "elasticita": 3,
+      "hydratace": 3,
+      "jemne-vrasky": 3
+    },
+    "evidenceStars": 3,
+    "evidenceWord": "omezené",
+    "evidenceSummary": "Existuje několik menších studií spojujících astaxanthin s pružností a hydratací pokožky; jde o omezenou důkazní základnu a oblast bez schváleného tvrzení.",
+    "benefits": [
+      "Silné antioxidační vlastnosti (in vitro)",
+      "Menší studie zkoumají vztah k pružnosti a hydrataci pleti",
+      "Dobře snášený"
+    ],
+    "limits": [
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Důkazy jsou zatím omezené a studie malé"
+    ],
+    "sideEffects": [
+      "Vyšší dávky mohou mírně zbarvit pokožku/stolici",
+      "Obecně dobře snášen"
+    ],
+    "contraindications": [
+      "Opatrnost při užívání léků na tlak (teoretické)",
+      "Alergie na mořské zdroje"
+    ],
+    "dosing": {
+      "dose": "běžně 4–12 mg/den",
+      "when": "s jídlem obsahujícím tuk",
+      "duration": "studie obvykle 8–12 týdnů"
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako omezené."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 6,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 6,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „antioxidant zkoumaný v souvislosti s ochranou pokožky před oxidativním stresem\". Nelze tvrdit „omlazuje pleť\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "membránový antioxidant",
+      "rychlost": "8–12 týdnů",
+      "oblast": "pružnost, hydratace (výzkum)",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "vitamin-c",
+      "koenzym-q10"
+    ],
+    "body": [
+      {
+        "h2": "Co je Astaxanthin"
+      },
+      {
+        "p": "Astaxanthin je karotenoid z mořských řas (Haematococcus pluvialis), který dává růžovou barvu lososům a krevetám."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je to silný antioxidant, který se zabudovává do buněčných membrán; je zkoumán v souvislosti s ochranou před oxidačním stresem v kůži."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je astaxanthin účinný na pleť?",
+        "a": "Menší studie naznačují vztah k pružnosti a hydrataci; jde o omezené důkazy bez schváleného tvrzení."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Studie pracují nejčastěji s 4–12 mg denně."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "S jídlem obsahujícím tuk kvůli vstřebání."
+      },
+      {
+        "q": "Zbarví pleť?",
+        "a": "Při vyšších dávkách mírně možné, je to neškodné."
+      },
+      {
+        "q": "Je veganský?",
+        "a": "Ano, pokud pochází z řasy Haematococcus."
+      },
+      {
+        "q": "Kombinovat s vitaminem C?",
+        "a": "Antioxidanty se mohou doplňovat; nejde o nutnost."
+      },
+      {
+        "q": "Nahradí SPF?",
+        "a": "Ne. Vnitřní antioxidant nenahrazuje opalovací krém."
+      },
+      {
+        "q": "Jak rychle?",
+        "a": "Studie hodnotí po 8–12 týdnech."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Při doporučeném dávkování ano."
+      },
+      {
+        "q": "Pro koho se hodí?",
+        "a": "Pro toho, kdo chce doplňkový antioxidant a chápe, že důkazy jsou omezené."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Davinelli S. et al. — Astaxanthin in skin health",
+        "journal": "Nutrients",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "koenzym-q10"
+      ],
+      "technologies": [
+        "led-terapie"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-koenzym-q10",
+    "slug": "koenzym-q10",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Koenzym Q10 (ubichinon)",
+    "title": "Koenzym Q10 (ubichinon): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Koenzym Q10 jako doplněk a pleť: role v energetice buněk, antioxidant, omezené důkazy a bezpečnost.",
+    "h1": "Koenzym Q10 (ubichinon)",
+    "excerpt": "Antioxidant a součást energetiky buněk; pro pleť jsou důkazy z doplňování omezené.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/koenzym-q10.svg",
+      "alt": "Koenzym Q10 (ubichinon) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Koenzym Q10 je látka přirozeně přítomná v mitochondriích, kde se podílí na tvorbě energie, a působí antioxidačně. Hladina s věkem klesá.",
+    "source": "Maso, ryby, ořechy, oleje; tělo si ho také tvoří.",
+    "effectiveness": {
+      "jemne-vrasky": 2,
+      "elasticita": 2
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Důkazy pro doplňkový Q10 a pleť jsou omezené; relevantnější bývá lokální (topický) Q10.",
+    "benefits": [
+      "Antioxidační role v buňkách",
+      "Tradičně užíván v souvislosti s energií a srdcem (bez schváleného kožního tvrzení)"
+    ],
+    "limits": [
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Lokální Q10 má pro pleť přímější opodstatnění",
+      "Vstřebatelnost se liší dle formy"
+    ],
+    "sideEffects": [
+      "Vzácně zažívací diskomfort",
+      "Může mírně ovlivnit účinek warfarinu"
+    ],
+    "contraindications": [
+      "Užívání warfarinu — konzultujte s lékařem"
+    ],
+    "dosing": {
+      "dose": "běžně 30–200 mg/den (ubichinol lépe vstřebatelný)",
+      "when": "s jídlem obsahujícím tuk",
+      "duration": "dlouhodobě"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 3,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 5,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 5,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 5,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „antioxidant, jehož vztah k pleti je zkoumán\". Nelze tvrdit „regeneruje pokožku\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "mitochondrie + antioxidant",
+      "rychlost": "týdny–měsíce",
+      "oblast": "oxidační stres (výzkum)",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "astaxanthin",
+      "vitamin-c"
+    ],
+    "body": [
+      {
+        "h2": "Co je Koenzym Q10 (ubichinon)"
+      },
+      {
+        "p": "Koenzym Q10 je látka přirozeně přítomná v mitochondriích, kde se podílí na tvorbě energie, a působí antioxidačně. Hladina s věkem klesá."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je součástí dýchacího řetězce v mitochondriích a chrání buňky před oxidačním stresem; vliv perorálního doplňování na pleť je méně prozkoumaný než u lokální formy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhá Q10 na vrásky?",
+        "a": "Důkazy pro perorální Q10 a pleť jsou omezené; pro pleť je relevantnější lokální Q10."
+      },
+      {
+        "q": "Ubichinon, nebo ubichinol?",
+        "a": "Ubichinol bývá lépe vstřebatelný, zejména ve vyšším věku."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Běžně 30–200 mg podle účelu."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "S jídlem obsahujícím tuk."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Ano; pozor jen při užívání warfarinu."
+      },
+      {
+        "q": "Mazat, nebo polykat?",
+        "a": "Pro pleť má lokální Q10 přímější opodstatnění."
+      },
+      {
+        "q": "Klesá Q10 s věkem?",
+        "a": "Ano, hladiny s věkem klesají."
+      },
+      {
+        "q": "Pomůže s energií?",
+        "a": "Bývá tak užíván, pro pleť ale schválené tvrzení nemá."
+      },
+      {
+        "q": "Veganský?",
+        "a": "Existují fermentované veganské formy."
+      },
+      {
+        "q": "Jak rychle?",
+        "a": "Efekt je postupný a u pleti nejistý."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Žmitek K. et al. — CoQ10 supplementation",
+        "journal": "Biofactors",
+        "year": 2017,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "koenzym-q10",
+        "vitamin-c"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-kyselina-hyaluronova",
+    "slug": "kyselina-hyaluronova",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Kyselina hyaluronová (perorální)",
+    "title": "Kyselina hyaluronová (perorální): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Perorální kyselina hyaluronová a hydratace pleti: co o tom víme, dávkování a legislativa.",
+    "h1": "Kyselina hyaluronová (perorální)",
+    "excerpt": "Oblíbený doplněk na hydrataci; důkazy z perorálního užívání jsou zatím omezené a bez schváleného tvrzení.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/kyselina-hyaluronova.svg",
+      "alt": "Kyselina hyaluronová (perorální) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Kyselina hyaluronová je tělu vlastní molekula vázající vodu, hojně zastoupená v kůži a kloubech.",
+    "source": "Tělo si ji tvoří; doplňky se vyrábějí fermentací.",
+    "effectiveness": {
+      "hydratace": 3,
+      "jemne-vrasky": 2
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Několik menších studií spojuje perorální hyaluron s hydratací pokožky, důkazy jsou ale omezené a oblast nemá schválené tvrzení.",
+    "benefits": [
+      "Zkoumána v souvislosti s hydratací pokožky",
+      "Dobře snášená"
+    ],
+    "limits": [
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Lokální a injekční formy mají pro pleť přímější efekt",
+      "Důkazy z perorálního užívání jsou omezené"
+    ],
+    "sideEffects": [
+      "Obecně velmi dobře snášena"
+    ],
+    "contraindications": [
+      "Bez významných při běžném dávkování"
+    ],
+    "dosing": {
+      "dose": "běžně 120–240 mg/den",
+      "when": "kdykoli",
+      "duration": "studie obvykle 8–12 týdnů"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 9,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 5,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 5,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „je zkoumána v souvislosti s hydratací pokožky\". Nelze tvrdit „vyhlazuje vrásky\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "vazba vody (výzkum)",
+      "rychlost": "8–12 týdnů",
+      "oblast": "hydratace (výzkum)",
+      "bezpecnost": "velmi vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "kolagen",
+      "ceramidy"
+    ],
+    "body": [
+      {
+        "h2": "Co je Kyselina hyaluronová (perorální)"
+      },
+      {
+        "p": "Kyselina hyaluronová je tělu vlastní molekula vázající vodu, hojně zastoupená v kůži a kloubech."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Po požití se štěpí na menší fragmenty; mechanismus případného vlivu na hydrataci pokožky je předmětem výzkumu."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Funguje hyaluron v tabletách?",
+        "a": "Menší studie naznačují vztah k hydrataci, důkazy jsou ale omezené a bez schváleného tvrzení."
+      },
+      {
+        "q": "Polykat, nebo mazat?",
+        "a": "Pro pleť mají lokální a injekční formy přímější efekt."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Studie pracují s 120–240 mg."
+      },
+      {
+        "q": "Je bezpečná?",
+        "a": "Ano, patří k velmi dobře snášeným doplňkům."
+      },
+      {
+        "q": "Jak rychle?",
+        "a": "Případný efekt je postupný (8–12 týdnů)."
+      },
+      {
+        "q": "Veganská?",
+        "a": "Obvykle ano, vyrábí se fermentací."
+      },
+      {
+        "q": "Kombinovat s kolagenem?",
+        "a": "Lze; jde o dvě různé strategie hydratace a struktury."
+      },
+      {
+        "q": "Nahradí krém?",
+        "a": "Ne, lokální hydrataci nenahradí."
+      },
+      {
+        "q": "Pomůže na klouby?",
+        "a": "To je jiná oblast mimo zaměření této stránky."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro suchou pleť jako doplněk, s vědomím omezených důkazů."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oe M. et al. — Oral hyaluronan and skin",
+        "journal": "Clin Cosmet Investig Dermatol",
+        "year": 2017,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "matna-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "sucha"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-biotin",
+    "slug": "biotin",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Biotin (vitamin B7)",
+    "title": "Biotin (vitamin B7): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Biotin a stav kůže a vlasů: schválené tvrzení EU, kdy má smysl a kdy ne, bezpečnost.",
+    "h1": "Biotin (vitamin B7)",
+    "excerpt": "Vitamin se schváleným tvrzením pro normální stav kůže a vlasů; přínos navíc má hlavně při nedostatku.",
+    "evidenceLevel": "moderate",
+    "image": {
+      "src": "/assets/img/supplements/biotin.svg",
+      "alt": "Biotin (vitamin B7) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Biotin je ve vodě rozpustný vitamin skupiny B, kofaktor enzymů v metabolismu.",
+    "source": "Vejce, ořechy, luštěniny, játra, celozrnné potraviny; tvoří ho i střevní mikroflóra.",
+    "effectiveness": {
+      "vlasy": 3,
+      "nehty": 3
+    },
+    "evidenceStars": 3,
+    "evidenceWord": "omezené",
+    "evidenceSummary": "Biotin má schválené tvrzení EU pro normální stav kůže a vlasů; výrazný přínos „navíc\" má ale hlavně při skutečném nedostatku, který je vzácný.",
+    "benefits": [
+      "Přispívá k udržení normálního stavu kůže a vlasů (schválené tvrzení)",
+      "Podílí se na normálním energetickém metabolismu"
+    ],
+    "limits": [
+      "Při dostatku ze stravy nepřináší vyšší dávka „zázrak\"",
+      "Nedostatek biotinu je vzácný"
+    ],
+    "sideEffects": [
+      "Velmi dobře snášen"
+    ],
+    "contraindications": [
+      "Vysoké dávky mohou zkreslit některé laboratorní testy (např. štítná žláza, troponin) — informujte lékaře"
+    ],
+    "dosing": {
+      "dose": "referenční ~50 µg/den; doplňky často výrazně více",
+      "when": "kdykoli",
+      "duration": "dlouhodobě"
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako omezené."
+      },
+      "safety": {
+        "score": 9,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 6,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "Biotin přispívá k udržení normálního stavu kůže.",
+        "Biotin přispívá k udržení normálního stavu vlasů."
+      ],
+      "notAllowed": [
+        "vyléčí vypadávání vlasů",
+        "urychluje růst vlasů (jako fakt bez nedostatku)"
+      ],
+      "safeWording": "Lze použít schválená tvrzení o normálním stavu kůže a vlasů. Vyhněte se slibu „vyléčí řídnoucí vlasy\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "kofaktor metabolismu",
+      "rychlost": "týdny–měsíce",
+      "oblast": "kůže, vlasy",
+      "bezpecnost": "velmi vysoká",
+      "cena": "nízká"
+    },
+    "alternativeSupps": [
+      "zinek",
+      "selen"
+    ],
+    "body": [
+      {
+        "h2": "Co je Biotin (vitamin B7)"
+      },
+      {
+        "p": "Biotin je ve vodě rozpustný vitamin skupiny B, kofaktor enzymů v metabolismu."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je kofaktorem karboxyláz v metabolismu tuků a bílkovin, čímž se podílí na udržení normálního stavu kůže a vlasů."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomůže biotin na vlasy?",
+        "a": "Má schválené tvrzení pro normální stav vlasů; výrazný přínos navíc je hlavně při nedostatku, který je vzácný."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Referenční hodnota je nízká (~50 µg); doplňky bývají mnohonásobně vyšší."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Ano, velmi dobře snášen."
+      },
+      {
+        "q": "Ovlivní krevní testy?",
+        "a": "Vysoké dávky mohou zkreslit některé testy — informujte lékaře a před odběrem vysaďte dle pokynů."
+      },
+      {
+        "q": "Mám ho z jídla dost?",
+        "a": "Obvykle ano; nedostatek je vzácný."
+      },
+      {
+        "q": "Pomůže na nehty?",
+        "a": "Při křehkých nehtech bývá zmiňován; data jsou smíšená."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "Načasování není zásadní."
+      },
+      {
+        "q": "Veganský?",
+        "a": "Existují veganské formy."
+      },
+      {
+        "q": "Urychlí růst vlasů?",
+        "a": "Bez nedostatku to nelze tvrdit jako fakt."
+      },
+      {
+        "q": "Pro koho se hodí?",
+        "a": "Hlavně při prokázaném nedostatku nebo jednostranné stravě."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "problems": [],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-med",
+    "slug": "med",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Měď",
+    "title": "Měď: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Měď a pleť: schválená tvrzení EU (pigmentace, pojivová tkáň, oxidační stres), bezpečnost a dávkování.",
+    "h1": "Měď",
+    "excerpt": "Stopový prvek se schválenými tvrzeními pro normální pigmentaci a pojivovou tkáň.",
+    "evidenceLevel": "moderate",
+    "image": {
+      "src": "/assets/img/supplements/med.svg",
+      "alt": "Měď — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Měď je esenciální stopový prvek a kofaktor enzymů, mimo jiné lysyl-oxidázy důležité pro pojivovou tkáň.",
+    "source": "Játra, kakao, ořechy, semínka, mořské plody, luštěniny.",
+    "effectiveness": {
+      "pigmentace": 3,
+      "pevnost": 2,
+      "vlasy": 2
+    },
+    "evidenceStars": 3,
+    "evidenceWord": "omezené",
+    "evidenceSummary": "Měď má schválená tvrzení EU pro normální pigmentaci kůže a vlasů a pro udržení normální pojivové tkáně.",
+    "benefits": [
+      "Přispívá k normální pigmentaci kůže a vlasů (schválená tvrzení)",
+      "Přispívá k udržení normální pojivové tkáně",
+      "Přispívá k ochraně buněk před oxidativním stresem"
+    ],
+    "limits": [
+      "Nedostatek je vzácný; doplňovat jen uváženě",
+      "Vysoký zinek může vyvolat deficit mědi"
+    ],
+    "sideEffects": [
+      "Vysoké dávky → zažívací potíže",
+      "Toxická v nadbytku"
+    ],
+    "contraindications": [
+      "Wilsonova choroba (porucha metabolismu mědi)",
+      "Neužívat samostatně bez důvodu"
+    ],
+    "dosing": {
+      "dose": "referenční ~1 mg/den; samostatně jen výjimečně",
+      "when": "s jídlem",
+      "duration": "krátkodobě/uváženě"
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako omezené."
+      },
+      "safety": {
+        "score": 7,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 6,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "Měď přispívá k normální pigmentaci kůže.",
+        "Měď přispívá k udržení normální pojivové tkáně.",
+        "Měď přispívá k ochraně buněk před oxidativním stresem."
+      ],
+      "notAllowed": [
+        "obnovuje kolagen v kůži",
+        "odstraňuje pigmentové skvrny"
+      ],
+      "safeWording": "Lze použít schválená tvrzení o pigmentaci a pojivové tkáni. Nelze tvrdit „obnovuje kolagen v kůži\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "kofaktor lysyl-oxidázy a tyrozinázy",
+      "rychlost": "týdny",
+      "oblast": "pojivová tkáň, pigmentace",
+      "bezpecnost": "střední (toxická v nadbytku)",
+      "cena": "nízká"
+    },
+    "alternativeSupps": [
+      "zinek",
+      "selen"
+    ],
+    "body": [
+      {
+        "h2": "Co je Měď"
+      },
+      {
+        "p": "Měď je esenciální stopový prvek a kofaktor enzymů, mimo jiné lysyl-oxidázy důležité pro pojivovou tkáň."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je kofaktorem enzymů pro síťování kolagenu a elastinu (lysyl-oxidáza) a pro tvorbu melaninu (tyrozináza)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Mám měď doplňovat?",
+        "a": "Nedostatek je vzácný; samostatnou měď užívejte jen z dobrého důvodu, ideálně po konzultaci."
+      },
+      {
+        "q": "Souvisí se zinkem?",
+        "a": "Ano, dlouhodobě vysoký zinek snižuje měď; poměr je důležitý."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Referenční hodnota je kolem 1 mg."
+      },
+      {
+        "q": "Pomůže na šediny?",
+        "a": "Má tvrzení pro normální pigmentaci, není to ale „lék na šediny\"."
+      },
+      {
+        "q": "Je bezpečná?",
+        "a": "V nadbytku je toxická; nepřekračujte limity."
+      },
+      {
+        "q": "Kdy neužívat?",
+        "a": "Při Wilsonově chorobě."
+      },
+      {
+        "q": "Mám ji z jídla?",
+        "a": "Pestrá strava obvykle pokryje potřebu."
+      },
+      {
+        "q": "Forma?",
+        "a": "Bisglycinát mědi je dobře snášený."
+      },
+      {
+        "q": "Kombinace s vit. C?",
+        "a": "Velmi vysoký vitamin C může ovlivnit status mědi; běžné dávky vadit nemusí."
+      },
+      {
+        "q": "Pomáhá pleti?",
+        "a": "Podílí se na pojivové tkáni a pigmentaci v rámci normálních funkcí."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "copper-peptides"
+      ],
+      "problems": [
+        "pigmentace",
+        "povolena-plet"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-selen",
+    "slug": "selen",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Selen",
+    "title": "Selen: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Selen a pleť: schválená tvrzení EU (vlasy, nehty, oxidační stres), bezpečnost a úzké terapeutické okno.",
+    "h1": "Selen",
+    "excerpt": "Stopový prvek se schválenými tvrzeními pro vlasy, nehty a ochranu před oxidativním stresem; má úzké bezpečnostní okno.",
+    "evidenceLevel": "moderate",
+    "image": {
+      "src": "/assets/img/supplements/selen.svg",
+      "alt": "Selen — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Selen je esenciální stopový prvek a součást antioxidačních enzymů (glutathionperoxidáz).",
+    "source": "Para ořechy, ryby, vejce, maso, celozrnné potraviny.",
+    "effectiveness": {
+      "vlasy": 3,
+      "nehty": 3
+    },
+    "evidenceStars": 3,
+    "evidenceWord": "omezené",
+    "evidenceSummary": "Selen má schválená tvrzení EU pro vlasy, nehty a ochranu před oxidativním stresem; pozor na úzké okno mezi potřebou a nadbytkem.",
+    "benefits": [
+      "Přispívá k udržení normálního stavu vlasů a nehtů (schválená tvrzení)",
+      "Přispívá k ochraně buněk před oxidativním stresem"
+    ],
+    "limits": [
+      "Úzké bezpečnostní okno — snadno předávkovat",
+      "Doplňovat jen při riziku nedostatku"
+    ],
+    "sideEffects": [
+      "Nadbytek (selenóza): křehké nehty, vypadávání vlasů, česnekový dech"
+    ],
+    "contraindications": [
+      "Nepřekračovat horní limit (~300 µg/den)",
+      "Opatrně při kombinaci více doplňků se selenem"
+    ],
+    "dosing": {
+      "dose": "referenční ~55 µg/den (1–2 para ořechy)",
+      "when": "s jídlem",
+      "duration": "dlouhodobě jen v rozumné dávce"
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako omezené."
+      },
+      "safety": {
+        "score": 6,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 6,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "Selen přispívá k udržení normálního stavu vlasů.",
+        "Selen přispívá k udržení normálního stavu nehtů.",
+        "Selen přispívá k ochraně buněk před oxidativním stresem."
+      ],
+      "notAllowed": [
+        "léčí vypadávání vlasů",
+        "chrání před rakovinou"
+      ],
+      "safeWording": "Lze použít schválená tvrzení o vlasech, nehtech a oxidativním stresu. Nelze tvrdit „chrání před rakovinou\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "selenoproteiny, antioxidant",
+      "rychlost": "týdny",
+      "oblast": "vlasy, nehty",
+      "bezpecnost": "úzké okno",
+      "cena": "nízká"
+    },
+    "alternativeSupps": [
+      "zinek",
+      "med"
+    ],
+    "body": [
+      {
+        "h2": "Co je Selen"
+      },
+      {
+        "p": "Selen je esenciální stopový prvek a součást antioxidačních enzymů (glutathionperoxidáz)."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je součástí selenoproteinů zapojených do antioxidační obrany a funkce štítné žlázy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Mám brát selen?",
+        "a": "Jen při riziku nedostatku; má úzké bezpečnostní okno."
+      },
+      {
+        "q": "Stačí para ořechy?",
+        "a": "Často ano — 1–2 ořechy pokryjí denní potřebu."
+      },
+      {
+        "q": "Kolik je moc?",
+        "a": "Dlouhodobě nepřekračujte ~300 µg/den."
+      },
+      {
+        "q": "Pomůže na vlasy?",
+        "a": "Má tvrzení pro normální stav vlasů; paradoxně nadbytek vlasům škodí."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "V rozumné dávce ano; nadbytek je rizikový."
+      },
+      {
+        "q": "Forma?",
+        "a": "Selenomethionin je dobře vstřebatelný."
+      },
+      {
+        "q": "Souvisí se štítnou žlázou?",
+        "a": "Ano, selenoproteiny jsou pro štítnou žlázu důležité."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "S jídlem."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro osoby s nízkým příjmem; jinak opatrně."
+      },
+      {
+        "q": "Lze předávkovat?",
+        "a": "Ano, projeví se to mj. křehkými nehty a česnekovým dechem."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "problems": [],
+      "skinTypes": [
+        "normalni"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-kremik",
+    "slug": "kremik",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Křemík (organický)",
+    "title": "Křemík (organický): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Křemík a pojivová tkáň, vlasy a nehty: co o tom víme, dávkování a legislativa.",
+    "h1": "Křemík (organický)",
+    "excerpt": "Stopový prvek zkoumaný v souvislosti s pojivovou tkání; pro pleť ale nemá schválené zdravotní tvrzení.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/kremik.svg",
+      "alt": "Křemík (organický) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Křemík je stopový prvek; biologicky dostupné formy jsou např. cholin-stabilizovaná kyselina orthokřemičitá (ch-OSA).",
+    "source": "Celozrnné obiloviny (oves), minerální vody, zelenina; jako doplněk ch-OSA.",
+    "effectiveness": {
+      "vlasy": 2,
+      "nehty": 2,
+      "pevnost": 2
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Důkazy jsou omezené, založené na menších studiích; pro pleť neexistuje schválené zdravotní tvrzení.",
+    "benefits": [
+      "Zkoumán v souvislosti s pojivovou tkání, vlasy a nehty",
+      "Dobře snášený"
+    ],
+    "limits": [
+      "Pro pleť/vlasy nelze použít schválené zdravotní tvrzení",
+      "Důkazy jsou omezené"
+    ],
+    "sideEffects": [
+      "Obecně dobře snášen"
+    ],
+    "contraindications": [
+      "Při onemocnění ledvin opatrně"
+    ],
+    "dosing": {
+      "dose": "běžně 5–20 mg křemíku/den (ch-OSA)",
+      "when": "kdykoli",
+      "duration": "studie obvykle měsíce"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 3,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 5,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 5,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „je zkoumán v souvislosti s pojivovou tkání\". Nelze tvrdit „zpevňuje pleť\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "pojivová tkáň (výzkum)",
+      "rychlost": "měsíce",
+      "oblast": "vlasy, nehty (výzkum)",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "biotin",
+      "kolagen"
+    ],
+    "body": [
+      {
+        "h2": "Co je Křemík (organický)"
+      },
+      {
+        "p": "Křemík je stopový prvek; biologicky dostupné formy jsou např. cholin-stabilizovaná kyselina orthokřemičitá (ch-OSA)."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Křemík je zkoumán v souvislosti s tvorbou a kvalitou pojivové tkáně (kolagen), mechanismus u člověka ale není plně objasněn."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhá křemík pleti?",
+        "a": "Je zkoumán v souvislosti s pojivovou tkání, důkazy jsou ale omezené a bez schváleného tvrzení."
+      },
+      {
+        "q": "Která forma?",
+        "a": "Biologicky dostupná je cholin-stabilizovaná kyselina orthokřemičitá (ch-OSA)."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Běžně 5–20 mg křemíku."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Obecně ano; při ledvinovém onemocnění opatrně."
+      },
+      {
+        "q": "Mám ho z jídla?",
+        "a": "Oves a minerální vody jsou dobrým zdrojem."
+      },
+      {
+        "q": "Pomůže na vlasy a nehty?",
+        "a": "Bývá tak zmiňován, data jsou ale slabší."
+      },
+      {
+        "q": "Jak rychle?",
+        "a": "Případný efekt je pozvolný (měsíce)."
+      },
+      {
+        "q": "Veganský?",
+        "a": "Obvykle ano."
+      },
+      {
+        "q": "Kombinovat s kolagenem?",
+        "a": "Lze, jde o doplňkové strategie."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro zájemce o podporu pojivové tkáně s vědomím omezených důkazů."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Barel A. et al. — ch-OSA and skin",
+        "journal": "Arch Dermatol Res",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "problems": [
+        "povolena-plet"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-probiotika",
+    "slug": "probiotika",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Probiotika",
+    "title": "Probiotika: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Probiotika a osa střevo–pleť: nadějná, ale zatím omezeně prozkoumaná oblast. Co lze a nelze tvrdit.",
+    "h1": "Probiotika",
+    "excerpt": "Živé kultury zkoumané v rámci osy střevo–pleť; oblast je nadějná, ale s omezenými důkazy a přísnou legislativou.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/probiotika.svg",
+      "alt": "Probiotika — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Probiotika jsou živé mikroorganismy (např. laktobacily, bifidobakterie), které mohou příznivě ovlivnit střevní mikrobiom.",
+    "source": "Fermentované potraviny (jogurt, kefír, kysané zelí), doplňky.",
+    "effectiveness": {
+      "hydratace": 2,
+      "hojeni": 1
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Vztah probiotik a pleti je nadějná, ale zatím omezeně prozkoumaná oblast; navíc samotný výraz „probiotikum\" podléhá v EU přísným pravidlům.",
+    "benefits": [
+      "Zkoumána v rámci osy střevo–pleť",
+      "Mohou podpořit rozmanitost střevního mikrobiomu"
+    ],
+    "limits": [
+      "V EU je „probiotikum\" jako tvrzení omezené",
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Účinek je kmenově specifický"
+    ],
+    "sideEffects": [
+      "Přechodné nadýmání na začátku",
+      "Opatrnost u silně oslabené imunity"
+    ],
+    "contraindications": [
+      "Těžká imunosuprese / kritický stav — konzultujte lékaře"
+    ],
+    "dosing": {
+      "dose": "dle kmene a produktu (CFU se liší)",
+      "when": "dle výrobce, často s jídlem",
+      "duration": "týdny a déle"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 3,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 5,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 5,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 5,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "V EU se výraz „probiotikum\" jako zdravotní tvrzení obvykle nepoužívá. Pro pleť volte „je zkoumáno v souvislosti s osou střevo–pleť\".",
+      "limits": "Termín „probiotikum\" je v ČR/EU vnímán jako zdravotní tvrzení a jeho použití je omezené; pro pleť navíc neexistuje schválené tvrzení.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "mikrobiom, imunita (výzkum)",
+      "rychlost": "týdny",
+      "oblast": "osa střevo–pleť (výzkum)",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "omega-3",
+      "kolagen"
+    ],
+    "body": [
+      {
+        "h2": "Co je Probiotika"
+      },
+      {
+        "p": "Probiotika jsou živé mikroorganismy (např. laktobacily, bifidobakterie), které mohou příznivě ovlivnit střevní mikrobiom."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Ovlivňují střevní mikrobiom a imunitní a zánětlivé dráhy; tzv. osa střevo–pleť je předmětem výzkumu."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhají probiotika pleti?",
+        "a": "Je to nadějná, ale zatím omezeně prozkoumaná oblast (osa střevo–pleť) bez schváleného tvrzení."
+      },
+      {
+        "q": "Který kmen?",
+        "a": "Účinek je kmenově specifický; výběr záleží na účelu a datech daného kmene."
+      },
+      {
+        "q": "Kolik CFU?",
+        "a": "Dávky se liší dle produktu a kmene."
+      },
+      {
+        "q": "Jíst, nebo doplňovat?",
+        "a": "Fermentované potraviny jsou dobrý základ; doplněk je nadstavba."
+      },
+      {
+        "q": "Je to bezpečné?",
+        "a": "Pro většinu ano; opatrnost u silně oslabené imunity."
+      },
+      {
+        "q": "Kdy užívat?",
+        "a": "Dle výrobce, často s jídlem."
+      },
+      {
+        "q": "Smí se říkat „probiotikum\"?",
+        "a": "V EU je tento výraz jako tvrzení omezený; proto opatrné formulace."
+      },
+      {
+        "q": "Pomohou na akné?",
+        "a": "Akné je onemocnění; doplněk nelze prezentovat jako léčbu."
+      },
+      {
+        "q": "Jak dlouho?",
+        "a": "Efekt je individuální, hodnotí se v týdnech."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro zájemce o podporu mikrobiomu s vědomím omezených důkazů pro pleť."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Szántó M. et al. — Gut–skin axis",
+        "journal": "Exp Dermatol",
+        "year": 2019,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "problems": [
+        "rosacea",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "citliva"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-resveratrol",
+    "slug": "resveratrol",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Resveratrol",
+    "title": "Resveratrol: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Resveratrol jako doplněk: antioxidant z hroznů, longevity hype vs. realita důkazů u člověka.",
+    "h1": "Resveratrol",
+    "excerpt": "Rostlinný antioxidant populární v „longevity\" kruzích; u člověka jsou důkazy pro pleť zatím experimentální.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/resveratrol.svg",
+      "alt": "Resveratrol — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Resveratrol je polyfenol z hroznů, červeného vína a bobulí, zkoumaný pro antioxidační a buněčné účinky.",
+    "source": "Slupky hroznů, červené víno, borůvky, arašídy.",
+    "effectiveness": {
+      "jemne-vrasky": 1,
+      "elasticita": 1
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Laboratorní data jsou zajímavá, ale klinické důkazy u člověka pro pleť/anti-aging jsou zatím slabé a EU žádné tvrzení neschválila.",
+    "benefits": [
+      "Antioxidační vlastnosti (in vitro)",
+      "Předmět výzkumu v oblasti zdravého stárnutí"
+    ],
+    "limits": [
+      "Nízká vstřebatelnost po požití",
+      "Klinické důkazy u člověka jsou slabé",
+      "Žádné schválené zdravotní tvrzení"
+    ],
+    "sideEffects": [
+      "Vyšší dávky mohou způsobit zažívací potíže",
+      "Může mírně ovlivnit srážlivost"
+    ],
+    "contraindications": [
+      "Léky na ředění krve",
+      "Hormonálně citlivé stavy — konzultujte (fytoestrogenní aktivita in vitro)"
+    ],
+    "dosing": {
+      "dose": "studie pracují s velmi rozdílnými dávkami",
+      "when": "s jídlem",
+      "duration": "dlouhodobé bezpečnostní data jsou omezená"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 7,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 1,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 5,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 4,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „je zkoumán v oblasti zdravého stárnutí\". Nelze tvrdit „zastavuje stárnutí\" ani „omlazuje pleť\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "sirtuiny, antioxidant (in vitro)",
+      "rychlost": "nejisté",
+      "oblast": "longevity (výzkum)",
+      "bezpecnost": "střední",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "astaxanthin",
+      "nmn"
+    ],
+    "body": [
+      {
+        "h2": "Co je Resveratrol"
+      },
+      {
+        "p": "Resveratrol je polyfenol z hroznů, červeného vína a bobulí, zkoumaný pro antioxidační a buněčné účinky."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "In vitro aktivuje ochranné dráhy (sirtuiny) a působí antioxidačně; přenos na anti-aging u člověka je nejistý kvůli nízké vstřebatelnosti."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Funguje resveratrol na stárnutí?",
+        "a": "Laboratorně zajímavý, u člověka jsou ale důkazy slabé a vstřebatelnost nízká."
+      },
+      {
+        "q": "Stačí červené víno?",
+        "a": "Obsah je nízký; „kvůli resveratrolu\" pít víno nedává smysl."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Dávky ve studiích se velmi liší; standard neexistuje."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Krátkodobě obvykle ano; dlouhodobá data jsou omezená."
+      },
+      {
+        "q": "Mazat, nebo polykat?",
+        "a": "Pro pleť má lokální resveratrol přímější opodstatnění."
+      },
+      {
+        "q": "Kombinace s NMN?",
+        "a": "Objevuje se v „longevity\" stacích, klinické důkazy ale chybí."
+      },
+      {
+        "q": "Ovlivní hormony?",
+        "a": "In vitro má slabou fytoestrogenní aktivitu; u citlivých stavů opatrně."
+      },
+      {
+        "q": "Veganský?",
+        "a": "Obvykle ano (rostlinný původ)."
+      },
+      {
+        "q": "Jak rychle?",
+        "a": "Případný efekt je nejistý."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro nadšence do výzkumu longevity s vědomím slabých důkazů."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Berman AY et al. — Resveratrol clinical review",
+        "journal": "NPJ Precis Oncol",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "resveratrol"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-nmn",
+    "slug": "nmn",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "NMN (nikotinamid mononukleotid)",
+    "title": "NMN (nikotinamid mononukleotid): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "NMN a longevity: nadějný výzkum na zvířatech, slabé důkazy u člověka a nejasný regulační status.",
+    "h1": "NMN (nikotinamid mononukleotid)",
+    "excerpt": "Populární „longevity\" doplněk a prekurzor NAD+. U člověka jsou důkazy pro anti-aging zatím nedostatečné a regulační status nejasný.",
+    "evidenceLevel": "preliminary",
+    "image": {
+      "src": "/assets/img/supplements/nmn.svg",
+      "alt": "NMN (nikotinamid mononukleotid) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "NMN je prekurzor koenzymu NAD+, který je klíčový pro energetický metabolismus buněk a jeho hladina s věkem klesá.",
+    "source": "Stopově v potravinách (avokádo, brokolice); jako doplněk synteticky.",
+    "effectiveness": {},
+    "evidenceStars": 1,
+    "evidenceWord": "nedostatek důkazů",
+    "evidenceSummary": "Výzkum NAD+ je zajímavý, u člověka jsou ale důkazy pro anti-aging zatím nedostatečné. Spadá mezi experimentální „longevity\" doplňky — proto ho nezařazujeme mezi doporučené.",
+    "benefits": [
+      "Prekurzor NAD+, který je předmětem intenzivního výzkumu",
+      "Na zvířatech povzbudivé výsledky"
+    ],
+    "limits": [
+      "Klinické důkazy u člověka pro anti-aging jsou zatím nedostatečné",
+      "Pro pleť žádné schválené zdravotní tvrzení",
+      "Regulační status doplňku není všude jasný"
+    ],
+    "sideEffects": [
+      "Krátkodobě obvykle dobře snášen",
+      "Dlouhodobá bezpečnostní data chybí"
+    ],
+    "contraindications": [
+      "Pro nedostatek dat opatrnost v těhotenství, při kojení a při onkologickém onemocnění — konzultujte lékaře"
+    ],
+    "dosing": {
+      "dose": "studie pracují s rozdílnými dávkami; standard chybí",
+      "when": "dle studie",
+      "duration": "dlouhodobá data chybí"
+    },
+    "scores": {
+      "evidence": {
+        "score": 2,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako nedostatek důkazů."
+      },
+      "safety": {
+        "score": 6,
+        "note": "Krátkodobě obvykle snášen, ale dlouhodobá bezpečnostní data u člověka chybí."
+      },
+      "skinBenefit": {
+        "score": 1,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 3,
+        "note": "Vzhledem ke slabým důkazům u člověka jde o experimentální volbu, ne o doporučený základ."
+      },
+      "value": {
+        "score": 3,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 3,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „prekurzor NAD+, který je předmětem výzkumu\". Nelze tvrdit „omlazuje\" ani „zastavuje stárnutí\".",
+      "limits": "Pro NMN neexistuje schválené zdravotní tvrzení; v některých jurisdikcích je navíc sporný jeho status jako doplňku. Prezentujte výhradně jako experimentální oblast výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "prekurzor NAD+ (výzkum)",
+      "rychlost": "nejisté",
+      "oblast": "buněčné stárnutí (zvířata)",
+      "bezpecnost": "nejistá (málo dat)",
+      "cena": "vysoká"
+    },
+    "alternativeSupps": [
+      "spermidin",
+      "resveratrol"
+    ],
+    "body": [
+      {
+        "h2": "Co je NMN (nikotinamid mononukleotid)"
+      },
+      {
+        "p": "NMN je prekurzor koenzymu NAD+, který je klíčový pro energetický metabolismus buněk a jeho hladina s věkem klesá."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Zvyšuje dostupnost NAD+ v buňkách; na zvířecích modelech se zkoumá vliv na buněčné stárnutí, přenos na člověka je ale nejistý."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Funguje NMN proti stárnutí?",
+        "a": "Na zvířatech je výzkum povzbudivý, u člověka jsou ale důkazy pro anti-aging zatím nedostatečné."
+      },
+      {
+        "q": "Proč ho nedoporučujete jako základ?",
+        "a": "Protože transparentně rozlišujeme silné důkazy (kolagen, omega-3) od experimentálních látek."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Krátkodobě bývá snášen, dlouhodobá data u člověka ale chybí."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Standardní dávka neexistuje; studie se liší."
+      },
+      {
+        "q": "NMN, nebo NR?",
+        "a": "Oba jsou prekurzory NAD+; pro oba platí slabé klinické důkazy u člověka."
+      },
+      {
+        "q": "Pomůže pleti?",
+        "a": "Pro pleť neexistuje schválené tvrzení ani dostatečné důkazy."
+      },
+      {
+        "q": "Je legální?",
+        "a": "Status doplňku je v některých zemích sporný — sledujte aktuální regulaci."
+      },
+      {
+        "q": "Kombinace s resveratrolem?",
+        "a": "Populární „stack\", klinické důkazy ale chybí."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro informované nadšence do longevity, kteří chápou experimentální charakter."
+      },
+      {
+        "q": "Nahradí zdravý životní styl?",
+        "a": "Ne — spánek, pohyb a strava mají mnohem silnější oporu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nadeeshani H. et al. — NMN review",
+        "journal": "J Adv Res",
+        "year": 2022,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "supp-spermidin",
+    "slug": "spermidin",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Spermidin",
+    "title": "Spermidin: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Spermidin a autofagie: zajímavý výzkum, ale u anti-agingu člověka zatím experimentální. Co lze a nelze tvrdit.",
+    "h1": "Spermidin",
+    "excerpt": "Polyamin spojovaný s autofagií a zdravým stárnutím; pro anti-aging člověka jde zatím o experimentální oblast.",
+    "evidenceLevel": "preliminary",
+    "image": {
+      "src": "/assets/img/supplements/spermidin.svg",
+      "alt": "Spermidin — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Spermidin je přirozený polyamin přítomný v buňkách a v potravinách, zkoumaný v souvislosti s autofagií (úklidem buněk).",
+    "source": "Pšeničné klíčky, sójové produkty, zrající sýry, houby, luštěniny.",
+    "effectiveness": {},
+    "evidenceStars": 1,
+    "evidenceWord": "nedostatek důkazů",
+    "evidenceSummary": "Spermidin je zajímavý směr výzkumu zdravého stárnutí, u anti-agingu člověka jde ale zatím o experimentální oblast bez schválených tvrzení — proto ho nezařazujeme mezi doporučené.",
+    "benefits": [
+      "Spojován s autofagií v experimentálním výzkumu",
+      "Přirozeně přítomný v potravinách"
+    ],
+    "limits": [
+      "Klinické důkazy u člověka pro pleť/anti-aging chybí",
+      "Žádné schválené zdravotní tvrzení"
+    ],
+    "sideEffects": [
+      "Z potravin bezpečný; jako izolovaný doplněk méně dat"
+    ],
+    "contraindications": [
+      "Pro nedostatek dat opatrnost v těhotenství a při kojení"
+    ],
+    "dosing": {
+      "dose": "doplňky obvykle 1–6 mg/den; standard chybí",
+      "when": "dle výrobce",
+      "duration": "dlouhodobá data omezená"
+    },
+    "scores": {
+      "evidence": {
+        "score": 2,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako nedostatek důkazů."
+      },
+      "safety": {
+        "score": 7,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 1,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 3,
+        "note": "Experimentální volba; pestrá strava bohatá na spermidin je rozumnější výchozí bod."
+      },
+      "value": {
+        "score": 4,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 3,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „je zkoumán v souvislosti s autofagií a zdravým stárnutím\". Nelze tvrdit „omlazuje pleť\".",
+      "limits": "Pro spermidin neexistuje schválené zdravotní tvrzení; prezentujte jako experimentální oblast výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "autofagie (výzkum)",
+      "rychlost": "nejisté",
+      "oblast": "longevity (výzkum)",
+      "bezpecnost": "spíše vysoká",
+      "cena": "vysoká"
+    },
+    "alternativeSupps": [
+      "nmn",
+      "resveratrol"
+    ],
+    "body": [
+      {
+        "h2": "Co je Spermidin"
+      },
+      {
+        "p": "Spermidin je přirozený polyamin přítomný v buňkách a v potravinách, zkoumaný v souvislosti s autofagií (úklidem buněk)."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Je spojován s indukcí autofagie; vliv na stárnutí se zkoumá hlavně na modelech, klinická data u člověka pro pleť chybí."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhá spermidin na stárnutí?",
+        "a": "Je zkoumán v souvislosti s autofagií, klinická data u člověka pro pleť ale chybí."
+      },
+      {
+        "q": "Proč není mezi doporučenými?",
+        "a": "Transparentně oddělujeme experimentální látky od těch s dobrými důkazy."
+      },
+      {
+        "q": "Mám ho z jídla?",
+        "a": "Ano — pšeničné klíčky, sójové produkty a zrající sýry jsou bohaté zdroje."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Doplňky bývají 1–6 mg, standard ale chybí."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Z potravin ano; u izolovaného doplňku je méně dat."
+      },
+      {
+        "q": "Pomůže pleti?",
+        "a": "Pro pleť neexistuje schválené tvrzení ani dostatečné důkazy."
+      },
+      {
+        "q": "Kombinace s NMN?",
+        "a": "Objevuje se v longevity stacích bez klinického potvrzení pro pleť."
+      },
+      {
+        "q": "Veganský?",
+        "a": "Rostlinné zdroje ano."
+      },
+      {
+        "q": "Jak dlouho?",
+        "a": "Efekt je nejistý."
+      },
+      {
+        "q": "Co dává větší smysl?",
+        "a": "Pestrá strava, spánek a pohyb mají mnohem silnější oporu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Madeo F. et al. — Spermidine and autophagy",
+        "journal": "Science",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ageGroups": [
+        "50-plus",
+        "60-plus"
+      ]
+    }
+  },
+  {
+    "id": "supp-ceramidy",
+    "slug": "ceramidy",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Ceramidy (perorální)",
+    "title": "Ceramidy (perorální): důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Perorální ceramidy a hydratace pleti: rostlinné fytoceramidy, omezené důkazy a legislativa.",
+    "h1": "Ceramidy (perorální)",
+    "excerpt": "Rostlinné fytoceramidy zkoumané v souvislosti s hydratací pleti; důkazy jsou omezené a bez schváleného tvrzení.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/ceramidy.svg",
+      "alt": "Ceramidy (perorální) — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Ceramidy jsou lipidy tvořící kožní bariéru; jako doplněk se užívají rostlinné fytoceramidy (z pšenice, rýže, batátů).",
+    "source": "Pšenice, rýže, batáty; přirozeně i v kůži.",
+    "effectiveness": {
+      "hydratace": 3,
+      "jemne-vrasky": 1
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Menší studie spojují perorální fytoceramidy s hydratací pokožky; důkazy jsou omezené a oblast nemá schválené tvrzení.",
+    "benefits": [
+      "Zkoumány v souvislosti s hydratací pokožky",
+      "Rostlinný původ (často veganské)"
+    ],
+    "limits": [
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Lokální ceramidy mají pro bariéru přímější opodstatnění",
+      "Pšeničné fytoceramidy nejsou bezlepkové"
+    ],
+    "sideEffects": [
+      "Obecně dobře snášeny"
+    ],
+    "contraindications": [
+      "Celiakie/citlivost na lepek u pšeničných fytoceramidů — volte rýžové"
+    ],
+    "dosing": {
+      "dose": "běžně 30–70 mg fytoceramidů/den",
+      "when": "s jídlem",
+      "duration": "studie obvykle 8–12 týdnů"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 5,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 4,
+        "note": "Smysl doplňování závisí na stravě a individuálních potřebách."
+      },
+      "value": {
+        "score": 5,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 5,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [],
+      "notAllowed": [
+        "léčí / uzdravuje / prevence nemocí",
+        "odstraňuje vrásky",
+        "obnovuje kolagen v kůži",
+        "omlazuje pleť",
+        "zastavuje stárnutí"
+      ],
+      "safeWording": "Lze říci „jsou zkoumány v souvislosti s hydratací pokožky\". Nelze tvrdit „obnovují kožní bariéru\".",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "lipidové stavební látky (výzkum)",
+      "rychlost": "8–12 týdnů",
+      "oblast": "hydratace (výzkum)",
+      "bezpecnost": "vysoká",
+      "cena": "střední"
+    },
+    "alternativeSupps": [
+      "kyselina-hyaluronova",
+      "kolagen"
+    ],
+    "body": [
+      {
+        "h2": "Co je Ceramidy (perorální)"
+      },
+      {
+        "p": "Ceramidy jsou lipidy tvořící kožní bariéru; jako doplněk se užívají rostlinné fytoceramidy (z pšenice, rýže, batátů)."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Po požití slouží jako zdroj lipidových stavebních látek; vliv perorálních fytoceramidů na hydrataci pokožky je předmětem výzkumu."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Fungují ceramidy v kapslích?",
+        "a": "Menší studie naznačují vztah k hydrataci, důkazy jsou ale omezené a bez schváleného tvrzení."
+      },
+      {
+        "q": "Polykat, nebo mazat?",
+        "a": "Pro bariéru mají lokální ceramidy přímější opodstatnění."
+      },
+      {
+        "q": "Jsou bezlepkové?",
+        "a": "Pšeničné fytoceramidy ne; volte rýžové, pokud řešíte lepek."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Studie pracují s 30–70 mg."
+      },
+      {
+        "q": "Jak rychle?",
+        "a": "Případný efekt je postupný (8–12 týdnů)."
+      },
+      {
+        "q": "Veganské?",
+        "a": "Rostlinné fytoceramidy obvykle ano."
+      },
+      {
+        "q": "Kombinovat s hyaluronem?",
+        "a": "Lze; jde o doplňkové strategie hydratace."
+      },
+      {
+        "q": "Pro koho?",
+        "a": "Pro suchou pleť jako doplněk, s vědomím omezených důkazů."
+      },
+      {
+        "q": "Nahradí krém?",
+        "a": "Ne, lokální péči nenahradí."
+      },
+      {
+        "q": "Jsou bezpečné?",
+        "a": "Obecně ano."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bizot V. et al. — Oral phytoceramides and skin hydration",
+        "journal": "Cosmetics",
+        "year": 2017,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "ceramidy"
+      ],
+      "problems": [
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "terms": [
+        "kozni-bariera"
+      ]
+    }
+  },
+  {
+    "id": "supp-vitamin-d",
+    "slug": "vitamin-d",
+    "type": "supplement",
+    "updated": "2026-06-01",
+    "name": "Vitamin D",
+    "title": "Vitamin D: důkazy, dávkování a legislativa | antiagelab.cz",
+    "metaDescription": "Vitamin D a pleť: schválená tvrzení (imunita, kosti), výzkum u kůže a bezpečnost dávkování.",
+    "h1": "Vitamin D",
+    "excerpt": "Klíčový vitamin pro celkové zdraví; pro pleť přímé schválené tvrzení nemá, ale jeho dostatek je důležitý.",
+    "evidenceLevel": "limited",
+    "image": {
+      "src": "/assets/img/supplements/vitamin-d.svg",
+      "alt": "Vitamin D — ilustrace",
+      "type": "illustration"
+    },
+    "whatIs": "Vitamin D je vitamin rozpustný v tucích, který si tělo tvoří v kůži vlivem slunce a získává z části ze stravy.",
+    "source": "Sluneční záření (UVB), tučné ryby, vejce, obohacené potraviny, doplňky.",
+    "effectiveness": {
+      "hojeni": 1
+    },
+    "evidenceStars": 2,
+    "evidenceWord": "experimentální",
+    "evidenceSummary": "Vitamin D má schválená tvrzení EU pro imunitu, kosti a vstřebávání vápníku. Pro pleť přímé schválené tvrzení neexistuje, jeho dostatek je ale součástí celkového zdraví.",
+    "benefits": [
+      "Přispívá k normální funkci imunitního systému (schválené tvrzení)",
+      "Přispívá k udržení normálního stavu kostí",
+      "Mnoho lidí má v zimě nedostatek"
+    ],
+    "limits": [
+      "Pro pleť nelze použít schválené zdravotní tvrzení",
+      "Více „neznamená lépe\" — řiďte se hladinou v krvi"
+    ],
+    "sideEffects": [
+      "Předávkování (vzácné) → vysoký vápník"
+    ],
+    "contraindications": [
+      "Hyperkalcémie, sarkoidóza — pouze pod dohledem lékaře"
+    ],
+    "dosing": {
+      "dose": "běžně 800–2000 IU/den; vyšší dávky dle hladiny a lékaře",
+      "when": "s jídlem obsahujícím tuk",
+      "duration": "zejména podzim–jaro"
+    },
+    "scores": {
+      "evidence": {
+        "score": 4,
+        "note": "Klinické důkazy pro oblast pleti hodnotíme jako experimentální."
+      },
+      "safety": {
+        "score": 8,
+        "note": "Při doporučeném dávkování obecně dobře snášeno."
+      },
+      "skinBenefit": {
+        "score": 1,
+        "note": "Míra opory pro přínos v oblasti pleti dle dostupného výzkumu."
+      },
+      "supplementing": {
+        "score": 8,
+        "note": "V našich podmínkách má suplementace v zimních měsících obvykle smysl."
+      },
+      "value": {
+        "score": 9,
+        "note": "Orientační poměr cena/přínos."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Souhrnné redakční hodnocení dle jednotné metodiky."
+      }
+    },
+    "legal": {
+      "approved": [
+        "Vitamin D přispívá k normální funkci imunitního systému.",
+        "Vitamin D přispívá k udržení normálního stavu kostí.",
+        "Vitamin D přispívá k normálnímu vstřebávání vápníku a fosforu."
+      ],
+      "notAllowed": [
+        "omlazuje pleť",
+        "léčí kožní onemocnění"
+      ],
+      "safeWording": "Lze použít schválená tvrzení pro imunitu a kosti. Pro pleť žádné konkrétní tvrzení neuvádějte.",
+      "limits": "U tvrzení o vlivu na pleť rozlišujeme schválená zdravotní tvrzení EU od oblastí, které jsou zatím pouze předmětem výzkumu.",
+      "disclaimer": "Doplněk stravy nenahrazuje pestrou a vyváženou stravu ani zdravý životní styl a lékařskou péči."
+    },
+    "compareAttrs": {
+      "mechanismus": "hormon, imunita, kosti",
+      "rychlost": "týdny",
+      "oblast": "celkové zdraví",
+      "bezpecnost": "vysoká (do limitu)",
+      "cena": "nízká"
+    },
+    "alternativeSupps": [
+      "omega-3",
+      "zinek"
+    ],
+    "body": [
+      {
+        "h2": "Co je Vitamin D"
+      },
+      {
+        "p": "Vitamin D je vitamin rozpustný v tucích, který si tělo tvoří v kůži vlivem slunce a získává z části ze stravy."
+      },
+      {
+        "h2": "Jak funguje"
+      },
+      {
+        "p": "Funguje jako hormon ovlivňující imunitu, vstřebávání vápníku a buněčné procesy; v kůži vzniká i jeho prekurzor."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomáhá vitamin D pleti?",
+        "a": "Přímé schválené tvrzení pro pleť nemá; jeho dostatek je ale součástí celkového zdraví."
+      },
+      {
+        "q": "Kolik denně?",
+        "a": "Běžně 800–2000 IU; vyšší dávky dle hladiny v krvi a lékaře."
+      },
+      {
+        "q": "Kdy ho brát?",
+        "a": "S jídlem obsahujícím tuk."
+      },
+      {
+        "q": "Mám nedostatek?",
+        "a": "V zimě je nedostatek častý; jistotu dá krevní test."
+      },
+      {
+        "q": "Je bezpečný?",
+        "a": "Ano do rozumných dávek; předávkování je vzácné, ale možné."
+      },
+      {
+        "q": "D2, nebo D3?",
+        "a": "D3 je obvykle účinnější při zvyšování hladiny."
+      },
+      {
+        "q": "Stačí slunce?",
+        "a": "V létě často ano; v zimě u nás obvykle ne."
+      },
+      {
+        "q": "S vápníkem?",
+        "a": "Podporuje jeho vstřebávání; kombinace bývá smysluplná."
+      },
+      {
+        "q": "Veganský?",
+        "a": "Existuje D3 z lišejníku."
+      },
+      {
+        "q": "Kdy opatrně?",
+        "a": "Při hyperkalcémii a sarkoidóze jen pod dohledem."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU registr zdravotních tvrzení",
+        "journal": "Evropská komise",
+        "year": 2012,
+        "type": "regulation"
+      }
+    ],
+    "relations": {
+      "problems": [],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ]
+    }
+  }
+]

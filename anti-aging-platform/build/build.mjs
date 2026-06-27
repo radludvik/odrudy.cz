@@ -35,6 +35,7 @@ const SITE = {
 const TYPES = {
   ingredient: { base: '/ingredience/',            one: 'Ingredience', many: 'Ingredience',       relKey: 'ingredients',  icon: 'flask' },
   technology: { base: '/technologie/',            one: 'Technologie', many: 'Technologie',       relKey: 'technologies', icon: 'wave'  },
+  supplement: { base: '/doplnky-stravy/',         one: 'Doplněk stravy', many: 'Doplňky stravy', relKey: 'supplements',  icon: 'pill'  },
   product:    { base: '/produkty/',               one: 'Produkt',     many: 'Produkty',          relKey: 'products',     icon: 'bottle'},
   procedure:  { base: '/procedury/',              one: 'Procedura',   many: 'Procedury',         relKey: 'procedures',   icon: 'needle'},
   study:      { base: '/studie/',                 one: 'Studie',      many: 'Klinické studie',   relKey: 'studies',      icon: 'doc'   },
@@ -183,6 +184,7 @@ function relatedSection(e) {
 const NAV = [
   { label: 'Ingredience', href: '/ingredience/' },
   { label: 'Technologie', href: '/technologie/' },
+  { label: 'Doplňky stravy', href: '/doplnky-stravy/' },
   { label: 'Produkty', href: '/produkty/' },
   { label: 'Procedury', href: '/procedury/' },
   { label: 'Péče', children: [
@@ -260,7 +262,7 @@ ${body}
       <div class="brand-mark">${esc(SITE.name)}</div>
       <p class="muted">${esc(SITE.description)}</p>
     </div>
-    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li></ul></div>
+    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li></ul></div>
     <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
     <div><h4>Nástroje</h4><ul><li><a href="/nastroje/poradce/">Anti-aging poradce</a></li><li><a href="/nastroje/builder-rutiny/">Builder rutiny</a></li><li><a href="/nastroje/kompatibilita/">Kompatibilita látek</a></li><li><a href="/nastroje/vyhledavac-ingredienci/">Vyhledávač ingrediencí</a></li></ul></div>
   </div>
@@ -325,6 +327,25 @@ function detailExtras(e) {
     html += techDevices(e);
     html += techComparisons(e);
   }
+  if (e.type === 'supplement') {
+    html += suppAdvisor(e);
+    if (e.whatIs) html += `<section class="section-block"><h2>Co to je</h2><p>${esc(e.whatIs)}</p></section>`;
+    if (e.source) html += `<section class="section-block"><h2>Přirozené zdroje a forma</h2><p>${esc(e.source)}</p></section>`;
+    html += suppEffectivenessBlock(e);
+    html += evidenceBlock(e);
+    html += listBlock('Na co se podle výzkumu zkoumá', e.benefits);
+    html += listBlock('Hranice a co výzkum (zatím) nepotvrzuje', e.limits);
+    const dLbl = { dose: 'Obvyklé dávkování', when: 'Kdy užívat', duration: 'Doba do efektu', form: 'Forma' };
+    const dosingRows = [];
+    if (e.dosing) for (const [k, v] of Object.entries(e.dosing)) dosingRows.push([dLbl[k] || k, v]);
+    html += dosingRows.length ? `<section class="section-block"><h2>Dávkování a užívání</h2>${quickFacts(dosingRows)}</section>` : '';
+    html += twoCol(listBlock('Možné nežádoucí účinky', e.sideEffects), listBlock('Kdy být opatrný / kontraindikace', e.contraindications));
+    html += scorecardBlock(e, SUPP_SCORE_LABELS);
+    html += legalBlock(e);
+    html += techCombine(e);
+    html += suppComparisons(e);
+    html += suppProducts(e);
+  }
   if (e.type === 'product') {
     const rows = [];
     if (e.brand && e.brand !== '—') rows.push(['Značka', e.brand]);
@@ -334,7 +355,15 @@ function detailExtras(e) {
     if (e.country) rows.push(['Země původu', e.country]);
     if (e.volume) rows.push(['Objem', e.volume]);
     if (e.price) rows.push(['Doporučená cena', e.price]);
-    if (e.usage) rows.push(['Doporučené použití', e.usage]);
+    if (e.suppFacts) {
+      const sf = e.suppFacts;
+      if (sf.forma) rows.push(['Forma', sf.forma]);
+      if (sf.davka) rows.push(['Dávkování', sf.davka]);
+      if (sf.pocet) rows.push(['Vystačí na', sf.pocet]);
+      if (sf.cenaZaDen) rows.push(['Cena za denní dávku', sf.cenaZaDen]);
+      if (sf.puvod) rows.push(['Původ surovin', sf.puvod]);
+      if (sf.certifikace) rows.push(['Certifikace / poznámky', sf.certifikace]);
+    } else if (e.usage) rows.push(['Doporučené použití', e.usage]);
     html += quickFacts(rows);
     html += productDisclaimer();
     html += activesBlock(e);
@@ -432,6 +461,7 @@ const PRODUCT_CATEGORIES = {
   'microneedling-zarizeni': 'Microneedling přístroje', 'dermaroller': 'Dermarollery', 'gua-sha': 'Gua sha', 'face-roller': 'Obličejové válečky',
   'silikonove-naplasti': 'Silikonové náplasti', 'kryo-nastroje': 'Kryo nástroje', 'ultrazvuk-zarizeni': 'Ultrazvuková zařízení',
   'galvanicka-zarizeni': 'Galvanická zařízení', 'ipl-zarizeni': 'IPL zařízení', 'hifu-zarizeni': 'HIFU zařízení',
+  'doplnky-stravy': 'Doplňky stravy',
 };
 const SCORE_LABELS = { quality: 'Kvalita složení', potency: 'Síla aktivních látek', evidence: 'Vědecká podpora ingrediencí', innovation: 'Inovativnost formulace', value: 'Poměr cena/výkon', sensitive: 'Vhodnost pro citlivou pleť' };
 const ALT_KIND = { better: 'Lepší varianta', cheaper: 'Levnější varianta', stronger: 'Výkonnější varianta', gentler: 'Šetrnější varianta', similar: 'Podobná varianta' };
@@ -462,7 +492,8 @@ function howItWorksBlock(e) {
   return `<section class="section-block"><h2>Jak funguje</h2><ul class="rich-list">${items}</ul></section>`;
 }
 const TECH_SCORE_LABELS = { quality: 'Kvalita technologie', innovation: 'Inovativnost', evidence: 'Vědecké důkazy', value: 'Poměr cena/výkon', ease: 'Snadnost použití', safety: 'Bezpečnost' };
-const CONCERN_LABEL = { 'jemne-vrasky': 'Jemné vrásky', 'hluboke-vrasky': 'Hluboké vrásky', 'povolena-plet': 'Povolená pleť', 'kontury': 'Kontury obličeje', 'pigmentace': 'Pigmentace', 'akne': 'Akné', 'zarudnuti': 'Zarudnutí', 'jizvy': 'Jizvy', 'elasticita': 'Elasticita', 'hydratace': 'Hydratace' };
+const SUPP_SCORE_LABELS = { evidence: 'Síla vědeckých důkazů', safety: 'Bezpečnost a snášenlivost', skinBenefit: 'Opora pro přínos v oblasti pleti', supplementing: 'Smysl doplňování', value: 'Poměr cena/přínos', overall: 'Celkové hodnocení' };
+const CONCERN_LABEL = { 'jemne-vrasky': 'Jemné vrásky', 'hluboke-vrasky': 'Hluboké vrásky', 'povolena-plet': 'Povolená pleť', 'kontury': 'Kontury obličeje', 'pigmentace': 'Pigmentace', 'akne': 'Akné', 'zarudnuti': 'Zarudnutí', 'jizvy': 'Jizvy', 'elasticita': 'Elasticita', 'hydratace': 'Hydratace', 'pevnost': 'Pevnost pleti', 'vlasy': 'Vlasy', 'nehty': 'Nehty', 'hojeni': 'Hojení a regenerace', 'imunita': 'Imunita', 'antioxidace': 'Antioxidační ochrana' };
 function stars(n, max = 5) { n = Math.max(0, Math.min(max, n | 0)); return `<span class="stars" aria-label="${n} z ${max}">${'★'.repeat(n)}${'☆'.repeat(max - n)}</span>`; }
 
 function scorecardBlock(e, labels = SCORE_LABELS) {
@@ -593,6 +624,78 @@ function techFinalReco(e) {
   if (!blocks.trim()) return '';
   return `<section class="section-block final-reco"><div class="graph-head"><span class="eyebrow">Shrnutí</span><h2>Pokud jste dočetli až sem…</h2><p class="muted">Tady je vše, co k této technologii doporučujeme prozkoumat dál.</p></div>${blocks}</section>`;
 }
+/* ---- Doplňky stravy: encyklopedické bloky + právní compliance ---- */
+function suppAdvisor(e) {
+  const data = { name: e.name, effectiveness: e.effectiveness || {}, ages: [...(e._rel.ageGroup || [])], skins: [...(e._rel.skinType || [])] };
+  return `<section class="section-block supp-advisor" data-supp="${attr(JSON.stringify(data))}">
+    <h2>Je tento doplněk vhodný právě pro vás?</h2>
+    <p class="muted small">Orientační průvodce. Nejde o lékařskou radu — doplněk stravy nenahrazuje pestrou stravu, zdravý životní styl ani lékařskou péči.</p>
+    <div class="ta-controls"></div>
+    <div class="ta-result"></div>
+  </section>`;
+}
+function suppEffectivenessBlock(e) {
+  if (!e.effectiveness || !Object.keys(e.effectiveness).length) return '';
+  const entries = Object.entries(e.effectiveness).sort((a, b) => b[1] - a[1]);
+  const rows = entries.map(([k, v]) => `<tr><td>${esc(CONCERN_LABEL[k] || k)}</td><td class="stars-cell">${stars(v)}</td></tr>`).join('');
+  return `<section class="section-block"><h2>Na co se podle dostupného výzkumu zkoumá</h2><div class="table-wrap"><table class="eff-table"><tbody>${rows}</tbody></table></div><p class="muted small">★ = slabá/nejistá opora ve výzkumu, ★★★★★ = silná. Jde o míru vědecké opory pro danou oblast, nikoli o příslib výsledku ani léčebné tvrzení.</p></section>`;
+}
+function legalBlock(e) {
+  const l = e.legal;
+  if (!l) return '';
+  const approved = (l.approved && l.approved.length)
+    ? `<div class="legal-col legal--ok"><h3>Schválená zdravotní tvrzení (EU)</h3><ul class="rich-list">${l.approved.map((a) => `<li>${esc(a)}</li>`).join('')}</ul></div>`
+    : `<div class="legal-col legal--none"><h3>Schválená zdravotní tvrzení (EU)</h3><p>Pro tuto látku <strong>neexistuje žádné zdravotní tvrzení schválené Evropskou komisí</strong> v souvislosti s pletí či anti-agingem. Konkrétní zdravotní přínos proto nelze uvádět jako fakt.</p></div>`;
+  const notAllowed = (l.notAllowed && l.notAllowed.length)
+    ? `<div class="legal-col legal--bad"><h3>Tvrzení, která nelze použít</h3><ul class="rich-list">${l.notAllowed.map((a) => `<li>${esc(a)}</li>`).join('')}</ul></div>` : '';
+  const wording = l.safeWording ? `<div class="legal-row"><h3>Bezpečná formulace</h3><p>${esc(l.safeWording)}</p></div>` : '';
+  const limits = l.limits ? `<div class="legal-row"><h3>Limity důkazů</h3><p>${esc(l.limits)}</p></div>` : '';
+  const disc = l.disclaimer ? `<p class="legal-disclaimer small">${esc(l.disclaimer)}</p>` : '';
+  return `<section class="section-block legal-block">
+    <div class="graph-head"><span class="eyebrow">Transparentnost</span><h2>Legislativní kontrola tvrzení</h2>
+    <p class="muted">Řídíme se nařízeními EU č. 1924/2006 a 432/2012. Používáme pouze zdravotní tvrzení schválená Evropskou komisí a nikdy léčebná tvrzení.</p></div>
+    <div class="legal-grid">${approved}${notAllowed}</div>${wording}${limits}${disc}</section>`;
+}
+function suppComparisons(e) {
+  const alts = (e.alternativeSupps || []).map((s) => bySlug.get(`supplement:${s}`)).filter(Boolean);
+  if (!alts.length || !e.compareAttrs) return '';
+  const tables = alts.map((alt) => {
+    const ca = e.compareAttrs || {}, cb = alt.compareAttrs || {};
+    const dims = [
+      ['Mechanismus', ca.mechanismus, cb.mechanismus],
+      ['Hlavní oblast', ca.oblast, cb.oblast],
+      ['Rychlost projevu', ca.rychlost, cb.rychlost],
+      ['Bezpečnost', ca.bezpecnost, cb.bezpecnost],
+      ['Cena', ca.cena, cb.cena],
+      ['Síla důkazů', e.evidenceStars ? stars(e.evidenceStars) : '—', alt.evidenceStars ? stars(alt.evidenceStars) : '—'],
+    ];
+    const rows = dims.map(([n, a, b]) => `<tr><th scope="row">${esc(n)}</th><td>${a || '—'}</td><td>${b || '—'}</td></tr>`).join('');
+    return `<h3>${esc(e.name)} vs ${esc(alt.name)}</h3><div class="table-wrap"><table class="compare"><thead><tr><th>Parametr</th><th><a href="${urlOf(e)}">${esc(e.name)}</a></th><th><a href="${urlOf(alt)}">${esc(alt.name)}</a></th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }).join('');
+  return `<section class="section-block"><h2>Srovnání s podobnými doplňky</h2>${tables}</section>`;
+}
+function suppProducts(e) {
+  const relSet = e._rel.product;
+  let prods = [];
+  if (relSet) for (const s of relSet) { const p = bySlug.get(`product:${s}`); if (p) prods.push(p); }
+  if (!prods.length) return `<section class="section-block"><h2>Doporučené přípravky</h2><p class="muted">Konkrétní přípravky s touto látkou zatím doplňujeme do databáze.</p></section>`;
+  const sc = (p) => (p.scores && p.scores.overall ? p.scores.overall.score : 0);
+  const ql = (p) => (p.scores && p.scores.quality ? p.scores.quality.score : 0);
+  const priceNum = (p) => { const m = String(p.price || '').replace(/\s/g, '').match(/\d+/); return m ? +m[0] : Infinity; };
+  // Každé kritérium dostane odlišný produkt (nejlepší dosud nevybraný)
+  const seen = new Set();
+  const take = (sortFn) => { const p = [...prods].filter((x) => !seen.has(x.slug)).sort(sortFn)[0]; if (p) seen.add(p.slug); return p; };
+  const picks = [
+    ['Redakční tip', take((a, b) => sc(b) - sc(a))],
+    ['Nejlepší poměr cena/přínos', take((a, b) => (sc(b) / Math.max(1, priceNum(b))) - (sc(a) / Math.max(1, priceNum(a))))],
+    ['Nejčistší složení', take((a, b) => ql(b) - ql(a))],
+    ['Nejdostupnější', take((a, b) => priceNum(a) - priceNum(b))],
+  ];
+  const cards = picks.filter(([, p]) => p).map(([label, p]) => `<div class="pick"><span class="pick-label">${esc(label)}</span><a class="pick-card" href="${urlOf(p)}"><strong>${esc(p.name)}</strong><span class="muted small">${esc(p.price || '')}${p.scores && p.scores.overall ? ' · ' + p.scores.overall.score + '/10' : ''}</span></a></div>`).join('');
+  const all = prods.map((p) => `<a class="chip" href="${urlOf(p)}">${esc(p.name)}</a>`).join('');
+  return `<section class="section-block"><h2>Doporučené přípravky</h2><p class="muted small">Přípravky jsou poslední vrstvou — nejdřív pochopte látku a důkazy, pak vybírejte konkrétní produkt. Tipy podle účelu:</p><div class="picks">${cards}</div><h3>Všechny přípravky v databázi</h3><div class="chips">${all}</div></section>`;
+}
+
 function comparisonTable(e) {
   const items = e.items.map((slug) => bySlugLoose.get(slug)).filter(Boolean);
   const names = items.map((it) => it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : '');
@@ -621,6 +724,7 @@ function renderDetail(e) {
       ${renderFaq(e.faq)}
       ${renderSources(e.sources)}
       ${e.type === 'technology' ? techFinalReco(e) : ''}
+      ${e.type === 'supplement' ? suppFinalReco(e) : ''}
     </article>
     <aside class="detail-aside">
       ${relatedSection(e)}
@@ -646,8 +750,22 @@ function renderDetail(e) {
     canonical: urlOf(e),
     breadcrumbTrail: trail,
     jsonld: [pageLd, faqLd].filter(Boolean),
-    body: hero + article + (e.type === 'technology' ? '<script src="/assets/js/tech-advisor.js" defer></script>' : ''),
+    body: hero + article + (e.type === 'technology' ? '<script src="/assets/js/tech-advisor.js" defer></script>' : e.type === 'supplement' ? '<script src="/assets/js/supplement-advisor.js" defer></script>' : ''),
   });
+}
+function suppFinalReco(e) {
+  const pick = (t, n) => [...(e._rel[t] || [])].map((s) => bySlug.get(`${t}:${s}`)).filter(Boolean).slice(0, n);
+  const row = (label, items) => items.length ? `<div class="rel-group"><h3 class="rel-h">${label}</h3><div class="chips">${items.map((it) => `<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`).join('')}</div></div>` : '';
+  const prods = pick('product', 3);
+  const blocks = [
+    row('Doporučené přípravky', prods),
+    row('Související ingredience pro pleť', pick('ingredient', 5)),
+    row('Doporučené rutiny', pick('routine', 3)),
+    row('Vhodné pro problém', pick('problem', 4)),
+    row('Alternativní doplňky', (e.alternativeSupps || []).map((s) => bySlug.get(`supplement:${s}`)).filter(Boolean)),
+  ].join('');
+  if (!blocks.trim()) return '';
+  return `<section class="section-block final-reco"><div class="graph-head"><span class="eyebrow">Shrnutí</span><h2>Co s tímto doplňkem dál</h2><p class="muted">Pleť se buduje zvenčí i zevnitř — doplněk je jen jedním dílkem. Tady je, co k němu doporučujeme prozkoumat.</p></div>${blocks}</section>`;
 }
 
 /* ----------------------------------------------------------------------------
@@ -661,7 +779,9 @@ function renderListing(type) {
     ? productListingInner(items)
     : type === 'technology'
       ? techListingInner(items)
-      : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
+      : type === 'supplement'
+        ? supplementListingInner(items)
+        : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
@@ -675,8 +795,37 @@ function renderListing(type) {
     description: listingIntro(type),
     canonical: tc.base,
     breadcrumbTrail: trail,
-    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : ''),
+    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : ''),
   });
+}
+
+/* ---- Doplňky stravy: landing s evidencí a průvodcem „Co chcete podpořit?" ---- */
+function suppCard(e) {
+  const eff = JSON.stringify(e.effectiveness || {});
+  const ev = e.evidenceStars ? stars(e.evidenceStars) : '';
+  const tier = e.evidenceStars >= 4 ? 'Silná opora' : e.evidenceStars === 3 ? 'Slušná opora' : e.evidenceStars === 2 ? 'Omezená opora' : 'Experimentální';
+  return `<a class="card tech-card supp-card" href="${urlOf(e)}" data-effectiveness="${attr(eff)}" data-ev="${e.evidenceStars || 0}">
+    <span class="card-type">Doplněk stravy · ${esc(tier)}</span>
+    <h3 class="card-title">${esc(e.name)}</h3>
+    <p class="card-excerpt">${esc(e.excerpt || '')}</p>
+    <span class="card-foot"><span class="muted small">${ev}</span><span class="card-arrow">→</span></span>
+  </a>`;
+}
+function supplementListingInner(items) {
+  const concernSet = new Map();
+  items.forEach((e) => Object.keys(e.effectiveness || {}).forEach((k) => concernSet.set(k, CONCERN_LABEL[k] || k)));
+  const btns = [...concernSet.entries()].sort((a, b) => a[1].localeCompare(b[1], 'cs')).map(([v, l]) => `<button type="button" class="opt" data-concern="${v}">${esc(l)}</button>`).join('');
+  const intro = `<div class="callout callout--accent supp-intro"><p><strong>Bez hype.</strong> Doplňky řadíme podle <em>síly skutečných důkazů</em>, ne podle popularity. U dobře prozkoumaných látek (kolagen, vitamin C, omega-3, zinek) je opora výrazně silnější než u trendy „longevity" molekul (NMN, spermidin, resveratrol), kde jde zatím převážně o experimentální data — a podle toho je hodnotíme.</p></div>`;
+  const guide = `<div class="tech-finder" id="suppFinder">
+    <span class="eyebrow">Interaktivní průvodce</span>
+    <h2>Co chcete podpořit?</h2>
+    <div class="opts" id="sfConcerns">${btns}</div>
+    <div class="opts opts--pref" id="sfEv"><button type="button" class="opt is-active" data-ev="0">Vše</button><button type="button" class="opt" data-ev="4">Jen silně podložené</button><button type="button" class="opt" data-ev="3">Slušně podložené a lepší</button></div>
+    <p class="muted small" id="sfHint">Vyberte oblast a doporučíme doplňky s nejlepší vědeckou oporou.</p>
+  </div>`;
+  // řazení podle síly důkazů sestupně
+  const sorted = [...items].sort((a, b) => (b.evidenceStars || 0) - (a.evidenceStars || 0));
+  return intro + guide + `<div class="card-grid" id="suppGrid">${sorted.map(suppCard).join('')}</div>`;
 }
 
 /* ---- Technologie: landing s interaktivním průvodcem „Co chcete řešit?" ---- */
@@ -768,6 +917,7 @@ function listingIntro(type) {
   const m = {
     ingredient: 'Databáze účinných látek s mechanismem účinku, koncentracemi, kompatibilitou a úrovní vědeckých důkazů.',
     technology: 'Přehled neinvazivních technologií — princip, mechanismus, výhody, nevýhody a důkazní základna.',
+    supplement: 'Doplňky stravy pro pleť a stárnutí — seřazené podle síly skutečných důkazů, s transparentní legislativní kontrolou tvrzení. Bez marketingového hype.',
     product: 'Produkty propojené s ingrediencemi, technologiemi a studiemi. Transparentně a s ohledem na evidenci.',
     procedure: 'Estetické procedury — princip, výsledky, rizika a realistická očekávání.',
     study: 'Databáze klinických studií se shrnutím, sílou důkazů a praktickými závěry.',
