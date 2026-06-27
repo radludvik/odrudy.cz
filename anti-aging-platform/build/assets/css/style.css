@@ -243,6 +243,18 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .weekly-table td:first-child{font-weight:600;white-space:nowrap;width:70px}
 @media (max-width:760px){ .routine-cols{grid-template-columns:1fr} }
 
+/* ---------- Produktový filtr ---------- */
+.filterbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;align-items:end;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:18px}
+.filter-field{display:flex;flex-direction:column;gap:6px}
+.filter-field label{font-size:.74rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.filter-field select{padding:10px 12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--porcelain);font-family:inherit;font-size:.92rem;color:var(--ink);cursor:pointer}
+.filter-field select:focus{outline:none;border-color:var(--gold)}
+.filter-reset{align-self:end;height:42px;padding:0 18px;font-size:.85rem;white-space:nowrap}
+.filter-count{color:var(--ink-soft);font-size:.9rem;margin:0 0 18px}
+.filter-count strong{color:var(--ink)}
+.card-score{font-family:var(--serif);font-size:1rem;color:var(--gold-deep);font-weight:600}
+.product-card .card-foot{justify-content:space-between}
+
 /* ---------- Produkt: redakční analýza ---------- */
 .callout--disclaimer{background:#fbf7ef;border-left-color:var(--gold)}
 .scorecard{display:grid;gap:16px;margin-top:1rem}

@@ -111,6 +111,7 @@ const entitiesByType = (type) => entities.filter((e) => e.type === type);
  * ------------------------------------------------------------------------- */
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const attr = (s) => esc(s);
+const slugify = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/&/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 function evidenceBadge(level) {
   const ev = EVIDENCE[level];
@@ -547,22 +548,86 @@ function renderListing(type) {
   const tc = TYPES[type];
   const items = entitiesByType(type);
   const trail = [{ label: 'Domů', href: '/' }, { label: tc.many, href: tc.base }];
-  const cards = items.map(entityCard).join('');
+  const inner = type === 'product'
+    ? productListingInner(items)
+    : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
       <p class="lead">${esc(listingIntro(type))}</p>
     </div></section>
     <section class="section"><div class="container">
-      <div class="card-grid">${cards}</div>
+      ${inner}
     </div></section>`;
   return layout({
     title: `${tc.many} | ${SITE.name}`,
     description: listingIntro(type),
     canonical: tc.base,
     breadcrumbTrail: trail,
-    body,
+    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : ''),
   });
+}
+
+/* ---- Produktový výpis s filtrem (problém, značka, kategorie, typ pleti,
+   aktivní látka, cena, hodnocení redakce, síla důkazů) ---- */
+const EV_RANK = { strong: 3, moderate: 2, limited: 1, preliminary: 0 };
+function priceBucket(price) {
+  if (!price) return 'na';
+  const m = String(price).replace(/\s/g, '').match(/\d+/);
+  if (!m) return 'na';
+  const n = +m[0];
+  if (n < 400) return 'low';
+  if (n < 1000) return 'mid';
+  if (n < 2500) return 'high';
+  return 'premium';
+}
+function productListingInner(items) {
+  // sběr faset pro select boxy
+  const brands = new Map(), cats = new Map(), problems = new Map(), skins = new Map(), ings = new Map();
+  const annotated = items.map((e) => {
+    const probs = [...(e._rel.problem || [])];
+    const skn = [...(e._rel.skinType || [])];
+    const ai = (e.activeIngredients || []).filter((s) => bySlug.get(`ingredient:${s}`));
+    const brandSlug = e.brand && e.brand !== '—' ? slugify(e.brand) : '';
+    if (brandSlug) brands.set(brandSlug, e.brand);
+    if (e.category) cats.set(e.category, categoryLabel(e.category));
+    probs.forEach((p) => { const t = bySlug.get(`problem:${p}`); if (t) problems.set(p, t.name); });
+    skn.forEach((s) => { const t = bySlug.get(`skinType:${s}`); if (t) skins.set(s, t.name); });
+    ai.forEach((s) => { const t = bySlug.get(`ingredient:${s}`); if (t) ings.set(s, t.name); });
+    const score = e.scores && e.scores.overall ? e.scores.overall.score : '';
+    const ev = EV_RANK[e.evidenceLevel] ?? '';
+    const data = `data-brand="${attr(brandSlug)}" data-category="${attr(e.category || '')}" data-problems="${attr(probs.join(' '))}" data-skintypes="${attr(skn.join(' '))}" data-ingredients="${attr(ai.join(' '))}" data-price="${priceBucket(e.price)}" data-score="${score}" data-ev="${ev}"`;
+    return productCard(e, data);
+  }).join('');
+
+  const sortMap = (m) => [...m.entries()].sort((a, b) => a[1].localeCompare(b[1], 'cs'));
+  const opts = (m) => sortMap(m).map(([v, l]) => `<option value="${attr(v)}">${esc(l)}</option>`).join('');
+  const sel = (key, label, optionsHtml) => `<div class="filter-field"><label>${esc(label)}</label><select data-filter="${key}"><option value="">Vše</option>${optionsHtml}</select></div>`;
+
+  const filterbar = `<form class="filterbar" id="productFilter" aria-label="Filtr produktů">
+    ${sel('problem', 'Řešený problém', opts(problems))}
+    ${sel('brand', 'Značka', opts(brands))}
+    ${sel('category', 'Kategorie', opts(cats))}
+    ${sel('skintype', 'Typ pleti', opts(skins))}
+    ${sel('ingredient', 'Aktivní látka', opts(ings))}
+    ${sel('price', 'Cena', '<option value="low">do 400 Kč</option><option value="mid">400–1 000 Kč</option><option value="high">1 000–2 500 Kč</option><option value="premium">nad 2 500 Kč</option>')}
+    ${sel('score', 'Hodnocení redakce', '<option value="9">9+/10</option><option value="8">8+/10</option><option value="7">7+/10</option><option value="6">6+/10</option>')}
+    ${sel('ev', 'Síla vědeckých důkazů', '<option value="3">Silné</option><option value="2">Středně silné a lepší</option><option value="1">Omezené a lepší</option>')}
+    <button type="button" class="btn btn--ghost filter-reset" id="filterReset">Zrušit filtry</button>
+  </form>
+  <p class="filter-count"><strong id="fcount">${items.length}</strong> z ${items.length} produktů</p>`;
+
+  return `${filterbar}<div class="card-grid" id="productGrid">${annotated}</div><p class="empty" id="filterEmpty" hidden>Žádný produkt neodpovídá zvoleným filtrům. Zkuste uvolnit kritéria.</p>`;
+}
+function productCard(e, dataAttrs) {
+  const ev = e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : '';
+  const score = e.scores && e.scores.overall ? `<span class="card-score">${e.scores.overall.score}/10</span>` : '';
+  return `<a class="card product-card" href="${urlOf(e)}" ${dataAttrs}>
+    <span class="card-type">${esc(e.brand && e.brand !== '—' ? e.brand : TYPES.product.one)}</span>
+    <h3 class="card-title">${esc(e.name)}</h3>
+    <p class="card-excerpt">${esc(e.excerpt || '')}</p>
+    <span class="card-foot">${ev}${score}</span>
+  </a>`;
 }
 function listingIntro(type) {
   const m = {
