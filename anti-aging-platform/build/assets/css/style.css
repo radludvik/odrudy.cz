@@ -243,6 +243,31 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .weekly-table td:first-child{font-weight:600;white-space:nowrap;width:70px}
 @media (max-width:760px){ .routine-cols{grid-template-columns:1fr} }
 
+/* ---------- Produkt: redakční analýza ---------- */
+.callout--disclaimer{background:#fbf7ef;border-left-color:var(--gold)}
+.scorecard{display:grid;gap:16px;margin-top:1rem}
+.score-row{}
+.score-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:5px}
+.score-label{font-weight:500}
+.score-num{font-family:var(--serif);font-size:1.1rem;color:var(--gold-deep);white-space:nowrap}
+.score-bar{height:7px;border-radius:60px;background:var(--ivory);overflow:hidden}
+.score-bar span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-deep));border-radius:60px}
+.score-note{margin:.4rem 0 0}
+.score-overall{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;background:var(--ink);color:#fff;border-radius:var(--radius);margin-bottom:.4rem}
+.score-overall span{font-weight:500;letter-spacing:.02em}
+.score-overall strong{font-family:var(--serif);font-size:1.7rem;color:var(--gold)}
+.reco-grid .reco{padding:18px 20px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff}
+.reco h3{font-size:1.1rem;margin-bottom:.4rem}
+.reco--yes{border-left:3px solid var(--ok)}
+.reco--no{border-left:3px solid var(--bad)}
+.reco p{margin:0;color:var(--ink-soft)}
+.alt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.alt{padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff}
+.alt-kind{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:.4rem}
+.alt-name{font-weight:500}
+.inci summary{font-weight:500}
+.inci .small{word-break:break-word;color:var(--ink-soft)}
+
 /* ---------- Footer ---------- */
 .site-footer{background:var(--ink);color:#d8d2c8;padding:64px 0 28px;margin-top:40px}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}

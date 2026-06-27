@@ -12,34 +12,248 @@
     "updated": "2026-06-01",
     "brand": "Medik8",
     "manufacturer": "Medik8",
-    "category": "sera",
+    "category": "retinoly",
     "price": "cca 1 600 Kč",
-    "activeIngredients": ["retinal"],
+    "activeIngredients": [
+      "retinal",
+      "kyselina-hyaluronova",
+      "peptidy"
+    ],
     "technologies": [],
-    "pros": ["Stabilizovaný retinaldehyd", "Odstupňovaná síla v rámci řady", "Doplněno o hydratační složky"],
-    "cons": ["Vyšší cena", "Stále vyžaduje opatrné zavádění"],
+    "pros": [
+      "Stabilizovaný retinaldehyd",
+      "Odstupňovaná síla v rámci řady",
+      "Doplněno o hydratační složky"
+    ],
+    "cons": [
+      "Vyšší cena",
+      "Stále vyžaduje opatrné zavádění"
+    ],
     "usage": "Večer na suchou pleť, začít 2–3× týdně, navyšovat dle tolerance. Ráno SPF 50.",
-    "image": { "src": "/assets/img/products/medik8-crystal-retinal-6.svg", "alt": "Medik8 Crystal Retinal 6 sérum", "type": "illustration", "official": "https://www.medik8.com" },
+    "image": {
+      "src": "/assets/img/products/medik8-crystal-retinal-6.svg",
+      "alt": "Medik8 Crystal Retinal 6 sérum",
+      "type": "illustration",
+      "official": "https://www.medik8.com"
+    },
     "body": [
-      { "h2": "Komu sedne" },
-      { "p": "Vhodné pro ty, kdo chtějí účinný retinoid s dobrou snášenlivostí a možností postupně zvyšovat sílu. Číslo v názvu označuje koncentraci v řadě." },
-      { "note": "Účinnost retinaldehydu na vrásky a texturu je doložena, byť menším počtem studií než u retinolu.", "evidence": "moderate" }
+      {
+        "h2": "Komu sedne"
+      },
+      {
+        "p": "Vhodné pro ty, kdo chtějí účinný retinoid s dobrou snášenlivostí a možností postupně zvyšovat sílu. Číslo v názvu označuje koncentraci v řadě."
+      },
+      {
+        "note": "Účinnost retinaldehydu na vrásky a texturu je doložena, byť menším počtem studií než u retinolu.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [
-      { "q": "Čím se liší čísla v řadě?", "a": "Vyšší číslo = vyšší koncentrace retinalu. Začněte nižším a postupně přejděte výš." }
+      {
+        "q": "Co znamená číslo 6 v názvu?",
+        "a": "Označuje koncentraci retinaldehydu 0,06 %. Řada pokračuje silnějšími variantami."
+      },
+      {
+        "q": "Je retinal lepší než retinol?",
+        "a": "Je o krok blíž účinné formě, proto často působí rychleji při srovnatelné snášenlivosti."
+      },
+      {
+        "q": "Jak často ho používat?",
+        "a": "Začněte 2–3× týdně večer a postupně navyšujte podle tolerance."
+      },
+      {
+        "q": "Můžu ho v těhotenství?",
+        "a": "Ne, retinoidy se v těhotenství a při kojení nedoporučují. Zvolte bakuchiol."
+      },
+      {
+        "q": "Mám ho dávat ráno, nebo večer?",
+        "a": "Večer — retinal je fotolabilní. Ráno vždy SPF."
+      },
+      {
+        "q": "Můžu kombinovat s vitaminem C?",
+        "a": "Ano, ale odděleně: vitamin C ráno, retinal večer."
+      },
+      {
+        "q": "A s kyselinami (AHA/BHA)?",
+        "a": "Ne ve stejný večer — střídejte ve dnech kvůli riziku podráždění."
+      },
+      {
+        "q": "Pálí nebo olupuje se po něm pleť?",
+        "a": "V adaptační fázi (retinizace) to může nastat. Snižte frekvenci a posilte hydrataci."
+      },
+      {
+        "q": "Za jak dlouho uvidím výsledky?",
+        "a": "Texturu a jas za 8–12 týdnů, vrásky po několika měsících."
+      },
+      {
+        "q": "Je vhodný pro citlivou pleť?",
+        "a": "Při pozvolném zavádění ano, ale velmi citlivá pleť může lépe snášet bakuchiol."
+      }
     ],
     "sources": [],
     "affiliate": [
-      { "label": "Oficiální e-shop značky", "url": "https://www.medik8.com", "disclosure": true }
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://www.medik8.com",
+        "disclosure": true
+      }
     ],
-    "alternatives": [],
+    "alternatives": [
+      {
+        "slug": "geek-gorgeous-a-game",
+        "kind": "cheaper",
+        "note": "Retinaldehyd za výrazně nižší cenu při dobré formulaci."
+      },
+      {
+        "slug": "vitamin-c-serum-15",
+        "kind": "gentler",
+        "note": "Pokud retinoidy nesnášíte, antioxidant ráno je šetrnější start."
+      }
+    ],
     "relations": {
-      "ingredients": ["retinal", "retinol"],
-      "problems": ["jemne-vrasky", "textura"],
-      "skinTypes": ["mastna", "smisena"],
-      "ageGroups": ["30-plus", "40-plus"],
-      "routines": ["vecerni-rutina"],
-      "reviews": ["recenze-medik8-crystal-retinal-6"]
+      "ingredients": [
+        "retinal",
+        "retinol",
+        "kyselina-hyaluronova",
+        "peptidy"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura",
+        "hluboke-vrasky"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ],
+      "comparisons": [
+        "retinol-vs-retinal"
+      ],
+      "reviews": [
+        "recenze-medik8-crystal-retinal-6"
+      ],
+      "studies": [
+        "mukherjee-2006-retinol"
+      ]
+    },
+    "productType": "noční retinaldehydové sérum",
+    "country": "Velká Británie",
+    "volume": "30 ml",
+    "concentrations": {
+      "retinal": "0,06 % retinaldehyd (Crystal Retinal 6)"
+    },
+    "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Dimethicone, Cetearyl Alcohol, Retinal, Sodium Hyaluronate, Glycerin, Hydroxypinacolone Retinoate, Tocopheryl Acetate, Ceteareth-20, Phenoxyethanol a další (zkrácený výčet hlavních složek).",
+    "howItWorks": [
+      {
+        "ingredient": "retinal",
+        "text": "Retinaldehyd se v pokožce přemění na kyselinu retinovou jediným krokem, proto nastupuje rychleji než retinol — urychluje obnovu, podporuje kolagen a tlumí jeho rozklad."
+      },
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Hydratuje a tlumí suchost během adaptace na retinoid."
+      }
+    ],
+    "suitableFor": [
+      "30+",
+      "40+",
+      "jemné i hlubší vrásky",
+      "nerovnoměrná textura",
+      "pleť, která zvládla retinol a chce rychlejší výsledky"
+    ],
+    "notSuitable": [
+      "Těhotenství a kojení",
+      "akutní rozacea nebo ekzém",
+      "poškozená bariéra",
+      "současné použití s kyselinami ve stejný večer"
+    ],
+    "scores": {
+      "quality": {
+        "score": 9,
+        "note": "Stabilizovaná emulze s retinalem, doplněná o hyaluronan a podpůrné látky; bez zbytečných dráždivců."
+      },
+      "potency": {
+        "score": 8,
+        "note": "Retinal je účinnější forma než retinol; 0,06 % je střední síla v rámci řady, která jde dál (1–24)."
+      },
+      "evidence": {
+        "score": 8,
+        "note": "Retinaldehyd má dobrou, byť menší důkazní základnu než retinol; mechanismus je sdílený s retinoidy."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "Stupňovaná řada a stabilizace retinalu patří k tomu nejlepšímu na trhu."
+      },
+      "value": {
+        "score": 7,
+        "note": "Vyšší cena, ale kvalita formulace a koncentrace ji odpovídají."
+      },
+      "sensitive": {
+        "score": 7,
+        "note": "Snášenlivost dobrá, ale stále jde o retinoid — citlivá pleť musí zavádět pozvolna."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Jedno z nejlépe formulovaných retinalových sér; ideální krok od retinolu k rychlejšímu retinoidu."
+      }
+    },
+    "strengths": [
+      "Stabilizovaný retinaldehyd (rychlejší než retinol)",
+      "Odstupňovaná síla v rámci řady",
+      "Doplněno o hyaluronan a podpůrné látky",
+      "Bez parfemace"
+    ],
+    "weaknesses": [
+      "Vyšší cena",
+      "Stále vyžaduje opatrné zavádění",
+      "Není vhodné v těhotenství"
+    ],
+    "recommendation": {
+      "yes": "Pro pokročilejší uživatele retinoidů (30+/40+), kteří chtějí rychlejší výsledky při dobré snášenlivosti.",
+      "no": "Pro těhotné, kojící, pleť v akutním podráždění nebo úplné začátečníky — ti začnou nižší silou v řadě."
+    },
+    "compare": {
+      "items": [
+        "medik8-crystal-retinal-6",
+        "geek-gorgeous-a-game"
+      ],
+      "dimensions": [
+        {
+          "name": "Účinná látka",
+          "values": [
+            "retinaldehyd 0,06 %",
+            "retinaldehyd (dle varianty)"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 1 600 Kč",
+            "cca 500 Kč"
+          ]
+        },
+        {
+          "name": "Formulace",
+          "values": [
+            "prémiová, stabilizovaná",
+            "velmi dobrá, jednoduchá"
+          ]
+        },
+        {
+          "name": "Pro koho",
+          "values": [
+            "kdo chce maximum",
+            "kdo chce poměr cena/výkon"
+          ]
+        }
+      ]
     }
   },
   {
@@ -58,30 +272,205 @@
     "category": "led-masky",
     "price": "cca 9 000 Kč",
     "activeIngredients": [],
-    "technologies": ["led-terapie"],
-    "pros": ["Kombinace 633 nm a 830 nm", "Flexibilní silikonový design", "Krátká relace (10 min)"],
-    "cons": ["Vyšší pořizovací cena", "Vyžaduje pravidelnost", "Výsledky jsou postupné"],
+    "technologies": [
+      "led-terapie"
+    ],
+    "pros": [
+      "Kombinace 633 nm a 830 nm",
+      "Flexibilní silikonový design",
+      "Krátká relace (10 min)"
+    ],
+    "cons": [
+      "Vyšší pořizovací cena",
+      "Vyžaduje pravidelnost",
+      "Výsledky jsou postupné"
+    ],
     "usage": "3–5× týdně po 10 minutách na čistou suchou pleť. Výsledky po 8–12 týdnech.",
-    "image": { "src": "/assets/img/products/currentbody-led-mask.svg", "alt": "CurrentBody Skin LED maska", "type": "illustration", "official": "https://www.currentbody.com" },
+    "image": {
+      "src": "/assets/img/products/currentbody-led-mask.svg",
+      "alt": "CurrentBody Skin LED maska",
+      "type": "illustration",
+      "official": "https://www.currentbody.com"
+    },
     "body": [
-      { "h2": "Co od masky čekat" },
-      { "p": "Domácí LED maska je investice do dlouhodobé péče. Efekt je mírný a kumulativní — klíčem je pravidelnost po týdny a měsíce." },
-      { "note": "Domácí fotobiomodulace má rostoucí, ale zatím střední důkazní základnu.", "evidence": "moderate" }
+      {
+        "h2": "Co od masky čekat"
+      },
+      {
+        "p": "Domácí LED maska je investice do dlouhodobé péče. Efekt je mírný a kumulativní — klíčem je pravidelnost po týdny a měsíce."
+      },
+      {
+        "note": "Domácí fotobiomodulace má rostoucí, ale zatím střední důkazní základnu.",
+        "evidence": "moderate"
+      }
     ],
     "faq": [
-      { "q": "Nahradí maska retinol?", "a": "Ne, jde o doplňkovou metodu. Nejlepší výsledky dává kombinace s aktivní kosmetikou a SPF." }
+      {
+        "q": "Jak často masku používat?",
+        "a": "Typicky 3–5× týdně po 10 minutách."
+      },
+      {
+        "q": "Kdy uvidím výsledky?",
+        "a": "Obvykle po 8–12 týdnech pravidelného používání."
+      },
+      {
+        "q": "Funguje doma stejně jako v salonu?",
+        "a": "Má nižší výkon, ale při pravidelnosti dává reálné výsledky."
+      },
+      {
+        "q": "Můžu masku používat každý den?",
+        "a": "Ano, je bezpečná pro denní použití dle návodu."
+      },
+      {
+        "q": "Nahradí retinol?",
+        "a": "Ne, je to doplněk. Základem zůstává SPF a aktivní kosmetika."
+      },
+      {
+        "q": "Je bezpečná pro oči?",
+        "a": "Používejte dle návodu; součástí bývá ochrana/zavřené oči."
+      },
+      {
+        "q": "Pomáhá na akné?",
+        "a": "Tato maska cílí na kolagen (červená/NIR); na akné slouží modré světlo."
+      },
+      {
+        "q": "Vhodná pro citlivou pleť?",
+        "a": "Ano, nevyzařuje teplo a nedráždí."
+      },
+      {
+        "q": "Mohu ji používat s aktivními látkami?",
+        "a": "Ano, ideálně na čistou pleť, séra naneste po ošetření."
+      },
+      {
+        "q": "Jak dlouho vydrží?",
+        "a": "Při běžném používání roky; sledujte pokyny výrobce."
+      }
     ],
     "sources": [],
     "affiliate": [
-      { "label": "Oficiální e-shop", "url": "https://www.currentbody.com", "disclosure": true }
+      {
+        "label": "Oficiální e-shop",
+        "url": "https://www.currentbody.com",
+        "disclosure": true
+      }
     ],
-    "alternatives": [],
+    "alternatives": [
+      {
+        "slug": "nuface-trinity",
+        "kind": "similar",
+        "note": "Jiný princip (microcurrent) pro dočasné zpevnění."
+      }
+    ],
     "relations": {
-      "technologies": ["led-terapie"],
-      "problems": ["jemne-vrasky", "povolena-plet"],
-      "skinTypes": ["citliva", "zrala"],
-      "ageGroups": ["30-plus", "40-plus", "50-plus"],
-      "comparisons": ["led-vs-laser"]
+      "technologies": [
+        "led-terapie"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ]
+    },
+    "productType": "domácí LED maska",
+    "country": "Velká Británie",
+    "volume": "1 ks",
+    "suitableFor": [
+      "30+",
+      "40+",
+      "50+",
+      "jemné vrásky",
+      "ztráta jasu",
+      "citlivá pleť (LED je šetrné)"
+    ],
+    "notSuitable": [
+      "Fotosenzitivní onemocnění",
+      "užívání fotosenzibilizujících léků",
+      "aktivní kožní nádory v oblasti"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Kombinace klinicky používaných vlnových délek 633 a 830 nm, flexibilní silikon."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Domácí výkon je nižší než klinický; efekt je mírný a kumulativní."
+      },
+      "evidence": {
+        "score": 6,
+        "note": "Fotobiomodulace má rostoucí, ale zatím střední důkazní základnu."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "Pohodlný design a krátká relace zvyšují šanci na pravidelnost."
+      },
+      "value": {
+        "score": 6,
+        "note": "Vyšší pořizovací cena, návratnost při dlouhodobém používání."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Bez tepla a chemie — vhodné i pro citlivou pleť."
+      },
+      "overall": {
+        "score": 7,
+        "note": "Kvalitní domácí LED maska jako doplněk aktivní péče, ne její náhrada."
+      }
+    },
+    "strengths": [
+      "Kombinace 633 nm a 830 nm",
+      "Flexibilní silikonový design",
+      "Krátká relace (10 min)",
+      "Vhodné i pro citlivou pleť"
+    ],
+    "weaknesses": [
+      "Vyšší pořizovací cena",
+      "Vyžaduje pravidelnost",
+      "Výsledky jsou postupné a mírné"
+    ],
+    "recommendation": {
+      "yes": "Pro toho, kdo chce šetrný doplněk ke kosmetice a zvládne pravidelnost (3–5× týdně).",
+      "no": "Pro hledající rychlé či výrazné výsledky — ty nabídnou spíš profesionální zákroky."
+    },
+    "compare": {
+      "items": [
+        "currentbody-led-mask",
+        "nuface-trinity"
+      ],
+      "dimensions": [
+        {
+          "name": "Princip",
+          "values": [
+            "LED fotobiomodulace",
+            "microcurrent"
+          ]
+        },
+        {
+          "name": "Hlavní přínos",
+          "values": [
+            "kolagen, jas",
+            "dočasný lifting"
+          ]
+        },
+        {
+          "name": "Důkazy",
+          "values": [
+            "střední",
+            "omezené"
+          ]
+        }
+      ]
     }
   },
   {
@@ -100,30 +489,171 @@
     "category": "microcurrent",
     "price": "cca 8 000 Kč",
     "activeIngredients": [],
-    "technologies": ["microcurrent"],
-    "pros": ["Příjemná aplikace", "Dočasný liftingový efekt", "Vyměnitelné nástavce"],
-    "cons": ["Efekt dočasný, nutná pravidelnost", "Nutný vodivý gel", "Slabší důkazní základna"],
+    "technologies": [
+      "microcurrent"
+    ],
+    "pros": [
+      "Příjemná aplikace",
+      "Dočasný liftingový efekt",
+      "Vyměnitelné nástavce"
+    ],
+    "cons": [
+      "Efekt dočasný, nutná pravidelnost",
+      "Nutný vodivý gel",
+      "Slabší důkazní základna"
+    ],
     "usage": "5× týdně s vodivým gelem, poté udržovací režim. Efekt nejvýraznější bezprostředně po aplikaci.",
-    "image": { "src": "/assets/img/products/nuface-trinity.svg", "alt": "NuFACE Trinity microcurrent přístroj", "type": "illustration", "official": "https://www.mynuface.com" },
+    "image": {
+      "src": "/assets/img/products/nuface-trinity.svg",
+      "alt": "NuFACE Trinity microcurrent přístroj",
+      "type": "illustration",
+      "official": "https://www.mynuface.com"
+    },
     "body": [
-      { "h2": "Realistická očekávání" },
-      { "p": "NuFACE dává příjemný okamžitý efekt, který je ale dočasný. Funguje jako rutina, nikoli jako jednorázové řešení." },
-      { "note": "Důkazy pro dlouhodobý efekt microcurrentu jsou omezené.", "evidence": "limited" }
+      {
+        "h2": "Realistická očekávání"
+      },
+      {
+        "p": "NuFACE dává příjemný okamžitý efekt, který je ale dočasný. Funguje jako rutina, nikoli jako jednorázové řešení."
+      },
+      {
+        "note": "Důkazy pro dlouhodobý efekt microcurrentu jsou omezené.",
+        "evidence": "limited"
+      }
     ],
     "faq": [
-      { "q": "Jak dlouho efekt drží?", "a": "Hodiny až den po aplikaci. Pro trvalejší dojem je potřeba pravidelnost." }
+      {
+        "q": "Jak dlouho efekt drží?",
+        "a": "Hodiny až den; pro trvalejší dojem je nutná pravidelnost."
+      },
+      {
+        "q": "Jak často používat?",
+        "a": "Zpočátku 5× týdně, poté udržovací režim."
+      },
+      {
+        "q": "Potřebuji gel?",
+        "a": "Ano, vodivý gel je nutný pro správnou funkci."
+      },
+      {
+        "q": "Bolí to?",
+        "a": "Ne, proud je mírný; lze regulovat intenzitu."
+      },
+      {
+        "q": "Nahradí botox?",
+        "a": "Ne, efekt je nesrovnatelně jemnější a dočasný."
+      },
+      {
+        "q": "Můžu při kardiostimulátoru?",
+        "a": "Ne, to je kontraindikace."
+      },
+      {
+        "q": "Vhodné v těhotenství?",
+        "a": "Nedoporučuje se, konzultujte lékaře."
+      },
+      {
+        "q": "Můžu používat se séry?",
+        "a": "Ano, po ošetření naneste séra."
+      },
+      {
+        "q": "Pro jaký věk?",
+        "a": "Nejčastěji 30+ se ztrátou tonusu."
+      },
+      {
+        "q": "Jak rychle uvidím rozdíl?",
+        "a": "Okamžitý dočasný efekt po aplikaci, kumulativně při pravidelnosti."
+      }
     ],
     "sources": [],
     "affiliate": [
-      { "label": "Oficiální e-shop", "url": "https://www.mynuface.com", "disclosure": true }
+      {
+        "label": "Oficiální e-shop",
+        "url": "https://www.mynuface.com",
+        "disclosure": true
+      }
     ],
-    "alternatives": [],
+    "alternatives": [
+      {
+        "slug": "currentbody-led-mask",
+        "kind": "better",
+        "note": "LED cílí na kolagen s lepší důkazní základnou."
+      }
+    ],
     "relations": {
-      "technologies": ["microcurrent"],
-      "problems": ["povolena-plet"],
-      "skinTypes": ["zrala"],
-      "ageGroups": ["30-plus", "40-plus", "50-plus"],
+      "technologies": [
+        "microcurrent"
+      ],
+      "problems": [
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
       "comparisons": []
+    },
+    "productType": "domácí microcurrent přístroj",
+    "country": "USA",
+    "volume": "1 ks",
+    "suitableFor": [
+      "30+",
+      "40+",
+      "50+",
+      "ztráta tonusu",
+      "před událostí"
+    ],
+    "notSuitable": [
+      "Kardiostimulátor",
+      "těhotenství",
+      "epilepsie",
+      "kovové implantáty v oblasti"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Dobře zpracovaný přístroj, nutný vodivý gel."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Efekt je dočasný a vyžaduje pravidelnost."
+      },
+      "evidence": {
+        "score": 4,
+        "note": "Pro dlouhodobý efekt microcurrentu chybí kvalitní data."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Etablovaná značka, vyměnitelné nástavce."
+      },
+      "value": {
+        "score": 5,
+        "note": "Vyšší cena vzhledem k dočasnému efektu."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Obecně dobře snášené, mimo kontraindikace."
+      },
+      "overall": {
+        "score": 6,
+        "note": "Příjemný rituál pro dočasné zpevnění, ne trvalé řešení."
+      }
+    },
+    "strengths": [
+      "Příjemná aplikace",
+      "Dočasný liftingový efekt",
+      "Vyměnitelné nástavce"
+    ],
+    "weaknesses": [
+      "Efekt dočasný, nutná pravidelnost",
+      "Nutný vodivý gel",
+      "Slabší důkazní základna"
+    ],
+    "recommendation": {
+      "yes": "Pro toho, kdo chce dočasné zpevnění a má rád rituál; skvělé před událostí.",
+      "no": "Pro hledající trvalé výsledky nebo s kontraindikacemi (kardiostimulátor, těhotenství)."
     }
   },
   {
@@ -141,29 +671,69 @@
     "manufacturer": "—",
     "category": "sera",
     "price": "dle značky",
-    "activeIngredients": ["vitamin-c"],
+    "activeIngredients": [
+      "vitamin-c"
+    ],
     "technologies": [],
-    "pros": ["Antioxidační ochrana", "Podpora jasu a kolagenu", "Vhodné ráno pod SPF"],
-    "cons": ["Citlivost na světlo a vzduch (oxidace)", "U čistých forem může štípat"],
+    "pros": [
+      "Antioxidační ochrana",
+      "Podpora jasu a kolagenu",
+      "Vhodné ráno pod SPF"
+    ],
+    "cons": [
+      "Citlivost na světlo a vzduch (oxidace)",
+      "U čistých forem může štípat"
+    ],
     "usage": "Ráno na čistou pleť před hydratací a SPF. Skladovat ve tmě, vyměnit, pokud zežloutne.",
-    "image": { "src": "/assets/img/products/vitamin-c-serum-15.svg", "alt": "Vitamin C sérum 15 %", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/products/vitamin-c-serum-15.svg",
+      "alt": "Vitamin C sérum 15 %",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Na co u vitaminu C koukat" },
-      { "list": ["Forma (L-askorbová vs stabilní deriváty)", "Obal (tmavý, vzduchotěsný)", "Doplňkové antioxidanty (vitamin E, ferulová kyselina)"] },
-      { "note": "Antioxidační ochrana a podpora kolagenu jsou dobře doloženy.", "evidence": "strong" }
+      {
+        "h2": "Na co u vitaminu C koukat"
+      },
+      {
+        "list": [
+          "Forma (L-askorbová vs stabilní deriváty)",
+          "Obal (tmavý, vzduchotěsný)",
+          "Doplňkové antioxidanty (vitamin E, ferulová kyselina)"
+        ]
+      },
+      {
+        "note": "Antioxidační ochrana a podpora kolagenu jsou dobře doloženy.",
+        "evidence": "strong"
+      }
     ],
     "faq": [
-      { "q": "Co znamená, že sérum zežloutlo?", "a": "Oxidovalo a ztratilo účinnost. Vyměňte ho." }
+      {
+        "q": "Co znamená, že sérum zežloutlo?",
+        "a": "Oxidovalo a ztratilo účinnost. Vyměňte ho."
+      }
     ],
     "sources": [],
     "affiliate": [],
     "alternatives": [],
     "relations": {
-      "ingredients": ["vitamin-c"],
-      "problems": ["matna-plet", "pigmentace"],
-      "skinTypes": ["normalni", "mastna"],
-      "ageGroups": ["20-plus", "30-plus"],
-      "routines": ["ranni-rutina"]
+      "ingredients": [
+        "vitamin-c"
+      ],
+      "problems": [
+        "matna-plet",
+        "pigmentace"
+      ],
+      "skinTypes": [
+        "normalni",
+        "mastna"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ]
     }
   },
   {
@@ -183,29 +753,1678 @@
     "price": "dle značky",
     "activeIngredients": [],
     "technologies": [],
-    "pros": ["Prokazatelně zpomaluje fotostárnutí", "Chrání před pigmentací a rakovinou kůže", "Vhodné denně po celý rok"],
-    "cons": ["Nutné dostatečné množství a opakování", "Některé textury mají bílý nádech"],
+    "pros": [
+      "Prokazatelně zpomaluje fotostárnutí",
+      "Chrání před pigmentací a rakovinou kůže",
+      "Vhodné denně po celý rok"
+    ],
+    "cons": [
+      "Nutné dostatečné množství a opakování",
+      "Některé textury mají bílý nádech"
+    ],
     "usage": "Každé ráno jako poslední krok, ~2 mg/cm² (na obličej zhruba dvě prsty délky produktu). Přes den obnovovat.",
-    "image": { "src": "/assets/img/products/spf-50-denni.svg", "alt": "Denní krém SPF 50", "type": "illustration" },
+    "image": {
+      "src": "/assets/img/products/spf-50-denni.svg",
+      "alt": "Denní krém SPF 50",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Číslo jedna v anti-agingu" },
-      { "p": "Až 80 % vnějšího stárnutí pleti jde na vrub UV záření. Žádné sérum nenahradí každodenní SPF — je to nejlépe doložený anti-aging krok." },
-      { "note": "Pravidelné používání SPF prokazatelně zpomaluje fotostárnutí.", "evidence": "strong" }
+      {
+        "h2": "Číslo jedna v anti-agingu"
+      },
+      {
+        "p": "Až 80 % vnějšího stárnutí pleti jde na vrub UV záření. Žádné sérum nenahradí každodenní SPF — je to nejlépe doložený anti-aging krok."
+      },
+      {
+        "note": "Pravidelné používání SPF prokazatelně zpomaluje fotostárnutí.",
+        "evidence": "strong"
+      }
     ],
     "faq": [
-      { "q": "I v zimě a v kanceláři?", "a": "Ano, UVA prochází mraky i okny. Denní SPF se vyplatí celoročně." }
+      {
+        "q": "I v zimě a v kanceláři?",
+        "a": "Ano, UVA prochází mraky i okny. Denní SPF se vyplatí celoročně."
+      }
     ],
     "sources": [
-      { "title": "Hughes M. — Sunscreen and prevention of skin aging (RCT)", "journal": "Ann Intern Med", "year": 2013, "type": "rct" }
+      {
+        "title": "Hughes M. — Sunscreen and prevention of skin aging (RCT)",
+        "journal": "Ann Intern Med",
+        "year": 2013,
+        "type": "rct"
+      }
     ],
     "affiliate": [],
     "alternatives": [],
     "relations": {
-      "problems": ["pigmentace", "jemne-vrasky"],
-      "skinTypes": ["normalni", "citliva", "mastna", "sucha", "smisena"],
-      "ageGroups": ["20-plus", "30-plus", "40-plus", "50-plus", "60-plus"],
-      "routines": ["ranni-rutina"],
-      "studies": ["hughes-2013-spf"]
+      "problems": [
+        "pigmentace",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "normalni",
+        "citliva",
+        "mastna",
+        "sucha",
+        "smisena"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ],
+      "studies": [
+        "hughes-2013-spf"
+      ]
+    }
+  },
+  {
+    "id": "prod-skinceuticals-ce-ferulic",
+    "slug": "skinceuticals-ce-ferulic",
+    "type": "product",
+    "name": "SkinCeuticals C E Ferulic",
+    "updated": "2026-06-01",
+    "title": "SkinCeuticals C E Ferulic: recenze a rozbor | antiagelab.cz",
+    "metaDescription": "Odborný rozbor antioxidačního séra SkinCeuticals C E Ferulic (15 % vitamin C, vitamin E, ferulová kyselina): složení, hodnocení, alternativy a FAQ.",
+    "h1": "SkinCeuticals C E Ferulic",
+    "excerpt": "Referenční antioxidační sérum: 15 % čistého vitaminu C s vitaminem E a ferulovou kyselinou.",
+    "evidenceLevel": "strong",
+    "brand": "SkinCeuticals",
+    "manufacturer": "SkinCeuticals (L’Oréal)",
+    "category": "vitamin-c",
+    "productType": "ranní antioxidační sérum",
+    "country": "USA",
+    "volume": "30 ml",
+    "price": "cca 4 200 Kč",
+    "image": {
+      "src": "/assets/img/products/skinceuticals-ce-ferulic.svg",
+      "alt": "SkinCeuticals C E Ferulic — ilustrace",
+      "type": "illustration",
+      "official": "https://www.skinceuticals.com"
+    },
+    "activeIngredients": [
+      "vitamin-c",
+      "vitamin-e",
+      "ferulova-kyselina"
+    ],
+    "concentrations": {
+      "vitamin-c": "15 % (L-askorbová kyselina)",
+      "vitamin-e": "1 % (alfa-tokoferol)",
+      "ferulova-kyselina": "0,5 %"
+    },
+    "inci": "Aqua, Ethoxydiglycol, Ascorbic Acid, Glycerin, Propylene Glycol, Laureth-23, Phenoxyethanol, Tocopherol, Triethanolamine, Ferulic Acid, Panthenol, Sodium Hyaluronate.",
+    "howItWorks": [
+      {
+        "ingredient": "vitamin-c",
+        "text": "Čistá L-askorbová kyselina v 15 % neutralizuje volné radikály a podporuje syntézu kolagenu."
+      },
+      {
+        "ingredient": "vitamin-e",
+        "text": "Doplňuje ochranu lipidové složky a synergicky zesiluje vitamin C."
+      },
+      {
+        "ingredient": "ferulova-kyselina",
+        "text": "Stabilizuje vitamin C i E a dál posiluje antioxidační účinek (klasická kombinace C+E+ferulová)."
+      }
+    ],
+    "suitableFor": [
+      "20+",
+      "30+",
+      "40+",
+      "fotopoškození a pigmentace",
+      "matná pleť",
+      "normální až suchá pleť"
+    ],
+    "notSuitable": [
+      "Velmi citlivá pleť (nízké pH může štípat)",
+      "při aktivním podráždění",
+      "nekombinovat ve stejném kroku se silnými kyselinami"
+    ],
+    "scores": {
+      "quality": {
+        "score": 9,
+        "note": "Referenční, dobře vstřebatelná formulace v nízkém pH; zlatý standard antioxidantů."
+      },
+      "potency": {
+        "score": 9,
+        "note": "15 % čistého vitaminu C je vysoce účinná koncentrace."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Kombinace C+E+ferulová má jednu z nejlepších důkazních základen v kosmetice."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Patentovaná, ale již zavedená formulace; konkurence ji dnes dohání."
+      },
+      "value": {
+        "score": 4,
+        "note": "Velmi vysoká cena; existují výrazně levnější alternativy s podobnou logikou."
+      },
+      "sensitive": {
+        "score": 5,
+        "note": "Nízké pH a čistý vitamin C mohou citlivější pleť dráždit."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Špičkový antioxidant s prvotřídními důkazy; jedinou slabinou je cena."
+      }
+    },
+    "strengths": [
+      "Vysoce účinných 15 % čistého vitaminu C",
+      "Synergická a stabilní kombinace C+E+ferulová",
+      "Vynikající důkazní základna",
+      "Skleněné lékovkové balení"
+    ],
+    "weaknesses": [
+      "Velmi vysoká cena",
+      "Může štípat citlivou pleť",
+      "Po otevření postupně oxiduje"
+    ],
+    "recommendation": {
+      "yes": "Pro toho, kdo chce nejlépe doložený antioxidant a cena není překážkou; ideální ráno pod SPF.",
+      "no": "Pro velmi citlivou pleť a pro úsporné rozpočty — sáhněte po jemnějším derivátu vitaminu C."
+    },
+    "alternatives": [
+      {
+        "slug": "geek-gorgeous-c-glow",
+        "kind": "cheaper",
+        "note": "Stabilní derivát vitaminu C za zlomek ceny, jemnější k pleti."
+      },
+      {
+        "slug": "vitamin-c-serum-15",
+        "kind": "similar",
+        "note": "Obecná kategorie 15% vitaminu C k porovnání."
+      }
+    ],
+    "compare": {
+      "items": [
+        "skinceuticals-ce-ferulic",
+        "geek-gorgeous-c-glow"
+      ],
+      "dimensions": [
+        {
+          "name": "Forma vitaminu C",
+          "values": [
+            "L-askorbová 15 %",
+            "ascorbyl glukosid 15 %"
+          ]
+        },
+        {
+          "name": "Snášenlivost",
+          "values": [
+            "nižší (nízké pH)",
+            "vysoká"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 4 200 Kč",
+            "cca 350 Kč"
+          ]
+        },
+        {
+          "name": "Důkazy",
+          "values": [
+            "nejsilnější",
+            "dobré (deriváty)"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "C E Ferulic je dlouhodobě považováno za referenční antioxidační sérum. Kombinuje 15 % čisté L-askorbové kyseliny s vitaminem E a ferulovou kyselinou, které vitamin C stabilizují a zesilují jeho účinek. Patří do ranní rutiny pod opalovací krém, kde znásobuje ochranu před oxidačním stresem."
+      },
+      {
+        "p": "Daní za vysokou účinnost je nízké pH (může štípat), citlivost na světlo a vzduch a vysoká cena. Pro citlivou pleť nebo úspornější rozpočet bývají vhodnější stabilní deriváty vitaminu C."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ráno, nebo večer?",
+        "a": "Ideálně ráno pod SPF kvůli antioxidační ochraně."
+      },
+      {
+        "q": "Proč sérum žloutne?",
+        "a": "Oxiduje. Mírné zežloutnutí snižuje účinnost, výrazné znamená konec životnosti."
+      },
+      {
+        "q": "Můžu ho s retinolem?",
+        "a": "Ano, ale odděleně: vitamin C ráno, retinol večer."
+      },
+      {
+        "q": "Můžu ho s niacinamidem?",
+        "a": "Ano, moderní obava z nekombinovatelnosti je překonaná."
+      },
+      {
+        "q": "Štípe mě po něm pleť, je to normální?",
+        "a": "Mírné štípání kvůli nízkému pH se může objevit; při výrazném podráždění zvolte derivát."
+      },
+      {
+        "q": "Jak ho skladovat?",
+        "a": "Ve tmě, dobře uzavřené; chrání to vitamin C před oxidací."
+      },
+      {
+        "q": "Je vhodné pro citlivou pleť?",
+        "a": "Spíše ne — citlivá pleť ocení jemnější deriváty vitaminu C."
+      },
+      {
+        "q": "Nahradí SPF?",
+        "a": "Ne. Antioxidant SPF doplňuje, nenahrazuje."
+      },
+      {
+        "q": "Za jak dlouho uvidím efekt?",
+        "a": "Jas během týdnů, vliv na pigmentaci a kolagen v řádu měsíců."
+      },
+      {
+        "q": "Vyplatí se cena?",
+        "a": "Účinností ano, ale podobnou logiku nabízejí levnější séra; rozhodněte podle rozpočtu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lin FH et al. — Ferulic acid stabilizes vitamin C and E",
+        "journal": "J Invest Dermatol",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://www.skinceuticals.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "vitamin-e",
+        "ferulova-kyselina"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "normalni",
+        "sucha"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ],
+      "comparisons": [
+        "vitamin-c-vs-niacinamid"
+      ],
+      "terms": [
+        "antioxidant"
+      ],
+      "studies": [
+        "hughes-2013-spf"
+      ]
+    }
+  },
+  {
+    "id": "prod-gg-c-glow",
+    "slug": "geek-gorgeous-c-glow",
+    "type": "product",
+    "name": "Geek & Gorgeous C-Glow",
+    "updated": "2026-06-01",
+    "title": "Geek & Gorgeous C-Glow: recenze vitamin C séra | antiagelab.cz",
+    "metaDescription": "Rozbor séra Geek & Gorgeous C-Glow s 15 % ascorbyl glukosidu — stabilní, jemný vitamin C za nízkou cenu. Hodnocení, alternativy, FAQ.",
+    "h1": "Geek & Gorgeous C-Glow",
+    "excerpt": "Stabilní a jemný vitamin C (15 % ascorbyl glukosid) za skvělou cenu. Vhodný i pro citlivou pleť.",
+    "evidenceLevel": "moderate",
+    "brand": "Geek & Gorgeous",
+    "manufacturer": "Geek & Gorgeous",
+    "category": "vitamin-c",
+    "productType": "ranní vitamin C sérum",
+    "country": "Maďarsko",
+    "volume": "30 ml",
+    "price": "cca 350 Kč",
+    "image": {
+      "src": "/assets/img/products/geek-gorgeous-c-glow.svg",
+      "alt": "Geek & Gorgeous C-Glow — ilustrace",
+      "type": "illustration",
+      "official": "https://geekandgorgeous.com"
+    },
+    "activeIngredients": [
+      "vitamin-c",
+      "ferulova-kyselina"
+    ],
+    "concentrations": {
+      "vitamin-c": "15 % (ascorbyl glukosid)"
+    },
+    "inci": "Aqua, Ascorbyl Glucoside, Propanediol, Glycerin, Ferulic Acid, Tocopherol, Panthenol, 1,2-Hexanediol, Xanthan Gum, Phenoxyethanol a další.",
+    "howItWorks": [
+      {
+        "ingredient": "vitamin-c",
+        "text": "Ascorbyl glukosid je stabilní derivát, který se v pleti postupně mění na vitamin C — jemnější a trvanlivější než čistá kyselina."
+      },
+      {
+        "ingredient": "ferulova-kyselina",
+        "text": "Posiluje antioxidační ochranu a stabilitu formulace."
+      }
+    ],
+    "suitableFor": [
+      "20+",
+      "30+",
+      "citlivá pleť",
+      "matná pleť",
+      "pigmentace",
+      "začátečníci s vitaminem C"
+    ],
+    "notSuitable": [
+      "Kdo cíleně chce čistou L-askorbovou kyselinu",
+      "alergie na některou složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Čistá, promyšlená formulace bez zbytečností; stabilní derivát vitaminu C."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Deriváty působí jemněji a pomaleji než čistá kyselina."
+      },
+      "evidence": {
+        "score": 6,
+        "note": "Ascorbyl glukosid má slušné, byť slabší důkazy než L-askorbová."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Transparentní „skincare bez příplatku za značku\"."
+      },
+      "value": {
+        "score": 10,
+        "note": "Vynikající poměr cena/výkon — stabilní vitamin C za pár stovek."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Jemný, dobře snášený i citlivou pletí."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Nejlepší volba poměru cena/výkon u vitaminu C, hlavně pro citlivější pleť."
+      }
+    },
+    "strengths": [
+      "Stabilní a jemný derivát vitaminu C",
+      "Výborný poměr cena/výkon",
+      "Vhodný i pro citlivou pleť",
+      "Bez parfemace"
+    ],
+    "weaknesses": [
+      "Mírnější a pomalejší účinek než čistá L-askorbová",
+      "Méně přímých studií než C E Ferulic"
+    ],
+    "recommendation": {
+      "yes": "Pro citlivější pleť, začátečníky a kohokoli, kdo chce stabilní vitamin C bez vysoké ceny.",
+      "no": "Pro toho, kdo cíleně chce nejvyšší účinnost čisté L-askorbové kyseliny."
+    },
+    "alternatives": [
+      {
+        "slug": "skinceuticals-ce-ferulic",
+        "kind": "stronger",
+        "note": "Čistá L-askorbová 15 % s nejlepšími důkazy, ale dráždivější a dražší."
+      },
+      {
+        "slug": "vitamin-c-serum-15",
+        "kind": "similar",
+        "note": "Obecná kategorie pro srovnání."
+      }
+    ],
+    "compare": {
+      "items": [
+        "geek-gorgeous-c-glow",
+        "skinceuticals-ce-ferulic"
+      ],
+      "dimensions": [
+        {
+          "name": "Forma",
+          "values": [
+            "ascorbyl glukosid 15 %",
+            "L-askorbová 15 %"
+          ]
+        },
+        {
+          "name": "Snášenlivost",
+          "values": [
+            "vysoká",
+            "nižší"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 350 Kč",
+            "cca 4 200 Kč"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "C-Glow staví na ascorbyl glukosidu — stabilním derivátu vitaminu C, který se v pleti postupně uvolňuje. Výsledkem je jemné, dobře snášené sérum vhodné i pro citlivou pleť, navíc za zlomek ceny prémiových antioxidantů. Účinek je mírnější a pomalejší než u čisté L-askorbové kyseliny, zato bez typického štípání."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je derivát horší než čistý vitamin C?",
+        "a": "Není „horší\", ale jemnější a pomalejší; výhodou je stabilita a snášenlivost."
+      },
+      {
+        "q": "Ráno, nebo večer?",
+        "a": "Ideálně ráno pod SPF."
+      },
+      {
+        "q": "Vhodné pro citlivou pleť?",
+        "a": "Ano, patří k nejlépe snášeným vitamin C sérům."
+      },
+      {
+        "q": "Můžu ho s retinolem?",
+        "a": "Ano, ráno C-Glow, večer retinoid."
+      },
+      {
+        "q": "Oxiduje stejně jako čistý vitamin C?",
+        "a": "Je stabilnější, takže déle vydrží."
+      },
+      {
+        "q": "Můžu ho s niacinamidem?",
+        "a": "Ano, bez problémů."
+      },
+      {
+        "q": "Za jak dlouho efekt?",
+        "a": "Jas a tón během několika týdnů pravidelného používání."
+      },
+      {
+        "q": "Je bez parfemace?",
+        "a": "Ano, formulace cílí na minimalismus."
+      },
+      {
+        "q": "Pomůže na pigmentaci?",
+        "a": "Podpoří rozjasnění; na výraznou pigmentaci přidejte cílené látky a SPF."
+      },
+      {
+        "q": "Komu se nehodí?",
+        "a": "Komu jde o maximální sílu čisté L-askorbové kyseliny."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pullar J. et al. — The Roles of Vitamin C in Skin Health",
+        "journal": "Nutrients",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://geekandgorgeous.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "ferulova-kyselina"
+      ],
+      "problems": [
+        "matna-plet",
+        "pigmentace"
+      ],
+      "skinTypes": [
+        "citliva",
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ],
+      "comparisons": [
+        "vitamin-c-vs-niacinamid"
+      ],
+      "terms": [
+        "antioxidant"
+      ]
+    }
+  },
+  {
+    "id": "prod-gg-a-game",
+    "slug": "geek-gorgeous-a-game",
+    "type": "product",
+    "name": "Geek & Gorgeous A-Game",
+    "updated": "2026-06-01",
+    "title": "Geek & Gorgeous A-Game: recenze retinal séra | antiagelab.cz",
+    "metaDescription": "Rozbor retinaldehydového séra Geek & Gorgeous A-Game — účinný retinoid za nízkou cenu. Hodnocení, koncentrace, alternativy a FAQ.",
+    "h1": "Geek & Gorgeous A-Game",
+    "excerpt": "Dostupný retinaldehyd ve více silách. Skvělý poměr cena/výkon mezi retinoidy.",
+    "evidenceLevel": "moderate",
+    "brand": "Geek & Gorgeous",
+    "manufacturer": "Geek & Gorgeous",
+    "category": "retinoly",
+    "productType": "noční retinaldehydové sérum",
+    "country": "Maďarsko",
+    "volume": "30 ml",
+    "price": "cca 500 Kč",
+    "image": {
+      "src": "/assets/img/products/geek-gorgeous-a-game.svg",
+      "alt": "Geek & Gorgeous A-Game — ilustrace",
+      "type": "illustration",
+      "official": "https://geekandgorgeous.com"
+    },
+    "activeIngredients": [
+      "retinal",
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {
+      "retinal": "retinaldehyd dle varianty (A-Game 5/10 = 0,05/0,1 %)"
+    },
+    "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Retinal, Sodium Hyaluronate, Tocopherol, Panthenol, Xanthan Gum, Phenoxyethanol a další.",
+    "howItWorks": [
+      {
+        "ingredient": "retinal",
+        "text": "Retinaldehyd se v kůži přemění na kyselinu retinovou jediným krokem, proto působí rychleji než retinol; podporuje obnovu a kolagen."
+      }
+    ],
+    "suitableFor": [
+      "20+",
+      "30+",
+      "40+",
+      "jemné vrásky",
+      "textura",
+      "kdo chce retinoid za rozumnou cenu"
+    ],
+    "notSuitable": [
+      "Těhotenství a kojení",
+      "akutní rozacea/ekzém",
+      "současné použití s kyselinami ve stejný večer"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Jednoduchá, čistá formulace s retinalem a hyaluronanem."
+      },
+      "potency": {
+        "score": 8,
+        "note": "Retinaldehyd je účinný; více variant umožní postupné navyšování."
+      },
+      "evidence": {
+        "score": 8,
+        "note": "Retinal sdílí mechanismus retinoidů s dobrou evidencí."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Dostupný retinal demokratizuje dříve drahou kategorii."
+      },
+      "value": {
+        "score": 10,
+        "note": "Vynikající cena za účinný retinoid."
+      },
+      "sensitive": {
+        "score": 7,
+        "note": "Snášenlivost slušná, ale jde stále o retinoid."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Nejlepší poměr cena/výkon mezi retinaly; ideální vstup i pokrok."
+      }
+    },
+    "strengths": [
+      "Účinný retinaldehyd za nízkou cenu",
+      "Více koncentrací pro postupné zavádění",
+      "Jednoduchá čistá formulace",
+      "Bez parfemace"
+    ],
+    "weaknesses": [
+      "Méně „prémiová\" textura",
+      "Vyžaduje opatrné zavádění",
+      "Není v těhotenství"
+    ],
+    "recommendation": {
+      "yes": "Pro každého, kdo chce účinný retinoid bez vysoké ceny — od začátečníků po pokročilé.",
+      "no": "Pro těhotné/kojící a pleť v akutním podráždění."
+    },
+    "alternatives": [
+      {
+        "slug": "medik8-crystal-retinal-6",
+        "kind": "better",
+        "note": "Prémiovější formulace a stabilizace za vyšší cenu."
+      },
+      {
+        "slug": "vitamin-c-serum-15",
+        "kind": "gentler",
+        "note": "Pokud retinoidy nesnášíte."
+      }
+    ],
+    "compare": {
+      "items": [
+        "geek-gorgeous-a-game",
+        "medik8-crystal-retinal-6"
+      ],
+      "dimensions": [
+        {
+          "name": "Účinná látka",
+          "values": [
+            "retinaldehyd",
+            "retinaldehyd 0,06 %"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 500 Kč",
+            "cca 1 600 Kč"
+          ]
+        },
+        {
+          "name": "Formulace",
+          "values": [
+            "jednoduchá, účinná",
+            "prémiová, stabilizovaná"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "A-Game přinesl retinaldehyd — dříve výsadu prémiových značek — za dostupnou cenu. Nabízí se ve více silách, takže se dá pozvolna navyšovat. Formulace je záměrně jednoduchá a účinná, bez parfemace. Jde o jeden z nejlepších poměrů cena/výkon mezi retinoidy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jaký je rozdíl mezi variantami?",
+        "a": "Liší se koncentrací retinaldehydu; začněte nižší a postupně přejděte výš."
+      },
+      {
+        "q": "Je A-Game stejně dobrý jako dražší retinaly?",
+        "a": "Účinnou látku má stejnou; liší se hlavně texturou a doplňky."
+      },
+      {
+        "q": "Ráno, nebo večer?",
+        "a": "Večer — retinal je fotolabilní. Ráno SPF."
+      },
+      {
+        "q": "Jak často?",
+        "a": "Začněte 2–3× týdně a navyšujte podle tolerance."
+      },
+      {
+        "q": "V těhotenství?",
+        "a": "Ne, retinoidy se nedoporučují; zvolte bakuchiol."
+      },
+      {
+        "q": "Můžu s vitaminem C?",
+        "a": "Ano, odděleně — C ráno, retinal večer."
+      },
+      {
+        "q": "A s kyselinami?",
+        "a": "Nepoužívat ve stejný večer, střídejte."
+      },
+      {
+        "q": "Pálí/olupuje se po něm pleť?",
+        "a": "Možná retinizace; snižte frekvenci a hydratujte."
+      },
+      {
+        "q": "Za jak dlouho výsledky?",
+        "a": "Textura za 8–12 týdnů, vrásky později."
+      },
+      {
+        "q": "Pro citlivou pleť?",
+        "a": "Při pozvolném zavádění ano; jinak zvažte bakuchiol."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mukherjee S. et al. — Retinoids in skin aging",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://geekandgorgeous.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "retinal",
+        "retinol",
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "normalni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ],
+      "comparisons": [
+        "retinol-vs-retinal"
+      ],
+      "terms": [
+        "retinizace"
+      ],
+      "studies": [
+        "mukherjee-2006-retinol"
+      ]
+    }
+  },
+  {
+    "id": "prod-to-niacinamide",
+    "slug": "the-ordinary-niacinamide",
+    "type": "product",
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "updated": "2026-06-01",
+    "title": "The Ordinary Niacinamide 10% + Zinc 1%: rozbor | antiagelab.cz",
+    "metaDescription": "Odborný rozbor séra The Ordinary Niacinamide 10% + Zinc 1% — regulace mazu a pórů za pár korun. Hodnocení, komu sedí a komu ne, FAQ.",
+    "h1": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "excerpt": "Kultovní dostupné sérum na maz a póry. 10 % niacinamidu se zinkem.",
+    "evidenceLevel": "moderate",
+    "brand": "The Ordinary",
+    "manufacturer": "DECIEM",
+    "category": "sera",
+    "productType": "sérum na maz a póry",
+    "country": "Kanada",
+    "volume": "30 ml",
+    "price": "cca 200 Kč",
+    "image": {
+      "src": "/assets/img/products/the-ordinary-niacinamide.svg",
+      "alt": "The Ordinary Niacinamide 10% + Zinc 1% — ilustrace",
+      "type": "illustration",
+      "official": "https://theordinary.com"
+    },
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {
+      "niacinamid": "10 % (+ 1 % zinečnatá sůl PCA)"
+    },
+    "inci": "Aqua, Niacinamide, Pentylene Glycol, Zinc PCA, Tamarindus Indica Seed Gum, Xanthan Gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "10 % niacinamidu reguluje tvorbu mazu, podporuje bariéru a sjednocuje tón; zinečnatá sůl doplňuje sebum-regulační efekt."
+      }
+    ],
+    "suitableFor": [
+      "20+",
+      "30+",
+      "mastná a smíšená pleť",
+      "rozšířené póry",
+      "sklon k akné",
+      "nerovnoměrný tón"
+    ],
+    "notSuitable": [
+      "Velmi citlivá pleť (10 % může u někoho dráždit)",
+      "kdo hledá hlavně anti-wrinkle efekt"
+    ],
+    "scores": {
+      "quality": {
+        "score": 6,
+        "note": "Funkční, ale gumovitá textura; vysoká koncentrace cílí na maz."
+      },
+      "potency": {
+        "score": 7,
+        "note": "10 % je vyšší než „ideálních\" 2–5 %; účinné na maz, u někoho dráždivější."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Niacinamid má dobré důkazy pro maz, póry a bariéru."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Průkopník dostupné transparentní kosmetiky."
+      },
+      "value": {
+        "score": 10,
+        "note": "Mimořádná cena za účinnou látku."
+      },
+      "sensitive": {
+        "score": 5,
+        "note": "Pro citlivou pleť může být 10 % moc; jinak dobře snášené."
+      },
+      "overall": {
+        "score": 7,
+        "note": "Skvělý poměr cena/výkon na maz a póry; ne univerzální anti-aging sérum."
+      }
+    },
+    "strengths": [
+      "Velmi nízká cena",
+      "10 % niacinamidu na maz a póry",
+      "Bez parfemace",
+      "Dobré pro mastnou a smíšenou pleť"
+    ],
+    "weaknesses": [
+      "Gumovitá/lepkavá textura",
+      "10 % může citlivější pleť dráždit",
+      "Není primárně proti vráskám"
+    ],
+    "recommendation": {
+      "yes": "Pro mastnou a smíšenou pleť s rozšířenými póry, kdo chce maximum za minimum.",
+      "no": "Pro velmi citlivou pleť nebo hledající hlavně anti-wrinkle sérum."
+    },
+    "alternatives": [
+      {
+        "slug": "skinceuticals-ce-ferulic",
+        "kind": "stronger",
+        "note": "Pokud chcete antioxidační anti-aging, ne regulaci mazu."
+      }
+    ],
+    "compare": {
+      "items": [
+        "the-ordinary-niacinamide"
+      ],
+      "dimensions": [
+        {
+          "name": "Hlavní cíl",
+          "values": [
+            "maz, póry, tón"
+          ]
+        },
+        {
+          "name": "Koncentrace",
+          "values": [
+            "10 % niacinamid"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 200 Kč"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Kultovní sérum, které zpopularizovalo niacinamid. Desetiprocentní koncentrace cílí hlavně na regulaci mazu a vzhled pórů; pro samotnou bariéru a tón by stačilo i méně. Textura je charakteristicky „gumovitá\". Za svou cenu jde o jeden z nejlepších vstupů do aktivní péče pro mastnou a smíšenou pleť."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Není 10 % moc?",
+        "a": "Na maz a póry je to účinné; citlivější pleti může stačit 2–5 % a méně dráždí."
+      },
+      {
+        "q": "Ráno, nebo večer?",
+        "a": "Kdykoli; mnozí ho dávají ráno i večer."
+      },
+      {
+        "q": "Můžu s vitaminem C?",
+        "a": "Ano, moderní obava z nekombinovatelnosti je mýtus."
+      },
+      {
+        "q": "Můžu s retinolem?",
+        "a": "Ano, niacinamid dokonce tlumí podráždění z retinolu."
+      },
+      {
+        "q": "Proč je lepkavé/gumovité?",
+        "a": "Daň za formulaci; naneste tenkou vrstvu na lehce vlhkou pleť."
+      },
+      {
+        "q": "Pomůže na akné?",
+        "a": "Podpoří regulaci mazu a zánětu, není to ale samostatná léčba akné."
+      },
+      {
+        "q": "Zmenší póry?",
+        "a": "Opticky je zjemní; velikost je dána i geneticky."
+      },
+      {
+        "q": "Vhodné pro suchou pleť?",
+        "a": "Spíš pro mastnou/smíšenou; suchá ocení nižší koncentraci a víc hydratace."
+      },
+      {
+        "q": "Za jak dlouho efekt?",
+        "a": "Tón a maz během několika týdnů."
+      },
+      {
+        "q": "Dráždí mě, co dělat?",
+        "a": "Snižte frekvenci nebo zvolte 2–5 % niacinamid."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://theordinary.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "rozsirene-pory",
+        "matna-plet",
+        "pigmentace"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ],
+      "comparisons": [
+        "vitamin-c-vs-niacinamid"
+      ],
+      "terms": [
+        "kozni-bariera"
+      ]
+    }
+  },
+  {
+    "id": "prod-pc-2bha",
+    "slug": "paulas-choice-2-bha",
+    "type": "product",
+    "name": "Paula’s Choice 2% BHA Liquid Exfoliant",
+    "updated": "2026-06-01",
+    "title": "Paula’s Choice 2% BHA: rozbor exfoliantu | antiagelab.cz",
+    "metaDescription": "Odborný rozbor kultovního exfoliantu Paula’s Choice Skin Perfecting 2% BHA (kyselina salicylová) — póry, akné, textura. Hodnocení a FAQ.",
+    "h1": "Paula’s Choice Skin Perfecting 2% BHA",
+    "excerpt": "Kultovní BHA exfoliant: 2 % kyseliny salicylové pro čištění pórů a hladkost.",
+    "evidenceLevel": "strong",
+    "brand": "Paula’s Choice",
+    "manufacturer": "Paula’s Choice",
+    "category": "exfolianty",
+    "productType": "tekutý chemický exfoliant (BHA)",
+    "country": "USA",
+    "volume": "118 ml",
+    "price": "cca 800 Kč",
+    "image": {
+      "src": "/assets/img/products/paulas-choice-2-bha.svg",
+      "alt": "Paula’s Choice 2% BHA — ilustrace",
+      "type": "illustration",
+      "official": "https://www.paulaschoice.com"
+    },
+    "activeIngredients": [
+      "bha",
+      "niacinamid"
+    ],
+    "concentrations": {
+      "bha": "2 % (kyselina salicylová)"
+    },
+    "inci": "Water, Methylpropanediol, Butylene Glycol, Salicylic Acid, Polysorbate 20, Camellia Oleifera Leaf Extract, Sodium Hydroxide, Tetrasodium EDTA.",
+    "howItWorks": [
+      {
+        "ingredient": "bha",
+        "text": "2 % kyseliny salicylové rozpustné v tuku pronikají do pórů, rozpouští maz a odumřelé buňky a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "20+",
+      "30+",
+      "mastná a smíšená pleť",
+      "ucpané a rozšířené póry",
+      "černé tečky",
+      "sklon k akné"
+    ],
+    "notSuitable": [
+      "Velmi suchá pleť",
+      "alergie na salicyláty",
+      "nekombinovat s retinoidem ve stejný večer"
+    ],
+    "scores": {
+      "quality": {
+        "score": 9,
+        "note": "Optimální pH a koncentrace, lehká tekutá textura bez zbytečností."
+      },
+      "potency": {
+        "score": 8,
+        "note": "2 % je účinná koncentrace pro domácí exfoliaci."
+      },
+      "evidence": {
+        "score": 8,
+        "note": "BHA má silné důkazy u akné a ucpaných pórů."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Etalon kategorie, který formát „BHA liquid\" zpopularizoval."
+      },
+      "value": {
+        "score": 8,
+        "note": "Vyšší objem za rozumnou cenu."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Pro mastnou pleť dobré; velmi suchá/citlivá může vysychat."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Referenční BHA exfoliant pro mastnou a aknózní pleť."
+      }
+    },
+    "strengths": [
+      "Optimální 2 % BHA při správném pH",
+      "Skvělé na póry a černé tečky",
+      "Lehká tekutá textura",
+      "Velký objem"
+    ],
+    "weaknesses": [
+      "Může vysoušet suchou pleť",
+      "Bez parfemace, ale obsahuje extrakt",
+      "Nutné SPF přes den"
+    ],
+    "recommendation": {
+      "yes": "Pro mastnou, smíšenou a aknózní pleť s ucpanými póry a černými tečkami.",
+      "no": "Pro velmi suchou nebo podrážděnou pleť — ta ocení jemnější PHA."
+    },
+    "alternatives": [
+      {
+        "slug": "the-ordinary-niacinamide",
+        "kind": "gentler",
+        "note": "Pokud chcete regulovat maz bez exfoliace."
+      }
+    ],
+    "compare": {
+      "items": [
+        "paulas-choice-2-bha"
+      ],
+      "dimensions": [
+        {
+          "name": "Typ",
+          "values": [
+            "BHA (salicylová) 2 %"
+          ]
+        },
+        {
+          "name": "Cíl",
+          "values": [
+            "póry, černé tečky, akné"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 800 Kč / 118 ml"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Tekutý exfoliant, který udělal z BHA běžnou součást rutin. Dvě procenta kyseliny salicylové při dobře nastaveném pH čistí póry zevnitř, zjemňují černé tečky a vyhlazují texturu. Pro mastnou a aknózní pleť patří mezi nejúčinnější dostupné produkty; suchá pleť ho ocení méně často nebo zvolí jemnější PHA."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jak často používat?",
+        "a": "Začněte 1–2× týdně večer a navyšujte podle tolerance."
+      },
+      {
+        "q": "AHA, nebo BHA?",
+        "a": "BHA do pórů (mastná/aknózní), AHA na povrch (jas, suchá/zralá)."
+      },
+      {
+        "q": "Můžu s retinolem?",
+        "a": "Ne ve stejný večer — střídejte ve dnech."
+      },
+      {
+        "q": "Potřebuji přes den SPF?",
+        "a": "Ano, exfoliace zvyšuje citlivost na slunce."
+      },
+      {
+        "q": "Pomůže na černé tečky?",
+        "a": "Ano, patří k nejúčinnějším domácím možnostem."
+      },
+      {
+        "q": "Vhodné na suchou pleť?",
+        "a": "Méně; může vysoušet. Zvažte PHA."
+      },
+      {
+        "q": "Můžu denně?",
+        "a": "Po adaptaci ano, pokud pleť snáší; jinak obden."
+      },
+      {
+        "q": "Pálí po něm pleť?",
+        "a": "Mírné štípání může nastat; při výrazném podráždění omezte frekvenci."
+      },
+      {
+        "q": "Můžu s niacinamidem?",
+        "a": "Ano, niacinamid pomáhá obnovit bariéru."
+      },
+      {
+        "q": "Kam v rutině patří?",
+        "a": "Po čištění na suchou pleť, před hydratací."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Arif T. — Salicylic acid as a peeling agent",
+        "journal": "Clin Cosmet Investig Dermatol",
+        "year": 2015,
+        "type": "review"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://www.paulaschoice.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "bha",
+        "niacinamid"
+      ],
+      "problems": [
+        "rozsirene-pory",
+        "textura"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ],
+      "terms": [
+        "exfoliace"
+      ]
+    }
+  },
+  {
+    "id": "prod-cerave-cream",
+    "slug": "cerave-moisturizing-cream",
+    "type": "product",
+    "name": "CeraVe Moisturizing Cream",
+    "updated": "2026-06-01",
+    "title": "CeraVe Moisturizing Cream: rozbor hydratačního krému | antiagelab.cz",
+    "metaDescription": "Odborný rozbor krému CeraVe Moisturizing Cream s ceramidy a hyaluronanem — obnova bariéry pro suchou a citlivou pleť. Hodnocení a FAQ.",
+    "h1": "CeraVe Moisturizing Cream",
+    "excerpt": "Bohatý krém s ceramidy a hyaluronanem pro obnovu bariéry. Dostupná klasika.",
+    "evidenceLevel": "strong",
+    "brand": "CeraVe",
+    "manufacturer": "CeraVe (L’Oréal)",
+    "category": "hydratace",
+    "productType": "hydratační krém s ceramidy",
+    "country": "USA",
+    "volume": "340 g",
+    "price": "cca 400 Kč",
+    "image": {
+      "src": "/assets/img/products/cerave-moisturizing-cream.svg",
+      "alt": "CeraVe Moisturizing Cream — ilustrace",
+      "type": "illustration",
+      "official": "https://www.cerave.com"
+    },
+    "activeIngredients": [
+      "ceramidy",
+      "kyselina-hyaluronova",
+      "niacinamid"
+    ],
+    "concentrations": {},
+    "inci": "Aqua, Glycerin, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Cetyl Alcohol, Ceramide NP, Ceramide AP, Ceramide EOP, Hyaluronic Acid, Cholesterol, Phytosphingosine, Dimethicone, Petrolatum, Niacinamide a další.",
+    "howItWorks": [
+      {
+        "ingredient": "ceramidy",
+        "text": "Tři typy ceramidů (NP, AP, EOP) doplňují lipidy bariéry a obnovují její funkci (technologie MVE pro postupné uvolňování)."
+      },
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu a zlepšuje hydrataci."
+      }
+    ],
+    "suitableFor": [
+      "Suchá a velmi suchá pleť",
+      "citlivá pleť",
+      "oslabená bariéra",
+      "podpora při retinizaci",
+      "celá rodina"
+    ],
+    "notSuitable": [
+      "Velmi mastná pleť se sklonem k ucpávání (bohatá textura)",
+      "kdo hledá aktivní anti-aging složení"
+    ],
+    "scores": {
+      "quality": {
+        "score": 8,
+        "note": "Promyšlená bariérová formulace (ceramidy + cholesterol + mastné kyseliny) za nízkou cenu."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Cílí na bariéru a hydrataci, ne na aktivní anti-aging."
+      },
+      "evidence": {
+        "score": 8,
+        "note": "Ceramidy a obnova bariéry mají dobré důkazy."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "MVE technologie pro postupné uvolňování složek."
+      },
+      "value": {
+        "score": 9,
+        "note": "Velké balení za nízkou cenu."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Bez parfemace, vhodné pro citlivou pleť."
+      },
+      "overall": {
+        "score": 8,
+        "note": "Vynikající základ péče — bariérový krém, který doplní jakoukoli rutinu."
+      }
+    },
+    "strengths": [
+      "Tři typy ceramidů + cholesterol",
+      "Bez parfemace",
+      "Skvělý poměr cena/objem",
+      "Vhodné pro citlivou pleť"
+    ],
+    "weaknesses": [
+      "Bohatá textura nemusí sedět mastné pleti",
+      "Obsahuje silikony/petrolatum (někomu vadí)",
+      "Není aktivní anti-aging"
+    ],
+    "recommendation": {
+      "yes": "Pro suchou a citlivou pleť a jako bariérový krém k aktivní rutině (např. večer po retinoidu).",
+      "no": "Pro mastnou pleť hledající lehkou texturu nebo aktivní složení."
+    },
+    "alternatives": [
+      {
+        "slug": "spf-50-denni",
+        "kind": "similar",
+        "note": "Ráno krém nahraďte SPF; CeraVe se hodí spíš večer."
+      }
+    ],
+    "compare": {
+      "items": [
+        "cerave-moisturizing-cream"
+      ],
+      "dimensions": [
+        {
+          "name": "Hlavní role",
+          "values": [
+            "obnova bariéry, hydratace"
+          ]
+        },
+        {
+          "name": "Textura",
+          "values": [
+            "bohatý krém"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 400 Kč / 340 g"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Bariérový krém, který se stal globální klasikou. Kombinuje tři typy ceramidů s cholesterolem a mastnými kyselinami v poměru blízkém kůži a doplňuje hyaluronan. Postupné uvolňování (MVE) prodlužuje hydrataci. Je to ideální „základ\" rutiny a horní vrstva sandwiche při zavádění retinoidů. Pro mastnou pleť může být textura příliš bohatá."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ráno, nebo večer?",
+        "a": "Kdykoli; ráno ho ale nenahrazujte za SPF, to je samostatný krok."
+      },
+      {
+        "q": "Vhodné pro mastnou pleť?",
+        "a": "Spíš ne — pro mastnou zvolte lehčí gel-krém."
+      },
+      {
+        "q": "Pomůže při retinizaci?",
+        "a": "Ano, výborně — posiluje bariéru a tlumí podráždění."
+      },
+      {
+        "q": "Je nekomedogenní?",
+        "a": "Pro většinu ano, ale bohatá textura nemusí sednout pleti se sklonem k ucpávání."
+      },
+      {
+        "q": "Obsahuje parfém?",
+        "a": "Ne, je bez parfemace."
+      },
+      {
+        "q": "Můžu na tělo i obličej?",
+        "a": "Ano, hodí se na obojí."
+      },
+      {
+        "q": "Vhodné pro děti/citlivou pleť?",
+        "a": "Ano, patří k oblíbeným u citlivé pleti."
+      },
+      {
+        "q": "Nahradí sérum?",
+        "a": "Ne, je to hydratační/bariérový krok, ne aktivní sérum."
+      },
+      {
+        "q": "Proč obsahuje petrolatum?",
+        "a": "Petrolatum je účinné okluzivum; mnohým vyhovuje, někomu textura nesedí."
+      },
+      {
+        "q": "Jak dlouho vydrží?",
+        "a": "Velké balení vydrží měsíce; sledujte dobu po otevření."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Spada F. et al. — Skin barrier and ceramides",
+        "journal": "Clin Cosmet Investig Dermatol",
+        "year": 2018,
+        "type": "review"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://www.cerave.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "ceramidy",
+        "kyselina-hyaluronova",
+        "niacinamid",
+        "retinol"
+      ],
+      "problems": [
+        "rosacea"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ],
+      "terms": [
+        "kozni-bariera"
+      ]
+    }
+  },
+  {
+    "id": "prod-lrp-anthelios",
+    "slug": "la-roche-posay-anthelios-uvmune-spf50",
+    "type": "product",
+    "name": "La Roche-Posay Anthelios UVMune 400 SPF50+",
+    "updated": "2026-06-01",
+    "title": "La Roche-Posay Anthelios UVMune 400 SPF50+: rozbor | antiagelab.cz",
+    "metaDescription": "Odborný rozbor opalovacího krému La Roche-Posay Anthelios UVMune 400 SPF50+ — široká UVA ochrana a komfortní textura. Hodnocení a FAQ.",
+    "h1": "La Roche-Posay Anthelios UVMune 400 SPF50+",
+    "excerpt": "Moderní SPF50+ s rozšířenou ochranou proti dlouhým UVA a komfortní texturou.",
+    "evidenceLevel": "strong",
+    "brand": "La Roche-Posay",
+    "manufacturer": "La Roche-Posay (L’Oréal)",
+    "category": "spf",
+    "productType": "denní opalovací krém",
+    "country": "Francie",
+    "volume": "50 ml",
+    "price": "cca 600 Kč",
+    "image": {
+      "src": "/assets/img/products/la-roche-posay-anthelios-uvmune-spf50.svg",
+      "alt": "La Roche-Posay Anthelios UVMune 400 SPF50+ — ilustrace",
+      "type": "illustration",
+      "official": "https://www.laroche-posay.com"
+    },
+    "activeIngredients": [],
+    "concentrations": {},
+    "inci": "Aqua, Homosalate, Ethylhexyl Salicylate, Glycerin, Butyl Methoxydibenzoylmethane, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Drometrizole Trisiloxane (filtr Mexoryl 400), Tocopherol a další.",
+    "howItWorks": [
+      {
+        "ingredient": "antioxidant",
+        "text": "Kombinace UV filtrů včetně Mexoryl 400 pokrývá i dlouhé UVA (až 400 nm), které pronikají hluboko a podílejí se na fotostárnutí."
+      }
+    ],
+    "suitableFor": [
+      "Všechny věkové skupiny",
+      "všechny typy pleti",
+      "prevence fotostárnutí a pigmentace",
+      "po aktivních látkách (retinoidy, kyseliny)"
+    ],
+    "notSuitable": [
+      "Alergie na konkrétní UV filtr",
+      "kdo preferuje výhradně minerální filtry"
+    ],
+    "scores": {
+      "quality": {
+        "score": 9,
+        "note": "Moderní filtrový systém s rozšířenou UVA ochranou a kosmeticky příjemnou texturou."
+      },
+      "potency": {
+        "score": 9,
+        "note": "SPF50+ a ochrana až do 400 nm patří k tomu nejlepšímu."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Denní SPF je nejlépe doložený anti-aging krok vůbec."
+      },
+      "innovation": {
+        "score": 9,
+        "note": "Filtr Mexoryl 400 cílí na dlouhé UVA, dlouho opomíjené."
+      },
+      "value": {
+        "score": 8,
+        "note": "Vyšší cena než drogerie, ale za špičkovou ochranu a komfort."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Dostupné i ve variantách pro citlivou pleť; chemické filtry vzácně dráždí."
+      },
+      "overall": {
+        "score": 9,
+        "note": "Jeden z nejlepších denních SPF — a SPF je nejúčinnější anti-aging."
+      }
+    },
+    "strengths": [
+      "Rozšířená ochrana proti dlouhým UVA (Mexoryl 400)",
+      "SPF50+",
+      "Komfortní textura, dobře se nosí denně",
+      "Více variant (fluid, krém, tónovaný)"
+    ],
+    "weaknesses": [
+      "Vyšší cena než drogerie",
+      "Chemické filtry nemusí vyhovovat zastáncům minerálních",
+      "Nutná reaplikace venku"
+    ],
+    "recommendation": {
+      "yes": "Pro každého — denní SPF je základ anti-agingu; tato řada patří ke špičce.",
+      "no": "Pro toho, kdo cíleně chce jen minerální (fyzikální) filtr."
+    },
+    "alternatives": [
+      {
+        "slug": "spf-50-denni",
+        "kind": "similar",
+        "note": "Obecná kategorie SPF 50 pro srovnání."
+      }
+    ],
+    "compare": {
+      "items": [
+        "la-roche-posay-anthelios-uvmune-spf50",
+        "spf-50-denni"
+      ],
+      "dimensions": [
+        {
+          "name": "Ochrana",
+          "values": [
+            "SPF50+, UVA do 400 nm",
+            "SPF 50, široké spektrum"
+          ]
+        },
+        {
+          "name": "Filtry",
+          "values": [
+            "chemické (vč. Mexoryl 400)",
+            "dle produktu"
+          ]
+        },
+        {
+          "name": "Cena",
+          "values": [
+            "cca 600 Kč",
+            "dle značky"
+          ]
+        }
+      ]
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Moderní opalovací krém, jehož filtr Mexoryl 400 cílí na dlouhé UVA paprsky (až 400 nm), které pronikají hluboko a významně přispívají k fotostárnutí a pigmentaci. Textura je na chemický SPF nezvykle příjemná, takže se dobře nosí každý den — a právě každodenní nošení rozhoduje. SPF je nejlépe doložený anti-aging krok vůbec."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Proč je důležitá ochrana do 400 nm?",
+        "a": "Dlouhé UVA pronikají hluboko, přispívají k vráskám a pigmentaci a procházejí i sklem."
+      },
+      {
+        "q": "Kolik krému nanést?",
+        "a": "Asi dva prsty délky produktu na obličej a krk."
+      },
+      {
+        "q": "Musím reaplikovat?",
+        "a": "Při pobytu venku ano, zhruba každé 2 hodiny."
+      },
+      {
+        "q": "Nosit i v zimě a v kanceláři?",
+        "a": "Ano, UVA prochází mraky i okny."
+      },
+      {
+        "q": "Je vhodný pod make-up?",
+        "a": "Ano, textura to obvykle umožňuje."
+      },
+      {
+        "q": "Chemický, nebo minerální?",
+        "a": "Tato řada je chemická; existují i minerální alternativy."
+      },
+      {
+        "q": "Vhodný pro citlivou pleť?",
+        "a": "Obvykle ano; pro velmi citlivou zvolte variantu pro citlivou pleť."
+      },
+      {
+        "q": "Můžu po retinolu?",
+        "a": "Ano, SPF je při používání retinoidů nezbytné."
+      },
+      {
+        "q": "Bělí pleť?",
+        "a": "Chemické filtry obvykle nezanechávají bílý nádech."
+      },
+      {
+        "q": "Nahradí denní krém?",
+        "a": "Může fungovat jako poslední hydratační+ochranný krok; suchá pleť přidá krém pod něj."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hughes MCB et al. — Sunscreen and prevention of skin aging",
+        "journal": "Ann Intern Med",
+        "year": 2013,
+        "type": "rct"
+      }
+    ],
+    "affiliate": [
+      {
+        "label": "Oficiální e-shop značky",
+        "url": "https://www.laroche-posay.com",
+        "disclosure": true
+      }
+    ],
+    "relations": {
+      "ingredients": [],
+      "problems": [
+        "pigmentace",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "normalni",
+        "citliva",
+        "mastna",
+        "sucha",
+        "smisena"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus",
+        "60-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ],
+      "studies": [
+        "hughes-2013-spf"
+      ]
     }
   }
 ]

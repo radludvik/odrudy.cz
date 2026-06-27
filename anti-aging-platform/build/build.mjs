@@ -317,11 +317,24 @@ function detailExtras(e) {
   if (e.type === 'product') {
     const rows = [];
     if (e.brand && e.brand !== '—') rows.push(['Značka', e.brand]);
-    if (e.category) rows.push(['Kategorie', e.category]);
-    if (e.price) rows.push(['Cena', e.price]);
+    if (e.manufacturer && e.manufacturer !== '—' && e.manufacturer !== e.brand) rows.push(['Výrobce', e.manufacturer]);
+    if (e.category) rows.push(['Kategorie', categoryLabel(e.category)]);
+    if (e.productType) rows.push(['Typ produktu', e.productType]);
+    if (e.country) rows.push(['Země původu', e.country]);
+    if (e.volume) rows.push(['Objem', e.volume]);
+    if (e.price) rows.push(['Doporučená cena', e.price]);
     if (e.usage) rows.push(['Doporučené použití', e.usage]);
     html += quickFacts(rows);
-    html += twoCol(listBlock('Výhody', e.pros), listBlock('Nevýhody', e.cons));
+    html += productDisclaimer();
+    html += activesBlock(e);
+    html += howItWorksBlock(e);
+    html += twoCol(listBlock('Pro koho je vhodný', e.suitableFor), listBlock('Kdy není vhodný', e.notSuitable || e.contraindications));
+    html += scorecardBlock(e);
+    html += twoCol(listBlock('Silné stránky', e.strengths || e.pros), listBlock('Slabé stránky', e.weaknesses || e.cons));
+    html += recommendationBlock(e);
+    html += alternativesBlock(e);
+    html += productCompareBlock(e);
+    html += inciBlock(e);
     if (e.affiliate?.length) html += affiliateBlock(e.affiliate);
   }
   if (e.type === 'procedure') {
@@ -398,6 +411,79 @@ function affiliateBlock(list) {
   return `<section class="section-block affiliate"><h3>Kde koupit</h3><div class="aff-row">${list
     .map((a) => `<a class="btn btn--primary" href="${attr(a.url)}" rel="nofollow sponsored noopener" target="_blank">${esc(a.label)} ↗</a>`).join('')}</div><p class="muted small">Odkazy mohou být affiliate — nákupem přes ně podpoříte provoz platformy bez vlivu na cenu.</p></section>`;
 }
+
+/* ---- Produktové bloky (odborná databáze) ---- */
+const PRODUCT_CATEGORIES = {
+  'sera': 'Séra', 'vitamin-c': 'Vitamin C séra', 'retinoly': 'Retinoidy', 'peptidy': 'Peptidová séra',
+  'spf': 'Opalovací krémy (SPF)', 'noeni-kremy': 'Noční krémy', 'ocni-kremy': 'Oční krémy',
+  'hydratace': 'Hydratační péče', 'exfolianty': 'Exfolianty', 'led-masky': 'LED masky',
+  'microcurrent': 'Microcurrent přístroje', 'radiofrekvence': 'RF zařízení', 'domaci-lasery': 'Domácí lasery', 'ems': 'EMS přístroje',
+};
+const SCORE_LABELS = { quality: 'Kvalita složení', potency: 'Síla aktivních látek', evidence: 'Vědecká podpora ingrediencí', innovation: 'Inovativnost formulace', value: 'Poměr cena/výkon', sensitive: 'Vhodnost pro citlivou pleť' };
+const ALT_KIND = { better: 'Lepší varianta', cheaper: 'Levnější varianta', stronger: 'Výkonnější varianta', gentler: 'Šetrnější varianta', similar: 'Podobná varianta' };
+
+function categoryLabel(c) { return PRODUCT_CATEGORIES[c] || c; }
+function productDisclaimer() {
+  return `<div class="callout callout--disclaimer"><p class="small"><strong>Redakční analýza.</strong> Tato stránka obsahuje redakční odbornou analýzu vytvořenou na základě veřejně dostupných informací o produktu, složení a vědeckých poznatků o použitých ingrediencích. Nejedná se o laboratorní test ani o osobní zkušenost redakce.</p></div>`;
+}
+function activesBlock(e) {
+  if (!e.activeIngredients || !e.activeIngredients.length) return '';
+  const conc = e.concentrations || {};
+  const items = e.activeIngredients.map((slug) => {
+    const it = bySlug.get(`ingredient:${slug}`);
+    const name = it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : esc(slug);
+    const c = conc[slug] ? ` <span class="muted">— ${esc(conc[slug])}</span>` : '';
+    return `<li>${name}${c}</li>`;
+  }).join('');
+  const note = (!e.concentrations || !Object.keys(e.concentrations).length) ? '<p class="muted small">Přesné koncentrace výrobce neuvádí — uvádíme pouze složení bez odhadů.</p>' : '';
+  return `<section class="section-block"><h2>Aktivní látky</h2><ul class="rich-list">${items}</ul>${note}</section>`;
+}
+function howItWorksBlock(e) {
+  if (!e.howItWorks || !e.howItWorks.length) return '';
+  const items = e.howItWorks.map((h) => {
+    const it = bySlug.get(`ingredient:${h.ingredient}`);
+    const name = it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : '';
+    return `<li>${name ? `<strong>${name}:</strong> ` : ''}${esc(h.text)}</li>`;
+  }).join('');
+  return `<section class="section-block"><h2>Jak funguje</h2><ul class="rich-list">${items}</ul></section>`;
+}
+function scorecardBlock(e) {
+  if (!e.scores) return '';
+  const s = e.scores;
+  const rows = Object.keys(SCORE_LABELS).filter((k) => s[k]).map((k) => {
+    const v = s[k];
+    return `<div class="score-row"><div class="score-top"><span class="score-label">${esc(SCORE_LABELS[k])}</span><span class="score-num">${v.score}/10</span></div><div class="score-bar"><span style="width:${Math.max(0, Math.min(10, v.score)) * 10}%"></span></div>${v.note ? `<p class="muted small score-note">${esc(v.note)}</p>` : ''}</div>`;
+  }).join('');
+  const o = s.overall;
+  const overall = o ? `<div class="score-overall"><span>Celkové redakční hodnocení</span><strong>${o.score}/10</strong></div>${o.note ? `<p class="muted small">${esc(o.note)}</p>` : ''}` : '';
+  return `<section class="section-block scorecard-wrap"><h2>Redakční odborné hodnocení</h2><p class="muted small">Hodnoceno podle jednotné metodiky z veřejně dostupných informací (0–10), každá osa je slovně zdůvodněna.</p>${overall}<div class="scorecard">${rows}</div></section>`;
+}
+function recommendationBlock(e) {
+  if (!e.recommendation) return '';
+  const r = e.recommendation;
+  return `<section class="section-block"><h2>Doporučení</h2><div class="two-col reco-grid">${r.yes ? `<div class="reco reco--yes"><h3>Komu doporučujeme</h3><p>${esc(r.yes)}</p></div>` : ''}${r.no ? `<div class="reco reco--no"><h3>Komu nedoporučujeme</h3><p>${esc(r.no)}</p></div>` : ''}</div></section>`;
+}
+function alternativesBlock(e) {
+  if (!e.alternatives || !e.alternatives.length) return '';
+  const items = e.alternatives.map((a) => {
+    const it = bySlug.get(`product:${a.slug}`);
+    const name = it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : esc(a.name || a.slug);
+    return `<div class="alt"><span class="alt-kind">${esc(ALT_KIND[a.kind] || a.kind)}</span><div class="alt-name">${name}</div>${a.note ? `<p class="muted small">${esc(a.note)}</p>` : ''}</div>`;
+  }).join('');
+  return `<section class="section-block"><h2>Alternativy</h2><div class="alt-grid">${items}</div></section>`;
+}
+function productCompareBlock(e) {
+  if (!e.compare || !e.compare.items || !e.compare.dimensions) return '';
+  const items = e.compare.items.map((s) => bySlug.get(`product:${s}`) || { name: s });
+  const head = ['Parametr', ...items.map((it) => it.slug ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : esc(it.name))];
+  const rows = e.compare.dimensions.map((d) => [d.name, ...d.values]);
+  return `<section class="section-block"><h2>Srovnání s podobnými produkty</h2><div class="table-wrap"><table class="compare"><thead><tr>${head.map((h) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows
+    .map((r) => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
+}
+function inciBlock(e) {
+  if (!e.inci) return '';
+  return `<section class="section-block"><details class="faq-item inci"><summary>Kompletní INCI složení</summary><div class="faq-a"><p class="small">${esc(e.inci)}</p></div></details></section>`;
+}
 function comparisonTable(e) {
   const items = e.items.map((slug) => bySlugLoose.get(slug)).filter(Boolean);
   const names = items.map((it) => it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : '');
@@ -435,11 +521,14 @@ function renderDetail(e) {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: e.faq.map((q) => ({ '@type': 'Question', name: q.q, acceptedAnswer: { '@type': 'Answer', text: q.a } })),
   } : null;
-  const pageLd = {
-    '@context': 'https://schema.org',
-    '@type': e.type === 'product' ? 'Product' : e.type === 'article' ? 'Article' : 'MedicalWebPage',
-    name: e.name, description: e.metaDescription, url: SITE.url + urlOf(e),
-  };
+  let pageLd;
+  if (e.type === 'product') {
+    pageLd = { '@context': 'https://schema.org', '@type': 'Product', name: e.name, description: e.metaDescription, url: SITE.url + urlOf(e), category: categoryLabel(e.category || '') };
+    if (e.brand && e.brand !== '—') pageLd.brand = { '@type': 'Brand', name: e.brand };
+    if (e.scores && e.scores.overall) pageLd.review = { '@type': 'Review', reviewRating: { '@type': 'Rating', ratingValue: e.scores.overall.score, bestRating: 10 }, author: { '@type': 'Organization', name: SITE.name }, reviewBody: e.scores.overall.note || e.excerpt || '' };
+  } else {
+    pageLd = { '@context': 'https://schema.org', '@type': e.type === 'article' ? 'Article' : 'MedicalWebPage', name: e.name, description: e.metaDescription, url: SITE.url + urlOf(e) };
+  }
 
   return layout({
     title: e.title || `${e.name} | ${SITE.name}`,
@@ -643,7 +732,7 @@ function exportToolData() {
   const data = {
     ingredients: entitiesByType('ingredient').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'indications', 'suitableSkinTypes', 'suitableAgeGroups', 'compatibility', 'concentrations']), problems: [...(e._rel.problem || [])] })),
     technologies: entitiesByType('technology').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'pros', 'cons']), problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
-    products: entitiesByType('product').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'category', 'price', 'pros', 'cons', 'activeIngredients']), problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
+    products: entitiesByType('product').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'category', 'price', 'activeIngredients']), pros: e.strengths || e.pros || [], cons: e.weaknesses || e.cons || [], problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
     problems: entitiesByType('problem').map((e) => slim(e, ['excerpt'])),
     skinTypes: entitiesByType('skinType').map((e) => slim(e, ['excerpt'])),
     ageGroups: entitiesByType('ageGroup').map((e) => slim(e, ['excerpt', 'decade'])),
