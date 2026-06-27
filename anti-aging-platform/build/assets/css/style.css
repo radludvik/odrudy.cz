@@ -348,6 +348,11 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .fy-step p{font-size:.88rem;color:var(--ink-soft);margin:0;line-height:1.55}
 .fy-muscle-illu{display:flex;justify-content:center;margin-bottom:10px}
 .fy-muscle-illu .fy-illu{max-width:170px}
+.fy-step-illu--photo{padding:0;overflow:hidden}
+.fy-step-photo{display:block;width:100%;height:auto;border-radius:var(--radius-sm)}
+.fy-muscle-illu--photo img{display:block;width:100%;max-width:230px;height:auto;border-radius:var(--radius-sm)}
+.fy-card-illu--photo{display:block;margin-bottom:10px}
+.fy-card-photo{display:block;width:100%;height:auto;border-radius:var(--radius-sm)}
 .fy-muscle-shape{fill:#dd8a76;opacity:.55;stroke:#c56f59;stroke-width:1}
 .fy-muscle-legend{display:flex;align-items:center;gap:9px;margin-bottom:6px}
 .fy-dot{width:11px;height:11px;border-radius:50%;background:#dd8a76;flex:none}

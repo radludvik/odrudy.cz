@@ -888,9 +888,13 @@ function renderFaceYoga(e) {
   const steps = e.steps || [];
   const phaseTitles = ['Výchozí pozice', 'Proveďte pohyb', 'Vydržte a uvolněte'];
   const phaseKeys = ['start', 'move', 'hold'];
+  const hasPhotos = Array.isArray(e.photos) && e.photos.length >= 3;
   const stepCards = [0, 1, 2].map((i) => {
     const text = i < 2 ? (steps[i] || steps[steps.length - 1]) : steps[steps.length - 1];
-    return `<div class="fy-step"><span class="fy-step-illu">${faceYogaSvg(e, { cls: 'fy-illu--step', phase: phaseKeys[i], animated: false })}<span class="fy-step-num">${i + 1}</span></span><h3>${esc(phaseTitles[i])}</h3><p>${esc(typeof text === 'string' ? text : text.step)}</p></div>`;
+    const visual = hasPhotos
+      ? `<img class="fy-step-photo" src="${attr(e.photos[i])}" alt="${attr(phaseTitles[i] + ' — ' + e.name)}" loading="lazy" width="340" height="382">`
+      : faceYogaSvg(e, { cls: 'fy-illu--step', phase: phaseKeys[i], animated: false });
+    return `<div class="fy-step"><span class="fy-step-illu${hasPhotos ? ' fy-step-illu--photo' : ''}">${visual}<span class="fy-step-num">${i + 1}</span></span><h3>${esc(phaseTitles[i])}</h3><p>${esc(typeof text === 'string' ? text : text.step)}</p></div>`;
   }).join('');
   const check = (items) => `<ul class="fy-list fy-list--check">${(items || []).map((x) => `<li><span class="fy-li-ic">${FYI.check}</span>${esc(x)}</li>`).join('')}</ul>`;
   const xlist = (items) => `<ul class="fy-list fy-list--x">${(items || []).map((x) => `<li><span class="fy-li-ic">${FYI.x}</span>${esc(x)}</li>`).join('')}</ul>`;
@@ -915,7 +919,7 @@ function renderFaceYoga(e) {
     </section>
     <section class="fy-cell fy-muscle">
       <span class="eyebrow">Zapojené svaly</span>
-      <div class="fy-muscle-illu">${faceMuscleSvg(il.zone)}</div>
+      <div class="fy-muscle-illu${e.muscleImg ? ' fy-muscle-illu--photo' : ''}">${e.muscleImg ? `<img src="${attr(e.muscleImg)}" alt="${attr('Zapojený sval: ' + muscle.name)}" loading="lazy">` : faceMuscleSvg(il.zone)}</div>
       <div class="fy-muscle-legend"><span class="fy-dot"></span><strong>${esc(muscle.name)}</strong></div>
       <p class="muted small">${esc(muscle.desc)}</p>
     </section>
@@ -1065,8 +1069,11 @@ const FY_AREAS = [
   ['usta', 'Ústa a nasolabální rýhy'], ['celist', 'Čelist a podbradek'], ['krk', 'Krk a dekolt'],
 ];
 function faceYogaCard(e) {
+  const thumb = (Array.isArray(e.photos) && e.photos.length)
+    ? `<img class="fy-card-photo" src="${attr(e.photos[0])}" alt="${attr(e.name)}" loading="lazy">`
+    : faceYogaSvg(e, 'fy-illu--sm');
   return `<a class="card fy-card" href="${urlOf(e)}" data-area="${attr(e.area || '')}">
-    <span class="fy-card-illu">${faceYogaSvg(e, 'fy-illu--sm')}</span>
+    <span class="fy-card-illu${(Array.isArray(e.photos) && e.photos.length) ? ' fy-card-illu--photo' : ''}">${thumb}</span>
     <span class="card-type">${esc(e.areaLabel || 'Obličejová jóga')}</span>
     <h3 class="card-title">${esc(e.name)}</h3>
     <p class="card-excerpt">${esc(e.excerpt || '')}</p>

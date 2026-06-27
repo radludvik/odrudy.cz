@@ -201,7 +201,13 @@
         "40-plus",
         "50-plus"
       ]
-    }
+    },
+    "photos": [
+      "/assets/img/face-yoga/prekvapeny-vyraz-s-odporem/step-1.jpg",
+      "/assets/img/face-yoga/prekvapeny-vyraz-s-odporem/step-2.jpg",
+      "/assets/img/face-yoga/prekvapeny-vyraz-s-odporem/step-3.jpg"
+    ],
+    "muscleImg": "/assets/img/face-yoga/prekvapeny-vyraz-s-odporem/muscle.jpg"
   },
   {
     "id": "faceYoga:krouziva-masaz-cela",
