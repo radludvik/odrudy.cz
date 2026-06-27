@@ -317,6 +317,71 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .fy-card-illu{display:flex;justify-content:center;margin-bottom:6px}
 .fy-group{margin-bottom:34px}
 .fy-group-h{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:18px}
+.fy-illu--static .fy-zone,.fy-illu--static .fy-arrow,.fy-illu--static .fy-circle,.fy-illu--static .fy-point{animation:none}
+.fy-illu--static .fy-zone{opacity:.32}
+
+/* ---------- Obličejová jóga: detail (magazínový layout) ---------- */
+.fy-sheet{max-width:1180px;margin:0 auto;padding:8px 0 56px}
+.fy-band{display:grid;gap:0;border:1px solid var(--line);border-radius:var(--radius);background:#fff;margin-bottom:22px;overflow:hidden}
+.fy-band--top{grid-template-columns:0.95fr 1.5fr 0.9fr}
+.fy-band--mid{grid-template-columns:repeat(4,1fr)}
+.fy-band--low{grid-template-columns:1fr 1fr}
+.fy-cell{padding:26px 28px;border-left:1px solid var(--line)}
+.fy-band>.fy-cell:first-child{border-left:none}
+.fy-cell .eyebrow{display:block;margin-bottom:14px}
+.fy-intro h1{font-size:2.3rem;line-height:1.1;margin:.1rem 0 .5rem}
+.fy-sub{color:var(--ink-soft);font-size:1.02rem;margin:0 0 18px}
+.fy-desc{color:var(--ink-soft);margin:18px 0 0;font-size:.95rem;line-height:1.6}
+.fy-stats{display:flex;gap:12px;flex-wrap:wrap}
+.fy-stat{display:flex;align-items:center;gap:11px;border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 16px;background:var(--porcelain)}
+.fy-stat-ic{width:24px;height:24px;color:var(--gold-deep);flex:none}
+.fy-stat-ic svg{width:100%;height:100%}
+.fy-stat-tx{display:flex;flex-direction:column;line-height:1.25}
+.fy-stat-l{font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.fy-stat-tx strong{font-size:.95rem;color:var(--ink)}
+.fy-step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.fy-step{display:flex;flex-direction:column}
+.fy-step-illu{position:relative;background:radial-gradient(120% 100% at 50% 0,#fff,var(--ivory));border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px;margin-bottom:12px;display:flex;justify-content:center}
+.fy-step-illu .fy-illu{max-width:120px}
+.fy-step-num{position:absolute;top:10px;left:10px;width:26px;height:26px;border-radius:50%;background:var(--gold-deep);color:#fff;font-size:.82rem;font-weight:600;display:flex;align-items:center;justify-content:center}
+.fy-step h3{font-size:1.02rem;margin:0 0 .35rem}
+.fy-step p{font-size:.88rem;color:var(--ink-soft);margin:0;line-height:1.55}
+.fy-muscle-illu{display:flex;justify-content:center;margin-bottom:10px}
+.fy-muscle-illu .fy-illu{max-width:170px}
+.fy-muscle-shape{fill:#dd8a76;opacity:.55;stroke:#c56f59;stroke-width:1}
+.fy-muscle-legend{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+.fy-dot{width:11px;height:11px;border-radius:50%;background:#dd8a76;flex:none}
+.fy-muscle-legend strong{font-size:.95rem}
+.fy-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+.fy-list li{display:flex;gap:10px;align-items:flex-start;font-size:.92rem;line-height:1.45}
+.fy-li-ic{width:20px;height:20px;flex:none;margin-top:1px}
+.fy-li-ic svg{width:100%;height:100%}
+.fy-list--check .fy-li-ic{color:var(--gold-deep)}
+.fy-list--x{color:var(--ink-soft)}
+.fy-list--x .fy-li-ic{color:var(--ink-soft);opacity:.7}
+.fy-icontext{display:flex;gap:12px;align-items:flex-start}
+.fy-it-ic{width:26px;height:26px;flex:none;color:var(--gold-deep)}
+.fy-it-ic svg{width:100%;height:100%}
+.fy-icontext p{margin:0;font-size:.92rem;color:var(--ink-soft);line-height:1.55}
+.fy-stars{font-size:1.5rem;color:var(--gold);letter-spacing:2px;margin:0 0 .2rem}
+.fy-stars .stars{color:var(--gold)}
+.fy-ev-word{display:block;font-size:1.05rem;margin:0 0 .5rem}
+.fy-anim{display:flex;flex-direction:column}
+.fy-anim-illu{display:flex;justify-content:center;background:radial-gradient(120% 100% at 50% 0,#fff,var(--ivory));border:1px solid var(--line);border-radius:var(--radius-sm);padding:18px;margin-bottom:14px}
+.fy-anim-illu .fy-illu{max-width:260px}
+.fy-play .fy-it-ic{color:var(--gold-deep)}
+.fy-combine-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.fy-combine-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;padding:16px 10px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--porcelain);color:var(--ink)}
+.fy-combine-item:hover{border-color:var(--gold);color:var(--ink)}
+.fy-combine-ic{width:42px;height:42px;color:var(--gold-deep)}
+.fy-combine-ic svg{width:100%;height:100%}
+.fy-combine-item strong{font-size:.95rem}
+.fy-note{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--line);border-radius:var(--radius);background:var(--porcelain);padding:18px 22px}
+.fy-note strong{display:block;margin-bottom:3px;letter-spacing:.04em;text-transform:uppercase;font-size:.74rem;color:var(--gold-deep)}
+.fy-note p{margin:0}
+.fy-related{max-width:1180px;margin:26px auto 0}
+@media(max-width:1000px){.fy-band--top{grid-template-columns:1fr}.fy-band--mid{grid-template-columns:1fr 1fr}.fy-cell{border-left:none;border-top:1px solid var(--line)}.fy-band>.fy-cell:first-child{border-top:none}}
+@media(max-width:640px){.fy-band--mid,.fy-band--low,.fy-combine-grid{grid-template-columns:1fr}.fy-step-grid{grid-template-columns:repeat(3,1fr)}.fy-intro h1{font-size:1.9rem}}
 
 /* ---------- Produktový filtr ---------- */
 .filterbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;align-items:end;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:18px}
