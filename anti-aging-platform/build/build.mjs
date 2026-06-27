@@ -700,32 +700,63 @@ function suppProducts(e) {
 
 /* ---- Obličejová jóga: animovaný SVG náčrtek (bez fotek/videí) ---- */
 const FY_GOLD = 'var(--gold-deep,#b8893a)';
+// Souřadnice partií v prostoru portrétu (viewBox 0 0 300 360)
 const FY_ZONES = {
-  celo: [{ cx: 100, cy: 64, rx: 42, ry: 15 }],
-  oboci: [{ cx: 100, cy: 90, rx: 18, ry: 9 }],
-  oci: [{ cx: 75, cy: 116, rx: 18, ry: 9 }, { cx: 125, cy: 116, rx: 18, ry: 9 }],
-  tvare: [{ cx: 68, cy: 132, rx: 16, ry: 15 }, { cx: 132, cy: 132, rx: 16, ry: 15 }],
-  usta: [{ cx: 100, cy: 152, rx: 28, ry: 16 }],
-  celist: [{ cx: 62, cy: 150, rx: 15, ry: 13 }, { cx: 138, cy: 150, rx: 15, ry: 13 }],
-  podbradek: [{ cx: 100, cy: 196, rx: 26, ry: 12 }],
-  krk: [{ cx: 100, cy: 216, rx: 26, ry: 18 }],
+  celo: [{ cx: 150, cy: 100, rx: 40, ry: 16 }],
+  oboci: [{ cx: 150, cy: 124, rx: 14, ry: 8 }],
+  oci: [{ cx: 127, cy: 142, rx: 20, ry: 11 }, { cx: 173, cy: 142, rx: 20, ry: 11 }],
+  tvare: [{ cx: 122, cy: 172, rx: 17, ry: 16 }, { cx: 178, cy: 172, rx: 17, ry: 16 }],
+  usta: [{ cx: 150, cy: 196, rx: 26, ry: 14 }],
+  celist: [{ cx: 118, cy: 212, rx: 15, ry: 13 }, { cx: 182, cy: 212, rx: 15, ry: 13 }],
+  podbradek: [{ cx: 150, cy: 232, rx: 24, ry: 11 }],
+  krk: [{ cx: 150, cy: 265, rx: 24, ry: 22 }],
 };
-function faceBasePaths(color = FY_GOLD, op = 0.85) {
-  return `<g fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="${op}">
-<path d="M100 26 C64 26 48 56 48 100 C48 150 66 196 100 200 C134 196 152 150 152 100 C152 56 136 26 100 26 Z"/>
-<path d="M48 96 C41 94 39 105 46 111"/><path d="M152 96 C159 94 161 105 154 111"/>
-<path d="M62 90 Q75 84 90 91"/><path d="M110 91 Q125 84 138 90"/>
-<path d="M64 104 Q75 97 86 104 Q75 111 64 104 Z"/><path d="M114 104 Q125 97 136 104 Q125 111 114 104 Z"/>
-<circle cx="75" cy="104" r="2.4" fill="${color}" stroke="none"/><circle cx="125" cy="104" r="2.4" fill="${color}" stroke="none"/>
-<path d="M100 106 L96 133 Q100 139 104 133"/>
-<path d="M84 152 Q100 145 116 152 Q100 162 84 152 Z"/><path d="M84 152 Q100 156 116 152"/>
-<path d="M80 200 L78 236"/><path d="M120 200 L122 236"/>
-<path d="M58 246 C72 236 84 234 100 234 C116 234 128 236 142 246"/></g>`;
-}
-const FY_FACE = faceBasePaths();
+const FY_LINE = '#8a6f57', FY_LIP = '#c98f7e';
+// Realistický editorial portrét (jednotné defs s pevnými id — identické napříč SVG)
+const FY_DEFS = `<defs>
+<linearGradient id="fySkin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6ddc4"/><stop offset="1" stop-color="#e6c0a0"/></linearGradient>
+<linearGradient id="fyHair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c79c63"/><stop offset="1" stop-color="#9c7641"/></linearGradient>
+<radialGradient id="fyBlush" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e9b59c" stop-opacity="0.6"/><stop offset="1" stop-color="#e9b59c" stop-opacity="0"/></radialGradient>
+<linearGradient id="fyHand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6ddc4"/><stop offset="1" stop-color="#ecc6a6"/></linearGradient>
+</defs>`;
+const FY_PORTRAIT = `
+<path d="M150 36 C96 36 64 78 64 150 C64 210 70 268 84 320 L116 320 C100 270 96 220 100 176 C150 150 150 150 200 176 C204 220 200 270 184 320 L216 320 C230 268 236 210 236 150 C236 78 204 36 150 36 Z" fill="url(#fyHair)"/>
+<path d="M126 224 L122 288 C122 300 136 306 150 306 C164 306 178 300 178 288 L174 224 Z" fill="url(#fySkin)" stroke="${FY_LINE}" stroke-width="1.4"/>
+<path d="M128 250 C140 262 160 262 172 250" fill="none" stroke="${FY_LINE}" stroke-width="1" opacity="0.5"/>
+<path d="M60 352 C84 312 110 298 150 298 C190 298 216 312 240 352" fill="none" stroke="${FY_LINE}" stroke-width="1.4"/>
+<path d="M150 64 C110 64 92 96 92 142 C92 190 110 226 150 238 C190 226 208 190 208 142 C208 96 190 64 150 64 Z" fill="url(#fySkin)" stroke="${FY_LINE}" stroke-width="1.5"/>
+<path d="M92 146 C84 144 82 156 90 162" fill="url(#fySkin)" stroke="${FY_LINE}" stroke-width="1.3"/>
+<path d="M208 146 C216 144 218 156 210 162" fill="url(#fySkin)" stroke="${FY_LINE}" stroke-width="1.3"/>
+<path d="M92 142 C90 100 108 60 150 56 C192 60 210 100 208 142 C206 120 196 92 168 84 C160 100 140 100 132 84 C104 92 94 120 92 142 Z" fill="url(#fyHair)"/>
+<ellipse cx="118" cy="170" rx="16" ry="11" fill="url(#fyBlush)"/><ellipse cx="182" cy="170" rx="16" ry="11" fill="url(#fyBlush)"/>
+<path d="M110 128 Q126 119 144 126" fill="none" stroke="${FY_LINE}" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M156 126 Q174 119 190 128" fill="none" stroke="${FY_LINE}" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M112 142 Q126 132 142 142 Q126 150 112 142 Z" fill="#fff" stroke="${FY_LINE}" stroke-width="1.5"/>
+<path d="M158 142 Q174 132 188 142 Q174 150 158 142 Z" fill="#fff" stroke="${FY_LINE}" stroke-width="1.5"/>
+<circle cx="127" cy="142" r="4.4" fill="#6b4f3a"/><circle cx="173" cy="142" r="4.4" fill="#6b4f3a"/>
+<path d="M112 142 Q126 131 142 141" fill="none" stroke="${FY_LINE}" stroke-width="2" stroke-linecap="round"/>
+<path d="M158 141 Q174 131 188 142" fill="none" stroke="${FY_LINE}" stroke-width="2" stroke-linecap="round"/>
+<path d="M150 146 L144 176 Q150 182 156 176" fill="none" stroke="${FY_LINE}" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M134 196 Q142 189 150 193 Q158 189 166 196 Q158 203 150 203 Q142 203 134 196 Z" fill="${FY_LIP}" stroke="${FY_LINE}" stroke-width="1.2"/>
+<path d="M134 196 Q150 199 166 196" fill="none" stroke="${FY_LINE}" stroke-width="1"/>`;
 const fyN = (n) => (+n).toFixed(1);
+// Ruce
+function fyHbar(x1, x2, y, t) { const r = t / 2; return `<rect x="${fyN(Math.min(x1, x2))}" y="${fyN(y - r)}" width="${fyN(Math.abs(x2 - x1))}" height="${t}" rx="${r}" fill="url(#fyHand)" stroke="${FY_LINE}" stroke-width="1.2"/>`; }
+function fyVf(x, yBase, L, t) { const r = t / 2; return `<rect x="${fyN(x - r)}" y="${fyN(yBase - L)}" width="${t}" height="${fyN(L)}" rx="${r}" fill="url(#fyHand)" stroke="${FY_LINE}" stroke-width="1.2"/>`; }
+function fyPalm(cx, cy, rx, ry, rot = 0) { return `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" transform="rotate(${rot} ${cx} ${cy})" fill="url(#fyHand)" stroke="${FY_LINE}" stroke-width="1.3"/>`; }
+function fySide(palmX, palmY, reachX, ys, t, rot) { let s = fyPalm(palmX, palmY, 16, 21, rot); for (const y of ys) s += fyHbar(palmX, reachX, y, t); return s; }
+const FY_POSE = {
+  celo: () => fySide(92, 114, 150, [104, 114, 124], 7, 12) + fySide(208, 114, 150, [104, 114, 124], 7, -12),
+  oboci: () => fySide(92, 120, 150, [114, 124], 7, 10) + fySide(208, 120, 150, [114, 124], 7, -10),
+  oci: () => fySide(90, 140, 120, [136, 146], 6.5, 6) + fySide(210, 140, 180, [136, 146], 6.5, -6),
+  tvare: () => fySide(88, 176, 126, [168, 178, 188], 7, 4) + fySide(212, 176, 174, [168, 178, 188], 7, -4),
+  usta: () => fySide(92, 196, 134, [193, 201], 6.5, 4) + fySide(208, 196, 166, [193, 201], 6.5, -4),
+  celist: () => fyPalm(116, 256, 16, 20, -6) + fyPalm(184, 256, 16, 20, 6) + fyVf(112, 234, 28, 7) + fyVf(126, 236, 26, 7) + fyVf(174, 236, 26, 7) + fyVf(188, 234, 28, 7),
+  podbradek: () => fyPalm(150, 300, 28, 22, 0) + fyHbar(130, 170, 242, 9) + fyHbar(132, 168, 252, 9),
+  krk: () => fyPalm(150, 320, 30, 20, 0) + fyVf(132, 304, 42, 7) + fyVf(144, 300, 46, 7) + fyVf(156, 300, 46, 7) + fyVf(168, 304, 42, 7),
+};
 function fyArrow(x1, y1, x2, y2) {
-  const a = Math.atan2(y2 - y1, x2 - x1), h = 6.5, w = 0.5;
+  const a = Math.atan2(y2 - y1, x2 - x1), h = 8, w = 0.5;
   const hx1 = x2 - h * Math.cos(a - w), hy1 = y2 - h * Math.sin(a - w);
   const hx2 = x2 - h * Math.cos(a + w), hy2 = y2 - h * Math.sin(a + w);
   return `<path class="fy-arrow" d="M${fyN(x1)} ${fyN(y1)} L${fyN(x2)} ${fyN(y2)}"/><path class="fy-head" d="M${fyN(hx1)} ${fyN(hy1)} L${fyN(x2)} ${fyN(y2)} L${fyN(hx2)} ${fyN(hy2)}"/>`;
@@ -734,74 +765,61 @@ function fyMotion(zoneKey, move) {
   const centers = FY_ZONES[zoneKey] || FY_ZONES.tvare;
   let out = '';
   for (const c of centers) {
-    const sign = c.cx < 97 ? -1 : c.cx > 103 ? 1 : 0; // 0 = central
+    const sign = c.cx < 147 ? -1 : c.cx > 153 ? 1 : 0;
     const central = sign === 0;
-    if (move === 'up') out += fyArrow(c.cx, c.cy + c.ry + 13, c.cx, c.cy - c.ry - 13);
-    else if (move === 'down') out += fyArrow(c.cx, c.cy - c.ry - 9, c.cx, c.cy + c.ry + 17);
+    if (move === 'up') out += fyArrow(c.cx, c.cy + c.ry + 16, c.cx, c.cy - c.ry - 16);
+    else if (move === 'down') out += fyArrow(c.cx, c.cy - c.ry - 11, c.cx, c.cy + c.ry + 22);
     else if (move === 'out') {
-      if (central) { out += fyArrow(c.cx - c.rx, c.cy, c.cx - c.rx - 20, c.cy); out += fyArrow(c.cx + c.rx, c.cy, c.cx + c.rx + 20, c.cy); }
-      else out += fyArrow(c.cx + sign * c.rx, c.cy, c.cx + sign * (c.rx + 22), c.cy);
+      if (central) { out += fyArrow(c.cx - c.rx, c.cy, c.cx - c.rx - 26, c.cy); out += fyArrow(c.cx + c.rx, c.cy, c.cx + c.rx + 26, c.cy); }
+      else out += fyArrow(c.cx + sign * c.rx, c.cy, c.cx + sign * (c.rx + 28), c.cy);
     } else if (move === 'in') {
-      if (central) { out += fyArrow(c.cx - c.rx - 20, c.cy, c.cx - c.rx - 2, c.cy); out += fyArrow(c.cx + c.rx + 20, c.cy, c.cx + c.rx + 2, c.cy); }
-      else out += fyArrow(c.cx + sign * (c.rx + 22), c.cy, c.cx + sign * (c.rx + 2), c.cy);
+      if (central) { out += fyArrow(c.cx - c.rx - 26, c.cy, c.cx - c.rx - 3, c.cy); out += fyArrow(c.cx + c.rx + 26, c.cy, c.cx + c.rx + 3, c.cy); }
+      else out += fyArrow(c.cx + sign * (c.rx + 28), c.cy, c.cx + sign * (c.rx + 3), c.cy);
     } else if (move === 'smile') {
-      out += fyArrow(c.cx - 22, c.cy + 6, c.cx - 31, c.cy - 11);
-      out += fyArrow(c.cx + 22, c.cy + 6, c.cx + 31, c.cy - 11);
+      out += fyArrow(c.cx - 26, c.cy + 8, c.cx - 38, c.cy - 14);
+      out += fyArrow(c.cx + 26, c.cy + 8, c.cx + 38, c.cy - 14);
     } else if (move === 'circle') {
-      const r = Math.max(c.rx, c.ry) + 9;
+      const r = Math.max(c.rx, c.ry) + 11;
       out += `<circle class="fy-circle" cx="${c.cx}" cy="${c.cy}" r="${fyN(r)}" fill="none"/>`;
-      out += fyArrow(c.cx + r - 0.1, c.cy - 4, c.cx + r + 0.1, c.cy + 4);
+      out += fyArrow(c.cx + r - 0.1, c.cy - 5, c.cx + r + 0.1, c.cy + 5);
     } else if (move === 'pulse') {
-      const r0 = Math.max(c.rx, c.ry) - 2;
-      out += `<circle cx="${c.cx}" cy="${c.cy}" r="${fyN(r0)}" fill="none" stroke="${FY_GOLD}" class="fy-ringline"><animate attributeName="r" from="${fyN(r0)}" to="${fyN(r0 + 16)}" dur="1.9s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.65" to="0" dur="1.9s" repeatCount="indefinite"/></circle>`;
-      out += `<circle cx="${c.cx}" cy="${c.cy}" r="${fyN(r0)}" fill="none" stroke="${FY_GOLD}" class="fy-ringline"><animate attributeName="r" from="${fyN(r0)}" to="${fyN(r0 + 16)}" dur="1.9s" begin="0.95s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.65" to="0" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></circle>`;
+      const r0 = Math.max(c.rx, c.ry);
+      for (const b of ['0s', '0.95s']) out += `<circle cx="${c.cx}" cy="${c.cy}" r="${fyN(r0)}" fill="none" stroke="${FY_GOLD}" class="fy-ringline"><animate attributeName="r" from="${fyN(r0)}" to="${fyN(r0 + 20)}" dur="1.9s" begin="${b}" repeatCount="indefinite"/><animate attributeName="opacity" from="0.65" to="0" dur="1.9s" begin="${b}" repeatCount="indefinite"/></circle>`;
     } else if (move === 'press') {
-      out += `<circle class="fy-point" cx="${c.cx}" cy="${c.cy}" r="4" fill="${FY_GOLD}" stroke="none"/>`;
-      out += fyArrow(c.cx, c.cy - c.ry - 14, c.cx, c.cy - c.ry - 3);
+      out += fyArrow(c.cx, c.cy - c.ry - 20, c.cx, c.cy - c.ry - 5);
     }
   }
   return out;
 }
-function fyPoints(zoneKey, n) {
-  if (!n) return '';
-  const centers = FY_ZONES[zoneKey] || [];
-  return centers.slice(0, n).map((c) => `<circle class="fy-point" cx="${c.cx}" cy="${fyN(c.cy - c.ry - 6)}" r="3.4" fill="${FY_GOLD}" stroke="none"/>`).join('');
-}
-function fyHandPoints(zoneKey) {
-  const centers = FY_ZONES[zoneKey] || [];
-  return centers.map((c) => `<circle class="fy-point" cx="${c.cx}" cy="${fyN(c.cy)}" r="4" fill="${FY_GOLD}" stroke="none"/>`).join('');
-}
-// phase: 'full' (zone+motion+points), 'start' (hands placed), 'move' (zone+arrows), 'hold' (zone+points)
+// phase: 'start' (portrét+ruce) · 'move' (+partie+šipky) · 'hold' (+partie) · 'anim' (partie+šipky, bez rukou)
 function faceYogaSvg(e, opts = {}) {
   if (typeof opts === 'string') opts = { cls: opts };
-  const { cls = '', phase = 'full', animated = true } = opts;
+  const { cls = '', phase = 'hold', animated = true } = opts;
   const il = e.illu || {};
+  const hands = phase !== 'anim' ? (FY_POSE[il.zone] ? FY_POSE[il.zone]() : '') : '';
   const showZone = phase !== 'start';
-  const showMotion = phase === 'full' || phase === 'move';
+  const showArrows = phase === 'move' || phase === 'anim';
   const zones = showZone ? (FY_ZONES[il.zone] || []).map((c) => `<ellipse class="fy-zone" cx="${c.cx}" cy="${c.cy}" rx="${c.rx}" ry="${c.ry}"/>`).join('') : '';
-  const motion = showMotion ? fyMotion(il.zone, il.move) : '';
-  const points = phase === 'full' ? fyPoints(il.zone, il.move === 'press' ? 0 : il.points)
-    : (phase === 'start' || phase === 'hold') ? fyHandPoints(il.zone) : '';
-  const title = esc(`Náčrtek cviku: ${e.name}`);
+  const motion = showArrows ? fyMotion(il.zone, il.move) : '';
+  const title = esc(`Ilustrace cviku: ${e.name}`);
   const klass = `fy-illu ${cls}${animated ? '' : ' fy-illu--static'}`.trim();
-  return `<svg class="${klass}" viewBox="0 0 200 256" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg"><title>${title}</title>${zones}${FY_FACE}${motion}${points}</svg>`;
+  return `<svg class="${klass}" viewBox="0 0 300 360" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg"><title>${title}</title>${FY_DEFS}${FY_PORTRAIT}${zones}${motion}${hands}</svg>`;
 }
 
-/* Zapojené svaly — anatomický náčrtek se zvýrazněním svalu */
+/* Zapojené svaly — portrét se zvýrazněním svalu (korálově) */
 const FY_MUSCLE = {
-  celo: { name: 'Frontalis (čelní sval)', desc: 'Zvedá obočí a vytváří vodorovné vrásky na čele.', shape: '<rect x="60" y="48" width="32" height="34" rx="14"/><rect x="108" y="48" width="32" height="34" rx="14"/>' },
-  oboci: { name: 'Corrugator a procerus (mračicí svaly)', desc: 'Stahují obočí k sobě a tvoří svislou „lví" vrásku.', shape: '<rect x="92" y="78" width="16" height="20" rx="6"/><ellipse cx="84" cy="88" rx="6" ry="8"/><ellipse cx="116" cy="88" rx="6" ry="8"/>' },
-  oci: { name: 'Orbicularis oculi (kruhový oční sval)', desc: 'Zavírá víčka a podílí se na vějířcích v koutcích očí.', shape: '<ellipse cx="75" cy="106" rx="21" ry="15"/><ellipse cx="125" cy="106" rx="21" ry="15"/>' },
-  tvare: { name: 'Zygomatické svaly (lícní svaly)', desc: 'Zvedají koutky úst a tváře při úsměvu.', shape: '<ellipse cx="72" cy="128" rx="12" ry="22" transform="rotate(24 72 128)"/><ellipse cx="128" cy="128" rx="12" ry="22" transform="rotate(-24 128 128)"/>' },
-  usta: { name: 'Orbicularis oris (kruhový sval ústní)', desc: 'Obkružuje ústa a řídí mimiku rtů.', shape: '<ellipse cx="100" cy="152" rx="26" ry="17"/>' },
-  celist: { name: 'Masseter (žvýkací sval)', desc: 'Mohutný sval podél čelisti; ovlivňuje její linii a napětí.', shape: '<ellipse cx="64" cy="148" rx="12" ry="20" transform="rotate(18 64 148)"/><ellipse cx="136" cy="148" rx="12" ry="20" transform="rotate(-18 136 148)"/>' },
-  podbradek: { name: 'Suprahyoidní svaly a platysma', desc: 'Svaly dna úst a krku, které formují linii podbradku.', shape: '<ellipse cx="100" cy="194" rx="26" ry="13"/>' },
-  krk: { name: 'Platysma (krční sval)', desc: 'Plochý krční sval ovlivňující přední stranu krku a čelist.', shape: '<rect x="76" y="196" width="48" height="40" rx="12"/>' },
+  celo: { name: 'Frontalis (čelní sval)', desc: 'Zvedá obočí a vytváří vodorovné vrásky na čele.', shape: '<rect x="112" y="84" width="28" height="36" rx="13"/><rect x="160" y="84" width="28" height="36" rx="13"/>' },
+  oboci: { name: 'Corrugator a procerus (mračicí svaly)', desc: 'Stahují obočí k sobě a tvoří svislou „lví" vrásku.', shape: '<rect x="142" y="116" width="16" height="22" rx="6"/><ellipse cx="132" cy="126" rx="6" ry="9"/><ellipse cx="168" cy="126" rx="6" ry="9"/>' },
+  oci: { name: 'Orbicularis oculi (kruhový oční sval)', desc: 'Zavírá víčka a podílí se na vějířcích v koutcích očí.', shape: '<ellipse cx="127" cy="142" rx="22" ry="15"/><ellipse cx="173" cy="142" rx="22" ry="15"/>' },
+  tvare: { name: 'Zygomatické svaly (lícní svaly)', desc: 'Zvedají koutky úst a tváře při úsměvu.', shape: '<ellipse cx="120" cy="168" rx="12" ry="24" transform="rotate(26 120 168)"/><ellipse cx="180" cy="168" rx="12" ry="24" transform="rotate(-26 180 168)"/>' },
+  usta: { name: 'Orbicularis oris (kruhový sval ústní)', desc: 'Obkružuje ústa a řídí mimiku rtů.', shape: '<ellipse cx="150" cy="196" rx="26" ry="17"/>' },
+  celist: { name: 'Masseter (žvýkací sval)', desc: 'Mohutný sval podél čelisti; ovlivňuje její linii a napětí.', shape: '<ellipse cx="112" cy="200" rx="12" ry="24" transform="rotate(20 112 200)"/><ellipse cx="188" cy="200" rx="12" ry="24" transform="rotate(-20 188 200)"/>' },
+  podbradek: { name: 'Suprahyoidní svaly a platysma', desc: 'Svaly dna úst a krku, které formují linii podbradku.', shape: '<ellipse cx="150" cy="230" rx="26" ry="13"/>' },
+  krk: { name: 'Platysma (krční sval)', desc: 'Plochý krční sval ovlivňující přední stranu krku a čelist.', shape: '<rect x="124" y="240" width="52" height="46" rx="14"/>' },
 };
 function faceMuscleSvg(zoneKey) {
   const m = FY_MUSCLE[zoneKey] || FY_MUSCLE.celo;
-  const muscle = `<g class="fy-muscle-shape">${m.shape}</g>`;
-  return `<svg class="fy-illu" viewBox="0 0 200 256" role="img" aria-label="${esc('Zapojený sval: ' + m.name)}" xmlns="http://www.w3.org/2000/svg"><title>${esc(m.name)}</title>${muscle}${faceBasePaths('var(--ink-soft,#7a7468)', 0.7)}</svg>`;
+  return `<svg class="fy-illu" viewBox="0 0 300 360" role="img" aria-label="${esc('Zapojený sval: ' + m.name)}" xmlns="http://www.w3.org/2000/svg"><title>${esc(m.name)}</title>${FY_DEFS}${FY_PORTRAIT}<g class="fy-muscle-shape">${m.shape}</g></svg>`;
 }
 
 /* Malé ikony pro layout (clock/refresh/check/x/calendar/play/info/kombinace) */
@@ -911,7 +929,7 @@ function renderFaceYoga(e) {
   <div class="fy-band fy-band--low">
     <section class="fy-cell fy-anim">
       <span class="eyebrow">Animace cviku</span>
-      <div class="fy-anim-illu">${faceYogaSvg(e, { cls: 'fy-illu--anim', phase: 'full', animated: true })}</div>
+      <div class="fy-anim-illu">${faceYogaSvg(e, { cls: 'fy-illu--anim', phase: 'anim', animated: true })}</div>
       <div class="fy-icontext fy-play"><span class="fy-it-ic">${FYI.play}</span><p>Sledujte pohyb: ${esc(FY_MOVE_HINT[il.move] || 'sledujte směr šipek')}.</p></div>
     </section>
     <section class="fy-cell fy-combine">
