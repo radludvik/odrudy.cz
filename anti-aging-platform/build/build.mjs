@@ -43,6 +43,7 @@ const TYPES = {
   problem:    { base: '/pece-podle-problemu/',     one: 'Problém',     many: 'Péče podle problému', relKey: 'problems',   icon: 'target'},
   ageGroup:   { base: '/pece-podle-veku/',         one: 'Věk',         many: 'Péče podle věku',   relKey: 'ageGroups',    icon: 'clock' },
   routine:    { base: '/rutiny/',                  one: 'Rutina',      many: 'Rutiny',            relKey: 'routines',     icon: 'list'  },
+  faceYoga:   { base: '/oblicejova-joga/',         one: 'Cvik obličejové jógy', many: 'Obličejová jóga', relKey: 'faceYoga', icon: 'face' },
   comparison: { base: '/porovnani/',               one: 'Porovnání',   many: 'Porovnání',         relKey: 'comparisons',  icon: 'scale' },
   term:       { base: '/slovnik/',                 one: 'Pojem',       many: 'Slovník pojmů',     relKey: 'terms',        icon: 'book'  },
   article:    { base: '/clanky/',                  one: 'Článek',      many: 'Magazín',           relKey: 'articles',     icon: 'pen'   },
@@ -192,6 +193,7 @@ const NAV = [
     { label: 'Podle typu pleti', href: '/pece-podle-typu-pleti/' },
     { label: 'Podle problému', href: '/pece-podle-problemu/' },
     { label: 'Rutiny', href: '/rutiny/' },
+    { label: 'Obličejová jóga', href: '/oblicejova-joga/' },
   ]},
   { label: 'Studie', href: '/studie/' },
   { label: 'Magazín', href: '/clanky/' },
@@ -263,7 +265,7 @@ ${body}
       <p class="muted">${esc(SITE.description)}</p>
     </div>
     <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li></ul></div>
-    <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
+    <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/oblicejova-joga/">Obličejová jóga</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
     <div><h4>Nástroje</h4><ul><li><a href="/nastroje/poradce/">Anti-aging poradce</a></li><li><a href="/nastroje/builder-rutiny/">Builder rutiny</a></li><li><a href="/nastroje/kompatibilita/">Kompatibilita látek</a></li><li><a href="/nastroje/vyhledavac-ingredienci/">Vyhledávač ingrediencí</a></li></ul></div>
   </div>
   <div class="container footer-legal">
@@ -404,6 +406,22 @@ function detailExtras(e) {
   }
   if (e.type === 'problem') {
     html += listBlock('Příčiny', e.causes);
+  }
+  if (e.type === 'faceYoga') {
+    html += `<section class="section-block fy-detail"><div class="fy-illu-wrap">${faceYogaSvg(e, 'fy-illu--lg')}<p class="muted small fy-legend">Zlatě zvýrazněná je procvičovaná partie; <span class="fy-legend-arrow">šipky</span> ukazují směr pohybu. Náčrtek je animovaný — nepotřebujete žádné video.</p></div></section>`;
+    const rows = [];
+    if (e.areaLabel) rows.push(['Partie', e.areaLabel]);
+    if (e.reps) rows.push(['Opakování', e.reps]);
+    if (e.frequency) rows.push(['Frekvence', e.frequency]);
+    if (e.duration) rows.push(['Doba cvičení', e.duration]);
+    html += quickFacts(rows);
+    html += listBlock('Na co cvik cílí', e.targets);
+    if (e.steps?.length) html += `<section class="section-block"><h2>Postup krok za krokem</h2><ol class="steps">${e.steps.map((s) => `<li>${esc(typeof s === 'string' ? s : s.step)}</li>`).join('')}</ol></section>`;
+    if (e.tip) html += `<div class="callout callout--accent"><strong>Tip:</strong> <p>${esc(e.tip)}</p></div>`;
+    if (e.mistake) html += `<div class="callout callout--disclaimer"><strong>Častá chyba:</strong> <p>${esc(e.mistake)}</p></div>`;
+    if (e.caution && e.caution !== '—') html += `<div class="callout"><strong>Kdy být opatrný:</strong> <p>${esc(e.caution)}</p></div>`;
+    html += listBlock('Přínosy', e.benefits);
+    html += `<div class="callout callout--disclaimer"><p class="small"><strong>Co čekat realisticky.</strong> Obličejová jóga má zatím omezenou vědeckou oporu — jedna randomizovaná studie (Alam, 2018) zaznamenala po 20 týdnech mírné zlepšení plnosti tváří. Berte cviky jako příjemný doplněk dobré péče, hydratace a hlavně SPF, ne jako náhradu prokázaných postupů. Klíčová je pravidelnost a jemnost.</p></div>`;
   }
   if (e.type === 'routine' && e.steps?.length) {
     html += `<section class="section-block"><h2>Kroky rutiny</h2><ol class="steps">${e.steps
@@ -696,6 +714,79 @@ function suppProducts(e) {
   return `<section class="section-block"><h2>Doporučené přípravky</h2><p class="muted small">Přípravky jsou poslední vrstvou — nejdřív pochopte látku a důkazy, pak vybírejte konkrétní produkt. Tipy podle účelu:</p><div class="picks">${cards}</div><h3>Všechny přípravky v databázi</h3><div class="chips">${all}</div></section>`;
 }
 
+/* ---- Obličejová jóga: animovaný SVG náčrtek (bez fotek/videí) ---- */
+const FY_GOLD = 'var(--gold-deep,#b8893a)';
+const FY_ZONES = {
+  celo: [{ cx: 100, cy: 64, rx: 42, ry: 15 }],
+  oboci: [{ cx: 100, cy: 90, rx: 18, ry: 9 }],
+  oci: [{ cx: 75, cy: 116, rx: 18, ry: 9 }, { cx: 125, cy: 116, rx: 18, ry: 9 }],
+  tvare: [{ cx: 68, cy: 132, rx: 16, ry: 15 }, { cx: 132, cy: 132, rx: 16, ry: 15 }],
+  usta: [{ cx: 100, cy: 152, rx: 28, ry: 16 }],
+  celist: [{ cx: 62, cy: 150, rx: 15, ry: 13 }, { cx: 138, cy: 150, rx: 15, ry: 13 }],
+  podbradek: [{ cx: 100, cy: 196, rx: 26, ry: 12 }],
+  krk: [{ cx: 100, cy: 216, rx: 26, ry: 18 }],
+};
+const FY_FACE = `<g fill="none" stroke="${FY_GOLD}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+<path d="M100 26 C64 26 48 56 48 100 C48 150 66 196 100 200 C134 196 152 150 152 100 C152 56 136 26 100 26 Z"/>
+<path d="M48 96 C41 94 39 105 46 111"/><path d="M152 96 C159 94 161 105 154 111"/>
+<path d="M62 90 Q75 84 90 91"/><path d="M110 91 Q125 84 138 90"/>
+<path d="M64 104 Q75 97 86 104 Q75 111 64 104 Z"/><path d="M114 104 Q125 97 136 104 Q125 111 114 104 Z"/>
+<circle cx="75" cy="104" r="2.4" fill="${FY_GOLD}" stroke="none"/><circle cx="125" cy="104" r="2.4" fill="${FY_GOLD}" stroke="none"/>
+<path d="M100 106 L96 133 Q100 139 104 133"/>
+<path d="M84 152 Q100 145 116 152 Q100 162 84 152 Z"/><path d="M84 152 Q100 156 116 152"/>
+<path d="M80 200 L78 236"/><path d="M120 200 L122 236"/>
+<path d="M58 246 C72 236 84 234 100 234 C116 234 128 236 142 246"/></g>`;
+const fyN = (n) => (+n).toFixed(1);
+function fyArrow(x1, y1, x2, y2) {
+  const a = Math.atan2(y2 - y1, x2 - x1), h = 6.5, w = 0.5;
+  const hx1 = x2 - h * Math.cos(a - w), hy1 = y2 - h * Math.sin(a - w);
+  const hx2 = x2 - h * Math.cos(a + w), hy2 = y2 - h * Math.sin(a + w);
+  return `<path class="fy-arrow" d="M${fyN(x1)} ${fyN(y1)} L${fyN(x2)} ${fyN(y2)}"/><path class="fy-head" d="M${fyN(hx1)} ${fyN(hy1)} L${fyN(x2)} ${fyN(y2)} L${fyN(hx2)} ${fyN(hy2)}"/>`;
+}
+function fyMotion(zoneKey, move) {
+  const centers = FY_ZONES[zoneKey] || FY_ZONES.tvare;
+  let out = '';
+  for (const c of centers) {
+    const sign = c.cx < 97 ? -1 : c.cx > 103 ? 1 : 0; // 0 = central
+    const central = sign === 0;
+    if (move === 'up') out += fyArrow(c.cx, c.cy + c.ry + 13, c.cx, c.cy - c.ry - 13);
+    else if (move === 'down') out += fyArrow(c.cx, c.cy - c.ry - 9, c.cx, c.cy + c.ry + 17);
+    else if (move === 'out') {
+      if (central) { out += fyArrow(c.cx - c.rx, c.cy, c.cx - c.rx - 20, c.cy); out += fyArrow(c.cx + c.rx, c.cy, c.cx + c.rx + 20, c.cy); }
+      else out += fyArrow(c.cx + sign * c.rx, c.cy, c.cx + sign * (c.rx + 22), c.cy);
+    } else if (move === 'in') {
+      if (central) { out += fyArrow(c.cx - c.rx - 20, c.cy, c.cx - c.rx - 2, c.cy); out += fyArrow(c.cx + c.rx + 20, c.cy, c.cx + c.rx + 2, c.cy); }
+      else out += fyArrow(c.cx + sign * (c.rx + 22), c.cy, c.cx + sign * (c.rx + 2), c.cy);
+    } else if (move === 'smile') {
+      out += fyArrow(c.cx - 22, c.cy + 6, c.cx - 31, c.cy - 11);
+      out += fyArrow(c.cx + 22, c.cy + 6, c.cx + 31, c.cy - 11);
+    } else if (move === 'circle') {
+      const r = Math.max(c.rx, c.ry) + 9;
+      out += `<circle class="fy-circle" cx="${c.cx}" cy="${c.cy}" r="${fyN(r)}" fill="none"/>`;
+      out += fyArrow(c.cx + r - 0.1, c.cy - 4, c.cx + r + 0.1, c.cy + 4);
+    } else if (move === 'pulse') {
+      const r0 = Math.max(c.rx, c.ry) - 2;
+      out += `<circle cx="${c.cx}" cy="${c.cy}" r="${fyN(r0)}" fill="none" stroke="${FY_GOLD}" class="fy-ringline"><animate attributeName="r" from="${fyN(r0)}" to="${fyN(r0 + 16)}" dur="1.9s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.65" to="0" dur="1.9s" repeatCount="indefinite"/></circle>`;
+      out += `<circle cx="${c.cx}" cy="${c.cy}" r="${fyN(r0)}" fill="none" stroke="${FY_GOLD}" class="fy-ringline"><animate attributeName="r" from="${fyN(r0)}" to="${fyN(r0 + 16)}" dur="1.9s" begin="0.95s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.65" to="0" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></circle>`;
+    } else if (move === 'press') {
+      out += `<circle class="fy-point" cx="${c.cx}" cy="${c.cy}" r="4" fill="${FY_GOLD}" stroke="none"/>`;
+      out += fyArrow(c.cx, c.cy - c.ry - 14, c.cx, c.cy - c.ry - 3);
+    }
+  }
+  return out;
+}
+function fyPoints(zoneKey, n) {
+  if (!n) return '';
+  const centers = FY_ZONES[zoneKey] || [];
+  return centers.slice(0, n).map((c) => `<circle class="fy-point" cx="${c.cx}" cy="${fyN(c.cy - c.ry - 6)}" r="3.4" fill="${FY_GOLD}" stroke="none"/>`).join('');
+}
+function faceYogaSvg(e, cls = '') {
+  const il = e.illu || {};
+  const zones = (FY_ZONES[il.zone] || []).map((c) => `<ellipse class="fy-zone" cx="${c.cx}" cy="${c.cy}" rx="${c.rx}" ry="${c.ry}"/>`).join('');
+  const title = esc(`Náčrtek cviku: ${e.name}`);
+  return `<svg class="fy-illu ${cls}" viewBox="0 0 200 256" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg"><title>${title}</title>${zones}${FY_FACE}${fyMotion(il.zone, il.move)}${fyPoints(il.zone, il.move === 'press' ? 0 : il.points)}</svg>`;
+}
+
 function comparisonTable(e) {
   const items = e.items.map((slug) => bySlugLoose.get(slug)).filter(Boolean);
   const names = items.map((it) => it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : '');
@@ -781,7 +872,9 @@ function renderListing(type) {
       ? techListingInner(items)
       : type === 'supplement'
         ? supplementListingInner(items)
-        : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
+        : type === 'faceYoga'
+          ? faceYogaListingInner(items)
+          : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
@@ -795,8 +888,41 @@ function renderListing(type) {
     description: listingIntro(type),
     canonical: tc.base,
     breadcrumbTrail: trail,
-    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : ''),
+    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : type === 'faceYoga' ? '<script src="/assets/js/face-yoga-finder.js" defer></script>' : ''),
   });
+}
+
+/* ---- Obličejová jóga: landing s náčrtky a výběrem partie ---- */
+const FY_AREAS = [
+  ['celo', 'Čelo a vrásky mezi obočím'], ['oci', 'Oční okolí'], ['tvare', 'Tváře a lícní kosti'],
+  ['usta', 'Ústa a nasolabální rýhy'], ['celist', 'Čelist a podbradek'], ['krk', 'Krk a dekolt'],
+];
+function faceYogaCard(e) {
+  return `<a class="card fy-card" href="${urlOf(e)}" data-area="${attr(e.area || '')}">
+    <span class="fy-card-illu">${faceYogaSvg(e, 'fy-illu--sm')}</span>
+    <span class="card-type">${esc(e.areaLabel || 'Obličejová jóga')}</span>
+    <h3 class="card-title">${esc(e.name)}</h3>
+    <p class="card-excerpt">${esc(e.excerpt || '')}</p>
+    <span class="card-foot"><span class="muted small">${esc(e.frequency || '')}</span><span class="card-arrow">→</span></span>
+  </a>`;
+}
+function faceYogaListingInner(items) {
+  const btns = FY_AREAS.map(([v, l]) => `<button type="button" class="opt" data-area="${v}">${esc(l)}</button>`).join('');
+  const intro = `<div class="callout callout--accent supp-intro"><p><strong>Poctivě o účincích.</strong> Obličejová jóga má zatím omezenou vědeckou oporu (jedna randomizovaná studie, Alam 2018, ukázala po 20 týdnech mírné zlepšení plnosti tváří). Cviky jsou příjemným doplňkem péče, prokrvení a relaxace — ne náhradou SPF a prokázaných postupů. U každého cviku najdete animovaný náčrtek, takže nepotřebujete žádné video.</p></div>`;
+  const guide = `<div class="tech-finder" id="fyFinder">
+    <span class="eyebrow">Vyberte partii</span>
+    <h2>Co chcete procvičit?</h2>
+    <div class="opts" id="fyAreas">${btns}</div>
+    <p class="muted small" id="fyHint">Vyberte partii obličeje a zobrazíme nejúčinnější cviky pro ni.</p>
+  </div>`;
+  // seskupení podle partií
+  let groups = '';
+  for (const [v, l] of FY_AREAS) {
+    const inArea = items.filter((e) => e.area === v);
+    if (!inArea.length) continue;
+    groups += `<div class="fy-group" data-area-group="${v}"><h2 class="fy-group-h">${esc(l)} <span class="muted small">· ${inArea.length} cviků</span></h2><div class="card-grid">${inArea.map(faceYogaCard).join('')}</div></div>`;
+  }
+  return intro + guide + `<div id="fyGroups">${groups}</div>`;
 }
 
 /* ---- Doplňky stravy: landing s evidencí a průvodcem „Co chcete podpořit?" ---- */
@@ -925,6 +1051,7 @@ function listingIntro(type) {
     problem: 'Péče podle konkrétního problému — od jemných vrásek po pigmentaci.',
     ageGroup: 'Doporučení podle věku — co má v které dekádě největší smysl.',
     routine: 'Hotové rutiny krok za krokem, propojené s ingrediencemi a produkty.',
+    faceYoga: 'Obličejová jóga: nejúčinnější cviky na každou partii s animovanými náčrtky, postupem a poctivým pohledem na důkazy. Bez nutnosti videa.',
     comparison: 'Přehledná porovnání nejčastějších voleb v anti-agingu.',
     term: 'Encyklopedie odborných pojmů srozumitelně vysvětlených.',
     article: 'Odborný magazín — dlouhodobě hodnotné články propojené s celou databází.',

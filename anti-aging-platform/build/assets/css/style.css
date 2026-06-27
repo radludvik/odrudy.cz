@@ -296,6 +296,28 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .legal-row p{margin:0;color:var(--ink-soft)}
 .legal-disclaimer{margin:16px 0 0;padding:12px 14px;background:var(--porcelain);border-radius:var(--radius-sm);color:var(--ink-soft);font-style:italic}
 
+/* ---------- Obličejová jóga: animované náčrtky ---------- */
+.fy-illu{display:block;width:100%;height:auto}
+.fy-illu--lg{max-width:300px;margin:0 auto}
+.fy-illu--sm{max-width:120px}
+.fy-illu-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;background:radial-gradient(120% 100% at 50% 0,#fff,var(--ivory));border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.fy-legend{max-width:420px;text-align:center;margin:0}
+.fy-legend-arrow{color:var(--gold-deep);font-weight:600}
+.fy-zone{fill:var(--gold,#c9a35a);opacity:.28;transform-origin:center;animation:fyZone 2.6s ease-in-out infinite}
+@keyframes fyZone{0%,100%{opacity:.20}50%{opacity:.46}}
+.fy-arrow{fill:none;stroke:var(--gold-deep,#b8893a);stroke-width:2.6;stroke-linecap:round;stroke-dasharray:7 7;animation:fyFlow 1s linear infinite}
+.fy-head{fill:none;stroke:var(--gold-deep,#b8893a);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+@keyframes fyFlow{to{stroke-dashoffset:-14}}
+.fy-circle{stroke:var(--gold-deep,#b8893a);stroke-width:2.6;stroke-linecap:round;stroke-dasharray:7 7;animation:fyFlow 1s linear infinite}
+.fy-ringline{stroke-width:2.4}
+.fy-point{animation:fyPoint 1.6s ease-in-out infinite;transform-origin:center}
+@keyframes fyPoint{0%,100%{opacity:.55}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.fy-zone,.fy-arrow,.fy-circle,.fy-point{animation:none}.fy-zone{opacity:.34}}
+.fy-card{display:flex;flex-direction:column}
+.fy-card-illu{display:flex;justify-content:center;margin-bottom:6px}
+.fy-group{margin-bottom:34px}
+.fy-group-h{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:18px}
+
 /* ---------- Produktový filtr ---------- */
 .filterbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;align-items:end;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:18px}
 .filter-field{display:flex;flex-direction:column;gap:6px}
