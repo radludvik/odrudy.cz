@@ -492,12 +492,42 @@ function detailExtras(e) {
     html += quickFacts(rows);
     if (e.practicalTakeaway) html += `<div class="callout callout--accent"><strong>Praktický závěr:</strong> <p>${esc(e.practicalTakeaway)}</p></div>`;
   }
+  if (e.type === 'ageGroup') {
+    const g = e.guide || {};
+    const facts = [];
+    if (e.decade) facts.push(['Dekáda', e.decade]);
+    if (e.focus) facts.push(['Hlavní zaměření', e.focus]);
+    html += quickFacts(facts);
+    if (g.whatsHappening) html += `<section class="section-block"><h2>Co se v pleti děje</h2><p>${esc(g.whatsHappening)}</p></section>`;
+    html += listBlock('Priority péče v této dekádě', g.priorities);
+    html += careRoutine(g.am, g.pm);
+    html += listBlock('Na co se zaměřit', g.focusActives);
+    html += listBlock('Čemu se vyhnout', g.avoid);
+    if (g.expectations) html += careCallout('accent', 'Realistická očekávání', g.expectations);
+    if (g.whenPro) html += careCallout('', 'Kdy zvážit odborníka', g.whenPro);
+  }
   if (e.type === 'skinType') {
+    const g = e.guide || {};
+    html += listBlock('Jak ji poznáte', g.howToTell);
     html += twoCol(listBlock('Charakteristika', e.characteristics), listBlock('Čemu se vyhnout', e.avoid));
-    if (e.routineHints) html += `<div class="callout callout--accent"><strong>Tip na rutinu:</strong> <p>${esc(e.routineHints)}</p></div>`;
+    html += listBlock('Cíle péče', g.goals);
+    html += listBlock('Nejvhodnější látky', g.bestActives);
+    html += careRoutine(g.am, g.pm);
+    html += listBlock('Časté chyby', g.mistakes);
+    if (e.routineHints) html += careCallout('accent', 'Tip na rutinu', e.routineHints);
+    if (g.note) html += careCallout('', 'Důležité', g.note);
   }
   if (e.type === 'problem') {
+    const g = e.guide || {};
+    const facts = []; if (e.area) facts.push(['Typicky se objevuje', e.area]);
+    if (g.whatIsIt) html += `<section class="section-block"><h2>Co to je</h2><p>${esc(g.whatIsIt)}</p></section>`;
+    html += quickFacts(facts);
     html += listBlock('Příčiny', e.causes);
+    html += whatHelpsBlock(g.whatHelps);
+    html += careRoutine(g.am, g.pm);
+    if (g.expectations) html += careCallout('accent', 'Realistická očekávání', g.expectations);
+    html += listBlock('Prevence', g.prevention);
+    if (g.whenPro) html += careCallout('', 'Kdy vyhledat lékaře', g.whenPro);
   }
   if (e.type === 'routine' && e.steps?.length) {
     html += `<section class="section-block"><h2>Kroky rutiny</h2><ol class="steps">${e.steps
@@ -530,6 +560,22 @@ function listBlock(title, items) {
 function twoCol(a, b) {
   if (!a && !b) return '';
   return `<div class="two-col">${a}${b}</div>`;
+}
+/* ---- Péče (věk / typ pleti / problém): bloky detailního návodu ---- */
+function careCallout(variant, title, text) {
+  if (!text) return '';
+  return `<div class="callout${variant ? ' callout--' + variant : ''}"><strong>${esc(title)}:</strong> <p>${esc(text)}</p></div>`;
+}
+function careRoutine(am, pm) {
+  const col = (title, steps) => (steps && steps.length) ? `<div class="care-col"><h3>${title}</h3><ol class="steps">${steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol></div>` : '';
+  const a = col('Ranní rutina', am), p = col('Večerní rutina', pm);
+  if (!a && !p) return '';
+  return `<section class="section-block"><h2>Rutina krok za krokem</h2><div class="two-col">${a}${p}</div></section>`;
+}
+function whatHelpsBlock(arr) {
+  if (!arr || !arr.length) return '';
+  const items = arr.map((x, i) => `<div class="help-row"><span class="help-rank">${i + 1}</span><div><strong>${esc(x.label)}</strong>${x.note ? `<p class="muted small">${esc(x.note)}</p>` : ''}</div></div>`).join('');
+  return `<section class="section-block"><h2>Co s tím — podle síly důkazů</h2><p class="muted small">Seřazeno přibližně podle síly důkazů a praktického přínosu. Detaily a zdroje najdete na stránkách jednotlivých látek a technologií.</p><div class="help-list">${items}</div></section>`;
 }
 function compatibilityBlock(list) {
   const lvl = { good: ['Vhodné', 'ok'], caution: ['Opatrně', 'warn'], avoid: ['Nekombinovat', 'bad'] };

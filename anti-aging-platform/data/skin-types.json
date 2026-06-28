@@ -1,116 +1,617 @@
 [
   {
-    "id": "skin-sucha", "slug": "sucha", "type": "skinType", "name": "Suchá pleť",
+    "id": "skin-sucha",
+    "slug": "sucha",
+    "type": "skinType",
+    "name": "Suchá pleť",
     "title": "Anti-aging pro suchou pleť: rutina a ingredience | antiagelab.cz",
     "metaDescription": "Suchá pleť potřebuje hydrataci a podporu bariéry. Které ingredience, technologie a rutina jí svědčí.",
-    "h1": "Péče o suchou pleť", "excerpt": "Chybí jí lipidy i voda. Klíčem je hydratace, ceramidy a šetrné aktivní látky.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "characteristics": ["Pocit napnutí", "Olupování", "Matnost", "Jemné vrásky se zvýrazňují"],
-    "avoid": ["Agresivní mycí gely", "Vysoké koncentrace kyselin naráz", "Alkoholové tonika"],
-    "routineHints": "Jemné čištění, hydratační séra na vlhkou pleť, bohatší krém, večer šetrný retinoid s hydratační vrstvou.",
-    "image": { "src": "/assets/img/skin-types/sucha.svg", "alt": "Suchá pleť — schéma", "type": "illustration" },
-    "body": [
-      { "h2": "Co suché pleti pomáhá" },
-      { "p": "Cílem je doplnit vodu i lipidy a posílit bariéru. Aktivní látky zavádějte pomalu a vždy s dostatečnou hydratací." },
-      { "note": "Ceramidy a hyaluronová kyselina mají dobré důkazy pro hydrataci a bariéru.", "evidence": "moderate" }
+    "h1": "Péče o suchou pleť",
+    "excerpt": "Chybí jí lipidy i voda. Klíčem je hydratace, ceramidy a šetrné aktivní látky.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "characteristics": [
+      "Pocit napnutí",
+      "Olupování",
+      "Matnost",
+      "Jemné vrásky se zvýrazňují"
     ],
-    "faq": [ { "q": "Můžu mít suchou pleť a používat retinol?", "a": "Ano, opatrně: nízká koncentrace, metoda sandwich, dostatek hydratace." } ],
+    "avoid": [
+      "Agresivní mycí gely",
+      "Vysoké koncentrace kyselin naráz",
+      "Alkoholové tonika"
+    ],
+    "routineHints": "Jemné čištění, hydratační séra na vlhkou pleť, bohatší krém, večer šetrný retinoid s hydratační vrstvou.",
+    "image": {
+      "src": "/assets/img/skin-types/sucha.svg",
+      "alt": "Suchá pleť — schéma",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Co suché pleti pomáhá"
+      },
+      {
+        "p": "Cílem je doplnit vodu i lipidy a posílit bariéru. Aktivní látky zavádějte pomalu a vždy s dostatečnou hydratací."
+      },
+      {
+        "note": "Ceramidy a hyaluronová kyselina mají dobré důkazy pro hydrataci a bariéru.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Můžu mít suchou pleť a používat retinol?",
+        "a": "Ano, opatrně: nízká koncentrace, metoda sandwich, dostatek hydratace."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["kyselina-hyaluronova", "bakuchiol", "niacinamid", "peptidy"], "problems": ["jemne-vrasky"], "ageGroups": ["30-plus", "40-plus"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova",
+        "bakuchiol",
+        "niacinamid",
+        "peptidy"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "howToTell": [
+        "Pocit napnutí po umytí",
+        "Olupování a šupinky",
+        "Matný vzhled",
+        "Vrásky se zdají výraznější"
+      ],
+      "goals": [
+        "Doplnit vodu i lipidy",
+        "Posílit a chránit bariéru",
+        "Zabránit ztrátě vlhkosti"
+      ],
+      "bestActives": [
+        "Kyselina hyaluronová (humektant)",
+        "Ceramidy a skvalan (lipidy a bariéra)",
+        "Glycerin, panthenol",
+        "Šetrný retinoid až po zvládnutí hydratace"
+      ],
+      "am": [
+        "Jemné krémové čištění nebo jen voda",
+        "Hydratační sérum (HA) na vlhkou pleť",
+        "Bohatší krém s ceramidy",
+        "SPF 50"
+      ],
+      "pm": [
+        "Šetrné odlíčení",
+        "Hydratační vrstva, poté výživný krém",
+        "Retinoid pomalu a v sendviči s krémem"
+      ],
+      "mistakes": [
+        "Mytí horkou vodou a agresivními gely",
+        "Nanášení séra na úplně suchou pleť",
+        "Vynechávání lipidové (krémové) vrstvy"
+      ]
+    }
   },
   {
-    "id": "skin-citliva", "slug": "citliva", "type": "skinType", "name": "Citlivá pleť",
+    "id": "skin-citliva",
+    "slug": "citliva",
+    "type": "skinType",
+    "name": "Citlivá pleť",
     "title": "Anti-aging pro citlivou pleť: jak nedráždit | antiagelab.cz",
     "metaDescription": "Citlivá pleť reaguje zarudnutím a štípáním. Které jemné, ale účinné látky volit a čemu se vyhnout.",
-    "h1": "Péče o citlivou pleť", "excerpt": "Reaguje snadno zarudnutím. Potřebuje jemné, ale účinné látky a posílení bariéry.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "characteristics": ["Zarudnutí", "Štípání po aktivních látkách", "Náchylnost k podráždění"],
-    "avoid": ["Vysoké koncentrace kyselin", "Parfemace", "Příliš rychlé zavádění retinoidů"],
-    "routineHints": "Minimalistická rutina, niacinamid a azelaová kyselina, bakuchiol místo retinolu, vždy SPF.",
-    "image": { "src": "/assets/img/skin-types/citliva.svg", "alt": "Citlivá pleť — schéma", "type": "illustration" },
-    "body": [
-      { "h2": "Méně je více" },
-      { "p": "U citlivé pleti vyhrává jednoduchost. Zaměřte se na bariéru a přidávejte jednu aktivní látku po druhé." },
-      { "note": "Niacinamid a azelaová kyselina jsou dobře snášené a doložené.", "evidence": "strong" }
+    "h1": "Péče o citlivou pleť",
+    "excerpt": "Reaguje snadno zarudnutím. Potřebuje jemné, ale účinné látky a posílení bariéry.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "characteristics": [
+      "Zarudnutí",
+      "Štípání po aktivních látkách",
+      "Náchylnost k podráždění"
     ],
-    "faq": [ { "q": "Jaký anti-aging začátek pro citlivou pleť?", "a": "Bakuchiol nebo peptidy, niacinamid a důsledné SPF." } ],
+    "avoid": [
+      "Vysoké koncentrace kyselin",
+      "Parfemace",
+      "Příliš rychlé zavádění retinoidů"
+    ],
+    "routineHints": "Minimalistická rutina, niacinamid a azelaová kyselina, bakuchiol místo retinolu, vždy SPF.",
+    "image": {
+      "src": "/assets/img/skin-types/citliva.svg",
+      "alt": "Citlivá pleť — schéma",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Méně je více"
+      },
+      {
+        "p": "U citlivé pleti vyhrává jednoduchost. Zaměřte se na bariéru a přidávejte jednu aktivní látku po druhé."
+      },
+      {
+        "note": "Niacinamid a azelaová kyselina jsou dobře snášené a doložené.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jaký anti-aging začátek pro citlivou pleť?",
+        "a": "Bakuchiol nebo peptidy, niacinamid a důsledné SPF."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["niacinamid", "azelaova-kyselina", "bakuchiol", "kyselina-hyaluronova"], "technologies": ["led-terapie"], "problems": ["rosacea"], "ageGroups": ["20-plus", "30-plus"], "routines": ["ranni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "niacinamid",
+        "azelaova-kyselina",
+        "bakuchiol",
+        "kyselina-hyaluronova"
+      ],
+      "technologies": [
+        "led-terapie"
+      ],
+      "problems": [
+        "rosacea"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ]
+    },
+    "guide": {
+      "howToTell": [
+        "Pálení, štípání nebo zarudnutí po kosmetice",
+        "Reakce na nové produkty",
+        "Pocit napětí a nepohodlí"
+      ],
+      "goals": [
+        "Zklidnit a posílit bariéru",
+        "Minimalizovat dráždivé podněty",
+        "Zavádět aktiva pomalu a po jednom"
+      ],
+      "bestActives": [
+        "Ceramidy, panthenol, centella",
+        "Niacinamid (zklidnění, bariéra)",
+        "Bakuchiol jako šetrná alternativa retinolu",
+        "Kyselina hyaluronová"
+      ],
+      "am": [
+        "Velmi jemné čištění",
+        "Zklidňující/hydratační sérum",
+        "Krém s ceramidy",
+        "Minerální SPF 50"
+      ],
+      "pm": [
+        "Šetrné odlíčení",
+        "Zklidňující hydratace",
+        "Aktiva (pokud) jen občas a v nízké koncentraci"
+      ],
+      "mistakes": [
+        "Zavádění více novinek najednou",
+        "Silné kyseliny a vysoké retinoidy",
+        "Parfemace a éterické oleje"
+      ],
+      "note": "Nové produkty testujte nejdřív na malém místě (např. za uchem) a zaváděje po jednom."
+    }
   },
   {
-    "id": "skin-mastna", "slug": "mastna", "type": "skinType", "name": "Mastná pleť",
+    "id": "skin-mastna",
+    "slug": "mastna",
+    "type": "skinType",
+    "name": "Mastná pleť",
     "title": "Anti-aging pro mastnou pleť: kontrola mazu i vrásky | antiagelab.cz",
     "metaDescription": "Mastná pleť potřebuje regulaci mazu bez vysoušení. Které látky pomáhají a jak na anti-aging.",
-    "h1": "Péče o mastnou pleť", "excerpt": "Více mazu a lesku, sklon k pórům. Snese silnější aktivní látky.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "characteristics": ["Lesk", "Rozšířené póry", "Sklon k ucpávání a akné"],
-    "avoid": ["Příliš okluzivní těžké krémy", "Vysoušení agresivními přípravky (zvyšuje maz)"],
-    "routineHints": "Niacinamid, BHA do pórů, lehčí hydratace, retinoid večer, gelové SPF.",
-    "image": { "src": "/assets/img/skin-types/mastna.svg", "alt": "Mastná pleť — schéma", "type": "illustration" },
-    "body": [
-      { "h2": "Regulace bez vysoušení" },
-      { "p": "Paradoxně přílišné vysoušení produkci mazu zvyšuje. Cílem je regulace (niacinamid, BHA) a lehká hydratace." },
-      { "note": "Niacinamid prokazatelně reguluje maz; BHA je doložená u pórů a akné.", "evidence": "strong" }
+    "h1": "Péče o mastnou pleť",
+    "excerpt": "Více mazu a lesku, sklon k pórům. Snese silnější aktivní látky.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "characteristics": [
+      "Lesk",
+      "Rozšířené póry",
+      "Sklon k ucpávání a akné"
     ],
-    "faq": [ { "q": "Potřebuje mastná pleť hydrataci?", "a": "Ano, jen lehčí. Hydratace nerovná se mastnota." } ],
+    "avoid": [
+      "Příliš okluzivní těžké krémy",
+      "Vysoušení agresivními přípravky (zvyšuje maz)"
+    ],
+    "routineHints": "Niacinamid, BHA do pórů, lehčí hydratace, retinoid večer, gelové SPF.",
+    "image": {
+      "src": "/assets/img/skin-types/mastna.svg",
+      "alt": "Mastná pleť — schéma",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Regulace bez vysoušení"
+      },
+      {
+        "p": "Paradoxně přílišné vysoušení produkci mazu zvyšuje. Cílem je regulace (niacinamid, BHA) a lehká hydratace."
+      },
+      {
+        "note": "Niacinamid prokazatelně reguluje maz; BHA je doložená u pórů a akné.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Potřebuje mastná pleť hydrataci?",
+        "a": "Ano, jen lehčí. Hydratace nerovná se mastnota."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["niacinamid", "bha", "retinol", "vitamin-c"], "technologies": ["microneedling"], "problems": ["rozsirene-pory"], "ageGroups": ["20-plus", "30-plus"], "routines": ["vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "niacinamid",
+        "bha",
+        "retinol",
+        "vitamin-c"
+      ],
+      "technologies": [
+        "microneedling"
+      ],
+      "problems": [
+        "rozsirene-pory"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "howToTell": [
+        "Lesk hlavně v T-zóně",
+        "Rozšířené póry",
+        "Sklon k ucpaným pórům a vyrážkám"
+      ],
+      "goals": [
+        "Regulovat maz, ne přesušit",
+        "Udržet lehkou hydrataci",
+        "Předcházet ucpaným pórům"
+      ],
+      "bestActives": [
+        "Niacinamid (maz, póry)",
+        "BHA / kyselina salicylová (čištění pórů)",
+        "Retinoidy (textura, póry)",
+        "Lehká gelová hydratace"
+      ],
+      "am": [
+        "Gelové čištění",
+        "Niacinamid / lehké sérum",
+        "Lehká hydratace (oil-free)",
+        "SPF 50 — lehký, nemastný"
+      ],
+      "pm": [
+        "Čištění",
+        "Retinoid nebo BHA (střídat)",
+        "Lehký hydratační krém"
+      ],
+      "mistakes": [
+        "Přesušování (vede k větší tvorbě mazu)",
+        "Vynechávání hydratace",
+        "Příliš časté drsné peelingy"
+      ]
+    }
   },
   {
-    "id": "skin-smisena", "slug": "smisena", "type": "skinType", "name": "Smíšená pleť",
+    "id": "skin-smisena",
+    "slug": "smisena",
+    "type": "skinType",
+    "name": "Smíšená pleť",
     "title": "Anti-aging pro smíšenou pleť: zóny a rovnováha | antiagelab.cz",
     "metaDescription": "Smíšená pleť kombinuje mastnou T-zónu a sušší tváře. Jak ji ošetřit chytře a vyváženě.",
-    "h1": "Péče o smíšenou pleť", "excerpt": "Mastná T-zóna a sušší tváře. Vyžaduje vyvážený, případně zónový přístup.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01",
-    "characteristics": ["Lesk v T-zóně", "Sušší tváře", "Lokálně rozšířené póry"],
-    "avoid": ["Jednotný agresivní přístup pro celý obličej"],
-    "routineHints": "Univerzální jemné látky (niacinamid, hyaluron), aktivní látky cíleně do zón.",
-    "image": { "src": "/assets/img/skin-types/smisena.svg", "alt": "Smíšená pleť — schéma", "type": "illustration" },
-    "body": [
-      { "h2": "Zónový přístup" },
-      { "p": "Smíšená pleť ocení univerzální základ a cílené ošetření zón — BHA do T-zóny, bohatší hydratace na tváře." },
-      { "note": "Doporučení vychází z vlastností zón a snášenlivosti látek.", "evidence": "moderate" }
+    "h1": "Péče o smíšenou pleť",
+    "excerpt": "Mastná T-zóna a sušší tváře. Vyžaduje vyvážený, případně zónový přístup.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "characteristics": [
+      "Lesk v T-zóně",
+      "Sušší tváře",
+      "Lokálně rozšířené póry"
     ],
-    "faq": [ { "q": "Musím mít dva krémy?", "a": "Nemusíte, stačí cíleně aplikovat aktivní látky podle zón." } ],
+    "avoid": [
+      "Jednotný agresivní přístup pro celý obličej"
+    ],
+    "routineHints": "Univerzální jemné látky (niacinamid, hyaluron), aktivní látky cíleně do zón.",
+    "image": {
+      "src": "/assets/img/skin-types/smisena.svg",
+      "alt": "Smíšená pleť — schéma",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Zónový přístup"
+      },
+      {
+        "p": "Smíšená pleť ocení univerzální základ a cílené ošetření zón — BHA do T-zóny, bohatší hydratace na tváře."
+      },
+      {
+        "note": "Doporučení vychází z vlastností zón a snášenlivosti látek.",
+        "evidence": "moderate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Musím mít dva krémy?",
+        "a": "Nemusíte, stačí cíleně aplikovat aktivní látky podle zón."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["niacinamid", "kyselina-hyaluronova", "retinol", "bha"], "ageGroups": ["20-plus", "30-plus"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "niacinamid",
+        "kyselina-hyaluronova",
+        "retinol",
+        "bha"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "howToTell": [
+        "Mastná T-zóna, sušší tváře",
+        "Póry výraznější uprostřed obličeje",
+        "Různé potřeby na různých místech"
+      ],
+      "goals": [
+        "Vyvážit T-zónu a tváře",
+        "Hydratovat bez zatížení",
+        "Cílená péče podle zón"
+      ],
+      "bestActives": [
+        "Niacinamid (vyvážení)",
+        "BHA jen do T-zóny dle potřeby",
+        "Retinoid celoobličejově",
+        "Lehká až střední hydratace"
+      ],
+      "am": [
+        "Jemné čištění",
+        "Niacinamid / antioxidant",
+        "Lehká hydratace (víc na tvářích)",
+        "SPF 50"
+      ],
+      "pm": [
+        "Čištění",
+        "Retinoid; BHA cíleně do T-zóny",
+        "Hydratace podle zóny"
+      ],
+      "mistakes": [
+        "Stejná silná péče na celý obličej",
+        "Přesušení T-zóny",
+        "Zanedbání hydratace sušších partií"
+      ]
+    }
   },
   {
-    "id": "skin-zrala", "slug": "zrala", "type": "skinType", "name": "Zralá pleť",
+    "id": "skin-zrala",
+    "slug": "zrala",
+    "type": "skinType",
+    "name": "Zralá pleť",
     "title": "Anti-aging pro zralou pleť: kolagen a pružnost | antiagelab.cz",
     "metaDescription": "Zralá pleť ztrácí kolagen a pružnost. Které aktivní látky, technologie a procedury mají největší smysl.",
-    "h1": "Péče o zralou pleť", "excerpt": "Ztráta kolagenu, sušší a tenčí. Profituje z retinoidů, peptidů a zpevňujících technologií.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
-    "characteristics": ["Ztráta pružnosti a objemu", "Hlubší vrásky", "Sušší a tenčí pokožka"],
-    "avoid": ["Vysoušení", "Vynechání SPF"],
-    "routineHints": "Retinoid, peptidy, bohatá hydratace, vitamin C ráno, technologie (LED, RF, HIFU).",
-    "image": { "src": "/assets/img/skin-types/zrala.svg", "alt": "Zralá pleť — schéma", "type": "illustration" },
-    "body": [
-      { "h2": "Kolagen v centru" },
-      { "p": "U zralé pleti dává smysl kombinovat osvědčené aktivní látky (retinoidy, peptidy, vitamin C) s technologiemi zpevňujícími hlubší vrstvy." },
-      { "note": "Retinoidy a fotoprotekce mají nejsilnější důkazy pro zralou pleť.", "evidence": "strong" }
+    "h1": "Péče o zralou pleť",
+    "excerpt": "Ztráta kolagenu, sušší a tenčí. Profituje z retinoidů, peptidů a zpevňujících technologií.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "characteristics": [
+      "Ztráta pružnosti a objemu",
+      "Hlubší vrásky",
+      "Sušší a tenčí pokožka"
     ],
-    "faq": [ { "q": "Má smysl začít v 60 letech?", "a": "Ano. Zlepšení textury, hydratace a ochrana jsou přínosné v každém věku." } ],
+    "avoid": [
+      "Vysoušení",
+      "Vynechání SPF"
+    ],
+    "routineHints": "Retinoid, peptidy, bohatá hydratace, vitamin C ráno, technologie (LED, RF, HIFU).",
+    "image": {
+      "src": "/assets/img/skin-types/zrala.svg",
+      "alt": "Zralá pleť — schéma",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Kolagen v centru"
+      },
+      {
+        "p": "U zralé pleti dává smysl kombinovat osvědčené aktivní látky (retinoidy, peptidy, vitamin C) s technologiemi zpevňujícími hlubší vrstvy."
+      },
+      {
+        "note": "Retinoidy a fotoprotekce mají nejsilnější důkazy pro zralou pleť.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Má smysl začít v 60 letech?",
+        "a": "Ano. Zlepšení textury, hydratace a ochrana jsou přínosné v každém věku."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["retinol", "peptidy", "vitamin-c", "kyselina-hyaluronova"], "technologies": ["radiofrekvence", "hifu", "led-terapie"], "problems": ["hluboke-vrasky", "povolena-plet"], "ageGroups": ["50-plus", "60-plus"], "procedures": ["profhilo", "botox"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "peptidy",
+        "vitamin-c",
+        "kyselina-hyaluronova"
+      ],
+      "technologies": [
+        "radiofrekvence",
+        "hifu",
+        "led-terapie"
+      ],
+      "problems": [
+        "hluboke-vrasky",
+        "povolena-plet"
+      ],
+      "ageGroups": [
+        "50-plus",
+        "60-plus"
+      ],
+      "procedures": [
+        "profhilo",
+        "botox"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "howToTell": [
+        "Ztráta pevnosti a objemu",
+        "Hlubší vrásky",
+        "Sušší a tenčí pleť",
+        "Méně rovnoměrný tón"
+      ],
+      "goals": [
+        "Podpořit kolagen a pevnost",
+        "Vyživit a posílit bariéru",
+        "Sjednotit tón"
+      ],
+      "bestActives": [
+        "Retinoid (vrásky, obnova)",
+        "Peptidy a růstové faktory",
+        "Vitamin C (antioxidant, tón)",
+        "Ceramidy + HA (výživa)"
+      ],
+      "am": [
+        "Jemné čištění",
+        "Vitamin C",
+        "Peptidy / bohatší hydratace",
+        "SPF 50"
+      ],
+      "pm": [
+        "Šetrné odlíčení",
+        "Retinoid v hydratačním sendviči",
+        "Výživný noční krém + oční péče"
+      ],
+      "mistakes": [
+        "Přesušující rutina",
+        "Spoléhání jen na krémy u ztráty objemu",
+        "Zanedbání krku a dekoltu"
+      ]
+    }
   },
   {
-    "id": "skin-aknozni", "slug": "aknozni", "type": "skinType", "name": "Aknózní pleť",
+    "id": "skin-aknozni",
+    "slug": "aknozni",
+    "type": "skinType",
+    "name": "Aknózní pleť",
     "title": "Anti-aging a aknózní pleť: jak skloubit obojí | antiagelab.cz",
     "metaDescription": "Aknózní pleť potřebuje řešit akné i prevenci stárnutí zároveň. Které látky zvládnou obojí.",
-    "h1": "Péče o aknózní pleť", "excerpt": "Sklon k akné a ucpaným pórům. Retinoidy a BHA řeší akné i anti-aging.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
-    "characteristics": ["Záněty a komedony", "Postzánětlivá pigmentace", "Mastnota"],
-    "avoid": ["Komedogenní těžké oleje", "Přehnaná exfoliace"],
-    "routineHints": "BHA, retinoidy, azelaová kyselina, lehká hydratace, nekomedogenní SPF.",
-    "image": { "src": "/assets/img/skin-types/aknozni.svg", "alt": "Aknózní pleť — schéma", "type": "illustration" },
-    "body": [
-      { "h2": "Dvě mouchy jednou ranou" },
-      { "p": "Retinoidy a azelaová kyselina pomáhají na akné i na stárnutí. Aknózní pleť tak může mít účinnou společnou strategii." },
-      { "note": "Retinoidy a BHA mají silné důkazy u akné.", "evidence": "strong" }
+    "h1": "Péče o aknózní pleť",
+    "excerpt": "Sklon k akné a ucpaným pórům. Retinoidy a BHA řeší akné i anti-aging.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "characteristics": [
+      "Záněty a komedony",
+      "Postzánětlivá pigmentace",
+      "Mastnota"
     ],
-    "faq": [ { "q": "Můžu mít akné i vrásky?", "a": "Ano a retinoidy řeší obojí současně." } ],
+    "avoid": [
+      "Komedogenní těžké oleje",
+      "Přehnaná exfoliace"
+    ],
+    "routineHints": "BHA, retinoidy, azelaová kyselina, lehká hydratace, nekomedogenní SPF.",
+    "image": {
+      "src": "/assets/img/skin-types/aknozni.svg",
+      "alt": "Aknózní pleť — schéma",
+      "type": "illustration"
+    },
+    "body": [
+      {
+        "h2": "Dvě mouchy jednou ranou"
+      },
+      {
+        "p": "Retinoidy a azelaová kyselina pomáhají na akné i na stárnutí. Aknózní pleť tak může mít účinnou společnou strategii."
+      },
+      {
+        "note": "Retinoidy a BHA mají silné důkazy u akné.",
+        "evidence": "strong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Můžu mít akné i vrásky?",
+        "a": "Ano a retinoidy řeší obojí současně."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["bha", "azelaova-kyselina", "retinol", "niacinamid"], "technologies": ["led-terapie", "microneedling"], "problems": ["rozsirene-pory", "pigmentace"], "ageGroups": ["20-plus", "30-plus"], "routines": ["vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "bha",
+        "azelaova-kyselina",
+        "retinol",
+        "niacinamid"
+      ],
+      "technologies": [
+        "led-terapie",
+        "microneedling"
+      ],
+      "problems": [
+        "rozsirene-pory",
+        "pigmentace"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "howToTell": [
+        "Záněty, pupínky, komedony",
+        "Mastnota a rozšířené póry",
+        "Postzánětlivé skvrny po zhojení"
+      ],
+      "goals": [
+        "Čistit póry a tlumit záněty",
+        "Nepřesušit a chránit bariéru",
+        "Předcházet jizvám a skvrnám"
+      ],
+      "bestActives": [
+        "BHA / kyselina salicylová",
+        "Azelaová kyselina (akné, skvrny i zarudnutí)",
+        "Niacinamid",
+        "Retinoid (komedony, textura) — opatrně"
+      ],
+      "am": [
+        "Jemné čištění",
+        "Niacinamid / azelaová",
+        "Lehká nekomedogenní hydratace",
+        "SPF 50 — lehký"
+      ],
+      "pm": [
+        "Čištění",
+        "BHA nebo retinoid (střídat)",
+        "Lehká hydratace"
+      ],
+      "mistakes": [
+        "Agresivní vysoušení a drhnutí",
+        "Vymačkávání (riziko jizev)",
+        "Vynechání hydratace a SPF"
+      ],
+      "note": "Středně těžké až těžké akné patří k dermatologovi — včasná léčba předchází jizvám."
+    }
   }
 ]

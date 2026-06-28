@@ -576,3 +576,11 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .ev-tier .src-badge{flex:none;min-width:150px;text-align:center}
 .ev-tier-n{font-family:var(--serif);color:var(--gold-deep);font-weight:600;white-space:nowrap}
 .mw-weights .mw-w{text-align:right;font-weight:600;color:var(--gold-deep);white-space:nowrap}
+
+/* ---------- Péče: detailní návody (věk / typ pleti / problém) ---------- */
+.care-col h3{font-size:1.05rem;margin:0 0 .5rem}
+.help-list{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.help-row{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px 16px}
+.help-rank{flex:none;width:26px;height:26px;border-radius:50%;background:var(--gold-deep);color:#fff;font-weight:600;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.help-row strong{font-size:1rem}
+.help-row p{margin:.2rem 0 0}

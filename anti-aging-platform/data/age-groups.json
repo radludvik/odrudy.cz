@@ -1,82 +1,471 @@
 [
   {
-    "id": "age-20", "slug": "20-plus", "type": "ageGroup", "name": "Péče 20+", "decade": "20+",
+    "id": "age-20",
+    "slug": "20-plus",
+    "type": "ageGroup",
+    "name": "Péče 20+",
+    "decade": "20+",
     "title": "Anti-aging po dvacítce (20+): prevence především | antiagelab.cz",
     "metaDescription": "Ve 20 letech je nejdůležitější prevence: SPF, antioxidanty a základní rutina. Co budovat a čemu se vyhnout.",
-    "h1": "Péče o pleť 20+", "excerpt": "Zlatá éra prevence. SPF, antioxidanty a zdravé základy se vyplatí na celý život.",
-    "evidenceLevel": "strong", "updated": "2026-06-01", "focus": "prevence, ochrana, základy",
-    "image": { "src": "/assets/img/age/20-plus.svg", "alt": "Péče o pleť ve 20 letech", "type": "illustration" },
+    "h1": "Péče o pleť 20+",
+    "excerpt": "Zlatá éra prevence. SPF, antioxidanty a zdravé základy se vyplatí na celý život.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "focus": "prevence, ochrana, základy",
+    "image": {
+      "src": "/assets/img/age/20-plus.svg",
+      "alt": "Péče o pleť ve 20 letech",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Investice s nejvyšším výnosem" },
-      { "p": "Ve 20 letech je pleť ještě plná kolagenu. Nejlepší \"anti-aging\" je teď prevence: denní SPF, antioxidant ráno a šetrná rutina." },
-      { "note": "Pravidelné SPF od mládí prokazatelně zpomaluje fotostárnutí.", "evidence": "strong" }
+      {
+        "h2": "Investice s nejvyšším výnosem"
+      },
+      {
+        "p": "Ve 20 letech je pleť ještě plná kolagenu. Nejlepší \"anti-aging\" je teď prevence: denní SPF, antioxidant ráno a šetrná rutina."
+      },
+      {
+        "note": "Pravidelné SPF od mládí prokazatelně zpomaluje fotostárnutí.",
+        "evidence": "strong"
+      }
     ],
-    "faq": [ { "q": "Je retinol ve 20 zbytečný?", "a": "Není, nízká koncentrace pomáhá s texturou a prevencí. Priorita je ale SPF." } ],
+    "faq": [
+      {
+        "q": "Je retinol ve 20 zbytečný?",
+        "a": "Není, nízká koncentrace pomáhá s texturou a prevencí. Priorita je ale SPF."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["vitamin-c", "niacinamid", "kyselina-hyaluronova", "bha"], "technologies": ["led-terapie"], "products": ["spf-50-denni"], "skinTypes": ["mastna", "smisena"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "niacinamid",
+        "kyselina-hyaluronova",
+        "bha"
+      ],
+      "technologies": [
+        "led-terapie"
+      ],
+      "products": [
+        "spf-50-denni"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "whatsHappening": "Pleť je většinou ještě pevná a dobře se hojí, produkce kolagenu je vysoká. Klíčem je prevence — chránit, neničit a vybudovat si návyky, které se vyplatí o dekádu později.",
+      "priorities": [
+        "Důsledná fotoprotekce (nejúčinnější anti-aging krok)",
+        "Antioxidant ráno",
+        "Hydratace a zdravá bariéra",
+        "Nepřehánět to s aktivními látkami"
+      ],
+      "am": [
+        "Jemné čištění",
+        "Antioxidant (vitamin C)",
+        "Hydratace (niacinamid / HA)",
+        "SPF 30–50 — denně"
+      ],
+      "pm": [
+        "Odlíčení / čištění",
+        "1–2× týdně jemný exfoliant nebo začínající retinoid",
+        "Hydratační krém dle potřeby"
+      ],
+      "focusActives": [
+        "Vitamin C — antioxidační ochrana a prevence pigmentací",
+        "Niacinamid — bariéra, regulace mazu, jemné rozjasnění",
+        "SPF — nejúčinnější prevence stárnutí vůbec",
+        "Kyselina hyaluronová — hydratace"
+      ],
+      "avoid": [
+        "Opalování bez ochrany a solária",
+        "Příliš mnoho silných aktiv naráz",
+        "Agresivní mechanické peelingy"
+      ],
+      "expectations": "V tomto věku jde hlavně o prevenci. Výsledkem není „okamžité omlazení\", ale investice, která se projeví v dalších dekádách.",
+      "whenPro": "Procedury obvykle nejsou potřeba. K dermatologovi při akné, výrazných pigmentacích nebo podezřelých znaménkách."
+    }
   },
   {
-    "id": "age-30", "slug": "30-plus", "type": "ageGroup", "name": "Péče 30+", "decade": "30+",
+    "id": "age-30",
+    "slug": "30-plus",
+    "type": "ageGroup",
+    "name": "Péče 30+",
+    "decade": "30+",
     "title": "Anti-aging po třicítce (30+): nástup aktivních látek | antiagelab.cz",
     "metaDescription": "Po třicítce klesá kolagen. Čas nasadit retinoidy, peptidy a cílenou hydrataci. Kompletní strategie 30+.",
-    "h1": "Péče o pleť 30+", "excerpt": "Kolagen začíná klesat. Ideální čas nasadit retinoidy a antioxidanty naplno.",
-    "evidenceLevel": "strong", "updated": "2026-06-01", "focus": "retinoidy, antioxidanty, hydratace",
-    "image": { "src": "/assets/img/age/30-plus.svg", "alt": "Péče o pleť ve 30 letech", "type": "illustration" },
+    "h1": "Péče o pleť 30+",
+    "excerpt": "Kolagen začíná klesat. Ideální čas nasadit retinoidy a antioxidanty naplno.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "focus": "retinoidy, antioxidanty, hydratace",
+    "image": {
+      "src": "/assets/img/age/30-plus.svg",
+      "alt": "Péče o pleť ve 30 letech",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Aktivní látky na scénu" },
-      { "p": "Po 30. roce má smysl nasadit retinoid večer, vitamin C ráno a dbát na hydrataci. Objevují se první jemné vrásky." },
-      { "note": "Retinoidy mají v této dekádě silné důkazy pro prevenci i zlepšení.", "evidence": "strong" }
+      {
+        "h2": "Aktivní látky na scénu"
+      },
+      {
+        "p": "Po 30. roce má smysl nasadit retinoid večer, vitamin C ráno a dbát na hydrataci. Objevují se první jemné vrásky."
+      },
+      {
+        "note": "Retinoidy mají v této dekádě silné důkazy pro prevenci i zlepšení.",
+        "evidence": "strong"
+      }
     ],
-    "faq": [ { "q": "Čím začít ve 30?", "a": "Retinoid 2× týdně, vitamin C ráno, SPF denně, hydratace." } ],
+    "faq": [
+      {
+        "q": "Čím začít ve 30?",
+        "a": "Retinoid 2× týdně, vitamin C ráno, SPF denně, hydratace."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["retinol", "retinal", "vitamin-c", "peptidy", "niacinamid"], "technologies": ["led-terapie", "microcurrent"], "problems": ["jemne-vrasky", "pigmentace"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "retinal",
+        "vitamin-c",
+        "peptidy",
+        "niacinamid"
+      ],
+      "technologies": [
+        "led-terapie",
+        "microcurrent"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "pigmentace"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "whatsHappening": "Začíná pozvolný pokles kolagenu a zpomalení obnovy pokožky. Objevují se první jemné vrásky (zvlášť kolem očí) a nerovnoměrný tón. Ideální čas zařadit retinoid.",
+      "priorities": [
+        "Zavést retinoid (nejlépe podložená anti-aging látka)",
+        "Pokračovat v antioxidantu + SPF",
+        "Cílit první pigmentace a texturu",
+        "Podpořit hydrataci a bariéru"
+      ],
+      "am": [
+        "Jemné čištění",
+        "Antioxidant (vitamin C)",
+        "Hydratace (niacinamid / HA)",
+        "SPF 50"
+      ],
+      "pm": [
+        "Odlíčení / dvojí čištění",
+        "Retinoid 2–3× týdně, postupně častěji",
+        "Hydratační/výživný krém (sendvič kolem retinoidu)"
+      ],
+      "focusActives": [
+        "Retinol / retinal — vrásky, textura, tón (vysoká úroveň důkazů)",
+        "Vitamin C — antioxidant a rozjasnění",
+        "Niacinamid — tón a bariéra",
+        "Peptidy — podpora pevnosti"
+      ],
+      "avoid": [
+        "Vynechávání SPF",
+        "Zavádění retinoidu příliš rychle (podráždění)",
+        "Kombinování více silných aktiv ve stejný večer"
+      ],
+      "expectations": "Retinoid přináší výsledky postupně, typicky po 12 týdnech a více. Konzistence je důležitější než síla.",
+      "whenPro": "Zvážit lze chemický peeling na tón a texturu nebo konzultaci u přetrvávajících pigmentací."
+    }
   },
   {
-    "id": "age-40", "slug": "40-plus", "type": "ageGroup", "name": "Péče 40+", "decade": "40+",
+    "id": "age-40",
+    "slug": "40-plus",
+    "type": "ageGroup",
+    "name": "Péče 40+",
+    "decade": "40+",
     "title": "Anti-aging po čtyřicítce (40+): kolagen a zpevnění | antiagelab.cz",
     "metaDescription": "Po čtyřicítce se hodí kombinovat retinoidy, peptidy a zpevňující technologie. Kompletní strategie 40+.",
-    "h1": "Péče o pleť 40+", "excerpt": "Výraznější pokles kolagenu. Kombinujte aktivní látky s technologiemi a zvažte procedury.",
-    "evidenceLevel": "strong", "updated": "2026-06-01", "focus": "kolagen, zpevnění, hydratace",
-    "image": { "src": "/assets/img/age/40-plus.svg", "alt": "Péče o pleť ve 40 letech", "type": "illustration" },
+    "h1": "Péče o pleť 40+",
+    "excerpt": "Výraznější pokles kolagenu. Kombinujte aktivní látky s technologiemi a zvažte procedury.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "focus": "kolagen, zpevnění, hydratace",
+    "image": {
+      "src": "/assets/img/age/40-plus.svg",
+      "alt": "Péče o pleť ve 40 letech",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Kombinovaná strategie" },
-      { "p": "Po 40. roce dává smysl plná aktivní rutina (retinoid, peptidy, vitamin C) doplněná o technologie (LED, RF) a případně procedury." },
-      { "note": "Kombinace retinoidů a zpevňujících technologií má dobré důkazy.", "evidence": "moderate" }
+      {
+        "h2": "Kombinovaná strategie"
+      },
+      {
+        "p": "Po 40. roce dává smysl plná aktivní rutina (retinoid, peptidy, vitamin C) doplněná o technologie (LED, RF) a případně procedury."
+      },
+      {
+        "note": "Kombinace retinoidů a zpevňujících technologií má dobré důkazy.",
+        "evidence": "moderate"
+      }
     ],
-    "faq": [ { "q": "Vyplatí se LED maska ve 40?", "a": "Jako doplněk ano, ale jako základ ponechte SPF a retinoidy." } ],
+    "faq": [
+      {
+        "q": "Vyplatí se LED maska ve 40?",
+        "a": "Jako doplněk ano, ale jako základ ponechte SPF a retinoidy."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["retinol", "peptidy", "vitamin-c", "kyselina-hyaluronova"], "technologies": ["radiofrekvence", "hifu", "led-terapie", "microcurrent"], "problems": ["hluboke-vrasky", "povolena-plet", "pigmentace"], "procedures": ["botox", "profhilo"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "peptidy",
+        "vitamin-c",
+        "kyselina-hyaluronova"
+      ],
+      "technologies": [
+        "radiofrekvence",
+        "hifu",
+        "led-terapie",
+        "microcurrent"
+      ],
+      "problems": [
+        "hluboke-vrasky",
+        "povolena-plet",
+        "pigmentace"
+      ],
+      "procedures": [
+        "botox",
+        "profhilo"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "whatsHappening": "Výraznější pokles kolagenu a elastinu, pleť ztrácí pevnost a objem, vrásky se prohlubují a často přibývá suchost. Dává smysl plná aktivní rutina doplněná o technologie, případně procedury.",
+      "priorities": [
+        "Plná aktivní rutina (retinoid, peptidy, vitamin C)",
+        "Zpevnění — technologie (RF, HIFU) a/nebo procedury",
+        "Důraz na hydrataci a bariéru",
+        "Pigmentace a kontury obličeje"
+      ],
+      "am": [
+        "Jemné čištění",
+        "Vitamin C",
+        "Peptidy / hydratace",
+        "SPF 50"
+      ],
+      "pm": [
+        "Odlíčení / dvojí čištění",
+        "Retinoid (klidně častěji než ve 30+)",
+        "Výživný krém, případně oční péče"
+      ],
+      "focusActives": [
+        "Retinoid — základ proti vráskám a textuře",
+        "Peptidy — pevnost a podpora kolagenu",
+        "Vitamin C — antioxidant a rozjasnění",
+        "Kyselina hyaluronová + ceramidy — hydratace a bariéra"
+      ],
+      "avoid": [
+        "Přesušující rutina bez dostatečné hydratace",
+        "Očekávání „liftingu\" jen od krémů",
+        "Zanedbání krku a dekoltu"
+      ],
+      "expectations": "Krémy a technologie zlepší kvalitu a pevnost pleti; výraznější ztrátu objemu řeší spíš procedury. Realistický cíl je zdravější, pevnější a vyrovnanější pleť.",
+      "whenPro": "Vhodná doba zvážit RF/HIFU na zpevnění, profhilo/skinboostery na kvalitu pleti nebo botox na mimické vrásky — vždy u kvalifikovaného odborníka."
+    }
   },
   {
-    "id": "age-50", "slug": "50-plus", "type": "ageGroup", "name": "Péče 50+", "decade": "50+",
+    "id": "age-50",
+    "slug": "50-plus",
+    "type": "ageGroup",
+    "name": "Péče 50+",
+    "decade": "50+",
     "title": "Anti-aging po padesátce (50+): menopauza a pleť | antiagelab.cz",
     "metaDescription": "Po padesátce a v menopauze pleť rychle ztrácí kolagen a vlhkost. Které látky, technologie a procedury pomáhají nejvíc.",
-    "h1": "Péče o pleť 50+", "excerpt": "Menopauza urychluje ztrátu kolagenu. Důraz na hydrataci, retinoidy, peptidy a zpevnění.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01", "focus": "menopauza, suchost, ztráta objemu",
-    "image": { "src": "/assets/img/age/50-plus.svg", "alt": "Péče o pleť v 50 letech", "type": "illustration" },
+    "h1": "Péče o pleť 50+",
+    "excerpt": "Menopauza urychluje ztrátu kolagenu. Důraz na hydrataci, retinoidy, peptidy a zpevnění.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "focus": "menopauza, suchost, ztráta objemu",
+    "image": {
+      "src": "/assets/img/age/50-plus.svg",
+      "alt": "Péče o pleť v 50 letech",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Pokles estrogenu" },
-      { "p": "V menopauze klesá estrogen a s ním kolagen i vlhkost pleti. Pomáhá bohatá hydratace, retinoidy, peptidy a zpevňující technologie/procedury." },
-      { "note": "Estrogenní pokles a jeho vliv na kolagen jsou dobře popsané; topická léčba zmírňuje projevy.", "evidence": "moderate" }
+      {
+        "h2": "Pokles estrogenu"
+      },
+      {
+        "p": "V menopauze klesá estrogen a s ním kolagen i vlhkost pleti. Pomáhá bohatá hydratace, retinoidy, peptidy a zpevňující technologie/procedury."
+      },
+      {
+        "note": "Estrogenní pokles a jeho vliv na kolagen jsou dobře popsané; topická léčba zmírňuje projevy.",
+        "evidence": "moderate"
+      }
     ],
-    "faq": [ { "q": "Je v 50 pozdě začít?", "a": "Není. Hydratace, retinoidy a SPF pomáhají v každém věku." } ],
+    "faq": [
+      {
+        "q": "Je v 50 pozdě začít?",
+        "a": "Není. Hydratace, retinoidy a SPF pomáhají v každém věku."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["retinol", "peptidy", "kyselina-hyaluronova", "vitamin-c"], "technologies": ["hifu", "radiofrekvence", "led-terapie"], "problems": ["povolena-plet", "hluboke-vrasky"], "procedures": ["profhilo", "botox"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "peptidy",
+        "kyselina-hyaluronova",
+        "vitamin-c"
+      ],
+      "technologies": [
+        "hifu",
+        "radiofrekvence",
+        "led-terapie"
+      ],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "procedures": [
+        "profhilo",
+        "botox"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "whatsHappening": "Po menopauze se pokles kolagenu zrychluje (vliv estrogenů), pleť bývá sušší, tenčí a méně pevná, výraznější jsou vrásky i ztráta kontur. Péče se posouvá k výživě, zpevnění a obnově bariéry.",
+      "priorities": [
+        "Výživná hydratace a obnova bariéry",
+        "Pokračovat v retinoidu (případně šetřit koncentraci)",
+        "Zpevňující technologie a procedury",
+        "Komplexní péče včetně krku a dekoltu"
+      ],
+      "am": [
+        "Velmi jemné čištění (často stačí voda)",
+        "Antioxidant",
+        "Bohatší hydratace (ceramidy, HA)",
+        "SPF 50"
+      ],
+      "pm": [
+        "Šetrné odlíčení",
+        "Retinoid s dostatečnou hydratační vrstvou",
+        "Výživný noční krém, oční péče"
+      ],
+      "focusActives": [
+        "Retinoid — stále smysluplný, jen šetrněji",
+        "Peptidy a růstové faktory — pevnost",
+        "Ceramidy + HA — bariéra a hydratace",
+        "Vitamin C — antioxidace a tón"
+      ],
+      "avoid": [
+        "Agresivní mytí a vysoké koncentrace kyselin",
+        "Přesušení pleti",
+        "Vynechání SPF i v zimě"
+      ],
+      "expectations": "Cílem je pružná, vyživená a pevnější pleť, ne návrat o 20 let. Nejlepší výsledky dává kombinace domácí péče, technologií a případně procedur.",
+      "whenPro": "Smysl dávají zpevňující procedury (RF, HIFU), biostimulátory, profhilo či výplně na ztrátu objemu — po konzultaci s odborníkem."
+    }
   },
   {
-    "id": "age-60", "slug": "60-plus", "type": "ageGroup", "name": "Péče 60+", "decade": "60+",
+    "id": "age-60",
+    "slug": "60-plus",
+    "type": "ageGroup",
+    "name": "Péče 60+",
+    "decade": "60+",
     "title": "Anti-aging po šedesátce (60+): komfort a péče | antiagelab.cz",
     "metaDescription": "Po šedesátce je prioritou komfort, hydratace a ochrana. Jemné aktivní látky a realistická očekávání.",
-    "h1": "Péče o pleť 60+", "excerpt": "Priorita komfort, hydratace a ochrana. Jemné aktivní látky a šetrné technologie.",
-    "evidenceLevel": "moderate", "updated": "2026-06-01", "focus": "komfort, hydratace, jemnost",
-    "image": { "src": "/assets/img/age/60-plus.svg", "alt": "Péče o pleť v 60 letech", "type": "illustration" },
+    "h1": "Péče o pleť 60+",
+    "excerpt": "Priorita komfort, hydratace a ochrana. Jemné aktivní látky a šetrné technologie.",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-01",
+    "focus": "komfort, hydratace, jemnost",
+    "image": {
+      "src": "/assets/img/age/60-plus.svg",
+      "alt": "Péče o pleť v 60 letech",
+      "type": "illustration"
+    },
     "body": [
-      { "h2": "Pohodlí na prvním místě" },
-      { "p": "Tenčí a sušší pleť ocení bohatou hydrataci, jemné retinoidy nebo peptidy a komfortní textury. SPF zůstává klíčové." },
-      { "note": "Hydratace a fotoprotekce přinášejí prospěch v každém věku.", "evidence": "strong" }
+      {
+        "h2": "Pohodlí na prvním místě"
+      },
+      {
+        "p": "Tenčí a sušší pleť ocení bohatou hydrataci, jemné retinoidy nebo peptidy a komfortní textury. SPF zůstává klíčové."
+      },
+      {
+        "note": "Hydratace a fotoprotekce přinášejí prospěch v každém věku.",
+        "evidence": "strong"
+      }
     ],
-    "faq": [ { "q": "Snese pleť 60+ retinol?", "a": "Ano, v nízké koncentraci a s dostatkem hydratace, nebo zvolte peptidy." } ],
+    "faq": [
+      {
+        "q": "Snese pleť 60+ retinol?",
+        "a": "Ano, v nízké koncentraci a s dostatkem hydratace, nebo zvolte peptidy."
+      }
+    ],
     "sources": [],
-    "relations": { "ingredients": ["peptidy", "kyselina-hyaluronova", "retinol"], "technologies": ["led-terapie", "radiofrekvence"], "problems": ["povolena-plet", "hluboke-vrasky"], "routines": ["ranni-rutina", "vecerni-rutina"] }
+    "relations": {
+      "ingredients": [
+        "peptidy",
+        "kyselina-hyaluronova",
+        "retinol"
+      ],
+      "technologies": [
+        "led-terapie",
+        "radiofrekvence"
+      ],
+      "problems": [
+        "povolena-plet",
+        "hluboke-vrasky"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "guide": {
+      "whatsHappening": "Pleť je tenčí, sušší a křehčí, obnova je pomalejší a ztráta objemu výraznější. Důraz je na komfort, výživu, ochranu a šetrnost.",
+      "priorities": [
+        "Maximální výživa a obnova bariéry",
+        "Šetrné, dobře tolerované aktivní látky",
+        "Ochrana a prevence podráždění",
+        "Zpevnění podle individuálního stavu"
+      ],
+      "am": [
+        "Jemné čištění nebo jen voda",
+        "Antioxidant / hydratační sérum",
+        "Bohatý vyživující krém",
+        "SPF 50"
+      ],
+      "pm": [
+        "Šetrné odlíčení",
+        "Šetrný retinoid nebo bakuchiol (dle snášenlivosti)",
+        "Výživný noční krém, oční a krční péče"
+      ],
+      "focusActives": [
+        "Ceramidy, HA, skvalan — výživa a bariéra",
+        "Peptidy — podpora pevnosti",
+        "Bakuchiol nebo nízký retinoid — šetrná obnova",
+        "Vitamin C — antioxidace"
+      ],
+      "avoid": [
+        "Cokoli vysušujícího či dráždivého",
+        "Příliš silné peelingy",
+        "Zanedbání hydratace"
+      ],
+      "expectations": "Realistickým cílem je zdravá, vyživená a pohodlná pleť bez podráždění. Estetické zákroky jsou možné, ale vždy individuálně a šetrně.",
+      "whenPro": "Konzultace s dermatologem zejména kvůli kontrole znamének a bezpečné volbě případných procedur."
+    }
   }
 ]
