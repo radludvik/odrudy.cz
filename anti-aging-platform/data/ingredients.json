@@ -2239,6 +2239,11 @@
         "journal": "J Cosmet Sci",
         "year": 2019,
         "type": "review"
+      },
+      {
+        "title": "Resveratrol in Dermatological Therapy: A Critical Review of Mechanisms, Delivery Innovations, and Clinical Frontiers",
+        "type": "review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12433249/"
       }
     ],
     "relations": {
@@ -2550,6 +2555,11 @@
         "journal": "Exp Dermatol",
         "year": 2005,
         "type": "review"
+      },
+      {
+        "title": "Arbutin as a Skin Depigmenting Agent with Antimelanogenic and Antioxidant Properties",
+        "type": "review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8301119/"
       }
     ],
     "relations": {
@@ -2641,6 +2651,12 @@
         "journal": "Front Pharmacol",
         "year": 2017,
         "type": "review"
+      },
+      {
+        "title": "The effects of polydeoxyribonucleotide on wound healing and tissue regeneration: a systematic review of the literature",
+        "type": "systematic-review",
+        "pmid": "32757710",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32757710/"
       }
     ],
     "relations": {
@@ -2728,6 +2744,11 @@
         "journal": "Int J Mol Sci",
         "year": 2021,
         "type": "review"
+      },
+      {
+        "title": "Efficacy of Exosome-Based Therapies for Skin Rejuvenation: A Systematic Review of Human Studies",
+        "type": "systematic-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12933354/"
       }
     ],
     "relations": {
