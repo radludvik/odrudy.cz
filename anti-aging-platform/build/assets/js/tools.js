@@ -315,7 +315,7 @@
       var sel = getVals(el, 'prods').map(function (s) { return DATA.products.find(function (p) { return p.slug === s; }); });
       if (sel.length < 2) { el.querySelector('#pcOut').innerHTML = '<div class="result-block"><p class="empty">Vyberte alespoň dva produkty.</p></div>'; return; }
       var rows = [['Kategorie', 'category'], ['Cena', 'price'], ['Evidence', 'evidenceLevel']];
-      var html = '<div class="table-wrap"><table class="compare"><thead><tr><th>Parametr</th>' + sel.map(function (p) { return '<th><a href="' + p.url + '">' + p.name + '</a></th>'; }).join('') + '</tr></thead><tbody>';
+      var html = '<div class="table-wrap"><table class="compare"><thead><tr><th>Parametr</th>' + sel.map(function (p) { return '<th><a href="' + BASE + p.url + '">' + p.name + '</a></th>'; }).join('') + '</tr></thead><tbody>';
       rows.forEach(function (r) {
         html += '<tr><th scope="row">' + r[0] + '</th>' + sel.map(function (p) { var v = p[r[1]]; if (r[1] === 'evidenceLevel') v = EV[v] || v; return '<td>' + (v || '—') + '</td>'; }).join('') + '</tr>';
       });

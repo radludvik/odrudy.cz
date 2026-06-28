@@ -188,7 +188,7 @@
     var probs = it.problems.slice(0, 3).map(function (p) { return PROB_L[p] || p; }).join(', ');
     return '<article class="cmp-card' + (isSel ? ' is-selected' : '') + '">' +
       '<span class="cmp-card-type">' + esc(it.typeLabel) + (it.brand ? ' · ' + esc(it.brand) : '') + '</span>' +
-      '<h3 class="cmp-card-name"><a href="' + it.url + '">' + esc(it.name) + '</a></h3>' +
+      '<h3 class="cmp-card-name"><a href="' + BASE + it.url + '">' + esc(it.name) + '</a></h3>' +
       '<dl class="cmp-card-meta">' +
         row('Aktivní látka / tech.', main) +
         (probs ? row('Vhodný na', probs) : '') +
@@ -248,8 +248,8 @@
     ['Nevýhody', function (it) { return it.cons.length ? '<ul>' + it.cons.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '—'; }],
     ['Redakční hodnocení', function (it) { return it.score != null ? '<strong>' + it.score + '/10</strong>' : '—'; }],
     ['Síla důkazů', function (it) { return it.evidence ? esc(EV_L[it.evidence] || it.evidence) : '—'; }],
-    ['Nejlepší alternativa', function (it) { return it.alt ? (it.alt.url ? '<a href="' + it.alt.url + '">' + esc(it.alt.name) + '</a>' : esc(it.alt.name)) : '—'; }],
-    ['Detail', function (it) { return '<a class="btn btn--ghost btn--sm" href="' + it.url + '">Otevřít →</a>'; }],
+    ['Nejlepší alternativa', function (it) { return it.alt ? (it.alt.url ? '<a href="' + BASE + it.alt.url + '">' + esc(it.alt.name) + '</a>' : esc(it.alt.name)) : '—'; }],
+    ['Detail', function (it) { return '<a class="btn btn--ghost btn--sm" href="' + BASE + it.url + '">Otevřít →</a>'; }],
   ];
   function renderCompare() {
     var sel = selected.map(byId);

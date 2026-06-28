@@ -140,13 +140,13 @@
     var skins = it.skins.slice(0, 4).map(function (s) { return SKIN_L[s] || s; }).join(', ');
     return '<article class="cmp-card ing-card">' +
       '<span class="cmp-card-type">' + esc(meta) + '</span>' +
-      '<h3 class="cmp-card-name"><a href="' + it.url + '">' + esc(it.name) + '</a></h3>' +
+      '<h3 class="cmp-card-name"><a href="' + BASE + it.url + '">' + esc(it.name) + '</a></h3>' +
       (it.excerpt ? '<p class="ing-desc">' + esc(it.excerpt) + '</p>' : '') +
       (skins ? '<p class="ing-skins"><span class="muted small">Vhodné pro:</span> ' + esc(skins) + '</p>' : '') +
       '<p class="ing-ev">' + EV_DOT[it.evidence] + ' ' + esc(EV_L[it.evidence]) + '</p>' +
       '<p class="ing-risk ing-risk--' + it.risk + '">' + riskTxt + '</p>' +
       '<p class="ing-rout">' + esc(routineLine(it)) + '</p>' +
-      '<a class="btn btn--ghost btn--sm ing-cta" href="' + it.url + '">Zobrazit detail →</a>' +
+      '<a class="btn btn--ghost btn--sm ing-cta" href="' + BASE + it.url + '">Zobrazit detail →</a>' +
     '</article>';
   }
   function emptyHtml() {
