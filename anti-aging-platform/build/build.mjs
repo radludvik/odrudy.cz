@@ -1378,6 +1378,71 @@ function searchPage() {
 /* ----------------------------------------------------------------------------
  * Exporty dat pro klientské nástroje
  * ------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------
+ * Porovnávač produktů — normalizovaná datová vrstva
+ * ------------------------------------------------------------------------- */
+const CMP_DEVICE_CATS = new Set(['led-masky', 'microcurrent', 'radiofrekvence', 'domaci-lasery', 'ems', 'microneedling-zarizeni', 'dermaroller', 'gua-sha', 'face-roller', 'silikonove-naplasti', 'kryo-nastroje', 'ultrazvuk-zarizeni', 'galvanicka-zarizeni', 'ipl-zarizeni', 'hifu-zarizeni']);
+const CMP_CAT_MAP = { retinoly: 'retinoidy', 'vitamin-c': 'vitamin-c', peptidy: 'peptidy', spf: 'spf', 'ocni-kremy': 'ocni-pece', 'led-masky': 'led-masky', radiofrekvence: 'radiofrekvence', microcurrent: 'microcurrent' };
+const CMP_ACT_FROM_ING = { retinal: 'retinal', retinol: 'retinol', 'vitamin-c': 'vitamin-c', niacinamid: 'niacinamid', peptidy: 'peptidy', ceramidy: 'ceramidy' };
+const CMP_DEVICE_ACT = { 'led-masky': 'led', radiofrekvence: 'rf', microcurrent: 'microcurrent', 'domaci-lasery': 'led', 'ipl-zarizeni': 'led' };
+const CMP_PROBLEM_MAP = { 'jemne-vrasky': 'jemne-vrasky', 'hluboke-vrasky': 'hluboke-vrasky', pigmentace: 'pigmentace', 'povolena-plet': 'povolena-plet', rosacea: 'zarudnuti', 'matna-plet': 'nerovnomerny-ton', textura: 'nerovnomerny-ton' };
+const CMP_AGE_MAP = { '20-plus': 25, '30-plus': 30, '40-plus': 40, '50-plus': 50, '60-plus': 60 };
+const CMP_ACT_LABEL = { retinal: 'Retinal', retinol: 'Retinol', 'vitamin-c': 'Vitamin C', niacinamid: 'Niacinamid', peptidy: 'Peptidy', ceramidy: 'Ceramidy', led: 'LED', rf: 'Radiofrekvence', microcurrent: 'Microcurrent', spf: 'SPF', kolagen: 'Kolagen' };
+const CMP_TYPE_LABEL = { kosmetika: 'Kosmetika', zarizeni: 'Beauty zařízení', doplnek: 'Doplněk stravy', procedura: 'Procedura' };
+const CMP_CAT_LABEL = { retinoidy: 'Retinoidy', 'vitamin-c': 'Vitamin C', peptidy: 'Peptidy', spf: 'SPF', 'ocni-pece': 'Oční péče', 'led-masky': 'LED masky', radiofrekvence: 'Radiofrekvence', microcurrent: 'Microcurrent', kolagen: 'Kolagen', antioxidanty: 'Antioxidanty' };
+function cmpPriceNum(s) { const m = String(s || '').replace(/\s/g, '').match(/\d+/); return m ? +m[0] : null; }
+function cmpPriceBucket(n) { if (n == null) return 'na'; if (n < 500) return 'lt500'; if (n < 1500) return 'b1'; if (n < 3000) return 'b2'; if (n < 8000) return 'b3'; return 'gt8000'; }
+function compareItem(e) {
+  const rel = e._rel || {};
+  let type, catKey = null, actives = [];
+  const probs = new Set(), skins = [...(rel.skinType || [])], ages = [...(rel.ageGroup || [])].map((a) => CMP_AGE_MAP[a]).filter(Boolean);
+  [...(rel.problem || [])].forEach((p) => { if (CMP_PROBLEM_MAP[p]) probs.add(CMP_PROBLEM_MAP[p]); });
+  if (e.type === 'procedure') {
+    type = 'procedura';
+  } else { // product
+    if (CMP_DEVICE_CATS.has(e.category)) type = 'zarizeni';
+    else if (e.category === 'doplnky-stravy') type = 'doplnek';
+    else type = 'kosmetika';
+    catKey = CMP_CAT_MAP[e.category] || null;
+    (e.activeIngredients || []).forEach((s) => { if (CMP_ACT_FROM_ING[s]) actives.push(CMP_ACT_FROM_ING[s]); });
+    if (CMP_DEVICE_ACT[e.category]) actives.push(CMP_DEVICE_ACT[e.category]);
+    if (e.category === 'spf') actives.push('spf');
+    if (e.category === 'ocni-kremy') probs.add('vrasky-kolem-oci');
+    if (skins.includes('sucha')) probs.add('suchost');
+    if (skins.includes('aknozni')) probs.add('akne');
+    if (type === 'doplnek') {
+      const sup = (e.relations && e.relations.supplements) || [];
+      if (sup.includes('kolagen')) { catKey = 'kolagen'; actives.push('kolagen'); }
+      else if (sup.some((s) => ['vitamin-c', 'astaxanthin', 'koenzym-q10', 'resveratrol', 'selen'].includes(s))) catKey = 'antioxidanty';
+      if (sup.includes('vitamin-c')) actives.push('vitamin-c');
+    }
+  }
+  actives = [...new Set(actives)];
+  const priceNum = cmpPriceNum(e.price || e.priceRange);
+  const score = e.scores && e.scores.overall ? e.scores.overall.score : null;
+  const alt = (e.alternatives && e.alternatives[0]) ? (() => { const t = bySlug.get(`product:${e.alternatives[0].slug}`); return t ? { name: t.name, url: urlOf(t) } : (e.alternatives[0].name ? { name: e.alternatives[0].name, url: '' } : null); })() : null;
+  return {
+    id: e.slug, name: e.name, url: urlOf(e),
+    type, typeLabel: CMP_TYPE_LABEL[type],
+    brand: (e.brand && e.brand !== '—') ? e.brand : '',
+    cat: catKey, catLabel: catKey ? CMP_CAT_LABEL[catKey] : (e.category ? categoryLabel(e.category) : (type === 'procedura' ? 'Procedura' : '')),
+    actives, activeLabels: actives.map((a) => CMP_ACT_LABEL[a] || a),
+    problems: [...probs], skins, minAge: ages.length ? Math.min(...ages) : null, sensitive: skins.includes('citliva'),
+    price: e.price || e.priceRange || '', priceNum, priceBucket: cmpPriceBucket(priceNum),
+    score, evidence: e.evidenceLevel || '', evRank: EV_RANK[e.evidenceLevel] ?? null,
+    pros: (e.strengths || e.pros || []).slice(0, 5),
+    cons: (e.weaknesses || e.cons || e.risks || []).slice(0, 5),
+    suitableFor: (e.suitableFor || []).slice(0, 4),
+    notSuitable: (e.notSuitable || e.contraindications || []).slice(0, 4),
+    alt,
+  };
+}
+function exportCompareData() {
+  const items = [...entitiesByType('product'), ...entitiesByType('procedure')].map(compareItem);
+  mkdirSync(join(OUT, 'assets', 'data'), { recursive: true });
+  writeFileSync(join(OUT, 'assets', 'data', 'compare-data.json'), JSON.stringify(items));
+}
+
 function exportToolData() {
   const slim = (e, fields) => { const o = { slug: e.slug, name: e.name, url: urlOf(e), type: e.type }; for (const f of fields) if (e[f] !== undefined) o[f] = e[f]; return o; };
   const data = {
@@ -1433,13 +1498,14 @@ function build() {
   toolPage('builder-rutiny', 'Builder rutiny', 'Sestavíme ranní a večerní rutinu podle vašich parametrů.', `<div id="routineBuilder" class="tool-app"></div>`);
   toolPage('kompatibilita', 'Kompatibilita látek', 'Vyberte dvě a více aktivních látek a zkontrolujte jejich kombinaci.', `<div id="compatChecker" class="tool-app"></div>`);
   toolPage('vyhledavac-ingredienci', 'Vyhledávač ingrediencí', 'Filtrovat ingredience podle problému, typu pleti a věku.', `<div id="ingredientFinder" class="tool-app"></div>`);
-  toolPage('porovnani-produktu', 'Porovnání produktů', 'Vyberte produkty a porovnejte je vedle sebe.', `<div id="productCompare" class="tool-app"></div>`);
+  toolPage('porovnani-produktu', 'Porovnání produktů', 'Nejdřív si vyfiltrujte, co hledáte, pak vyberte 2–4 položky a porovnejte je vedle sebe.', `<div id="compareApp" class="compare-app"></div>`, `<script src="/assets/js/compare.js" defer></script>`);
   toolPage('doporuceni-technologii', 'Doporučení technologií', 'Najděte technologii podle problému a věku.', `<div id="techRecommender" class="tool-app"></div>`);
 
   // vyhledávání
   searchPage();
 
   // exporty
+  exportCompareData();
   exportToolData();
   exportSearchIndex();
   exportSitemap();
