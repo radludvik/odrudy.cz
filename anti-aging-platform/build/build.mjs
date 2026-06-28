@@ -1219,7 +1219,7 @@ function listingIntro(type) {
   const m = {
     ingredient: 'Chytrý vyhledávač účinných látek. Nevíte, co hledat? Začněte problémem, typem pleti nebo tolerancí — filtr vám ukáže přesně to, co dává smysl.',
     technology: 'Přehled neinvazivních technologií — princip, mechanismus, výhody, nevýhody a důkazní základna.',
-    supplement: 'Doplňky stravy pro pleť a stárnutí — seřazené podle síly skutečných důkazů, s transparentní legislativní kontrolou tvrzení. Bez marketingového hype.',
+    supplement: 'Zjistěte, které doplňky stravy mají podle současných vědeckých poznatků největší potenciál podpořit zdraví pokožky a přispět k mladistvějšímu vzhledu pleti.',
     product: 'Produkty propojené s ingrediencemi, technologiemi a studiemi. Transparentně a s ohledem na evidenci.',
     procedure: 'Estetické procedury — princip, výsledky, rizika a realistická očekávání.',
     study: 'Databáze klinických studií se shrnutím, sílou důkazů a praktickými závěry.',
