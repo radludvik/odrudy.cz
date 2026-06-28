@@ -44,7 +44,13 @@
         "a": "Je miniinvazivní (injekce), ale bez rekonvalescence. Patří do rukou lékaře."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Cosmetic Botulinum Toxin A Injections to the Upper Face: A Systematic Review and Meta-Analysis of Clinical Studies",
+        "type": "meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12783872/"
+      }
+    ],
     "relations": {
       "problems": [
         "hluboke-vrasky"
@@ -106,7 +112,14 @@
         "a": "Výplně tvarují a doplňují objem, Profhilo zlepšuje kvalitu pleti plošně."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Injectable Non-Animal Stabilized Hyaluronic Acid as a Skin Quality Booster: An Expert Panel Consensus",
+        "type": "consensus",
+        "pmid": "29320592",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29320592/"
+      }
+    ],
     "relations": {
       "ingredients": [
         "kyselina-hyaluronova"
@@ -316,6 +329,12 @@
         "journal": "Dermatol Surg",
         "year": 2009,
         "type": "rct"
+      },
+      {
+        "title": "Injectable Non-Animal Stabilized Hyaluronic Acid as a Skin Quality Booster: An Expert Panel Consensus",
+        "type": "consensus",
+        "pmid": "29320592",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29320592/"
       }
     ],
     "relations": {
@@ -389,6 +408,12 @@
         "journal": "J Am Acad Dermatol",
         "year": 2019,
         "type": "review"
+      },
+      {
+        "title": "Efficacy of platelet-rich plasma in facial rejuvenation: A systematic review",
+        "type": "systematic-review",
+        "pmid": "40118148",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40118148/"
       }
     ],
     "relations": {
