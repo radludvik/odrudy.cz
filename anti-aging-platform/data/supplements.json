@@ -2198,6 +2198,12 @@
         "journal": "Exp Dermatol",
         "year": 2019,
         "type": "review"
+      },
+      {
+        "title": "Effects of probiotics supplementation on skin photoaging and skin barrier function: A systematic review and meta-analysis",
+        "type": "meta-analysis",
+        "pmid": "36583287",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36583287/"
       }
     ],
     "relations": {
@@ -2548,6 +2554,17 @@
         "journal": "J Adv Res",
         "year": 2022,
         "type": "review"
+      },
+      {
+        "title": "The Safety and Antiaging Effects of Nicotinamide Mononucleotide in Human Clinical Trials: an Update",
+        "type": "review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10721522/"
+      },
+      {
+        "title": "Improved Physical Performance Parameters in Patients Taking Nicotinamide Mononucleotide (NMN): A Systematic Review of Randomized Control Trials",
+        "type": "systematic-review",
+        "pmid": "39221308",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39221308/"
       }
     ],
     "relations": {
@@ -2713,6 +2730,11 @@
         "journal": "Science",
         "year": 2018,
         "type": "review"
+      },
+      {
+        "title": "Spermidine: a physiological autophagy inducer acting as an anti-aging vitamin in humans?",
+        "type": "review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287690/"
       }
     ],
     "relations": {

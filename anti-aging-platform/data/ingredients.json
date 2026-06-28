@@ -1813,6 +1813,11 @@
         "journal": "Biomed Res Int",
         "year": 2015,
         "type": "review"
+      },
+      {
+        "title": "The potential of GHK as an anti-aging peptide",
+        "type": "review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8789089/"
       }
     ],
     "relations": {
@@ -2450,6 +2455,12 @@
         "journal": "J Invest Dermatol",
         "year": 2005,
         "type": "rct"
+      },
+      {
+        "title": "Ferulic Acid Use for Skin Applications: A Systematic Review",
+        "type": "systematic-review",
+        "pmid": "40538529",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40538529/"
       }
     ],
     "relations": {
