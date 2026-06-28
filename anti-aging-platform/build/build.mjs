@@ -105,6 +105,24 @@ for (const e of entities) {
   }
 }
 
+/* Metodika AntiAgeLab: celkové skóre = transparentní vážený průměr dílčích kritérií.
+   Váhy jsou veřejné na /metodika-hodnoceni/. Počítá se automaticky při buildu. */
+const SCORE_WEIGHTS = {
+  product:    { evidence: 0.30, quality: 0.20, potency: 0.15, sensitive: 0.15, value: 0.15, innovation: 0.05 },
+  technology: { evidence: 0.30, quality: 0.20, safety: 0.15, ease: 0.10, innovation: 0.10, value: 0.15 },
+  supplement: { evidence: 0.30, skinBenefit: 0.25, safety: 0.15, supplementing: 0.15, value: 0.15 },
+};
+function computeWeightedOverall(e) {
+  const w = SCORE_WEIGHTS[e.type]; if (!w || !e.scores) return;
+  let sum = 0, wsum = 0, n = 0;
+  for (const [k, wt] of Object.entries(w)) { const v = e.scores[k]; if (v && typeof v.score === 'number') { sum += v.score * wt; wsum += wt; n++; } }
+  if (n < 2 || !wsum) return;                       // málo dat → ponecháme původní redakční overall
+  e.scores.overall = e.scores.overall || {};
+  e.scores.overall.score = Math.round((sum / wsum) * 10) / 10;
+  e.scores.overall.computed = true;
+}
+for (const e of entities) computeWeightedOverall(e);
+
 const urlOf = (e) => `${TYPES[e.type].base}${e.slug}/`;
 const entitiesByType = (type) => entities.filter((e) => e.type === type);
 
@@ -337,11 +355,12 @@ ${body}
       <div class="brand-mark">${esc(SITE.name)}</div>
       <p class="muted">${esc(SITE.description)}</p>
     </div>
-    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li><li><a href="/metodika-hodnoceni/">Metodika hodnocení</a></li></ul></div>
+    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li><li><a href="/metodika-hodnoceni/">Jak hodnotíme</a></li></ul></div>
     <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/oblicejova-joga/">Obličejová jóga</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
     <div><h4>Nástroje</h4><ul><li><a href="/nastroje/poradce/">Anti-aging poradce</a></li><li><a href="/nastroje/builder-rutiny/">Builder rutiny</a></li><li><a href="/nastroje/kompatibilita/">Kompatibilita látek</a></li><li><a href="/nastroje/vyhledavac-ingredienci/">Vyhledávač ingrediencí</a></li></ul></div>
   </div>
   <div class="container footer-legal">
+    <p class="muted small">Veškerá hodnocení na ${esc(SITE.name)} představují <strong>redakční odbornou analýzu</strong> založenou na veřejně dostupných vědeckých zdrojích a jednotné <a href="/metodika-hodnoceni/">metodice hodnocení</a>. Nejde o laboratorní testování, oficiální certifikaci ani lékařské doporučení. Výsledná skóre vyjadřují redakční názor ${esc(SITE.name)} podle transparentně zveřejněných kritérií a mohou se měnit s přibývajícími kvalitními vědeckými důkazy.</p>
     <p class="muted small">© ${new Date().getFullYear()} ${esc(SITE.name)}. Obsah má vzdělávací charakter a nenahrazuje odbornou lékařskou ani dermatologickou konzultaci. Některé odkazy mohou být affiliate.</p>
   </div>
 </footer>
@@ -538,7 +557,7 @@ const PRODUCT_CATEGORIES = {
   'galvanicka-zarizeni': 'Galvanická zařízení', 'ipl-zarizeni': 'IPL zařízení', 'hifu-zarizeni': 'HIFU zařízení',
   'doplnky-stravy': 'Doplňky stravy',
 };
-const SCORE_LABELS = { quality: 'Kvalita složení', potency: 'Síla aktivních látek', evidence: 'Vědecká podpora ingrediencí', innovation: 'Inovativnost formulace', value: 'Poměr cena/výkon', sensitive: 'Vhodnost pro citlivou pleť' };
+const SCORE_LABELS = { evidence: 'Klinické důkazy o složení', quality: 'Kvalita složení', potency: 'Síla aktivních látek', sensitive: 'Bezpečnost a snášenlivost', value: 'Poměr cena/výkon', innovation: 'Inovativnost formulace' };
 const ALT_KIND = { better: 'Lepší varianta', cheaper: 'Levnější varianta', stronger: 'Výkonnější varianta', gentler: 'Šetrnější varianta', similar: 'Podobná varianta' };
 
 function categoryLabel(c) { return PRODUCT_CATEGORIES[c] || c; }
@@ -579,9 +598,10 @@ function scorecardBlock(e, labels = SCORE_LABELS) {
     return `<div class="score-row"><div class="score-top"><span class="score-label">${esc(labels[k])}</span><span class="score-num">${v.score}/10</span></div><div class="score-bar"><span style="width:${Math.max(0, Math.min(10, v.score)) * 10}%"></span></div>${v.note ? `<p class="muted small score-note">${esc(v.note)}</p>` : ''}</div>`;
   }).join('');
   const o = s.overall;
-  const overall = o ? `<div class="score-overall"><span>Celkové redakční hodnocení</span><strong>${o.score}/10</strong></div>${o.note ? `<p class="muted small">${esc(o.note)}</p>` : ''}` : '';
-  return `<section class="section-block scorecard-wrap"><h2>Redakční odborné hodnocení</h2><p class="muted small">Hodnoceno podle jednotné metodiky z veřejně dostupných informací (0–10), každá osa je slovně zdůvodněna.</p>${overall}<div class="scorecard">${rows}</div></section>`;
+  const overall = o ? `<div class="score-overall"><span>Celkové skóre</span><strong>${fmtScore(o.score)}/10</strong></div>${o.computed ? `<p class="muted small">Vážený průměr níže uvedených kritérií podle metodiky AntiAgeLab.</p>` : ''}${o.note ? `<p class="muted small">${esc(o.note)}</p>` : ''}` : '';
+  return `<section class="section-block scorecard-wrap"><h2>Hodnocení AntiAgeLab</h2><p class="muted small">Skóre je výsledkem <strong>redakčního hodnocení podle metodiky AntiAgeLab</strong> z veřejně dostupných informací (0–10), každé kritérium je slovně zdůvodněné. Nejde o laboratorní test ani oficiální certifikaci. <a href="/metodika-hodnoceni/">Jak hodnotíme →</a></p>${overall}<div class="scorecard">${rows}</div></section>`;
 }
+function fmtScore(n) { return (Math.round(n * 10) / 10).toString().replace('.', ','); }
 function recommendationBlock(e) {
   if (!e.recommendation) return '';
   const r = e.recommendation;
@@ -654,7 +674,7 @@ function techDevices(e) {
   const value = [...prods].sort((a, b) => (sc(b) / Math.max(1, priceNum(b))) - (sc(a) / Math.max(1, priceNum(a))))[0];
   const powerful = [...prods].sort((a, b) => pot(b) - pot(a) || priceNum(b) - priceNum(a))[0];
   const beginner = [...prods].sort((a, b) => priceNum(a) - priceNum(b)).find((p) => sc(p) >= 6) || cheapest;
-  const picks = [['Nejlepší celkově', best], ['Nejlepší poměr cena/výkon', value], ['Pro začátečníky', beginner], ['Nejvýkonnější / profi', powerful], ['Nejlevnější doporučená', cheapest]];
+  const picks = [['Nejvyšší skóre podle metodiky AntiAgeLab', best], ['Nejlepší poměr cena/výkon', value], ['Doporučeno pro začátečníky', beginner], ['Nejvýkonnější / profi', powerful], ['Nejdostupnější doporučená', cheapest]];
   const cards = picks.filter(([, p]) => p).map(([label, p]) => `<div class="pick"><span class="pick-label">${esc(label)}</span><a class="pick-card" href="${urlOf(p)}"><strong>${esc(p.name)}</strong><span class="muted small">${esc(p.price || '')}${p.scores && p.scores.overall ? ' · ' + p.scores.overall.score + '/10' : ''}</span></a></div>`).join('');
   const all = prods.map((p) => `<a class="chip" href="${urlOf(p)}">${esc(p.name)}</a>`).join('');
   return `<section class="section-block"><h2>Doporučená zařízení</h2><p class="muted small">Produkty jsou až poslední vrstvou — nejdřív pochopte technologii, pak vybírejte zařízení. Tipy podle účelu:</p><div class="picks">${cards}</div><h3>Všechna zařízení v databázi</h3><div class="chips">${all}</div></section>`;
@@ -761,7 +781,7 @@ function suppProducts(e) {
   const seen = new Set();
   const take = (sortFn) => { const p = [...prods].filter((x) => !seen.has(x.slug)).sort(sortFn)[0]; if (p) seen.add(p.slug); return p; };
   const picks = [
-    ['Redakční tip', take((a, b) => sc(b) - sc(a))],
+    ['Nejvyšší skóre podle metodiky AntiAgeLab', take((a, b) => sc(b) - sc(a))],
     ['Nejlepší poměr cena/přínos', take((a, b) => (sc(b) / Math.max(1, priceNum(b))) - (sc(a) / Math.max(1, priceNum(a))))],
     ['Nejčistší složení', take((a, b) => ql(b) - ql(a))],
     ['Nejdostupnější', take((a, b) => priceNum(a) - priceNum(b))],
@@ -1638,12 +1658,28 @@ function methodologyPage() {
     return `<div class="ev-tier"><span class="src-badge src-badge--${k}">${esc(SRC_META[k].forms[0])}</span><p>${esc(desc)}</p><span class="ev-tier-n">${n}×</span></div>`;
   }).join('');
   const chips = SRC_ORDER.filter((k) => st.tally[k]).map((k) => `<div class="ev-stat"><strong>${st.tally[k]}</strong><span>${esc(srcPlural(k, st.tally[k]))}</span></div>`).join('');
+  const W = [
+    ['Klinické důkazy o složení a technologii', '30 %'],
+    ['Kvalita složení / technických parametrů', '20 %'],
+    ['Síla a účinnost aktivních složek', '15 %'],
+    ['Bezpečnost a snášenlivost', '15 %'],
+    ['Poměr cena/výkon', '15 %'],
+    ['Inovativnost', '5 %'],
+  ];
+  const wRows = W.map((r) => `<tr><td>${esc(r[0])}</td><td class="mw-w">${esc(r[1])}</td></tr>`).join('');
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Transparentnost</span>
-      <h1>Metodika hodnocení důkazů</h1>
-      <p class="lead">Jak na antiagelab.cz vzniká „síla vědeckých důkazů", redakční hodnocení a doporučení — a jak se udržuje aktuální.</p>
+      <h1>Jak hodnotíme</h1>
+      <p class="lead">AntiAgeLab vytváří <strong>vlastní redakční hodnocení</strong> produktů, technologií, ingrediencí, procedur i doplňků stravy podle předem definované, jednotné a veřejné metodiky. Nejde o laboratorní testování ani oficiální certifikaci — jde o odbornou redakční analýzu na základě současných vědeckých poznatků a veřejně dostupných informací.</p>
     </div></section>
     <section class="section"><div class="container detail-layout"><article class="detail-main">
+      <section class="section-block">
+        <h2>Jak počítáme skóre produktů</h2>
+        <p class="muted">Každý produkt hodnotíme podle jednotných kritérií. Celkové skóre (0–10) je <strong>vážený průměr</strong> těchto kritérií — počítá se automaticky a u každé položky je každé kritérium slovně zdůvodněné.</p>
+        <div class="table-wrap"><table class="compare mw-weights"><thead><tr><th>Kritérium</th><th>Váha</th></tr></thead><tbody>${wRows}</tbody></table></div>
+        <p class="muted small">Příklad: produkt se silnými klinickými důkazy, kvalitním složením a dobrým poměrem cena/výkon získá např. <strong>9,2 / 10</strong>. Technologie a doplňky stravy mají vlastní, analogickou sadu kritérií se stejnou filozofií (u doplňků navíc hodnotíme kvalitu surovin, biologickou dostupnost a transparentnost výrobce — vždy v souladu s evropskou legislativou a bez léčebných tvrzení).</p>
+        <p class="muted small">Skóre vyjadřuje <strong>redakční názor AntiAgeLab podle této metodiky</strong>, nikoli objektivní nebo oficiální pořadí trhu. S přibývajícími kvalitními důkazy se může měnit.</p>
+      </section>
       <section class="section-block">
         <h2>Důkazní základna v číslech</h2>
         <p class="muted">Živý přehled — počítá se automaticky z napojených zdrojů při každém sestavení webu.</p>
@@ -1674,6 +1710,14 @@ function methodologyPage() {
         <h2>Jak databáze roste</h2>
         <p>Studie i přehledy jsou uložené jako strukturovaná data a propojené s tématy (ingredience, technologie, doplňky, procedury, produkty). Každý zdroj nese typ studie, a tím i svou váhu. Blok <strong>„Zdroje hodnocení"</strong> na každé stránce se počítá automaticky — přidáním nové studie se okamžitě promítne do počtů, pořadí i transparentního výpisu napříč celou platformou. Jedna studie může být relevantní pro více témat současně.</p>
         <p class="muted small">Databázi průběžně rozšiřujeme o nově publikované systematické přehledy a metaanalýzy.</p>
+      </section>
+      <section class="section-block">
+        <h2>Jak formulujeme doporučení</h2>
+        <p>Vyhýbáme se absolutním tvrzením typu „nejlepší na trhu" nebo „jediná správná volba". Místo toho uvádíme, že produkt získal vysoké skóre <strong>podle metodiky AntiAgeLab</strong> a vždy vysvětlíme proč. Ocenění jako „Nejvyšší skóre podle metodiky AntiAgeLab", „Doporučení redakce", „Nejlepší poměr cena/výkon" nebo „Doporučeno pro začátečníky" jsou redakční a vždy doplněná zdůvodněním.</p>
+      </section>
+      <section class="section-block callout callout--disclaimer">
+        <h2>Právní informace</h2>
+        <p class="small">Veškerá hodnocení na ${esc(SITE.name)} představují redakční odbornou analýzu založenou na veřejně dostupných vědeckých zdrojích a jednotné metodice hodnocení. Nejedná se o laboratorní testování, oficiální certifikaci ani lékařské doporučení. Výsledná skóre vyjadřují redakční názor ${esc(SITE.name)} vytvořený podle transparentně zveřejněných kritérií a mohou se měnit s přibývajícími kvalitními vědeckými důkazy. Obsah má vzdělávací charakter a nenahrazuje odbornou lékařskou ani dermatologickou konzultaci.</p>
       </section>
     </article></div></section>`;
   return layout({ title: `Metodika hodnocení důkazů | ${SITE.name}`, description: 'Jak vzniká hodnocení na antiagelab.cz: hierarchie kvality důkazů, pravidla transparentnosti a živý přehled důkazní základny.', canonical: '/metodika-hodnoceni/', breadcrumbTrail: trail, body });
