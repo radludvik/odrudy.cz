@@ -337,7 +337,7 @@ ${body}
       <div class="brand-mark">${esc(SITE.name)}</div>
       <p class="muted">${esc(SITE.description)}</p>
     </div>
-    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li></ul></div>
+    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li><li><a href="/metodika-hodnoceni/">Metodika hodnocení</a></li></ul></div>
     <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/oblicejova-joga/">Obličejová jóga</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
     <div><h4>Nástroje</h4><ul><li><a href="/nastroje/poradce/">Anti-aging poradce</a></li><li><a href="/nastroje/builder-rutiny/">Builder rutiny</a></li><li><a href="/nastroje/kompatibilita/">Kompatibilita látek</a></li><li><a href="/nastroje/vyhledavac-ingredienci/">Vyhledávač ingrediencí</a></li></ul></div>
   </div>
@@ -1597,12 +1597,86 @@ function exportSearchIndex() {
 }
 
 function exportSitemap() {
-  const urls = ['/', '/nastroje/', '/hledat/', '/slovnik/', ...Object.values(TYPES).map((c) => c.base), ...entities.map(urlOf),
+  const urls = ['/', '/nastroje/', '/hledat/', '/slovnik/', '/metodika-hodnoceni/', ...Object.values(TYPES).map((c) => c.base), ...entities.map(urlOf),
     ...['poradce', 'builder-rutiny', 'kompatibilita', 'vyhledavac-ingredienci', 'porovnani-produktu', 'doporuceni-technologii'].map((s) => `/nastroje/${s}/`)];
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(urls)]
     .map((u) => `  <url><loc>${SITE.url}${u}</loc></url>`).join('\n')}\n</urlset>\n`;
   writeFileSync(join(OUT, 'sitemap.xml'), xml);
   writeFileSync(join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
+}
+
+/* ----------------------------------------------------------------------------
+ * Metodika hodnocení + živý přehled důkazní základny
+ * ------------------------------------------------------------------------- */
+function evidenceStats() {
+  const tally = {}; let total = 0; let covered = 0, strong = 0;
+  const TYPES_COUNT = ['ingredient', 'technology', 'supplement', 'procedure', 'product'];
+  for (const e of entities) {
+    if (!TYPES_COUNT.includes(e.type)) continue;
+    const items = collectSources(e);
+    if (items.length) { covered++; if (items.some((s) => s.type === 'meta-analysis' || s.type === 'systematic-review')) strong++; }
+    items.forEach((s) => { tally[s.type] = (tally[s.type] || 0) + 1; total++; });
+  }
+  return { tally, total, covered, strong };
+}
+function methodologyPage() {
+  const st = evidenceStats();
+  const trail = [{ label: 'Domů', href: '/' }, { label: 'Metodika hodnocení', href: '/metodika-hodnoceni/' }];
+  const ladder = SRC_ORDER.filter((k) => k !== 'other').map((k, i) => {
+    const desc = {
+      'meta-analysis': 'Statisticky sloučí výsledky více studií — nejvyšší úroveň důkazů.',
+      'systematic-review': 'Systematicky shrne veškerou dostupnou evidenci podle předem daného protokolu.',
+      'guideline': 'Doporučený postup odborné společnosti.',
+      'consensus': 'Konsenzuální stanovisko panelu odborníků.',
+      'rct': 'Randomizovaná kontrolovaná studie — zlatý standard jednotlivé studie.',
+      'prospective': 'Prospektivní klinické sledování bez randomizace.',
+      'clinical': 'Další klinická / kohortová studie.',
+      'review': 'Přehledový (narativní) článek.',
+      'regulation': 'Regulační či legislativní dokument (např. schválená zdravotní tvrzení EU).',
+    }[k] || '';
+    const n = st.tally[k] || 0;
+    return `<div class="ev-tier"><span class="src-badge src-badge--${k}">${esc(SRC_META[k].forms[0])}</span><p>${esc(desc)}</p><span class="ev-tier-n">${n}×</span></div>`;
+  }).join('');
+  const chips = SRC_ORDER.filter((k) => st.tally[k]).map((k) => `<div class="ev-stat"><strong>${st.tally[k]}</strong><span>${esc(srcPlural(k, st.tally[k]))}</span></div>`).join('');
+  const body = `<section class="listing-hero"><div class="container">
+      <span class="eyebrow">Transparentnost</span>
+      <h1>Metodika hodnocení důkazů</h1>
+      <p class="lead">Jak na antiagelab.cz vzniká „síla vědeckých důkazů", redakční hodnocení a doporučení — a jak se udržuje aktuální.</p>
+    </div></section>
+    <section class="section"><div class="container detail-layout"><article class="detail-main">
+      <section class="section-block">
+        <h2>Důkazní základna v číslech</h2>
+        <p class="muted">Živý přehled — počítá se automaticky z napojených zdrojů při každém sestavení webu.</p>
+        <div class="ev-dash">
+          <div class="ev-stat ev-stat--big"><strong>${st.total}</strong><span>odkazů na zdroje</span></div>
+          <div class="ev-stat ev-stat--big"><strong>${st.covered}</strong><span>témat se zdroji</span></div>
+          <div class="ev-stat ev-stat--big"><strong>${st.strong}</strong><span>témat s metaanalýzou / systematickým přehledem</span></div>
+        </div>
+        <div class="ev-dash">${chips}</div>
+      </section>
+      <section class="section-block">
+        <h2>Hierarchie kvality důkazů</h2>
+        <p class="muted">Zdroje řadíme podle síly. Čím výš, tím větší váha při hodnocení.</p>
+        <div class="ev-ladder">${ladder}</div>
+      </section>
+      <section class="section-block">
+        <h2>Pravidla, kterými se řídíme</h2>
+        <ul class="rich-list">
+          <li><strong>Přednost má nejsilnější důkaz.</strong> Pokud existuje kvalitní systematický přehled nebo metaanalýza, má přednost před jednotlivými studiemi a podle ní hodnocení upravujeme.</li>
+          <li><strong>Novější kvalitní přehled vítězí.</strong> Objeví-li se aktuálnější systematická review/metaanalýza, nahradí starší a hodnocení se podle ní přepočítá.</li>
+          <li><strong>Otevřeně přiznáváme slabá místa.</strong> Pokud jsou důkazy omezené nebo experimentální, výslovně to uvádíme a neformulujeme silná doporučení.</li>
+          <li><strong>Rozlišujeme úrovně poznání:</strong> kvalitní klinické důkazy · předběžné výsledky · experimentální výzkum · hypotézy.</li>
+          <li><strong>Rozporné výsledky uvádíme jako rozporné</strong> — nezamlčujeme je.</li>
+          <li><strong>Žádné vymyšlené citace.</strong> Každý zdroj odkazuje na reálný záznam (PubMed/PMC/DOI).</li>
+        </ul>
+      </section>
+      <section class="section-block">
+        <h2>Jak databáze roste</h2>
+        <p>Studie i přehledy jsou uložené jako strukturovaná data a propojené s tématy (ingredience, technologie, doplňky, procedury, produkty). Každý zdroj nese typ studie, a tím i svou váhu. Blok <strong>„Zdroje hodnocení"</strong> na každé stránce se počítá automaticky — přidáním nové studie se okamžitě promítne do počtů, pořadí i transparentního výpisu napříč celou platformou. Jedna studie může být relevantní pro více témat současně.</p>
+        <p class="muted small">Databázi průběžně rozšiřujeme o nově publikované systematické přehledy a metaanalýzy.</p>
+      </section>
+    </article></div></section>`;
+  return layout({ title: `Metodika hodnocení důkazů | ${SITE.name}`, description: 'Jak vzniká hodnocení na antiagelab.cz: hierarchie kvality důkazů, pravidla transparentnosti a živý přehled důkazní základny.', canonical: '/metodika-hodnoceni/', breadcrumbTrail: trail, body });
 }
 
 /* ----------------------------------------------------------------------------
@@ -1635,6 +1709,9 @@ function build() {
 
   // vyhledávání
   searchPage();
+
+  // metodika hodnocení (transparentnost)
+  writePage('/metodika-hodnoceni/', methodologyPage());
 
   // exporty
   exportCompareData();
