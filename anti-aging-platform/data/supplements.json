@@ -167,6 +167,12 @@
         "journal": "J Drugs Dermatol",
         "year": 2019,
         "type": "review"
+      },
+      {
+        "title": "de Miranda RB et al — Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis",
+        "journal": "Int J Dermatol",
+        "year": 2021,
+        "type": "meta-analysis"
       }
     ],
     "relations": {
@@ -358,6 +364,12 @@
         "journal": "Evropská komise",
         "year": 2012,
         "type": "regulation"
+      },
+      {
+        "title": "Pullar JM, Carr AC, Vissers MCM — The Roles of Vitamin C in Skin Health",
+        "journal": "Nutrients",
+        "year": 2017,
+        "type": "review"
       }
     ],
     "relations": {
@@ -545,6 +557,12 @@
         "journal": "Evropská komise",
         "year": 2012,
         "type": "regulation"
+      },
+      {
+        "title": "Thomsen BJ et al — The Potential Uses of Omega-3 Fatty Acids in Dermatology: A Review",
+        "journal": "J Cutan Med Surg",
+        "year": 2020,
+        "type": "review"
       }
     ],
     "relations": {
@@ -729,6 +747,12 @@
         "journal": "Evropská komise",
         "year": 2012,
         "type": "regulation"
+      },
+      {
+        "title": "Gupta M et al — Zinc Therapy in Dermatology: A Review",
+        "journal": "Dermatol Res Pract",
+        "year": 2014,
+        "type": "review"
       }
     ],
     "relations": {
@@ -905,6 +929,12 @@
     "sources": [
       {
         "title": "Davinelli S. et al. — Astaxanthin in skin health",
+        "journal": "Nutrients",
+        "year": 2018,
+        "type": "review"
+      },
+      {
+        "title": "Davinelli S et al — Astaxanthin in Skin Health, Repair, and Disease: A Comprehensive Review",
         "journal": "Nutrients",
         "year": 2018,
         "type": "review"

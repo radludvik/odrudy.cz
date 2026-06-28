@@ -145,11 +145,83 @@ function renderFaq(faq = []) {
     .join('')}</div></section>`;
 }
 
-function renderSources(sources = []) {
-  if (!sources.length) return '';
-  return `<section class="section-block sources"><h2>Odborné zdroje</h2><ul class="rich-list">${sources
-    .map((s) => `<li>${esc(s.title)}${s.journal ? `, <em>${esc(s.journal)}</em>` : ''}${s.year ? ` (${s.year})` : ''}${s.type ? ` — ${esc(s.type)}` : ''}</li>`)
-    .join('')}</ul><p class="muted small">Informace mají vzdělávací charakter a nenahrazují odbornou konzultaci.</p></section>`;
+/* ---- Zdroje hodnocení: transparentní agregace důkazní základny ----
+   Typy zdrojů seřazené podle kvality důkazů (vyšší rank = silnější důkaz). */
+const SRC_META = {
+  'meta-analysis':     { rank: 7, forms: ['metaanalýza', 'metaanalýzy', 'metaanalýz'] },
+  'systematic-review': { rank: 6, forms: ['systematický přehled', 'systematické přehledy', 'systematických přehledů'] },
+  'guideline':         { rank: 5, forms: ['doporučený postup', 'doporučené postupy', 'doporučených postupů'] },
+  'consensus':         { rank: 5, forms: ['konsenzus odborné společnosti', 'konsenzy odborných společností', 'konsenzů odborných společností'] },
+  'rct':               { rank: 4, forms: ['randomizovaná klinická studie', 'randomizované klinické studie', 'randomizovaných klinických studií'] },
+  'prospective':       { rank: 3, forms: ['prospektivní studie', 'prospektivní studie', 'prospektivních studií'] },
+  'clinical':          { rank: 2, forms: ['klinická studie', 'klinické studie', 'klinických studií'] },
+  'review':            { rank: 2, forms: ['přehledový článek', 'přehledové články', 'přehledových článků'] },
+  'regulation':        { rank: 1, forms: ['regulační dokument', 'regulační dokumenty', 'regulačních dokumentů'] },
+  'other':             { rank: 0, forms: ['další zdroj', 'další zdroje', 'dalších zdrojů'] },
+};
+const SRC_ORDER = ['meta-analysis', 'systematic-review', 'guideline', 'consensus', 'rct', 'prospective', 'clinical', 'review', 'regulation', 'other'];
+function srcNorm(t) {
+  t = String(t || '').toLowerCase();
+  if (/meta/.test(t)) return 'meta-analysis';
+  if (/syst/.test(t)) return 'systematic-review';
+  if (/guideline|doporu/.test(t)) return 'guideline';
+  if (/consensus|konsen/.test(t)) return 'consensus';
+  if (/rct|randomiz/.test(t)) return 'rct';
+  if (/prospekt/.test(t)) return 'prospective';
+  if (/regulation|naříz|legis|regula/.test(t)) return 'regulation';
+  if (/review|přehled/.test(t)) return 'review';
+  if (/clinic|klinic|kohort|cohort/.test(t)) return 'clinical';
+  return 'other';
+}
+function srcPlural(key, n) { const f = SRC_META[key].forms; return n === 1 ? f[0] : (n >= 2 && n <= 4 ? f[1] : f[2]); }
+function srcRefLink(s) {
+  if (s.doi) return `https://doi.org/${encodeURIComponent(s.doi)}`;
+  if (s.pmid) return `https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(s.pmid)}/`;
+  return '';
+}
+function collectSources(e) {
+  const items = [], seen = new Set();
+  const push = (o) => {
+    if (!o.title) return;
+    const k1 = o.title.toLowerCase().slice(0, 60);
+    const jn = String(o.journal || '').toLowerCase().replace(/[^a-z]/g, '').slice(0, 5);
+    const k2 = o.year && jn ? `${o.year}|${jn}` : null; // stejná studie pod jiným názvem (CZ vs EN apod.)
+    if (seen.has(k1) || (k2 && seen.has(k2))) return;
+    seen.add(k1); if (k2) seen.add(k2); items.push(o);
+  };
+  (e.sources || []).forEach((s) => push({ title: s.title, journal: s.journal, year: s.year, type: srcNorm(s.type), doi: s.doi, pmid: s.pmid }));
+  // napojené centrální studie (relations.studies)
+  for (const slug of (e._rel && e._rel.study ? e._rel.study : [])) {
+    const st = bySlug.get(`study:${slug}`); if (!st) continue;
+    push({ title: st.name, journal: st.journal, year: st.year, type: srcNorm(st.design || st.type), doi: st.doi, pmid: st.pmid, url: urlOf(st) });
+  }
+  return items;
+}
+function sourcesBlock(e) {
+  const items = collectSources(e);
+  if (!items.length) return '';
+  const counts = {};
+  items.forEach((s) => { counts[s.type] = (counts[s.type] || 0) + 1; });
+  const summary = SRC_ORDER.filter((k) => counts[k]).map((k) => `<strong>${counts[k]} ${esc(srcPlural(k, counts[k]))}</strong>`).join(' · ');
+  const sorted = items.slice().sort((a, b) => (SRC_META[b.type].rank - SRC_META[a.type].rank) || ((b.year || 0) - (a.year || 0)));
+  const list = sorted.map((s) => {
+    const link = srcRefLink(s);
+    const title = link ? `<a href="${attr(link)}" rel="nofollow noopener" target="_blank">${esc(s.title)} ↗</a>` : esc(s.title);
+    const ref = (s.pmid ? `PMID ${esc(s.pmid)}` : s.doi ? `DOI ${esc(s.doi)}` : '');
+    return `<li><span class="src-badge src-badge--${s.type}">${esc(SRC_META[s.type].forms[0])}</span> ${title}${s.journal ? `, <em>${esc(s.journal)}</em>` : ''}${s.year ? ` (${s.year})` : ''}${ref ? ` · <span class="muted small">${ref}</span>` : ''}</li>`;
+  }).join('');
+  const notes = [];
+  if (items.length <= 2) notes.push('U tohoto tématu je důkazní základna zatím užší — průběžně ji rozšiřujeme o systematické přehledy a metaanalýzy.');
+  if (e.evidenceLevel === 'preliminary') notes.push('Jde převážně o předběžné a experimentální výsledky, ne o potvrzené klinické důkazy.');
+  if (e.evidenceLevel === 'limited') notes.push('Důkazy jsou zatím omezené; silná doporučení proto neuvádíme.');
+  if (e.conflicting) notes.push('Výsledky studií se různí — přínos zatím není jednoznačný.');
+  notes.push('Rozlišujeme kvalitní klinické důkazy, předběžné výsledky a experimentální výzkum. Pokud se objeví novější systematický přehled nebo metaanalýza, má přednost a hodnocení podle ní upravujeme.');
+  return `<section class="section-block sources">
+    <h2>Zdroje hodnocení</h2>
+    <p class="src-summary">Toto hodnocení vychází z: ${summary}.</p>
+    <details class="src-details"><summary>Zobrazit kompletní seznam zdrojů (${items.length})</summary><ul class="src-list">${list}</ul></details>
+    ${notes.map((n) => `<p class="muted small">${esc(n)}</p>`).join('')}
+  </section>`;
 }
 
 function entityCard(e) {
@@ -984,7 +1056,7 @@ function renderDetail(e) {
       ${detailExtras(e)}
       ${e.body ? renderBlocks(e.body) : ''}
       ${renderFaq(e.faq)}
-      ${renderSources(e.sources)}
+      ${sourcesBlock(e)}
       ${e.type === 'technology' ? techFinalReco(e) : ''}
       ${e.type === 'supplement' ? suppFinalReco(e) : ''}
     </article>

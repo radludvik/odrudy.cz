@@ -549,3 +549,16 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .ing-risk--low{color:var(--ok)}
 .ing-rout{font-size:.86rem;color:var(--ink-soft);margin:0 0 1rem}
 .ing-cta{margin-top:auto;align-self:flex-start}
+
+/* ---------- Zdroje hodnocení (transparentnost důkazů) ---------- */
+.src-summary{font-size:1rem;color:var(--ink)}
+.src-details{margin:6px 0 12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff}
+.src-details>summary{cursor:pointer;padding:12px 16px;font-weight:500;color:var(--ink)}
+.src-details>summary:hover{color:var(--gold-deep)}
+.src-list{list-style:none;margin:0;padding:8px 16px 14px;display:flex;flex-direction:column;gap:10px}
+.src-list li{font-size:.9rem;line-height:1.5;padding-left:2px}
+.src-badge{display:inline-block;font-size:.66rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:6px;background:var(--ivory);color:var(--ink-soft);border:1px solid var(--line);white-space:nowrap}
+.src-badge--meta-analysis,.src-badge--systematic-review{background:#e7f0e7;color:#3f6b3f;border-color:#cfe0cf}
+.src-badge--rct{background:#eef2f7;color:#3f567a;border-color:#d6dfeb}
+.src-badge--guideline,.src-badge--consensus{background:var(--ivory);color:var(--gold-deep);border-color:var(--sand)}
+.src-badge--regulation{background:#f5efe2;color:#8a6d3f;border-color:var(--sand)}

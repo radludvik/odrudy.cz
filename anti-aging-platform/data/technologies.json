@@ -91,6 +91,12 @@
         "journal": "Photomed Laser Surg",
         "year": 2014,
         "type": "rct"
+      },
+      {
+        "title": "Ablon G — Phototherapy with Light Emitting Diodes: Treating a Broad Range of Medical and Aesthetic Conditions in Dermatology",
+        "journal": "J Clin Aesthet Dermatol",
+        "year": 2018,
+        "type": "review"
       }
     ],
     "alternativeTech": [
@@ -650,6 +656,12 @@
     "sources": [
       {
         "title": "Hou A. — Microneedling: A Comprehensive Review",
+        "journal": "Dermatol Surg",
+        "year": 2017,
+        "type": "review"
+      },
+      {
+        "title": "Hou A et al — Microneedling: A Comprehensive Review",
         "journal": "Dermatol Surg",
         "year": 2017,
         "type": "review"

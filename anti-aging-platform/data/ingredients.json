@@ -162,6 +162,12 @@
         "journal": "J Cosmet Dermatol",
         "year": 2016,
         "type": "rct"
+      },
+      {
+        "title": "Zasada K, Budzisz E — Retinoids: active molecules influencing skin structure formation",
+        "journal": "Postepy Dermatol Alergol",
+        "year": 2019,
+        "type": "review"
       }
     ],
     "relations": {
@@ -550,6 +556,12 @@
         "journal": "Nutrients",
         "year": 2017,
         "type": "review"
+      },
+      {
+        "title": "Al-Niaimi F, Chiang NYZ — Topical Vitamin C and the Skin: Mechanisms of Action and Clinical Applications",
+        "journal": "J Clin Aesthet Dermatol",
+        "year": 2017,
+        "type": "review"
       }
     ],
     "relations": {
@@ -664,6 +676,12 @@
         "journal": "Dermatol Surg",
         "year": 2005,
         "type": "rct"
+      },
+      {
+        "title": "Boo YC — Mechanistic Basis and Clinical Evidence for the Use of Nicotinamide in Skin Health",
+        "journal": "Antioxidants",
+        "year": 2021,
+        "type": "review"
       }
     ],
     "relations": {
@@ -773,6 +791,12 @@
     "sources": [
       {
         "title": "Schagen S. — Topical Peptide Treatments",
+        "journal": "Cosmetics",
+        "year": 2017,
+        "type": "review"
+      },
+      {
+        "title": "Schagen SK — Topical Peptide Treatments with Effective Anti-Aging Results",
         "journal": "Cosmetics",
         "year": 2017,
         "type": "review"
@@ -990,6 +1014,12 @@
         "journal": "Int J Mol Sci",
         "year": 2018,
         "type": "review"
+      },
+      {
+        "title": "Babilas P et al — Cosmetic and dermatologic use of alpha hydroxy acids",
+        "journal": "J Dtsch Dermatol Ges",
+        "year": 2012,
+        "type": "review"
       }
     ],
     "relations": {
@@ -1092,6 +1122,12 @@
     "sources": [
       {
         "title": "Arif T. — Salicylic acid as a peeling agent",
+        "journal": "Clin Cosmet Investig Dermatol",
+        "year": 2015,
+        "type": "review"
+      },
+      {
+        "title": "Arif T — Salicylic acid as a peeling agent: a comprehensive review",
         "journal": "Clin Cosmet Investig Dermatol",
         "year": 2015,
         "type": "review"
@@ -1536,6 +1572,9 @@
       ],
       "routines": [
         "ranni-rutina"
+      ],
+      "studies": [
+        "bala-2018-tranexamic"
       ]
     }
   },
