@@ -175,6 +175,7 @@ function srcNorm(t) {
 }
 function srcPlural(key, n) { const f = SRC_META[key].forms; return n === 1 ? f[0] : (n >= 2 && n <= 4 ? f[1] : f[2]); }
 function srcRefLink(s) {
+  if (s.url) return s.url;
   if (s.doi) return `https://doi.org/${encodeURIComponent(s.doi)}`;
   if (s.pmid) return `https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(s.pmid)}/`;
   return '';
@@ -189,7 +190,7 @@ function collectSources(e) {
     if (seen.has(k1) || (k2 && seen.has(k2))) return;
     seen.add(k1); if (k2) seen.add(k2); items.push(o);
   };
-  (e.sources || []).forEach((s) => push({ title: s.title, journal: s.journal, year: s.year, type: srcNorm(s.type), doi: s.doi, pmid: s.pmid }));
+  (e.sources || []).forEach((s) => push({ title: s.title, journal: s.journal, year: s.year, type: srcNorm(s.type), doi: s.doi, pmid: s.pmid, url: s.url }));
   // napojené centrální studie (relations.studies)
   for (const slug of (e._rel && e._rel.study ? e._rel.study : [])) {
     const st = bySlug.get(`study:${slug}`); if (!st) continue;

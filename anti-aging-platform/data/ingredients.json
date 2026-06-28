@@ -168,6 +168,11 @@
         "journal": "Postepy Dermatol Alergol",
         "year": 2019,
         "type": "review"
+      },
+      {
+        "title": "Tretinoin for Photodamaged Facial Skin: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "type": "meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615114/"
       }
     ],
     "relations": {
@@ -431,6 +436,11 @@
         "journal": "Br J Dermatol",
         "year": 2019,
         "type": "rct"
+      },
+      {
+        "title": "Efficacy and Safety of Topical Application of Plant-Based Products on Skin Aging in Healthy Individuals: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "type": "meta-analysis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11845950/"
       }
     ],
     "relations": {
@@ -562,6 +572,14 @@
         "journal": "J Clin Aesthet Dermatol",
         "year": 2017,
         "type": "review"
+      },
+      {
+        "title": "Efficacy of topical vitamin C in melasma and photoaging: A systematic review",
+        "type": "systematic-review",
+        "year": 2023,
+        "journal": "J Cosmet Dermatol",
+        "pmid": "37128827",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37128827/"
       }
     ],
     "relations": {
@@ -681,7 +699,8 @@
         "title": "Boo YC — Mechanistic Basis and Clinical Evidence for the Use of Nicotinamide in Skin Health",
         "journal": "Antioxidants",
         "year": 2021,
-        "type": "review"
+        "type": "review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8389214/"
       }
     ],
     "relations": {
@@ -800,6 +819,11 @@
         "journal": "Cosmetics",
         "year": 2017,
         "type": "review"
+      },
+      {
+        "title": "Novel Cyclized Hexapeptide-9 Outperforms Retinol Against Skin Aging: A Randomized, Double-Blinded, Active- and Vehicle-Controlled Clinical Trial",
+        "type": "rct",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12207714/"
       }
     ],
     "relations": {
@@ -1019,7 +1043,9 @@
         "title": "Babilas P et al — Cosmetic and dermatologic use of alpha hydroxy acids",
         "journal": "J Dtsch Dermatol Ges",
         "year": 2012,
-        "type": "review"
+        "type": "review",
+        "pmid": "22916351",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22916351/"
       }
     ],
     "relations": {
@@ -1124,7 +1150,9 @@
         "title": "Arif T. — Salicylic acid as a peeling agent",
         "journal": "Clin Cosmet Investig Dermatol",
         "year": 2015,
-        "type": "review"
+        "type": "review",
+        "pmid": "26347269",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4554394/"
       },
       {
         "title": "Arif T — Salicylic acid as a peeling agent: a comprehensive review",
@@ -1552,6 +1580,14 @@
         "journal": "Dermatol Surg",
         "year": 2018,
         "type": "review"
+      },
+      {
+        "title": "Tranexamic Acid for Adults with Melasma: A Systematic Review and Meta-Analysis",
+        "type": "meta-analysis",
+        "year": 2019,
+        "journal": "J Cutan Med Surg",
+        "pmid": "30533427",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6247725/"
       }
     ],
     "relations": {
@@ -1969,6 +2005,11 @@
         "journal": "Pharm Biol",
         "year": 2014,
         "type": "review"
+      },
+      {
+        "title": "Efficacy and Safety of Topical Application of Plant-Based Products on Skin Aging in Healthy Individuals: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "type": "meta-analysis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11845950/"
       }
     ],
     "relations": {

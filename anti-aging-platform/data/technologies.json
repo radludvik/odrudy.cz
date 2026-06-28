@@ -97,6 +97,11 @@
         "journal": "J Clin Aesthet Dermatol",
         "year": 2018,
         "type": "review"
+      },
+      {
+        "title": "Photobiomodulation: A Systematic Review of the Oncologic Safety of Low-Level Light Therapy for Aesthetic Skin Rejuvenation",
+        "type": "systematic-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10309024/"
       }
     ],
     "alternativeTech": [
@@ -250,6 +255,12 @@
         "journal": "J Cosmet Laser Ther",
         "year": 2008,
         "type": "review"
+      },
+      {
+        "title": "Evaluating the effectiveness and safety of radiofrequency for face and neck rejuvenation: A systematic review",
+        "type": "systematic-review",
+        "pmid": "34923652",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34923652/"
       }
     ],
     "alternativeTech": [
@@ -524,6 +535,11 @@
         "journal": "Dermatol Surg",
         "year": 2011,
         "type": "rct"
+      },
+      {
+        "title": "A Systematic Review of the Clinical Efficacy of Micro-Focused Ultrasound Treatment for Skin Rejuvenation and Tightening",
+        "type": "systematic-review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8722640/"
       }
     ],
     "alternativeTech": [
@@ -665,6 +681,13 @@
         "journal": "Dermatol Surg",
         "year": 2017,
         "type": "review"
+      },
+      {
+        "title": "Microneedling: Where do we stand now? A systematic review of the literature",
+        "type": "systematic-review",
+        "year": 2017,
+        "pmid": "28690124",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28690124/"
       }
     ],
     "alternativeTech": [
@@ -1080,6 +1103,11 @@
         "journal": "J Cosmet Dermatol",
         "year": 2019,
         "type": "review"
+      },
+      {
+        "title": "A Systematic Review of the Clinical Efficacy of Micro-Focused Ultrasound Treatment for Skin Rejuvenation and Tightening",
+        "type": "systematic-review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8722640/"
       }
     ],
     "alternativeTech": [
