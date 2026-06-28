@@ -532,3 +532,19 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
   .cmp-overlay.is-open{display:block;position:fixed;inset:0;background:rgba(40,34,28,.4);z-index:55}
   .cmp-sort-wrap{margin-left:0}
 }
+
+/* ---------- Databáze ingrediencí (rychlé vstupy + karty) ---------- */
+.cmp-quick{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:18px}
+.cmp-quick-l{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-right:4px}
+.cmp-qbtn{padding:8px 15px;border:1px solid var(--gold);border-radius:999px;background:var(--ivory);color:var(--ink);font-family:inherit;font-size:.86rem;cursor:pointer;transition:.15s}
+.cmp-qbtn:hover{background:var(--gold-deep);border-color:var(--gold-deep);color:#fff}
+.cmp-qbtn.is-active{background:var(--gold-deep);border-color:var(--gold-deep);color:#fff}
+.ing-card .cmp-card-name{font-size:1.25rem;margin-bottom:.5rem}
+.ing-skins{font-size:.84rem;margin:0 0 .5rem;color:var(--ink)}
+.ing-ev{font-size:.9rem;margin:0 0 .25rem;font-weight:500}
+.ing-risk{font-size:.86rem;margin:0 0 .25rem}
+.ing-risk--high{color:var(--bad)}
+.ing-risk--medium{color:var(--gold-deep)}
+.ing-risk--low{color:var(--ok)}
+.ing-rout{font-size:.86rem;color:var(--ink-soft);margin:0 0 1rem}
+.ing-cta{margin-top:auto;align-self:flex-start}

@@ -1045,7 +1045,9 @@ function renderListing(type) {
         ? supplementListingInner(items)
         : type === 'faceYoga'
           ? faceYogaListingInner(items)
-          : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
+          : type === 'ingredient'
+            ? '<div id="ingredientDb" class="cmp-app"></div>'
+            : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
@@ -1059,7 +1061,7 @@ function renderListing(type) {
     description: listingIntro(type),
     canonical: tc.base,
     breadcrumbTrail: trail,
-    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : type === 'faceYoga' ? '<script src="/assets/js/face-yoga-finder.js" defer></script>' : ''),
+    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : type === 'faceYoga' ? '<script src="/assets/js/face-yoga-finder.js" defer></script>' : type === 'ingredient' ? '<script src="/assets/js/ingredients-filter.js" defer></script>' : ''),
   });
 }
 
@@ -1215,7 +1217,7 @@ function productCard(e, dataAttrs) {
 }
 function listingIntro(type) {
   const m = {
-    ingredient: 'Databáze účinných látek s mechanismem účinku, koncentracemi, kompatibilitou a úrovní vědeckých důkazů.',
+    ingredient: 'Chytrý vyhledávač účinných látek. Nevíte, co hledat? Začněte problémem, typem pleti nebo tolerancí — filtr vám ukáže přesně to, co dává smysl.',
     technology: 'Přehled neinvazivních technologií — princip, mechanismus, výhody, nevýhody a důkazní základna.',
     supplement: 'Doplňky stravy pro pleť a stárnutí — seřazené podle síly skutečných důkazů, s transparentní legislativní kontrolou tvrzení. Bez marketingového hype.',
     product: 'Produkty propojené s ingrediencemi, technologiemi a studiemi. Transparentně a s ohledem na evidenci.',
@@ -1443,6 +1445,63 @@ function exportCompareData() {
   writeFileSync(join(OUT, 'assets', 'data', 'compare-data.json'), JSON.stringify(items));
 }
 
+/* ----------------------------------------------------------------------------
+ * Databáze ingrediencí — obohacení o filtrovatelné atributy
+ * ------------------------------------------------------------------------- */
+const ING_META = {
+  retinol: { types: ['retinoidy'], effects: ['vrasky', 'textura', 'pigmentace', 'elasticita'], tol: ['irritation', 'pregnancy', 'spf'], routine: ['pm', 'postupne'], risk: 'high', alt: 'vitamin A retinol' },
+  retinal: { types: ['retinoidy'], effects: ['vrasky', 'textura', 'pigmentace'], tol: ['irritation', 'pregnancy', 'spf'], routine: ['pm', 'postupne'], risk: 'high', alt: 'retinaldehyd retinal' },
+  bakuchiol: { types: ['rostlinne', 'retinoidy'], effects: ['vrasky', 'citlivost', 'textura'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'bakuchiol rostlinný retinol psoralea' },
+  'vitamin-c': { types: ['antioxidanty', 'rozjasnujici'], effects: ['pigmentace', 'rozjasneni', 'prevence-fotostarnuti', 'vrasky'], tol: ['beginner', 'spf'], routine: ['am', 'denne'], risk: 'medium', alt: 'kyselina askorbová ascorbic vitamín C L-askorbová' },
+  niacinamid: { types: ['rozjasnujici', 'zklidnujici'], effects: ['pigmentace', 'rozjasneni', 'bariera', 'akne', 'textura'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'niacinamid vitamin B3 nikotinamid' },
+  peptidy: { types: ['peptidy'], effects: ['elasticita', 'vrasky'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'peptidy signální peptidy' },
+  'kyselina-hyaluronova': { types: ['hydratacni'], effects: ['hydratace', 'vrasky'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'kyselina hyaluronová hyaluronan HA hyaluronic' },
+  aha: { types: ['kyseliny'], effects: ['rozjasneni', 'pigmentace', 'textura', 'vrasky'], tol: ['irritation', 'spf'], routine: ['pm', 'dvakrat'], risk: 'high', alt: 'AHA alfahydroxykyseliny glykolová mléčná kyselina' },
+  bha: { types: ['kyseliny'], effects: ['akne', 'textura'], tol: ['irritation', 'pregnancy', 'spf'], routine: ['pm', 'dvakrat'], risk: 'high', alt: 'BHA salicylová kyselina beta hydroxy' },
+  'azelaova-kyselina': { types: ['kyseliny', 'rozjasnujici', 'zklidnujici'], effects: ['zarudnuti', 'pigmentace', 'akne', 'rozjasneni'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'medium', alt: 'azelaová kyselina azelaic' },
+  ceramidy: { types: ['barierove-lipidy'], effects: ['bariera', 'hydratace', 'citlivost'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'ceramidy ceramides' },
+  pha: { types: ['kyseliny'], effects: ['rozjasneni', 'textura', 'citlivost'], tol: ['beginner', 'sensitive', 'spf'], routine: ['pm', 'denne'], risk: 'medium', alt: 'PHA polyhydroxykyseliny glukonolakton' },
+  'tranexamova-kyselina': { types: ['rozjasnujici'], effects: ['pigmentace', 'rozjasneni'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'tranexamová kyselina tranexamic' },
+  matrixyl: { types: ['peptidy'], effects: ['vrasky', 'elasticita'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'matrixyl palmitoyl peptid' },
+  'copper-peptides': { types: ['peptidy'], effects: ['elasticita', 'vrasky'], tol: ['beginner', 'sensitive'], routine: ['pm', 'denne'], risk: 'low', alt: 'měděné peptidy copper GHK-Cu' },
+  argireline: { types: ['peptidy'], effects: ['vrasky'], tol: ['beginner'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'argireline acetyl hexapeptid' },
+  centella: { types: ['zklidnujici', 'rostlinne'], effects: ['zarudnuti', 'citlivost', 'bariera'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'centella asiatica cica madecassoside pupečník' },
+  panthenol: { types: ['zklidnujici', 'hydratacni'], effects: ['hydratace', 'bariera', 'citlivost', 'zarudnuti'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'panthenol provitamin B5 dexpanthenol' },
+  resveratrol: { types: ['antioxidanty', 'rostlinne'], effects: ['rozjasneni', 'prevence-fotostarnuti'], tol: ['beginner'], routine: ['am', 'denne'], risk: 'low', alt: 'resveratrol polyfenol' },
+  'koenzym-q10': { types: ['antioxidanty'], effects: ['vrasky', 'rozjasneni', 'prevence-fotostarnuti'], tol: ['beginner', 'sensitive'], routine: ['am', 'denne'], risk: 'low', alt: 'koenzym Q10 ubichinon CoQ10 ubiquinone' },
+  'ferulova-kyselina': { types: ['antioxidanty'], effects: ['rozjasneni', 'pigmentace', 'prevence-fotostarnuti'], tol: ['beginner', 'spf'], routine: ['am', 'denne'], risk: 'low', alt: 'ferulová kyselina ferulic' },
+  'alfa-arbutin': { types: ['rozjasnujici'], effects: ['pigmentace', 'rozjasneni'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'alfa arbutin arbutin' },
+  pdrn: { types: ['exosomy-pdrn', 'rustove-faktory'], effects: ['elasticita', 'vrasky'], tol: ['sensitive'], routine: ['pm', 'dvakrat'], risk: 'low', alt: 'PDRN polydeoxyribonukleotidy lososová DNA' },
+  exosomy: { types: ['exosomy-pdrn'], effects: ['elasticita'], tol: [], routine: ['pm', 'dvakrat'], risk: 'low', alt: 'exosomy exosomes' },
+  egf: { types: ['rustove-faktory'], effects: ['elasticita'], tol: [], routine: ['pm', 'denne'], risk: 'low', alt: 'EGF epidermální růstový faktor growth factor' },
+  skvalan: { types: ['barierove-lipidy', 'hydratacni'], effects: ['hydratace', 'bariera'], tol: ['beginner', 'sensitive'], routine: ['am', 'pm', 'denne'], risk: 'low', alt: 'skvalan squalane skvalen' },
+};
+const ING_EV_TIER = { strong: 'silne', moderate: 'dobre', limited: 'omezene', preliminary: 'experimentalni' };
+const ING_EFFECT_L = { vrasky: 'Vrásky', pigmentace: 'Pigmentace', hydratace: 'Hydratace', elasticita: 'Elasticita', bariera: 'Bariéra pleti', akne: 'Akné', zarudnuti: 'Zarudnutí', citlivost: 'Citlivost', textura: 'Textura pleti', rozjasneni: 'Rozjasnění', 'prevence-fotostarnuti': 'Prevence fotostárnutí' };
+function exportIngredientData() {
+  const items = entitiesByType('ingredient').map((e) => {
+    const m = ING_META[e.slug] || { types: [], effects: [], tol: [], routine: [], risk: 'low', alt: '' };
+    const skins = [...(e._rel.skinType || [])];
+    const probs = [...(e._rel.problem || [])];
+    if (probs.includes('rosacea') || (m.effects || []).includes('zarudnuti')) { if (skins.indexOf('rosacea') < 0) skins.push('rosacea'); }
+    const ages = [...(e._rel.ageGroup || [])].map((a) => CMP_AGE_MAP[a]).filter(Boolean);
+    const tol = m.tol.slice();
+    const evTier = ING_EV_TIER[e.evidenceLevel] || 'experimentalni';
+    const effectLabels = (m.effects || []).map((k) => ING_EFFECT_L[k] || k);
+    return {
+      id: e.slug, name: e.name, url: urlOf(e), excerpt: e.excerpt || '',
+      types: m.types || [], effects: m.effects || [], effectLabels,
+      skins, minAge: ages.length ? Math.min(...ages) : null,
+      evidence: evTier, evRank: EV_RANK[e.evidenceLevel] ?? 0,
+      risk: m.risk || 'low', tol, routine: m.routine || [],
+      beginner: tol.indexOf('beginner') > -1, sensitive: tol.indexOf('sensitive') > -1,
+      search: (e.name + ' ' + (m.alt || '') + ' ' + effectLabels.join(' ') + ' ' + skins.join(' ') + ' ' + (e.excerpt || '')).toLowerCase(),
+    };
+  });
+  mkdirSync(join(OUT, 'assets', 'data'), { recursive: true });
+  writeFileSync(join(OUT, 'assets', 'data', 'ingredients-data.json'), JSON.stringify(items));
+}
+
 function exportToolData() {
   const slim = (e, fields) => { const o = { slug: e.slug, name: e.name, url: urlOf(e), type: e.type }; for (const f of fields) if (e[f] !== undefined) o[f] = e[f]; return o; };
   const data = {
@@ -1506,6 +1565,7 @@ function build() {
 
   // exporty
   exportCompareData();
+  exportIngredientData();
   exportToolData();
   exportSearchIndex();
   exportSitemap();
