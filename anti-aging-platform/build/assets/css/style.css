@@ -540,6 +540,7 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .cmp-qbtn:hover{background:var(--gold-deep);border-color:var(--gold-deep);color:#fff}
 .cmp-qbtn.is-active{background:var(--gold-deep);border-color:var(--gold-deep);color:#fff}
 .ing-card .cmp-card-name{font-size:1.25rem;margin-bottom:.5rem}
+.ing-desc{font-size:.9rem;color:var(--ink-soft);margin:0 0 .7rem;line-height:1.5}
 .ing-skins{font-size:.84rem;margin:0 0 .5rem;color:var(--ink)}
 .ing-ev{font-size:.9rem;margin:0 0 .25rem;font-weight:500}
 .ing-risk{font-size:.86rem;margin:0 0 .25rem}
