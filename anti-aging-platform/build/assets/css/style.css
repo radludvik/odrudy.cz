@@ -584,3 +584,12 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .help-rank{flex:none;width:26px;height:26px;border-radius:50%;background:var(--gold-deep);color:#fff;font-weight:600;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-top:2px}
 .help-row strong{font-size:1rem}
 .help-row p{margin:.2rem 0 0}
+
+/* ---------- Péče: doporučené produkty ---------- */
+.care-prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin:8px 0 14px}
+.care-prod{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px 16px;color:var(--ink)}
+.care-prod:hover{border-color:var(--gold);color:var(--ink);box-shadow:var(--shadow)}
+.care-prod-meta{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep);font-weight:600}
+.care-prod-name{font-size:1rem;line-height:1.3}
+.care-prod-foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+.care-prod-score{font-family:var(--serif);font-weight:600;color:var(--gold-deep)}

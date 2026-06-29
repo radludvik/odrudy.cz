@@ -503,6 +503,7 @@ function detailExtras(e) {
     html += careRoutine(g.am, g.pm);
     html += listBlock('Na co se zaměřit', g.focusActives);
     html += listBlock('Čemu se vyhnout', g.avoid);
+    html += careProducts(e);
     if (g.expectations) html += careCallout('accent', 'Realistická očekávání', g.expectations);
     if (g.whenPro) html += careCallout('', 'Kdy zvážit odborníka', g.whenPro);
   }
@@ -514,6 +515,7 @@ function detailExtras(e) {
     html += listBlock('Nejvhodnější látky', g.bestActives);
     html += careRoutine(g.am, g.pm);
     html += listBlock('Časté chyby', g.mistakes);
+    html += careProducts(e);
     if (e.routineHints) html += careCallout('accent', 'Tip na rutinu', e.routineHints);
     if (g.note) html += careCallout('', 'Důležité', g.note);
   }
@@ -525,6 +527,7 @@ function detailExtras(e) {
     html += listBlock('Příčiny', e.causes);
     html += whatHelpsBlock(g.whatHelps);
     html += careRoutine(g.am, g.pm);
+    html += careProducts(e);
     if (g.expectations) html += careCallout('accent', 'Realistická očekávání', g.expectations);
     html += listBlock('Prevence', g.prevention);
     if (g.whenPro) html += careCallout('', 'Kdy vyhledat lékaře', g.whenPro);
@@ -576,6 +579,28 @@ function whatHelpsBlock(arr) {
   if (!arr || !arr.length) return '';
   const items = arr.map((x, i) => `<div class="help-row"><span class="help-rank">${i + 1}</span><div><strong>${esc(x.label)}</strong>${x.note ? `<p class="muted small">${esc(x.note)}</p>` : ''}</div></div>`).join('');
   return `<section class="section-block"><h2>Co s tím — podle síly důkazů</h2><p class="muted small">Seřazeno přibližně podle síly důkazů a praktického přínosu. Detaily a zdroje najdete na stránkách jednotlivých látek a technologií.</p><div class="help-list">${items}</div></section>`;
+}
+/* Doporučené produkty na stránce péče — z databáze, seřazené podle skóre AntiAgeLab */
+function careProducts(e, opts = {}) {
+  const set = e._rel && e._rel.product;
+  let prods = set ? [...set].map((s) => bySlug.get(`product:${s}`)).filter(Boolean) : [];
+  if (opts.cosmeticsOnly !== false) prods = prods.filter((p) => p.category !== 'doplnky-stravy');
+  const sc = (p) => (p.scores && p.scores.overall ? p.scores.overall.score : 0);
+  prods.sort((a, b) => sc(b) - sc(a));
+  const top = prods.slice(0, 6);
+  const moreHref = e.type === 'problem' ? `/produkty/?problem=${e.slug}` : e.type === 'skinType' ? `/produkty/?skintype=${e.slug}` : '/produkty/';
+  if (!top.length) return '';
+  const cards = top.map((p) => {
+    const score = (p.scores && p.scores.overall) ? `<span class="care-prod-score">${fmtScore(p.scores.overall.score)}/10</span>` : '';
+    const meta = [(p.brand && p.brand !== '—') ? p.brand : '', categoryLabel(p.category)].filter(Boolean).join(' · ');
+    return `<a class="care-prod" href="${urlOf(p)}"><span class="care-prod-meta">${esc(meta)}</span><strong class="care-prod-name">${esc(p.name)}</strong><span class="care-prod-foot">${score}<span class="card-arrow">→</span></span></a>`;
+  }).join('');
+  return `<section class="section-block">
+    <div class="graph-head"><span class="eyebrow">Doporučení redakce</span><h2>Doporučené produkty podle metodiky AntiAgeLab</h2>
+    <p class="muted small">Vybráno z naší databáze a seřazeno podle <a href="/metodika-hodnoceni/">skóre AntiAgeLab</a>. Jde o redakční doporučení, ne o oficiální pořadí trhu.</p></div>
+    <div class="care-prod-grid">${cards}</div>
+    <p><a class="btn btn--ghost btn--sm" href="${moreHref}">Zobrazit všechny vhodné produkty →</a></p>
+  </section>`;
 }
 function compatibilityBlock(list) {
   const lvl = { good: ['Vhodné', 'ok'], caution: ['Opatrně', 'warn'], avoid: ['Nekombinovat', 'bad'] };
