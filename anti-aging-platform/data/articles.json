@@ -2464,5 +2464,670 @@
         "vecerni-rutina"
       ]
     }
+  },
+  {
+    "id": "article:fotostarnuti-prevence",
+    "slug": "fotostarnuti-prevence",
+    "type": "article",
+    "pillar": "skola",
+    "category": "skola",
+    "name": "Fotostárnutí: jak slunce stárne pleť a jak tomu předejít",
+    "title": "Fotostárnutí: jak slunce stárne pleť a jak tomu předejít | antiagelab.cz",
+    "metaDescription": "Většinu viditelného stárnutí pleti způsobuje slunce. Vysvětlujeme, jak UV poškozuje kůži a jak fotostárnutí prakticky předcházet.",
+    "h1": "Fotostárnutí: jak slunce stárne pleť a jak tomu předejít",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-30",
+    "excerpt": "Až 80 % viditelného stárnutí jde za sluncem. Co se v pleti děje a jak to zbrzdit.",
+    "quickAnswer": "Fotostárnutí je předčasné stárnutí pleti způsobené UV zářením — odhady připisují slunci velkou většinu viditelných známek stárnutí obličeje (vrásky, pigmentace, ztráta pevnosti). UV rozkládá kolagen a spouští tvorbu volných radikálů. Nejúčinnější prevence je jednoduchá a má nejsilnější oporu v datech: denní opalovací krém SPF 30–50, doplněný antioxidanty (vitamin C) a retinoidem. Fotoprotekce je zdaleka nejlepší anti-aging investice.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Rozlišujeme vnitřní (chronologické) stárnutí, které je dané geneticky a časem, a vnější stárnutí, kde dominuje UV záření. Studie a randomizovaný experiment s denním používáním SPF ukazují, že důsledná fotoprotekce viditelné stárnutí zpomaluje. Proto se odhaduje, že podstatnou část viditelných známek stárnutí obličeje má na svědomí právě slunce."
+      },
+      {
+        "note": "Účinnost denního SPF v prevenci fotostárnutí patří k nejlépe doloženým poznatkům v péči o pleť (randomizovaná studie Hughes 2013).",
+        "evidence": "strong"
+      },
+      {
+        "h2": "Jak slunce stárne pleť"
+      },
+      {
+        "list": [
+          "UVA proniká hluboko a rozkládá kolagen a elastin — vrásky a ztráta pevnosti",
+          "UVB poškozuje povrch a DNA buněk — spáleniny a riziko",
+          "UV spouští tvorbu volných radikálů (oxidační stres)",
+          "Opakované poškození vede k pigmentovým skvrnám a nerovnoměrnému tónu"
+        ]
+      },
+      {
+        "h2": "Jak fotostárnutí předcházet"
+      },
+      {
+        "list": [
+          "Denně SPF 30–50 — i v zimě, za mraků a u okna (UVA prochází sklem)",
+          "Antioxidanty ráno (vitamin C) — doplňují ochranu proti volným radikálům",
+          "Retinoid večer — podporuje obnovu a kolagen poškozený UV",
+          "Fyzická ochrana — klobouk, brýle, stín v poledních hodinách"
+        ]
+      },
+      {
+        "h2": "Pro koho je to nejdůležitější"
+      },
+      {
+        "list": [
+          "Úplně pro každého a v každém věku — prevence se vyplácí nejvíc zamlada",
+          "Světlejší fototypy (vyšší citlivost), ale i tmavší pleť potřebuje ochranu",
+          "Kdo používá retinoidy nebo kyseliny (zvyšují fotosenzitivitu)"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Fotoprotekce funguje hlavně jako dlouhodobá prevence — „výnos\" se sčítá roky. Není to krém, po kterém ráno vypadáte mladší, ale nejspolehlivější způsob, jak v čase zpomalit vznik vrásek, skvrn a ztráty pevnosti."
+      },
+      {
+        "h2": "Limity a časté chyby"
+      },
+      {
+        "p": "Nejčastější chyby: málo naneseného krému, nenanášení každý den a spoléhání jen na SPF v makeupu. Žádná aktivní látka „nedožene\" každodenní nechráněné slunce — bez SPF zbytek rutiny ztrácí velkou část smyslu."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Pokud máte zvládnout jediný anti-aging krok, je to denní opalovací krém. Fotostárnutí je z velké části předcházitelné a SPF je doslova nejúčinnější a nejlevnější „anti-aging produkt\", jaký existuje."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Opravdu za většinu stárnutí pleti může slunce?",
+        "a": "Odhady připisují slunci velkou většinu viditelných známek stárnutí obličeje. Vnitřní stárnutí běží také, ale UV ho výrazně urychluje — proto je fotoprotekce tak zásadní."
+      },
+      {
+        "q": "Stačí SPF v makeupu nebo krému?",
+        "a": "Většinou ne. Naneste samostatný opalovací krém v dostatečném množství; SPF v makeupu se aplikuje příliš tence na deklarovanou ochranu. Berte ho jako bonus, ne jako hlavní ochranu."
+      },
+      {
+        "q": "Musím SPF nosit i v zimě a uvnitř?",
+        "a": "Ano. UVA, které stárne pleť, prochází mraky i okny celoročně. Pokud trávíte den u okna nebo venku, denní SPF má smysl po celý rok."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sunscreen and Prevention of Skin Aging: A Randomized Trial (Hughes et al.)",
+        "type": "rct",
+        "year": 2013,
+        "journal": "Ann Intern Med",
+        "pmid": "23732711",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/"
+      }
+    ],
+    "relatedEntities": [
+      "pigmentace"
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c",
+        "retinol",
+        "ferulova-kyselina",
+        "niacinamid"
+      ],
+      "products": [
+        "la-roche-posay-anthelios-uvmune-spf50",
+        "la-roche-posay-anthelios-fluid-spf50",
+        "skinceuticals-ce-ferulic"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "pigmentace",
+        "povolena-plet"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ],
+      "studies": [
+        "hughes-2013-spf"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus"
+      ]
+    }
+  },
+  {
+    "id": "article:jak-cist-inci-slozeni",
+    "slug": "jak-cist-inci-slozeni",
+    "type": "article",
+    "pillar": "skola",
+    "category": "skola",
+    "name": "Jak číst složení kosmetiky (INCI): praktický návod",
+    "title": "Jak číst složení kosmetiky (INCI): praktický návod | antiagelab.cz",
+    "metaDescription": "Naučte se číst INCI seznam složení — pořadí podle množství, kde hledat aktivní látky a jak nenaletět marketingu „zdarma od…\".",
+    "h1": "Jak číst složení kosmetiky (INCI): praktický návod",
+    "evidenceLevel": "limited",
+    "updated": "2026-06-30",
+    "excerpt": "Etiketa prozradí víc než reklama. Jak číst pořadí složek a kde hledat aktivní látky.",
+    "quickAnswer": "INCI (mezinárodní názvosloví složek) je seznam ingrediencí seřazený od největšího množství po nejmenší — složky nad 1 % jsou podle pořadí, pod 1 % mohou být v libovolném pořadí na konci. Aktivní látky proto hledejte spíš v horní a střední části seznamu; pokud je „hvězdná\" ingredience až úplně na konci, je jí v produktu málo. Marketingové „bez parabenů/sulfátů\" nevypovídá o účinnosti. Číst INCI je nejlepší obrana proti přeplácení za reklamu.",
+    "body": [
+      {
+        "h2": "Proč číst složení"
+      },
+      {
+        "p": "Reklamní text na přední straně je marketing; INCI seznam na zadní straně je realita. Naučit se ho číst vám ušetří peníze a zklamání — poznáte, jestli „retinolové sérum\" obsahuje retinol v rozumném množství, nebo jen špetku pro nápis na obalu."
+      },
+      {
+        "note": "INCI prozradí přítomnost a hrubé pořadí složek, ne přesnou koncentraci ani kvalitu formulace. Je to vodítko, ne laboratorní rozbor.",
+        "evidence": "limited"
+      },
+      {
+        "h2": "Jak funguje pořadí složek"
+      },
+      {
+        "list": [
+          "Složky se uvádějí sestupně podle množství",
+          "Co je nad ~1 %, musí být seřazeno podle množství",
+          "Co je pod ~1 %, může být v libovolném pořadí (typicky konec seznamu)",
+          "Voda (Aqua) bývá první v produktech na vodní bázi"
+        ]
+      },
+      {
+        "h2": "Kde hledat aktivní látky"
+      },
+      {
+        "p": "Účinné látky chcete vidět v horní až střední části seznamu, ne až za konzervanty a parfemací. Příklady INCI názvů: retinol = Retinol, vitamin C = Ascorbic Acid (nebo deriváty jako Sodium Ascorbyl Phosphate), niacinamid = Niacinamide, kyselina hyaluronová = Sodium Hyaluronate."
+      },
+      {
+        "h2": "Na co si dát pozor"
+      },
+      {
+        "list": [
+          "Aktivní látka až na samém konci = pravděpodobně jí je velmi málo",
+          "„Bez parabenů/sulfátů/silikonů\" je marketing, ne známka účinnosti",
+          "Dlouhý seznam parfemace a esenciálních olejů u citlivé pleti = vyšší riziko podráždění",
+          "Pořadí neprozradí kvalitu surovin ani stabilitu — je to jen vodítko"
+        ]
+      },
+      {
+        "h2": "Pro koho je to užitečné"
+      },
+      {
+        "list": [
+          "Kdo nechce přeplácet za marketing a chce ověřit, co kupuje",
+          "Citlivá pleť — kontrola dráždivých složek (parfemace, alkohol, esenciální oleje)",
+          "Kdo si staví rutinu a chce zkontrolovat překryvy a koncentrace"
+        ]
+      },
+      {
+        "h2": "Limity"
+      },
+      {
+        "p": "INCI nepoví přesné procento (kromě výjimek, kde je koncentrace regulovaná) ani to, jak dobře je produkt zformulovaný. Dva produkty se stejnou složkou se mohou výrazně lišit účinkem podle koncentrace, pH a nosiče. Berte INCI jako první filtr, ne konečný verdikt."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Otočte produkt a podívejte se, kde v seznamu je slibovaná aktivní látka. Ignorujte „free-from\" hesla a soustřeďte se na pořadí a přítomnost toho, co opravdu chcete. Je to nejlevnější dovednost s největší návratností."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Znamená první místo v INCI nejvíc účinné látky?",
+        "a": "Znamená to největší množství, ale tou bývá voda nebo nosič, ne aktivní látka. Účinné látky proto hledejte spíš v horní a střední části, ne nutně na prvním místě."
+      },
+      {
+        "q": "Je „bez parabenů\" lepší produkt?",
+        "a": "Ne nutně. Je to marketingové sdělení, které neříká nic o účinnosti. Schválené konzervanty mají svůj smysl; rozhoduje celková formulace, ne jedno „free-from\" heslo."
+      },
+      {
+        "q": "Poznám z INCI koncentraci?",
+        "a": "Většinou jen hrubě — podle pořadí (nad/pod 1 %). Přesné procento výrobci uvádět nemusí. Pokud je klíčová látka až na konci, je jí pravděpodobně málo."
+      }
+    ],
+    "sources": [],
+    "relatedEntities": [
+      "retinol"
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "vitamin-c",
+        "niacinamid",
+        "kyselina-hyaluronova",
+        "peptidy"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ],
+      "skinTypes": [
+        "citliva"
+      ]
+    }
+  },
+  {
+    "id": "article:jak-starne-plet-faktory",
+    "slug": "jak-starne-plet-faktory",
+    "type": "article",
+    "pillar": "skola",
+    "category": "skola",
+    "name": "Jak stárne pleť: vnitřní a vnější faktory",
+    "title": "Jak stárne pleť: vnitřní a vnější faktory | antiagelab.cz",
+    "metaDescription": "Co se v pleti děje s věkem — vnitřní (genetika, hormony) i vnější faktory (slunce, životní styl) a které z nich můžete ovlivnit.",
+    "h1": "Jak stárne pleť: vnitřní a vnější faktory",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-30",
+    "excerpt": "Část stárnutí neovlivníme, většinu ano. Přehled faktorů a co s nimi reálně zmůžete.",
+    "quickAnswer": "Stárnutí pleti má dvě složky. Vnitřní (chronologické) je dané genetikou, časem a hormony (zvlášť pokles estrogenu v menopauze) — to ovlivníte jen omezeně. Vnější stárnutí způsobují slunce, kouření, nedostatek spánku, stres a strava — a právě tady máte největší páku. Dobrá zpráva: většina viditelného stárnutí jde za ovlivnitelnými faktory, takže fotoprotekce a životní styl mají reálný dopad.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Dermatologie rozlišuje vnitřní (intrinsic) a vnější (extrinsic) stárnutí. Vnitřní běží u všech podobně a je dáno geneticky; vnější se velmi liší podle expozice slunci a životního stylu. Klíčové sdělení literatury: většina viditelných změn obličeje je vnější, a tedy z velké části ovlivnitelná."
+      },
+      {
+        "note": "Rozdělení na vnitřní a vnější stárnutí je dobře zavedené; přesný poměr se u jednotlivců liší podle expozice a genetiky.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Vnitřní faktory (omezeně ovlivnitelné)"
+      },
+      {
+        "list": [
+          "Genetika — rychlost a typ stárnutí",
+          "Věk — postupný pokles kolagenu (zhruba kolem 1 % ročně od dospělosti)",
+          "Hormony — pokles estrogenu v menopauze urychluje ztrátu kolagenu a suchost"
+        ]
+      },
+      {
+        "h2": "Vnější faktory (ovlivnitelné)"
+      },
+      {
+        "list": [
+          "UV záření — největší jednotlivý vnější faktor (fotostárnutí)",
+          "Kouření — urychluje vrásky a zhoršuje prokrvení pleti",
+          "Strava a cukr (glykace) — ovlivňují kvalitu kolagenu",
+          "Spánek a stres — zhoršují regeneraci a bariéru",
+          "Znečištění ovzduší — oxidační stres"
+        ]
+      },
+      {
+        "h2": "Co s tím můžete dělat"
+      },
+      {
+        "list": [
+          "Fotoprotekce — nejúčinnější páka na vnější stárnutí",
+          "Nekouřit a omezit nadbytek cukru",
+          "Retinoid a antioxidanty v rutině",
+          "Spánek, pohyb a zvládání stresu jako podpora regenerace"
+        ]
+      },
+      {
+        "h2": "Pro koho je to důležité"
+      },
+      {
+        "list": [
+          "Pro každého, kdo chce stárnout pomaleji a realisticky",
+          "Ženy v období perimenopauzy a menopauzy (hormonální vliv)",
+          "Kdo hledá, kam vložit energii s největší návratností"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Ovlivnitelné faktory nevypnete úplně, ale můžete výrazně zpomalit tempo viditelného stárnutí. Největší rozdíl dělá dlouhodobá fotoprotekce a životní styl, ne jednotlivý zázračný produkt."
+      },
+      {
+        "h2": "Limity"
+      },
+      {
+        "p": "Genetiku a čas neoblafnete a žádná péče nezastaví stárnutí úplně. Cílem není „nestárnout\", ale stárnout zdravě a pomaleji. Pozor na produkty slibující „zvrácení stárnutí\" — to realita neunese."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Smiřte se s tím, co neovlivníte, a soustřeďte se na to, co ano: slunce, kouření, cukr, spánek a stres. Tam leží většina viditelného stárnutí — a tedy i většina vašich možností."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik stárnutí pleti můžu ovlivnit?",
+        "a": "Podstatnou část. Vnější faktory (hlavně slunce a životní styl) tvoří velkou většinu viditelných změn a ty jsou ovlivnitelné. Vnitřní stárnutí dané genetikou a časem ovlivníte jen omezeně."
+      },
+      {
+        "q": "Proč pleť rychle stárne v menopauze?",
+        "a": "Pokles estrogenu urychluje ztrátu kolagenu a zhoršuje hydrataci a pevnost. Proto mnoho žen pozoruje výraznější změny právě v tomto období. Péče a fotoprotekce zůstávají klíčové."
+      },
+      {
+        "q": "Zhoršuje cukr stárnutí pleti?",
+        "a": "Nadbytek cukru se spojuje s glykací, která může zhoršovat kvalitu kolagenu. Není to jediný faktor, ale vyvážená strava patří mezi rozumné, ovlivnitelné kroky."
+      }
+    ],
+    "sources": [],
+    "relatedEntities": [
+      "hluboke-vrasky"
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "vitamin-c",
+        "peptidy",
+        "koenzym-q10"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "hluboke-vrasky",
+        "povolena-plet"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ],
+      "skinTypes": [
+        "zrala"
+      ]
+    }
+  },
+  {
+    "id": "article:kolagen-doplnky-veda",
+    "slug": "kolagen-doplnky-veda",
+    "type": "article",
+    "pillar": "skola",
+    "category": "skola",
+    "name": "Kolagen v prášku: co říká věda (a co zákon o tvrzeních)",
+    "title": "Kolagen v prášku: co říká věda (a co zákon o tvrzeních) | antiagelab.cz",
+    "metaDescription": "Pomáhají kolagenové doplňky pleti? Co naznačují metaanalýzy, proč nejde o schválené zdravotní tvrzení a jak k nim přistupovat střízlivě.",
+    "h1": "Kolagen v prášku: co říká věda (a co zákon o tvrzeních)",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-30",
+    "excerpt": "Metaanalýzy naznačují přínos, EU zdravotní tvrzení ale chybí. Střízlivý pohled.",
+    "quickAnswer": "Metaanalýzy hydrolyzovaného kolagenu naznačují možné zlepšení hydratace a elasticity pleti, ale studie jsou často financované výrobci a heterogenní. Důležité: pro kolagen neexistuje v EU schválené zdravotní tvrzení o vlivu na pleť, takže ho nelze prezentovat jako prokázaný účinek ani jako léčbu. Pokud chcete podpořit tvorbu vlastního kolagenu „zevnitř\" se schváleným tvrzením, sáhněte spíš po vitaminu C. Kolagen berte jako doplněk s nadějnými, ale ne definitivními daty.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Několik metaanalýz perorálního (hydrolyzovaného) kolagenu popisuje zlepšení hydratace a elasticity pleti oproti placebu. Kvalita důkazů je ale snižovaná malými vzorky, krátkým trváním a častým financováním ze strany výrobců. Mechanismus (proč by trávené peptidy měly cílit zrovna pleť) není plně objasněn."
+      },
+      {
+        "note": "Data jsou nadějná (metaanalýzy), ale heterogenní a často sponzorovaná. Nejde o pevný ani o schválený důkaz.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Co říká legislativa o tvrzeních"
+      },
+      {
+        "p": "V EU smí být u doplňků uváděna jen schválená zdravotní tvrzení (nařízení 1924/2006 a 432/2012). Pro kolagen žádné takové tvrzení o vlivu na pleť schváleno není — proto se o něm nesmí tvrdit, že „zlepšuje pleť\", a rozhodně ne, že něco léčí. To, co naznačují studie, je tedy něco jiného než oficiálně prokázaný a povolený účinek."
+      },
+      {
+        "h2": "Co má schválené tvrzení místo kolagenu"
+      },
+      {
+        "list": [
+          "Vitamin C — „přispívá k normální tvorbě kolagenu pro normální funkci kůže\" (schválené EU tvrzení)",
+          "Zinek — „přispívá k udržení normálního stavu kůže\" (schválené EU tvrzení)",
+          "Biotin (B7) — „přispívá k udržení normálního stavu kůže\" (schválené EU tvrzení)"
+        ]
+      },
+      {
+        "h2": "Pro koho může mít smysl"
+      },
+      {
+        "list": [
+          "Kdo chce doplněk vyzkoušet s realistickým, ne zázračným očekáváním",
+          "Kdo má jinak vyváženou stravu (doplněk nenahrazuje jídelníček)",
+          "Kdo nečeká „náhradu\" za topickou péči a SPF"
+        ]
+      },
+      {
+        "h2": "Pro koho to nedává smysl"
+      },
+      {
+        "list": [
+          "Kdo čeká prokázaný nebo léčebný efekt — ten není",
+          "Kdo by kvůli doplňku zanedbal základ (SPF, retinoid, strava)",
+          "Těhotné/kojící a lidé s onemocněním — vždy nejprve konzultace s lékařem"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Pokud vůbec, pak jemné zlepšení hydratace a komfortu pleti po týdnech až měsících pravidelného užívání, individuálně. Nečekejte viditelné vyhlazení vrásek — to data nepodporují a tvrdit to nelze."
+      },
+      {
+        "h2": "Limity a bezpečnost"
+      },
+      {
+        "p": "Doplněk stravy nenahrazuje pestrou stravu ani zdravý životní styl. Kvalita a dávkování přípravků se liší; část studií je sponzorovaná. Při zdravotních potížích, těhotenství a kojení se poraďte s lékařem nebo lékárníkem."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Kolagen je populární doplněk s nadějnými, ale nepevnými daty a bez schváleného EU tvrzení o pleti. Není to zázrak ani léčba. Chcete-li podporu „zevnitř\" s reálným tvrzením, vsaďte spíš na vitamin C, zinek nebo biotin — a základ řešte topicky."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Funguje kolagen v prášku na vrásky?",
+        "a": "Důkazy pro vrásky jsou slabé a nejde o schválené tvrzení. Metaanalýzy naznačují spíš možné zlepšení hydratace a elasticity, ale studie jsou heterogenní a často sponzorované. Berte to střízlivě."
+      },
+      {
+        "q": "Proč se nesmí psát, že kolagen pomáhá pleti?",
+        "a": "Protože v EU pro kolagen není schválené zdravotní tvrzení o vlivu na pleť (nařízení 1924/2006 a 432/2012). Bez schváleného tvrzení nelze takový účinek u doplňku deklarovat."
+      },
+      {
+        "q": "Co užívat místo kolagenu na podporu pleti zevnitř?",
+        "a": "Schválené tvrzení o pleti mají např. vitamin C (tvorba kolagenu), zinek a biotin (udržení normálního stavu kůže). I tak doplněk nenahrazuje pestrou stravu ani topickou péči."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis",
+        "type": "meta-analysis",
+        "year": 2023,
+        "journal": "Nutrients",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/"
+      }
+    ],
+    "relatedEntities": [
+      "kolagen"
+    ],
+    "relations": {
+      "supplements": [
+        "kolagen",
+        "vitamin-c",
+        "zinek",
+        "biotin",
+        "kyselina-hyaluronova"
+      ],
+      "ingredients": [
+        "vitamin-c",
+        "peptidy"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "routines": [
+        "doplnky-anti-aging-basic",
+        "doplnky-pro-40-plus"
+      ],
+      "ageGroups": [
+        "40-plus",
+        "50-plus"
+      ]
+    }
+  },
+  {
+    "id": "article:doplnky-pro-plet-prehled",
+    "slug": "doplnky-pro-plet-prehled",
+    "type": "article",
+    "pillar": "skola",
+    "category": "skola",
+    "name": "Doplňky stravy pro pleť: co má a nemá oporu",
+    "title": "Doplňky stravy pro pleť: co má a nemá oporu | antiagelab.cz",
+    "metaDescription": "Které doplňky pro pleť mají schválená EU tvrzení nebo slušná data — a které jsou spíš marketing. Střízlivý přehled bez léčebných slibů.",
+    "h1": "Doplňky stravy pro pleť: co má a nemá oporu",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-30",
+    "excerpt": "Co opravdu „funguje zevnitř\" a co je marketing. Přehled podle tvrzení i dat.",
+    "quickAnswer": "U doplňků pro pleť je užitečné rozlišovat dvě věci: schválená EU zdravotní tvrzení (co se smí deklarovat) a sílu vědeckých dat. Schválené tvrzení o kůži mají vitamin C, zinek a biotin. Kolagen a astaxanthin mají nadějná, ale nepevná a neschválená data. Omega-3 a vitamin D mají schválená tvrzení mimo pleť. Žádný doplněk nenahradí pestrou stravu, fotoprotekci ani topickou péči — a nic z toho nejsou léčebná tvrzení.",
+    "body": [
+      {
+        "h2": "Jak číst „doplněk na pleť\""
+      },
+      {
+        "p": "Reklamy rády slibují „zdravou pleť zevnitř\". Dvě otázky vám pomohou: (1) Má látka schválené EU zdravotní tvrzení o kůži? (2) Co o ní říkají kvalitní studie? Někdy je schválené tvrzení, ale slabá data; jindy nadějná data, ale žádné tvrzení. Obojí je dobré vědět."
+      },
+      {
+        "note": "V EU smí být uvedena jen schválená zdravotní tvrzení (nařízení 1924/2006 a 432/2012). Nic z níže uvedeného nejsou léčebná tvrzení.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Mají schválené EU tvrzení o kůži"
+      },
+      {
+        "list": [
+          "Vitamin C — „přispívá k normální tvorbě kolagenu pro normální funkci kůže\"",
+          "Zinek — „přispívá k udržení normálního stavu kůže\"",
+          "Biotin (vitamin B7) — „přispívá k udržení normálního stavu kůže\"",
+          "Měď — „přispívá k normální pigmentaci kůže\""
+        ]
+      },
+      {
+        "h2": "Nadějná data, ale bez schváleného tvrzení o pleti"
+      },
+      {
+        "list": [
+          "Kolagen — metaanalýzy naznačují hydrataci/elasticitu, data jsou heterogenní",
+          "Astaxanthin — antioxidant s nadějnými, ale menšími studiemi",
+          "Koenzym Q10 — antioxidant, data spíš omezená"
+        ]
+      },
+      {
+        "h2": "Schválené tvrzení, ale mimo pleť"
+      },
+      {
+        "list": [
+          "Omega-3 (EPA/DHA) — tvrzení se týkají srdce, mozku a zraku, ne pleti",
+          "Vitamin D — imunita a kosti; pro pleť schválené tvrzení nemá",
+          "Selen — tvrzení o vlasech a nehtech, ne přímo o kůži"
+        ]
+      },
+      {
+        "h2": "Pro koho doplňky dávají smysl"
+      },
+      {
+        "list": [
+          "Při prokázaném nedostatku (řeší lékař/rozbor)",
+          "Jako doplněk vyvážené stravy, ne její náhrada",
+          "Kdo má realistická očekávání a nehledá zázrak"
+        ]
+      },
+      {
+        "h2": "Pro koho jsou zbytečné"
+      },
+      {
+        "list": [
+          "Kdo má pestrou stravu a žádný deficit",
+          "Kdo by kvůli nim zanedbal základ (SPF, topická péče)",
+          "Kdo čeká léčebný nebo dramatický kosmetický efekt"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "U vitaminů a minerálů se schváleným tvrzením jde o podporu normálního stavu kůže, ne o viditelnou „proměnu\". U kolagenu a astaxanthinu je efekt nejistý a individuální. Doplňky jsou doplněk — největší rozdíl dělá strava, spánek, nekouření a fotoprotekce."
+      },
+      {
+        "h2": "Limity a bezpečnost"
+      },
+      {
+        "p": "Doplněk stravy nenahrazuje pestrou stravu ani zdravý životní styl a nemá léčit. Vyšší dávky nejsou automaticky lepší a některé látky se mohou předávkovat. Při těhotenství, kojení, užívání léků nebo onemocnění se poraďte s lékařem či lékárníkem."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Pro „pleť zevnitř\" se schváleným tvrzením dávají největší smysl vitamin C, zinek a biotin — ideálně z pestré stravy. Kolagen a astaxanthin můžete zkusit s realistickým očekáváním. Doplňky ale nikdy nejsou náhrada za SPF a topickou péči."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Které doplňky mají prokázaný vliv na pleť?",
+        "a": "Schválené EU tvrzení o kůži mají vitamin C, zinek a biotin (a měď pro pigmentaci). To znamená, že u nich lze podporu normálního stavu kůže deklarovat — není to ale léčebné tvrzení."
+      },
+      {
+        "q": "Pomáhá omega-3 na pleť?",
+        "a": "Schválená EU tvrzení omega-3 (EPA/DHA) se týkají srdce, mozku a zraku, ne pleti. Studie vliv na pleť zkoumají, ale jako zdravotní tvrzení o kůži ho deklarovat nelze."
+      },
+      {
+        "q": "Nahradí doplňky kvalitní péči o pleť?",
+        "a": "Ne. Doplněk stravy nenahrazuje pestrou stravu ani topickou péči a SPF. Největší dopad na vzhled pleti má fotoprotekce a životní styl, doplňky jsou jen podpora."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis",
+        "type": "meta-analysis",
+        "year": 2023,
+        "journal": "Nutrients",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/"
+      },
+      {
+        "title": "Systematic Review and Meta-Analysis on the Effects of Astaxanthin on Human Skin Ageing",
+        "type": "meta-analysis",
+        "year": 2021,
+        "journal": "Nutrients",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8472736/"
+      }
+    ],
+    "relatedEntities": [
+      "kolagen",
+      "vitamin-c"
+    ],
+    "relations": {
+      "supplements": [
+        "vitamin-c",
+        "zinek",
+        "biotin",
+        "kolagen",
+        "astaxanthin",
+        "omega-3",
+        "koenzym-q10",
+        "selen"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "routines": [
+        "doplnky-anti-aging-basic",
+        "doplnky-pro-40-plus",
+        "doplnky-premium-longevity"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ]
+    }
   }
 ]
