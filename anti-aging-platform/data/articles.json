@@ -994,5 +994,544 @@
         "bala-2018-tranexamic"
       ]
     }
+  },
+  {
+    "id": "article:led-masky-co-umi",
+    "slug": "led-masky-co-umi",
+    "type": "article",
+    "pillar": "technologie",
+    "category": "technologie",
+    "name": "LED masky: co umí a co ne",
+    "title": "LED masky: co umí a co ne | antiagelab.cz",
+    "metaDescription": "Domácí LED masky pod drobnohledem — co podporují studie (červené světlo, kolagen), kde jsou hranice domácích zařízení a jak je používat.",
+    "h1": "LED masky: co umí a co ne",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-30",
+    "excerpt": "Červené světlo má slušnou oporu, ale domácí masky nejsou ordinace. Co čekat reálně.",
+    "quickAnswer": "LED maska s červeným a blízkým infračerveným světlem má mezi domácími přístroji jednu z lepších opor v datech — studie naznačují podporu tvorby kolagenu, zlepšení textury a jemný protizánětlivý efekt. Účinek je ale pozvolný a mírný a domácí masky bývají slabší než ordinační přístroje. Klíč je dlouhodobá pravidelnost (několikrát týdně) a realistická očekávání: jde o doplněk rutiny, ne náhradu retinoidu či SPF.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Fotobiomodulace (léčba světlem) patří mezi neinvazivní metody s rostoucí, byť stále nejednotnou důkazní základnou. Studie s červeným (~630–660 nm) a blízkým infračerveným světlem popisují podporu syntézy kolagenu, zlepšení vrásek a textury a protizánětlivé působení. Velikost efektu bývá mírná a protokoly se mezi studiemi liší."
+      },
+      {
+        "note": "Důkazy pro fotobiomodulaci jsou střední úrovně — povzbudivé, ale s heterogenními protokoly a převahou menších studií. Domácí přístroje navíc bývají méně výkonné než ty studované.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Jak to funguje"
+      },
+      {
+        "p": "Světlo o určitých vlnových délkách proniká do kůže a předpokládá se, že stimuluje mitochondrie (cytochrom c oxidázu), zvyšuje tvorbu ATP a tím podporuje aktivitu fibroblastů a syntézu kolagenu. Červené světlo cílí spíš na omlazení a zánět, modré na bakterie u akné."
+      },
+      {
+        "h2": "Pro koho se hodí"
+      },
+      {
+        "list": [
+          "Kdo chce neinvazivní doplněk k rutině a je ochotný být dlouhodobě pravidelný",
+          "Citlivá pleť — světlo samo o sobě nedráždí jako aktivní látky",
+          "Zájem o mírné zlepšení textury a celkové „svěžesti\" bez zákroků"
+        ]
+      },
+      {
+        "h2": "Pro koho to nedává smysl"
+      },
+      {
+        "list": [
+          "Kdo čeká výsledky srovnatelné s ordinačními zákroky nebo retinoidy",
+          "Kdo přístroj nepoužije pravidelně — nárazově nemá efekt",
+          "Některé oční diagnózy či fotosenzitivita / fotosenzibilizující léky — poradit se s lékařem"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Při pravidelném používání (často 3–5× týdně, 10–20 minut) bývá v horizontu 8–12 týdnů popisované jemné zlepšení textury, tónu a drobných vrásek. Jde o kumulativní, nenápadný efekt — ne o viditelné „liftingové\" výsledky."
+      },
+      {
+        "h2": "Limity a bezpečnost"
+      },
+      {
+        "p": "Domácí masky mají typicky nižší výkon a hustotu LED než klinické panely, proto i menší efekt. Vždy používejte dodávanou ochranu očí. LED vs laser řešíme samostatně — laser je výkonnější a invazivnější, LED šetrnější a pomalejší."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "LED maska je mezi domácími přístroji rozumná sázka s reálnou, byť mírnou oporou v datech. Berte ji jako dlouhodobý doplněk — největší hodnotu má u člověka, který ji opravdu používá pravidelně a nečeká zázraky."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jak často LED masku používat?",
+        "a": "Většina protokolů pracuje s 3–5 sezeními týdně po 10–20 minutách. Efekt je kumulativní, takže rozhoduje dlouhodobá pravidelnost, ne jedno intenzivní použití."
+      },
+      {
+        "q": "Je domácí maska stejně účinná jako v ordinaci?",
+        "a": "Zpravidla ne. Klinické přístroje mívají vyšší výkon a hustotu diod. Domácí maska je pohodlnější a levnější v čase, ale s mírnějším efektem."
+      },
+      {
+        "q": "Je LED bezpečné pro oči?",
+        "a": "Při použití dodávané ochrany očí ano. Některé diagnózy nebo fotosenzibilizující léky jsou důvod poradit se předem s lékařem."
+      }
+    ],
+    "sources": [
+      {
+        "title": "A controlled trial to determine the efficacy of red and near-infrared light treatment in collagen restructuring (Wunsch & Matuschka)",
+        "type": "rct",
+        "year": 2014,
+        "journal": "Photomed Laser Surg",
+        "pmid": "24286286",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24286286/"
+      },
+      {
+        "title": "Photobiomodulation: A Systematic Review of the Oncologic Safety of Low-Level Light Therapy for Aesthetic Skin Rejuvenation",
+        "type": "systematic-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10309024/"
+      }
+    ],
+    "relatedEntities": [
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie",
+        "near-infrared",
+        "radiofrekvence"
+      ],
+      "products": [
+        "currentbody-led-mask",
+        "omnilux-contour-face",
+        "dr-dennis-gross-faceware-pro",
+        "the-light-salon-boost-advanced-led-mask"
+      ],
+      "comparisons": [
+        "led-vs-laser"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura"
+      ],
+      "studies": [
+        "wunsch-2014-led"
+      ]
+    }
+  },
+  {
+    "id": "article:domaci-pristroje-vs-ordinace",
+    "slug": "domaci-pristroje-vs-ordinace",
+    "type": "article",
+    "pillar": "technologie",
+    "category": "technologie",
+    "name": "Domácí přístroje vs ordinace: kdy se vyplatí",
+    "title": "Domácí přístroje vs ordinace: kdy se vyplatí | antiagelab.cz",
+    "metaDescription": "Microcurrent, radiofrekvence, HIFU, microneedling — porovnání domácích zařízení a ordinačních zákroků: účinnost, bezpečnost a kdy se která cesta vyplatí.",
+    "h1": "Domácí přístroje vs ordinace: kdy se vyplatí",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-30",
+    "excerpt": "Domácí přístroj, nebo zákrok? Procházíme rozdíl ve výkonu, riziku i ceně v čase.",
+    "quickAnswer": "Domácí přístroje (microcurrent, RF, mini-HIFU, dermaroller) jsou bezpečnější, levnější v čase a pohodlné, ale slabší a s pozvolnějším, mírnějším efektem — a pravidelnost u nich rozhoduje o všem. Ordinační verze (HIFU, frakční laser, profesionální microneedling, RF) jsou výkonnější, s lepší oporou v datech a viditelnějšími výsledky, ale dražší, s rekonvalescencí a vyšším rizikem. Volba závisí na cíli, rozpočtu a ochotě k zákroku.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "U většiny technologií platí, že nejlepší data pocházejí z ordinačních, výkonnějších zařízení. Domácí varianty bývají zmenšené verze s nižším výkonem — efekt je proto mírnější a hůře doložený. To neznamená, že nefungují; znamená to nižší strop a větší závislost na pravidelnosti."
+      },
+      {
+        "note": "Účinnost domácích přístrojů je obecně střední až slabě doložená; ordinační zákroky mají silnější, ale stále heterogenní důkazní základnu.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Jak se liší: výkon, riziko, cena v čase"
+      },
+      {
+        "p": "Ordinační přístroje pracují s vyšší energií a hloubkou — odtud výraznější výsledky, ale i delší rekonvalescence a vyšší riziko (popálení, pigmentace, u tmavších fototypů obzvlášť). Domácí přístroje mají bezpečnostní limity zabudované, takže riziko i efekt jsou nižší. Domácí zařízení je jednorázová investice; zákroky se obvykle opakují v sériích."
+      },
+      {
+        "h2": "Co zvážit u jednotlivých technologií"
+      },
+      {
+        "list": [
+          "Microcurrent (NuFACE apod.) — efekt je dočasný a jemný, vyžaduje téměř denní používání; ordinační verze silnější",
+          "Radiofrekvence — domácí RF je pomalá a kumulativní; ordinační RF má lepší data na zpevnění",
+          "HIFU — doménou ordinace (hloubkový lifting); domácí mini-HIFU je výrazně slabší",
+          "Microneedling — domácí dermaroller jen s krátkými jehličkami a opatrně; medical microneedling do hloubky patří do ordinace"
+        ]
+      },
+      {
+        "h2": "Pro koho se hodí domácí cesta"
+      },
+      {
+        "list": [
+          "Kdo chce nízké riziko, soukromí a je ochotný být dlouhodobě pravidelný",
+          "Údržba a prevence spíš než řešení výrazného problému",
+          "Omezený rozpočet rozložený v čase"
+        ]
+      },
+      {
+        "h2": "Pro koho dává smysl ordinace"
+      },
+      {
+        "list": [
+          "Výraznější povolení pleti či hlubší vrásky, kde domácí přístroj nestačí",
+          "Kdo chce viditelnější výsledek v kratším čase a akceptuje rekonvalescenci",
+          "Vždy s kvalifikovaným odborníkem — zvlášť u laseru a HIFU a u tmavších fototypů"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Domácí přístroje: jemné, kumulativní zlepšení napětí a textury, které mizí bez údržby. Ordinační zákroky: výraznější a déletrvající výsledky, obvykle po sérii sezení a s rekonvalescencí. Žádná technologie nenahradí základ — SPF a retinoid."
+      },
+      {
+        "h2": "Limity a rizika"
+      },
+      {
+        "p": "U ordinačních zákroků je zásadní zkušenost provádějícího a správná indikace; tmavší fototypy mají vyšší riziko pigmentace. U domácích přístrojů je největším rizikem promarněná investice kvůli nepravidelnému používání. Marketingové „liftingové\" sliby berte s rezervou."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Domácí přístroj zvolte pro nízké riziko, prevenci a údržbu, pokud vydržíte pravidelnost. Ordinaci, pokud chcete výraznější výsledek a akceptujete cenu i rekonvalescenci. Ani jedno není náhrada dobré každodenní rutiny."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Nahradí domácí přístroj zákrok v ordinaci?",
+        "a": "Většinou ne plnohodnotně. Domácí zařízení mají nižší výkon, takže nabízejí mírnější a dočasnější efekt. Jsou spíš o údržbě a prevenci než o vyřešení výraznějšího problému."
+      },
+      {
+        "q": "Které domácí přístroje mají smysl?",
+        "a": "Nejlepší poměr u LED a microcurrentu při pravidelném používání. Domácí HIFU a silná RF jsou kompromisem — bezpečnost vykupuje výkon. Vždy záleží na konkrétním zařízení a očekávání."
+      },
+      {
+        "q": "Jsou ordinační zákroky bezpečné?",
+        "a": "Při správné indikaci a u zkušeného odborníka ano, ale nesou vyšší riziko (popálení, pigmentace) než domácí přístroje, zvlášť u tmavších fototypů. Proto je výběr pracoviště klíčový."
+      }
+    ],
+    "sources": [
+      {
+        "title": "A Systematic Review of the Clinical Efficacy of Micro-Focused Ultrasound Treatment for Skin Rejuvenation and Tightening",
+        "type": "systematic-review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8722640/"
+      },
+      {
+        "title": "Evaluating the effectiveness and safety of radiofrequency for face and neck rejuvenation: A systematic review",
+        "type": "systematic-review",
+        "pmid": "34923652",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34923652/"
+      }
+    ],
+    "relatedEntities": [
+      "microcurrent",
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "radiofrekvence",
+        "hifu",
+        "microneedling",
+        "led-terapie"
+      ],
+      "products": [
+        "nuface-trinity",
+        "currentbody-led-mask",
+        "tripollar-stop-vx"
+      ],
+      "procedures": [
+        "hifu",
+        "frakcni-laser",
+        "microneedling-procedura"
+      ],
+      "comparisons": [
+        "hifu-vs-radiofrekvence",
+        "led-vs-laser"
+      ],
+      "problems": [
+        "povolena-plet",
+        "jemne-vrasky"
+      ]
+    }
+  },
+  {
+    "id": "article:peptidy-hype-vs-realita",
+    "slug": "peptidy-hype-vs-realita",
+    "type": "article",
+    "pillar": "ingredience",
+    "category": "ingredience",
+    "name": "Peptidy v kosmetice: hype vs realita",
+    "title": "Peptidy v kosmetice: hype vs realita | antiagelab.cz",
+    "metaDescription": "Co peptidy v kosmetice opravdu umí — signální, nosičové a „botox-like\" peptidy — kde končí marketing a co naznačují studie.",
+    "h1": "Peptidy v kosmetice: hype vs realita",
+    "evidenceLevel": "limited",
+    "updated": "2026-06-30",
+    "excerpt": "Nadějná, ale přeprodávaná kategorie. Třídíme typy peptidů a realisticky vážíme důkazy.",
+    "quickAnswer": "Peptidy jsou krátké řetězce aminokyselin, které mohou pleti „signalizovat\", aby tvořila víc kolagenu, nebo přenášet stopové prvky. Některé studie naznačují přínos pro pevnost a jemné vrásky, ale důkazní základna je slabší a roztříštěnější než u retinoidů či vitaminu C — a koncentrace v kosmetice bývají nízké. Jsou skvěle snášené a vhodné jako doplněk, ne jako hlavní „tahoun\" rutiny.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Peptidy jsou populární a nadějná kategorie, ale kvalitních nezávislých klinických dat je málo. Část studií (často sponzorovaných výrobci) naznačuje zlepšení pevnosti a vrásek; chybí ale velká, robustní srovnání. Reálný problém je i průnik a stabilita — řada peptidů se hůře dostává do hloubky a v produktech jsou v nízkých koncentracích."
+      },
+      {
+        "note": "Úroveň důkazů je omezená: nadějné signály z menších, často sponzorovaných studií, bez pevné nezávislé základny.",
+        "evidence": "limited"
+      },
+      {
+        "h2": "Jak fungují: tři hlavní typy"
+      },
+      {
+        "list": [
+          "Signální peptidy (např. matrixyl / palmitoyl pentapeptidy) — mají „povzbudit\" fibroblasty k tvorbě kolagenu",
+          "Nosičové peptidy (měděné peptidy) — přenášejí stopové prvky (měď) podílející se na hojení a syntéze pojiva",
+          "„Botox-like\" / neuropeptidy (argireline) — mají mírnit mimické stahy; topický efekt je ale mnohem slabší než injekční botox"
+        ]
+      },
+      {
+        "h2": "Pro koho se hodí"
+      },
+      {
+        "list": [
+          "Citlivá pleť, která nesnáší retinoidy — peptidy jako jemnější doplněk",
+          "Kdo už má základ (SPF, retinoid) a chce přidat podpůrnou vrstvu",
+          "Zájem o hydrataci a komfort (peptidové krémy bývají příjemné a dobře snášené)"
+        ]
+      },
+      {
+        "h2": "Pro koho to není priorita"
+      },
+      {
+        "list": [
+          "Kdo hledá nejúčinnější jednotlivou látku na vrásky — tam vedou retinoidy",
+          "Kdo čeká od „botox-like\" peptidů efekt injekcí — to realita nepotvrzuje",
+          "Kdo nechce přeplácet za marketingově nabité, ale slabě doložené produkty"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Jemné zlepšení pevnosti a komfortu pleti v horizontu týdnů až měsíců, spíš jako součást celku než samostatný „před a po\". U neuropeptidů nečekejte vyhlazení mimických vrásek srovnatelné se zákrokem."
+      },
+      {
+        "h2": "Limity a kombinace"
+      },
+      {
+        "p": "Peptidy jsou „týmoví hráči\" — dobře se kombinují s kyselinou hyaluronovou, niacinamidem i retinoidy. U měděných peptidů panuje opatrnost při kombinaci se silnými kyselinami a vysokým vitaminem C ve stejném kroku (raději je oddělit). Hlavní limit je koncentrace a doložitelnost konkrétního produktu."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Peptidy jsou bezpečný, příjemný a nadějný doplněk, ale ne hvězda rutiny. Berte je jako „nice to have\" navrch ke SPF a retinoidu — a nepřeplácejte za sliby, které data zatím neunesou."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Fungují „botox-like\" peptidy jako botox?",
+        "a": "Ne v této míře. Argireline a podobné peptidy mohou mít mírný vliv na mimické napětí, ale topicky pronikají omezeně a efekt je nesrovnatelně slabší než injekční botulotoxin."
+      },
+      {
+        "q": "Jsou peptidy lepší než retinol?",
+        "a": "Pro většinu cílů ne — retinoidy mají mnohem silnější důkazy. Peptidy jsou ale jemnější a snášenlivější, takže dávají smysl tam, kde retinoid pleť nesnáší, nebo jako doplněk."
+      },
+      {
+        "q": "Můžu kombinovat měděné peptidy s vitaminem C?",
+        "a": "Bývá doporučováno je oddělit (např. C ráno, peptidy večer), protože se teoreticky mohou ovlivňovat. Praktické důkazy o „zničení\" jsou slabé, ale oddělení je bezpečná volba."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Novel Cyclized Hexapeptide-9 Outperforms Retinol Against Skin Aging: A Randomized, Double-Blinded, Active- and Vehicle-Controlled Clinical Trial",
+        "type": "rct",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12207714/"
+      }
+    ],
+    "relatedEntities": [
+      "peptidy"
+    ],
+    "relations": {
+      "ingredients": [
+        "peptidy",
+        "copper-peptides",
+        "argireline",
+        "matrixyl",
+        "retinol"
+      ],
+      "products": [
+        "the-ordinary-buffet",
+        "drunk-elephant-protini-polypeptide-cream",
+        "medik8-liquid-peptides",
+        "niod-copper-amino-isolate-serum-cais"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "citliva",
+        "zrala"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    }
+  },
+  {
+    "id": "article:kyseliny-aha-bha-pha",
+    "slug": "kyseliny-aha-bha-pha",
+    "type": "article",
+    "pillar": "ingredience",
+    "category": "ingredience",
+    "name": "Kyseliny AHA, BHA a PHA: kterou a kdy",
+    "title": "Kyseliny AHA, BHA a PHA: kterou a kdy | antiagelab.cz",
+    "metaDescription": "Exfoliační kyseliny srozumitelně — AHA na tón a texturu, BHA do pórů, PHA pro citlivou pleť. Koncentrace, frekvence a jak je nepřehnat.",
+    "h1": "Kyseliny AHA, BHA a PHA: kterou a kdy",
+    "evidenceLevel": "moderate",
+    "updated": "2026-06-30",
+    "excerpt": "Tři rodiny kyselin pro tři situace. Vysvětlujeme, kterou zvolit a jak ji nepřehnat.",
+    "quickAnswer": "Chemická exfoliace urychluje obměnu pokožky a zlepšuje tón i texturu. AHA (kyselina glykolová, mléčná) jsou rozpustné ve vodě a pracují na povrchu — tón, jemné vrásky, matnost. BHA (kyselina salicylová) je rozpustná v tucích a čistí póry — ideální pro mastnou a aknózní pleť. PHA jsou nejšetrnější varianta pro citlivou pleť. Klíč je nepřehánět frekvenci a vždy nosit SPF — kyseliny zvyšují citlivost na slunce.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Chemická exfoliace patří k zavedeným postupům pro zlepšení textury, tónu a projevů fotostárnutí. AHA mají slušnou oporu u povrchového omlazení, BHA u mastné a aknózní pleti. Jde o dobře zmapovanou kategorii, byť síla efektu závisí na koncentraci, pH a frekvenci."
+      },
+      {
+        "note": "Účinnost exfoliačních kyselin pro texturu a tón je dobře popsaná; konkrétní efekt řídí koncentrace, pH a hlavně rozumná frekvence.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Jak fungují: tři rodiny"
+      },
+      {
+        "list": [
+          "AHA (glykolová, mléčná) — rozpustné ve vodě, narušují vazby mezi odumřelými buňkami na povrchu; tón, jemné vrásky, matnost. Glykolová proniká hlouběji, mléčná je šetrnější a hydratuje",
+          "BHA (salicylová) — rozpustná v tucích, proniká do mazem ucpaných pórů; mastná, aknózní pleť, černé tečky",
+          "PHA (glukonolakton, laktobionová) — větší molekuly, pomalejší a jemnější průnik; nejlépe snášené citlivou pletí"
+        ]
+      },
+      {
+        "h2": "Kterou zvolit"
+      },
+      {
+        "list": [
+          "Nerovnoměrný tón, matnost, jemné vrásky → AHA",
+          "Mastná/aknózní pleť, rozšířené a ucpané póry → BHA",
+          "Citlivá nebo reaktivní pleť → PHA (nebo nízká mléčná)"
+        ]
+      },
+      {
+        "h2": "Pro koho se hodí"
+      },
+      {
+        "list": [
+          "Kdo chce hladší texturu a projasnění bez zákroku",
+          "Mastná a aknózní pleť (BHA) a pleť se sklonem k matnosti (AHA)",
+          "Citlivá pleť, pokud zvolí PHA a nízkou frekvenci"
+        ]
+      },
+      {
+        "h2": "Pro koho opatrně"
+      },
+      {
+        "list": [
+          "Narušená bariéra, aktivní podráždění nebo retinizace — nejdřív zklidnit",
+          "Kdo už používá retinoid každý večer — kyseliny zařadit do jiných dnů, ne navrch",
+          "Kdo nenosí SPF — kyseliny zvyšují fotosenzitivitu"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "Svěžejší, hladší pleť poměrně rychle (dny až týdny), postupné zlepšení tónu a drobných nerovností v horizontu několika týdnů. Hluboké vrásky exfoliace neřeší — od toho jsou retinoidy a zákroky."
+      },
+      {
+        "h2": "Limity a chyby (over-exfoliace)"
+      },
+      {
+        "p": "Nejčastější chyba je přehnaná frekvence — pálení, zarudnutí, napjatá a citlivá pleť značí narušenou bariéru. Začněte 1–2× týdně a navyšujte podle snášenlivosti. Nekombinujte silné kyseliny a retinoid ve stejný večer a vždy doplňte SPF a hydrataci."
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Vyberte rodinu podle pleti — AHA na tón, BHA do pórů, PHA pro citlivost — a hlavně to nepřehánějte. Méně časté, ale konzistentní používání s denním SPF přináší hezčí texturu bez podrážděné bariéry."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Můžu používat kyseliny a retinoid najednou?",
+        "a": "Lepší je je oddělit — třeba kyselina v jeden večer, retinoid v jiný. Kombinace ve stejném kroku zvyšuje riziko podráždění a narušení bariéry, zvlášť u citlivější pleti."
+      },
+      {
+        "q": "Jak často exfoliovat?",
+        "a": "Začněte 1–2× týdně a navyšujte jen podle snášenlivosti. Pálení, zarudnutí a napětí jsou signál over-exfoliace — uberte. Více není lépe."
+      },
+      {
+        "q": "Musím u kyselin nosit SPF?",
+        "a": "Ano, je to nezbytné. AHA i BHA zvyšují citlivost pokožky na slunce, takže bez denního SPF riskujete podráždění i novou pigmentaci."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Alpha hydroxy acids in the treatment of signs of photoaging",
+        "type": "review",
+        "pmid": "22916351",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22916351/"
+      },
+      {
+        "title": "Salicylic acid as a peeling agent: a comprehensive review",
+        "type": "review",
+        "pmid": "26347269",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4554394/"
+      }
+    ],
+    "relatedEntities": [
+      "aha",
+      "bha"
+    ],
+    "relations": {
+      "ingredients": [
+        "aha",
+        "bha",
+        "pha",
+        "azelaova-kyselina",
+        "niacinamid"
+      ],
+      "products": [
+        "the-ordinary-glycolic-acid-7-toning-solution",
+        "paulas-choice-2-bha",
+        "the-inkey-list-pha-toner",
+        "pixi-glow-tonic"
+      ],
+      "comparisons": [
+        "aha-vs-bha"
+      ],
+      "problems": [
+        "textura",
+        "rozsirene-pory",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "mastna",
+        "aknozni",
+        "citliva"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    }
   }
 ]
