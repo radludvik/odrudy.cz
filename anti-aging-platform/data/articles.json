@@ -1,51 +1,448 @@
 [
   {
-    "id": "art-jak-zacit-s-retinoidy", "slug": "jak-zacit-s-retinoidy", "type": "article", "name": "Jak začít s retinoidy bez podráždění", "category": "navody", "pillar": true,
+    "id": "art-jak-zacit-s-retinoidy",
+    "slug": "jak-zacit-s-retinoidy",
+    "type": "article",
+    "name": "Jak začít s retinoidy bez podráždění",
+    "category": "navody",
+    "pillar": "rutiny",
     "title": "Jak začít s retinoidy bez podráždění: kompletní návod | antiagelab.cz",
     "metaDescription": "Praktický návod, jak bezpečně nasadit retinol nebo retinal: koncentrace, frekvence, metoda sandwich a nejčastější chyby.",
-    "h1": "Jak začít s retinoidy bez podráždění", "excerpt": "Pilířový návod krok za krokem: od výběru koncentrace po zvládnutí retinizace.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
-    "image": { "src": "/assets/img/articles/jak-zacit-s-retinoidy.svg", "alt": "Jak začít s retinoidy", "type": "hero" },
+    "h1": "Jak začít s retinoidy bez podráždění",
+    "excerpt": "Pilířový návod krok za krokem: od výběru koncentrace po zvládnutí retinizace.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/articles/jak-zacit-s-retinoidy.svg",
+      "alt": "Jak začít s retinoidy",
+      "type": "hero"
+    },
     "body": [
-      { "h2": "1. Vyberte správnou formu a koncentraci" },
-      { "p": "Začátečníci by měli začít retinolem 0,2–0,3 % nebo retinalem 0,05 %. Vyšší koncentrace nepřináší rychlejší výsledek, jen vyšší riziko podráždění." },
-      { "h2": "2. Začněte pomalu" },
-      { "list": ["2× týdně první 2–3 týdny", "Poté obden", "Až nakonec denně, pokud pleť snáší"] },
-      { "h2": "3. Metoda sandwich" },
-      { "p": "Naneste hydratační krém, pak retinoid a znovu krém. Sníží to podráždění, aniž by se výrazně oslabil účinek." },
-      { "h2": "4. Ráno vždy SPF" },
-      { "note": "Retinoidy zvyšují citlivost na slunce — denní SPF 50 je nezbytný a zároveň nejúčinnější anti-aging krok.", "evidence": "strong" },
-      { "h2": "5. Co nekombinovat" },
-      { "p": "První týdny nemíchejte retinoid s kyselinami (AHA/BHA) ani vitaminem C ve stejném kroku. Niacinamid a hyaluron naopak pomáhají." }
+      {
+        "h2": "1. Vyberte správnou formu a koncentraci"
+      },
+      {
+        "p": "Začátečníci by měli začít retinolem 0,2–0,3 % nebo retinalem 0,05 %. Vyšší koncentrace nepřináší rychlejší výsledek, jen vyšší riziko podráždění."
+      },
+      {
+        "h2": "2. Začněte pomalu"
+      },
+      {
+        "list": [
+          "2× týdně první 2–3 týdny",
+          "Poté obden",
+          "Až nakonec denně, pokud pleť snáší"
+        ]
+      },
+      {
+        "h2": "3. Metoda sandwich"
+      },
+      {
+        "p": "Naneste hydratační krém, pak retinoid a znovu krém. Sníží to podráždění, aniž by se výrazně oslabil účinek."
+      },
+      {
+        "h2": "4. Ráno vždy SPF"
+      },
+      {
+        "note": "Retinoidy zvyšují citlivost na slunce — denní SPF 50 je nezbytný a zároveň nejúčinnější anti-aging krok.",
+        "evidence": "strong"
+      },
+      {
+        "h2": "5. Co nekombinovat"
+      },
+      {
+        "p": "První týdny nemíchejte retinoid s kyselinami (AHA/BHA) ani vitaminem C ve stejném kroku. Niacinamid a hyaluron naopak pomáhají."
+      }
     ],
     "faq": [
-      { "q": "Jak dlouho než uvidím výsledky?", "a": "Texturu a jas za 8–12 týdnů, vrásky po několika měsících." },
-      { "q": "Co když pleť pálí a olupuje se?", "a": "Jde nejspíš o retinizaci. Snižte frekvenci a posilte hydrataci. Pokud nepřejde, přerušte." }
+      {
+        "q": "Jak dlouho než uvidím výsledky?",
+        "a": "Texturu a jas za 8–12 týdnů, vrásky po několika měsících."
+      },
+      {
+        "q": "Co když pleť pálí a olupuje se?",
+        "a": "Jde nejspíš o retinizaci. Snižte frekvenci a posilte hydrataci. Pokud nepřejde, přerušte."
+      }
     ],
-    "sources": [ { "title": "Mukherjee S. et al.", "journal": "Clin Interv Aging", "year": 2006, "type": "review" } ],
-    "relatedEntities": ["retinol", "retinal"],
-    "relations": { "ingredients": ["retinol", "retinal", "niacinamid"], "problems": ["jemne-vrasky", "textura"], "routines": ["vecerni-rutina"], "terms": ["retinizace", "purging"], "comparisons": ["retinol-vs-retinal"] }
+    "sources": [
+      {
+        "title": "Mukherjee S. et al.",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      }
+    ],
+    "relatedEntities": [
+      "retinol",
+      "retinal"
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "retinal",
+        "niacinamid"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ],
+      "terms": [
+        "retinizace",
+        "purging"
+      ],
+      "comparisons": [
+        "retinol-vs-retinal"
+      ]
+    }
   },
   {
-    "id": "art-spf-nejlepsi-anti-aging", "slug": "spf-nejlepsi-anti-aging", "type": "article", "name": "Proč je SPF nejlepší anti-aging", "category": "zaklady", "pillar": true,
+    "id": "art-spf-nejlepsi-anti-aging",
+    "slug": "spf-nejlepsi-anti-aging",
+    "type": "article",
+    "name": "Proč je SPF nejlepší anti-aging",
+    "category": "zaklady",
+    "pillar": "skola",
     "title": "Proč je SPF nejlepší anti-aging produkt (a jak ho používat) | antiagelab.cz",
     "metaDescription": "Až 80 % vnějšího stárnutí pleti způsobuje slunce. Proč je denní SPF nejúčinnější a jak ho používat správně.",
-    "h1": "Proč je SPF nejlepší anti-aging produkt", "excerpt": "Žádné sérum nepřekoná každodenní opalovací krém. Vysvětlujeme proč a jak na to.",
-    "evidenceLevel": "strong", "updated": "2026-06-01",
-    "image": { "src": "/assets/img/articles/spf-nejlepsi-anti-aging.svg", "alt": "SPF jako nejlepší anti-aging", "type": "hero" },
+    "h1": "Proč je SPF nejlepší anti-aging produkt",
+    "excerpt": "Žádné sérum nepřekoná každodenní opalovací krém. Vysvětlujeme proč a jak na to.",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-01",
+    "image": {
+      "src": "/assets/img/articles/spf-nejlepsi-anti-aging.svg",
+      "alt": "SPF jako nejlepší anti-aging",
+      "type": "hero"
+    },
     "body": [
-      { "h2": "Slunce stárne pleť nejvíc" },
-      { "p": "Odhaduje se, že až 80 % viditelného vnějšího stárnutí pleti způsobuje UV záření (fotostárnutí). Proto je ochrana před sluncem účinnější než jakákoli aktivní látka." },
-      { "note": "Randomizovaná studie ukázala, že denní SPF výrazně zpomaluje viditelné stárnutí pleti.", "evidence": "strong" },
-      { "h2": "Jak SPF používat" },
-      { "list": ["Každý den, celoročně, i v interiéru u oken (UVA prochází sklem).", "Dostatek produktu (~2 prsty na obličej a krk).", "Obnovovat při pobytu venku.", "SPF je poslední krok ranní rutiny."] }
+      {
+        "h2": "Slunce stárne pleť nejvíc"
+      },
+      {
+        "p": "Odhaduje se, že až 80 % viditelného vnějšího stárnutí pleti způsobuje UV záření (fotostárnutí). Proto je ochrana před sluncem účinnější než jakákoli aktivní látka."
+      },
+      {
+        "note": "Randomizovaná studie ukázala, že denní SPF výrazně zpomaluje viditelné stárnutí pleti.",
+        "evidence": "strong"
+      },
+      {
+        "h2": "Jak SPF používat"
+      },
+      {
+        "list": [
+          "Každý den, celoročně, i v interiéru u oken (UVA prochází sklem).",
+          "Dostatek produktu (~2 prsty na obličej a krk).",
+          "Obnovovat při pobytu venku.",
+          "SPF je poslední krok ranní rutiny."
+        ]
+      }
     ],
     "faq": [
-      { "q": "Stačí SPF v denním krému?", "a": "Často se nanáší příliš málo. Lepší je samostatný SPF v dostatečném množství." },
-      { "q": "Chemický, nebo minerální filtr?", "a": "Oba chrání. Vyberte ten, který vám textura a pleti vyhovuje, abyste ho nosili denně." }
+      {
+        "q": "Stačí SPF v denním krému?",
+        "a": "Často se nanáší příliš málo. Lepší je samostatný SPF v dostatečném množství."
+      },
+      {
+        "q": "Chemický, nebo minerální filtr?",
+        "a": "Oba chrání. Vyberte ten, který vám textura a pleti vyhovuje, abyste ho nosili denně."
+      }
     ],
-    "sources": [ { "title": "Hughes MCB et al.", "journal": "Ann Intern Med", "year": 2013, "type": "rct" } ],
-    "relatedEntities": ["spf-50-denni"],
-    "relations": { "products": ["spf-50-denni"], "problems": ["jemne-vrasky", "pigmentace"], "studies": ["hughes-2013-spf"], "routines": ["ranni-rutina"], "ageGroups": ["20-plus"] }
+    "sources": [
+      {
+        "title": "Hughes MCB et al.",
+        "journal": "Ann Intern Med",
+        "year": 2013,
+        "type": "rct"
+      }
+    ],
+    "relatedEntities": [
+      "spf-50-denni"
+    ],
+    "relations": {
+      "products": [
+        "spf-50-denni"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "pigmentace"
+      ],
+      "studies": [
+        "hughes-2013-spf"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ],
+      "ageGroups": [
+        "20-plus"
+      ]
+    }
+  },
+  {
+    "id": "article:retinol-vs-retinal",
+    "slug": "retinol-vs-retinal",
+    "type": "article",
+    "pillar": "srovnani",
+    "category": "srovnani",
+    "name": "Retinol vs Retinal: který je lepší?",
+    "title": "Retinol vs Retinal: který je pro vás lepší? | antiagelab.cz",
+    "metaDescription": "Retinol, nebo retinal (retinaldehyd)? Srovnání podle vědeckých důkazů: jak se liší, co působí rychleji, pro koho se hodí a jak je bezpečně zavést.",
+    "h1": "Retinol vs Retinal: který je pro vás lepší?",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-30",
+    "excerpt": "Dva nejpopulárnější retinoidy do domácí péče pod drobnohledem — mechanismus, rychlost účinku, snášenlivost a pro koho se který hodí.",
+    "quickAnswer": "Oba jsou účinné retinoidy. Retinal (retinaldehyd) se v pokožce přeměňuje na účinnou formu rychleji — jedním krokem místo dvou — takže obvykle působí svižněji a hodí se i mastnější či aknózní pleti. Retinol je nejdostupnější a nejlépe prozkoumaná volba, ideální pro začátečníky. „Lepší\" je ten, který budete dobře snášet a používat pravidelně.",
+    "body": [
+      {
+        "h2": "Co říká současná věda"
+      },
+      {
+        "p": "Retinoidy patří k nejlépe prozkoumaným lokálním anti-aging látkám vůbec. Účinnost retinolu i retinalu v oblasti jemných vrásek, textury a tónu podporují přehledové práce i randomizované studie. Přímých srovnání „hlava na hlavu\" je ale málo, takže rozdíl mezi nimi určuje spíš mechanismus a snášenlivost než jeden rozhodující experiment."
+      },
+      {
+        "note": "Retinoidy mají vysokou úroveň důkazů pro zlepšení fotostárnutí; retinaldehyd má menší, ale dobrou důkazní základnu.",
+        "evidence": "strong"
+      },
+      {
+        "h2": "Jak to funguje: rozdíl je v počtu kroků přeměny"
+      },
+      {
+        "p": "Aby retinoid v pokožce zabral, musí se přeměnit na kyselinu retinovou (tretinoin), která se váže na jaderné receptory a mění expresi genů — zrychluje obnovu pokožky a podporuje tvorbu kolagenu. Retinol potřebuje dva kroky přeměny (retinol → retinaldehyd → kyselina retinová), retinaldehyd jen jeden (retinaldehyd → kyselina retinová). Retinal je proto „o krok blíž\" účinné formě a obvykle nastupuje o něco rychleji."
+      },
+      {
+        "h2": "Retinol: pro koho se hodí"
+      },
+      {
+        "list": [
+          "Začátečníci s retinoidy — nejdostupnější a nejlépe prozkoumaná volba",
+          "Kdo chce ověřenou klasiku se širokou nabídkou koncentrací a produktů",
+          "Ti, kdo chtějí sílu zvyšovat postupně a opatrně"
+        ]
+      },
+      {
+        "h2": "Retinal (retinaldehyd): pro koho se hodí"
+      },
+      {
+        "list": [
+          "Kdo chce rychlejší nástup účinku než u retinolu",
+          "Mastná a smíšená pleť i pleť se sklonem k akné (retinal má i antibakteriální vlastnosti)",
+          "Pokročilejší uživatelé, kteří už retinol bez problémů zvládli"
+        ]
+      },
+      {
+        "h2": "Pro koho není ideální ani jeden"
+      },
+      {
+        "list": [
+          "Těhotné a kojící ženy — retinoidy se v tomto období nedoporučují (volte bakuchiol nebo peptidy)",
+          "Velmi citlivá nebo aktuálně podrážděná pleť — nejdřív posilte bariéru a zvažte bakuchiol",
+          "Kdo nechce nebo nemůže denně používat SPF — retinoidy zvyšují citlivost pokožky na slunce"
+        ]
+      },
+      {
+        "h2": "Jaké výsledky lze realisticky očekávat"
+      },
+      {
+        "p": "První zlepšení textury a jasu bývá patrné po 4–8 týdnech, zřetelnější vliv na jemné vrásky a tón obvykle po 12 týdnech a více. Hluboké vrásky retinoidy spíš změkčí, než vymažou. Klíčová je pravidelnost a trpělivost — vyšší koncentrace neznamená lepší výsledek, ale větší riziko podráždění."
+      },
+      {
+        "h2": "Limity a rizika"
+      },
+      {
+        "p": "Oba retinoidy mohou na začátku dráždit — objevuje se zarudnutí, olupování a citlivost (tzv. retinizace). Řešením je nízká koncentrace, frekvence 2–3× týdně na úvod, „sendvič\" s hydratačním krémem a důsledné SPF. Nekombinujte je ve stejný večer se silnými kyselinami ani vysokým vitaminem C."
+      },
+      {
+        "note": "V těhotenství a při kojení se lokální retinoidy nedoporučují.",
+        "evidence": "moderate"
+      },
+      {
+        "h2": "Verdikt"
+      },
+      {
+        "p": "Univerzálně „lepší\" retinoid neexistuje. Retinol je skvělá, nejdostupnější volba pro většinu lidí a začátečníky; retinal nabídne rychlejší nástup a hodí se pokročilejším nebo mastnější a aknózní pleti. Vyberte podle snášenlivosti, zkušeností a cíle — a hlavně buďte konzistentní."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je retinal silnější než retinol?",
+        "a": "Spíš „rychlejší\" než silnější — díky jednomu kroku přeměny obvykle nastupuje dříve. Při správné koncentraci dosáhnou oba podobných výsledků; retinal jich může dosáhnout o něco svižněji."
+      },
+      {
+        "q": "Můžu přejít z retinolu na retinal?",
+        "a": "Ano. Pokud retinol dobře snášíte, přechod na retinal bývá logickým krokem. Začněte nižší frekvencí a sledujte reakci pleti."
+      },
+      {
+        "q": "Jak retinoid bezpečně zavést?",
+        "a": "Začněte 2–3× týdně na suchou pleť večer, postupně zvyšujte frekvenci. Vždy přidejte hydratační krém a ráno SPF. Při podráždění frekvenci snižte."
+      },
+      {
+        "q": "Co když jsem těhotná?",
+        "a": "Lokální retinoidy se v těhotenství a při kojení nedoporučují. Vhodnou alternativou je bakuchiol nebo peptidy."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Zasada K, Budzisz E — Retinoids: active molecules influencing skin structure formation",
+        "journal": "Postepy Dermatol Alergol",
+        "year": 2019,
+        "type": "review"
+      }
+    ],
+    "relatedEntities": [
+      "retinol",
+      "retinal"
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "retinal",
+        "bakuchiol",
+        "peptidy"
+      ],
+      "products": [
+        "medik8-crystal-retinal-6",
+        "geek-gorgeous-a-game",
+        "the-ordinary-retinol-1-in-squalane",
+        "cerave-resurfacing-retinol-serum"
+      ],
+      "comparisons": [
+        "retinol-vs-retinal"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura"
+      ],
+      "studies": [
+        "mukherjee-2006-retinol",
+        "dhaliwal-2019-bakuchiol"
+      ]
+    }
+  },
+  {
+    "id": "article:nejvetsi-chyby-anti-aging",
+    "slug": "nejvetsi-chyby-anti-aging",
+    "type": "article",
+    "pillar": "skola",
+    "category": "skola",
+    "name": "Největší chyby v anti-aging péči",
+    "title": "Největší chyby v anti-aging péči (a jak se jim vyhnout) | antiagelab.cz",
+    "metaDescription": "Nejčastější chyby v péči proti stárnutí pleti podle vědy: vynechané SPF, přehnaná aktiva, přesušování, netrpělivost a honba za trendy. A jak je napravit.",
+    "h1": "Největší chyby v anti-aging péči",
+    "evidenceLevel": "strong",
+    "updated": "2026-06-30",
+    "excerpt": "Co podle současných poznatků nejčastěji sabotuje výsledky — a jak místo drahých „zázraků\" vsadit na základ, který opravdu funguje.",
+    "quickAnswer": "Nejčastější chyby: vynechávání SPF, přehánění to s aktivními látkami, příliš rychlé zavádění retinoidů, přesušování pleti, netrpělivost a honba za trendy bez důkazů. Jednoduchý, konzistentní základ — SPF, antioxidant, retinoid a hydratace — porazí většinu drahých „zázračných\" produktů.",
+    "body": [
+      {
+        "h2": "Co říká věda: základ rozhoduje"
+      },
+      {
+        "p": "Nejsilnější anti-aging efekt nemá žádný luxusní krém, ale každodenní ochrana před sluncem — fotostárnutí stojí za většinou viditelných známek stárnutí. Randomizovaná studie prokázala, že pravidelné používání SPF zpomaleji stárnoucí pleť skutečně přináší. Teprve na tomto základu staví retinoidy, antioxidanty a hydratace."
+      },
+      {
+        "note": "Pravidelné používání opalovacího krému má silné důkazy pro prevenci stárnutí pleti.",
+        "evidence": "strong"
+      },
+      {
+        "h2": "1. Vynechávání SPF"
+      },
+      {
+        "p": "Bez denní fotoprotekce je jakákoli další péče poloviční. UV záření rozkládá kolagen a způsobuje pigmentace — a to i přes okno a v zimě. SPF 30–50 každý den je nejlepší investice do mladší pleti."
+      },
+      {
+        "h2": "2. Příliš mnoho aktivních látek naráz"
+      },
+      {
+        "p": "Retinoid + vysoký vitamin C + kyseliny ve stejné rutině často vede k podráždění a poškození bariéry. Méně je více: vyberte pár ověřených látek a zaveďte je postupně."
+      },
+      {
+        "h2": "3. Příliš rychlé zavádění retinoidu"
+      },
+      {
+        "p": "Snaha „urychlit\" výsledky každodenním retinoidem hned od začátku obvykle skončí zarudnutím a olupováním. Začněte 2–3× týdně, přidejte hydrataci a frekvenci zvyšujte pomalu."
+      },
+      {
+        "h2": "4. Přesušování pleti"
+      },
+      {
+        "p": "Agresivní mytí, alkoholová tonika a přehnaná exfoliace narušují bariéru. Paradoxně to vede k větší citlivosti i mazotoku. Hydratace a šetrné čištění jsou součástí anti-agingu, ne jeho protikladem."
+      },
+      {
+        "h2": "5. Netrpělivost"
+      },
+      {
+        "p": "Většina účinných látek potřebuje 8–12 týdnů, než ukáže výsledky. Časté střídání produktů „protože to nefunguje\" výsledky naopak maže. Konzistence vyhrává."
+      },
+      {
+        "h2": "6. Honba za trendy bez důkazů"
+      },
+      {
+        "p": "Trendy molekuly (např. NMN, spermidin, exosomy) se prodávají dráž, než kolik mají u člověka důkazů. Nejdřív vybudujte základ z dobře podložených látek; experimenty až potom a s vědomím, že jde o experiment."
+      },
+      {
+        "h2": "7. Zanedbání krku, dekoltu a hřbetů rukou"
+      },
+      {
+        "p": "Stárnou stejně jako obličej, ale péče se na ně často nedostane. Rozšiřte SPF i aktivní látky i na tyto partie."
+      },
+      {
+        "h2": "Jak to napravit"
+      },
+      {
+        "list": [
+          "Ráno: antioxidant + SPF, každý den",
+          "Večer: retinoid (postupně) + hydratace",
+          "Méně, ale pravidelně a po jednom novém produktu",
+          "Trpělivost minimálně 3 měsíce",
+          "Základ z důkazů, trendy až jako nadstavba"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Jaká je úplně největší chyba?",
+        "a": "Vynechávání SPF. Bez fotoprotekce ztrácí smysl velká část ostatní péče."
+      },
+      {
+        "q": "Musím mít drahou kosmetiku?",
+        "a": "Ne. Rozhoduje složení a konzistence, ne cena. Dostupné produkty s vitaminem C, retinolem nebo niacinamidem fungují stejně dobře."
+      },
+      {
+        "q": "Kolik aktivních látek je akorát?",
+        "a": "Pro většinu lidí stačí 2–3 ověřené (např. vitamin C ráno, retinoid večer, hydratace) plus SPF."
+      }
+    ],
+    "sources": [],
+    "relatedEntities": [
+      "retinol",
+      "vitamin-c"
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "vitamin-c",
+        "niacinamid",
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "pigmentace",
+        "jemne-vrasky"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ],
+      "studies": [
+        "hughes-2013-spf"
+      ]
+    }
   }
 ]

@@ -46,7 +46,7 @@ const TYPES = {
   faceYoga:   { base: '/oblicejova-joga/',         one: 'Cvik obličejové jógy', many: 'Obličejová jóga', relKey: 'faceYoga', icon: 'face' },
   comparison: { base: '/porovnani/',               one: 'Porovnání',   many: 'Porovnání',         relKey: 'comparisons',  icon: 'scale' },
   term:       { base: '/slovnik/',                 one: 'Pojem',       many: 'Slovník pojmů',     relKey: 'terms',        icon: 'book'  },
-  article:    { base: '/clanky/',                  one: 'Článek',      many: 'Magazín',           relKey: 'articles',     icon: 'pen'   },
+  article:    { base: '/clanky/',                  one: 'Průvodce',     many: 'Průvodci',           relKey: 'articles',     icon: 'pen'   },
   review:     { base: '/recenze/',                 one: 'Recenze',     many: 'Recenze',           relKey: 'reviews',      icon: 'star'  },
 };
 const REL_TO_TYPE = Object.fromEntries(Object.entries(TYPES).map(([t, c]) => [c.relKey, t]));
@@ -287,7 +287,7 @@ const NAV = [
     { label: 'Obličejová jóga', href: '/oblicejova-joga/' },
   ]},
   { label: 'Studie', href: '/studie/' },
-  { label: 'Magazín', href: '/clanky/' },
+  { label: 'Průvodci', href: '/clanky/' },
   { label: 'Nástroje', href: '/nastroje/' },
 ];
 
@@ -548,6 +548,9 @@ function detailExtras(e) {
   }
   if (e.type === 'term' && e.definition) {
     html = `<div class="callout callout--accent"><p>${esc(e.definition)}</p></div>` + html;
+  }
+  if (e.type === 'article' && e.quickAnswer) {
+    html = `<div class="callout callout--accent quick-answer"><strong>Stručná odpověď</strong><p>${esc(e.quickAnswer)}</p></div>` + html;
   }
   return html;
 }
@@ -1110,6 +1113,24 @@ function renderFaceYoga(e) {
 </div>`;
 }
 
+/* ---- Pilíře (pillar content) + propojení průvodce s databází ---- */
+const PILLARS = {
+  skola: 'Anti-aging škola', ingredience: 'Ingredience do hloubky', technologie: 'Technologie do hloubky',
+  rutiny: 'Rutiny', problemy: 'Konkrétní problémy', srovnani: 'Srovnání',
+};
+function articleResources(e) {
+  const groups = [['ingredient', 'Ingredience'], ['technology', 'Technologie'], ['product', 'Produkty'], ['supplement', 'Doplňky stravy'], ['procedure', 'Procedury'], ['routine', 'Rutiny'], ['comparison', 'Porovnání'], ['problem', 'Konkrétní problémy'], ['skinType', 'Typy pleti'], ['ageGroup', 'Péče podle věku'], ['study', 'Studie']];
+  let inner = '';
+  for (const [t, label] of groups) {
+    const set = e._rel[t]; if (!set || !set.size) continue;
+    const items = [...set].map((s) => bySlug.get(`${t}:${s}`)).filter(Boolean);
+    if (!items.length) continue;
+    inner += `<div class="rel-group"><h3 class="rel-h">${label}</h3><div class="chips">${items.map((it) => `<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`).join('')}</div></div>`;
+  }
+  if (!inner) return '';
+  return `<section class="section-block final-reco"><div class="graph-head"><span class="eyebrow">Z databáze AntiAgeLab</span><h2>Prozkoumejte do hloubky</h2><p class="muted">Tento průvodce je propojený s celou naší databází — pokračujte na detailní, ozdrojované stránky.</p></div>${inner}</section>`;
+}
+
 function comparisonTable(e) {
   const items = e.items.map((slug) => bySlugLoose.get(slug)).filter(Boolean);
   const names = items.map((it) => it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : '');
@@ -1147,6 +1168,7 @@ function renderDetail(e) {
     <article class="detail-main">
       ${detailExtras(e)}
       ${e.body ? renderBlocks(e.body) : ''}
+      ${e.type === 'article' ? articleResources(e) : ''}
       ${renderFaq(e.faq)}
       ${sourcesBlock(e)}
       ${e.type === 'technology' ? techFinalReco(e) : ''}
@@ -1194,6 +1216,20 @@ function suppFinalReco(e) {
   return `<section class="section-block final-reco"><div class="graph-head"><span class="eyebrow">Shrnutí</span><h2>Co s tímto doplňkem dál</h2><p class="muted">Pleť se buduje zvenčí i zevnitř — doplněk je jen jedním dílkem. Tady je, co k němu doporučujeme prozkoumat.</p></div>${blocks}</section>`;
 }
 
+/* Magazín jako pillar content — výpis seskupený do 6 pilířů */
+function articleListingInner(items) {
+  const intro = `<div class="callout callout--accent supp-intro"><p><strong>Pillar content, ne blog.</strong> Místo stovek krátkých článků stavíme špičkové, ozdrojované průvodce propojené s celou databází — ingrediencemi, technologiemi, produkty i klinickými studiemi. Každý průvodce má jednotnou strukturu: stručná odpověď, co říká věda, jak to funguje, pro koho (ne)je, realistické výsledky, limity a doporučení z naší databáze.</p></div>`;
+  let groups = '';
+  for (const [key, label] of Object.entries(PILLARS)) {
+    const inPil = items.filter((a) => a.pillar === key);
+    if (!inPil.length) continue;
+    groups += `<div class="fy-group"><h2 class="fy-group-h">${esc(label)} <span class="muted small">· ${inPil.length}</span></h2><div class="card-grid">${inPil.map(entityCard).join('')}</div></div>`;
+  }
+  const rest = items.filter((a) => !a.pillar || !PILLARS[a.pillar]);
+  if (rest.length) groups += `<div class="fy-group"><h2 class="fy-group-h">Další průvodci</h2><div class="card-grid">${rest.map(entityCard).join('')}</div></div>`;
+  return intro + groups;
+}
+
 /* ----------------------------------------------------------------------------
  * Výpisové (listing) stránky
  * ------------------------------------------------------------------------- */
@@ -1211,7 +1247,9 @@ function renderListing(type) {
           ? faceYogaListingInner(items)
           : type === 'ingredient'
             ? '<div id="ingredientDb" class="cmp-app"></div>'
-            : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
+            : type === 'article'
+              ? articleListingInner(items)
+              : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const body = `<section class="listing-hero"><div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
@@ -1394,7 +1432,7 @@ function listingIntro(type) {
     faceYoga: 'Obličejová jóga: nejúčinnější cviky na každou partii s animovanými náčrtky, postupem a poctivým pohledem na důkazy. Bez nutnosti videa.',
     comparison: 'Přehledná porovnání nejčastějších voleb v anti-agingu.',
     term: 'Encyklopedie odborných pojmů srozumitelně vysvětlených.',
-    article: 'Odborný magazín — dlouhodobě hodnotné články propojené s celou databází.',
+    article: 'Pillar content — špičkoví, ozdrojovaní průvodci anti-agingem, plně propojení s databází. Šest pilířů: škola, ingredience, technologie, rutiny, problémy a srovnání.',
     review: 'Nezávislé recenze podle transparentní metodiky.',
   };
   return m[type] || '';
