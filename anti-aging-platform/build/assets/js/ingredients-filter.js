@@ -134,11 +134,16 @@
     if (it.tol.indexOf('spf') > -1) extra.push('SPF nutné');
     return [t].concat(extra).filter(Boolean).join(' · ');
   }
+  function imgHtml(it) {
+    if (it.img) return '<figure class="ent-img card-img"><img src="' + BASE + it.img + '" alt="' + escA(it.name) + '" loading="lazy" decoding="async"></figure>';
+    return '<figure class="ent-img ent-img--ph card-img" data-type="ingredient" aria-hidden="true"><span class="ent-img-glyph">⬡</span><span class="ent-img-mono">' + esc((it.name || '?').slice(0, 1)) + '</span></figure>';
+  }
   function cardHtml(it) {
     var meta = [TYPE_L[it.types[0]] || ''].concat(it.effectLabels.slice(0, 3)).filter(Boolean).join(' · ');
     var riskTxt = it.risk === 'high' ? '⚠️ Vyšší riziko podráždění' : it.risk === 'medium' ? '⚠️ Střední riziko podráždění' : '✓ Nízké riziko podráždění';
     var skins = it.skins.slice(0, 4).map(function (s) { return SKIN_L[s] || s; }).join(', ');
-    return '<article class="cmp-card ing-card">' +
+    return '<article class="cmp-card ing-card cmp-card--has-img">' +
+      imgHtml(it) +
       '<span class="cmp-card-type">' + esc(meta) + '</span>' +
       '<h3 class="cmp-card-name"><a href="' + BASE + it.url + '">' + esc(it.name) + '</a></h3>' +
       (it.excerpt ? '<p class="ing-desc">' + esc(it.excerpt) + '</p>' : '') +

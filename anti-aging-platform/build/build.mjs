@@ -1401,7 +1401,8 @@ function suppCard(e) {
   const eff = JSON.stringify(e.effectiveness || {});
   const ev = e.evidenceStars ? stars(e.evidenceStars) : '';
   const tier = e.evidenceStars >= 4 ? 'Silná opora' : e.evidenceStars === 3 ? 'Slušná opora' : e.evidenceStars === 2 ? 'Omezená opora' : 'Experimentální';
-  return `<a class="card tech-card supp-card" href="${urlOf(e)}" data-effectiveness="${attr(eff)}" data-ev="${e.evidenceStars || 0}">
+  return `<a class="card tech-card supp-card card--has-img" href="${urlOf(e)}" data-effectiveness="${attr(eff)}" data-ev="${e.evidenceStars || 0}">
+    ${entityImage(e, { cls: 'card-img' })}
     <span class="card-type">Doplněk stravy · ${esc(tier)}</span>
     <h3 class="card-title">${esc(e.name)}</h3>
     <p class="card-excerpt">${esc(e.excerpt || '')}</p>
@@ -1429,7 +1430,8 @@ function supplementListingInner(items) {
 function techCard(e) {
   const eff = JSON.stringify(e.effectiveness || {});
   const ev = e.evidenceStars ? stars(e.evidenceStars) : '';
-  return `<a class="card tech-card" href="${urlOf(e)}" data-effectiveness="${attr(eff)}" data-home="${attr(e.homeUse || '')}">
+  return `<a class="card tech-card card--has-img" href="${urlOf(e)}" data-effectiveness="${attr(eff)}" data-home="${attr(e.homeUse || '')}">
+    ${entityImage(e, { cls: 'card-img' })}
     <span class="card-type">Technologie</span>
     <h3 class="card-title">${esc(e.name)}</h3>
     <p class="card-excerpt">${esc(e.excerpt || '')}</p>
@@ -1503,7 +1505,8 @@ function productListingInner(items) {
 function productCard(e, dataAttrs) {
   const ev = e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : '';
   const score = e.scores && e.scores.overall ? `<span class="card-score">${e.scores.overall.score}/10</span>` : '';
-  return `<a class="card product-card" href="${urlOf(e)}" ${dataAttrs}>
+  return `<a class="card product-card card--has-img" href="${urlOf(e)}" ${dataAttrs}>
+    ${entityImage(e, { cls: 'card-img' })}
     <span class="card-type">${esc(e.brand && e.brand !== '—' ? e.brand : TYPES.product.one)}</span>
     <h3 class="card-title">${esc(e.name)}</h3>
     <p class="card-excerpt">${esc(e.excerpt || '')}</p>
@@ -1783,8 +1786,10 @@ function exportIngredientData() {
     const tol = m.tol.slice();
     const evTier = ING_EV_TIER[e.evidenceLevel] || 'experimentalni';
     const effectLabels = (m.effects || []).map((k) => ING_EFFECT_L[k] || k);
+    const imgData = entityImageSrc(e);
     return {
       id: e.slug, name: e.name, url: urlOf(e), excerpt: e.excerpt || '',
+      img: imgData ? imgData.src : null,
       types: m.types || [], effects: m.effects || [], effectLabels,
       skins, minAge: ages.length ? Math.min(...ages) : null,
       evidence: evTier, evRank: EV_RANK[e.evidenceLevel] ?? 0,

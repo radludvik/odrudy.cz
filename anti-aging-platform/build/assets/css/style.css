@@ -608,11 +608,16 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .ent-img--ph .ent-img-glyph{font-size:2.2rem;opacity:.55;z-index:1}
 .ent-img--ph .ent-img-mono{position:absolute;font-family:var(--serif);font-size:6rem;font-weight:600;color:var(--gold-deep);opacity:.1;line-height:1}
 
-/* Karty s náhledem — obrázek zabírá horní hranu karty */
+/* Karty s náhledem — obrázek zabírá horní hranu karty (štíhlejší poměr, ať listing nepůsobí přeplněně) */
 .card--has-img{padding-top:0;overflow:hidden}
-.card-img{aspect-ratio:4/3;margin:0 -26px 18px;border-radius:var(--radius) var(--radius) 0 0;border:0;border-bottom:1px solid var(--line)}
-.card-img.ent-img--ph .ent-img-glyph{font-size:1.9rem}
-.card--has-img .card-type{padding-top:0}
+.card-img{aspect-ratio:16/10;margin:0 -26px 16px;border-radius:var(--radius) var(--radius) 0 0;border:0;border-bottom:1px solid var(--line)}
+.card-img.ent-img--ph .ent-img-glyph{font-size:1.7rem}
+.card-img.ent-img--ph .ent-img-mono{font-size:4.4rem}
+.card--has-img .card-type{padding-top:16px}
+/* Ingredience: JS karty (cmp-card) mají menší padding (20px) */
+.cmp-card--has-img{padding-top:0;overflow:hidden}
+.cmp-card--has-img .card-img{margin:0 -20px 14px;border-radius:var(--radius) var(--radius) 0 0}
+.cmp-card--has-img .cmp-card-type{padding-top:16px;display:inline-block}
 
 /* Detail hero s obrázkem — dvousloupcové rozvržení */
 .detail-hero-grid{display:block}

@@ -1,4 +1,11 @@
 {
+  "img/og-default.jpg": {
+    "group": "Výchozí sdílecí náhled",
+    "title": "og-default (1200×630)",
+    "prompt": "Website social-share cover image (1200x630) for a premium Czech anti-aging knowledge platform: elegant abstract composition of soft serum textures and light molecular bokeh on a warm porcelain background, generous empty space in the center for a logo/headline overlay. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.",
+    "note": null,
+    "exists": false
+  },
   "img/products/medik8-crystal-retinal-6.webp": {
     "group": "Produkty (AI fallback)",
     "title": "Medik8 Crystal Retinal 6",

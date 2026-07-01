@@ -3,7 +3,17 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 0 hotovo · 354 zbývá · 354 celkem.
+**Stav:** 0 hotovo · 355 zbývá · 355 celkem.
+
+
+## Výchozí sdílecí náhled (0/1)
+
+### og-default (1200×630)
+`img/og-default.jpg`
+
+```
+Website social-share cover image (1200x630) for a premium Czech anti-aging knowledge platform: elegant abstract composition of soft serum textures and light molecular bokeh on a warm porcelain background, generous empty space in the center for a logo/headline overlay. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
+```
 
 
 ## Produkty (AI fallback) (0/195)

@@ -37,6 +37,10 @@ const jobs = []; // { path, group, title, prompt, note? }
 const add = (path, group, title, prompt, note) => jobs.push({ path, group, title, prompt, note });
 const asset = (p) => existsSync(join(ASSETS, p));
 
+/* 0. Výchozí sdílecí náhled (og:image) */
+add('img/og-default.jpg', 'Výchozí sdílecí náhled', 'og-default (1200×630)',
+  A('Website social-share cover image (1200x630) for a premium Czech anti-aging knowledge platform: elegant abstract composition of soft serum textures and light molecular bokeh on a warm porcelain background, generous empty space in the center for a logo/headline overlay.'));
+
 /* 1. Produkty — AI fallback (oficiální fotky se řeší ručně, viz sourcing report) */
 for (const p of load('products')) {
   const cat = p.category || p.type || 'skincare product';
