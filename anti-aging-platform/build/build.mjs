@@ -243,9 +243,91 @@ function sourcesBlock(e) {
   </section>`;
 }
 
+/* ----------------------------------------------------------------------------
+ * Vizuální systém: obrázky entit s elegantním fallbackem a atribucí zdroje
+ * Konvence cesty:  build/assets/img/<složka>/<slug>.<ext>
+ * Přepis v datech: e.image = { file|src, alt, source, sourceUrl }
+ * ------------------------------------------------------------------------- */
+const IMG_EXTS = ['webp', 'avif', 'jpg', 'jpeg', 'png'];
+const IMG_DIR = {
+  product: 'products', technology: 'technologies', ingredient: 'ingredients',
+  procedure: 'procedures', supplement: 'supplements', skinType: 'skin-types',
+  ageGroup: 'age-groups', problem: 'problems', article: 'articles',
+  faceYoga: 'face-yoga', comparison: 'comparisons', study: 'studies',
+  routine: 'routines', term: 'terms', review: 'reviews',
+};
+const IMG_GLYPH = {
+  product: '◈', technology: '❖', ingredient: '⬡', procedure: '✚', supplement: '⬤',
+  skinType: '❀', ageGroup: '◷', problem: '◎', article: '❦', faceYoga: '☺',
+  comparison: '⇄', routine: '☰', study: '※', term: '¶', review: '★',
+};
+// Typy, u nichž má hlavní/kartový obrázek vizuální smysl
+const HERO_IMG_TYPES = new Set(['product', 'technology', 'procedure', 'ingredient', 'skinType', 'ageGroup', 'problem', 'article', 'supplement']);
+
+function imgRel(dir, name) {
+  for (const ext of IMG_EXTS) {
+    const rel = `img/${dir}/${name}.${ext}`;
+    if (existsSync(join(ASSETS_SRC, rel))) return '/assets/' + rel;
+  }
+  return null;
+}
+// existuje lokální /assets soubor?  (http/https bereme jako platné bez kontroly)
+function assetOk(src) {
+  if (!src) return false;
+  if (/^https?:/.test(src)) return true;
+  const rel = src.replace(/^\/?assets\//, '');
+  return existsSync(join(ASSETS_SRC, rel));
+}
+function entityImageSrc(e) {
+  // 1) explicitní přepis v datech — jen pokud soubor skutečně existuje
+  if (e.image && typeof e.image === 'object' && (e.image.src || e.image.file)) {
+    const dir = IMG_DIR[e.type] || e.type;
+    const s = e.image.src || `/assets/img/${dir}/${e.image.file}`;
+    if (assetOk(s)) {
+      return {
+        src: s, alt: e.image.alt || e.name,
+        source: e.image.source || (e.image.official ? 'výrobce (oficiální)' : undefined),
+        sourceUrl: e.image.sourceUrl || e.image.official,
+      };
+    }
+  }
+  // 2) face yoga fotografie
+  if (e.type === 'faceYoga' && Array.isArray(e.photos) && e.photos.length && assetOk(e.photos[0])) {
+    return { src: e.photos[0], alt: e.name };
+  }
+  // 3) konvence img/<dir>/<slug>.<ext>
+  const rel = imgRel(IMG_DIR[e.type] || e.type, e.slug);
+  if (rel) return { src: rel, alt: e.imageAlt || e.name, source: e.imageSource, sourceUrl: e.imageSourceUrl };
+  return null;
+}
+function entityImage(e, { cls = '' } = {}) {
+  const data = entityImageSrc(e);
+  if (data) {
+    const cap = data.source
+      ? `<figcaption class="ent-img-src">${data.sourceUrl
+          ? `Zdroj: <a href="${attr(data.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(data.source)}</a>`
+          : 'Zdroj: ' + esc(data.source)}</figcaption>`
+      : '';
+    return `<figure class="ent-img ${cls}"><img src="${attr(data.src)}" alt="${attr(data.alt)}" loading="lazy" decoding="async">${cap}</figure>`;
+  }
+  const g = IMG_GLYPH[e.type] || '◈';
+  return `<figure class="ent-img ent-img--ph ${cls}" data-type="${esc(e.type)}" aria-hidden="true"><span class="ent-img-glyph">${g}</span><span class="ent-img-mono">${esc((e.name || '?').slice(0, 1))}</span></figure>`;
+}
+function bannerImage(type) {
+  const rel = imgRel('banners', IMG_DIR[type] || type);
+  return rel ? `<div class="listing-banner"><img src="${attr(rel)}" alt="" loading="eager" decoding="async"></div>` : '';
+}
+function ogImageFor(e) {
+  const data = e ? entityImageSrc(e) : null;
+  const rel = data ? data.src : '/assets/img/og-default.jpg';
+  return /^https?:/.test(rel) ? rel : ORIGIN + BASE + rel;
+}
+
 function entityCard(e) {
   const ev = e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : '';
-  return `<a class="card" href="${urlOf(e)}">
+  const img = HERO_IMG_TYPES.has(e.type) ? entityImage(e, { cls: 'card-img' }) : '';
+  return `<a class="card${img ? ' card--has-img' : ''}" href="${urlOf(e)}">
+    ${img}
     <span class="card-type">${esc(TYPES[e.type].one)}</span>
     <h3 class="card-title">${esc(e.name)}</h3>
     <p class="card-excerpt">${esc(e.excerpt || '')}</p>
@@ -310,7 +392,8 @@ function breadcrumb(trail) {
   return `<nav class="breadcrumb" aria-label="Drobečková navigace"><ul>${items}</ul></nav>`;
 }
 
-function layout({ title, description, canonical, body, jsonld = [], breadcrumbTrail }) {
+function layout({ title, description, canonical, body, jsonld = [], breadcrumbTrail, image }) {
+  const ogImage = image || (ORIGIN + BASE + '/assets/img/og-default.jpg');
   const ld = jsonld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('');
   return `<!doctype html>
 <html lang="${SITE.lang}">
@@ -324,6 +407,9 @@ function layout({ title, description, canonical, body, jsonld = [], breadcrumbTr
 <meta property="og:description" content="${attr(description)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${attr(SITE.name)}">
+<meta property="og:image" content="${attr(ogImage)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${attr(ogImage)}">
 <meta name="theme-color" content="#FBFAF7">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1151,17 +1237,22 @@ function renderDetail(e) {
       description: e.metaDescription || e.excerpt || SITE.description,
       canonical: urlOf(e),
       breadcrumbTrail: trail,
+      image: ogImageFor(e),
       jsonld: [pageLd, faqLd].filter(Boolean),
       body: renderFaceYoga(e) + `<div class="container fy-related">${relatedSection(e)}</div>`,
     });
   }
-  const hero = `<section class="detail-hero"><div class="container">
-    <span class="eyebrow">${esc(tc.one)}</span>
-    <div class="detail-hero-top">
-      <h1>${esc(e.h1 || e.name)}</h1>
-      ${e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : ''}
+  const heroImg = HERO_IMG_TYPES.has(e.type) ? entityImage(e, { cls: 'detail-hero-img' }) : '';
+  const hero = `<section class="detail-hero${heroImg ? ' has-img' : ''}"><div class="container detail-hero-grid">
+    <div class="detail-hero-copy">
+      <span class="eyebrow">${esc(tc.one)}</span>
+      <div class="detail-hero-top">
+        <h1>${esc(e.h1 || e.name)}</h1>
+        ${e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : ''}
+      </div>
+      <p class="lead">${esc(e.excerpt || '')}</p>
     </div>
-    <p class="lead">${esc(e.excerpt || '')}</p>
+    ${heroImg}
   </div></section>`;
 
   const article = `<div class="container detail-layout">
@@ -1197,6 +1288,7 @@ function renderDetail(e) {
     description: e.metaDescription || e.excerpt || SITE.description,
     canonical: urlOf(e),
     breadcrumbTrail: trail,
+    image: ogImageFor(e),
     jsonld: [pageLd, faqLd].filter(Boolean),
     body: hero + article + (e.type === 'technology' ? '<script src="/assets/js/tech-advisor.js" defer></script>' : e.type === 'supplement' ? '<script src="/assets/js/supplement-advisor.js" defer></script>' : ''),
   });
@@ -1250,7 +1342,8 @@ function renderListing(type) {
             : type === 'article'
               ? articleListingInner(items)
               : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
-  const body = `<section class="listing-hero"><div class="container">
+  const banner = bannerImage(type);
+  const body = `<section class="listing-hero${banner ? ' has-banner' : ''}">${banner}<div class="container">
       <span class="eyebrow">Databáze</span>
       <h1>${esc(tc.many)}</h1>
       <p class="lead">${esc(listingIntro(type))}</p>

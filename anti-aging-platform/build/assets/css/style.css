@@ -596,3 +596,35 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .care-prod-name{font-size:1rem;line-height:1.3}
 .care-prod-foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
 .care-prod-score{font-family:var(--serif);font-weight:600;color:var(--gold-deep)}
+
+/* ---------------------------------------------------------------------------
+ * Vizuální systém — obrázky entit, placeholdery, karty s náhledy, bannery
+ * ------------------------------------------------------------------------- */
+.ent-img{margin:0;border-radius:var(--radius);overflow:hidden;background:var(--ivory);border:1px solid var(--line);line-height:0}
+.ent-img>img{display:block;width:100%;height:100%;object-fit:cover}
+.ent-img-src{font-size:.7rem;line-height:1.4;color:var(--ink-soft);padding:6px 12px;background:var(--white);border-top:1px solid var(--line)}
+.ent-img-src a{color:var(--gold-deep)}
+.ent-img--ph{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;background:radial-gradient(120% 120% at 30% 20%,var(--white),var(--ivory) 55%,var(--sand));color:var(--gold);overflow:hidden}
+.ent-img--ph .ent-img-glyph{font-size:2.2rem;opacity:.55;z-index:1}
+.ent-img--ph .ent-img-mono{position:absolute;font-family:var(--serif);font-size:6rem;font-weight:600;color:var(--gold-deep);opacity:.1;line-height:1}
+
+/* Karty s náhledem — obrázek zabírá horní hranu karty */
+.card--has-img{padding-top:0;overflow:hidden}
+.card-img{aspect-ratio:4/3;margin:0 -26px 18px;border-radius:var(--radius) var(--radius) 0 0;border:0;border-bottom:1px solid var(--line)}
+.card-img.ent-img--ph .ent-img-glyph{font-size:1.9rem}
+.card--has-img .card-type{padding-top:0}
+
+/* Detail hero s obrázkem — dvousloupcové rozvržení */
+.detail-hero-grid{display:block}
+.detail-hero.has-img .detail-hero-grid{display:grid;grid-template-columns:1.5fr .85fr;gap:48px;align-items:center}
+.detail-hero-img{max-width:440px;width:100%;justify-self:end}
+.detail-hero-img.ent-img--ph{aspect-ratio:4/3}
+@media(max-width:760px){
+  .detail-hero.has-img .detail-hero-grid{grid-template-columns:1fr;gap:28px}
+  .detail-hero-img{max-width:100%;order:-1}
+}
+
+/* Listing bannery */
+.listing-hero.has-banner{padding:0 0 40px;position:relative}
+.listing-banner{width:100%;max-height:280px;overflow:hidden;border-bottom:1px solid var(--line);margin-bottom:36px;line-height:0}
+.listing-banner img{width:100%;height:100%;max-height:280px;object-fit:cover}
