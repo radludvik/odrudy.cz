@@ -3,7 +3,7 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 121 hotovo · 234 zbývá · 355 celkem.
+**Stav:** 129 hotovo · 226 zbývá · 355 celkem.
 
 
 ## Výchozí sdílecí náhled (1/1)
@@ -2251,59 +2251,59 @@ Natural, dignified beauty portrait of a woman representing the Péče 60+ age gr
 ```
 
 
-## Problémy (banner) (0/8)
+## Problémy (banner) (8/8)
 
 ### Jemné vrásky
-`img/problems/jemne-vrasky.webp`
+`img/problems/jemne-vrasky.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Jemné vrásky". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Hluboké vrásky
-`img/problems/hluboke-vrasky.webp`
+`img/problems/hluboke-vrasky.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Hluboké vrásky". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Pigmentace
-`img/problems/pigmentace.webp`
+`img/problems/pigmentace.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Pigmentace". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Rozšířené póry
-`img/problems/rozsirene-pory.webp`
+`img/problems/rozsirene-pory.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Rozšířené póry". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Rosacea a zarudnutí
-`img/problems/rosacea.webp`
+`img/problems/rosacea.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Rosacea a zarudnutí". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Povolená pleť
-`img/problems/povolena-plet.webp`
+`img/problems/povolena-plet.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Povolená pleť". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Nerovnoměrná textura
-`img/problems/textura.webp`
+`img/problems/textura.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Nerovnoměrná textura". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Matná pleť
-`img/problems/matna-plet.webp`
+`img/problems/matna-plet.webp` ✅
 
 ```
 Wide editorial banner subtly highlighting the facial concern "Matná pleť". Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. The relevant facial area gently emphasized with soft focus and a delicate copper-gold indicator; respectful, non-clinical, aspirational-but-honest. Banner composition with negative space on one side for overlay text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
