@@ -3,7 +3,7 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 72 hotovo · 283 zbývá · 355 celkem.
+**Stav:** 98 hotovo · 257 zbývá · 355 celkem.
 
 
 ## Výchozí sdílecí náhled (1/1)
@@ -1983,185 +1983,185 @@ Calm clinical scene representing the aesthetic procedure "Výplně (dermální f
 ```
 
 
-## Ingredience (0/26)
+## Ingredience (26/26)
 
 ### Retinol
-`img/ingredients/retinol.webp`
+`img/ingredients/retinol.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Retinol": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Retinal (retinaldehyd)
-`img/ingredients/retinal.webp`
+`img/ingredients/retinal.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Retinal (retinaldehyd)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Bakuchiol
-`img/ingredients/bakuchiol.webp`
+`img/ingredients/bakuchiol.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Bakuchiol": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Vitamin C
-`img/ingredients/vitamin-c.webp`
+`img/ingredients/vitamin-c.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Vitamin C": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Niacinamid
-`img/ingredients/niacinamid.webp`
+`img/ingredients/niacinamid.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Niacinamid": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Peptidy
-`img/ingredients/peptidy.webp`
+`img/ingredients/peptidy.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Peptidy": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Kyselina hyaluronová
-`img/ingredients/kyselina-hyaluronova.webp`
+`img/ingredients/kyselina-hyaluronova.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Kyselina hyaluronová": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### AHA (ovocné kyseliny)
-`img/ingredients/aha.webp`
+`img/ingredients/aha.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "AHA (ovocné kyseliny)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### BHA (kyselina salicylová)
-`img/ingredients/bha.webp`
+`img/ingredients/bha.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "BHA (kyselina salicylová)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Azelaová kyselina
-`img/ingredients/azelaova-kyselina.webp`
+`img/ingredients/azelaova-kyselina.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Azelaová kyselina": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Ceramidy
-`img/ingredients/ceramidy.webp`
+`img/ingredients/ceramidy.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Ceramidy": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### PHA (polyhydroxykyseliny)
-`img/ingredients/pha.webp`
+`img/ingredients/pha.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "PHA (polyhydroxykyseliny)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Tranexamová kyselina
-`img/ingredients/tranexamova-kyselina.webp`
+`img/ingredients/tranexamova-kyselina.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Tranexamová kyselina": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Matrixyl (signální peptid)
-`img/ingredients/matrixyl.webp`
+`img/ingredients/matrixyl.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Matrixyl (signální peptid)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Měďnaté peptidy (GHK-Cu)
-`img/ingredients/copper-peptides.webp`
+`img/ingredients/copper-peptides.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Měďnaté peptidy (GHK-Cu)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Argireline (acetyl hexapeptid-8)
-`img/ingredients/argireline.webp`
+`img/ingredients/argireline.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Argireline (acetyl hexapeptid-8)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Centella asiatica (Cica)
-`img/ingredients/centella.webp`
+`img/ingredients/centella.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Centella asiatica (Cica)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Panthenol (provitamin B5)
-`img/ingredients/panthenol.webp`
+`img/ingredients/panthenol.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Panthenol (provitamin B5)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Resveratrol
-`img/ingredients/resveratrol.webp`
+`img/ingredients/resveratrol.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Resveratrol": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Koenzym Q10
-`img/ingredients/koenzym-q10.webp`
+`img/ingredients/koenzym-q10.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Koenzym Q10": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Ferulová kyselina
-`img/ingredients/ferulova-kyselina.webp`
+`img/ingredients/ferulova-kyselina.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Ferulová kyselina": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Alfa-arbutin
-`img/ingredients/alfa-arbutin.webp`
+`img/ingredients/alfa-arbutin.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Alfa-arbutin": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### PDRN (polynukleotidy)
-`img/ingredients/pdrn.webp`
+`img/ingredients/pdrn.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "PDRN (polynukleotidy)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Exosomy
-`img/ingredients/exosomy.webp`
+`img/ingredients/exosomy.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Exosomy": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### EGF (epidermální růstový faktor)
-`img/ingredients/egf.webp`
+`img/ingredients/egf.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "EGF (epidermální růstový faktor)": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Skvalan
-`img/ingredients/skvalan.webp`
+`img/ingredients/skvalan.webp` ✅
 
 ```
 Macro cosmetic still-life evoking the skincare ingredient "Skvalan": glossy serum texture, droplets and a laboratory glass pipette on an ivory surface, pharmaceutical/dermatological look, abstract molecular light bokeh. Do NOT render chemical formulas. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
