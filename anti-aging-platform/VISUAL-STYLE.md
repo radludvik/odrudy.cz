@@ -54,6 +54,7 @@ V příslušném `data/*.json` u položky uveď:
 `source`/`sourceUrl` se vypíší jako titulek pod fotkou. (Konvenční cesta funguje i bez `image` bloku; atribuci pak lze dát přes `imageSource`/`imageSourceUrl`.)
 
 ## Automatizace
+- **Plně automaticky přes API:** viz [IMAGE-AUTOMATION.md](IMAGE-AUTOMATION.md) — GitHub Action „Generate images (AI)" nebo `node build/generate-images.mjs` vygeneruje chybějící obrázky přes OpenAI-kompatibilní API a uloží je rovnou na správné cesty. Nic se neukládá ručně.
 - `node build/gen-image-prompts.mjs` → přegeneruje **prompty** pro každou položku databáze do `IMAGE-PROMPTS.md` a `build/image-prompts.json`. Po přidání nové entity/článku vznikne prompt automaticky.
-- Prompty jsou určené pro externí generátor (GPT Image / Flux) — každý už obsahuje sdílenou stylovou kotvu, takže výstupy drží jednotný styl.
-- Workflow: přidat entitu → spustit generátor promptů → vygenerovat obrázek externě → uložit do `build/assets/img/...` → rebuild webu.
+- Každý prompt obsahuje sdílenou stylovou kotvu, takže výstupy drží jednotný styl.
+- Ruční alternativa (GPT Image / Flux v chatu): dávky v `IMAGE-BATCH-01.md`.

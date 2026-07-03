@@ -1,0 +1,64 @@
+name: Generate images (AI)
+
+# Plně automatické generování vizuálů: spustíš ručně (Actions → Run workflow),
+# skript zavolá image API, uloží obrázky do build/assets/img/ a commitne je.
+# Push do main pak sám spustí build & deploy webu (deploy-aevia.yml).
+#
+# Vyžaduje secret IMAGE_API_KEY (Settings → Secrets → Actions).
+# Volitelné secrets/vars: IMAGE_API_BASE, IMAGE_MODEL (pro jiného
+# OpenAI-kompatibilního poskytovatele než OpenAI).
+
+on:
+  workflow_dispatch:
+    inputs:
+      layer:
+        description: "Vrstva (all, og, banners, technologies, procedures, skin-types, age-groups, face-yoga, products, ingredients, problems, articles, anatomy)"
+        default: "all"
+        required: true
+      limit:
+        description: "Max. počet obrázků v tomto běhu (hlídá náklady)"
+        default: "20"
+        required: true
+      quality:
+        description: "Kvalita (low / medium / high)"
+        default: "medium"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "generate-images"
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Refresh image prompts from database
+        run: node build/gen-image-prompts.mjs
+        working-directory: anti-aging-platform
+      - name: Generate images
+        run: node build/generate-images.mjs --layer=${{ inputs.layer }} --limit=${{ inputs.limit }} --quality=${{ inputs.quality }}
+        working-directory: anti-aging-platform
+        env:
+          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
+          IMAGE_API_BASE: ${{ secrets.IMAGE_API_BASE }}
+          IMAGE_MODEL: ${{ secrets.IMAGE_MODEL }}
+      - name: Commit & push generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anti-aging-platform/build/assets/img anti-aging-platform/build/image-prompts.json anti-aging-platform/IMAGE-PROMPTS.md
+          if git diff --cached --quiet; then
+            echo "Žádné nové obrázky."
+          else
+            git commit -m "Generate images: layer=${{ inputs.layer }}, limit=${{ inputs.limit }}, quality=${{ inputs.quality }}"
+            git push
+          fi
