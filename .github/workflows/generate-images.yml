@@ -60,5 +60,9 @@ jobs:
             echo "Žádné nové obrázky."
           else
             git commit -m "Generate images: layer=${{ inputs.layer }}, limit=${{ inputs.limit }}, quality=${{ inputs.quality }}"
-            git push
+            # main se mezitím mohl posunout — rebase + retry, ať se vygenerované obrázky nikdy neztratí
+            for i in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              echo "push selhal, pokus $i — čekám..."; sleep $((5 * i))
+            done
           fi
