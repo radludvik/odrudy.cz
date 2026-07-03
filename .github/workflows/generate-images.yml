@@ -48,7 +48,7 @@ jobs:
         run: node build/generate-images.mjs --layer=${{ inputs.layer }} --limit=${{ inputs.limit }} --quality=${{ inputs.quality }}
         working-directory: anti-aging-platform
         env:
-          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
+          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY || secrets.OPENAI_API_KEY }}
           IMAGE_API_BASE: ${{ secrets.IMAGE_API_BASE }}
           IMAGE_MODEL: ${{ secrets.IMAGE_MODEL }}
       - name: Commit & push generated images
