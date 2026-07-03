@@ -3,13 +3,13 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 12 hotovo · 343 zbývá · 355 celkem.
+**Stav:** 32 hotovo · 323 zbývá · 355 celkem.
 
 
-## Výchozí sdílecí náhled (0/1)
+## Výchozí sdílecí náhled (1/1)
 
 ### og-default (1200×630)
-`img/og-default.jpg`
+`img/og-default.jpg` ✅
 
 ```
 Website social-share cover image (1200x630) for a premium Czech anti-aging knowledge platform: elegant abstract composition of soft serum textures and light molecular bokeh on a warm porcelain background, generous empty space in the center for a logo/headline overlay. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
@@ -1774,66 +1774,66 @@ Studio product photograph of a generic, unbranded doplnky-stravy (serum/cream) r
 ```
 
 
-## Technologie (0/18)
+## Technologie (9/18)
 
 ### LED terapie
-`img/technologies/led-terapie.webp`
+`img/technologies/led-terapie.webp` ✅
 
 ```
 Editorial photograph of a modern at-home LED terapie skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Radiofrekvence (RF)
-`img/technologies/radiofrekvence.webp`
+`img/technologies/radiofrekvence.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Radiofrekvence (RF) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Microcurrent
-`img/technologies/microcurrent.webp`
+`img/technologies/microcurrent.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Microcurrent skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### HIFU
-`img/technologies/hifu.webp`
+`img/technologies/hifu.webp` ✅
 
 ```
 Editorial photograph of a modern at-home HIFU skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Microneedling
-`img/technologies/microneedling.webp`
+`img/technologies/microneedling.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Microneedling skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### EMS
-`img/technologies/ems.webp`
+`img/technologies/ems.webp` ✅
 
 ```
 Editorial photograph of a modern at-home EMS skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### IPL (intenzivní pulzní světlo)
-`img/technologies/ipl.webp`
+`img/technologies/ipl.webp` ✅
 
 ```
 Editorial photograph of a modern at-home IPL (intenzivní pulzní světlo) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Ultrazvuk (kosmetický)
-`img/technologies/ultrazvuk.webp`
+`img/technologies/ultrazvuk.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Ultrazvuk (kosmetický) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Near-infrared (blízké infračervené světlo)
-`img/technologies/near-infrared.webp`
+`img/technologies/near-infrared.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Near-infrared (blízké infračervené světlo) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
@@ -2523,73 +2523,73 @@ Face-yoga exercise "Izometrické zpevnění krku" targeting the krk (facial musc
 ```
 
 
-## Sekční bannery (0/10)
+## Sekční bannery (10/10)
 
 ### Ingredience
-`img/banners/ingredients.webp`
+`img/banners/ingredients.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Ingredience" section: macro serum textures, droplets, glass pipettes, molecular bokeh. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Technologie
-`img/banners/technologies.webp`
+`img/banners/technologies.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Technologie" section: modern at-home skincare devices arranged minimally. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Produkty
-`img/banners/products.webp`
+`img/banners/products.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Produkty" section: row of unbranded premium skincare bottles and jars. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Procedury
-`img/banners/procedures.webp`
+`img/banners/procedures.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Procedury" section: bright modern dermatology clinic interior detail. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Doplňky stravy
-`img/banners/supplements.webp`
+`img/banners/supplements.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Doplňky stravy" section: unbranded supplement capsules and a glass of water, clean nutrition still-life. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Obličejová jóga
-`img/banners/face-yoga.webp`
+`img/banners/face-yoga.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Obličejová jóga" section: serene woman touching her face, wellness studio light. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Průvodci / Magazín
-`img/banners/articles.webp`
+`img/banners/articles.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Průvodci / Magazín" section: open editorial layout feel, calm desk with skincare and soft light. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Anti-aging škola
-`img/banners/skola.webp`
+`img/banners/skola.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Anti-aging škola" section: abstract science-meets-beauty still life, light and molecular bokeh. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Rutiny
-`img/banners/routines.webp`
+`img/banners/routines.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Rutiny" section: morning and evening skincare flat-lay on ivory. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Porovnání produktů
-`img/banners/comparisons.webp`
+`img/banners/comparisons.webp` ✅
 
 ```
 Wide website hero banner (approx 1600x400) for the "Porovnání produktů" section: two unbranded skincare products side by side, balanced composition. Generous negative space for an overlaid headline, unified with the whole site's look. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
