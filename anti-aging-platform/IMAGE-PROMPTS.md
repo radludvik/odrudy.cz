@@ -3,7 +3,7 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 0 hotovo · 355 zbývá · 355 celkem.
+**Stav:** 12 hotovo · 343 zbývá · 355 celkem.
 
 
 ## Výchozí sdílecí náhled (0/1)
@@ -2760,87 +2760,87 @@ Unique editorial hero image (16:9) for the guide "Doplňky stravy pro pleť: co 
 ```
 
 
-## Ikony (jednotná sada) (0/12)
+## Ikony (jednotná sada) (12/12)
 
 ### ingredience
-`img/icons/ingredience.svg`
+`img/icons/ingredience.svg` ✅
 
 ```
 Minimal single-color line icon representing "ingredience" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### produkty
-`img/icons/produkty.svg`
+`img/icons/produkty.svg` ✅
 
 ```
 Minimal single-color line icon representing "produkty" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### technologie
-`img/icons/technologie.svg`
+`img/icons/technologie.svg` ✅
 
 ```
 Minimal single-color line icon representing "technologie" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### studie
-`img/icons/studie.svg`
+`img/icons/studie.svg` ✅
 
 ```
 Minimal single-color line icon representing "studie" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### rutiny
-`img/icons/rutiny.svg`
+`img/icons/rutiny.svg` ✅
 
 ```
 Minimal single-color line icon representing "rutiny" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### bezpecnost
-`img/icons/bezpecnost.svg`
+`img/icons/bezpecnost.svg` ✅
 
 ```
 Minimal single-color line icon representing "bezpecnost" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### typ-pleti
-`img/icons/typ-pleti.svg`
+`img/icons/typ-pleti.svg` ✅
 
 ```
 Minimal single-color line icon representing "typ-pleti" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### vek
-`img/icons/vek.svg`
+`img/icons/vek.svg` ✅
 
 ```
 Minimal single-color line icon representing "vek" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### ucinnost
-`img/icons/ucinnost.svg`
+`img/icons/ucinnost.svg` ✅
 
 ```
 Minimal single-color line icon representing "ucinnost" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### kontraindikace
-`img/icons/kontraindikace.svg`
+`img/icons/kontraindikace.svg` ✅
 
 ```
 Minimal single-color line icon representing "kontraindikace" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### kompatibilita
-`img/icons/kompatibilita.svg`
+`img/icons/kompatibilita.svg` ✅
 
 ```
 Minimal single-color line icon representing "kompatibilita" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.
 ```
 
 ### dukazy
-`img/icons/dukazy.svg`
+`img/icons/dukazy.svg` ✅
 
 ```
 Minimal single-color line icon representing "dukazy" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.

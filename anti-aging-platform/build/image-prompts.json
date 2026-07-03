@@ -2335,84 +2335,84 @@
     "title": "ingredience",
     "prompt": "Minimal single-color line icon representing \"ingredience\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/produkty.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "produkty",
     "prompt": "Minimal single-color line icon representing \"produkty\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/technologie.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "technologie",
     "prompt": "Minimal single-color line icon representing \"technologie\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/studie.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "studie",
     "prompt": "Minimal single-color line icon representing \"studie\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/rutiny.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "rutiny",
     "prompt": "Minimal single-color line icon representing \"rutiny\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/bezpecnost.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "bezpecnost",
     "prompt": "Minimal single-color line icon representing \"bezpecnost\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/typ-pleti.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "typ-pleti",
     "prompt": "Minimal single-color line icon representing \"typ-pleti\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/vek.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "vek",
     "prompt": "Minimal single-color line icon representing \"vek\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/ucinnost.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "ucinnost",
     "prompt": "Minimal single-color line icon representing \"ucinnost\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/kontraindikace.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "kontraindikace",
     "prompt": "Minimal single-color line icon representing \"kontraindikace\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/kompatibilita.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "kompatibilita",
     "prompt": "Minimal single-color line icon representing \"kompatibilita\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/icons/dukazy.svg": {
     "group": "Ikony (jednotná sada)",
     "title": "dukazy",
     "prompt": "Minimal single-color line icon representing \"dukazy\" (skincare/dermatology context). 24x24 viewBox, 1.5px stroke, rounded caps, no fill, color #8A6D3F, consistent geometric style across the whole icon set, transparent background. Deliver as clean SVG.",
     "note": null,
-    "exists": false
+    "exists": true
   },
   "img/anatomy/frontalis.webp": {
     "group": "Anatomie svalů",
