@@ -26,6 +26,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: "generate-images"
@@ -66,3 +67,9 @@ jobs:
               echo "push selhal, pokus $i — čekám..."; sleep $((5 * i))
             done
           fi
+      - name: Trigger site deploy
+        # Push z GITHUB_TOKEN nespouští workflow automaticky (ochrana před
+        # rekurzí) — deploy proto spustíme explicitně přes workflow_dispatch.
+        run: gh workflow run deploy-aevia.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
