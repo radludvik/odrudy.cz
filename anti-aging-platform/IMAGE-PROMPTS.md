@@ -3,7 +3,7 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 98 hotovo · 257 zbývá · 355 celkem.
+**Stav:** 121 hotovo · 234 zbývá · 355 celkem.
 
 
 ## Výchozí sdílecí náhled (1/1)
@@ -2596,164 +2596,164 @@ Wide website hero banner (approx 1600x400) for the "Porovnání produktů" secti
 ```
 
 
-## Články (hero) (0/23)
+## Články (hero) (23/23)
 
 ### Jak začít s retinoidy bez podráždění
-`img/articles/jak-zacit-s-retinoidy.webp`
+`img/articles/jak-zacit-s-retinoidy.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Jak začít s retinoidy bez podráždění". Concept: Pilířový návod krok za krokem: od výběru koncentrace po zvládnutí retinizace.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Proč je SPF nejlepší anti-aging
-`img/articles/spf-nejlepsi-anti-aging.webp`
+`img/articles/spf-nejlepsi-anti-aging.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Proč je SPF nejlepší anti-aging". Concept: Žádné sérum nepřekoná každodenní opalovací krém. Vysvětlujeme proč a jak na to.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Retinol vs Retinal: který je lepší?
-`img/articles/retinol-vs-retinal.webp`
+`img/articles/retinol-vs-retinal.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Retinol vs Retinal: který je lepší?". Concept: Dva nejpopulárnější retinoidy do domácí péče pod drobnohledem — mechanismus, rychlost účinku, snášenlivost a pro koho se který hodí.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Největší chyby v anti-aging péči
-`img/articles/nejvetsi-chyby-anti-aging.webp`
+`img/articles/nejvetsi-chyby-anti-aging.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Největší chyby v anti-aging péči". Concept: Co podle současných poznatků nejčastěji sabotuje výsledky — a jak místo drahých „zázraků" vsadit na základ, který opravdu funguje.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Niacinamid: na co skutečně funguje
-`img/articles/niacinamid-na-co-funguje.webp`
+`img/articles/niacinamid-na-co-funguje.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Niacinamid: na co skutečně funguje". Concept: Univerzální, dobře snášená látka. Vysvětlujeme, co podporují data a co je marketing.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Vitamin C séra: jak vybrat a používat
-`img/articles/vitamin-c-serum-jak-vybrat.webp`
+`img/articles/vitamin-c-serum-jak-vybrat.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Vitamin C séra: jak vybrat a používat". Concept: Antioxidant pro tón a ochranu. Vysvětlujeme formy, koncentrace a jak poznat dobré sérum.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Začátečnická anti-aging rutina krok za krokem
-`img/articles/zacatecnicka-anti-aging-rutina.webp`
+`img/articles/zacatecnicka-anti-aging-rutina.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Začátečnická anti-aging rutina krok za krokem". Concept: Méně je víc. Tři kroky ráno, tři večer a jasné pořadí, kdy přidávat aktivní látky.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Pigmentace a skvrny: co na ně opravdu funguje
-`img/articles/pigmentace-co-funguje.webp`
+`img/articles/pigmentace-co-funguje.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Pigmentace a skvrny: co na ně opravdu funguje". Concept: Skvrny mizí pomalu a SPF je půlka úspěchu. Procházíme látky s nejlepší oporou v datech.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### LED masky: co umí a co ne
-`img/articles/led-masky-co-umi.webp`
+`img/articles/led-masky-co-umi.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "LED masky: co umí a co ne". Concept: Červené světlo má slušnou oporu, ale domácí masky nejsou ordinace. Co čekat reálně.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Domácí přístroje vs ordinace: kdy se vyplatí
-`img/articles/domaci-pristroje-vs-ordinace.webp`
+`img/articles/domaci-pristroje-vs-ordinace.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Domácí přístroje vs ordinace: kdy se vyplatí". Concept: Domácí přístroj, nebo zákrok? Procházíme rozdíl ve výkonu, riziku i ceně v čase.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Peptidy v kosmetice: hype vs realita
-`img/articles/peptidy-hype-vs-realita.webp`
+`img/articles/peptidy-hype-vs-realita.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Peptidy v kosmetice: hype vs realita". Concept: Nadějná, ale přeprodávaná kategorie. Třídíme typy peptidů a realisticky vážíme důkazy.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Kyseliny AHA, BHA a PHA: kterou a kdy
-`img/articles/kyseliny-aha-bha-pha.webp`
+`img/articles/kyseliny-aha-bha-pha.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Kyseliny AHA, BHA a PHA: kterou a kdy". Concept: Tři rodiny kyselin pro tři situace. Vysvětlujeme, kterou zvolit a jak ji nepřehnat.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Vitamin C vs niacinamid: který antioxidant zvolit
-`img/articles/vitamin-c-vs-niacinamid.webp`
+`img/articles/vitamin-c-vs-niacinamid.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Vitamin C vs niacinamid: který antioxidant zvolit". Concept: Nekonkurují si — doplňují se. Vysvětlujeme, kdy zvolit který a proč klidně oba.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Bakuchiol vs retinol: šetrná alternativa, nebo kompromis?
-`img/articles/bakuchiol-vs-retinol.webp`
+`img/articles/bakuchiol-vs-retinol.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Bakuchiol vs retinol: šetrná alternativa, nebo kompromis?". Concept: Šetrnější, ale méně prozkoumaný. Kdy bakuchiol dává smysl a kdy je retinol lepší.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### HIFU vs radiofrekvence: který lifting bez skalpelu
-`img/articles/hifu-vs-radiofrekvence.webp`
+`img/articles/hifu-vs-radiofrekvence.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "HIFU vs radiofrekvence: který lifting bez skalpelu". Concept: Dva neinvazivní lifting přístupy. Liší se hloubkou, komfortem i typem výsledku.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Rozšířené póry: co reálně pomáhá (a co je mýtus)
-`img/articles/rozsirene-pory-co-pomaha.webp`
+`img/articles/rozsirene-pory-co-pomaha.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Rozšířené póry: co reálně pomáhá (a co je mýtus)". Concept: Póry „zavřít" nejde, jejich vzhled zlepšit ano. Co funguje a co je marketing.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Povolená pleť a ztráta pevnosti: co s tím
-`img/articles/povolena-plet-ztrata-pevnosti.webp`
+`img/articles/povolena-plet-ztrata-pevnosti.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Povolená pleť a ztráta pevnosti: co s tím". Concept: Pevnost se ztrácí postupně. Co zpomalí pokles a co ho částečně zvrátí.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Rosacea a citlivá pleť: jak o ni pečovat
-`img/articles/rosacea-citliva-plet-pece.webp`
+`img/articles/rosacea-citliva-plet-pece.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Rosacea a citlivá pleť: jak o ni pečovat". Concept: Méně je víc a spouštěče jsou klíč. Jak postavit šetrnou rutinu, která pleť nedráždí.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Fotostárnutí: jak slunce stárne pleť a jak tomu předejít
-`img/articles/fotostarnuti-prevence.webp`
+`img/articles/fotostarnuti-prevence.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Fotostárnutí: jak slunce stárne pleť a jak tomu předejít". Concept: Až 80 % viditelného stárnutí jde za sluncem. Co se v pleti děje a jak to zbrzdit.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Jak číst složení kosmetiky (INCI): praktický návod
-`img/articles/jak-cist-inci-slozeni.webp`
+`img/articles/jak-cist-inci-slozeni.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Jak číst složení kosmetiky (INCI): praktický návod". Concept: Etiketa prozradí víc než reklama. Jak číst pořadí složek a kde hledat aktivní látky.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Jak stárne pleť: vnitřní a vnější faktory
-`img/articles/jak-starne-plet-faktory.webp`
+`img/articles/jak-starne-plet-faktory.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Jak stárne pleť: vnitřní a vnější faktory". Concept: Část stárnutí neovlivníme, většinu ano. Přehled faktorů a co s nimi reálně zmůžete.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Kolagen v prášku: co říká věda (a co zákon o tvrzeních)
-`img/articles/kolagen-doplnky-veda.webp`
+`img/articles/kolagen-doplnky-veda.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Kolagen v prášku: co říká věda (a co zákon o tvrzeních)". Concept: Metaanalýzy naznačují přínos, EU zdravotní tvrzení ale chybí. Střízlivý pohled.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Doplňky stravy pro pleť: co má a nemá oporu
-`img/articles/doplnky-pro-plet-prehled.webp`
+`img/articles/doplnky-pro-plet-prehled.webp` ✅
 
 ```
 Unique editorial hero image (16:9) for the guide "Doplňky stravy pro pleť: co má a nemá oporu". Concept: Co opravdu „funguje zevnitř" a co je marketing. Přehled podle tvrzení i dat.. Photorealistic, on-topic, calm and premium, no text. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
