@@ -3,7 +3,7 @@
 > Generováno `build/gen-image-prompts.mjs` z databáze. **Neupravovat ručně** — přegeneruje se.
 > Styl viz [VISUAL-STYLE.md](VISUAL-STYLE.md). Hotové obrázky vkládej do `build/assets/<path>`; generátor webu je pak automaticky zobrazí.
 
-**Stav:** 32 hotovo · 323 zbývá · 355 celkem.
+**Stav:** 72 hotovo · 283 zbývá · 355 celkem.
 
 
 ## Výchozí sdílecí náhled (1/1)
@@ -1774,7 +1774,7 @@ Studio product photograph of a generic, unbranded doplnky-stravy (serum/cream) r
 ```
 
 
-## Technologie (9/18)
+## Technologie (18/18)
 
 ### LED terapie
 `img/technologies/led-terapie.webp` ✅
@@ -1840,143 +1840,143 @@ Editorial photograph of a modern at-home Near-infrared (blízké infračervené 
 ```
 
 ### Domácí frakční laser
-`img/technologies/domaci-laser.webp`
+`img/technologies/domaci-laser.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Domácí frakční laser skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Galvanická péče (iontoforéza)
-`img/technologies/galvanicka-pece.webp`
+`img/technologies/galvanicka-pece.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Galvanická péče (iontoforéza) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Plasma pen (fibroblast)
-`img/technologies/plasma-pen.webp`
+`img/technologies/plasma-pen.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Plasma pen (fibroblast) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Oxygenoterapie (kyslíková péče)
-`img/technologies/oxygenoterapie.webp`
+`img/technologies/oxygenoterapie.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Oxygenoterapie (kyslíková péče) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Kryoterapie (chlazení pleti)
-`img/technologies/kryoterapie.webp`
+`img/technologies/kryoterapie.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Kryoterapie (chlazení pleti) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Gua Sha
-`img/technologies/gua-sha.webp`
+`img/technologies/gua-sha.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Gua Sha skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Face Roller (obličejový váleček)
-`img/technologies/face-roller.webp`
+`img/technologies/face-roller.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Face Roller (obličejový váleček) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Silikonové náplasti
-`img/technologies/silikonove-naplasti.webp`
+`img/technologies/silikonove-naplasti.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Silikonové náplasti skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Dermaroller (domácí microneedling)
-`img/technologies/dermaroller.webp`
+`img/technologies/dermaroller.webp` ✅
 
 ```
 Editorial photograph of a modern at-home Dermaroller (domácí microneedling) skincare device on an ivory surface, clean clinical aesthetic, device shown clearly, no person. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 
-## Procedury (0/11)
+## Procedury (11/11)
 
 ### Botox (botulotoxin)
-`img/procedures/botox.webp`
+`img/procedures/botox.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Botox (botulotoxin)": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Profhilo
-`img/procedures/profhilo.webp`
+`img/procedures/profhilo.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Profhilo": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Microneedling (procedura)
-`img/procedures/microneedling-procedura.webp`
+`img/procedures/microneedling-procedura.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Microneedling (procedura)": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Chemický peeling
-`img/procedures/chemicky-peeling.webp`
+`img/procedures/chemicky-peeling.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Chemický peeling": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Skinboostery
-`img/procedures/skinboostery.webp`
+`img/procedures/skinboostery.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Skinboostery": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### PRP (plazma, „vampire facial")
-`img/procedures/prp.webp`
+`img/procedures/prp.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "PRP (plazma, „vampire facial")": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Frakční laser (Fraxel)
-`img/procedures/frakcni-laser.webp`
+`img/procedures/frakcni-laser.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Frakční laser (Fraxel)": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### CO₂ laser (ablativní)
-`img/procedures/co2-laser.webp`
+`img/procedures/co2-laser.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "CO₂ laser (ablativní)": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### IPL fotorejuvenace
-`img/procedures/ipl-procedura.webp`
+`img/procedures/ipl-procedura.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "IPL fotorejuvenace": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Biostimulátory kolagenu
-`img/procedures/biostimulatory.webp`
+`img/procedures/biostimulatory.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Biostimulátory kolagenu": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Výplně (dermální fillery)
-`img/procedures/vyplne.webp`
+`img/procedures/vyplne.webp` ✅
 
 ```
 Calm clinical scene representing the aesthetic procedure "Výplně (dermální fillery)": modern bright dermatology clinic, professional performing a facial treatment, tasteful and non-graphic, focus on hands and device, patient relaxed. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
@@ -2168,83 +2168,83 @@ Macro cosmetic still-life evoking the skincare ingredient "Skvalan": glossy seru
 ```
 
 
-## Typy pleti (hero) (0/6)
+## Typy pleti (hero) (6/6)
 
 ### Suchá pleť
-`img/skin-types/sucha.webp`
+`img/skin-types/sucha.webp` ✅
 
 ```
 Close-up beauty portrait representing Suchá pleť skin. Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Skin shown honestly and naturally for this skin type. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Citlivá pleť
-`img/skin-types/citliva.webp`
+`img/skin-types/citliva.webp` ✅
 
 ```
 Close-up beauty portrait representing Citlivá pleť skin. Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Skin shown honestly and naturally for this skin type. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Mastná pleť
-`img/skin-types/mastna.webp`
+`img/skin-types/mastna.webp` ✅
 
 ```
 Close-up beauty portrait representing Mastná pleť skin. Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Skin shown honestly and naturally for this skin type. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Smíšená pleť
-`img/skin-types/smisena.webp`
+`img/skin-types/smisena.webp` ✅
 
 ```
 Close-up beauty portrait representing Smíšená pleť skin. Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Skin shown honestly and naturally for this skin type. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Zralá pleť
-`img/skin-types/zrala.webp`
+`img/skin-types/zrala.webp` ✅
 
 ```
 Close-up beauty portrait representing Zralá pleť skin. Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Skin shown honestly and naturally for this skin type. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Aknózní pleť
-`img/skin-types/aknozni.webp`
+`img/skin-types/aknozni.webp` ✅
 
 ```
 Close-up beauty portrait representing Aknózní pleť skin. Same recurring female model across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Skin shown honestly and naturally for this skin type. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 
-## Věkové skupiny (hero) (0/5)
+## Věkové skupiny (hero) (5/5)
 
 ### Péče 20+
-`img/age-groups/20-plus.webp`
+`img/age-groups/20-plus.webp` ✅
 
 ```
 Natural, dignified beauty portrait of a woman representing the Péče 20+ age group. Consistent series of women, same styling and lighting across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Age-appropriate, natural skin with visible real texture, NOT heavily retouched. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Péče 30+
-`img/age-groups/30-plus.webp`
+`img/age-groups/30-plus.webp` ✅
 
 ```
 Natural, dignified beauty portrait of a woman representing the Péče 30+ age group. Consistent series of women, same styling and lighting across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Age-appropriate, natural skin with visible real texture, NOT heavily retouched. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Péče 40+
-`img/age-groups/40-plus.webp`
+`img/age-groups/40-plus.webp` ✅
 
 ```
 Natural, dignified beauty portrait of a woman representing the Péče 40+ age group. Consistent series of women, same styling and lighting across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Age-appropriate, natural skin with visible real texture, NOT heavily retouched. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Péče 50+
-`img/age-groups/50-plus.webp`
+`img/age-groups/50-plus.webp` ✅
 
 ```
 Natural, dignified beauty portrait of a woman representing the Péče 50+ age group. Consistent series of women, same styling and lighting across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Age-appropriate, natural skin with visible real texture, NOT heavily retouched. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Péče 60+
-`img/age-groups/60-plus.webp`
+`img/age-groups/60-plus.webp` ✅
 
 ```
 Natural, dignified beauty portrait of a woman representing the Péče 60+ age group. Consistent series of women, same styling and lighting across the whole series: mid-length natural brown hair, bare clean skin, no makeup or minimal natural makeup, calm neutral expression, plain warm-ivory seamless studio background, identical soft frontal key light, shot on 85mm lens, head-and-shoulders framing. Age-appropriate, natural skin with visible real texture, NOT heavily retouched. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
@@ -2310,66 +2310,66 @@ Wide editorial banner subtly highlighting the facial concern "Matná pleť". Sam
 ```
 
 
-## Face yoga (série) (0/30)
+## Face yoga (série) (9/30)
 
 ### Vyhlazení čela prsty
-`img/face-yoga/vyhlazeni-cela-prsty.webp`
+`img/face-yoga/vyhlazeni-cela-prsty.webp` ✅
 
 ```
 Face-yoga exercise "Vyhlazení čela prsty" targeting the celo (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Uvolnění svalu mezi obočím
-`img/face-yoga/uvolneni-svalu-mezi-obocim.webp`
+`img/face-yoga/uvolneni-svalu-mezi-obocim.webp` ✅
 
 ```
 Face-yoga exercise "Uvolnění svalu mezi obočím" targeting the celo (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Překvapený výraz s odporem
-`img/face-yoga/prekvapeny-vyraz-s-odporem.webp`
+`img/face-yoga/prekvapeny-vyraz-s-odporem.webp` ✅
 
 ```
 Face-yoga exercise "Překvapený výraz s odporem" targeting the celo (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Krouživá masáž čela
-`img/face-yoga/krouziva-masaz-cela.webp`
+`img/face-yoga/krouziva-masaz-cela.webp` ✅
 
 ```
 Face-yoga exercise "Krouživá masáž čela" targeting the celo (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Akupresura proti napětí čela
-`img/face-yoga/akupresura-proti-napeti-cela.webp`
+`img/face-yoga/akupresura-proti-napeti-cela.webp` ✅
 
 ```
 Face-yoga exercise "Akupresura proti napětí čela" targeting the celo (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Lymfatické kroužky kolem očí
-`img/face-yoga/lymfaticke-krouzky-kolem-oci.webp`
+`img/face-yoga/lymfaticke-krouzky-kolem-oci.webp` ✅
 
 ```
 Face-yoga exercise "Lymfatické kroužky kolem očí" targeting the oci (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### V pro vnější koutky
-`img/face-yoga/v-pro-vnejsi-koutky.webp`
+`img/face-yoga/v-pro-vnejsi-koutky.webp` ✅
 
 ```
 Face-yoga exercise "V pro vnější koutky" targeting the oci (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Zvednutí horních víček
-`img/face-yoga/zvednuti-hornich-vicek.webp`
+`img/face-yoga/zvednuti-hornich-vicek.webp` ✅
 
 ```
 Face-yoga exercise "Zvednutí horních víček" targeting the oci (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
 ```
 
 ### Pevné mrkání s oporou
-`img/face-yoga/pevne-mrkani-s-oporou.webp`
+`img/face-yoga/pevne-mrkani-s-oporou.webp` ✅
 
 ```
 Face-yoga exercise "Pevné mrkání s oporou" targeting the oci (facial muscles). Consistent face-yoga illustration series: SAME female model, SAME plain ivory background, SAME soft frontal lighting, SAME 85mm frontal head-and-shoulders camera angle, SAME neutral top. Only the hand position, facial expression and the highlighted muscle change between images. Subtle copper-gold directional arrows indicating the movement; the engaged muscle gently highlighted in translucent copper-gold. Premium minimalist anti-aging platform aesthetic. Soft diffused natural light, light neutral palette (warm porcelain #FBFAF7, ivory #F3EEE6, sand #E8DFD2, muted copper-gold #B08D57 accents). Clean, medically credible, editorial, uncluttered. Photorealistic. Shallow depth of field. No text, no logos, no watermarks, no visible brand names, no kitschy beauty-ad styling. Negative: text, watermark, logo, brand name, oversaturated colors, harsh flash, plastic skin, heavy retouching, cluttered background, stock-photo look, collage, borders, frames.
