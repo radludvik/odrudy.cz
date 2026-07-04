@@ -1,0 +1,53 @@
+name: Build pro vlastní hosting
+
+# Sestaví web pro tvou vlastní doménu (kořen webu, ne podcestu /odrudy.cz/).
+# Výsledek: 1) artefakt "antiagelab-web" ke stažení (rozbalit a nahrát FTP),
+#           2) pokud jsou nastavené secrets FTP_SERVER / FTP_USERNAME /
+#              FTP_PASSWORD, nahraje se web na hosting AUTOMATICKY.
+#
+# Spuštění: Actions → "Build pro vlastní hosting" → Run workflow → zadej doménu.
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "Adresa webu včetně https:// (např. https://antiagelab.cz)"
+        default: "https://antiagelab.cz"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HAS_FTP: ${{ secrets.FTP_SERVER != '' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build static site (root path, own domain)
+        run: node build/build.mjs
+        working-directory: anti-aging-platform
+        env:
+          BASE_PATH: ""
+          SITE_ORIGIN: ${{ inputs.domain }}
+      - name: Upload artifact (zip ke stažení)
+        uses: actions/upload-artifact@v4
+        with:
+          name: antiagelab-web
+          path: anti-aging-platform/site
+          include-hidden-files: true
+      - name: Deploy přes FTP (jen když jsou nastavené FTP secrets)
+        if: env.HAS_FTP == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: anti-aging-platform/site/
+          server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}

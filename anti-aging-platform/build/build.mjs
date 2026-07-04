@@ -1940,6 +1940,10 @@ function build() {
   // statická aktiva
   if (existsSync(ASSETS_SRC)) cpSync(ASSETS_SRC, join(OUT, 'assets'), { recursive: true });
 
+  // kořenové soubory pro vlastní hosting (.htaccess apod.) — build/static/* → site/
+  const STATIC_ROOT = join(ROOT, 'build', 'static');
+  if (existsSync(STATIC_ROOT)) cpSync(STATIC_ROOT, OUT, { recursive: true });
+
   // domovská stránka
   writePage('/', homepage());
 
@@ -1963,6 +1967,19 @@ function build() {
 
   // metodika hodnocení (transparentnost)
   writePage('/metodika-hodnoceni/', methodologyPage());
+
+  // 404 stránka (GitHub Pages i Apache ErrorDocument)
+  writeFileSync(join(OUT, '404.html'), applyBase(layout({
+    title: `Stránka nenalezena | ${SITE.name}`,
+    description: 'Stránka nebyla nalezena.',
+    canonical: '/404.html',
+    body: `<section class="section"><div class="container" style="text-align:center;padding:80px 28px">
+      <span class="eyebrow">Chyba 404</span>
+      <h1>Stránka nenalezena</h1>
+      <p class="lead" style="margin:0 auto 2rem">Tahle stránka neexistuje nebo byla přesunuta. Zkuste hledání, nebo pokračujte na hlavní stránku.</p>
+      <p><a class="btn btn--primary" href="/">Zpět na úvod</a> &nbsp; <a class="btn btn--ghost" href="/hledat/">Hledat</a></p>
+    </div></section>`,
+  })));
 
   // exporty
   exportCompareData();
