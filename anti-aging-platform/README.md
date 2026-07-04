@@ -76,5 +76,14 @@ aby ho nepřepsal. Až bude antiagelab.cz hlavním webem, doplňte do workflow t
 
 Veškerý obsah má **vzdělávací charakter** a nenahrazuje odbornou lékařskou ani
 dermatologickou konzultaci. U tvrzení o účinnosti je vždy uvedena **úroveň
-vědecké evidence**. Citované studie jsou reprezentativní ukázky modelu —
-před publikací je nutná odborná revize a doplnění přesných citací/DOI.
+vědecké evidence** podle transparentní metodiky.
+
+Citace jsou **ověřené a dohledatelné** — u hlavních ingrediencí, technologií,
+doplňků a procedur odkazují na reálné záznamy v PubMed/PMC (PMID, kde je to
+možné i DOI), s prioritou systematických přehledů, metaanalýz a RCT. Síla
+evidence je odvozena od kvality a relevance dostupných studií; experimentální
+a rozvíjející se témata (např. exozomy, NMN, spermidin) jsou záměrně vedena
+jako `preliminary`/`limited`, i když k nim dílčí přehledy existují — jeden
+systematický přehled malého pole neznamená robustní důkaz. Databáze studií se
+průběžně rozšiřuje; nejde o vyčerpávající rešerši, ale o poctivý, ozdrojovaný
+základ, který nikdy neuvádí smyšlené citace.

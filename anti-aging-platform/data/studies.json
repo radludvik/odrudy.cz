@@ -40,7 +40,9 @@
         "title": "Mukherjee S. et al.",
         "journal": "Clin Interv Aging",
         "year": 2006,
-        "type": "review"
+        "type": "review",
+        "pmid": "18046911",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699641/"
       }
     ],
     "relations": {
@@ -52,7 +54,9 @@
         "jemne-vrasky",
         "pigmentace"
       ]
-    }
+    },
+    "pmid": "18046911",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699641/"
   },
   {
     "id": "study-dhaliwal-2019",
@@ -95,7 +99,9 @@
         "title": "Dhaliwal S. et al.",
         "journal": "Br J Dermatol",
         "year": 2019,
-        "type": "rct"
+        "type": "rct",
+        "pmid": "30022486",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30022486/"
       }
     ],
     "relations": {
@@ -106,7 +112,9 @@
       "comparisons": [
         "bakuchiol-vs-retinol"
       ]
-    }
+    },
+    "pmid": "30022486",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30022486/"
   },
   {
     "id": "study-wunsch-2014",
@@ -149,7 +157,10 @@
         "title": "Wunsch A., Matuschka K.",
         "journal": "Photomed Laser Surg",
         "year": 2014,
-        "type": "rct"
+        "type": "rct",
+        "pmid": "24286286",
+        "doi": "10.1089/pho.2013.3616",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/"
       }
     ],
     "relations": {
@@ -159,7 +170,10 @@
       "problems": [
         "jemne-vrasky"
       ]
-    }
+    },
+    "pmid": "24286286",
+    "doi": "10.1089/pho.2013.3616",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/"
   },
   {
     "id": "study-hughes-2013",
@@ -202,7 +216,9 @@
         "title": "Hughes MCB et al.",
         "journal": "Ann Intern Med",
         "year": 2013,
-        "type": "rct"
+        "type": "rct",
+        "pmid": "23732711",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/"
       }
     ],
     "relations": {
@@ -217,7 +233,8 @@
         "vitamin-c"
       ]
     },
-    "pmid": "23732711"
+    "pmid": "23732711",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/"
   },
   {
     "type": "study",
@@ -260,7 +277,9 @@
         "title": "Bala HR et al.",
         "journal": "Dermatol Surg",
         "year": 2018,
-        "type": "review"
+        "type": "review",
+        "pmid": "29677015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29677015/"
       }
     ],
     "relations": {
@@ -271,7 +290,9 @@
       "problems": [
         "pigmentace"
       ]
-    }
+    },
+    "pmid": "29677015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29677015/"
   },
   {
     "type": "study",
@@ -314,7 +335,10 @@
         "title": "Tierney EP et al.",
         "journal": "Dermatol Surg",
         "year": 2009,
-        "type": "review"
+        "type": "review",
+        "pmid": "19686366",
+        "doi": "10.1111/j.1524-4725.2009.01258.x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19686366/"
       }
     ],
     "relations": {
@@ -330,6 +354,9 @@
         "pigmentace",
         "hluboke-vrasky"
       ]
-    }
+    },
+    "pmid": "19686366",
+    "doi": "10.1111/j.1524-4725.2009.01258.x",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19686366/"
   }
 ]

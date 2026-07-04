@@ -102,6 +102,12 @@
         "title": "Photobiomodulation: A Systematic Review of the Oncologic Safety of Low-Level Light Therapy for Aesthetic Skin Rejuvenation",
         "type": "systematic-review",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10309024/"
+      },
+      {
+        "title": "Photobiomodulation Reduces Periocular Wrinkle Volume by 30%: A Randomized Controlled Trial",
+        "type": "rct",
+        "pmid": "36780572",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36780572/"
       }
     ],
     "alternativeTech": [
@@ -398,6 +404,11 @@
         "journal": "J Cosmet Dermatol",
         "year": 2020,
         "type": "review"
+      },
+      {
+        "title": "Efficacy of Conservative Techniques for Mechanical Facial Rejuvenation: A Systematic Review",
+        "type": "systematic-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12658320/"
       }
     ],
     "alternativeTech": [
@@ -1248,6 +1259,19 @@
         "journal": "Semin Cutan Med Surg",
         "year": 2013,
         "type": "review"
+      },
+      {
+        "title": "Photobiomodulation Reduces Periocular Wrinkle Volume by 30%: A Randomized Controlled Trial",
+        "type": "rct",
+        "pmid": "36780572",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36780572/"
+      },
+      {
+        "title": "A controlled trial of red and near-infrared light treatment: fine lines, wrinkles, skin roughness and intradermal collagen density (Wunsch & Matuschka)",
+        "type": "rct",
+        "year": 2014,
+        "pmid": "24286286",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/"
       }
     ],
     "alternativeTech": [
@@ -2011,7 +2035,7 @@
     "metaDescription": "Gua Sha je masážní technika, která podporuje lymfu, prokrvení a uvolnění napětí. Realistická očekávání.",
     "h1": "Gua Sha",
     "excerpt": "Masážní destička pro lymfatickou drenáž, prokrvení a uvolnění napětí v obličeji.",
-    "evidenceLevel": "preliminary",
+    "evidenceLevel": "limited",
     "principle": "Plochým kamenem (jadeit, růženín) se jemně „škrábe\" a hladí pleť po masážních liniích, čímž se podporuje lymfatický odtok a prokrvení.",
     "mechanism": "Mechanická masáž zlepšuje mikrocirkulaci, podporuje lymfu (zmírnění otoků) a uvolňuje svalové napětí. Trvalou tvorbu kolagenu nečekejte.",
     "pros": [
@@ -2054,6 +2078,18 @@
         "journal": "Explore",
         "year": 2014,
         "type": "review"
+      },
+      {
+        "title": "Comparative Effects of Facial Roller and Gua Sha Massage on Facial Contour, Muscle Tone, and Skin Elasticity: Randomized Controlled Trial",
+        "type": "rct",
+        "year": 2025,
+        "pmid": "40439289",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12121324/"
+      },
+      {
+        "title": "Efficacy of Conservative Techniques for Mechanical Facial Rejuvenation: A Systematic Review",
+        "type": "systematic-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12658320/"
       }
     ],
     "alternativeTech": [
@@ -2143,7 +2179,7 @@
     "metaDescription": "Obličejový váleček (jadeit, růženín) zmírňuje otoky a pomáhá vstřebat sérum. Co od něj čekat.",
     "h1": "Face Roller (obličejový váleček)",
     "excerpt": "Chladivý váleček pro zmírnění otoků, prokrvení a příjemné vstřebání séra.",
-    "evidenceLevel": "preliminary",
+    "evidenceLevel": "limited",
     "principle": "Válcováním kamene po pleti se jemně masíruje, podporuje lymfatický odtok a roztírá se sérum. Chladný kámen navíc stahuje a osvěžuje.",
     "mechanism": "Masáž a chlad zlepšují mikrocirkulaci a dočasně zmírňují otoky. Efekt je krátkodobý a kosmetický.",
     "pros": [
@@ -2183,6 +2219,18 @@
         "journal": "J Cosmet Dermatol",
         "year": 2018,
         "type": "review"
+      },
+      {
+        "title": "Comparative Effects of Facial Roller and Gua Sha Massage on Facial Contour, Muscle Tone, and Skin Elasticity: Randomized Controlled Trial",
+        "type": "rct",
+        "year": 2025,
+        "pmid": "40439289",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12121324/"
+      },
+      {
+        "title": "Efficacy of Conservative Techniques for Mechanical Facial Rejuvenation: A Systematic Review",
+        "type": "systematic-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12658320/"
       }
     ],
     "alternativeTech": [
