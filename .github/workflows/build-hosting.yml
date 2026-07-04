@@ -51,3 +51,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: anti-aging-platform/site/
           server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}
+          log-level: verbose
