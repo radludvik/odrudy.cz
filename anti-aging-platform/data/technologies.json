@@ -201,7 +201,30 @@
         "score": 8,
         "note": "Souhrnné redakční hodnocení technologie dle jednotné metodiky."
       }
-    }
+    },
+    "verdict": "Domácí LED maska je mezi přístroji rozumná sázka s reálnou, byť mírnou oporou — ale jen když ji budete používat opravdu pravidelně. Berte ji jako dlouhodobý doplněk, ne náhradu retinoidu a SPF.",
+    "whoFor": [
+      "Chcete neinvazivní doplněk k rutině",
+      "Jste ochotní ji používat několikrát týdně dlouhodobě",
+      "Máte citlivou pleť, kterou aktivní látky dráždí"
+    ],
+    "whoNot": [
+      "Čekáte výsledky srovnatelné s ordinačními zákroky",
+      "Nepoužijete ji pravidelně",
+      "Máte fotosenzitivitu nebo berete fotosenzibilizující léky (poraďte se s lékařem)"
+    ],
+    "timeline": {
+      "w4": "Zatím obvykle bez viditelné změny — efekt je kumulativní.",
+      "w8": "Možné jemné zlepšení textury a svěžesti.",
+      "m3": "Při pravidelném používání nenápadné zlepšení tónu a drobných vrásek.",
+      "note": "Domácí masky mívají nižší výkon než klinické — efekt je mírnější."
+    },
+    "recommend": [
+      "Používejte 3–5× týdně po 10–20 minutách.",
+      "Vždy použijte dodanou ochranu očí.",
+      "Berte to jako doplněk k retinoidu a dennímu SPF, ne jako náhradu."
+    ],
+    "scenario": "Chcete neinvazivní „bonus\" k rutině a vydržíte být pravidelní? LED maska dává smysl. Pokud hledáte výraznější zpevnění, podívejte se spíš na radiofrekvenci nebo srovnání LED vs laser."
   },
   {
     "id": "tech-radiofrekvence",
@@ -344,7 +367,30 @@
         "score": 7,
         "note": "Souhrnné redakční hodnocení technologie dle jednotné metodiky."
       }
-    }
+    },
+    "verdict": "Radiofrekvence je rozumná volba na jemné zpevnění pleti — postupné a pohodlné, ale ne zázračné. Domácí přístroje jsou slabší, výraznější efekt nabízí ordinace.",
+    "whoFor": [
+      "Řešíte mírnou ztrátu pevnosti",
+      "Preferujete pohodlnou proceduru bez bolesti",
+      "Jste ochotní k sérii a údržbě"
+    ],
+    "whoNot": [
+      "Máte výrazný nadbytek kůže (RF nestačí)",
+      "Čekáte okamžitý lifting",
+      "Nechcete opakovaná sezení"
+    ],
+    "timeline": {
+      "w4": "Zatím spíš bez viditelné změny.",
+      "w8": "Postupné jemné zpevnění.",
+      "m3": "Kumulativní efekt při pravidelných sezeních; bez údržby se vrací.",
+      "note": "Domácí RF je pomalejší a mírnější než ordinační."
+    },
+    "recommend": [
+      "U domácího přístroje buďte pravidelní (dle návodu).",
+      "Na výraznější povolení zvažte ordinační RF nebo HIFU.",
+      "Doplňte kvalitní domácí péči (retinoid, SPF)."
+    ],
+    "scenario": "Začíná se vám mírně povolovat kontura a chcete šetrné, pohodlné řešení? Domácí RF při pravidelnosti pomůže s údržbou. U výraznějšího povolení porovnejte HIFU vs radiofrekvenci."
   },
   {
     "id": "tech-microcurrent",
@@ -626,7 +672,30 @@
         "score": 7,
         "note": "Souhrnné redakční hodnocení technologie dle jednotné metodiky."
       }
-    }
+    },
+    "verdict": "HIFU je nejsilnější neinvazivní volba na hlubší lifting kontur — ale patří do ordinace, bývá bolestivější a výsledek přichází pozvolna. Nenahradí chirurgický lifting.",
+    "whoFor": [
+      "Řešíte výraznější povolení a kontury (čelist, podbradek)",
+      "Chcete jednorázový zákrok a snesete diskomfort",
+      "Máte realistické očekávání pozvolného nástupu"
+    ],
+    "whoNot": [
+      "Máte velký nadbytek kůže (potřeba chirurgie)",
+      "Čekáte okamžitý výsledek",
+      "Nechcete podstoupit zákrok v ordinaci"
+    ],
+    "timeline": {
+      "w4": "Zatím bez výrazné změny.",
+      "w8": "Začíná se tvořit nový kolagen.",
+      "m3": "Postupné zpevnění kontur, individuální.",
+      "note": "Efekt se rozvíjí i 2–3 měsíce; jde o ordinační zákrok."
+    },
+    "recommend": [
+      "Vždy u kvalifikovaného a zkušeného pracoviště.",
+      "Počítejte s pozvolným nástupem výsledku.",
+      "Nenahrazuje domácí péči ani chirurgii — kombinujte rozumně."
+    ],
+    "scenario": "Vadí vám povolující kontura obličeje a zvažujete zákrok bez skalpelu? HIFU je nejsilnější neinvazivní volba, ale s realistickým očekáváním a u zkušeného lékaře. Srovnání s RF najdete v průvodci HIFU vs radiofrekvence."
   },
   {
     "id": "tech-microneedling",
@@ -783,7 +852,30 @@
         "score": 7,
         "note": "Souhrnné redakční hodnocení technologie dle jednotné metodiky."
       }
-    }
+    },
+    "verdict": "Microneedling má slušnou oporu na texturu, jizvičky po akné a jemné vrásky. Doma jen s krátkými jehličkami a opatrně — hloubkové ošetření patří do ordinace.",
+    "whoFor": [
+      "Řešíte texturu, jizvičky po akné nebo jemné vrásky",
+      "Chcete podpořit tvorbu kolagenu",
+      "Jste ochotní dodržet hygienu a postup"
+    ],
+    "whoNot": [
+      "Máte aktivní akné, ekzém nebo infekci v místě",
+      "Nechcete riskovat při domácím použití (volte ordinaci)",
+      "Čekáte okamžitý efekt"
+    ],
+    "timeline": {
+      "w4": "Hojení a první jemné vyhlazení.",
+      "w8": "Zlepšení textury po sérii ošetření.",
+      "m3": "Postupné zlepšení jizviček a pevnosti při opakování.",
+      "note": "Výsledky se sčítají přes sérii; hloubkové ošetření je ordinační."
+    },
+    "recommend": [
+      "Doma jen krátké jehličky a přísná hygiena.",
+      "Na jizvy a hlubší efekt volte medical microneedling v ordinaci.",
+      "Po ošetření vynechte aktivní látky a dbejte na SPF."
+    ],
+    "scenario": "Trápí vás nerovná textura nebo jizvičky po akné? Domácí roller s krátkými jehličkami pomůže jen mírně; na reálný efekt zvažte sérii ordinačního microneedlingu a mezitím pečujte retinoidem a SPF."
   },
   {
     "id": "tech-ems",

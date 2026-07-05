@@ -478,36 +478,40 @@ function detailExtras(e) {
   let html = '';
   // Ingredient specifika
   if (e.type === 'ingredient') {
+    html += decisionTop(e);                                                   // 1–3. Je to pro vás? / Co očekávat / Co bychom doporučili
+    html += twoCol(listBlock('Na co pomáhá', e.indications), listBlock('Kdy není vhodné', e.contraindications)); // 4–5. Výhody / Omezení
+    html += careProducts(e);                                                  // 6. Doporučené produkty
     const rows = [];
-    if (e.mechanism) rows.push(['Mechanismus účinku', e.mechanism]);
+    if (e.mechanism) rows.push(['Jak to funguje', e.mechanism]);              // 7. Jak funguje
     if (e.concentrations) rows.push(['Doporučené koncentrace', e.concentrations]);
     if (e.inci) rows.push(['INCI', e.inci]);
     html += quickFacts(rows);
-    html += listBlock('Indikace', e.indications);
-    html += listBlock('Kontraindikace', e.contraindications);
-    html += listBlock('Nežádoucí účinky', e.sideEffects);
+    html += listBlock('Nežádoucí účinky', e.sideEffects);                     // 8. Detailní odborné informace
     if (e.compatibility?.length) html += compatibilityBlock(e.compatibility);
   }
   if (e.type === 'technology') {
+    html += decisionTop(e);                                                   // 1–3.
+    html += effectivenessBlock(e);                                            // Na co funguje
+    html += twoCol(listBlock('Výhody', e.pros), listBlock('Kdy není vhodné', e.contraindications)); // 4–5.
+    html += careProducts(e);                                                  // 6. Doporučené přístroje/produkty
     html += techAdvisor(e);
     const rows = [];
-    if (e.principle) rows.push(['Princip fungování', e.principle]);
+    if (e.principle) rows.push(['Jak to funguje', e.principle]);              // 7. Jak funguje
     if (e.history) rows.push(['Historie', e.history]);
     if (e.frequency) rows.push(['Doporučená frekvence', e.frequency]);
     if (e.sessionLength) rows.push(['Délka procedury', e.sessionLength]);
     if (e.timeToResults) rows.push(['Doba výsledků', e.timeToResults]);
     if (e.homeUse) rows.push(['Domácí použití', e.homeUse]);
     html += quickFacts(rows);
-    html += effectivenessBlock(e);
-    html += evidenceBlock(e);
-    html += twoCol(listBlock('Výhody', e.pros), listBlock('Nevýhody', e.cons));
-    html += listBlock('Kontraindikace', e.contraindications);
+    html += evidenceBlock(e);                                                 // 8. Detailní / důkazy
+    html += listBlock('Nevýhody', e.cons);
     html += scorecardBlock(e, TECH_SCORE_LABELS);
     html += techCombine(e);
     html += techDevices(e);
     html += techComparisons(e);
   }
   if (e.type === 'supplement') {
+    html += decisionTop(e);                                                   // 1–3.
     html += suppAdvisor(e);
     if (e.whatIs) html += `<section class="section-block"><h2>Co to je</h2><p>${esc(e.whatIs)}</p></section>`;
     if (e.source) html += `<section class="section-block"><h2>Přirozené zdroje a forma</h2><p>${esc(e.source)}</p></section>`;
@@ -558,15 +562,16 @@ function detailExtras(e) {
     if (e.affiliate?.length) html += affiliateBlock(e.affiliate);
   }
   if (e.type === 'procedure') {
+    html += decisionTop(e);                                                   // 1–3.
     const rows = [];
-    if (e.principle) rows.push(['Princip', e.principle]);
+    if (e.principle) rows.push(['Jak to funguje', e.principle]);              // 7. Jak funguje
     if (e.invasiveness) rows.push(['Invazivita', e.invasiveness]);
     if (e.downtime) rows.push(['Rekonvalescence', e.downtime]);
     if (e.frequency) rows.push(['Frekvence', e.frequency]);
     if (e.results) rows.push(['Výsledky', e.results]);
     if (e.priceRange) rows.push(['Cena', e.priceRange]);
     html += quickFacts(rows);
-    html += listBlock('Rizika', e.risks);
+    html += listBlock('Kdy není vhodné / rizika', e.risks);
   }
   if (e.type === 'study') {
     const rows = [];
@@ -635,8 +640,11 @@ function detailExtras(e) {
   if (e.type === 'term' && e.definition) {
     html = `<div class="callout callout--accent"><p>${esc(e.definition)}</p></div>` + html;
   }
-  if (e.type === 'article' && e.quickAnswer) {
-    html = `<div class="callout callout--accent quick-answer"><strong>Stručná odpověď</strong><p>${esc(e.quickAnswer)}</p></div>` + html;
+  if (e.type === 'article') {
+    let top = '';
+    if (e.keyPoints && e.keyPoints.length) top += `<section class="section-block key-points"><h2>Ve zkratce</h2><ul class="rich-list">${e.keyPoints.map((p) => `<li>${esc(p)}</li>`).join('')}</ul></section>`;
+    if (e.quickAnswer) top += `<div class="callout callout--accent quick-answer"><strong>Stručná odpověď</strong><p>${esc(e.quickAnswer)}</p></div>`;
+    html = top + html;
   }
   return html;
 }
@@ -652,6 +660,70 @@ function listBlock(title, items) {
 function twoCol(a, b) {
   if (!a && !b) return '';
   return `<div class="two-col">${a}${b}</div>`;
+}
+
+/* ============================================================================
+ * PRŮVODCE ROZHODOVÁNÍM — bloky, které mění web z encyklopedie na rádce.
+ * Fungují automaticky z existujících dat; kurátorská pole (verdict, whoFor,
+ * whoNot, timeline, scenario, recommend, maybeInstead) je obohatí, když jsou.
+ * ==========================================================================*/
+const CTA_LABEL = {
+  poradce:     ['Vyzkoušet Anti-aging poradce', '/nastroje/poradce/'],
+  produkty:    ['Porovnat produkty',            '/nastroje/porovnani-produktu/'],
+  rutina:      ['Sestavit rutinu',              '/nastroje/builder-rutiny/'],
+  technologie: ['Porovnat technologie',         '/nastroje/doporuceni-technologii/'],
+};
+function fitsBlock(e) {
+  const yes = e.whoFor || e.indications || e.suitableFor;
+  const no = e.whoNot || e.notSuitable || e.contraindications;
+  const col = (title, cls, items) => (items && items.length)
+    ? `<div class="fits-col fits--${cls}"><h3>${title}</h3><ul>${items.slice(0, 6).map((i) => `<li>${esc(i)}</li>`).join('')}</ul></div>` : '';
+  const y = col('Ano, pokud', 'yes', yes), n = col('Spíše ne, pokud', 'no', no);
+  if (!y && !n) return '';
+  return `<div class="fits">${y}${n}</div>`;
+}
+function verdictCard(e) {
+  const text = e.verdict || '';   // kurátorský verdikt; excerpt je už v hero, neopakujeme
+  const fits = fitsBlock(e);
+  if (!text && !fits) return '';
+  return `<section class="section-block verdict-card"><span class="eyebrow">Rychlé doporučení</span><h2>Je to řešení pro vás?</h2>${text ? `<p class="verdict-lead">${esc(text)}</p>` : ''}${fits}</section>`;
+}
+const TL_ROWS = [['w2', 'Po 2 týdnech'], ['w4', 'Po 4 týdnech'], ['w8', 'Po 8 týdnech'], ['m3', 'Po 3 měsících']];
+function timelineBlock(e) {
+  const t = e.timeline; if (!t) return '';
+  const rows = TL_ROWS.filter(([k]) => t[k]).map(([k, l]) => `<div class="tl-row"><span class="tl-when">${l}</span><span class="tl-what">${esc(t[k])}</span></div>`).join('');
+  if (!rows) return '';
+  return `<section class="section-block timeline-block"><h2>Co můžete realisticky očekávat</h2><div class="timeline">${rows}</div>${t.note ? `<p class="muted small">${esc(t.note)}</p>` : ''}</section>`;
+}
+function recommendBlock(e) {
+  if (!e.recommend || !e.recommend.length) return '';
+  return `<section class="section-block reco-steps"><div class="graph-head"><span class="eyebrow">Doporučení redakce</span><h2>Co doporučuje AntiAgeLab</h2><p class="muted small">Redakční doporučení podle metodiky AntiAgeLab, ne lékařská rada.</p></div><ol class="reco-list">${e.recommend.map((s) => `<li>${esc(s)}</li>`).join('')}</ol></section>`;
+}
+function scenarioBlock(e) {
+  let text = e.scenario;
+  if (!text) {
+    const ind = (e.indications || e.whoFor || [])[0];
+    const w = { strong: 'nejlépe prozkoumané', moderate: 'slušně podložené', limited: 'méně prozkoumané', preliminary: 'zatím experimentální' }[e.evidenceLevel];
+    if (ind && w) text = `Pokud řešíte ${String(ind).toLowerCase()}, ${e.name} patří mezi ${w} možnosti. Začali bychom pozvolna, sledovali snášenlivost a spojili to s každodenní ochranou před sluncem (SPF).`;
+  }
+  if (!text) return '';
+  return `<section class="section-block scenario"><div class="graph-head"><span class="eyebrow">Osobní doporučení</span><h2>Co bychom doporučili ve vaší situaci</h2></div><p>${esc(text)}</p><p class="muted small">Redakční doporučení podle metodiky AntiAgeLab, ne lékařská rada.</p></section>`;
+}
+function decisionTop(e) { return verdictCard(e) + timelineBlock(e) + recommendBlock(e) + scenarioBlock(e); }
+function maybeInstead(e) {
+  const chips = []; const seen = new Set([`${e.type}:${e.slug}`]);
+  const push = (it) => { if (it && !seen.has(`${it.type}:${it.slug}`)) { seen.add(`${it.type}:${it.slug}`); chips.push(`<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`); return true; } return false; };
+  [...(e._rel?.comparison || [])].forEach((s) => push(bySlug.get(`comparison:${s}`)));
+  (e.maybeInstead || e.alternativeTech || e.alternativeSupps || e.alternatives || []).forEach((s) => push(bySlug.get(`technology:${s}`)) || push(bySlug.get(`ingredient:${s}`)) || push(bySlug.get(`supplement:${s}`)));
+  [...(e._rel?.[e.type] || [])].slice(0, 4).forEach((s) => push(bySlug.get(`${e.type}:${s}`)));
+  if (chips.length < 2) { const other = e.type === 'ingredient' ? 'technology' : 'ingredient'; [...(e._rel?.[other] || [])].slice(0, 3).forEach((s) => push(bySlug.get(`${other}:${s}`))); }
+  if (!chips.length) return '';
+  return `<section class="section-block maybe-instead"><h2>Možná hledáte spíše</h2><div class="chips">${chips.slice(0, 6).join('')}</div></section>`;
+}
+function nextStep(e) {
+  const keys = e.type === 'procedure' ? ['poradce', 'technologie'] : e.type === 'technology' ? ['poradce', 'technologie', 'rutina'] : ['poradce', 'produkty', 'rutina'];
+  const btns = keys.map((k) => { const [l, h] = CTA_LABEL[k]; return `<a class="btn btn--ghost" href="${h}">${esc(l)} →</a>`; }).join('');
+  return `<section class="section-block next-step"><div class="graph-head"><span class="eyebrow">Váš další krok</span><h2>Kam pokračovat</h2></div><div class="next-row">${btns}</div></section>`;
 }
 /* ---- Péče (věk / typ pleti / problém): bloky detailního návodu ---- */
 function careCallout(variant, title, text) {
@@ -1264,6 +1336,8 @@ function renderDetail(e) {
       ${sourcesBlock(e)}
       ${e.type === 'technology' ? techFinalReco(e) : ''}
       ${e.type === 'supplement' ? suppFinalReco(e) : ''}
+      ${['ingredient', 'procedure'].includes(e.type) ? maybeInstead(e) : ''}
+      ${['ingredient', 'technology', 'supplement', 'procedure', 'article'].includes(e.type) ? nextStep(e) : ''}
     </article>
     <aside class="detail-aside">
       ${relatedSection(e)}

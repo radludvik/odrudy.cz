@@ -213,7 +213,34 @@
         "purging",
         "fotostabilita"
       ]
-    }
+    },
+    "verdict": "Pokud chcete jednu látku s nejsilnějšími důkazy na vrásky a texturu a jste ochotní být trpěliví pár týdnů, retinol je nejlepší volba pro začátek. Nečekejte zázrak přes noc — odměnou je ale reálné, dlouhodobé zlepšení.",
+    "whoFor": [
+      "Chcete řešit první i pokročilejší vrásky",
+      "Zajímá vás nerovnoměrná textura a tón",
+      "Hledáte nejlépe prozkoumanou domácí volbu",
+      "Jste ochotní zavádět ho pozvolna"
+    ],
+    "whoNot": [
+      "Jste těhotná nebo kojíte (retinoidy se nedoporučují)",
+      "Máte aktivní ekzém nebo rozacea ve vzplanutí",
+      "Chcete okamžitý efekt do pár dní",
+      "Nejste ochotní nosit každý den SPF"
+    ],
+    "timeline": {
+      "w2": "Možné přechodné zarudnutí a olupování (retinizace) — pleť si zvyká.",
+      "w4": "Bariéra se obvykle adaptuje, pleť začíná působit hladší.",
+      "w8": "Viditelnější zjemnění textury a tónu.",
+      "m3": "Postupné zlepšení jemných vrásek; pokračujte dál, efekt se kumuluje.",
+      "note": "Časové údaje jsou orientační a individuální; závisí na koncentraci a snášenlivosti."
+    },
+    "recommend": [
+      "Začněte nízkou koncentrací (0,2–0,3 %) 2× týdně večer.",
+      "Používejte metodu „sandwich\" (krém → retinol → krém), pokud pleť dráždí.",
+      "Frekvenci navyšujte jen podle snášenlivosti, ne podle kalendáře.",
+      "Každé ráno naneste opalovací krém — bez něj ztrácí většina snahy smysl."
+    ],
+    "scenario": "Je vám kolem 35–45, začínají se objevovat vrásky a chcete jistotu, že neinvestujete do něčeho, co nefunguje? Začali bychom retinolem v nízké koncentraci, kvalitním nočním krémem na podporu bariéry a denním SPF. Pokud retinol nezvládnete, šetrnější alternativou je retinal nebo bakuchiol."
   },
   {
     "id": "ing-retinal",
@@ -344,7 +371,31 @@
       "terms": [
         "retinizace"
       ]
-    }
+    },
+    "verdict": "Retinal (retinaldehyd) je pro většinu lidí „retinol o krok napřed\" — účinkuje obvykle rychleji a bývá dobře snášený. Dává smysl, když chcete výsledky svižněji a jste ochotní připlatit.",
+    "whoFor": [
+      "Chcete rychlejší nástup než u retinolu",
+      "Máte mírně citlivější pleť, která snese retinoid",
+      "Řešíte jemné vrásky, tón a texturu"
+    ],
+    "whoNot": [
+      "Jste těhotná nebo kojíte",
+      "Máte akutní podráždění či rozacea ve vzplanutí",
+      "Hledáte nejlevnější možnou volbu"
+    ],
+    "timeline": {
+      "w2": "Adaptace pleti; případné mírné olupování.",
+      "w4": "Často dřívější zjemnění než u retinolu.",
+      "w8": "Viditelnější tón a textura.",
+      "m3": "Kumulativní zlepšení jemných vrásek.",
+      "note": "Rychlost nástupu je individuální; retinal bývá o něco svižnější než retinol."
+    },
+    "recommend": [
+      "Začněte koncentrací kolem 0,05 % obden.",
+      "Zvyšujte frekvenci podle snášenlivosti.",
+      "Kombinujte s hydratací a denním SPF."
+    ],
+    "scenario": "Chcete výsledky retinoidu, ale nechcete čekat měsíce a připlatíte si za komfort? Retinal je rozumný kompromis mezi rychlostí a snášenlivostí. Pokud vás zajímá přímé srovnání, mrkněte na náš průvodce Retinol vs Retinal."
   },
   {
     "id": "ing-bakuchiol",
@@ -469,7 +520,30 @@
       "studies": [
         "dhaliwal-2019-bakuchiol"
       ]
-    }
+    },
+    "verdict": "Bakuchiol je nejlepší volba, když retinoid nesnášíte nebo jste těhotná či kojíte (po konzultaci s lékařem). Je šetrný a nadějný, ale má méně důkazů než retinol — není to „lepší retinol\", jen jemnější alternativa.",
+    "whoFor": [
+      "Nesnášíte retinol nebo vás dráždí",
+      "Jste těhotná nebo kojíte (po konzultaci s lékařem)",
+      "Chcete látku použitelnou i ráno"
+    ],
+    "whoNot": [
+      "Chcete nejlépe doloženou možnost (tou je retinol)",
+      "Čekáte efekt injekčních zákroků",
+      "Chcete nejsilnější možný účinek"
+    ],
+    "timeline": {
+      "w4": "Postupné zjemnění, obvykle bez podráždění.",
+      "w8": "Viditelnější textura a tón.",
+      "m3": "Kumulativní zlepšení jemných vrásek.",
+      "note": "Data jsou nadějná, ale méně rozsáhlá než u retinolu."
+    },
+    "recommend": [
+      "Používejte pravidelně ráno i večer.",
+      "Lze kombinovat s retinoidem jako „nárazník\" proti podráždění.",
+      "Nezapomínejte na denní SPF."
+    ],
+    "scenario": "Retinol vám vysušuje a dráždí pleť, nebo jste těhotná? Bakuchiol je šetrná alternativa. Pokud snášenlivost není problém, zůstali bychom spíš u retinolu kvůli silnějším důkazům — viz srovnání Bakuchiol vs retinol."
   },
   {
     "id": "ing-vitamin-c",
@@ -610,7 +684,31 @@
         "antioxidant",
         "fotostabilita"
       ]
-    }
+    },
+    "verdict": "Vitamin C je nejlepší „ranní\" volba na projasnění a rovnoměrnější tón a doplňuje ochranu před fotostárnutím. Nenahradí retinoid ani SPF, ale skvěle je doplní.",
+    "whoFor": [
+      "Řešíte nerovnoměrný tón, matnost nebo pigmentové skvrny",
+      "Chcete posílit ranní antioxidační ochranu",
+      "Hledáte doplněk k retinoidu a SPF"
+    ],
+    "whoNot": [
+      "Velmi reaktivní pleť dráždí nízké pH (volte šetrné deriváty)",
+      "Čekáte výrazný efekt na hluboké vrásky",
+      "Nepoužíváte SPF (část přínosu se ztrácí)"
+    ],
+    "timeline": {
+      "w2": "Svěžejší, projasněnější pleť.",
+      "w4": "Postupné vyrovnávání tónu.",
+      "w8": "Viditelnější zesvětlení skvrn.",
+      "m3": "Stabilní zlepšení tónu při denním používání pod SPF.",
+      "note": "Efekt se týká hlavně tónu a ochrany, ne hlubokých vrásek."
+    },
+    "recommend": [
+      "Aplikujte ráno na čistou pleť, pak hydrataci a SPF.",
+      "U citlivé pleti volte šetrný derivát místo čisté kyseliny L-askorbové.",
+      "Otevřené sérum spotřebujte do několika měsíců (oxiduje)."
+    ],
+    "scenario": "Trápí vás spíš matná pleť a skvrny než vrásky? Postavili bychom ráno na vitamin C séru a denním SPF, večer případně přidali retinoid. Na cílenou pigmentaci se hodí i niacinamid nebo alfa-arbutin."
   },
   {
     "id": "ing-niacinamid",
@@ -733,7 +831,31 @@
       "terms": [
         "kozni-bariera"
       ]
-    }
+    },
+    "verdict": "Niacinamid je nejbezpečnější „univerzál\" do rutiny — zklidní bariéru, pomůže s póry a mazotokem a snese ho skoro každý. Není to náhrada retinoidu, ale výborný spolehlivý základ.",
+    "whoFor": [
+      "Máte citlivou pleť nebo narušenou bariéru",
+      "Řešíte mastnotu, póry nebo zarudnutí",
+      "Chcete jednu bezpečnou látku navíc, kterou lze kombinovat se vším"
+    ],
+    "whoNot": [
+      "Čekáte výrazný efekt na hlubší vrásky",
+      "Hledáte jediný „zázračný\" produkt",
+      "Velmi vzácně dráždí vysoké koncentrace (10 %+)"
+    ],
+    "timeline": {
+      "w2": "Zklidnění a lepší komfort bariéry.",
+      "w4": "Vyrovnanější pleť, méně mastnoty.",
+      "w8": "Méně viditelné póry a rovnoměrnější tón.",
+      "m3": "Stabilní, kumulativní zlepšení kvality pleti.",
+      "note": "Změny bývají jemné a postupné, ne dramatické."
+    },
+    "recommend": [
+      "Stačí koncentrace 4–5 %, ráno nebo večer.",
+      "Kombinujte klidně s vitaminem C i retinoidem (v jiném kroku).",
+      "U citlivé pleti začněte nižší koncentrací."
+    ],
+    "scenario": "Máte citlivou nebo mastnou pleť a chcete něco jistého, co nedráždí? Niacinamid je ideální „vstupní\" aktivní látka. Postavte na něm bariéru a teprve pak přidávejte silnější látky jako retinoid."
   },
   {
     "id": "ing-peptidy",
@@ -1091,7 +1213,30 @@
       "terms": [
         "exfoliace"
       ]
-    }
+    },
+    "verdict": "AHA jsou nejlepší volba na tón, matnost a jemné nerovnosti povrchu. Fungují rychle, ale je snadné to přehnat — méně časté a konzistentní použití s SPF je klíč.",
+    "whoFor": [
+      "Řešíte matnou pleť, tón a jemnou texturu",
+      "Máte spíš normální až suchou pleť",
+      "Chcete svěžejší, hladší povrch"
+    ],
+    "whoNot": [
+      "Máte narušenou bariéru nebo aktivní podráždění",
+      "Používáte retinoid každý večer (zařaďte je do jiných dnů)",
+      "Nenosíte SPF (kyseliny zvyšují fotosenzitivitu)"
+    ],
+    "timeline": {
+      "w2": "Svěžejší, hladší pleť.",
+      "w4": "Rovnoměrnější tón a méně drobných nerovností.",
+      "w8": "Stabilní zlepšení textury.",
+      "note": "Na hluboké vrásky exfoliace nestačí — od toho jsou retinoidy a zákroky."
+    },
+    "recommend": [
+      "Začněte 1–2× týdně a navyšujte jen podle snášenlivosti.",
+      "Nekombinujte silné kyseliny a retinoid ve stejný večer.",
+      "Vždy doplňte hydrataci a denní SPF."
+    ],
+    "scenario": "Máte matnou pleť a drobné nerovnosti, ne hluboké vrásky? Zařadili bychom AHA 1–2× týdně večer, jinak hydrataci a denní SPF. Na ucpané póry a mastnější pleť se hodí spíš BHA."
   },
   {
     "id": "ing-bha",
@@ -1200,7 +1345,30 @@
       "terms": [
         "exfoliace"
       ]
-    }
+    },
+    "verdict": "BHA (kyselina salicylová) je nejlepší volba pro mastnou a aknózní pleť a ucpané póry — proniká do mazu, kam se AHA nedostane. Pro suchou pleť je to naopak spíš přehnané.",
+    "whoFor": [
+      "Máte mastnou nebo aknózní pleť",
+      "Řešíte černé tečky a ucpané póry",
+      "Chcete vyčistit póry zevnitř"
+    ],
+    "whoNot": [
+      "Máte velmi suchou pleť (zvažte spíš AHA nebo PHA)",
+      "Máte narušenou bariéru",
+      "Nenosíte denní SPF"
+    ],
+    "timeline": {
+      "w2": "Čistší pleť, méně nových ucpaných pórů.",
+      "w4": "Méně viditelné černé tečky.",
+      "w8": "Vyrovnanější pleť a menší sklon k zanesení pórů.",
+      "note": "Vzhled pórů se zlepší, ale „zmizet\" nedokáží — velikost je z velké části genetická."
+    },
+    "recommend": [
+      "Začněte 1–2× týdně, ideálně večer.",
+      "U mastných zón lze používat cíleně.",
+      "Doplňte hydrataci a denní SPF."
+    ],
+    "scenario": "Bojujete s mastnotou, černými tečkami a občasnými pupínky? Postavili bychom na BHA a lehké hydrataci, k tomu niacinamid na mazotok. Na tón a jemné vrásky se pak hodí přidat AHA nebo retinoid."
   },
   {
     "id": "ing-azelaova-kyselina",

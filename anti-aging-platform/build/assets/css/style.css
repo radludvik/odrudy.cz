@@ -662,3 +662,39 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
   .trust-dots span.is-active{background:var(--gold-deep);transform:scale(1.2)}
 }
 @media(prefers-reduced-motion:reduce){.trust-card{transition:none}.trust-card:hover{transform:none}.trust-dots span{transition:none}}
+
+/* ---------------------------------------------------------------------------
+ * Průvodce rozhodováním — verdikt, komu ano/ne, časová očekávání, scénář, CTA
+ * ------------------------------------------------------------------------- */
+.verdict-card{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px}
+.verdict-card>.eyebrow{margin-bottom:.4rem}
+.verdict-card h2{margin:0 0 .6rem}
+.verdict-lead{font-size:1.1rem;line-height:1.6;color:var(--ink);margin:0 0 1.1rem}
+.fits{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:.4rem}
+.fits-col{background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px 18px}
+.fits-col h3{font-family:var(--sans);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 .6rem}
+.fits-col ul{list-style:none;margin:0;padding:0}
+.fits-col li{position:relative;padding-left:24px;margin-bottom:.4rem;font-size:.95rem;line-height:1.45}
+.fits-col li::before{position:absolute;left:0;top:0;font-weight:600}
+.fits--yes h3{color:var(--ok)}
+.fits--yes li::before{content:"✓";color:var(--ok)}
+.fits--no h3{color:var(--bad)}
+.fits--no li::before{content:"✗";color:var(--bad)}
+@media(max-width:560px){.fits{grid-template-columns:1fr}}
+
+.timeline{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:14px;padding:13px 18px;background:#fff}
+.tl-row + .tl-row{border-top:1px solid var(--line)}
+.tl-when{font-family:var(--sans);font-weight:600;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;color:var(--gold-deep)}
+.tl-what{color:var(--ink-soft);line-height:1.5}
+@media(max-width:560px){.tl-row{grid-template-columns:1fr;gap:2px}}
+
+.reco-list{counter-reset:r;list-style:none;padding:0;margin:0}
+.reco-list li{position:relative;padding:0 0 .9rem 42px;counter-increment:r;line-height:1.55}
+.reco-list li::before{content:counter(r);position:absolute;left:0;top:-2px;width:28px;height:28px;border-radius:50%;background:var(--ivory);border:1px solid var(--gold);color:var(--gold-deep);font-family:var(--serif);font-weight:600;display:flex;align-items:center;justify-content:center}
+
+.scenario p{max-width:var(--maxw-text)}
+.maybe-instead h2{margin-bottom:.8rem}
+.next-step .next-row{display:flex;flex-wrap:wrap;gap:12px}
+.key-points{background:var(--ivory);border-left:4px solid var(--gold);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:20px 24px}
+.key-points h2{margin:0 0 .6rem;font-size:1.3rem}
