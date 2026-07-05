@@ -145,30 +145,32 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
   .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
   .hc-arr{display:block;color:var(--gold-deep)}
 }
-/* Telefon: text vlevo na plátně, žena ostře v pravém sloupci, karty přes spodek fotky */
+/* Telefon: fotka na celou plochu (žena vpravo, plátno vlevo), text a karty přes ni */
 @media(max-width:640px){
   .hero2{overflow:hidden}
-  .hero2-inner{display:grid;grid-template-columns:1.18fr .82fr;grid-template-rows:auto auto auto;column-gap:0;row-gap:0;align-items:start;padding:0}
-  .hero2-copy{grid-column:1;grid-row:1;z-index:3;max-width:none;padding:28px 10px 14px 20px}
-  .hero2 .eyebrow{margin-bottom:.6rem}
-  .hero2-title{font-size:clamp(1.6rem,6.8vw,2.2rem);line-height:1.12;margin-bottom:.8rem}
-  .hero2-lead{font-size:.97rem;line-height:1.48;margin-bottom:0;max-width:none}
-  .hero2-usp{display:none}
-  /* Žena — pravý sloupec, ostrá, přes obě horní řady */
-  .hero2-visual{grid-column:2;grid-row:1 / span 2;align-self:stretch;min-height:0;margin:0}
+  .hero2-inner{display:block;position:relative;padding:0}
+  /* Fotka jako celoplošné pozadí — žena zůstává ostrá, plynule splývá s plátnem stránky */
+  .hero2-visual{position:absolute;inset:0;z-index:0;min-height:0;margin:0}
   .hero2-pic{height:100%}
-  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:44% 10%;box-shadow:none}
-  /* jemné plátno-prolnutí na levém okraji fotky, ať přechod na text není tvrdý */
-  .hero2-visual::before{content:'';position:absolute;top:0;bottom:0;left:0;width:38px;z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--porcelain),rgba(251,250,247,0))}
-  /* Karty kategorií — druhá řada, přes obě kola; přesah přes spodek fotky, čitelné prosklené */
-  .hero2-cards{grid-column:1 / -1;grid-row:2;align-self:end;z-index:2;justify-self:auto;width:auto;margin:0;padding:16px 20px 4px;gap:8px}
-  .hc{background:rgba(255,255,255,.85);backdrop-filter:blur(10px) saturate(150%);-webkit-backdrop-filter:blur(10px) saturate(150%);border:1px solid rgba(255,255,255,.85);box-shadow:0 6px 18px rgba(42,39,35,.13);color:var(--ink)}
-  .hc:hover{background:rgba(255,255,255,.95);color:var(--ink);transform:none}
+  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:6% 14%;box-shadow:none}
+  /* Lehký závoj jen vlevo (pro čitelnost titulku) a jemně dole (pod tlačítky); žena vpravo ostrá */
+  .hero2-visual::after{content:'';position:absolute;inset:0;pointer-events:none;background:
+    linear-gradient(100deg,rgba(251,250,247,.9) 0%,rgba(251,250,247,.68) 28%,rgba(251,250,247,.18) 48%,rgba(251,250,247,0) 62%),
+    linear-gradient(0deg,var(--porcelain) 0%,rgba(251,250,247,.72) 12%,rgba(251,250,247,0) 30%)}
+  .hero2-copy{position:relative;z-index:2;max-width:none;padding:28px 20px 0}
+  .hero2 .eyebrow{margin-bottom:.7rem}
+  .hero2-title{font-size:clamp(1.7rem,7vw,2.35rem);line-height:1.1;margin-bottom:.85rem;max-width:7.6em}
+  .hero2-lead{font-size:1rem;line-height:1.5;margin-bottom:0;max-width:11.5em}
+  .hero2-usp{display:none}
+  /* Karty kategorií — prosklené, přes spodek fotky */
+  .hero2-cards{position:relative;z-index:2;width:auto;margin:0;padding:16px 20px 0;gap:8px}
+  .hc{background:rgba(255,255,255,.86);backdrop-filter:blur(10px) saturate(150%);-webkit-backdrop-filter:blur(10px) saturate(150%);border:1px solid rgba(255,255,255,.85);box-shadow:0 6px 18px rgba(42,39,35,.13);color:var(--ink)}
+  .hc:hover{background:rgba(255,255,255,.96);color:var(--ink);transform:none}
   .hc-ic{border-color:var(--sand);color:var(--gold-deep)}
   .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
   .hc-arr{display:block;color:var(--gold-deep)}
-  /* CTA — třetí řada, plná šířka, na plátně pod fotkou */
-  .hero2-cta{grid-column:1 / -1;grid-row:3;z-index:2;flex-direction:column;gap:11px;margin:0;padding:16px 20px 26px}
+  /* CTA — plná šířka, na plátně pod fotkou */
+  .hero2-cta{position:relative;z-index:2;flex-direction:column;gap:11px;margin:0;padding:18px 20px 26px}
   .hero2-cta .btn{width:100%;justify-content:center}
   /* Proč nám můžete věřit — 3 ikony vedle sebe, ikona nahoře, text pod ní */
   .hero2-trust-inner{flex-direction:column;align-items:center;gap:14px;padding:20px 0}
