@@ -510,6 +510,7 @@ function detailExtras(e) {
     html += decisionTop(e);                                                   // 1–3.
     html += effectivenessBlock(e);                                            // Na co funguje
     html += twoCol(listBlock('Výhody', e.pros), listBlock('Nevýhody', e.cons)); // 4–5. Výhody + Nevýhody vedle sebe
+    html += listBlock('Kdy není vhodné / kontraindikace', e.contraindications); // hned pod dvojicí
     html += careProducts(e);                                                  // 6. Doporučené přístroje/produkty
     html += techAdvisor(e);
     const rows = [];
@@ -521,7 +522,6 @@ function detailExtras(e) {
     if (e.homeUse) rows.push(['Domácí použití', e.homeUse]);
     html += quickFacts(rows);
     html += evidenceBlock(e);                                                 // 8. Detailní / důkazy
-    html += listBlock('Kdy není vhodné / kontraindikace', e.contraindications);
     html += scorecardBlock(e, TECH_SCORE_LABELS);
     html += techCombine(e);
     html += techDevices(e);
