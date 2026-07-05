@@ -143,29 +143,30 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
   .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
   .hc-arr{display:block;color:var(--gold-deep)}
 }
-/* Telefon: text a karty přímo přes fotku (full-bleed pozadí) */
+/* Telefon: text vlevo na plátně, žena ostře v pravém sloupci, karty přes spodek fotky */
 @media(max-width:640px){
   .hero2{overflow:hidden}
-  .hero2-inner{display:block;position:relative;padding:0}
-  .hero2-visual{position:absolute;inset:0;z-index:0;min-height:0;margin:0}
-  .hero2-pic{height:100%}
-  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:74% 16%;box-shadow:none}
-  /* Zesvětlovací závoj: vlevo krycí, vpravo průhledný (žena prosvítá), dole jemné ztmavení pro tlačítka */
-  .hero2-visual::after{content:'';position:absolute;inset:0;pointer-events:none;background:
-    linear-gradient(102deg,var(--porcelain) 2%,rgba(251,250,247,.72) 34%,rgba(251,250,247,.12) 62%,rgba(251,250,247,0) 82%),
-    linear-gradient(0deg,var(--porcelain) 1%,rgba(251,250,247,.55) 14%,rgba(251,250,247,0) 34%)}
-  .hero2-copy{position:relative;z-index:2;grid-column:auto;grid-row:auto;max-width:none;padding:30px 20px 0}
-  .hero2 .eyebrow{margin-bottom:.7rem}
-  .hero2-title{font-size:clamp(1.95rem,8vw,2.55rem);line-height:1.08;margin-bottom:.9rem;text-shadow:0 1px 10px rgba(251,250,247,.55)}
-  .hero2-lead{font-size:1.02rem;line-height:1.5;margin-bottom:1.2rem;max-width:20em;text-shadow:0 1px 8px rgba(251,250,247,.65)}
+  .hero2-inner{display:grid;grid-template-columns:1.18fr .82fr;grid-template-rows:auto auto auto;column-gap:0;row-gap:0;align-items:start;padding:0}
+  .hero2-copy{grid-column:1;grid-row:1;z-index:3;max-width:none;padding:28px 10px 14px 20px}
+  .hero2 .eyebrow{margin-bottom:.6rem}
+  .hero2-title{font-size:clamp(1.6rem,6.8vw,2.2rem);line-height:1.12;margin-bottom:.8rem}
+  .hero2-lead{font-size:.97rem;line-height:1.48;margin-bottom:0;max-width:none}
   .hero2-usp{display:none}
-  .hero2-cards{position:relative;z-index:2;grid-column:auto;grid-row:auto;align-self:auto;justify-self:auto;width:auto;margin:0;padding:0 20px;gap:8px}
-  .hc{background:rgba(255,255,255,.8);backdrop-filter:blur(9px) saturate(150%);-webkit-backdrop-filter:blur(9px) saturate(150%);border:1px solid rgba(255,255,255,.75);box-shadow:0 6px 20px rgba(42,39,35,.12);color:var(--ink)}
-  .hc:hover{background:rgba(255,255,255,.9);color:var(--ink);transform:none}
+  /* Žena — pravý sloupec, ostrá, přes obě horní řady */
+  .hero2-visual{grid-column:2;grid-row:1 / span 2;align-self:stretch;min-height:0;margin:0}
+  .hero2-pic{height:100%}
+  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:44% 10%;box-shadow:none}
+  /* jemné plátno-prolnutí na levém okraji fotky, ať přechod na text není tvrdý */
+  .hero2-visual::before{content:'';position:absolute;top:0;bottom:0;left:0;width:38px;z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--porcelain),rgba(251,250,247,0))}
+  /* Karty kategorií — druhá řada, přes obě kola; přesah přes spodek fotky, čitelné prosklené */
+  .hero2-cards{grid-column:1 / -1;grid-row:2;align-self:end;z-index:2;justify-self:auto;width:auto;margin:0;padding:16px 20px 4px;gap:8px}
+  .hc{background:rgba(255,255,255,.85);backdrop-filter:blur(10px) saturate(150%);-webkit-backdrop-filter:blur(10px) saturate(150%);border:1px solid rgba(255,255,255,.85);box-shadow:0 6px 18px rgba(42,39,35,.13);color:var(--ink)}
+  .hc:hover{background:rgba(255,255,255,.95);color:var(--ink);transform:none}
   .hc-ic{border-color:var(--sand);color:var(--gold-deep)}
   .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
   .hc-arr{display:block;color:var(--gold-deep)}
-  .hero2-cta{position:relative;z-index:2;grid-column:auto;grid-row:auto;flex-direction:column;gap:11px;margin:0;padding:18px 20px 26px}
+  /* CTA — třetí řada, plná šířka, na plátně pod fotkou */
+  .hero2-cta{grid-column:1 / -1;grid-row:3;z-index:2;flex-direction:column;gap:11px;margin:0;padding:16px 20px 26px}
   .hero2-cta .btn{width:100%;justify-content:center}
   .hero2-trust-inner{padding:16px 0}
   .h2t-list{gap:10px 20px}
