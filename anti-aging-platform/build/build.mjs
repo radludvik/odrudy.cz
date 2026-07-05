@@ -9,6 +9,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, cpSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -19,6 +20,15 @@ const ASSETS_SRC = join(ROOT, 'build', 'assets');
 // Base path pro nasazení do podsložky (GitHub Pages project site = "/odrudy.cz").
 // Lokálně prázdné → web běží z kořene. Nastaví se přes env BASE_PATH.
 const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
+
+// Cache-busting: verze podle obsahu CSS+JS. Připojí se k /assets/*.css|js jako ?v=…,
+// takže po každé změně stylů/skriptů prohlížeč načte novou verzi (ne starou z cache).
+const ASSET_VER = (() => {
+  const h = createHash('md5');
+  const walk = (d) => { for (const f of (existsSync(d) ? readdirSync(d, { withFileTypes: true }) : [])) { const p = join(d, f.name); if (f.isDirectory()) walk(p); else if (/\.(css|js)$/.test(f.name)) h.update(readFileSync(p)); } };
+  walk(ASSETS_SRC);
+  return h.digest('hex').slice(0, 8);
+})();
 const ORIGIN = process.env.SITE_ORIGIN || 'https://aevia.cz';
 
 const SITE = {
@@ -482,10 +492,14 @@ function applyBase(html) {
   return html.replace(/(href|src|action)="\/(?!\/)/g, `$1="${BASE}/`);
 }
 
+// Připojí ?v=HASH ke všem /assets/*.css a *.js (cache-busting).
+function versionAssets(html) {
+  return html.replace(/(\/assets\/[^"'?]+\.(?:css|js))(["'])/g, `$1?v=${ASSET_VER}$2`);
+}
 function writePage(url, html) {
   const dir = join(OUT, url.replace(/^\//, ''));
   mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, 'index.html'), applyBase(html));
+  writeFileSync(join(dir, 'index.html'), versionAssets(applyBase(html)));
 }
 
 /* ----------------------------------------------------------------------------
