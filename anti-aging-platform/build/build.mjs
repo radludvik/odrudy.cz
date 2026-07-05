@@ -1743,6 +1743,65 @@ function trustBar() {
   </section>`;
 }
 
+function heroBanner() {
+  // Ikony (line-art, dědí currentColor). USP = trojice pod titulkem, HC = kategorie na fotce.
+  const I = {
+    flask: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6.5L5.5 18a2 2 0 0 0 1.8 3h9.4a2 2 0 0 0 1.8-3L14 9.5V3"/><path d="M8 15h8"/></svg>',
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12.2l2.4 2.4 4.6-5"/></svg>',
+    shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 2.5v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10v-5z"/><path d="M9 12l2 2 4-4"/></svg>',
+    molecule: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="8" r="2.2"/><circle cx="16.5" cy="7" r="2.2"/><circle cx="12" cy="16.5" r="2.2"/><path d="M9.3 9.2l1.6 5.4M14.6 8.5l-1.6 6M9.6 7.6l4.6-.4"/></svg>',
+    device: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8.5" y="3.5" width="7" height="17" rx="2.5"/><path d="M10.5 6.5h3"/><path d="M2.5 12h2l1.5-3 2 6 1.2-2h1.3"/></svg>',
+    dropper: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 4.5l6 6"/><path d="M15.5 8.5l-8.2 8.2a2.5 2.5 0 0 1-1.4.7l-2.4.4.4-2.4a2.5 2.5 0 0 1 .7-1.4L12.7 5.7"/><path d="M10.5 10.5l3 3"/></svg>',
+    pill: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8.5" width="18" height="7" rx="3.5" transform="rotate(-40 12 12)"/><path d="M9.3 6.5l5.4 5.4"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l2.2 4.5 5 .7-3.6 3.5.9 5-4.5-2.4L7.5 17.7l.9-5L4.8 9.2l5-.7z"/></svg>',
+    refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 8a7 7 0 0 0-12-1.5M5 5v4h4"/><path d="M5 16a7 7 0 0 0 12 1.5M19 19v-4h-4"/></svg>',
+  };
+  const usp = [
+    ['flask', 'Vědecké důkazy', 'Každé doporučení má oporu ve studiích.'],
+    ['check', 'Praktické doporučení', 'Řešení šitá na míru vašim potřebám.'],
+    ['shield', 'Bezpečně a srozumitelně', 'Férové informace bez marketingových triků.'],
+  ].map(([ic, t, d]) => `<li><span class="u-ic">${I[ic]}</span><span class="u-tx"><b>${esc(t)}</b>${esc(d)}</span></li>`).join('');
+
+  const cats = [
+    ['molecule', 'Ingredience', 'Retinol, Peptidy, Vitamin C a více', '/ingredience/'],
+    ['device', 'Technologie', 'LED, RF, HIFU a další', '/technologie/'],
+    ['dropper', 'Procedury', 'Botox, Laser, Microneedling', '/procedury/'],
+    ['pill', 'Doplňky stravy', 'Kolagen, Omega-3, Vitaminy a minerály', '/doplnky-stravy/'],
+  ].map(([ic, t, d, href]) => `<li><a class="hc" href="${href}"><span class="hc-ic">${I[ic]}</span><span class="hc-tx"><b>${esc(t)}</b><span class="hc-sub">${esc(d)}</span></span><span class="hc-arr" aria-hidden="true">›</span></a></li>`).join('');
+
+  const trust = [
+    ['shield', 'Nezávislé', 'doporučení bez sponzorovaného obsahu'],
+    ['flask', 'Ověřené studie', 'každé tvrzení má oporu ve zdrojích'],
+    ['refresh', 'Aktuální informace', 'obsah pravidelně aktualizujeme'],
+  ].map(([ic, t, d]) => `<li><span class="t-ic">${I[ic]}</span><span><b>${esc(t)}</b> — ${esc(d)}</span></li>`).join('');
+
+  return `<section class="hero2" aria-label="Úvod">
+    <div class="container hero2-inner">
+      <div class="hero2-copy">
+        <span class="eyebrow">${esc(SITE.tagline)}</span>
+        <h1 class="hero2-title">Vědecky ověřená anti-aging řešení, <span class="g">která dávají smysl</span></h1>
+        <p class="hero2-lead">Srozumitelně, na jednom místě. Vyberte to, co vaší pleti opravdu pomůže.</p>
+        <ul class="hero2-usp">${usp}</ul>
+        <div class="hero2-cta">
+          <a class="btn btn--gold btn--lg" href="/nastroje/poradce/">Najít řešení pro můj problém <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost btn--lg" href="/technologie/">Prozkoumat technologie</a>
+        </div>
+      </div>
+      <div class="hero2-visual">
+        <picture class="hero2-pic">
+          <source media="(max-width:640px)" srcset="${BASE}/assets/img/banners/hero-home-mobile.jpg">
+          <img class="hero2-photo" src="/assets/img/banners/hero-home.jpg" alt="Žena pečující o pleť" width="760" height="1040" fetchpriority="high">
+        </picture>
+      </div>
+      <ul class="hero2-cards">${cats}</ul>
+    </div>
+    <div class="hero2-trust"><div class="container hero2-trust-inner">
+      <span class="h2t-lead">Proč nám můžete věřit</span>
+      <ul class="h2t-list">${trust}</ul>
+    </div></div>
+  </section>`;
+}
+
 function homepage() {
   const featTech = pick('technology', 3).map(entityCard).join('');
   const featIng = pick('ingredient', 4).map(entityCard).join('');
@@ -1781,22 +1840,7 @@ function homepage() {
     </a>`).join('');
 
   const body = `
-  <section class="hero">
-    <div class="container hero-inner">
-      <span class="eyebrow">${esc(SITE.tagline)}</span>
-      <h1 class="hero-title">Najděte anti-aging řešení, která opravdu fungují.</h1>
-      <p class="lead hero-lead">Vyberte si vhodné ingredience, technologie, produkty i rutinu podle svého věku, typu pleti a konkrétního problému. Každé doporučení vychází z dostupných vědeckých důkazů.</p>
-      <form class="hero-search" action="/hledat/" method="get" role="search">
-        <input type="search" name="q" placeholder="Hledejte ingredienci, technologii, problém…" aria-label="Hledat">
-        <button type="submit" class="btn btn--primary">Hledat</button>
-      </form>
-      <div class="hero-quick">
-        <a href="/nastroje/poradce/">Anti-aging poradce</a>
-        <a href="/nastroje/kompatibilita/">Kontrola kombinací</a>
-        <a href="/pece-podle-veku/">Péče podle věku</a>
-      </div>
-    </div>
-  </section>
+  ${heroBanner()}
 
   ${trustBar()}
 
