@@ -771,3 +771,7 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .rp-card:first-child{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
 .rp-card:first-child:hover{box-shadow:0 0 0 1px var(--gold) inset,var(--shadow-hover)}
 @media(max-width:640px){.rp-grid{grid-template-columns:1fr}}
+
+/* Předběžné hodnocení — marker */
+.prov-badge{display:inline-block;font-family:var(--sans);font-size:.6rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep);background:var(--ivory);border:1px solid var(--line);border-radius:20px;padding:2px 9px;vertical-align:middle}
+.rp-prov{font-family:var(--sans);font-size:.62rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft)}

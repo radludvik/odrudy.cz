@@ -583,7 +583,7 @@ function detailExtras(e) {
     html += activesBlock(e);
     html += howItWorksBlock(e);
     html += twoCol(listBlock('Pro koho je vhodný', e.suitableFor), listBlock('Kdy není vhodný', e.notSuitable || e.contraindications));
-    html += scorecardBlock(e);
+    html += scorecardBlock(e, isDeviceProduct(e) ? DEVICE_SCORE_LABELS : SCORE_LABELS);
     html += twoCol(listBlock('Silné stránky', e.strengths || e.pros), listBlock('Slabé stránky', e.weaknesses || e.cons));
     html += recommendationBlock(e);
     html += alternativesBlock(e);
@@ -844,7 +844,7 @@ function recommendPicks(e) {
   const cards = PICK_META.map(([key, emoji, label, sub]) => {
     const p = chosen[key]; if (!p) return '';
     const subtitle = (key === 'premium' && isSubstance) ? 'Nejkomplexnější složení' : sub;
-    const score = (p.scores && p.scores.overall) ? `<span class="rp-score">${fmtScore(p.scores.overall.score)}/10</span>` : '';
+    const score = (p.scores && p.scores.overall && typeof p.scores.overall.score === 'number') ? `<span class="rp-score">${fmtScore(p.scores.overall.score)}/10${p.provisional ? ' <span class="rp-prov">předběžné</span>' : ''}</span>` : '';
     const meta = [(p.brand && p.brand !== '—') ? p.brand : '', categoryLabel(p.category)].filter(Boolean).join(' · ');
     const price = p.price ? `<span class="rp-price">${esc(p.price)}</span>` : '';
     return `<a class="rp-card" href="${urlOf(p)}">
@@ -919,6 +919,10 @@ function howItWorksBlock(e) {
   return `<section class="section-block"><h2>Jak funguje</h2><ul class="rich-list">${items}</ul></section>`;
 }
 const TECH_SCORE_LABELS = { quality: 'Kvalita technologie', innovation: 'Inovativnost', evidence: 'Vědecké důkazy', value: 'Poměr cena/výkon', ease: 'Snadnost použití', safety: 'Bezpečnost' };
+// Přístroje používají stejné klíče jako produkty (kvůli výpočtu vah), ale device-popisky.
+const DEVICE_SCORE_LABELS = { evidence: 'Vědecká opora technologie', quality: 'Kvalita zpracování a výbava', potency: 'Výkon a účinnost přístroje', sensitive: 'Bezpečnost a šetrnost', value: 'Poměr cena/výkon', innovation: 'Inovace a funkce' };
+const DEVICE_CATEGORIES = new Set(['led-masky', 'microcurrent', 'radiofrekvence', 'domaci-lasery', 'ems', 'microneedling-zarizeni', 'dermaroller', 'gua-sha', 'face-roller', 'silikonove-naplasti', 'kryo-nastroje', 'ultrazvuk-zarizeni', 'galvanicka-zarizeni', 'ipl-zarizeni', 'hifu-zarizeni']);
+function isDeviceProduct(e) { return e.productType === 'Beauty zařízení' || DEVICE_CATEGORIES.has(e.category); }
 const SUPP_SCORE_LABELS = { evidence: 'Síla vědeckých důkazů', safety: 'Bezpečnost a snášenlivost', skinBenefit: 'Opora pro přínos v oblasti pleti', supplementing: 'Smysl doplňování', value: 'Poměr cena/přínos', overall: 'Celkové hodnocení' };
 const CONCERN_LABEL = { 'jemne-vrasky': 'Jemné vrásky', 'hluboke-vrasky': 'Hluboké vrásky', 'povolena-plet': 'Povolená pleť', 'kontury': 'Kontury obličeje', 'pigmentace': 'Pigmentace', 'akne': 'Akné', 'zarudnuti': 'Zarudnutí', 'jizvy': 'Jizvy', 'elasticita': 'Elasticita', 'hydratace': 'Hydratace', 'pevnost': 'Pevnost pleti', 'vlasy': 'Vlasy', 'nehty': 'Nehty', 'hojeni': 'Hojení a regenerace', 'imunita': 'Imunita', 'antioxidace': 'Antioxidační ochrana' };
 function stars(n, max = 5) { n = Math.max(0, Math.min(max, n | 0)); return `<span class="stars" aria-label="${n} z ${max}">${'★'.repeat(n)}${'☆'.repeat(max - n)}</span>`; }
@@ -932,7 +936,8 @@ function scorecardBlock(e, labels = SCORE_LABELS) {
   }).join('');
   const o = s.overall;
   const overall = o ? `<div class="score-overall"><span>Celkové skóre</span><strong>${fmtScore(o.score)}/10</strong></div>${o.computed ? `<p class="muted small">Vážený průměr níže uvedených kritérií podle metodiky AntiAgeLab.</p>` : ''}${o.note ? `<p class="muted small">${esc(o.note)}</p>` : ''}` : '';
-  return `<section class="section-block scorecard-wrap"><h2>Hodnocení AntiAgeLab</h2><p class="muted small">Skóre je výsledkem <strong>redakčního hodnocení podle metodiky AntiAgeLab</strong> z veřejně dostupných informací (0–10), každé kritérium je slovně zdůvodněné. Nejde o laboratorní test ani oficiální certifikaci. <a href="/metodika-hodnoceni/">Jak hodnotíme →</a></p>${overall}<div class="scorecard">${rows}</div></section>`;
+  const prov = e.provisional ? '<span class="prov-badge">Předběžné</span>' : '';
+  return `<section class="section-block scorecard-wrap"><h2>Hodnocení AntiAgeLab ${prov}</h2><p class="muted small">Skóre je výsledkem <strong>redakčního hodnocení podle metodiky AntiAgeLab</strong> z veřejně dostupných informací (0–10), každé kritérium je slovně zdůvodněné. Nejde o laboratorní test ani oficiální certifikaci. <a href="/metodika-hodnoceni/">Jak hodnotíme →</a></p>${overall}<div class="scorecard">${rows}</div></section>`;
 }
 function fmtScore(n) { return (Math.round(n * 10) / 10).toString().replace('.', ','); }
 function recommendationBlock(e) {

@@ -37558,12 +37558,11 @@
     "title": "FOREO FAQ™ 201 | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ 201 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ 201",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "led-terapie"
@@ -37572,7 +37571,37 @@
       "technologies": [
         "led-terapie"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-silk-n-led-face-mask-pro",
@@ -37582,12 +37611,11 @@
     "title": "Silk’n LED Face Mask PRO | antiagelab.cz",
     "metaDescription": "Silk’n LED Face Mask PRO — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "Silk’n LED Face Mask PRO",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Silk’n",
     "manufacturer": "Silk’n",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "led-terapie"
@@ -37596,7 +37624,37 @@
       "technologies": [
         "led-terapie"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky Silk’n z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-rio-facelite-evolution-fclt2",
@@ -37606,12 +37664,11 @@
     "title": "RIO Facelite Evolution FCLT2 | antiagelab.cz",
     "metaDescription": "RIO Facelite Evolution FCLT2 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "RIO Facelite Evolution FCLT2",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "RIO",
     "manufacturer": "RIO",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "led-terapie",
@@ -37622,7 +37679,37 @@
         "led-terapie",
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky RIO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-jovs-4d-v2",
@@ -37632,12 +37719,11 @@
     "title": "JOVS 4D v2 | antiagelab.cz",
     "metaDescription": "JOVS 4D v2 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "JOVS 4D v2",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "JOVS",
     "manufacturer": "JOVS",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "led-terapie",
@@ -37648,7 +37734,37 @@
         "led-terapie",
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky JOVS z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-therabody-theraface-mask",
@@ -37658,12 +37774,11 @@
     "title": "Therabody TheraFace Mask | antiagelab.cz",
     "metaDescription": "Therabody TheraFace Mask — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "Therabody TheraFace Mask",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Therabody",
     "manufacturer": "Therabody",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "led-terapie",
@@ -37674,7 +37789,37 @@
         "led-terapie",
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Therabody z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-palsar7-ultimate-3d-photon-led-mask",
@@ -37782,12 +37927,11 @@
     "title": "FOREO FAQ™ 502 | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ 502 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ 502",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "near-infrared"
@@ -37796,7 +37940,37 @@
       "technologies": [
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-silk-n-dual-led-set",
@@ -37806,12 +37980,11 @@
     "title": "Silk’n Dual LED Set | antiagelab.cz",
     "metaDescription": "Silk’n Dual LED Set — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "Silk’n Dual LED Set",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Silk’n",
     "manufacturer": "Silk’n",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "near-infrared"
@@ -37820,7 +37993,37 @@
       "technologies": [
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky Silk’n z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-faq-led-panel",
@@ -37830,12 +38033,11 @@
     "title": "FOREO FAQ™ LED Panel | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ LED Panel — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ LED Panel",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "near-infrared"
@@ -37844,7 +38046,37 @@
       "technologies": [
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-faq-dual-led-panel",
@@ -37854,12 +38086,11 @@
     "title": "FOREO FAQ™ Dual LED Panel | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ Dual LED Panel — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ Dual LED Panel",
-    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "led-masky",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "near-infrared"
@@ -37868,7 +38099,37 @@
       "technologies": [
         "near-infrared"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie LED terapie (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí LED terapie při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-palsar7-led-mask-face-neck",
@@ -37902,12 +38163,11 @@
     "title": "Philips Lumea Series 9900 BRI977/00 | antiagelab.cz",
     "metaDescription": "Philips Lumea Series 9900 BRI977/00 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Philips Lumea Series 9900 BRI977/00",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Philips",
     "manufacturer": "Philips",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -37916,7 +38176,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Philips z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-philips-lumea-9900-skinai-bri950-01",
@@ -37926,12 +38216,11 @@
     "title": "Philips Lumea 9900 SkinAI BRI950/01 | antiagelab.cz",
     "metaDescription": "Philips Lumea 9900 SkinAI BRI950/01 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Philips Lumea 9900 SkinAI BRI950/01",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Philips",
     "manufacturer": "Philips",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -37940,7 +38229,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Philips z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-philips-lumea-8000-bri940-00",
@@ -37950,12 +38269,11 @@
     "title": "Philips Lumea 8000 BRI940/00 | antiagelab.cz",
     "metaDescription": "Philips Lumea 8000 BRI940/00 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Philips Lumea 8000 BRI940/00",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Philips",
     "manufacturer": "Philips",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -37964,7 +38282,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Philips z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-philips-lumea-7000-sc1997-00",
@@ -37974,12 +38322,11 @@
     "title": "Philips Lumea 7000 SC1997/00 | antiagelab.cz",
     "metaDescription": "Philips Lumea 7000 SC1997/00 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Philips Lumea 7000 SC1997/00",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Philips",
     "manufacturer": "Philips",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -37988,7 +38335,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Philips z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-braun-smart-skin-i-expert-pl7321",
@@ -37998,12 +38375,11 @@
     "title": "Braun Smart Skin i·expert PL7321 | antiagelab.cz",
     "metaDescription": "Braun Smart Skin i·expert PL7321 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Braun Smart Skin i·expert PL7321",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Braun",
     "manufacturer": "Braun",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -38012,7 +38388,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Braun z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-braun-smart-skin-i-expert-ipl7147",
@@ -38022,12 +38428,11 @@
     "title": "Braun Smart Skin i·expert IPL7147 | antiagelab.cz",
     "metaDescription": "Braun Smart Skin i·expert IPL7147 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Braun Smart Skin i·expert IPL7147",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Braun",
     "manufacturer": "Braun",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -38036,7 +38441,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Braun z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-braun-silk-expert-pro-5-pl5242",
@@ -38046,12 +38481,11 @@
     "title": "Braun Silk·expert Pro 5 PL5242 | antiagelab.cz",
     "metaDescription": "Braun Silk·expert Pro 5 PL5242 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Braun Silk·expert Pro 5 PL5242",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Braun",
     "manufacturer": "Braun",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -38060,7 +38494,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Braun z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-silk-n-infinity-fast",
@@ -38070,12 +38534,11 @@
     "title": "Silk’n Infinity Fast | antiagelab.cz",
     "metaDescription": "Silk’n Infinity Fast — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "Silk’n Infinity Fast",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Silk’n",
     "manufacturer": "Silk’n",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -38084,7 +38547,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky Silk’n z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-peach-2",
@@ -38094,12 +38587,11 @@
     "title": "FOREO PEACH™ 2 | antiagelab.cz",
     "metaDescription": "FOREO PEACH™ 2 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO PEACH™ 2",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -38108,7 +38600,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beurer-ipl-10000",
@@ -38118,12 +38640,11 @@
     "title": "BEURER IPL 10000+ | antiagelab.cz",
     "metaDescription": "BEURER IPL 10000+ — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "BEURER IPL 10000+",
-    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Domácí IPL přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BEURER",
     "manufacturer": "BEURER",
     "category": "ipl-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ipl"
@@ -38132,7 +38653,37 @@
       "technologies": [
         "ipl"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie IPL (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BEURER z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí IPL při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-nira-precision",
@@ -38142,12 +38693,11 @@
     "title": "NIRA Precision | antiagelab.cz",
     "metaDescription": "NIRA Precision — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
     "h1": "NIRA Precision",
-    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "NIRA",
     "manufacturer": "NIRA",
     "category": "domaci-lasery",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "domaci-laser"
@@ -38156,7 +38706,37 @@
       "technologies": [
         "domaci-laser"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie domácího laseru (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky NIRA z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí domácího laseru při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-nira-pro-pro",
@@ -38166,12 +38746,11 @@
     "title": "NIRA Pro / Pro+ | antiagelab.cz",
     "metaDescription": "NIRA Pro / Pro+ — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
     "h1": "NIRA Pro / Pro+",
-    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "NIRA",
     "manufacturer": "NIRA",
     "category": "domaci-lasery",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "domaci-laser"
@@ -38180,7 +38759,37 @@
       "technologies": [
         "domaci-laser"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie domácího laseru (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky NIRA z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí domácího laseru při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-nira-pro-3",
@@ -38190,12 +38799,11 @@
     "title": "NIRA Pro 3 | antiagelab.cz",
     "metaDescription": "NIRA Pro 3 — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
     "h1": "NIRA Pro 3",
-    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "NIRA",
     "manufacturer": "NIRA",
     "category": "domaci-lasery",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "domaci-laser"
@@ -38204,7 +38812,37 @@
       "technologies": [
         "domaci-laser"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie domácího laseru (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky NIRA z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí domácího laseru při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-lasemd-ultra",
@@ -38358,12 +38996,11 @@
     "title": "Ultraformer III | antiagelab.cz",
     "metaDescription": "Ultraformer III — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "Ultraformer III",
-    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Ultraformer",
     "manufacturer": "Ultraformer",
     "category": "hifu-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "hifu"
@@ -38372,7 +39009,37 @@
       "technologies": [
         "hifu"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie HIFU (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Ultraformer z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí HIFU při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-medicube-age-r-high-focus-shot",
@@ -38382,12 +39049,11 @@
     "title": "medicube AGE-R High Focus Shot | antiagelab.cz",
     "metaDescription": "medicube AGE-R High Focus Shot — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "medicube AGE-R High Focus Shot",
-    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "medicube",
     "manufacturer": "medicube",
     "category": "hifu-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "hifu"
@@ -38396,7 +39062,37 @@
       "technologies": [
         "hifu"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie HIFU (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky medicube z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí HIFU při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-lunafit-7d-ultramax",
@@ -38550,12 +39246,11 @@
     "title": "BeautyRelax HIFU Twin Attack Professional | antiagelab.cz",
     "metaDescription": "BeautyRelax HIFU Twin Attack Professional — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax HIFU Twin Attack Professional",
-    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "hifu-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "hifu"
@@ -38564,7 +39259,37 @@
       "technologies": [
         "hifu"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie HIFU (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí HIFU při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautyrelax-bodyshape-hifu-tripple-attack-studio",
@@ -38574,12 +39299,11 @@
     "title": "BeautyRelax Bodyshape HIFU Tripple Attack Studio | antiagelab.cz",
     "metaDescription": "BeautyRelax Bodyshape HIFU Tripple Attack Studio — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax Bodyshape HIFU Tripple Attack Studio",
-    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "hifu-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "hifu"
@@ -38588,7 +39312,37 @@
       "technologies": [
         "hifu"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie HIFU (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí HIFU při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-faq-103",
@@ -38598,12 +39352,11 @@
     "title": "FOREO FAQ™ 103 | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ 103 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ 103",
-    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "radiofrekvence",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "radiofrekvence"
@@ -38612,7 +39365,37 @@
       "technologies": [
         "radiofrekvence"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie radiofrekvence (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí radiofrekvence při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-medicube-age-r-ultra-tune-40-68",
@@ -38622,12 +39405,11 @@
     "title": "medicube AGE-R Ultra Tune 40.68 | antiagelab.cz",
     "metaDescription": "medicube AGE-R Ultra Tune 40.68 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "medicube AGE-R Ultra Tune 40.68",
-    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "medicube",
     "manufacturer": "medicube",
     "category": "radiofrekvence",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "radiofrekvence"
@@ -38636,7 +39418,37 @@
       "technologies": [
         "radiofrekvence"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie radiofrekvence (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky medicube z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí radiofrekvence při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautyrelax-rflift-premium-br-2530",
@@ -38646,12 +39458,11 @@
     "title": "BeautyRelax Rflift Premium BR-2530 | antiagelab.cz",
     "metaDescription": "BeautyRelax Rflift Premium BR-2530 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax Rflift Premium BR-2530",
-    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "radiofrekvence",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "radiofrekvence"
@@ -38660,7 +39471,37 @@
       "technologies": [
         "radiofrekvence"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie radiofrekvence (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí radiofrekvence při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-faq-101",
@@ -38670,12 +39511,11 @@
     "title": "FOREO FAQ™ 101 | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ 101 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ 101",
-    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "radiofrekvence",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "radiofrekvence"
@@ -38684,7 +39524,37 @@
       "technologies": [
         "radiofrekvence"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie radiofrekvence (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí radiofrekvence při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-faq-102",
@@ -38694,12 +39564,11 @@
     "title": "FOREO FAQ™ 102 | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ 102 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ 102",
-    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "radiofrekvence",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "radiofrekvence"
@@ -38708,7 +39577,37 @@
       "technologies": [
         "radiofrekvence"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie radiofrekvence (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí radiofrekvence při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautifly-b-booster-pro",
@@ -38838,12 +39737,11 @@
     "title": "FOREO BEAR™ 2 | antiagelab.cz",
     "metaDescription": "FOREO BEAR™ 2 — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO BEAR™ 2",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -38854,7 +39752,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-faq-401",
@@ -38864,12 +39792,11 @@
     "title": "FOREO FAQ™ 401 | antiagelab.cz",
     "metaDescription": "FOREO FAQ™ 401 — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO FAQ™ 401",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -38880,7 +39807,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-medicube-age-r-booster-pro",
@@ -38890,12 +39847,11 @@
     "title": "medicube AGE-R Booster Pro | antiagelab.cz",
     "metaDescription": "medicube AGE-R Booster Pro — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "medicube AGE-R Booster Pro",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "medicube",
     "manufacturer": "medicube",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -38906,7 +39862,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky medicube z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-bear-2-go",
@@ -38916,12 +39902,11 @@
     "title": "FOREO BEAR™ 2 go | antiagelab.cz",
     "metaDescription": "FOREO BEAR™ 2 go — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO BEAR™ 2 go",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -38932,7 +39917,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-foreo-bear-2-eyes-lips",
@@ -38942,12 +39957,11 @@
     "title": "FOREO BEAR™ 2 eyes & lips | antiagelab.cz",
     "metaDescription": "FOREO BEAR™ 2 eyes & lips — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "FOREO BEAR™ 2 eyes & lips",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "FOREO",
     "manufacturer": "FOREO",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -38958,7 +39972,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky FOREO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-jovs-ems-lifting-mask",
@@ -38968,12 +40012,11 @@
     "title": "JOVS EMS Lifting Mask | antiagelab.cz",
     "metaDescription": "JOVS EMS Lifting Mask — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "JOVS EMS Lifting Mask",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "JOVS",
     "manufacturer": "JOVS",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -38984,7 +40027,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky JOVS z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-silk-n-led-ems-mask",
@@ -38994,12 +40067,11 @@
     "title": "Silk’n LED&EMS Mask | antiagelab.cz",
     "metaDescription": "Silk’n LED&EMS Mask — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "Silk’n LED&EMS Mask",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Silk’n",
     "manufacturer": "Silk’n",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -39010,7 +40082,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky Silk’n z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-geske-microcurrent-face-lift-pen-6v1",
@@ -39074,12 +40176,11 @@
     "title": "BeautyRelax iLift Smart | antiagelab.cz",
     "metaDescription": "BeautyRelax iLift Smart — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax iLift Smart",
-    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "microcurrent",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microcurrent",
@@ -39090,7 +40191,37 @@
         "microcurrent",
         "ems"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie microcurrentu (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microcurrentu při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-dr-pen-dermapen-a6-ultima",
@@ -39100,12 +40231,11 @@
     "title": "Dr. Pen Dermapen A6 Ultima | antiagelab.cz",
     "metaDescription": "Dr. Pen Dermapen A6 Ultima — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
     "h1": "Dr. Pen Dermapen A6 Ultima",
-    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "excerpt": "Microneedling přístroj (dermapen). Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Dr. Pen",
     "manufacturer": "Dr. Pen",
     "category": "microneedling-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microneedling"
@@ -39114,7 +40244,37 @@
       "technologies": [
         "microneedling"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie microneedlingu (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Dr. Pen z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microneedlingu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-dr-pen-ultima-m8",
@@ -39124,12 +40284,11 @@
     "title": "Dr. Pen Ultima M8 | antiagelab.cz",
     "metaDescription": "Dr. Pen Ultima M8 — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
     "h1": "Dr. Pen Ultima M8",
-    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "excerpt": "Microneedling přístroj (dermapen). Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Dr. Pen",
     "manufacturer": "Dr. Pen",
     "category": "microneedling-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microneedling"
@@ -39138,7 +40297,37 @@
       "technologies": [
         "microneedling"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie microneedlingu (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Dr. Pen z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microneedlingu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautifly-skinrenew-pro",
@@ -39172,12 +40361,11 @@
     "title": "Dr. Pen M5-W | antiagelab.cz",
     "metaDescription": "Dr. Pen M5-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
     "h1": "Dr. Pen M5-W",
-    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "excerpt": "Microneedling přístroj (dermapen). Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Dr. Pen",
     "manufacturer": "Dr. Pen",
     "category": "microneedling-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microneedling"
@@ -39186,7 +40374,37 @@
       "technologies": [
         "microneedling"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie microneedlingu (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Dr. Pen z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microneedlingu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-dr-pen-m7-w",
@@ -39196,12 +40414,11 @@
     "title": "Dr. Pen M7-W | antiagelab.cz",
     "metaDescription": "Dr. Pen M7-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
     "h1": "Dr. Pen M7-W",
-    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "excerpt": "Microneedling přístroj (dermapen). Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Dr. Pen",
     "manufacturer": "Dr. Pen",
     "category": "microneedling-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microneedling"
@@ -39210,7 +40427,37 @@
       "technologies": [
         "microneedling"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie microneedlingu (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Dr. Pen z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microneedlingu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-dr-pen-n2-w",
@@ -39220,12 +40467,11 @@
     "title": "Dr. Pen N2-W | antiagelab.cz",
     "metaDescription": "Dr. Pen N2-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
     "h1": "Dr. Pen N2-W",
-    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "excerpt": "Microneedling přístroj (dermapen). Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Dr. Pen",
     "manufacturer": "Dr. Pen",
     "category": "microneedling-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microneedling"
@@ -39234,7 +40480,37 @@
       "technologies": [
         "microneedling"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie microneedlingu (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Dr. Pen z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microneedlingu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-dr-pen-ultima-a1-w",
@@ -39244,12 +40520,11 @@
     "title": "Dr. Pen Ultima A1-W | antiagelab.cz",
     "metaDescription": "Dr. Pen Ultima A1-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
     "h1": "Dr. Pen Ultima A1-W",
-    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "excerpt": "Microneedling přístroj (dermapen). Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Dr. Pen",
     "manufacturer": "Dr. Pen",
     "category": "microneedling-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "microneedling"
@@ -39258,7 +40533,37 @@
       "technologies": [
         "microneedling"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 6,
+        "note": "Odráží vědeckou oporu technologie microneedlingu (střední úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Dr. Pen z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí microneedlingu při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-geske-microneedle-roller",
@@ -39364,12 +40669,11 @@
     "title": "RIO Ultrasonic Skin Cleanser | antiagelab.cz",
     "metaDescription": "RIO Ultrasonic Skin Cleanser — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "RIO Ultrasonic Skin Cleanser",
-    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "RIO",
     "manufacturer": "RIO",
     "category": "ultrazvuk-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ultrazvuk",
@@ -39380,7 +40684,37 @@
         "ultrazvuk",
         "galvanicka-pece"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie ultrazvuku (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky RIO z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí ultrazvuku při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautyrelax-peel-lift-premium",
@@ -39390,12 +40724,11 @@
     "title": "BeautyRelax Peel&Lift Premium | antiagelab.cz",
     "metaDescription": "BeautyRelax Peel&Lift Premium — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax Peel&Lift Premium",
-    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "ultrazvuk-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ultrazvuk"
@@ -39404,7 +40737,37 @@
       "technologies": [
         "ultrazvuk"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie ultrazvuku (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí ultrazvuku při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautyrelax-br-1300",
@@ -39414,12 +40777,11 @@
     "title": "BeautyRelax BR-1300 | antiagelab.cz",
     "metaDescription": "BeautyRelax BR-1300 — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax BR-1300",
-    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "ultrazvuk-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "ultrazvuk"
@@ -39428,7 +40790,37 @@
       "technologies": [
         "ultrazvuk"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie ultrazvuku (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 5.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí ultrazvuku při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautifly-b-scrub-peeling-young",
@@ -39582,12 +40974,11 @@
     "title": "Nu Skin ageLOC Galvanic Spa | antiagelab.cz",
     "metaDescription": "Nu Skin ageLOC Galvanic Spa — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
     "h1": "Nu Skin ageLOC Galvanic Spa",
-    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "Nu Skin",
     "manufacturer": "Nu Skin",
     "category": "galvanicka-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "galvanicka-pece"
@@ -39596,7 +40987,37 @@
       "technologies": [
         "galvanicka-pece"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie galvanické péče (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 7.5,
+        "note": "Odhad podle pověsti a výbavy značky Nu Skin z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 5.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí galvanické péče při dodržení návodu."
+      },
+      "value": {
+        "score": 5.5,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-beautyrelax-multicare",
@@ -39606,12 +41027,11 @@
     "title": "BeautyRelax Multicare | antiagelab.cz",
     "metaDescription": "BeautyRelax Multicare — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax Multicare",
-    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "galvanicka-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "galvanicka-pece"
@@ -39620,7 +41040,37 @@
       "technologies": [
         "galvanicka-pece"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie galvanické péče (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 5.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí galvanické péče při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   },
   {
     "id": "prod-palsar7-galvanicka-zehlicka-5v1",
@@ -39726,12 +41176,11 @@
     "title": "BeautyRelax BR-1150 4v1 | antiagelab.cz",
     "metaDescription": "BeautyRelax BR-1150 4v1 — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
     "h1": "BeautyRelax BR-1150 4v1",
-    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Předběžné redakční hodnocení podle metodiky AntiAgeLab.",
     "brand": "BeautyRelax",
     "manufacturer": "BeautyRelax",
     "category": "galvanicka-zarizeni",
     "productType": "Beauty zařízení",
-    "unrated": true,
     "updated": "2026-07-05",
     "technologies": [
       "galvanicka-pece"
@@ -39740,6 +41189,36 @@
       "technologies": [
         "galvanicka-pece"
       ]
-    }
+    },
+    "scores": {
+      "evidence": {
+        "score": 4.5,
+        "note": "Odráží vědeckou oporu technologie galvanické péče (omezená úroveň důkazů). Týká se metody, ne konkrétního přístroje."
+      },
+      "quality": {
+        "score": 6.5,
+        "note": "Odhad podle pověsti a výbavy značky BeautyRelax z veřejně dostupných informací."
+      },
+      "potency": {
+        "score": 5.5,
+        "note": "Orientační odhad výkonu podle kategorie a parametrů uváděných výrobcem."
+      },
+      "sensitive": {
+        "score": 7.5,
+        "note": "Bezpečnost odpovídá typu ošetření; u domácí galvanické péče při dodržení návodu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Předběžně; upřesníme podle aktuální ceny a dostupných recenzí."
+      },
+      "innovation": {
+        "score": 6.5,
+        "note": "Podle funkcí a výbavy uváděných výrobcem."
+      },
+      "overall": {
+        "note": "Předběžné redakční hodnocení z veřejně dostupných informací a vědecké opory dané technologie. Upřesníme po detailní rešerši a případném testu — nejde o laboratorní měření."
+      }
+    },
+    "provisional": true
   }
 ]
