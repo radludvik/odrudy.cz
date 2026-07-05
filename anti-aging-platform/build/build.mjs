@@ -1588,10 +1588,14 @@ function productListingInner(items) {
     ${sel('score', 'Hodnocení redakce', '<option value="9">9+/10</option><option value="8">8+/10</option><option value="7">7+/10</option><option value="6">6+/10</option>')}
     ${sel('ev', 'Síla vědeckých důkazů', '<option value="3">Silné</option><option value="2">Středně silné a lepší</option><option value="1">Omezené a lepší</option>')}
     <button type="button" class="btn btn--ghost filter-reset" id="filterReset">Zrušit filtry</button>
-  </form>
-  <p class="filter-count"><strong id="fcount">${items.length}</strong> z ${items.length} produktů</p>`;
+  </form>`;
 
-  return `${filterbar}<div class="card-grid" id="productGrid">${annotated}</div><p class="empty" id="filterEmpty" hidden>Žádný produkt neodpovídá zvoleným filtrům. Zkuste uvolnit kritéria.</p>`;
+  // Na mobilu jsou filtry sbalené za tlačítko, aby byly produkty hned vidět.
+  const toggle = `<button type="button" class="filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="productFilter">Filtrovat a řadit<span class="filter-toggle-caret">▾</span></button>`;
+  const count = `<p class="filter-count"><strong id="fcount">${items.length}</strong> z ${items.length} produktů</p>`;
+  const script = `<script>(function(){var t=document.getElementById('filterToggle'),f=document.getElementById('productFilter');if(!t||!f)return;t.addEventListener('click',function(){var o=f.classList.toggle('is-open');t.setAttribute('aria-expanded',o);t.classList.toggle('is-open',o);});})();</script>`;
+
+  return `${toggle}${filterbar}${count}<div class="card-grid" id="productGrid">${annotated}</div><p class="empty" id="filterEmpty" hidden>Žádný produkt neodpovídá zvoleným filtrům. Zkuste uvolnit kritéria.</p>${script}`;
 }
 function productCard(e, dataAttrs) {
   const ev = e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : '';

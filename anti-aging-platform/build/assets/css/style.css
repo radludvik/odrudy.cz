@@ -698,3 +698,57 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .next-step .next-row{display:flex;flex-wrap:wrap;gap:12px}
 .key-points{background:var(--ivory);border-left:4px solid var(--gold);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:20px 24px}
 .key-points h2{margin:0 0 .6rem;font-size:1.3rem}
+
+/* ===========================================================================
+ * MOBILNÍ DOLADĚNÍ — 90 % návštěvníků chodí z mobilu, mobil je priorita.
+ * ======================================================================== */
+/* Filtr produktů: na desktopu vždy vidět, tlačítko skryté */
+.filter-toggle{display:none}
+@media(max-width:720px){
+  .filter-toggle{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;
+    font-family:var(--sans);font-size:1rem;font-weight:500;color:var(--ink);background:#fff;
+    border:1px solid var(--line);border-radius:var(--radius);padding:15px 18px;margin-bottom:14px;cursor:pointer}
+  .filter-toggle-caret{transition:transform .2s;color:var(--gold-deep)}
+  .filter-toggle.is-open .filter-toggle-caret{transform:rotate(180deg)}
+  .filterbar{display:none}
+  .filterbar.is-open{display:grid;grid-template-columns:1fr 1fr;margin-top:-4px}
+  .filterbar.is-open .filter-reset{grid-column:1 / -1}
+}
+@media(max-width:400px){ .filterbar.is-open{grid-template-columns:1fr} }
+
+@media(max-width:640px){
+  body{font-size:16px;line-height:1.6}
+  .section{padding:52px 0}
+  .section--ivory .hub{gap:12px}
+  .container{padding:0 20px}
+  .lead{font-size:1.08rem;line-height:1.6}
+  .hero{padding:52px 0 44px}
+  .hero-search{flex-direction:column;border-radius:var(--radius);padding:10px}
+  .hero-search .btn{width:100%;justify-content:center}
+  .hero-quick{gap:14px}
+
+  /* Detail: hero obrázek nezabere celý screen, obsah je dřív po ruce */
+  .detail-hero{padding:26px 0 30px}
+  .detail-hero-img{max-height:300px}
+  .detail-layout{padding-top:30px;padding-bottom:48px;gap:8px}
+  .section-block{margin:1.7rem 0}
+
+  /* Nadpisy o něco kompaktnější, ať se vejde víc obsahu */
+  h2{font-size:1.5rem}
+  h3{font-size:1.2rem}
+  .verdict-card{padding:22px 20px}
+  .verdict-lead{font-size:1.02rem}
+  .sec-head{margin-bottom:24px}
+
+  /* Tlačítka a CTA: pohodlný tap = plná šířka */
+  .next-row{flex-direction:column;gap:10px}
+  .next-row .btn,.aff-row .btn{width:100%;justify-content:center}
+  .aff-row{flex-direction:column}
+  .care-prod-grid{grid-template-columns:1fr}
+
+  /* Trust karty: méně prázdného místa */
+  .trust-card{padding:20px 22px}
+
+  /* Tabulky pohodlněji čitelné */
+  th,td{padding:11px 13px;font-size:.9rem}
+}
