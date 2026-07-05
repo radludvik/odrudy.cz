@@ -11,7 +11,7 @@
     "excerpt": "Zlatý standard neinvazivního anti-agingu. Forma vitaminu A s nejsilnější evidencí pro zlepšení vrásek, textury a pigmentace.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Retinol se v pokožce dvoustupňově přeměňuje na kyselinu retinovou (retinol → retinaldehyd → kyselina retinová). Ta se váže na jaderné receptory (RAR/RXR) a mění expresi genů: zrychluje obrat keratinocytů, stimuluje fibroblasty k tvorbě kolagenu I a III a tlumí aktivitu enzymů (MMP), které kolagen rozkládají.",
+    "mechanism": "Zjednodušeně: retinol dá pleti pokyn, aby se chovala „mladší\". V kůži se přemění na svou aktivní podobu a spustí tři věci naráz — pleť se rychleji obnovuje, tvoří víc kolagenu (proto se vyhlazují jemné vrásky) a zpomalí se rozklad toho stávajícího. Právě tahle kombinace z něj dělá nejlépe prozkoumaný anti-aging standard, a taky důvod, proč výsledky přicházejí v týdnech, ne dnech.",
     "concentrations": "Začátečníci 0,1–0,3 %, pokročilí 0,5–1 %. Vyšší koncentrace nemusí znamenat lepší výsledek, ale vyšší riziko podráždění.",
     "indications": [
       "Jemné i hlubší vrásky",
@@ -80,12 +80,6 @@
       },
       {
         "p": "Retinol je čistá forma vitaminu A a nejlépe prozkoumaná účinná látka v péči proti stárnutí pleti. Patří do skupiny retinoidů, kam spadají i silnější tretinoin (na předpis) a jemnější retinaldehyd či esterové formy."
-      },
-      {
-        "h2": "Mechanismus účinku"
-      },
-      {
-        "p": "Aby retinol fungoval, musí se v kůži přeměnit na kyselinu retinovou. Ta přes jaderné receptory mění chování buněk: urychluje obnovu pokožky, povzbuzuje fibroblasty k tvorbě nového kolagenu a brzdí enzymy, které stávající kolagen rozkládají."
       },
       {
         "note": "Účinek retinolu na vrásky a fotopoškození potvrzuje řada randomizovaných studií i metaanalýz.",
@@ -254,7 +248,7 @@
     "excerpt": "O jeden krok účinnější forma vitaminu A. Bývá rychlejší než retinol při srovnatelné toleranci.",
     "evidenceLevel": "moderate",
     "updated": "2026-06-01",
-    "mechanism": "Retinaldehyd potřebuje k přeměně na aktivní kyselinu retinovou jen jeden konverzní krok (oproti dvěma u retinolu). Díky tomu může nastupovat rychleji. Má i mírný antibakteriální efekt.",
+    "mechanism": "Retinal je pleti o krok blíž než retinol — na aktivní podobu se přemění rychleji, takže výsledky obvykle nastupují dřív. Pracuje stejně (víc kolagenu, rychlejší obnova pleti) a navíc mírně tlumí bakterie, což ocení mastnější a k akné náchylná pleť.",
     "concentrations": "Obvykle 0,05–0,1 %. I nízká koncentrace je účinná.",
     "indications": [
       "Jemné vrásky",
@@ -409,7 +403,7 @@
     "excerpt": "Rostlinná alternativa retinolu s lepší snášenlivostí. Vhodný i pro citlivou pleť a během těhotenství.",
     "evidenceLevel": "moderate",
     "updated": "2026-06-01",
-    "mechanism": "Bakuchiol není chemicky retinoid, ale ovlivňuje podobné geny — podporuje tvorbu kolagenu a působí antioxidačně. Nedráždí tolik jako retinoidy a je fotostabilní.",
+    "mechanism": "Bakuchiol chemicky vůbec není retinoid, ale pleti dává podobné signály — pobídne ji k tvorbě kolagenu a chrání ji jako antioxidant. Rozdíl je v komfortu: dráždí méně a nevadí mu světlo, takže ho lze používat i ráno. Za tuto šetrnost ale platíte menším množstvím důkazů.",
     "concentrations": "Obvykle 0,5–2 %.",
     "indications": [
       "Jemné vrásky",
@@ -557,7 +551,7 @@
     "excerpt": "Antioxidant pro jas, ochranu a podporu kolagenu. Ideální ranní krok pod opalovací krém.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Kyselina L-askorbová neutralizuje volné radikály, je kofaktorem enzymů pro syntézu kolagenu a tlumí tvorbu melaninu (inhibice tyrozinázy), čímž rozjasňuje pleť a sjednocuje tón.",
+    "mechanism": "Vitamin C dělá pro pleť tři věci najednou: chová se jako antioxidant (zachytává volné radikály z UV a znečištění), pomáhá tvořit kolagen a brzdí tvorbu pigmentu. Proto ho ocení hlavně ten, komu jde o projasnění, rovnoměrný tón a svěžejší vzhled — a proto se hodí ráno, pod opalovací krém.",
     "concentrations": "L-askorbová kyselina 10–20 %. Stabilní deriváty (např. SAP, ethyl ascorbic acid) i v nižších koncentracích.",
     "indications": [
       "Matná pleť",
@@ -722,7 +716,7 @@
     "excerpt": "Všestranná, dobře snášená látka. Posiluje bariéru, reguluje maz a zjemňuje póry.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě.",
+    "mechanism": "Niacinamid je takový všeuměl. Posiluje přirozenou ochrannou vrstvu pleti, mírní mastnotu, sjednocuje tón a zklidňuje zarudnutí. Nedělá jednu věc dramaticky, ale zvedá celkovou kvalitu a odolnost pleti — proto se snese skoro s čímkoli a sedí i citlivé pleti.",
     "concentrations": "2–5 %. Vyšší koncentrace nepřinášejí výhodu a mohou dráždit.",
     "indications": [
       "Oslabená bariéra",
@@ -869,7 +863,7 @@
     "excerpt": "Signální molekuly, které pleti \"říkají\", aby tvořila kolagen. Jemné a dobře snášené.",
     "evidenceLevel": "moderate",
     "updated": "2026-06-01",
-    "mechanism": "Peptidy jsou krátké řetězce aminokyselin. Signální peptidy (např. Matrixyl) stimulují fibroblasty k tvorbě kolagenu, neurotransmiterové peptidy (Argireline) zmírňují mimické svalové napětí, nosičové peptidy dopravují stopové prvky (měď).",
+    "mechanism": "Peptidy jsou drobné „vzkazy\" pro pleť. Jedny ji pobízejí k tvorbě kolagenu (signální, např. Matrixyl), jiné mírní mimické napětí („botox-like\", třeba Argireline) a další do pleti dopravují stopové prvky. Jsou příjemné a dobře snášené, ale berte je jako doplněk — jejich důkazy jsou slabší než u retinoidů.",
     "concentrations": "Záleží na konkrétním peptidu a formulaci.",
     "indications": [
       "Ztráta pružnosti",
@@ -988,7 +982,7 @@
     "excerpt": "Vázač vody. Hydratuje, vypíná a opticky vyhlazuje jemné vrásky.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Molekula schopná vázat mnohonásobek své hmotnosti ve vodě. V pokožce zadržuje vlhkost, čímž zlepšuje pružnost a opticky vyhlazuje povrch. Různé velikosti molekul působí v různých vrstvách.",
+    "mechanism": "Kyselina hyaluronová funguje jako houba na vodu — naváže vláhu a udrží ji v pokožce, takže pleť působí vyhlazeně a pružně. Je to spolehlivá hydratace pro každý typ pleti; nejlíp funguje nanesená na vlhkou pleť a „zamčená\" krémem.",
     "concentrations": "Obvykle 0,1–2 %.",
     "indications": [
       "Suchost a dehydratace",
@@ -1104,7 +1098,7 @@
     "excerpt": "Ve vodě rozpustné exfolianty pro jas, hladkost a sjednocení tónu.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Alfa-hydroxykyseliny (glykolová, mléčná) rozvolňují spoje mezi odumřelými buňkami na povrchu pokožky, urychlují obnovu a při dlouhodobém užívání podporují kolagen.",
+    "mechanism": "AHA (třeba kyselina glykolová a mléčná) uvolní pouto mezi odumřelými buňkami na povrchu, takže se pleť rychleji obnoví a rozjasní. Výsledkem je hladší, svěžejší a rovnoměrnější povrch. Působí hlavně navrchu — proto sedí spíš na tón a texturu než na hluboké vrásky.",
     "concentrations": "5–10 % pro domácí péči, vyšší u odborných peelingů.",
     "indications": [
       "Matná pleť",
@@ -1250,7 +1244,7 @@
     "excerpt": "V tuku rozpustný exfoliant, který čistí póry zevnitř. Volba pro mastnou a aknózní pleť.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Beta-hydroxykyselina rozpustná v tuku — proniká do pórů, rozpouští maz a odumřelé buňky, působí protizánětlivě (příbuzná aspirinu).",
+    "mechanism": "BHA (kyselina salicylová) se jako jediná z kyselin rozpouští v tuku, a proto se dostane až dovnitř póru, kde rozpustí maz a nečistoty. K tomu zklidňuje (je příbuzná aspirinu). Přesně proto je první volbou pro mastnou a k akné náchylnou pleť s ucpanými póry.",
     "concentrations": "0,5–2 %.",
     "indications": [
       "Mastná a aknózní pleť",
@@ -1382,7 +1376,7 @@
     "excerpt": "Jemná, ale účinná látka na zarudnutí, rozacea a pigmentaci. Vhodná i v těhotenství.",
     "evidenceLevel": "strong",
     "updated": "2026-06-01",
-    "mechanism": "Působí protizánětlivě, antibakteriálně a tlumí tvorbu melaninu. Hodí se na rozacea, postzánětlivou pigmentaci i akné.",
+    "mechanism": "Azelaová kyselina zklidňuje zarudnutí, tlumí bakterie a zesvětluje skvrny. Díky téhle kombinaci je oblíbená u rosacey, pozánětlivé pigmentace i akné — a přitom bývá dobře snášená.",
     "concentrations": "10 % v kosmetice, 15–20 % na předpis.",
     "indications": [
       "Rozacea a zarudnutí",
@@ -1490,7 +1484,7 @@
     "h1": "Ceramidy",
     "excerpt": "Lipidy, které tmelí kožní bariéru. Drží vlhkost, tlumí citlivost a podráždění.",
     "evidenceLevel": "strong",
-    "mechanism": "Ceramidy tvoří ~50 % lipidů ve svrchní vrstvě pokožky. Doplňují „maltu\" mezi buňkami, čímž obnovují bariéru, snižují transepidermální ztrátu vody a tlumí podráždění.",
+    "mechanism": "Ceramidy jsou „malta\" mezi buňkami pokožky a tvoří většinu její ochranné vrstvy. Když jich je dost, bariéra drží vláhu uvnitř a dráždivé látky venku. Proto po nich sáhne hlavně suchá, citlivá a podrážděná pleť, které chybí komfort a hydratace.",
     "concentrations": "Záleží na formulaci; účinné jsou v kombinaci s cholesterolem a mastnými kyselinami v poměru blízkém kůži.",
     "indications": [
       "Oslabená bariéra",
@@ -1609,7 +1603,7 @@
     "h1": "PHA (polyhydroxykyseliny)",
     "excerpt": "Nejjemnější exfoliační kyseliny. Vhodné i pro citlivou pleť a rozaceu.",
     "evidenceLevel": "moderate",
-    "mechanism": "Větší molekuly (glukonolakton, laktobionová kyselina) pronikají pomaleji než AHA, proto exfoliují šetrněji. Navíc vážou vodu a působí antioxidačně.",
+    "mechanism": "PHA jsou nejjemnější exfoliační kyseliny — mají větší molekuly, takže pronikají pomaleji a dráždí méně než AHA. Navíc vážou vodu. Hodí se tam, kde je běžná exfoliace moc agresivní: na citlivou a reaktivní pleť.",
     "concentrations": "4–10 %.",
     "indications": [
       "Citlivá pleť",
@@ -1716,7 +1710,7 @@
     "h1": "Tranexamová kyselina",
     "excerpt": "Cílí na tvrdošíjnou pigmentaci a melasmu, kde jiné látky selhávají.",
     "evidenceLevel": "moderate",
-    "mechanism": "Tlumí přenos signálu mezi keratinocyty a melanocyty a ovlivňuje cévní složku pigmentace, čímž zesvětluje skvrny a melasmu. Lokálně i v perorální formě (na předpis).",
+    "mechanism": "Tranexamová kyselina cílí na pigmentové skvrny a melasmu — přeruší signály, které pleti říkají „tvoř víc pigmentu\", a mírní i cévní složku zabarvení. Používá se lokálně, u výraznější melasmy i v tabletách na předpis.",
     "concentrations": "2–5 % topicky.",
     "indications": [
       "Melasma",
@@ -1830,7 +1824,7 @@
     "h1": "Matrixyl (signální peptid)",
     "excerpt": "Signální peptid, který pleti „signalizuje\" tvorbu kolagenu. Jemná posila proti vráskám.",
     "evidenceLevel": "moderate",
-    "mechanism": "Napodobuje fragment kolagenu a tím povzbuzuje fibroblasty k tvorbě nového kolagenu a dalších složek mezibuněčné hmoty.",
+    "mechanism": "Matrixyl napodobuje úlomek kolagenu, a tím pleť „přesvědčí\", aby tvořila kolagen nový. Je to jemný, dobře snášený peptid — spíš dlouhodobá podpora pevnosti než rychlý zázrak.",
     "concentrations": "3–10 % komerčního roztoku peptidu.",
     "indications": [
       "Jemné vrásky",
@@ -1939,7 +1933,7 @@
     "h1": "Měďnaté peptidy (GHK-Cu)",
     "excerpt": "Nosičové peptidy s mědí. Podporují hojení, kolagen a celkovou kvalitu pleti.",
     "evidenceLevel": "moderate",
-    "mechanism": "GHK-Cu dopravuje měď do tkáně, podporuje hojení, tvorbu kolagenu a elastinu a působí antioxidačně.",
+    "mechanism": "Měděné peptidy (GHK-Cu) dopraví do pleti měď, kterou tělo využívá při hojení a tvorbě kolagenu a elastinu. Podporují tak obnovu a pevnost; berte je jako šetrný doplněk, ne jako hlavního hráče.",
     "concentrations": "1–4 % roztoku peptidu.",
     "indications": [
       "Ztráta pevnosti",
@@ -2047,7 +2041,7 @@
     "h1": "Argireline (acetyl hexapeptid-8)",
     "excerpt": "Neuropeptid, který má zmírňovat mimické vrásky. Jemný efekt, ne náhrada botoxu.",
     "evidenceLevel": "limited",
-    "mechanism": "Má částečně tlumit uvolňování neurotransmiterů a tím zmírňovat svalové stahy tvořící mimické vrásky. Účinek je mnohem mírnější než u botulotoxinu.",
+    "mechanism": "Argireline má mírnit drobné mimické stahy, které tvoří vrásky (odtud přezdívka „botox-like\"). Realita je ale mnohem jemnější než injekce — topicky proniká omezeně a efekt je nenápadný.",
     "concentrations": "5–10 % roztoku peptidu.",
     "indications": [
       "Jemné mimické vrásky (čelo, oční okolí)"
@@ -2150,7 +2144,7 @@
     "h1": "Centella asiatica (Cica)",
     "excerpt": "Rostlinný extrakt na zklidnění, hojení a posílení bariéry. Hvězda korejské péče.",
     "evidenceLevel": "moderate",
-    "mechanism": "Aktivní složky (madecassosid, asiaticosid) působí protizánětlivě, antioxidačně a podporují tvorbu kolagenu a hojení.",
+    "mechanism": "Centella (cica) je zklidňující složka — tlumí zarudnutí, chrání jako antioxidant a podporuje hojení a tvorbu kolagenu. Proto ji milují lidé s citlivou, podrážděnou pletí a po zákrocích.",
     "concentrations": "Dle extraktu; často 0,1–5 %.",
     "indications": [
       "Zarudnutí a podráždění",
@@ -2268,7 +2262,7 @@
     "h1": "Panthenol (provitamin B5)",
     "excerpt": "Hydratuje, zklidňuje a podporuje hojení. Jemná univerzální složka do každé rutiny.",
     "evidenceLevel": "moderate",
-    "mechanism": "V kůži se mění na kyselinu pantothenovou (vitamin B5), váže vodu, podporuje regeneraci bariéry a tlumí podráždění.",
+    "mechanism": "Panthenol (provitamin B5) váže vodu, podporuje obnovu ochranné bariéry a zklidňuje podrážděnou pleť. Je to bezpečný, univerzální „hasič\" pro suchou a citlivou pleť i po zákrocích.",
     "concentrations": "1–5 %.",
     "indications": [
       "Suchost",
@@ -2385,7 +2379,7 @@
     "h1": "Resveratrol",
     "excerpt": "Rostlinný antioxidant pro noční ochranu před oxidačním stresem.",
     "evidenceLevel": "limited",
-    "mechanism": "Polyfenol z hroznů a dalších rostlin; neutralizuje volné radikály, aktivuje ochranné dráhy buněk (sirtuiny) a působí protizánětlivě.",
+    "mechanism": "Resveratrol je rostlinný antioxidant (z hroznů) — pomáhá pleti bránit se volným radikálům a zklidňuje ji. Nadějná podpůrná složka, u které je ale topických důkazů zatím méně.",
     "concentrations": "0,5–1 %.",
     "indications": [
       "Oxidační stres",
@@ -2495,7 +2489,7 @@
     "h1": "Koenzym Q10",
     "excerpt": "Antioxidant přirozeně přítomný v buňkách. Chrání a podporuje buněčnou energii.",
     "evidenceLevel": "moderate",
-    "mechanism": "Ubichinon je součástí tvorby energie v mitochondriích a zároveň antioxidant. Jeho hladina s věkem klesá; topicky chrání před oxidačním stresem a podporuje kolagen.",
+    "mechanism": "Koenzym Q10 pomáhá buňkám vyrábět energii a zároveň je chrání jako antioxidant. Jeho zásoby s věkem klesají, takže topicky doplněný pomáhá pleti bránit se oxidačnímu stresu — jemná, podpůrná role.",
     "concentrations": "0,3–1 %.",
     "indications": [
       "Oxidační stres",
@@ -2607,7 +2601,7 @@
     "h1": "Ferulová kyselina",
     "excerpt": "Antioxidant, který stabilizuje vitamin C a E a znásobuje jejich ochranu.",
     "evidenceLevel": "moderate",
-    "mechanism": "Rostlinný antioxidant, který sám neutralizuje volné radikály a zároveň stabilizuje a zesiluje účinek vitaminu C a E (klasická kombinace C+E+ferulová).",
+    "mechanism": "Ferulová kyselina je antioxidant, který navíc stabilizuje a zesiluje účinek vitaminu C a E. Sama o sobě nedělá zázraky — její hlavní role je „týmový hráč\", který posílí antioxidační séra (klasika C+E+ferulová).",
     "concentrations": "0,5–1 %.",
     "indications": [
       "Antioxidační ochrana",
@@ -2713,7 +2707,7 @@
     "h1": "Alfa-arbutin",
     "excerpt": "Šetrná alternativa hydrochinonu. Postupně zesvětluje skvrny a sjednocuje tón.",
     "evidenceLevel": "moderate",
-    "mechanism": "Tlumí enzym tyrozinázu a tím tvorbu melaninu. Působí cíleně a šetrněji než hydrochinon.",
+    "mechanism": "Alfa-arbutin cíleně brzdí tvorbu pigmentu, a tím postupně zesvětluje skvrny. Je to šetrnější a předvídatelnější volba než hydrochinon — hodí se na cílenou práci s pigmentací.",
     "concentrations": "1–2 %.",
     "indications": [
       "Pigmentace",
@@ -2822,7 +2816,7 @@
     "h1": "PDRN (polynukleotidy)",
     "excerpt": "Fragmenty DNA podporující hojení a regeneraci. Hvězda injekčních „salmon\" ošetření.",
     "evidenceLevel": "moderate",
-    "mechanism": "Polynukleotidy (často lososího původu) stimulují fibroblasty, hojení a tvorbu kolagenu a působí protizánětlivě. Nejvíce dat má injekční forma; topicky je průnik omezený.",
+    "mechanism": "PDRN (polynukleotidy, často lososího původu) pobízí pleť k hojení a tvorbě kolagenu. Nejvíc dat má injekční forma; v krému je průnik omezený, takže topický efekt je mírnější a méně jistý.",
     "concentrations": "Topicky dle formulace; injekčně v rukou lékaře.",
     "indications": [
       "Regenerace a hojení",
@@ -2918,7 +2912,7 @@
     "h1": "Exosomy",
     "excerpt": "Buněčné „poslíčky\" pro regeneraci. Slibná, ale zatím nedostatečně prozkoumaná novinka.",
     "evidenceLevel": "preliminary",
-    "mechanism": "Exosomy jsou drobné váčky přenášející signální molekuly mezi buňkami. V teorii podporují regeneraci, kolagen a hojení; používají se hlavně po procedurách.",
+    "mechanism": "Exosomy jsou drobné „balíčky\" signálů, které si buňky posílají. V teorii mohou podpořit regeneraci a hojení a používají se hlavně po zákrocích — jde ale zatím o rozvíjející se, experimentální oblast.",
     "concentrations": "Dle přípravku; jde o prémiový segment.",
     "indications": [
       "Regenerace po procedurách",
@@ -3009,7 +3003,7 @@
     "h1": "EGF (epidermální růstový faktor)",
     "excerpt": "Růstový faktor podporující obnovu pokožky a hojení. Prémiová a diskutovaná složka.",
     "evidenceLevel": "limited",
-    "mechanism": "EGF je signální protein, který podporuje dělení a obnovu kožních buněk a hojení. V kosmetice se používá bioinženýrská forma.",
+    "mechanism": "EGF je přirozený signál, který pleti říká „obnovuj a hoj se\". V kosmetice se používá jeho laboratorně vyrobená forma. Nadějné, ale zatím spíš experimentální — velké molekuly navíc do pleti pronikají obtížně.",
     "concentrations": "Dle přípravku.",
     "indications": [
       "Obnova a hojení",
@@ -3092,7 +3086,7 @@
     "h1": "Skvalan",
     "excerpt": "Lehký, stabilní emolient blízký kožnímu mazu. Zvláčňuje bez ucpávání pórů.",
     "evidenceLevel": "moderate",
-    "mechanism": "Stabilní forma skvalenu, přirozené složky kožního mazu. Zvláčňuje, uzavírá vlhkost a posiluje pocit hladkosti, aniž by byl těžký nebo komedogenní.",
+    "mechanism": "Skvalan je lehký olej příbuzný tomu, co pleť tvoří sama. Zvláční, uzavře vláhu a dodá hebkost, aniž by pleť zatížil nebo ucpával póry — proto sedí i mastnější a citlivé pleti.",
     "concentrations": "Často 100% olej nebo součást krémů.",
     "indications": [
       "Suchost",

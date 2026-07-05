@@ -139,11 +139,28 @@ function evidenceBadge(level) {
   return `<span class="ev ${ev.cls}" title="Úroveň vědecké evidence">${ev.dot} ${esc(ev.label)}</span>`;
 }
 
+// Bod 11 — nadpisy jako otázky orientované na uživatele (normalizace při buildu).
+const HEADING_MAP = {
+  'mechanismus účinku': 'Jak to funguje?',
+  'indikace': 'Pro koho je vhodné?',
+  'kontraindikace': 'Kdy není vhodné?',
+  'pro koho': 'Pro koho je vhodné?',
+  'pro koho je vhodný': 'Pro koho je vhodné?',
+  'pro koho je vhodná': 'Pro koho je vhodné?',
+};
+function normalizeHeading(h) {
+  if (!h) return h;
+  const key = h.trim().toLowerCase();
+  if (HEADING_MAP[key]) return HEADING_MAP[key];
+  // „Co je …", „Jak …", „Proč …", „Kdy …" bez otazníku → doplň otazník
+  if (/^(co je |jak |proč |kdy |kolik |na co )/i.test(h) && !/[?!:]$/.test(h.trim())) return h.trim() + '?';
+  return h;
+}
 function renderBlocks(blocks = []) {
   let html = '';
   for (const b of blocks) {
-    if (b.h2) html += `<h2>${esc(b.h2)}</h2>`;
-    else if (b.h3) html += `<h3>${esc(b.h3)}</h3>`;
+    if (b.h2) html += `<h2>${esc(normalizeHeading(b.h2))}</h2>`;
+    else if (b.h3) html += `<h3>${esc(normalizeHeading(b.h3))}</h3>`;
     else if (b.p) html += `<p>${esc(b.p)}</p>`;
     else if (b.list) html += `<ul class="rich-list">${b.list.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`;
     else if (b.quote) html += `<blockquote>${esc(b.quote)}</blockquote>`;
@@ -481,8 +498,8 @@ function detailExtras(e) {
     html += decisionTop(e);                                                   // 1–3. Je to pro vás? / Co očekávat / Co bychom doporučili
     html += twoCol(listBlock('Na co pomáhá', e.indications), listBlock('Kdy není vhodné', e.contraindications)); // 4–5. Výhody / Omezení
     html += careProducts(e);                                                  // 6. Doporučené produkty
+    if (e.mechanism) html += `<section class="section-block"><h2>Jak to funguje?</h2><p>${esc(e.mechanism)}</p></section>`; // 7. Jak funguje
     const rows = [];
-    if (e.mechanism) rows.push(['Jak to funguje', e.mechanism]);              // 7. Jak funguje
     if (e.concentrations) rows.push(['Doporučené koncentrace', e.concentrations]);
     if (e.inci) rows.push(['INCI', e.inci]);
     html += quickFacts(rows);
