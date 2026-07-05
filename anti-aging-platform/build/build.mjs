@@ -497,7 +497,7 @@ function detailExtras(e) {
   if (e.type === 'ingredient') {
     html += decisionTop(e);                                                   // 1–3. Je to pro vás? / Co očekávat / Co bychom doporučili
     html += twoCol(listBlock('Na co pomáhá', e.indications), listBlock('Kdy není vhodné', e.contraindications)); // 4–5. Výhody / Omezení
-    html += careProducts(e);                                                  // 6. Doporučené produkty
+    html += recommendPicks(e);                                                // 6. Jednotná doporučovací sekce
     if (e.mechanism) html += `<section class="section-block"><h2>Jak to funguje?</h2><p>${esc(e.mechanism)}</p></section>`; // 7. Jak funguje
     const rows = [];
     if (e.concentrations) rows.push(['Doporučené koncentrace', e.concentrations]);
@@ -511,7 +511,7 @@ function detailExtras(e) {
     html += effectivenessBlock(e);                                            // Na co funguje
     html += twoCol(listBlock('Výhody', e.pros), listBlock('Nevýhody', e.cons)); // 4–5. Výhody + Nevýhody vedle sebe
     html += listBlock('Kdy není vhodné / kontraindikace', e.contraindications); // hned pod dvojicí
-    html += careProducts(e);                                                  // 6. Doporučené přístroje/produkty
+    html += recommendPicks(e);                                                // 6. Jednotná doporučovací sekce
     html += techAdvisor(e);
     const rows = [];
     if (e.principle) rows.push(['Jak to funguje', e.principle]);              // 7. Jak funguje
@@ -524,7 +524,6 @@ function detailExtras(e) {
     html += evidenceBlock(e);                                                 // 8. Detailní / důkazy
     html += scorecardBlock(e, TECH_SCORE_LABELS);
     html += techCombine(e);
-    html += techDevices(e);
     html += techComparisons(e);
   }
   if (e.type === 'supplement') {
@@ -545,7 +544,7 @@ function detailExtras(e) {
     html += legalBlock(e);
     html += techCombine(e);
     html += suppComparisons(e);
-    html += suppProducts(e);
+    html += recommendPicks(e);                                                // Jednotná doporučovací sekce
   }
   if (e.type === 'product') {
     const rows = [];
@@ -589,6 +588,7 @@ function detailExtras(e) {
     if (e.priceRange) rows.push(['Cena', e.priceRange]);
     html += quickFacts(rows);
     html += listBlock('Kdy není vhodné / rizika', e.risks);
+    html += recommendPicks(e);                                                // Jednotná doporučovací sekce (pokud jsou produkty)
   }
   if (e.type === 'study') {
     const rows = [];
@@ -611,7 +611,7 @@ function detailExtras(e) {
     html += careRoutine(g.am, g.pm);
     html += listBlock('Na co se zaměřit', g.focusActives);
     html += listBlock('Čemu se vyhnout', g.avoid);
-    html += careProducts(e);
+    html += recommendPicks(e);
     if (g.expectations) html += careCallout('accent', 'Realistická očekávání', g.expectations);
     if (g.whenPro) html += careCallout('', 'Kdy zvážit odborníka', g.whenPro);
   }
@@ -623,7 +623,7 @@ function detailExtras(e) {
     html += listBlock('Nejvhodnější látky', g.bestActives);
     html += careRoutine(g.am, g.pm);
     html += listBlock('Časté chyby', g.mistakes);
-    html += careProducts(e);
+    html += recommendPicks(e);
     if (e.routineHints) html += careCallout('accent', 'Tip na rutinu', e.routineHints);
     if (g.note) html += careCallout('', 'Důležité', g.note);
   }
@@ -635,7 +635,7 @@ function detailExtras(e) {
     html += listBlock('Příčiny', e.causes);
     html += whatHelpsBlock(g.whatHelps);
     html += careRoutine(g.am, g.pm);
-    html += careProducts(e);
+    html += recommendPicks(e);
     if (g.expectations) html += careCallout('accent', 'Realistická očekávání', g.expectations);
     html += listBlock('Prevence', g.prevention);
     if (g.whenPro) html += careCallout('', 'Kdy vyhledat lékaře', g.whenPro);
@@ -780,6 +780,72 @@ function careProducts(e, opts = {}) {
     <p><a class="btn btn--ghost btn--sm" href="${moreHref}">Zobrazit všechny vhodné produkty →</a></p>
   </section>`;
 }
+
+/* ============================================================================
+ * JEDNOTNÁ DOPORUČOVACÍ SEKCE — jedna silná sekce napříč celým webem.
+ * „Co bychom dnes doporučili?" s kurátorskými výběry (nejlepší celkově, poměr
+ * cena/výkon, začátečníci, prémiová, nejdostupnější) + jedno CTA do databáze.
+ * Nahrazuje careProducts, techDevices i suppProducts.
+ * ==========================================================================*/
+const PICK_META = [
+  ['best',     '🏆', 'Nejlepší celkově',             'Nejvyšší skóre podle metodiky AntiAgeLab'],
+  ['value',    '💰', 'Nejlepší poměr cena/výkon',    'Nejvíc kvality za vynaloženou cenu'],
+  ['beginner', '🌱', 'Doporučeno pro začátečníky',   'Bezpečný a dostupný start'],
+  ['premium',  '💎', 'Prémiová / nejvýkonnější volba', 'Pro náročné a maximální efekt'],
+  ['cheapest', '👍', 'Cenově nejdostupnější',         'Nejnižší cena z doporučených'],
+];
+function recoMoreHref(e) {
+  if (e.type === 'problem') return `/produkty/?problem=${e.slug}`;
+  if (e.type === 'skinType') return `/produkty/?skintype=${e.slug}`;
+  if (e.type === 'ingredient') return `/produkty/?ingredient=${e.slug}`;
+  if (e.type === 'technology') return `/produkty/?category=${(e.deviceCategories && e.deviceCategories[0]) || ''}`;
+  if (e.type === 'supplement') return '/produkty/?category=doplnky-stravy';
+  return '/produkty/';
+}
+function recommendPicks(e) {
+  let pool = [];
+  const relSet = e._rel && e._rel.product;
+  if (relSet) for (const s of relSet) { const p = bySlug.get(`product:${s}`); if (p) pool.push(p); }
+  if (e.type === 'technology' && e.deviceCategories) for (const p of entitiesByType('product')) if (e.deviceCategories.includes(p.category) && pool.indexOf(p) < 0) pool.push(p);
+  if (e.type !== 'supplement') pool = pool.filter((p) => p.category !== 'doplnky-stravy');
+  pool = [...new Set(pool)];
+  if (!pool.length) return '';
+  const sc = (p) => (p.scores && p.scores.overall ? p.scores.overall.score : 0);
+  const pot = (p) => (p.scores && (p.scores.potency || p.scores.quality) ? (p.scores.potency || p.scores.quality).score : 0);
+  const priceNum = (p) => { const m = String(p.price || '').replace(/\s/g, '').match(/\d+/); return m ? +m[0] : Infinity; };
+  const seen = new Set();
+  const take = (fn, filter) => { const p = [...pool].filter((x) => !seen.has(x.slug) && (!filter || filter(x))).sort(fn)[0]; if (p) seen.add(p.slug); return p; };
+  const chosen = {
+    best: take((a, b) => sc(b) - sc(a)),
+    value: take((a, b) => (sc(b) / Math.max(1, priceNum(b))) - (sc(a) / Math.max(1, priceNum(a)))),
+    beginner: take((a, b) => priceNum(a) - priceNum(b), (x) => sc(x) >= 6),
+    premium: take((a, b) => pot(b) - pot(a) || priceNum(b) - priceNum(a)),
+    cheapest: take((a, b) => priceNum(a) - priceNum(b)),
+  };
+  const isSubstance = e.type === 'ingredient' || e.type === 'supplement';
+  const cards = PICK_META.map(([key, emoji, label, sub]) => {
+    const p = chosen[key]; if (!p) return '';
+    const subtitle = (key === 'premium' && isSubstance) ? 'Nejkomplexnější složení' : sub;
+    const score = (p.scores && p.scores.overall) ? `<span class="rp-score">${fmtScore(p.scores.overall.score)}/10</span>` : '';
+    const meta = [(p.brand && p.brand !== '—') ? p.brand : '', categoryLabel(p.category)].filter(Boolean).join(' · ');
+    const price = p.price ? `<span class="rp-price">${esc(p.price)}</span>` : '';
+    return `<a class="rp-card" href="${urlOf(p)}">
+      <span class="rp-badge">${emoji} ${esc(label)}</span>
+      <strong class="rp-name">${esc(p.name)}</strong>
+      ${meta ? `<span class="rp-meta">${esc(meta)}</span>` : ''}
+      <span class="rp-reason">${esc(subtitle)}</span>
+      <span class="rp-foot">${price}${score}<span class="card-arrow">→</span></span>
+    </a>`;
+  }).filter(Boolean).join('');
+  const heading = e.type === 'technology' ? 'Jaké zařízení bychom dnes doporučili?' : 'Co bychom dnes doporučili?';
+  const ctaLabel = e.type === 'technology' ? 'Zobrazit všechna zařízení' : 'Zobrazit všechny produkty';
+  return `<section class="section-block reco-picks"><div class="graph-head"><span class="eyebrow">Doporučení redakce</span><h2>${heading}</h2>
+    <p class="muted small">Vybrali jsme z databáze podle jednotné <a href="/metodika-hodnoceni/">metodiky AntiAgeLab</a> — hodnocení zohledňuje kvalitu produktu, sílu vědeckých důkazů, poměr cena/výkon, bezpečnost i celkovou uživatelskou hodnotu. Jde o nezávislé redakční doporučení, ne o oficiální pořadí trhu.</p></div>
+    <div class="rp-grid">${cards}</div>
+    <p><a class="btn btn--ghost" href="${recoMoreHref(e)}">${ctaLabel} →</a></p>
+  </section>`;
+}
+
 function compatibilityBlock(list) {
   const lvl = { good: ['Vhodné', 'ok'], caution: ['Opatrně', 'warn'], avoid: ['Nekombinovat', 'bad'] };
   return `<section class="section-block"><h3>Kompatibilita s dalšími látkami</h3><div class="compat-list">${list
@@ -951,14 +1017,7 @@ function techComparisons(e) {
 function techFinalReco(e) {
   const pick = (t, n) => [...(e._rel[t] || [])].map((s) => bySlug.get(`${t}:${s}`)).filter(Boolean).slice(0, n);
   const row = (label, items) => items.length ? `<div class="rel-group"><h3 class="rel-h">${label}</h3><div class="chips">${items.map((it) => `<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`).join('')}</div></div>` : '';
-  const devices = (() => {
-    const cats = e.deviceCategories || [];
-    let prods = entitiesByType('product').filter((p) => cats.includes(p.category));
-    const relSet = e._rel.product; if (relSet) for (const s of relSet) { const p = bySlug.get(`product:${s}`); if (p && prods.indexOf(p) < 0) prods.push(p); }
-    return prods.sort((a, b) => ((b.scores && b.scores.overall ? b.scores.overall.score : 0) - (a.scores && a.scores.overall ? a.scores.overall.score : 0))).slice(0, 3);
-  })();
   const blocks = [
-    row('Doporučená zařízení', devices),
     row('Vhodné ingredience', pick('ingredient', 5)),
     row('Doporučené rutiny', pick('routine', 3)),
     row('Související procedury', pick('procedure', 4)),
@@ -1387,9 +1446,7 @@ function renderDetail(e) {
 function suppFinalReco(e) {
   const pick = (t, n) => [...(e._rel[t] || [])].map((s) => bySlug.get(`${t}:${s}`)).filter(Boolean).slice(0, n);
   const row = (label, items) => items.length ? `<div class="rel-group"><h3 class="rel-h">${label}</h3><div class="chips">${items.map((it) => `<a class="chip" href="${urlOf(it)}">${esc(it.name)}</a>`).join('')}</div></div>` : '';
-  const prods = pick('product', 3);
   const blocks = [
-    row('Doporučené přípravky', prods),
     row('Související ingredience pro pleť', pick('ingredient', 5)),
     row('Doporučené rutiny', pick('routine', 3)),
     row('Vhodné pro problém', pick('problem', 4)),

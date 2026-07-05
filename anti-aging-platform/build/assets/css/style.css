@@ -752,3 +752,22 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
   /* Tabulky pohodlněji čitelné */
   th,td{padding:11px 13px;font-size:.9rem}
 }
+
+/* ---------------------------------------------------------------------------
+ * Jednotná doporučovací sekce „Co bychom dnes doporučili?"
+ * ------------------------------------------------------------------------- */
+.reco-picks .graph-head{margin-bottom:20px}
+.rp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(238px,1fr));gap:16px}
+.rp-card{display:flex;flex-direction:column;gap:.3rem;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;color:var(--ink);transition:transform .18s,box-shadow .18s,border-color .18s}
+.rp-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);border-color:var(--sand);color:var(--ink)}
+.rp-badge{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:var(--gold-deep)}
+.rp-name{font-family:var(--serif);font-size:1.22rem;line-height:1.25;margin-top:.15rem}
+.rp-meta{font-size:.76rem;letter-spacing:.02em;text-transform:uppercase;color:var(--ink-soft)}
+.rp-reason{font-size:.9rem;color:var(--ink-soft);line-height:1.5;flex:1;margin-top:.2rem}
+.rp-foot{display:flex;align-items:center;gap:12px;margin-top:.5rem;padding-top:.6rem;border-top:1px solid var(--line)}
+.rp-price{font-weight:600;font-size:.95rem}
+.rp-score{font-family:var(--serif);font-weight:600;color:var(--gold-deep)}
+.rp-foot .card-arrow{margin-left:auto}
+.rp-card:first-child{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
+.rp-card:first-child:hover{box-shadow:0 0 0 1px var(--gold) inset,var(--shadow-hover)}
+@media(max-width:640px){.rp-grid{grid-template-columns:1fr}}
