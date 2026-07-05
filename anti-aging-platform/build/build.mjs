@@ -1782,10 +1782,6 @@ function heroBanner() {
         <h1 class="hero2-title">Vědecky ověřená anti-aging řešení, <span class="g">která dávají smysl</span></h1>
         <p class="hero2-lead">Srozumitelně, na jednom místě. Vyberte to, co vaší pleti opravdu pomůže.</p>
         <ul class="hero2-usp">${usp}</ul>
-        <div class="hero2-cta">
-          <a class="btn btn--gold btn--lg" href="/nastroje/poradce/">Najít řešení pro můj problém <span aria-hidden="true">→</span></a>
-          <a class="btn btn--ghost btn--lg" href="/technologie/">Prozkoumat technologie</a>
-        </div>
       </div>
       <div class="hero2-visual">
         <picture class="hero2-pic">
@@ -1794,6 +1790,10 @@ function heroBanner() {
         </picture>
       </div>
       <ul class="hero2-cards">${cats}</ul>
+      <div class="hero2-cta">
+        <a class="btn btn--gold btn--lg" href="/nastroje/poradce/">Najít řešení pro můj problém <span aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost btn--lg" href="/technologie/">Prozkoumat technologie</a>
+      </div>
     </div>
     <div class="hero2-trust"><div class="container hero2-trust-inner">
       <span class="h2t-lead">Proč nám můžete věřit</span>

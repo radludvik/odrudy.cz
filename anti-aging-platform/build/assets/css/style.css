@@ -90,8 +90,8 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 
 /* ---------- Homepage hero banner ---------- */
 .hero2{position:relative;background:linear-gradient(155deg,var(--porcelain) 0%,var(--ivory) 100%);border-bottom:1px solid var(--line);overflow:hidden}
-.hero2-inner{position:relative;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);gap:56px;align-items:center;padding:56px 0 52px}
-.hero2-copy{max-width:600px}
+.hero2-inner{position:relative;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);grid-template-rows:auto auto;column-gap:56px;row-gap:0;align-content:center;padding:56px 0 52px}
+.hero2-copy{grid-column:1;grid-row:1;align-self:end;max-width:600px}
 .hero2 .eyebrow{margin-bottom:1.1rem}
 .hero2-title{font-size:clamp(2.1rem,3.6vw,3.35rem);line-height:1.07;letter-spacing:.004em;margin:0 0 1.25rem}
 .hero2-title .g{color:var(--gold-deep)}
@@ -102,15 +102,15 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 .hero2-usp .u-ic svg{width:22px;height:22px}
 .hero2-usp .u-tx{font-size:.86rem;color:var(--ink-soft);line-height:1.45}
 .hero2-usp b{display:block;font-size:.97rem;color:var(--ink);font-weight:600;margin-bottom:.15rem;font-family:var(--sans)}
-.hero2-cta{display:flex;flex-wrap:wrap;gap:13px}
+.hero2-cta{grid-column:1;grid-row:2;align-self:start;display:flex;flex-wrap:wrap;gap:13px;margin-top:2rem}
 .btn--gold{background:var(--gold);color:#fff;box-shadow:0 8px 22px rgba(176,141,87,.26)}
 .btn--gold:hover{background:var(--gold-deep);color:#fff}
 .btn--lg{padding:15px 26px;font-size:1rem}
 
-.hero2-visual{position:relative;grid-column:2;grid-row:1;align-self:stretch;min-height:480px}
+.hero2-visual{position:relative;grid-column:2;grid-row:1 / span 2;align-self:stretch;min-height:520px}
 .hero2-pic{display:block;width:100%;height:100%}
-.hero2-photo{display:block;width:100%;height:100%;max-height:600px;object-fit:cover;object-position:52% 20%;border-radius:22px;box-shadow:0 30px 64px rgba(42,39,35,.16)}
-.hero2-cards{list-style:none;margin:0;padding:0;grid-column:2;grid-row:1;align-self:center;justify-self:end;margin-right:14px;display:flex;flex-direction:column;gap:11px;width:min(64%,292px);z-index:2}
+.hero2-photo{display:block;width:100%;height:100%;max-height:620px;object-fit:cover;object-position:52% 20%;border-radius:22px;box-shadow:0 30px 64px rgba(42,39,35,.16)}
+.hero2-cards{list-style:none;margin:0;padding:0;grid-column:2;grid-row:1 / span 2;align-self:center;justify-self:end;margin-right:14px;display:flex;flex-direction:column;gap:11px;width:min(64%,292px);z-index:2}
 .hc{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:15px;background:rgba(28,23,18,.42);backdrop-filter:blur(10px) saturate(150%);-webkit-backdrop-filter:blur(10px) saturate(150%);border:1px solid rgba(255,255,255,.2);color:#fff;transition:background .2s,transform .2s}
 .hc:hover{background:rgba(28,23,18,.62);transform:translateX(-3px);color:#fff}
 .hc-ic{flex:none;width:34px;height:34px;border-radius:9px;border:1px solid rgba(255,255,255,.34);display:grid;place-items:center}
@@ -129,28 +129,44 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 .h2t-list .t-ic{flex:none;width:30px;height:30px;border-radius:50%;border:1px solid var(--sand);background:var(--white);display:grid;place-items:center;color:var(--gold-deep)}
 .h2t-list .t-ic svg{width:16px;height:16px}
 
-@media(max-width:960px){
-  .hero2-inner{grid-template-columns:1fr;gap:26px;padding:44px 0 40px}
-  .hero2-copy{max-width:none}
+/* Tablet: čistě naskládané pod sebou */
+@media(max-width:960px) and (min-width:641px){
+  .hero2-inner{grid-template-columns:1fr;grid-template-rows:none;row-gap:26px;padding:44px 0 40px}
+  .hero2-copy{grid-column:1;grid-row:auto;align-self:auto;max-width:none}
+  .hero2-cta{grid-column:1;grid-row:auto;align-self:auto;margin-top:0}
   .hero2-visual{grid-column:1;grid-row:auto;align-self:auto;min-height:0}
-  .hero2-photo{height:auto;aspect-ratio:3/4;max-height:520px}
-  /* Kategorie přejdou z překryvu na běžný sloupec pod fotkou */
+  .hero2-photo{height:auto;aspect-ratio:16/10;max-height:440px;object-position:52% 24%}
   .hero2-cards{grid-column:1;grid-row:auto;align-self:auto;justify-self:auto;margin-right:0;width:100%;gap:10px}
-}
-@media(max-width:640px){
-  .hero2-inner{gap:20px;padding:34px 0 30px}
-  .hero2-usp{display:none}
-  .hero2-cta{flex-direction:column}
-  .hero2-cta .btn{width:100%;justify-content:center}
-  .hero2-photo{aspect-ratio:4/5;max-height:none;border-radius:18px}
-  /* Kategorie: čitelný světlý seznam pod fotkou, bez překryvu */
-  .hero2-cards{gap:9px}
   .hc{background:var(--white);border:1px solid var(--line);color:var(--ink);box-shadow:var(--shadow)}
   .hc:hover{background:var(--white);color:var(--ink);transform:none}
   .hc-ic{border-color:var(--sand);color:var(--gold-deep)}
-  .hc b{color:var(--ink)}
-  .hc-sub{color:var(--ink-soft);opacity:1}
+  .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
   .hc-arr{display:block;color:var(--gold-deep)}
+}
+/* Telefon: text a karty přímo přes fotku (full-bleed pozadí) */
+@media(max-width:640px){
+  .hero2{overflow:hidden}
+  .hero2-inner{display:block;position:relative;padding:0}
+  .hero2-visual{position:absolute;inset:0;z-index:0;min-height:0;margin:0}
+  .hero2-pic{height:100%}
+  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:74% 16%;box-shadow:none}
+  /* Zesvětlovací závoj: vlevo krycí, vpravo průhledný (žena prosvítá), dole jemné ztmavení pro tlačítka */
+  .hero2-visual::after{content:'';position:absolute;inset:0;pointer-events:none;background:
+    linear-gradient(102deg,var(--porcelain) 2%,rgba(251,250,247,.72) 34%,rgba(251,250,247,.12) 62%,rgba(251,250,247,0) 82%),
+    linear-gradient(0deg,var(--porcelain) 1%,rgba(251,250,247,.55) 14%,rgba(251,250,247,0) 34%)}
+  .hero2-copy{position:relative;z-index:2;grid-column:auto;grid-row:auto;max-width:none;padding:30px 20px 0}
+  .hero2 .eyebrow{margin-bottom:.7rem}
+  .hero2-title{font-size:clamp(1.95rem,8vw,2.55rem);line-height:1.08;margin-bottom:.9rem;text-shadow:0 1px 10px rgba(251,250,247,.55)}
+  .hero2-lead{font-size:1.02rem;line-height:1.5;margin-bottom:1.2rem;max-width:20em;text-shadow:0 1px 8px rgba(251,250,247,.65)}
+  .hero2-usp{display:none}
+  .hero2-cards{position:relative;z-index:2;grid-column:auto;grid-row:auto;align-self:auto;justify-self:auto;width:auto;margin:0;padding:0 20px;gap:8px}
+  .hc{background:rgba(255,255,255,.8);backdrop-filter:blur(9px) saturate(150%);-webkit-backdrop-filter:blur(9px) saturate(150%);border:1px solid rgba(255,255,255,.75);box-shadow:0 6px 20px rgba(42,39,35,.12);color:var(--ink)}
+  .hc:hover{background:rgba(255,255,255,.9);color:var(--ink);transform:none}
+  .hc-ic{border-color:var(--sand);color:var(--gold-deep)}
+  .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
+  .hc-arr{display:block;color:var(--gold-deep)}
+  .hero2-cta{position:relative;z-index:2;grid-column:auto;grid-row:auto;flex-direction:column;gap:11px;margin:0;padding:18px 20px 26px}
+  .hero2-cta .btn{width:100%;justify-content:center}
   .hero2-trust-inner{padding:16px 0}
   .h2t-list{gap:10px 20px}
 }
