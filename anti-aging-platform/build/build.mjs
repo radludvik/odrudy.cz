@@ -1539,6 +1539,35 @@ function listingIntro(type) {
  * ------------------------------------------------------------------------- */
 function pick(type, n) { return entitiesByType(type).slice(0, n); }
 
+/* Trust bar — benefity pro návštěvníka: „Co mi tento web přinese?" (ne vlastnosti webu).
+   Desktop: 4 stejné sloupce. Mobil: horizontální carousel s tečkami. Karty jsou klikací. */
+function trustBar() {
+  const TI = {
+    tailor: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="20" r="13"/><circle cx="20" cy="20" r="6.5"/><circle cx="20" cy="20" r="1.5" fill="currentColor" stroke="none"/></svg>',
+    product: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="14.5" y="15" width="11" height="17" rx="3"/><path d="M17.5 15v-2.5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1V15"/><path d="M17.5 21h5"/></svg>',
+    science: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="8.5"/><path d="M24 24l6 6"/><path d="M14.4 18l2.3 2.3 4.4-4.7"/></svg>',
+    routine: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13h13M18 20h13M18 27h13"/><path d="M9 12.3l1.4 1.4L13 11"/><path d="M9 19.3l1.4 1.4L13 18"/><path d="M9 26.3l1.4 1.4L13 25"/></svg>',
+  };
+  const items = [
+    { href: '/nastroje/poradce/', icon: 'tailor', title: 'Najděte péči na míru', desc: 'Podle věku, typu pleti a konkrétního problému.' },
+    { href: '/produkty/', icon: 'product', title: 'Vyberte správné produkty', desc: 'Porovnejte kosmetiku, technologie i doplňky stravy na jednom místě.' },
+    { href: '/ingredience/', icon: 'science', title: 'Zjistěte, co má skutečně smysl', desc: 'Srozumitelně vysvětlené ingredience, technologie a postupy podle současných vědeckých poznatků.' },
+    { href: '/rutiny/', icon: 'routine', title: 'Sestavte si funkční rutinu', desc: 'Praktická doporučení a kombinace produktů pro dlouhodobou péči o pleť.' },
+  ];
+  const cards = items.map((it) => `<a class="trust-card" href="${it.href}">
+      <span class="trust-icon">${TI[it.icon]}</span>
+      <span class="trust-title">${esc(it.title)}</span>
+      <span class="trust-desc">${esc(it.desc)}</span>
+    </a>`).join('');
+  const dots = items.map((_, i) => `<span${i === 0 ? ' class="is-active"' : ''}></span>`).join('');
+  return `<section class="trustbar" aria-label="Co vám platforma přinese"><div class="container">
+    <div class="trust-track" id="trustTrack">${cards}</div>
+    <div class="trust-dots" id="trustDots" aria-hidden="true">${dots}</div>
+  </div>
+  <script>(function(){var t=document.getElementById('trustTrack'),d=document.getElementById('trustDots');if(!t||!d)return;var dots=d.children;function upd(){var f=t.firstElementChild;if(!f)return;var w=f.getBoundingClientRect().width+14;var i=Math.round(t.scrollLeft/w);for(var k=0;k<dots.length;k++)dots[k].classList.toggle('is-active',k===i);}t.addEventListener('scroll',upd,{passive:true});for(var k=0;k<dots.length;k++)(function(k){dots[k].addEventListener('click',function(){var c=t.children[k];if(c)t.scrollTo({left:c.offsetLeft-t.offsetLeft,behavior:'smooth'});});})(k);})();</script>
+  </section>`;
+}
+
 function homepage() {
   const featTech = pick('technology', 3).map(entityCard).join('');
   const featIng = pick('ingredient', 4).map(entityCard).join('');
@@ -1593,6 +1622,8 @@ function homepage() {
       </div>
     </div>
   </section>
+
+  ${trustBar()}
 
   <section class="section"><div class="container">
     <div class="sec-head"><span class="eyebrow">Inteligentní nástroje</span><h2>Najděte si péči na míru</h2></div>

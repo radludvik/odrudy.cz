@@ -633,3 +633,32 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .listing-hero.has-banner{padding:0 0 40px;position:relative}
 .listing-banner{width:100%;max-height:280px;overflow:hidden;border-bottom:1px solid var(--line);margin-bottom:36px;line-height:0}
 .listing-banner img{width:100%;height:100%;max-height:280px;object-fit:cover}
+
+/* ---------------------------------------------------------------------------
+ * Trust bar — benefity pro návštěvníka (co web přinese). Prémiový minimalismus.
+ * ------------------------------------------------------------------------- */
+.trustbar{border-bottom:1px solid var(--line);background:var(--porcelain)}
+.trustbar>.container{padding-top:34px;padding-bottom:34px}
+.trust-track{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust-card{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.2rem;padding:12px 26px;color:var(--ink);border-radius:var(--radius);transition:transform .22s ease,box-shadow .22s ease}
+.trust-track>.trust-card + .trust-card{border-left:1px solid var(--line)}
+.trust-icon{display:inline-flex;color:var(--gold-deep);transition:color .22s ease}
+.trust-icon svg{width:34px;height:34px}
+.trust-title{font-family:var(--serif);font-size:1.16rem;font-weight:500;line-height:1.2;margin-top:.6rem}
+.trust-desc{font-size:.9rem;color:var(--ink-soft);line-height:1.55;max-width:26ch}
+.trust-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);color:var(--ink)}
+.trust-card:hover .trust-icon{color:var(--gold)}
+.trust-dots{display:none}
+
+@media(max-width:720px){
+  .trustbar>.container{padding-top:26px;padding-bottom:28px;overflow:hidden}
+  .trust-track{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin:0 -8px;padding:6px 8px 2px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .trust-track::-webkit-scrollbar{display:none}
+  .trust-card{flex:0 0 82%;scroll-snap-align:center;align-items:flex-start;text-align:left;border:1px solid var(--line);background:#fff;padding:22px 24px}
+  .trust-track>.trust-card + .trust-card{border-left:1px solid var(--line)}
+  .trust-desc{max-width:none}
+  .trust-dots{display:flex;justify-content:center;gap:8px;margin-top:16px}
+  .trust-dots span{width:7px;height:7px;border-radius:50%;background:var(--sand);transition:.2s;cursor:pointer}
+  .trust-dots span.is-active{background:var(--gold-deep);transform:scale(1.2)}
+}
+@media(prefers-reduced-motion:reduce){.trust-card{transition:none}.trust-card:hover{transform:none}.trust-dots span{transition:none}}
