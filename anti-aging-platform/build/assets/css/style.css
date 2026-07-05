@@ -153,21 +153,21 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
   /* Fotka jako celoplošné pozadí */
   .hero2-visual{position:absolute;inset:0;z-index:0;min-height:0;margin:0}
   .hero2-pic{height:100%}
-  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:8% 4%;box-shadow:none}
+  .hero2-photo{width:100%;height:100%;max-height:none;border-radius:0;object-fit:cover;object-position:50% 6%;box-shadow:none}
   /* Velmi lehký závoj vlevo (jen pod titulkem) + jemně dole pod tlačítky; obličej vpravo ostrý */
   .hero2-visual::after{content:'';position:absolute;inset:0;pointer-events:none;background:
-    linear-gradient(98deg,rgba(251,250,247,.8) 0%,rgba(251,250,247,.44) 28%,rgba(251,250,247,0) 52%),
-    linear-gradient(0deg,rgba(251,250,247,.62) 0%,rgba(251,250,247,0) 20%)}
+    linear-gradient(98deg,rgba(251,250,247,.72) 0%,rgba(251,250,247,.36) 30%,rgba(251,250,247,0) 56%),
+    linear-gradient(0deg,rgba(251,250,247,.6) 0%,rgba(251,250,247,0) 20%)}
   .hero2-copy{position:relative;z-index:2;max-width:none;padding:26px 20px 0}
   .hero2 .eyebrow{margin-bottom:.6rem}
-  .hero2-title{font-size:clamp(1.6rem,6.8vw,2.25rem);line-height:1.1;margin-bottom:.8rem;max-width:7em}
-  .hero2-lead{font-size:.97rem;line-height:1.48;margin-bottom:0;max-width:9.5em}
+  .hero2-title{font-size:clamp(1.65rem,7vw,2.3rem);line-height:1.1;margin-bottom:.8rem;max-width:8.4em}
+  .hero2-lead{font-size:.97rem;line-height:1.48;margin-bottom:0;max-width:12em}
   .hero2-usp{display:none}
-  /* Karty kategorií — prosklené, vlevo, smí lehce přesahovat přes ruku/rameno */
+  /* Karty kategorií — hodně prosklené, vlevo, smí lehce přesahovat přes ruku/rameno */
   .hero2-cards{position:relative;z-index:2;width:auto;margin:0;padding:14px 20px 0;gap:8px}
-  .hc{background:rgba(255,255,255,.72);backdrop-filter:blur(12px) saturate(160%);-webkit-backdrop-filter:blur(12px) saturate(160%);border:1px solid rgba(255,255,255,.7);box-shadow:0 6px 18px rgba(42,39,35,.12);color:var(--ink)}
-  .hc:hover{background:rgba(255,255,255,.85);color:var(--ink);transform:none}
-  .hc-ic{border-color:var(--sand);color:var(--gold-deep);background:rgba(255,255,255,.5)}
+  .hc{background:rgba(255,255,255,.55);backdrop-filter:blur(14px) saturate(170%);-webkit-backdrop-filter:blur(14px) saturate(170%);border:1px solid rgba(255,255,255,.6);box-shadow:0 6px 18px rgba(42,39,35,.1);color:var(--ink)}
+  .hc:hover{background:rgba(255,255,255,.72);color:var(--ink);transform:none}
+  .hc-ic{border-color:rgba(255,255,255,.7);color:var(--gold-deep);background:rgba(255,255,255,.45)}
   .hc b{color:var(--ink)}.hc-sub{color:var(--ink-soft);opacity:1}
   .hc-arr{display:block;color:var(--gold-deep)}
   /* CTA — plná šířka, přes spodek fotky */
