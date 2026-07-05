@@ -827,8 +827,12 @@ function recommendPicks(e) {
   const sc = (p) => (p.scores && p.scores.overall ? p.scores.overall.score : 0);
   const pot = (p) => (p.scores && (p.scores.potency || p.scores.quality) ? (p.scores.potency || p.scores.quality).score : 0);
   const priceNum = (p) => { const m = String(p.price || '').replace(/\s/g, '').match(/\d+/); return m ? +m[0] : Infinity; };
+  // Kurátorské výběry počítáme jen z ohodnocených produktů; neohodnocené (nově
+  // doplněné přístroje) zůstávají v databázi a v CTA, ale netvoří prázdné karty.
+  const rated = pool.filter((p) => sc(p) > 0);
+  const pickPool = rated.length ? rated : pool;
   const seen = new Set();
-  const take = (fn, filter) => { const p = [...pool].filter((x) => !seen.has(x.slug) && (!filter || filter(x))).sort(fn)[0]; if (p) seen.add(p.slug); return p; };
+  const take = (fn, filter) => { const p = [...pickPool].filter((x) => !seen.has(x.slug) && (!filter || filter(x))).sort(fn)[0]; if (p) seen.add(p.slug); return p; };
   const chosen = {
     best: take((a, b) => sc(b) - sc(a)),
     value: take((a, b) => (sc(b) / Math.max(1, priceNum(b))) - (sc(a) / Math.max(1, priceNum(a)))),

@@ -27038,7 +27038,8 @@
     "affiliate": [],
     "relations": {
       "technologies": [
-        "led-terapie"
+        "led-terapie",
+        "near-infrared"
       ],
       "problems": [
         "jemne-vrasky",
@@ -27053,7 +27054,11 @@
         "40-plus",
         "50-plus"
       ]
-    }
+    },
+    "technologies": [
+      "led-terapie",
+      "near-infrared"
+    ]
   },
   {
     "id": "prod-refa-carat-microcurrent-roller",
@@ -28686,7 +28691,10 @@
         "30-plus",
         "40-plus"
       ]
-    }
+    },
+    "technologies": [
+      "domaci-laser"
+    ]
   },
   {
     "id": "prod-lyma-laser-pro",
@@ -34318,7 +34326,10 @@
         "20-plus",
         "30-plus"
       ]
-    }
+    },
+    "technologies": [
+      "galvanicka-pece"
+    ]
   },
   {
     "id": "prod-silk-n-bright",
@@ -37536,6 +37547,2198 @@
       "ageGroups": [
         "50-plus",
         "60-plus"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-201",
+    "slug": "foreo-faq-201",
+    "type": "product",
+    "name": "FOREO FAQ™ 201",
+    "title": "FOREO FAQ™ 201 | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ 201 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ 201",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ]
+    }
+  },
+  {
+    "id": "prod-silk-n-led-face-mask-pro",
+    "slug": "silk-n-led-face-mask-pro",
+    "type": "product",
+    "name": "Silk’n LED Face Mask PRO",
+    "title": "Silk’n LED Face Mask PRO | antiagelab.cz",
+    "metaDescription": "Silk’n LED Face Mask PRO — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Silk’n LED Face Mask PRO",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "Silk’n",
+    "manufacturer": "Silk’n",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ]
+    }
+  },
+  {
+    "id": "prod-rio-facelite-evolution-fclt2",
+    "slug": "rio-facelite-evolution-fclt2",
+    "type": "product",
+    "name": "RIO Facelite Evolution FCLT2",
+    "title": "RIO Facelite Evolution FCLT2 | antiagelab.cz",
+    "metaDescription": "RIO Facelite Evolution FCLT2 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "RIO Facelite Evolution FCLT2",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "RIO",
+    "manufacturer": "RIO",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie",
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie",
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-jovs-4d-v2",
+    "slug": "jovs-4d-v2",
+    "type": "product",
+    "name": "JOVS 4D v2",
+    "title": "JOVS 4D v2 | antiagelab.cz",
+    "metaDescription": "JOVS 4D v2 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "JOVS 4D v2",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "JOVS",
+    "manufacturer": "JOVS",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie",
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie",
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-therabody-theraface-mask",
+    "slug": "therabody-theraface-mask",
+    "type": "product",
+    "name": "Therabody TheraFace Mask",
+    "title": "Therabody TheraFace Mask | antiagelab.cz",
+    "metaDescription": "Therabody TheraFace Mask — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Therabody TheraFace Mask",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "Therabody",
+    "manufacturer": "Therabody",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie",
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie",
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-palsar7-ultimate-3d-photon-led-mask",
+    "slug": "palsar7-ultimate-3d-photon-led-mask",
+    "type": "product",
+    "name": "PALSAR7 Ultimate 3D Photon LED Mask",
+    "title": "PALSAR7 Ultimate 3D Photon LED Mask | antiagelab.cz",
+    "metaDescription": "PALSAR7 Ultimate 3D Photon LED Mask — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "PALSAR7 Ultimate 3D Photon LED Mask",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "PALSAR7",
+    "manufacturer": "PALSAR7",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-aura-novaskin-pro",
+    "slug": "beautifly-aura-novaskin-pro",
+    "type": "product",
+    "name": "Beautifly Aura NovaSkin Pro",
+    "title": "Beautifly Aura NovaSkin Pro | antiagelab.cz",
+    "metaDescription": "Beautifly Aura NovaSkin Pro — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly Aura NovaSkin Pro",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ]
+    }
+  },
+  {
+    "id": "prod-innogio-gioperfect-gio-780",
+    "slug": "innogio-gioperfect-gio-780",
+    "type": "product",
+    "name": "innoGIO GIOperfect GIO-780",
+    "title": "innoGIO GIOperfect GIO-780 | antiagelab.cz",
+    "metaDescription": "innoGIO GIOperfect GIO-780 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "innoGIO GIOperfect GIO-780",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "innoGIO",
+    "manufacturer": "innoGIO",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie",
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie",
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-garett-beauty-skin-ritual-face-neck",
+    "slug": "garett-beauty-skin-ritual-face-neck",
+    "type": "product",
+    "name": "Garett Beauty Skin Ritual Face&Neck",
+    "title": "Garett Beauty Skin Ritual Face&Neck | antiagelab.cz",
+    "metaDescription": "Garett Beauty Skin Ritual Face&Neck — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Garett Beauty Skin Ritual Face&Neck",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "Garett",
+    "manufacturer": "Garett",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "led-terapie"
+    ],
+    "relations": {
+      "technologies": [
+        "led-terapie"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-502",
+    "slug": "foreo-faq-502",
+    "type": "product",
+    "name": "FOREO FAQ™ 502",
+    "title": "FOREO FAQ™ 502 | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ 502 — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ 502",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-silk-n-dual-led-set",
+    "slug": "silk-n-dual-led-set",
+    "type": "product",
+    "name": "Silk’n Dual LED Set",
+    "title": "Silk’n Dual LED Set | antiagelab.cz",
+    "metaDescription": "Silk’n Dual LED Set — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Silk’n Dual LED Set",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "Silk’n",
+    "manufacturer": "Silk’n",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-led-panel",
+    "slug": "foreo-faq-led-panel",
+    "type": "product",
+    "name": "FOREO FAQ™ LED Panel",
+    "title": "FOREO FAQ™ LED Panel | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ LED Panel — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ LED Panel",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-dual-led-panel",
+    "slug": "foreo-faq-dual-led-panel",
+    "type": "product",
+    "name": "FOREO FAQ™ Dual LED Panel",
+    "title": "FOREO FAQ™ Dual LED Panel | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ Dual LED Panel — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ Dual LED Panel",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-palsar7-led-mask-face-neck",
+    "slug": "palsar7-led-mask-face-neck",
+    "type": "product",
+    "name": "PALSAR7 LED Mask Face & Neck",
+    "title": "PALSAR7 LED Mask Face & Neck | antiagelab.cz",
+    "metaDescription": "PALSAR7 LED Mask Face & Neck — Domácí LED maska pro světelnou terapii pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "PALSAR7 LED Mask Face & Neck",
+    "excerpt": "Domácí LED maska pro světelnou terapii pleti. Redakční hodnocení připravujeme.",
+    "brand": "PALSAR7",
+    "manufacturer": "PALSAR7",
+    "category": "led-masky",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "near-infrared"
+    ],
+    "relations": {
+      "technologies": [
+        "near-infrared"
+      ]
+    }
+  },
+  {
+    "id": "prod-philips-lumea-series-9900-bri977-00",
+    "slug": "philips-lumea-series-9900-bri977-00",
+    "type": "product",
+    "name": "Philips Lumea Series 9900 BRI977/00",
+    "title": "Philips Lumea Series 9900 BRI977/00 | antiagelab.cz",
+    "metaDescription": "Philips Lumea Series 9900 BRI977/00 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Philips Lumea Series 9900 BRI977/00",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Philips",
+    "manufacturer": "Philips",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-philips-lumea-9900-skinai-bri950-01",
+    "slug": "philips-lumea-9900-skinai-bri950-01",
+    "type": "product",
+    "name": "Philips Lumea 9900 SkinAI BRI950/01",
+    "title": "Philips Lumea 9900 SkinAI BRI950/01 | antiagelab.cz",
+    "metaDescription": "Philips Lumea 9900 SkinAI BRI950/01 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Philips Lumea 9900 SkinAI BRI950/01",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Philips",
+    "manufacturer": "Philips",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-philips-lumea-8000-bri940-00",
+    "slug": "philips-lumea-8000-bri940-00",
+    "type": "product",
+    "name": "Philips Lumea 8000 BRI940/00",
+    "title": "Philips Lumea 8000 BRI940/00 | antiagelab.cz",
+    "metaDescription": "Philips Lumea 8000 BRI940/00 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Philips Lumea 8000 BRI940/00",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Philips",
+    "manufacturer": "Philips",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-philips-lumea-7000-sc1997-00",
+    "slug": "philips-lumea-7000-sc1997-00",
+    "type": "product",
+    "name": "Philips Lumea 7000 SC1997/00",
+    "title": "Philips Lumea 7000 SC1997/00 | antiagelab.cz",
+    "metaDescription": "Philips Lumea 7000 SC1997/00 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Philips Lumea 7000 SC1997/00",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Philips",
+    "manufacturer": "Philips",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-braun-smart-skin-i-expert-pl7321",
+    "slug": "braun-smart-skin-i-expert-pl7321",
+    "type": "product",
+    "name": "Braun Smart Skin i·expert PL7321",
+    "title": "Braun Smart Skin i·expert PL7321 | antiagelab.cz",
+    "metaDescription": "Braun Smart Skin i·expert PL7321 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Braun Smart Skin i·expert PL7321",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Braun",
+    "manufacturer": "Braun",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-braun-smart-skin-i-expert-ipl7147",
+    "slug": "braun-smart-skin-i-expert-ipl7147",
+    "type": "product",
+    "name": "Braun Smart Skin i·expert IPL7147",
+    "title": "Braun Smart Skin i·expert IPL7147 | antiagelab.cz",
+    "metaDescription": "Braun Smart Skin i·expert IPL7147 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Braun Smart Skin i·expert IPL7147",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Braun",
+    "manufacturer": "Braun",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-braun-silk-expert-pro-5-pl5242",
+    "slug": "braun-silk-expert-pro-5-pl5242",
+    "type": "product",
+    "name": "Braun Silk·expert Pro 5 PL5242",
+    "title": "Braun Silk·expert Pro 5 PL5242 | antiagelab.cz",
+    "metaDescription": "Braun Silk·expert Pro 5 PL5242 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Braun Silk·expert Pro 5 PL5242",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Braun",
+    "manufacturer": "Braun",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-silk-n-infinity-fast",
+    "slug": "silk-n-infinity-fast",
+    "type": "product",
+    "name": "Silk’n Infinity Fast",
+    "title": "Silk’n Infinity Fast | antiagelab.cz",
+    "metaDescription": "Silk’n Infinity Fast — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Silk’n Infinity Fast",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Silk’n",
+    "manufacturer": "Silk’n",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-peach-2",
+    "slug": "foreo-peach-2",
+    "type": "product",
+    "name": "FOREO PEACH™ 2",
+    "title": "FOREO PEACH™ 2 | antiagelab.cz",
+    "metaDescription": "FOREO PEACH™ 2 — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO PEACH™ 2",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-beurer-ipl-10000",
+    "slug": "beurer-ipl-10000",
+    "type": "product",
+    "name": "BEURER IPL 10000+",
+    "title": "BEURER IPL 10000+ | antiagelab.cz",
+    "metaDescription": "BEURER IPL 10000+ — Domácí IPL přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "BEURER IPL 10000+",
+    "excerpt": "Domácí IPL přístroj. Redakční hodnocení připravujeme.",
+    "brand": "BEURER",
+    "manufacturer": "BEURER",
+    "category": "ipl-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ipl"
+    ],
+    "relations": {
+      "technologies": [
+        "ipl"
+      ]
+    }
+  },
+  {
+    "id": "prod-nira-precision",
+    "slug": "nira-precision",
+    "type": "product",
+    "name": "NIRA Precision",
+    "title": "NIRA Precision | antiagelab.cz",
+    "metaDescription": "NIRA Precision — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "NIRA Precision",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "NIRA",
+    "manufacturer": "NIRA",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-nira-pro-pro",
+    "slug": "nira-pro-pro",
+    "type": "product",
+    "name": "NIRA Pro / Pro+",
+    "title": "NIRA Pro / Pro+ | antiagelab.cz",
+    "metaDescription": "NIRA Pro / Pro+ — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "NIRA Pro / Pro+",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "NIRA",
+    "manufacturer": "NIRA",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-nira-pro-3",
+    "slug": "nira-pro-3",
+    "type": "product",
+    "name": "NIRA Pro 3",
+    "title": "NIRA Pro 3 | antiagelab.cz",
+    "metaDescription": "NIRA Pro 3 — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "NIRA Pro 3",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "NIRA",
+    "manufacturer": "NIRA",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-lasemd-ultra",
+    "slug": "lasemd-ultra",
+    "type": "product",
+    "name": "LaseMD Ultra",
+    "title": "LaseMD Ultra | antiagelab.cz",
+    "metaDescription": "LaseMD Ultra — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "LaseMD Ultra",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "LaseMD",
+    "manufacturer": "LaseMD",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-medart-frx-co2-laser",
+    "slug": "medart-frx-co2-laser",
+    "type": "product",
+    "name": "MEDART Frx CO2 Laser",
+    "title": "MEDART Frx CO2 Laser | antiagelab.cz",
+    "metaDescription": "MEDART Frx CO2 Laser — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "MEDART Frx CO2 Laser",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "MEDART",
+    "manufacturer": "MEDART",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-mixel-co2-frakcni-laser",
+    "slug": "mixel-co2-frakcni-laser",
+    "type": "product",
+    "name": "MIXEL CO2 frakční laser",
+    "title": "MIXEL CO2 frakční laser | antiagelab.cz",
+    "metaDescription": "MIXEL CO2 frakční laser — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "MIXEL CO2 frakční laser",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "MIXEL",
+    "manufacturer": "MIXEL",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-slim-evolution-ii-co-mixto-sx-pro",
+    "slug": "slim-evolution-ii-co-mixto-sx-pro",
+    "type": "product",
+    "name": "Slim Evolution II CO₂ MiXto SX PRO",
+    "title": "Slim Evolution II CO₂ MiXto SX PRO | antiagelab.cz",
+    "metaDescription": "Slim Evolution II CO₂ MiXto SX PRO — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Slim Evolution II CO₂ MiXto SX PRO",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "Slim Evolution",
+    "manufacturer": "Slim Evolution",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-eco2-3d-cynosure-lutronic",
+    "slug": "eco2-3d-cynosure-lutronic",
+    "type": "product",
+    "name": "eCO2 3D Cynosure Lutronic",
+    "title": "eCO2 3D Cynosure Lutronic | antiagelab.cz",
+    "metaDescription": "eCO2 3D Cynosure Lutronic — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "eCO2 3D Cynosure Lutronic",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "Cynosure",
+    "manufacturer": "Cynosure",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-mosaic-3d-cynosure-lutronic",
+    "slug": "mosaic-3d-cynosure-lutronic",
+    "type": "product",
+    "name": "Mosaic 3D Cynosure Lutronic",
+    "title": "Mosaic 3D Cynosure Lutronic | antiagelab.cz",
+    "metaDescription": "Mosaic 3D Cynosure Lutronic — Laserové zařízení pro omlazení pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Mosaic 3D Cynosure Lutronic",
+    "excerpt": "Laserové zařízení pro omlazení pleti. Redakční hodnocení připravujeme.",
+    "brand": "Cynosure",
+    "manufacturer": "Cynosure",
+    "category": "domaci-lasery",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "domaci-laser"
+    ],
+    "relations": {
+      "technologies": [
+        "domaci-laser"
+      ]
+    }
+  },
+  {
+    "id": "prod-ultraformer-iii",
+    "slug": "ultraformer-iii",
+    "type": "product",
+    "name": "Ultraformer III",
+    "title": "Ultraformer III | antiagelab.cz",
+    "metaDescription": "Ultraformer III — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Ultraformer III",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Ultraformer",
+    "manufacturer": "Ultraformer",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-medicube-age-r-high-focus-shot",
+    "slug": "medicube-age-r-high-focus-shot",
+    "type": "product",
+    "name": "medicube AGE-R High Focus Shot",
+    "title": "medicube AGE-R High Focus Shot | antiagelab.cz",
+    "metaDescription": "medicube AGE-R High Focus Shot — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "medicube AGE-R High Focus Shot",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "medicube",
+    "manufacturer": "medicube",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-lunafit-7d-ultramax",
+    "slug": "lunafit-7d-ultramax",
+    "type": "product",
+    "name": "Lunafit 7D ULTRAMAX",
+    "title": "Lunafit 7D ULTRAMAX | antiagelab.cz",
+    "metaDescription": "Lunafit 7D ULTRAMAX — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Lunafit 7D ULTRAMAX",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Lunafit",
+    "manufacturer": "Lunafit",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-lunafit-12d-hifu-tt-mptstl",
+    "slug": "lunafit-12d-hifu-tt-mptstl",
+    "type": "product",
+    "name": "Lunafit 12D HIFU TT MPTSTL",
+    "title": "Lunafit 12D HIFU TT MPTSTL | antiagelab.cz",
+    "metaDescription": "Lunafit 12D HIFU TT MPTSTL — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Lunafit 12D HIFU TT MPTSTL",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Lunafit",
+    "manufacturer": "Lunafit",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-hifutherapy-mediswiss",
+    "slug": "hifutherapy-mediswiss",
+    "type": "product",
+    "name": "HIFUtherapy MediSwiss",
+    "title": "HIFUtherapy MediSwiss | antiagelab.cz",
+    "metaDescription": "HIFUtherapy MediSwiss — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "HIFUtherapy MediSwiss",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "HIFUtherapy",
+    "manufacturer": "HIFUtherapy",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-hifutherapy-mediswiss-2",
+    "slug": "hifutherapy-mediswiss-2",
+    "type": "product",
+    "name": "HIFUtherapy MediSwiss (konvenční varianta)",
+    "title": "HIFUtherapy MediSwiss (konvenční varianta) | antiagelab.cz",
+    "metaDescription": "HIFUtherapy MediSwiss — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "HIFUtherapy MediSwiss (konvenční varianta)",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "HIFUtherapy",
+    "manufacturer": "HIFUtherapy",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-nek-hifu-max",
+    "slug": "dr-nek-hifu-max",
+    "type": "product",
+    "name": "Dr.Nek HIFU Max",
+    "title": "Dr.Nek HIFU Max | antiagelab.cz",
+    "metaDescription": "Dr.Nek HIFU Max — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Dr.Nek HIFU Max",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Dr.Nek",
+    "manufacturer": "Dr.Nek",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-hifu-25d-pro-salony",
+    "slug": "hifu-25d-pro-salony",
+    "type": "product",
+    "name": "HIFU 25D pro salony",
+    "title": "HIFU 25D pro salony | antiagelab.cz",
+    "metaDescription": "HIFU 25D pro salony — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "HIFU 25D pro salony",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "HIFU",
+    "manufacturer": "HIFU",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-hifu-twin-attack-professional",
+    "slug": "beautyrelax-hifu-twin-attack-professional",
+    "type": "product",
+    "name": "BeautyRelax HIFU Twin Attack Professional",
+    "title": "BeautyRelax HIFU Twin Attack Professional | antiagelab.cz",
+    "metaDescription": "BeautyRelax HIFU Twin Attack Professional — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax HIFU Twin Attack Professional",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-bodyshape-hifu-tripple-attack-studio",
+    "slug": "beautyrelax-bodyshape-hifu-tripple-attack-studio",
+    "type": "product",
+    "name": "BeautyRelax Bodyshape HIFU Tripple Attack Studio",
+    "title": "BeautyRelax Bodyshape HIFU Tripple Attack Studio | antiagelab.cz",
+    "metaDescription": "BeautyRelax Bodyshape HIFU Tripple Attack Studio — HIFU zařízení pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax Bodyshape HIFU Tripple Attack Studio",
+    "excerpt": "HIFU zařízení pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "hifu-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "hifu"
+    ],
+    "relations": {
+      "technologies": [
+        "hifu"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-103",
+    "slug": "foreo-faq-103",
+    "type": "product",
+    "name": "FOREO FAQ™ 103",
+    "title": "FOREO FAQ™ 103 | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ 103 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ 103",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-medicube-age-r-ultra-tune-40-68",
+    "slug": "medicube-age-r-ultra-tune-40-68",
+    "type": "product",
+    "name": "medicube AGE-R Ultra Tune 40.68",
+    "title": "medicube AGE-R Ultra Tune 40.68 | antiagelab.cz",
+    "metaDescription": "medicube AGE-R Ultra Tune 40.68 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "medicube AGE-R Ultra Tune 40.68",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "medicube",
+    "manufacturer": "medicube",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-rflift-premium-br-2530",
+    "slug": "beautyrelax-rflift-premium-br-2530",
+    "type": "product",
+    "name": "BeautyRelax Rflift Premium BR-2530",
+    "title": "BeautyRelax Rflift Premium BR-2530 | antiagelab.cz",
+    "metaDescription": "BeautyRelax Rflift Premium BR-2530 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax Rflift Premium BR-2530",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-101",
+    "slug": "foreo-faq-101",
+    "type": "product",
+    "name": "FOREO FAQ™ 101",
+    "title": "FOREO FAQ™ 101 | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ 101 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ 101",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-102",
+    "slug": "foreo-faq-102",
+    "type": "product",
+    "name": "FOREO FAQ™ 102",
+    "title": "FOREO FAQ™ 102 | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ 102 — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ 102",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-b-booster-pro",
+    "slug": "beautifly-b-booster-pro",
+    "type": "product",
+    "name": "Beautifly B-Booster Pro",
+    "title": "Beautifly B-Booster Pro | antiagelab.cz",
+    "metaDescription": "Beautifly B-Booster Pro — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly B-Booster Pro",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-skin-wow-shot",
+    "slug": "beautifly-skin-wow-shot",
+    "type": "product",
+    "name": "Beautifly Skin WOW Shot",
+    "title": "Beautifly Skin WOW Shot | antiagelab.cz",
+    "metaDescription": "Beautifly Skin WOW Shot — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly Skin WOW Shot",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-anlan-01-adry51-02a",
+    "slug": "anlan-01-adry51-02a",
+    "type": "product",
+    "name": "ANLAN 01-ADRY51-02A",
+    "title": "ANLAN 01-ADRY51-02A | antiagelab.cz",
+    "metaDescription": "ANLAN 01-ADRY51-02A — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "ANLAN 01-ADRY51-02A",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "ANLAN",
+    "manufacturer": "ANLAN",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-ilwy-facecare",
+    "slug": "ilwy-facecare",
+    "type": "product",
+    "name": "Ilwy FaceCare",
+    "title": "Ilwy FaceCare | antiagelab.cz",
+    "metaDescription": "Ilwy FaceCare — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "Ilwy FaceCare",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "Ilwy",
+    "manufacturer": "Ilwy",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-ludream-silk",
+    "slug": "ludream-silk",
+    "type": "product",
+    "name": "LuDream Silk",
+    "title": "LuDream Silk | antiagelab.cz",
+    "metaDescription": "LuDream Silk — Radiofrekvenční přístroj pro zpevnění pleti. Přehled v databázi antiagelab.cz.",
+    "h1": "LuDream Silk",
+    "excerpt": "Radiofrekvenční přístroj pro zpevnění pleti. Redakční hodnocení připravujeme.",
+    "brand": "LuDream",
+    "manufacturer": "LuDream",
+    "category": "radiofrekvence",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "radiofrekvence"
+    ],
+    "relations": {
+      "technologies": [
+        "radiofrekvence"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-bear-2",
+    "slug": "foreo-bear-2",
+    "type": "product",
+    "name": "FOREO BEAR™ 2",
+    "title": "FOREO BEAR™ 2 | antiagelab.cz",
+    "metaDescription": "FOREO BEAR™ 2 — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO BEAR™ 2",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-faq-401",
+    "slug": "foreo-faq-401",
+    "type": "product",
+    "name": "FOREO FAQ™ 401",
+    "title": "FOREO FAQ™ 401 | antiagelab.cz",
+    "metaDescription": "FOREO FAQ™ 401 — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO FAQ™ 401",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-medicube-age-r-booster-pro",
+    "slug": "medicube-age-r-booster-pro",
+    "type": "product",
+    "name": "medicube AGE-R Booster Pro",
+    "title": "medicube AGE-R Booster Pro | antiagelab.cz",
+    "metaDescription": "medicube AGE-R Booster Pro — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "medicube AGE-R Booster Pro",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "medicube",
+    "manufacturer": "medicube",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-bear-2-go",
+    "slug": "foreo-bear-2-go",
+    "type": "product",
+    "name": "FOREO BEAR™ 2 go",
+    "title": "FOREO BEAR™ 2 go | antiagelab.cz",
+    "metaDescription": "FOREO BEAR™ 2 go — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO BEAR™ 2 go",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-foreo-bear-2-eyes-lips",
+    "slug": "foreo-bear-2-eyes-lips",
+    "type": "product",
+    "name": "FOREO BEAR™ 2 eyes & lips",
+    "title": "FOREO BEAR™ 2 eyes & lips | antiagelab.cz",
+    "metaDescription": "FOREO BEAR™ 2 eyes & lips — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "FOREO BEAR™ 2 eyes & lips",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "FOREO",
+    "manufacturer": "FOREO",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-jovs-ems-lifting-mask",
+    "slug": "jovs-ems-lifting-mask",
+    "type": "product",
+    "name": "JOVS EMS Lifting Mask",
+    "title": "JOVS EMS Lifting Mask | antiagelab.cz",
+    "metaDescription": "JOVS EMS Lifting Mask — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "JOVS EMS Lifting Mask",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "JOVS",
+    "manufacturer": "JOVS",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-silk-n-led-ems-mask",
+    "slug": "silk-n-led-ems-mask",
+    "type": "product",
+    "name": "Silk’n LED&EMS Mask",
+    "title": "Silk’n LED&EMS Mask | antiagelab.cz",
+    "metaDescription": "Silk’n LED&EMS Mask — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "Silk’n LED&EMS Mask",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "Silk’n",
+    "manufacturer": "Silk’n",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-geske-microcurrent-face-lift-pen-6v1",
+    "slug": "geske-microcurrent-face-lift-pen-6v1",
+    "type": "product",
+    "name": "GESKE MicroCurrent Face Lift Pen 6v1",
+    "title": "GESKE MicroCurrent Face Lift Pen 6v1 | antiagelab.cz",
+    "metaDescription": "GESKE MicroCurrent Face Lift Pen 6v1 — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "GESKE MicroCurrent Face Lift Pen 6v1",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "GESKE",
+    "manufacturer": "GESKE",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-eta-fenite-4353-90000",
+    "slug": "eta-fenite-4353-90000",
+    "type": "product",
+    "name": "ETA Fenité 4353 90000",
+    "title": "ETA Fenité 4353 90000 | antiagelab.cz",
+    "metaDescription": "ETA Fenité 4353 90000 — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "ETA Fenité 4353 90000",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "ETA",
+    "manufacturer": "ETA",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems",
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems",
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-ilift-smart",
+    "slug": "beautyrelax-ilift-smart",
+    "type": "product",
+    "name": "BeautyRelax iLift Smart",
+    "title": "BeautyRelax iLift Smart | antiagelab.cz",
+    "metaDescription": "BeautyRelax iLift Smart — Microcurrent / EMS přístroj pro tonizaci obličeje. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax iLift Smart",
+    "excerpt": "Microcurrent / EMS přístroj pro tonizaci obličeje. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "microcurrent",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microcurrent",
+      "ems"
+    ],
+    "relations": {
+      "technologies": [
+        "microcurrent",
+        "ems"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-pen-dermapen-a6-ultima",
+    "slug": "dr-pen-dermapen-a6-ultima",
+    "type": "product",
+    "name": "Dr. Pen Dermapen A6 Ultima",
+    "title": "Dr. Pen Dermapen A6 Ultima | antiagelab.cz",
+    "metaDescription": "Dr. Pen Dermapen A6 Ultima — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Dr. Pen Dermapen A6 Ultima",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Dr. Pen",
+    "manufacturer": "Dr. Pen",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-pen-ultima-m8",
+    "slug": "dr-pen-ultima-m8",
+    "type": "product",
+    "name": "Dr. Pen Ultima M8",
+    "title": "Dr. Pen Ultima M8 | antiagelab.cz",
+    "metaDescription": "Dr. Pen Ultima M8 — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Dr. Pen Ultima M8",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Dr. Pen",
+    "manufacturer": "Dr. Pen",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-skinrenew-pro",
+    "slug": "beautifly-skinrenew-pro",
+    "type": "product",
+    "name": "Beautifly SkinRenew Pro",
+    "title": "Beautifly SkinRenew Pro | antiagelab.cz",
+    "metaDescription": "Beautifly SkinRenew Pro — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly SkinRenew Pro",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-pen-m5-w",
+    "slug": "dr-pen-m5-w",
+    "type": "product",
+    "name": "Dr. Pen M5-W",
+    "title": "Dr. Pen M5-W | antiagelab.cz",
+    "metaDescription": "Dr. Pen M5-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Dr. Pen M5-W",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Dr. Pen",
+    "manufacturer": "Dr. Pen",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-pen-m7-w",
+    "slug": "dr-pen-m7-w",
+    "type": "product",
+    "name": "Dr. Pen M7-W",
+    "title": "Dr. Pen M7-W | antiagelab.cz",
+    "metaDescription": "Dr. Pen M7-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Dr. Pen M7-W",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Dr. Pen",
+    "manufacturer": "Dr. Pen",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-pen-n2-w",
+    "slug": "dr-pen-n2-w",
+    "type": "product",
+    "name": "Dr. Pen N2-W",
+    "title": "Dr. Pen N2-W | antiagelab.cz",
+    "metaDescription": "Dr. Pen N2-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Dr. Pen N2-W",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Dr. Pen",
+    "manufacturer": "Dr. Pen",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-dr-pen-ultima-a1-w",
+    "slug": "dr-pen-ultima-a1-w",
+    "type": "product",
+    "name": "Dr. Pen Ultima A1-W",
+    "title": "Dr. Pen Ultima A1-W | antiagelab.cz",
+    "metaDescription": "Dr. Pen Ultima A1-W — Microneedling přístroj (dermapen). Přehled v databázi antiagelab.cz.",
+    "h1": "Dr. Pen Ultima A1-W",
+    "excerpt": "Microneedling přístroj (dermapen). Redakční hodnocení připravujeme.",
+    "brand": "Dr. Pen",
+    "manufacturer": "Dr. Pen",
+    "category": "microneedling-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-geske-microneedle-roller",
+    "slug": "geske-microneedle-roller",
+    "type": "product",
+    "name": "GESKE MicroNeedle roller",
+    "title": "GESKE MicroNeedle roller | antiagelab.cz",
+    "metaDescription": "GESKE MicroNeedle roller — Dermaroller pro microneedling. Přehled v databázi antiagelab.cz.",
+    "h1": "GESKE MicroNeedle roller",
+    "excerpt": "Dermaroller pro microneedling. Redakční hodnocení připravujeme.",
+    "brand": "GESKE",
+    "manufacturer": "GESKE",
+    "category": "dermaroller",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-zoe-ayla-micro-needling-derma-roller-set",
+    "slug": "zoe-ayla-micro-needling-derma-roller-set",
+    "type": "product",
+    "name": "Zoë Ayla Micro-Needling Derma Roller Set",
+    "title": "Zoë Ayla Micro-Needling Derma Roller Set | antiagelab.cz",
+    "metaDescription": "Zoë Ayla Micro-Needling Derma Roller Set — Dermaroller pro microneedling. Přehled v databázi antiagelab.cz.",
+    "h1": "Zoë Ayla Micro-Needling Derma Roller Set",
+    "excerpt": "Dermaroller pro microneedling. Redakční hodnocení připravujeme.",
+    "brand": "Zoë Ayla",
+    "manufacturer": "Zoë Ayla",
+    "category": "dermaroller",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-akiyro-microneedle-derma-roller",
+    "slug": "akiyro-microneedle-derma-roller",
+    "type": "product",
+    "name": "Akiyro Microneedle Derma Roller",
+    "title": "Akiyro Microneedle Derma Roller | antiagelab.cz",
+    "metaDescription": "Akiyro Microneedle Derma Roller — Dermaroller pro microneedling. Přehled v databázi antiagelab.cz.",
+    "h1": "Akiyro Microneedle Derma Roller",
+    "excerpt": "Dermaroller pro microneedling. Redakční hodnocení připravujeme.",
+    "brand": "Akiyro",
+    "manufacturer": "Akiyro",
+    "category": "dermaroller",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "microneedling"
+    ],
+    "relations": {
+      "technologies": [
+        "microneedling"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-b-scrub-aqua-glow",
+    "slug": "beautifly-b-scrub-aqua-glow",
+    "type": "product",
+    "name": "Beautifly B-Scrub Aqua Glow",
+    "title": "Beautifly B-Scrub Aqua Glow | antiagelab.cz",
+    "metaDescription": "Beautifly B-Scrub Aqua Glow — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly B-Scrub Aqua Glow",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-rio-ultrasonic-skin-cleanser",
+    "slug": "rio-ultrasonic-skin-cleanser",
+    "type": "product",
+    "name": "RIO Ultrasonic Skin Cleanser",
+    "title": "RIO Ultrasonic Skin Cleanser | antiagelab.cz",
+    "metaDescription": "RIO Ultrasonic Skin Cleanser — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "RIO Ultrasonic Skin Cleanser",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "RIO",
+    "manufacturer": "RIO",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk",
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk",
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-peel-lift-premium",
+    "slug": "beautyrelax-peel-lift-premium",
+    "type": "product",
+    "name": "BeautyRelax Peel&Lift Premium",
+    "title": "BeautyRelax Peel&Lift Premium | antiagelab.cz",
+    "metaDescription": "BeautyRelax Peel&Lift Premium — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax Peel&Lift Premium",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-br-1300",
+    "slug": "beautyrelax-br-1300",
+    "type": "product",
+    "name": "BeautyRelax BR-1300",
+    "title": "BeautyRelax BR-1300 | antiagelab.cz",
+    "metaDescription": "BeautyRelax BR-1300 — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax BR-1300",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-b-scrub-peeling-young",
+    "slug": "beautifly-b-scrub-peeling-young",
+    "type": "product",
+    "name": "Beautifly B-Scrub Peeling Young",
+    "title": "Beautifly B-Scrub Peeling Young | antiagelab.cz",
+    "metaDescription": "Beautifly B-Scrub Peeling Young — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly B-Scrub Peeling Young",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-b-scrub-pro",
+    "slug": "beautifly-b-scrub-pro",
+    "type": "product",
+    "name": "Beautifly B-Scrub Pro",
+    "title": "Beautifly B-Scrub Pro | antiagelab.cz",
+    "metaDescription": "Beautifly B-Scrub Pro — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly B-Scrub Pro",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautifly-b-scrub-pro-slim",
+    "slug": "beautifly-b-scrub-pro-slim",
+    "type": "product",
+    "name": "Beautifly B-Scrub Pro Slim",
+    "title": "Beautifly B-Scrub Pro Slim | antiagelab.cz",
+    "metaDescription": "Beautifly B-Scrub Pro Slim — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Beautifly B-Scrub Pro Slim",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Beautifly",
+    "manufacturer": "Beautifly",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-notino-beauty-electro-collection-ultrasonic-face-scrubber",
+    "slug": "notino-beauty-electro-collection-ultrasonic-face-scrubber",
+    "type": "product",
+    "name": "Notino Beauty Electro Collection Ultrasonic Face Scrubber",
+    "title": "Notino Beauty Electro Collection Ultrasonic Face Scrubber | antiagelab.cz",
+    "metaDescription": "Notino Beauty Electro Collection Ultrasonic Face Scrubber — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Notino Beauty Electro Collection Ultrasonic Face Scrubber",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Notino",
+    "manufacturer": "Notino",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-anlan-ultrasonic",
+    "slug": "anlan-ultrasonic",
+    "type": "product",
+    "name": "ANLAN Ultrasonic",
+    "title": "ANLAN Ultrasonic | antiagelab.cz",
+    "metaDescription": "ANLAN Ultrasonic — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "ANLAN Ultrasonic",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "ANLAN",
+    "manufacturer": "ANLAN",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-ilwy-306-ems-lcd",
+    "slug": "ilwy-306-ems-lcd",
+    "type": "product",
+    "name": "Ilwy 306 EMS LCD",
+    "title": "Ilwy 306 EMS LCD | antiagelab.cz",
+    "metaDescription": "Ilwy 306 EMS LCD — Kosmetický ultrazvukový přístroj. Přehled v databázi antiagelab.cz.",
+    "h1": "Ilwy 306 EMS LCD",
+    "excerpt": "Kosmetický ultrazvukový přístroj. Redakční hodnocení připravujeme.",
+    "brand": "Ilwy",
+    "manufacturer": "Ilwy",
+    "category": "ultrazvuk-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "ultrazvuk"
+    ],
+    "relations": {
+      "technologies": [
+        "ultrazvuk"
+      ]
+    }
+  },
+  {
+    "id": "prod-nu-skin-ageloc-galvanic-spa",
+    "slug": "nu-skin-ageloc-galvanic-spa",
+    "type": "product",
+    "name": "Nu Skin ageLOC Galvanic Spa",
+    "title": "Nu Skin ageLOC Galvanic Spa | antiagelab.cz",
+    "metaDescription": "Nu Skin ageLOC Galvanic Spa — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "Nu Skin ageLOC Galvanic Spa",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "Nu Skin",
+    "manufacturer": "Nu Skin",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-multicare",
+    "slug": "beautyrelax-multicare",
+    "type": "product",
+    "name": "BeautyRelax Multicare",
+    "title": "BeautyRelax Multicare | antiagelab.cz",
+    "metaDescription": "BeautyRelax Multicare — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax Multicare",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-palsar7-galvanicka-zehlicka-5v1",
+    "slug": "palsar7-galvanicka-zehlicka-5v1",
+    "type": "product",
+    "name": "PALSAR7 Galvanická žehlička 5v1",
+    "title": "PALSAR7 Galvanická žehlička 5v1 | antiagelab.cz",
+    "metaDescription": "PALSAR7 Galvanická žehlička 5v1 — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "PALSAR7 Galvanická žehlička 5v1",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "PALSAR7",
+    "manufacturer": "PALSAR7",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-modom-bz-005",
+    "slug": "modom-bz-005",
+    "type": "product",
+    "name": "Modom BZ-005",
+    "title": "Modom BZ-005 | antiagelab.cz",
+    "metaDescription": "Modom BZ-005 — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "Modom BZ-005",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "Modom",
+    "manufacturer": "Modom",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-nursense-d818",
+    "slug": "nursense-d818",
+    "type": "product",
+    "name": "Nursense D818",
+    "title": "Nursense D818 | antiagelab.cz",
+    "metaDescription": "Nursense D818 — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "Nursense D818",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "Nursense",
+    "manufacturer": "Nursense",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-ilwy-bp7-1",
+    "slug": "ilwy-bp7-1",
+    "type": "product",
+    "name": "Ilwy BP7-1",
+    "title": "Ilwy BP7-1 | antiagelab.cz",
+    "metaDescription": "Ilwy BP7-1 — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "Ilwy BP7-1",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "Ilwy",
+    "manufacturer": "Ilwy",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
+      ]
+    }
+  },
+  {
+    "id": "prod-beautyrelax-br-1150-4v1",
+    "slug": "beautyrelax-br-1150-4v1",
+    "type": "product",
+    "name": "BeautyRelax BR-1150 4v1",
+    "title": "BeautyRelax BR-1150 4v1 | antiagelab.cz",
+    "metaDescription": "BeautyRelax BR-1150 4v1 — Galvanický přístroj pro iontoforézu. Přehled v databázi antiagelab.cz.",
+    "h1": "BeautyRelax BR-1150 4v1",
+    "excerpt": "Galvanický přístroj pro iontoforézu. Redakční hodnocení připravujeme.",
+    "brand": "BeautyRelax",
+    "manufacturer": "BeautyRelax",
+    "category": "galvanicka-zarizeni",
+    "productType": "Beauty zařízení",
+    "unrated": true,
+    "updated": "2026-07-05",
+    "technologies": [
+      "galvanicka-pece"
+    ],
+    "relations": {
+      "technologies": [
+        "galvanicka-pece"
       ]
     }
   }
