@@ -1770,10 +1770,10 @@ function heroBanner() {
   ].map(([ic, t, d, href]) => `<li><a class="hc" href="${href}"><span class="hc-ic">${I[ic]}</span><span class="hc-tx"><b>${esc(t)}</b><span class="hc-sub">${esc(d)}</span></span><span class="hc-arr" aria-hidden="true">›</span></a></li>`).join('');
 
   const trust = [
-    ['shield', 'Nezávislé', 'doporučení bez sponzorovaného obsahu'],
-    ['flask', 'Ověřené studie', 'každé tvrzení má oporu ve zdrojích'],
-    ['refresh', 'Aktuální informace', 'obsah pravidelně aktualizujeme'],
-  ].map(([ic, t, d]) => `<li><span class="t-ic">${I[ic]}</span><span><b>${esc(t)}</b> — ${esc(d)}</span></li>`).join('');
+    ['shield', 'Nezávislé', 'bez sponzorovaného obsahu'],
+    ['flask', 'Ověřené studie', 'opora ve vědeckých zdrojích'],
+    ['refresh', 'Aktuální informace', 'pravidelně aktualizujeme'],
+  ].map(([ic, t, d]) => `<li><span class="t-ic">${I[ic]}</span><span class="t-txt"><b>${esc(t)}</b><span class="t-sub">${esc(d)}</span></span></li>`).join('');
 
   return `<section class="hero2" aria-label="Úvod">
     <div class="container hero2-inner">

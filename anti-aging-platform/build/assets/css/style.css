@@ -123,11 +123,13 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 .hero2-trust{background:var(--ivory);border-top:1px solid var(--line)}
 .hero2-trust-inner{display:flex;flex-wrap:wrap;align-items:center;gap:12px 34px;padding:18px 0}
 .h2t-lead{font-size:.72rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-deep);flex:none}
-.h2t-list{list-style:none;display:flex;flex-wrap:wrap;gap:12px 28px;margin:0;padding:0;flex:1}
-.h2t-list li{display:flex;align-items:center;gap:10px;font-size:.86rem;color:var(--ink-soft)}
-.h2t-list b{color:var(--ink);font-weight:600}
-.h2t-list .t-ic{flex:none;width:30px;height:30px;border-radius:50%;border:1px solid var(--sand);background:var(--white);display:grid;place-items:center;color:var(--gold-deep)}
-.h2t-list .t-ic svg{width:16px;height:16px}
+.h2t-list{list-style:none;display:flex;flex-wrap:wrap;gap:14px 30px;margin:0;padding:0;flex:1}
+.h2t-list li{display:flex;align-items:center;gap:11px;font-size:.86rem;color:var(--ink-soft)}
+.h2t-list .t-txt{display:flex;flex-direction:column;line-height:1.3}
+.h2t-list b{color:var(--ink);font-weight:600;font-size:.9rem}
+.h2t-list .t-sub{font-size:.8rem;color:var(--ink-soft)}
+.h2t-list .t-ic{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid var(--sand);background:var(--white);display:grid;place-items:center;color:var(--gold-deep)}
+.h2t-list .t-ic svg{width:17px;height:17px}
 
 /* Tablet: čistě naskládané pod sebou */
 @media(max-width:960px) and (min-width:641px){
@@ -168,8 +170,14 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
   /* CTA — třetí řada, plná šířka, na plátně pod fotkou */
   .hero2-cta{grid-column:1 / -1;grid-row:3;z-index:2;flex-direction:column;gap:11px;margin:0;padding:16px 20px 26px}
   .hero2-cta .btn{width:100%;justify-content:center}
-  .hero2-trust-inner{padding:16px 0}
-  .h2t-list{gap:10px 20px}
+  /* Proč nám můžete věřit — 3 ikony vedle sebe, ikona nahoře, text pod ní */
+  .hero2-trust-inner{flex-direction:column;align-items:center;gap:14px;padding:20px 0}
+  .h2t-lead{text-align:center}
+  .h2t-list{display:grid;grid-template-columns:repeat(3,1fr);gap:16px 8px;flex:none;width:100%}
+  .h2t-list li{flex-direction:column;align-items:center;text-align:center;gap:.5rem}
+  .h2t-list .t-txt{align-items:center;text-align:center}
+  .h2t-list b{font-size:.85rem}
+  .h2t-list .t-sub{font-size:.76rem;line-height:1.3}
 }
 
 /* ---------- Hub tiles ---------- */
