@@ -1716,34 +1716,6 @@ function pick(type, n) { return entitiesByType(type).slice(0, n); }
 
 /* Trust bar — benefity pro návštěvníka: „Co mi tento web přinese?" (ne vlastnosti webu).
    Desktop: 4 stejné sloupce. Mobil: horizontální carousel s tečkami. Karty jsou klikací. */
-function trustBar() {
-  const TI = {
-    tailor: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="20" r="13"/><circle cx="20" cy="20" r="6.5"/><circle cx="20" cy="20" r="1.5" fill="currentColor" stroke="none"/></svg>',
-    product: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="14.5" y="15" width="11" height="17" rx="3"/><path d="M17.5 15v-2.5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1V15"/><path d="M17.5 21h5"/></svg>',
-    science: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="8.5"/><path d="M24 24l6 6"/><path d="M14.4 18l2.3 2.3 4.4-4.7"/></svg>',
-    routine: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13h13M18 20h13M18 27h13"/><path d="M9 12.3l1.4 1.4L13 11"/><path d="M9 19.3l1.4 1.4L13 18"/><path d="M9 26.3l1.4 1.4L13 25"/></svg>',
-    scale: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11v18M13 29h14"/><path d="M9 15h22"/><path d="M9 15l-3 6a3 3 0 0 0 6 0z"/><path d="M31 15l-3 6a3 3 0 0 0 6 0z"/><circle cx="20" cy="11" r="1.4" fill="currentColor" stroke="none"/></svg>',
-  };
-  const items = [
-    { href: '/nastroje/poradce/', icon: 'tailor', title: 'Najdete péči podle svých potřeb', desc: 'Doporučení podle věku, typu pleti a hlavního problému.' },
-    { href: '/nastroje/porovnani-produktu/', icon: 'scale', title: 'Snadno porovnáte všechny možnosti', desc: 'Ingredience, produkty, technologie i procedury na jednom místě.' },
-    { href: '/ingredience/', icon: 'science', title: 'Budete vědět, co opravdu funguje', desc: 'Srozumitelně vysvětlené výhody, limity i vhodné použití jednotlivých řešení.' },
-    { href: '/produkty/', icon: 'product', title: 'Vyberete produkty s větší jistotou', desc: 'Pomůžeme najít řešení odpovídající vašemu cíli i rozpočtu.' },
-  ];
-  const cards = items.map((it) => `<a class="trust-card" href="${it.href}">
-      <span class="trust-icon">${TI[it.icon]}</span>
-      <span class="trust-title">${esc(it.title)}</span>
-      <span class="trust-desc">${esc(it.desc)}</span>
-    </a>`).join('');
-  const dots = items.map((_, i) => `<span${i === 0 ? ' class="is-active"' : ''}></span>`).join('');
-  return `<section class="trustbar" aria-label="Co vám platforma přinese"><div class="container">
-    <div class="trust-track" id="trustTrack">${cards}</div>
-    <div class="trust-dots" id="trustDots" aria-hidden="true">${dots}</div>
-  </div>
-  <script>(function(){var t=document.getElementById('trustTrack'),d=document.getElementById('trustDots');if(!t||!d)return;var dots=d.children;function upd(){var f=t.firstElementChild;if(!f)return;var w=f.getBoundingClientRect().width+14;var i=Math.round(t.scrollLeft/w);for(var k=0;k<dots.length;k++)dots[k].classList.toggle('is-active',k===i);}t.addEventListener('scroll',upd,{passive:true});for(var k=0;k<dots.length;k++)(function(k){dots[k].addEventListener('click',function(){var c=t.children[k];if(c)t.scrollTo({left:c.offsetLeft-t.offsetLeft,behavior:'smooth'});});})(k);})();</script>
-  </section>`;
-}
-
 function heroBanner() {
   // Ikony (line-art, dědí currentColor). USP = trojice pod titulkem, HC = kategorie na fotce.
   const I = {
@@ -1756,7 +1728,17 @@ function heroBanner() {
     pill: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8.5" width="18" height="7" rx="3.5" transform="rotate(-40 12 12)"/><path d="M9.3 6.5l5.4 5.4"/></svg>',
     star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l2.2 4.5 5 .7-3.6 3.5.9 5-4.5-2.4L7.5 17.7l.9-5L4.8 9.2l5-.7z"/></svg>',
     refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 8a7 7 0 0 0-12-1.5M5 5v4h4"/><path d="M5 16a7 7 0 0 0 12 1.5M19 19v-4h-4"/></svg>',
+    target: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg>',
+    scale: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M8 19h8"/><path d="M5 9h14"/><path d="M5 9l-2.2 4.4a2.4 2.4 0 0 0 4.4 0z"/><path d="M19 9l-2.2 4.4a2.4 2.4 0 0 0 4.4 0z"/><circle cx="12" cy="5" r="1.3" fill="currentColor" stroke="none"/></svg>',
+    search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M8 11l2.2 2.2 3.8-4"/></svg>',
+    bottle: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="8" height="13" rx="2.5"/><path d="M10 8V6a2 2 0 0 1 4 0v2"/><path d="M10 13h4"/></svg>',
   };
+  const trust = [
+    ['target', 'Najdete péči podle svých potřeb', 'Doporučení podle věku, typu pleti a hlavního problému.'],
+    ['scale', 'Snadno porovnáte všechny možnosti', 'Ingredience, produkty, technologie i procedury na jednom místě.'],
+    ['search', 'Budete vědět, co opravdu funguje', 'Srozumitelně vysvětlené výhody, limity i vhodné použití jednotlivých řešení.'],
+    ['bottle', 'Vyberete produkty s větší jistotou', 'Pomůžeme najít řešení odpovídající vašemu cíli i rozpočtu.'],
+  ].map(([ic, t, d]) => `<li><span class="t-ic">${I[ic]}</span><span class="t-txt"><b>${esc(t)}</b><span class="t-sub">${esc(d)}</span></span></li>`).join('');
   const usp = [
     ['flask', 'Vědecké důkazy', 'Každé doporučení má oporu ve studiích.'],
     ['check', 'Praktické doporučení', 'Řešení šitá na míru vašim potřebám.'],
@@ -1790,6 +1772,9 @@ function heroBanner() {
         <a class="btn btn--ghost btn--lg" href="/produkty/">Procházet databázi</a>
       </div>
     </div>
+    <div class="hero2-trust"><div class="container">
+      <ul class="h2t-benefits">${trust}</ul>
+    </div></div>
   </section>`;
 }
 
@@ -1835,8 +1820,6 @@ function homepage() {
 
   const body = `
   ${heroBanner()}
-
-  ${trustBar()}
 
   <section class="section"><div class="container">
     <div class="sec-head"><span class="eyebrow">Nástroje a databáze</span><h2>Jak chcete začít?</h2></div>
