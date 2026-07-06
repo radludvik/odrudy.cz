@@ -1722,12 +1722,13 @@ function trustBar() {
     product: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="14.5" y="15" width="11" height="17" rx="3"/><path d="M17.5 15v-2.5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1V15"/><path d="M17.5 21h5"/></svg>',
     science: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="8.5"/><path d="M24 24l6 6"/><path d="M14.4 18l2.3 2.3 4.4-4.7"/></svg>',
     routine: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13h13M18 20h13M18 27h13"/><path d="M9 12.3l1.4 1.4L13 11"/><path d="M9 19.3l1.4 1.4L13 18"/><path d="M9 26.3l1.4 1.4L13 25"/></svg>',
+    scale: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11v18M13 29h14"/><path d="M9 15h22"/><path d="M9 15l-3 6a3 3 0 0 0 6 0z"/><path d="M31 15l-3 6a3 3 0 0 0 6 0z"/><circle cx="20" cy="11" r="1.4" fill="currentColor" stroke="none"/></svg>',
   };
   const items = [
-    { href: '/nastroje/poradce/', icon: 'tailor', title: 'Najděte péči na míru', desc: 'Podle věku, typu pleti a konkrétního problému.' },
-    { href: '/produkty/', icon: 'product', title: 'Vyberte správné produkty', desc: 'Porovnejte kosmetiku, technologie i doplňky stravy na jednom místě.' },
-    { href: '/ingredience/', icon: 'science', title: 'Zjistěte, co má skutečně smysl', desc: 'Srozumitelně vysvětlené ingredience, technologie a postupy podle současných vědeckých poznatků.' },
-    { href: '/rutiny/', icon: 'routine', title: 'Sestavte si funkční rutinu', desc: 'Praktická doporučení a kombinace produktů pro dlouhodobou péči o pleť.' },
+    { href: '/nastroje/poradce/', icon: 'tailor', title: 'Najdete péči podle svých potřeb', desc: 'Doporučení podle věku, typu pleti a hlavního problému.' },
+    { href: '/nastroje/porovnani-produktu/', icon: 'scale', title: 'Snadno porovnáte všechny možnosti', desc: 'Ingredience, produkty, technologie i procedury na jednom místě.' },
+    { href: '/ingredience/', icon: 'science', title: 'Budete vědět, co opravdu funguje', desc: 'Srozumitelně vysvětlené výhody, limity i vhodné použití jednotlivých řešení.' },
+    { href: '/produkty/', icon: 'product', title: 'Vyberete produkty s větší jistotou', desc: 'Pomůžeme najít řešení odpovídající vašemu cíli i rozpočtu.' },
   ];
   const cards = items.map((it) => `<a class="trust-card" href="${it.href}">
       <span class="trust-icon">${TI[it.icon]}</span>
@@ -1769,12 +1770,6 @@ function heroBanner() {
     ['pill', 'Doplňky stravy', 'Kolagen, Omega-3, Vitaminy a minerály', '/doplnky-stravy/'],
   ].map(([ic, t, d, href]) => `<li><a class="hc" href="${href}"><span class="hc-ic">${I[ic]}</span><span class="hc-tx"><b>${esc(t)}</b><span class="hc-sub">${esc(d)}</span></span><span class="hc-arr" aria-hidden="true">›</span></a></li>`).join('');
 
-  const trust = [
-    ['shield', 'Nezávislé', 'bez sponzorovaného obsahu'],
-    ['flask', 'Ověřené studie', 'opora ve vědeckých zdrojích'],
-    ['refresh', 'Aktuální informace', 'pravidelně aktualizujeme'],
-  ].map(([ic, t, d]) => `<li><span class="t-ic">${I[ic]}</span><span class="t-txt"><b>${esc(t)}</b><span class="t-sub">${esc(d)}</span></span></li>`).join('');
-
   return `<section class="hero2" aria-label="Úvod">
     <div class="container hero2-inner">
       <div class="hero2-copy">
@@ -1792,13 +1787,9 @@ function heroBanner() {
       <ul class="hero2-cards">${cats}</ul>
       <div class="hero2-cta">
         <a class="btn btn--gold btn--lg" href="/nastroje/poradce/">Najít řešení pro můj problém <span aria-hidden="true">→</span></a>
-        <a class="btn btn--ghost btn--lg" href="/technologie/">Prozkoumat technologie</a>
+        <a class="btn btn--ghost btn--lg" href="/produkty/">Procházet databázi</a>
       </div>
     </div>
-    <div class="hero2-trust"><div class="container hero2-trust-inner">
-      <span class="h2t-lead">Proč nám můžete věřit</span>
-      <ul class="h2t-list">${trust}</ul>
-    </div></div>
   </section>`;
 }
 
@@ -1821,19 +1812,22 @@ function homepage() {
     mask: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 13c-2 2-3 6-3 11s2 11 12 11 12-6 12-11-1-9-3-11c-3 2-6 3-9 3s-6-1-9-3z"/><g fill="currentColor" stroke="none"><circle cx="19" cy="22" r=".9"/><circle cx="24" cy="22" r=".9"/><circle cx="29" cy="22" r=".9"/><circle cx="21.5" cy="27" r=".9"/><circle cx="26.5" cy="27" r=".9"/></g></svg>',
     search: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="21" cy="21" r="9"/><path d="M27.5 27.5L36 36"/></svg>',
     target: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 15c-2 1.3-3 3.5-3 6.5 0 5.5 4 11 10 11s10-5.5 10-11c0-3-1-5.2-3-6.5"/><path d="M17 15c1-3 4-4.5 7-4.5s6 1.5 7 4.5"/><circle cx="21" cy="22" r="1"/><circle cx="27" cy="22" r="1"/><path d="M22 27c1 1 3 1 4 0"/><path d="M11 13v-2.5h2.5M37 13v-2.5h-2.5M11 35v2.5h2.5M37 35v2.5h-2.5"/></svg>',
+    grid: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="11" y="11" width="11" height="11" rx="2.5"/><rect x="26" y="11" width="11" height="11" rx="2.5"/><rect x="11" y="26" width="11" height="11" rx="2.5"/><rect x="26" y="26" width="11" height="11" rx="2.5"/></svg>',
+    scale: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 12v26M16 38h16"/><path d="M11 18h26"/><path d="M11 18l-4 8a4 4 0 0 0 8 0z"/><path d="M37 18l-4 8a4 4 0 0 0 8 0z"/><circle cx="24" cy="12" r="1.6" fill="currentColor" stroke="none"/></svg>',
   };
   const toolSteps = [
-    { href: '/nastroje/poradce/', icon: 'face', title: 'Najděte ideální péči', desc: 'Doporučíme ingredience, technologie, produkty i procedury na míru vašemu věku, typu pleti a hlavnímu problému.', cta: 'Začít doporučení' },
-    { href: '/nastroje/builder-rutiny/', icon: 'bottle', title: 'Sestavte si rutinu', desc: 'Vytvoříme pro vás ranní i večerní rutinu podle vašich cílů, typu pleti a používaných aktivních látek.', cta: 'Sestavit rutinu' },
-    { href: '/nastroje/kompatibilita/', icon: 'molecule', title: 'Zkontrolujte kombinace látek', desc: 'Zjistěte, zda se vaše aktivní látky snášejí a jak je nejlépe kombinovat pro maximální účinek a bezpečnost.', cta: 'Ověřit kombinaci' },
-    { href: '/nastroje/doporuceni-technologii/', icon: 'mask', title: 'Vyberte správnou technologii', desc: 'Porovnáme technologie a doporučíme nejvhodnější řešení podle vašich potřeb, rozpočtu a očekávaných výsledků.', cta: 'Najít technologii' },
-    { href: '/nastroje/porovnani-produktu/', icon: 'search', title: 'Porovnejte produkty', desc: 'Srovnejte kosmetiku i zařízení podle složení, účinnosti, studií, ceny a zkušeností uživatelů.', cta: 'Porovnat produkty' },
-    { href: '/nastroje/vyhledavac-ingredienci/', icon: 'target', title: 'Najděte řešení svého problému', desc: 'Vyberte oblast, která vás trápí, a zobrazíme nejúčinnější ingredience, technologie, produkty i doporučenou péči.', cta: 'Najít řešení' },
+    { href: '/nastroje/poradce/', icon: 'face', title: 'Najít péči na míru', desc: 'Odpovězte na několik otázek a doporučíme vhodné ingredience, produkty, technologie i doporučený postup péče.', cta: 'Začít doporučení', featured: true, badge: 'Doporučujeme' },
+    { href: '/produkty/', icon: 'grid', title: 'Prozkoumat databázi', desc: 'Procházejte ingredience, produkty, technologie, procedury a doplňky stravy.', cta: 'Otevřít databázi' },
+    { href: '/nastroje/porovnani-produktu/', icon: 'scale', title: 'Porovnat produkty', desc: 'Porovnejte kosmetiku i zařízení podle složení, účinnosti, ceny a našeho redakčního hodnocení.', cta: 'Porovnat produkty' },
+    { href: '/nastroje/builder-rutiny/', icon: 'bottle', title: 'Sestavit rutinu', desc: 'Vytvoříme ranní i večerní rutinu podle vašich cílů, typu pleti a používaných aktivních látek.', cta: 'Sestavit rutinu' },
+    { href: '/nastroje/kompatibilita/', icon: 'molecule', title: 'Zkontrolovat kombinace látek', desc: 'Zjistěte, které aktivní látky lze bezpečně kombinovat a kterým kombinacím je lepší se vyhnout.', cta: 'Ověřit kombinaci' },
+    { href: '/nastroje/doporuceni-technologii/', icon: 'mask', title: 'Vybrat správnou technologii', desc: 'Pomůžeme vybrat nejvhodnější technologii podle vašeho problému, rozpočtu a očekávání.', cta: 'Najít technologii' },
   ];
-  const toolStepsHtml = toolSteps.map((s, i) => `<a class="step-card" href="${s.href}">
+  const toolStepsHtml = toolSteps.map((s) => `<a class="step-card${s.featured ? ' step-card--featured' : ''}" href="${s.href}">
+      ${s.badge ? `<span class="step-badge">${esc(s.badge)}</span>` : ''}
       <span class="step-icon">${ICONS[s.icon]}</span>
       <span class="step-body">
-        <h3><span class="step-num">${i + 1}.</span> ${esc(s.title)}</h3>
+        <h3>${esc(s.title)}</h3>
         <p>${esc(s.desc)}</p>
         <span class="step-cta">${esc(s.cta)}<span class="step-arrow">→</span></span>
       </span>
@@ -1845,7 +1839,7 @@ function homepage() {
   ${trustBar()}
 
   <section class="section"><div class="container">
-    <div class="sec-head"><span class="eyebrow">Inteligentní nástroje</span><h2>Najděte si péči na míru</h2></div>
+    <div class="sec-head"><span class="eyebrow">Nástroje a databáze</span><h2>Jak chcete začít?</h2></div>
     <div class="steps-grid">${toolStepsHtml}</div>
   </div></section>
 
