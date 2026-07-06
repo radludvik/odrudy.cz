@@ -2043,7 +2043,7 @@ function exportToolData() {
   const data = {
     ingredients: entitiesByType('ingredient').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'indications', 'suitableSkinTypes', 'suitableAgeGroups', 'compatibility', 'concentrations']), problems: [...(e._rel.problem || [])] })),
     technologies: entitiesByType('technology').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'pros', 'cons']), problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
-    products: entitiesByType('product').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'category', 'price', 'activeIngredients']), priceNum: parsePriceCzk(e.price), pros: e.strengths || e.pros || [], cons: e.weaknesses || e.cons || [], problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
+    products: entitiesByType('product').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'category', 'price', 'activeIngredients']), priceNum: parsePriceCzk(e.price), score: (e.scores && e.scores.overall && typeof e.scores.overall.score === 'number') ? e.scores.overall.score : null, pros: e.strengths || e.pros || [], cons: e.weaknesses || e.cons || [], problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
     problems: entitiesByType('problem').map((e) => slim(e, ['excerpt'])),
     skinTypes: entitiesByType('skinType').map((e) => slim(e, ['excerpt'])),
     ageGroups: entitiesByType('ageGroup').map((e) => slim(e, ['excerpt', 'decade'])),

@@ -184,8 +184,24 @@
     if (!items.length) return '<p class="empty">' + (hint || 'Žádné položky.') + '</p>';
     return '<div class="chips">' + items.map(function (p) {
       var price = p.priceNum ? fmtKc(p.priceNum) + ' Kč' : (p.price && /\d/.test(p.price) ? p.price : 'cena dle značky');
-      return '<a class="chip" href="' + BASE + p.url + '">' + p.name + ' <span class="chip-price muted small">· ' + price + '</span></a>';
+      var sc = (typeof p.score === 'number') ? ' · ' + String(p.score).replace('.', ',') + '/10' : '';
+      return '<a class="chip" href="' + BASE + p.url + '">' + p.name + ' <span class="chip-price muted small">· ' + price + sc + '</span></a>';
     }).join('') + '</div>';
+  }
+  // Vybere rozmanitou pětici v rámci rozpočtu: nejlepší, prémiová (nejdražší slušně
+  // hodnocená), nejlepší poměr cena/výkon, nejdostupnější, zbytek podle skóre.
+  function pickDiverse(pool) {
+    var byScore = pool.slice().sort(function (a, b) { return (b.score || 0) - (a.score || 0) || (a.priceNum || 9e9) - (b.priceNum || 9e9); });
+    var topScore = byScore.length ? (byScore[0].score || 0) : 0;
+    var decent = pool.filter(function (p) { return p.priceNum && (p.score || 0) >= Math.max(6, topScore - 1.6); });
+    var picks = [], seen = {};
+    function add(p) { if (p && !seen[p.slug]) { seen[p.slug] = 1; picks.push(p); } }
+    add(byScore[0]);
+    add(decent.slice().sort(function (a, b) { return b.priceNum - a.priceNum; })[0]);                         // prémiová (nejdražší slušná)
+    add(decent.slice().sort(function (a, b) { return (b.score / b.priceNum) - (a.score / a.priceNum); })[0]);  // nejlepší poměr cena/výkon
+    add(decent.slice().sort(function (a, b) { return a.priceNum - b.priceNum; })[0]);                          // nejdostupnější slušná
+    for (var i = 0; i < byScore.length && picks.length < 5; i++) add(byScore[i]);
+    return picks.slice(0, 5);
   }
   function initAdvisor() {
     var el = document.getElementById('advisor');
@@ -236,13 +252,13 @@
         if (!noBudget && p.priceNum && p.priceNum > budget) return false;
         return true;
       });
-      prods.sort(function (a, b) { return (a.priceNum || 9e9) - (b.priceNum || 9e9); });
+      var picks = pickDiverse(prods);
 
       var out = '<div class="result-block">';
       out += '<h3>Doporučené ingredience</h3>' + chips(ings.slice(0, 6));
       out += '<h3>Technologie</h3>' + chips(techs.slice(0, 5));
       out += '<h3>Produkty' + (noBudget ? '' : ' do ' + fmtKc(budget) + ' Kč') + '</h3>' +
-        prodChips(prods.slice(0, 5), noBudget ? 'Pro zvolený problém jsme nenašli konkrétní produkt.' : 'Do zvoleného rozpočtu jsme nenašli vhodný produkt — zkuste zvýšit horní hranici ceny.');
+        prodChips(picks, noBudget ? 'Pro zvolený problém jsme nenašli konkrétní produkt.' : 'Do zvoleného rozpočtu jsme nenašli vhodný produkt — zkuste zvýšit horní hranici ceny.');
       var routine = composeRoutine({ skin: skin, age: age, lvl: sens === 'high' ? 'beg' : 'int', sens: sens, problem: problem, preg: false });
       out += '<div class="routine-result"><h3>Rutina na míru</h3>' + renderRoutine(routine) + '</div>';
       if (pref !== 'home') {
