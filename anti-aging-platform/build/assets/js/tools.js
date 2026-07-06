@@ -249,13 +249,15 @@
 
       var techs = DATA.technologies.filter(function (t) { return (t.problems || []).indexOf(problem) > -1 && (!t.ageGroups || t.ageGroups.indexOf(age) > -1); });
       if (pref === 'home') techs = techs.filter(function (t) { return ['led-terapie', 'microcurrent', 'radiofrekvence', 'ems', 'microneedling'].indexOf(t.slug) > -1; });
-      // Produkty: shoda na problém/aktivní látku + dodržení rozpočtu (horní hranice ceny)
-      var prods = DATA.products.filter(function (p) {
-        var match = (p.problems || []).indexOf(problem) > -1 || (p.activeIngredients || []).some(function (a) { return ings.some(function (i) { return i.slug === a; }); });
-        if (!match) return false;
-        if (!noBudget && p.priceNum && p.priceNum > budget) return false;
-        return true;
-      });
+      // Produkty: cílené na problém = obsahují některou z doporučených aktivních látek
+      // (ne pouhé SPF / čištění, které patří do rutiny), v rámci rozpočtu.
+      var recSlugs = ings.map(function (i) { return i.slug; });
+      function inBudget(p) { return noBudget || !p.priceNum || p.priceNum <= budget; }
+      function relevance(p) { return (p.activeIngredients || []).filter(function (a) { return recSlugs.indexOf(a) > -1; }).length; }
+      var prods = DATA.products.filter(function (p) { return inBudget(p) && relevance(p) > 0; });
+      if (prods.length < 3) { // doplnit produkty tagované na problém, pokud cílených je málo
+        DATA.products.forEach(function (p) { if (inBudget(p) && (p.problems || []).indexOf(problem) > -1 && prods.indexOf(p) < 0) prods.push(p); });
+      }
       var picks = pickDiverse(prods);
 
       var out = '<div class="result-block">';
