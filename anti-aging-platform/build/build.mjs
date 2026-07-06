@@ -2030,12 +2030,20 @@ function exportIngredientData() {
   writeFileSync(join(OUT, 'assets', 'data', 'ingredients-data.json'), JSON.stringify(items));
 }
 
+// Vytáhne z volného textu ceny orientační částku v Kč (spojí tisícové mezery).
+// „cca 1 600 Kč" → 1600; „od 990 Kč" → 990; „dle značky" → null.
+function parsePriceCzk(s) {
+  if (!s || typeof s !== 'string') return null;
+  const m = s.replace(/(\d)[\s ](?=\d)/g, '$1').match(/\d{2,}/);
+  return m ? parseInt(m[0], 10) : null;
+}
+
 function exportToolData() {
   const slim = (e, fields) => { const o = { slug: e.slug, name: e.name, url: urlOf(e), type: e.type }; for (const f of fields) if (e[f] !== undefined) o[f] = e[f]; return o; };
   const data = {
     ingredients: entitiesByType('ingredient').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'indications', 'suitableSkinTypes', 'suitableAgeGroups', 'compatibility', 'concentrations']), problems: [...(e._rel.problem || [])] })),
     technologies: entitiesByType('technology').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'pros', 'cons']), problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
-    products: entitiesByType('product').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'category', 'price', 'activeIngredients']), pros: e.strengths || e.pros || [], cons: e.weaknesses || e.cons || [], problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
+    products: entitiesByType('product').map((e) => ({ ...slim(e, ['excerpt', 'evidenceLevel', 'category', 'price', 'activeIngredients']), priceNum: parsePriceCzk(e.price), pros: e.strengths || e.pros || [], cons: e.weaknesses || e.cons || [], problems: [...(e._rel.problem || [])], ageGroups: [...(e._rel.ageGroup || [])] })),
     problems: entitiesByType('problem').map((e) => slim(e, ['excerpt'])),
     skinTypes: entitiesByType('skinType').map((e) => slim(e, ['excerpt'])),
     ageGroups: entitiesByType('ageGroup').map((e) => slim(e, ['excerpt', 'decade'])),

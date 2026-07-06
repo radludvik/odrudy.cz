@@ -179,8 +179,18 @@
   }
 
   /* ---------- 1. Poradce ---------- */
+  function fmtKc(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); }
+  function prodChips(items, hint) {
+    if (!items.length) return '<p class="empty">' + (hint || 'Žádné položky.') + '</p>';
+    return '<div class="chips">' + items.map(function (p) {
+      var price = p.priceNum ? fmtKc(p.priceNum) + ' Kč' : (p.price && /\d/.test(p.price) ? p.price : 'cena dle značky');
+      return '<a class="chip" href="' + BASE + p.url + '">' + p.name + ' <span class="chip-price muted small">· ' + price + '</span></a>';
+    }).join('') + '</div>';
+  }
   function initAdvisor() {
     var el = document.getElementById('advisor');
+    var prices = DATA.products.map(function (p) { return p.priceNum; }).filter(function (n) { return n > 0; });
+    var budgetMax = prices.length ? Math.min(20000, Math.ceil(Math.max.apply(null, prices) / 500) * 500) : 10000;
     el.innerHTML =
       '<div class="tool-grid">' +
       '<div class="field"><label>Věk</label>' + optionGroup('age', AGES) + '</div>' +
@@ -190,14 +200,20 @@
       '<div class="tool-grid">' +
       '<div class="field"><label>Citlivost</label>' + optionGroup('sens', [{ v: 'low', l: 'Nízká' }, { v: 'mid', l: 'Střední' }, { v: 'high', l: 'Vysoká' }]) + '</div>' +
       '<div class="field"><label>Preference péče</label>' + optionGroup('pref', [{ v: 'home', l: 'Domácí' }, { v: 'pro', l: 'Profesionální' }, { v: 'both', l: 'Obojí' }]) + '</div>' +
-      '<div class="field"><label>Rozpočet</label>' + optionGroup('budget', [{ v: 'low', l: 'Nižší' }, { v: 'mid', l: 'Střední' }, { v: 'high', l: 'Vyšší' }]) + '</div>' +
       '</div>' +
+      '<div class="field field--budget"><label>Maximální cena produktu <span class="budget-val" id="advBudgetVal">bez omezení</span></label>' +
+      '<input type="range" class="range" id="advBudget" min="500" max="' + budgetMax + '" step="250" value="' + budgetMax + '" aria-label="Maximální cena produktu">' +
+      '<div class="range-scale"><span>500 Kč</span><span>bez omezení</span></div></div>' +
       '<button class="btn btn--primary" id="advRun">Sestavit doporučení</button>' +
       '<div id="advOut"></div>';
     bindOpts(el);
+    var slider = el.querySelector('#advBudget'), bval = el.querySelector('#advBudgetVal');
+    function updB() { var v = +slider.value; bval.textContent = v >= budgetMax ? 'bez omezení' : ('do ' + fmtKc(v) + ' Kč'); }
+    slider.addEventListener('input', updB); updB();
     el.querySelector('#advRun').addEventListener('click', function () {
       var age = getVal(el, 'age'), skin = getVal(el, 'skin'), problem = getVal(el, 'problem'),
         sens = getVal(el, 'sens'), pref = getVal(el, 'pref') || 'both';
+      var budget = +slider.value, noBudget = budget >= budgetMax;
       if (!age || !skin || !problem) { el.querySelector('#advOut').innerHTML = '<div class="result-block"><p class="empty">Vyberte prosím alespoň věk, typ pleti a hlavní problém.</p></div>'; return; }
 
       var ings = DATA.ingredients.filter(function (i) {
@@ -213,12 +229,20 @@
 
       var techs = DATA.technologies.filter(function (t) { return (t.problems || []).indexOf(problem) > -1 && (!t.ageGroups || t.ageGroups.indexOf(age) > -1); });
       if (pref === 'home') techs = techs.filter(function (t) { return ['led-terapie', 'microcurrent', 'radiofrekvence', 'ems', 'microneedling'].indexOf(t.slug) > -1; });
-      var prods = DATA.products.filter(function (p) { return (p.problems || []).indexOf(problem) > -1 || (p.activeIngredients || []).some(function (a) { return ings.some(function (i) { return i.slug === a; }); }); });
+      // Produkty: shoda na problém/aktivní látku + dodržení rozpočtu (horní hranice ceny)
+      var prods = DATA.products.filter(function (p) {
+        var match = (p.problems || []).indexOf(problem) > -1 || (p.activeIngredients || []).some(function (a) { return ings.some(function (i) { return i.slug === a; }); });
+        if (!match) return false;
+        if (!noBudget && p.priceNum && p.priceNum > budget) return false;
+        return true;
+      });
+      prods.sort(function (a, b) { return (a.priceNum || 9e9) - (b.priceNum || 9e9); });
 
       var out = '<div class="result-block">';
       out += '<h3>Doporučené ingredience</h3>' + chips(ings.slice(0, 6));
       out += '<h3>Technologie</h3>' + chips(techs.slice(0, 5));
-      out += '<h3>Produkty</h3>' + chips(prods.slice(0, 5));
+      out += '<h3>Produkty' + (noBudget ? '' : ' do ' + fmtKc(budget) + ' Kč') + '</h3>' +
+        prodChips(prods.slice(0, 5), noBudget ? 'Pro zvolený problém jsme nenašli konkrétní produkt.' : 'Do zvoleného rozpočtu jsme nenašli vhodný produkt — zkuste zvýšit horní hranici ceny.');
       var routine = composeRoutine({ skin: skin, age: age, lvl: sens === 'high' ? 'beg' : 'int', sens: sens, problem: problem, preg: false });
       out += '<div class="routine-result"><h3>Rutina na míru</h3>' + renderRoutine(routine) + '</div>';
       if (pref !== 'home') {
