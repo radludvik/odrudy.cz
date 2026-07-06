@@ -383,21 +383,22 @@ function relatedSection(e) {
  * Navigace + layout
  * ------------------------------------------------------------------------- */
 const NAV = [
-  { label: 'Ingredience', href: '/ingredience/' },
-  { label: 'Technologie', href: '/technologie/' },
-  { label: 'Doplňky stravy', href: '/doplnky-stravy/' },
-  { label: 'Produkty', href: '/produkty/' },
-  { label: 'Procedury', href: '/procedury/' },
-  { label: 'Péče', children: [
-    { label: 'Podle věku', href: '/pece-podle-veku/' },
-    { label: 'Podle typu pleti', href: '/pece-podle-typu-pleti/' },
-    { label: 'Podle problému', href: '/pece-podle-problemu/' },
+  { label: 'Vybrat správnou péči', children: [
+    { label: 'Péče na míru', href: '/nastroje/poradce/' },
     { label: 'Rutiny', href: '/rutiny/' },
-    { label: 'Obličejová jóga', href: '/oblicejova-joga/' },
+    { label: 'Vybrat technologii', href: '/nastroje/doporuceni-technologii/' },
+    { label: 'Porovnat produkty', href: '/nastroje/porovnani-produktu/' },
+    { label: 'Kombinace látek', href: '/nastroje/kompatibilita/' },
   ]},
-  { label: 'Studie', href: '/studie/' },
+  { label: 'Databáze', children: [
+    { label: 'Ingredience', href: '/ingredience/' },
+    { label: 'Produkty', href: '/produkty/' },
+    { label: 'Technologie', href: '/technologie/' },
+    { label: 'Procedury', href: '/procedury/' },
+    { label: 'Doplňky stravy', href: '/doplnky-stravy/' },
+  ]},
   { label: 'Průvodci', href: '/clanky/' },
-  { label: 'Nástroje', href: '/nastroje/' },
+  { label: 'Studie', href: '/studie/' },
 ];
 
 function navHtml() {
