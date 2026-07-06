@@ -330,6 +330,14 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .range:focus-visible{box-shadow:0 0 0 3px rgba(176,141,87,.3)}
 .range-scale{display:flex;justify-content:space-between;font-size:.76rem;color:var(--ink-soft);margin-top:6px}
 .chip-price{white-space:nowrap}
+/* Doporučené produkty se štítky (Nejlepší / Prémiová / …) */
+.adv-picks{display:flex;flex-direction:column;gap:10px}
+.adv-pick{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:13px 16px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;color:var(--ink);transition:.15s}
+.adv-pick:hover{border-color:var(--sand);box-shadow:var(--shadow);color:var(--ink)}
+.adv-pick-tag{flex:0 0 100%;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:2px}
+.adv-pick-name{font-weight:500}
+.adv-pick:hover .adv-pick-name{color:var(--gold-deep)}
+.adv-pick-meta{white-space:nowrap}
 .result-block{margin-top:28px;padding:26px;background:#fff;border:1px solid var(--line);border-radius:var(--radius)}
 .result-block h3{margin-top:1.4rem}
 .result-block h3:first-child{margin-top:0}
