@@ -30,14 +30,6 @@
       "Stále vyžaduje opatrné zavádění"
     ],
     "usage": "Večer na suchou pleť, začít 2–3× týdně, navyšovat dle tolerance. Ráno SPF 50.",
-    "image": {
-      "src": "/assets/img/products/medik8-crystal-retinal-6.png",
-      "alt": "Medik8 Crystal Retinal 6",
-      "type": "photo",
-      "official": "https://www.medik8.com",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
-    },
     "body": [
       {
         "h2": "Komu sedne"
@@ -2452,14 +2444,6 @@
     "country": "Kanada",
     "volume": "—",
     "price": "199–349 Kč",
-    "image": {
-      "src": "/assets/img/products/the-ordinary-retinol-1-in-squalane.jpg",
-      "alt": "The Ordinary Retinol 1% in Squalane",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://theordinary.com/en-us/retinol-1-in-squalane-serum-100441.html"
-    },
     "activeIngredients": [
       "retinol",
       "skvalan"
@@ -3405,14 +3389,6 @@
     "country": "USA",
     "volume": "—",
     "price": "1 000–2 500 Kč",
-    "image": {
-      "src": "/assets/img/products/paula-s-choice-1-retinol-treatment.jpg",
-      "alt": "Paula's Choice 1% Retinol Treatment",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.paulaschoice.com/clinical-1pct-retinol-treatment/801.html"
-    },
     "activeIngredients": [
       "retinol",
       "peptidy"
@@ -4107,14 +4083,6 @@
     "country": "Velká Británie",
     "volume": "—",
     "price": "199–349 Kč",
-    "image": {
-      "src": "/assets/img/products/the-inkey-list-retinol-serum.jpg",
-      "alt": "The INKEY List Retinol Serum",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.theinkeylist.com/products/retinol-serum"
-    },
     "activeIngredients": [
       "retinol"
     ],
@@ -14930,14 +14898,6 @@
     "country": "Kanada",
     "volume": "—",
     "price": "199–349 Kč",
-    "image": {
-      "src": "/assets/img/products/the-ordinary-buffet.jpg",
-      "alt": "The Ordinary Buffet",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://theordinary.com/en-us/multi-peptide-ha-serum-100613.html"
-    },
     "activeIngredients": [
       "peptidy",
       "matrixyl",
