@@ -254,7 +254,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://us.medik8.com/products/crystal-retinal"
   },
   {
     "id": "prod-currentbody-led-mask",
@@ -1078,7 +1079,8 @@
       "studies": [
         "hughes-2013-spf"
       ]
-    }
+    },
+    "productUrl": "https://www.skinceuticals.com/skincare/vitamin-c-serums/c-e-ferulic-with-15-l-ascorbic-acid/S17.html"
   },
   {
     "id": "prod-gg-c-glow",
@@ -1546,7 +1548,8 @@
       "studies": [
         "mukherjee-2006-retinol"
       ]
-    }
+    },
+    "productUrl": "https://geekandgorgeous.us/products/a-game-20"
   },
   {
     "id": "prod-to-niacinamide",
@@ -2662,7 +2665,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://theordinary.com/en-us/retinol-1-in-squalane-serum-100441.html"
   },
   {
     "id": "prod-the-ordinary-granactive-retinoid-2-emulsion",
@@ -3616,7 +3620,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://www.paulaschoice.com/clinical-1pct-retinol-treatment/801.html"
   },
   {
     "id": "prod-medik8-crystal-retinal-3",
@@ -4299,7 +4304,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://www.theinkeylist.com/products/retinol-serum"
   },
   {
     "id": "prod-roc-retinol-correxion-deep-wrinkle-night-cream",
@@ -6615,7 +6621,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://geekandgorgeous.us/products/a-game-10"
   },
   {
     "id": "prod-sunday-riley-luna-sleeping-night-oil",
@@ -15130,7 +15137,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://theordinary.com/en-us/multi-peptide-ha-serum-100613.html"
   },
   {
     "id": "prod-the-ordinary-argireline-solution-10",

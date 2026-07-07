@@ -1,0 +1,61 @@
+name: Fetch product images (official)
+
+# Stáhne oficiální produktové fotky z URL uvedených u produktů (pole `productUrl`
+# v data/products.json). Běží v prostředí s otevřenou sítí (GitHub Actions),
+# proto sem chodí i weby, které jsou z vývojového sandboxu blokované.
+# Spustíš ručně: Actions → Fetch product images → Run workflow.
+#
+# UPOZORNĚNÍ: Fotky výrobců jsou autorsky chráněné. Jejich použití na webu je
+# na odpovědnosti provozovatele (na affiliate/recenzních webech běžně tolerováno).
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max. počet nových fotek v tomto běhu"
+        default: "40"
+        required: true
+      force:
+        description: "Přestáhnout i existující fotky (true/false)"
+        default: "false"
+        required: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: "fetch-product-images"
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Download product images
+        run: node build/fetch-product-images.mjs --limit ${{ inputs.limit }} ${{ inputs.force == 'true' && '--force' || '' }}
+        working-directory: anti-aging-platform
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anti-aging-platform/build/assets/img/products anti-aging-platform/data/products.json
+          if git diff --cached --quiet; then
+            echo "Žádné nové fotky."
+          else
+            git commit -m "Fetch official product images (CI)"
+            for i in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              echo "push selhal, pokus $i — čekám..."; sleep $((5 * i))
+            done
+          fi
+      - name: Trigger site deploy
+        run: gh workflow run deploy-aevia.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
