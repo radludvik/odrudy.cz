@@ -36,25 +36,57 @@ async function get(url, accept) {
 }
 function extFor(ct) { ct = ct || ''; if (/png/.test(ct)) return 'png'; if (/webp/.test(ct)) return 'webp'; if (/avif/.test(ct)) return 'avif'; return 'jpg'; }
 
+// Z JSON-LD (schema.org Product) vytáhne obrázek — to bývá skutečný packshot,
+// ne marketingový/lifestyle og:image.
+function jsonLdImage(html) {
+  const blocks = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  const pick = (v) => {
+    if (!v) return null;
+    if (typeof v === 'string') return v;
+    if (Array.isArray(v)) { for (const x of v) { const r = pick(x); if (r) return r; } return null; }
+    if (typeof v === 'object') return v.url || v.contentUrl || null;
+    return null;
+  };
+  const scan = (node) => {
+    if (!node || typeof node !== 'object') return null;
+    if (Array.isArray(node)) { for (const n of node) { const r = scan(n); if (r) return r; } return null; }
+    const t = node['@type'];
+    const isProduct = t === 'Product' || (Array.isArray(t) && t.includes('Product'));
+    if (isProduct && node.image) { const r = pick(node.image); if (r) return r; }
+    for (const k of ['@graph', 'mainEntity', 'itemListElement', 'hasVariant']) { if (node[k]) { const r = scan(node[k]); if (r) return r; } }
+    return null;
+  };
+  for (const b of blocks) {
+    let data; try { data = JSON.parse(b[1].trim()); } catch { continue; }
+    const r = scan(data);
+    if (r) return r;
+  }
+  return null;
+}
+
 async function findImage(productUrl) {
   const base = productUrl.replace(/[?#].*$/, '').replace(/\/$/, '');
-  // 1) Shopify product JSON
-  try {
-    const r = await get(base + '.json', 'application/json');
-    if (r.ok) { const d = await r.json(); const src = d?.product?.images?.[0]?.src; if (src) return src.split('?')[0]; }
-  } catch {}
-  // 2) og:image z HTML
+  let ogFallback = null;
+  // 1) JSON-LD Product.image (nejspolehlivější packshot)
   try {
     const r = await get(productUrl, 'text/html');
     if (r.ok) {
       const html = await r.text();
+      const ld = jsonLdImage(html);
+      if (ld) return ld;
       const m = html.match(/<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i)
         || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)
         || html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
-      if (m) return m[1];
+      if (m) ogFallback = m[1];
     }
   } catch {}
-  return null;
+  // 2) Shopify product JSON
+  try {
+    const r = await get(base + '.json', 'application/json');
+    if (r.ok) { const d = await r.json(); const src = d?.product?.images?.[0]?.src; if (src) return src.split('?')[0]; }
+  } catch {}
+  // 3) og:image (nouzově — může být banner/lifestyle)
+  return ogFallback;
 }
 
 let ok = 0, skip = 0, fail = 0, changed = false, done = 0;
