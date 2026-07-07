@@ -31,10 +31,12 @@
     ],
     "usage": "Večer na suchou pleť, začít 2–3× týdně, navyšovat dle tolerance. Ráno SPF 50.",
     "image": {
-      "src": "/assets/img/products/medik8-crystal-retinal-6.svg",
-      "alt": "Medik8 Crystal Retinal 6 sérum",
-      "type": "illustration",
-      "official": "https://www.medik8.com"
+      "src": "/assets/img/products/medik8-crystal-retinal-6.png",
+      "alt": "Medik8 Crystal Retinal 6",
+      "type": "photo",
+      "official": "https://www.medik8.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
     },
     "body": [
       {
@@ -1333,10 +1335,12 @@
     "volume": "30 ml",
     "price": "cca 500 Kč",
     "image": {
-      "src": "/assets/img/products/geek-gorgeous-a-game.svg",
-      "alt": "Geek & Gorgeous A-Game — ilustrace",
-      "type": "illustration",
-      "official": "https://geekandgorgeous.com"
+      "src": "/assets/img/products/geek-gorgeous-a-game.jpg",
+      "alt": "Geek & Gorgeous A-Game",
+      "type": "photo",
+      "official": "https://geekandgorgeous.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://geekandgorgeous.us/products/a-game-20"
     },
     "activeIngredients": [
       "retinal",
@@ -2449,10 +2453,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-retinol-1-in-squalane.svg",
-      "alt": "The Ordinary Retinol 1% in Squalane — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-retinol-1-in-squalane.jpg",
+      "alt": "The Ordinary Retinol 1% in Squalane",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/retinol-1-in-squalane-serum-100441.html"
     },
     "activeIngredients": [
       "retinol",
@@ -3400,10 +3406,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/paula-s-choice-1-retinol-treatment.svg",
-      "alt": "Paula's Choice 1% Retinol Treatment — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/paula-s-choice-1-retinol-treatment.jpg",
+      "alt": "Paula's Choice 1% Retinol Treatment",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.paulaschoice.com/clinical-1pct-retinol-treatment/801.html"
     },
     "activeIngredients": [
       "retinol",
@@ -4100,10 +4108,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-inkey-list-retinol-serum.svg",
-      "alt": "The INKEY List Retinol Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-inkey-list-retinol-serum.jpg",
+      "alt": "The INKEY List Retinol Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/retinol-serum"
     },
     "activeIngredients": [
       "retinol"
@@ -6418,10 +6428,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/geek-gorgeous-a-game-10.svg",
-      "alt": "Geek & Gorgeous A-Game 10 — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/geek-gorgeous-a-game-10.jpg",
+      "alt": "Geek & Gorgeous A-Game 10",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://geekandgorgeous.us/products/a-game-10"
     },
     "activeIngredients": [
       "retinal"
@@ -14919,10 +14931,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-buffet.svg",
-      "alt": "The Ordinary Buffet — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-buffet.jpg",
+      "alt": "The Ordinary Buffet",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/multi-peptide-ha-serum-100613.html"
     },
     "activeIngredients": [
       "peptidy",
