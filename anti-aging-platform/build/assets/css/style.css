@@ -725,9 +725,30 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 /* Karty s náhledem — obrázek zabírá horní hranu karty (štíhlejší poměr, ať listing nepůsobí přeplněně) */
 .card--has-img{padding-top:0;overflow:hidden}
 .card-img{aspect-ratio:16/10;margin:0 -26px 16px;border-radius:var(--radius) var(--radius) 0 0;border:0;border-bottom:1px solid var(--line)}
+/* Packshoty produktů/doplňků: čtvercový rám, celý produkt (contain), neoříznuté */
+.card-img.ent-img--contain{aspect-ratio:1/1;background:#fff}
+.card-img.ent-img--contain>img{object-fit:contain;padding:16px}
+/* V přehledech (produkty/doplňky/technologie) mají všechny karty čtvercový
+   obrázek — fotky i placeholdery — aby řádky lícovaly. */
+#productGrid .card-img,#suppGrid .card-img,#techGrid .card-img{aspect-ratio:1/1}
 .card-img.ent-img--ph .ent-img-glyph{font-size:1.7rem}
 .card-img.ent-img--ph .ent-img-mono{font-size:4.4rem}
 .card--has-img .card-type{padding-top:16px}
+
+/* Mobil: přehledy (produkty / doplňky / technologie) jako kompaktní 2sloupcová
+   mřížka — celý packshot je vidět a na obrazovku se vejde víc produktů. */
+@media(max-width:600px){
+  #productGrid,#suppGrid,#techGrid{grid-template-columns:1fr 1fr;gap:14px}
+  #productGrid .card,#suppGrid .card,#techGrid .card{padding:14px}
+  #productGrid .card-img,#suppGrid .card-img,#techGrid .card-img{margin:0 -14px 12px}
+  #productGrid .card-excerpt,#suppGrid .card-excerpt,#techGrid .card-excerpt{display:none}
+  #productGrid .card--has-img .card-type,#suppGrid .card--has-img .card-type,#techGrid .card--has-img .card-type{padding-top:14px}
+  #productGrid .card-type,#suppGrid .card-type,#techGrid .card-type{font-size:.58rem;margin-bottom:.35rem;line-height:1.3}
+  #productGrid .card-title,#suppGrid .card-title,#techGrid .card-title{font-size:1.02rem;line-height:1.28;margin-bottom:.35rem}
+  #productGrid .card-foot,#suppGrid .card-foot,#techGrid .card-foot{margin-top:8px;flex-wrap:wrap;gap:6px}
+  #productGrid .card-score{font-size:.95rem}
+}
+
 /* Ingredience: JS karty (cmp-card) mají menší padding (20px) */
 .cmp-card--has-img{padding-top:0;overflow:hidden}
 .cmp-card--has-img .card-img{margin:0 -20px 14px;border-radius:var(--radius) var(--radius) 0 0}

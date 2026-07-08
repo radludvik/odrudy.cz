@@ -332,7 +332,10 @@ function entityImage(e, { cls = '' } = {}) {
   if (data) {
     // packshoty produktů/doplňků: celý produkt na bílém (contain), ne oříznuté
     if (e.type === 'product' || e.type === 'supplement') cls = (cls + ' ent-img--contain').trim();
-    const cap = data.source
+    // V kartách (odkaz <a>) nesmí být zdrojová atribuce s <a> — vnořený odkaz je
+    // neplatné HTML a rozbíjí layout. Atribuci ukazujeme jen na detailu.
+    const inCard = /\bcard-img\b/.test(cls);
+    const cap = (data.source && !inCard)
       ? `<figcaption class="ent-img-src">${data.sourceUrl
           ? `Zdroj: <a href="${attr(data.sourceUrl)}" rel="nofollow noopener" target="_blank">${esc(data.source)}</a>`
           : 'Zdroj: ' + esc(data.source)}</figcaption>`
