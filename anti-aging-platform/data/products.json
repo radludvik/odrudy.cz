@@ -16569,10 +16569,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/bioeffect-egf-serum.svg",
-      "alt": "BioEffect EGF Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/bioeffect-egf-serum.jpg",
+      "alt": "BioEffect EGF Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.bioeffect.com/products/egf-serum"
     },
     "activeIngredients": [
       "egf"
@@ -19837,10 +19839,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/first-aid-beauty-ultra-repair-cream.svg",
-      "alt": "First Aid Beauty Ultra Repair Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/first-aid-beauty-ultra-repair-cream.png",
+      "alt": "First Aid Beauty Ultra Repair Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.firstaidbeauty.com/products/ultra-repair-cream-intense-hydration"
     },
     "activeIngredients": [
       "ceramidy"
@@ -21226,10 +21230,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/laneige-water-sleeping-mask.svg",
-      "alt": "Laneige Water Sleeping Mask — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/laneige-water-sleeping-mask.jpg",
+      "alt": "Laneige Water Sleeping Mask",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.laneige.com/products/water-sleeping-mask"
     },
     "activeIngredients": [
       "kyselina-hyaluronova"
