@@ -5498,14 +5498,6 @@
     "country": "USA",
     "volume": "—",
     "price": "2 500 Kč+",
-    "image": {
-      "src": "/assets/img/products/drunk-elephant-a-passioni-retinol-cream.jpg",
-      "alt": "Drunk Elephant A-Passioni Retinol Cream",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.drunkelephant.com/collections/masks/a-passioni-retinol-cream-999DE00000100.html"
-    },
     "activeIngredients": [
       "retinol",
       "peptidy"
@@ -5716,8 +5708,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.drunkelephant.com/collections/masks/a-passioni-retinol-cream-999DE00000100.html"
+    }
   },
   {
     "id": "prod-sunday-riley-a-high-dose-retinoid-serum",
@@ -6884,14 +6875,6 @@
     "country": "USA",
     "volume": "—",
     "price": "2 500 Kč+",
-    "image": {
-      "src": "/assets/img/products/drunk-elephant-c-firma-fresh-day-serum.jpg",
-      "alt": "Drunk Elephant C-Firma Fresh Day Serum",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.drunkelephant.com/collections/serums/c-firma-fresh-vitamin-c-day-serum-812343034358.html"
-    },
     "activeIngredients": [
       "vitamin-c",
       "ferulova-kyselina"
@@ -7097,8 +7080,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.drunkelephant.com/collections/serums/c-firma-fresh-vitamin-c-day-serum-812343034358.html"
+    }
   },
   {
     "id": "prod-paula-s-choice-c15-super-booster",
@@ -9222,14 +9204,6 @@
     "country": "Velká Británie",
     "volume": "—",
     "price": "1 000–2 500 Kč",
-    "image": {
-      "src": "/assets/img/products/medik8-c-tetra.avif",
-      "alt": "Medik8 C-Tetra",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://us.medik8.com/products/c-tetra"
-    },
     "activeIngredients": [
       "vitamin-c",
       "vitamin-e"
@@ -9438,8 +9412,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://us.medik8.com/products/c-tetra"
+    }
   },
   {
     "id": "prod-kiehl-s-powerful-strength-vitamin-c-serum",
@@ -27013,14 +26986,6 @@
     "country": "Švédsko",
     "volume": "1 ks",
     "price": "7 000 Kč+",
-    "image": {
-      "src": "/assets/img/products/foreo-faq-202-led-mask.jpg",
-      "alt": "Foreo FAQ 202 LED Mask",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.foreo.com/faq-swiss-202"
-    },
     "activeIngredients": [],
     "concentrations": {},
     "inci": null,
@@ -27150,8 +27115,7 @@
     "technologies": [
       "led-terapie",
       "near-infrared"
-    ],
-    "productUrl": "https://www.foreo.com/faq-swiss-202"
+    ]
   },
   {
     "id": "prod-refa-carat-microcurrent-roller",
@@ -37693,14 +37657,6 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    },
-    "productUrl": "https://www.foreo.com/faq-swiss-201",
-    "image": {
-      "src": "/assets/img/products/foreo-faq-201.png",
-      "alt": "FOREO FAQ™ 201",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.foreo.com/faq-swiss-201"
     }
   },
   {
@@ -38177,14 +38133,6 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    },
-    "productUrl": "https://www.foreo.com/faq-swiss-502",
-    "image": {
-      "src": "/assets/img/products/foreo-faq-502.png",
-      "alt": "FOREO FAQ™ 502",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.foreo.com/faq-swiss-502"
     }
   },
   {
@@ -39961,14 +39909,6 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    },
-    "productUrl": "https://www.foreo.com/faq-swiss-103",
-    "image": {
-      "src": "/assets/img/products/foreo-faq-103.jpg",
-      "alt": "FOREO FAQ™ 103",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.foreo.com/faq-swiss-103"
     }
   },
   {
@@ -40185,14 +40125,6 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    },
-    "productUrl": "https://www.foreo.com/faq-swiss-102",
-    "image": {
-      "src": "/assets/img/products/foreo-faq-102.jpg",
-      "alt": "FOREO FAQ™ 102",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.foreo.com/faq-swiss-102"
     }
   },
   {
@@ -40569,8 +40501,7 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    },
-    "productUrl": "https://www.foreo.com/faq-swiss-401"
+    }
   },
   {
     "id": "prod-medicube-age-r-booster-pro",
