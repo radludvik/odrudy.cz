@@ -23997,10 +23997,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/beauty-of-joseon-revive-eye-serum-ginseng-retinal.svg",
-      "alt": "Beauty of Joseon Revive Eye Serum Ginseng + Retinal — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/beauty-of-joseon-revive-eye-serum-ginseng-retinal.jpg",
+      "alt": "Beauty of Joseon Revive Eye Serum Ginseng + Retinal",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://beautyofjoseon.com/products/revive-eye-serum-ginseng-retinal"
     },
     "activeIngredients": [
       "retinal",
