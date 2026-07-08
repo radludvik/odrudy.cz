@@ -249,7 +249,14 @@
         }
       ]
     },
-    "productUrl": "https://us.medik8.com/products/crystal-retinal"
+    "productUrl": "https://us.medik8.com/products/crystal-retinal",
+    "image": {
+      "src": "/assets/img/products/medik8-crystal-retinal-6.avif",
+      "alt": "Medik8 Crystal Retinal 6",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
+    }
   },
   {
     "id": "prod-currentbody-led-mask",
@@ -2658,7 +2665,14 @@
         }
       ]
     },
-    "productUrl": "https://theordinary.com/en-us/retinol-1-in-squalane-serum-100441.html"
+    "productUrl": "https://theordinary.com/en-us/retinol-1-in-squalane-serum-100441.html",
+    "image": {
+      "src": "/assets/img/products/the-ordinary-retinol-1-in-squalane.png",
+      "alt": "The Ordinary Retinol 1% in Squalane",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/retinol-1-in-squalane-serum-100441.html"
+    }
   },
   {
     "id": "prod-the-ordinary-granactive-retinoid-2-emulsion",
@@ -3607,7 +3621,14 @@
         }
       ]
     },
-    "productUrl": "https://www.paulaschoice.com/clinical-1pct-retinol-treatment/801.html"
+    "productUrl": "https://www.paulaschoice.com/clinical-1pct-retinol-treatment/801.html",
+    "image": {
+      "src": "/assets/img/products/paula-s-choice-1-retinol-treatment.png",
+      "alt": "Paula's Choice 1% Retinol Treatment",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.paulaschoice.com/clinical-1pct-retinol-treatment/801.html"
+    }
   },
   {
     "id": "prod-medik8-crystal-retinal-3",
@@ -4285,7 +4306,14 @@
         }
       ]
     },
-    "productUrl": "https://www.theinkeylist.com/products/retinol-serum"
+    "productUrl": "https://www.theinkeylist.com/products/retinol-serum",
+    "image": {
+      "src": "/assets/img/products/the-inkey-list-retinol-serum.jpg",
+      "alt": "The INKEY List Retinol Serum",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/retinol-serum"
+    }
   },
   {
     "id": "prod-roc-retinol-correxion-deep-wrinkle-night-cream",
@@ -5931,10 +5959,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/naturium-retinol-complex.svg",
-      "alt": "Naturium Retinol Complex — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/naturium-retinol-complex.jpg",
+      "alt": "Naturium Retinol Complex",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://naturium.com/products/retinol-complex-serum"
     },
     "activeIngredients": [
       "retinol",
@@ -15115,7 +15145,14 @@
         }
       ]
     },
-    "productUrl": "https://theordinary.com/en-us/multi-peptide-ha-serum-100613.html"
+    "productUrl": "https://theordinary.com/en-us/multi-peptide-ha-serum-100613.html",
+    "image": {
+      "src": "/assets/img/products/the-ordinary-buffet.png",
+      "alt": "The Ordinary Buffet",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/multi-peptide-ha-serum-100613.html"
+    }
   },
   {
     "id": "prod-the-ordinary-argireline-solution-10",
