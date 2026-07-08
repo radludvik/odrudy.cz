@@ -36140,7 +36140,14 @@
         "50-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-omega-3-fish-oil--180-softgel-kapsli/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-omega-3-fish-oil--180-softgel-kapsli/",
+    "image": {
+      "src": "/assets/img/products/brainmax-omega-3-premium.jpg",
+      "alt": "Brainmax Omega-3 Premium",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-omega-3-fish-oil--180-softgel-kapsli/"
+    }
   },
   {
     "id": "product:nordic-naturals-ultimate-omega",
@@ -36555,7 +36562,14 @@
         "50-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-astaxanthin-bio--8-mg--60-rostlinnych-kapsli/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-astaxanthin-bio--8-mg--60-rostlinnych-kapsli/",
+    "image": {
+      "src": "/assets/img/products/brainmax-astaxanthin.jpg",
+      "alt": "BrainMax Astaxanthin",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-astaxanthin-bio--8-mg--60-rostlinnych-kapsli/"
+    }
   },
   {
     "id": "product:doppelherz-koenzym-q10",
@@ -37094,7 +37108,14 @@
         "60-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-vitamin-d3-k2-mk7-100-rostlinnych-kapsli/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-vitamin-d3-k2-mk7-100-rostlinnych-kapsli/",
+    "image": {
+      "src": "/assets/img/products/brainmax-vitamin-d3-k2.jpg",
+      "alt": "BrainMax Vitamin D3 + K2",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-vitamin-d3-k2-mk7-100-rostlinnych-kapsli/"
+    }
   },
   {
     "id": "product:brainmax-hyaluronova-kyselina",
@@ -37366,7 +37387,14 @@
         "50-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-trans-resveratrol-powder--resveratrol--500-mg--60-rostlinnych-kapsli/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-trans-resveratrol-powder--resveratrol--500-mg--60-rostlinnych-kapsli/",
+    "image": {
+      "src": "/assets/img/products/brainmax-resveratrol.jpg",
+      "alt": "BrainMax Resveratrol",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-trans-resveratrol-powder--resveratrol--500-mg--60-rostlinnych-kapsli/"
+    }
   },
   {
     "id": "product:brainmax-nmn",
@@ -37501,7 +37529,14 @@
         "50-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-enemen--nikotinamid-mononukleotid--60-rostlinnych-kapsli/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-enemen--nikotinamid-mononukleotid--60-rostlinnych-kapsli/",
+    "image": {
+      "src": "/assets/img/products/brainmax-nmn.png",
+      "alt": "BrainMax NMN",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-enemen--nikotinamid-mononukleotid--60-rostlinnych-kapsli/"
+    }
   },
   {
     "id": "product:brainmax-spermidin",
@@ -37634,7 +37669,14 @@
         "60-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-spermidine-chlorella--100-caps/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-spermidine-chlorella--100-caps/",
+    "image": {
+      "src": "/assets/img/products/brainmax-spermidin.jpg",
+      "alt": "BrainMax Spermidin",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-spermidine-chlorella--100-caps/"
+    }
   },
   {
     "id": "prod-foreo-faq-201",
