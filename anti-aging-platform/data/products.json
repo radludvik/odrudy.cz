@@ -36433,7 +36433,14 @@
         "30-plus"
       ]
     },
-    "productUrl": "https://viridian-nutrition.com/en-us/products/zinc-citrate"
+    "productUrl": "https://viridian-nutrition.com/en-us/products/zinc-citrate",
+    "image": {
+      "src": "/assets/img/products/viridian-zinc-citrate.jpg",
+      "alt": "Viridian Zinc Citrate",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://viridian-nutrition.com/en-us/products/zinc-citrate"
+    }
   },
   {
     "id": "product:brainmax-astaxanthin",
@@ -36850,7 +36857,14 @@
         "30-plus"
       ]
     },
-    "productUrl": "https://www.swansonvitamins.com/p/swanson-premium-biotin-5-mg-100-caps"
+    "productUrl": "https://www.swansonvitamins.com/p/swanson-premium-biotin-5-mg-100-caps",
+    "image": {
+      "src": "/assets/img/products/swanson-biotin.jpg",
+      "alt": "Swanson Biotin",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.swansonvitamins.com/p/swanson-premium-biotin-5-mg-100-caps"
+    }
   },
   {
     "id": "product:pharma-nord-bio-selen-zinek",
@@ -39012,7 +39026,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.niraskin.com/products/nira-skincare-laser-device-only"
+    "productUrl": "https://www.niraskin.com/products/nira-skincare-laser-device-only",
+    "image": {
+      "src": "/assets/img/products/nira-precision.jpg",
+      "alt": "NIRA Precision",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.niraskin.com/products/nira-skincare-laser-device-only"
+    }
   },
   {
     "id": "prod-nira-pro-pro",
@@ -39117,7 +39138,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.niraskin.com/products/nira-pro-laser"
+    "productUrl": "https://www.niraskin.com/products/nira-pro-laser",
+    "image": {
+      "src": "/assets/img/products/nira-pro-3.png",
+      "alt": "NIRA Pro 3",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.niraskin.com/products/nira-pro-laser"
+    }
   },
   {
     "id": "prod-lasemd-ultra",
