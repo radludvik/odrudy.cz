@@ -29228,14 +29228,6 @@
     "country": "USA",
     "volume": "1 ks",
     "price": "2 500–7 000 Kč",
-    "image": {
-      "src": "/assets/img/products/beautybio-glopro-microneedling-tool.png",
-      "alt": "BeautyBio GloPRO Microneedling Tool",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://beautybio.com/products/glopro-microneedling-regeneration-roller-tool"
-    },
     "activeIngredients": [],
     "concentrations": {},
     "inci": null,
@@ -29360,8 +29352,7 @@
         "30-plus",
         "40-plus"
       ]
-    },
-    "productUrl": "https://beautybio.com/products/glopro-microneedling-regeneration-roller-tool"
+    }
   },
   {
     "id": "prod-stacked-skincare-micro-roller",
