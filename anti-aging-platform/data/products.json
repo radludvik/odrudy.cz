@@ -5497,10 +5497,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/drunk-elephant-a-passioni-retinol-cream.svg",
-      "alt": "Drunk Elephant A-Passioni Retinol Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/drunk-elephant-a-passioni-retinol-cream.jpg",
+      "alt": "Drunk Elephant A-Passioni Retinol Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.drunkelephant.com/collections/masks/a-passioni-retinol-cream-999DE00000100.html"
     },
     "activeIngredients": [
       "retinol",
@@ -6881,10 +6883,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/drunk-elephant-c-firma-fresh-day-serum.svg",
-      "alt": "Drunk Elephant C-Firma Fresh Day Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/drunk-elephant-c-firma-fresh-day-serum.jpg",
+      "alt": "Drunk Elephant C-Firma Fresh Day Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.drunkelephant.com/collections/serums/c-firma-fresh-vitamin-c-day-serum-812343034358.html"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -9217,10 +9221,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/medik8-c-tetra.svg",
-      "alt": "Medik8 C-Tetra — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/medik8-c-tetra.avif",
+      "alt": "Medik8 C-Tetra",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.medik8.com/products/c-tetra"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -27005,10 +27011,12 @@
     "volume": "1 ks",
     "price": "7 000 Kč+",
     "image": {
-      "src": "/assets/img/products/foreo-faq-202-led-mask.svg",
-      "alt": "Foreo FAQ 202 LED Mask — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/foreo-faq-202-led-mask.jpg",
+      "alt": "Foreo FAQ 202 LED Mask",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/faq-swiss-202"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -37683,7 +37691,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/faq-swiss-201"
+    "productUrl": "https://www.foreo.com/faq-swiss-201",
+    "image": {
+      "src": "/assets/img/products/foreo-faq-201.png",
+      "alt": "FOREO FAQ™ 201",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/faq-swiss-201"
+    }
   },
   {
     "id": "prod-silk-n-led-face-mask-pro",
@@ -38160,7 +38175,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/faq-swiss-502"
+    "productUrl": "https://www.foreo.com/faq-swiss-502",
+    "image": {
+      "src": "/assets/img/products/foreo-faq-502.png",
+      "alt": "FOREO FAQ™ 502",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/faq-swiss-502"
+    }
   },
   {
     "id": "prod-silk-n-dual-led-set",
@@ -38837,7 +38859,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/peach-collection"
+    "productUrl": "https://www.foreo.com/peach-collection",
+    "image": {
+      "src": "/assets/img/products/foreo-peach-2.png",
+      "alt": "FOREO PEACH™ 2",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/peach-collection"
+    }
   },
   {
     "id": "prod-beurer-ipl-10000",
@@ -39930,7 +39959,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/faq-swiss-103"
+    "productUrl": "https://www.foreo.com/faq-swiss-103",
+    "image": {
+      "src": "/assets/img/products/foreo-faq-103.jpg",
+      "alt": "FOREO FAQ™ 103",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/faq-swiss-103"
+    }
   },
   {
     "id": "prod-medicube-age-r-ultra-tune-40-68",
@@ -40087,7 +40123,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/faq-swiss-101"
+    "productUrl": "https://www.foreo.com/faq-swiss-101",
+    "image": {
+      "src": "/assets/img/products/foreo-faq-101.png",
+      "alt": "FOREO FAQ™ 101",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/faq-swiss-101"
+    }
   },
   {
     "id": "prod-foreo-faq-102",
@@ -40140,7 +40183,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/faq-swiss-102"
+    "productUrl": "https://www.foreo.com/faq-swiss-102",
+    "image": {
+      "src": "/assets/img/products/foreo-faq-102.jpg",
+      "alt": "FOREO FAQ™ 102",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/faq-swiss-102"
+    }
   },
   {
     "id": "prod-beautifly-b-booster-pro",
@@ -40455,7 +40505,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/bear-2-collection"
+    "productUrl": "https://www.foreo.com/bear-2-collection",
+    "image": {
+      "src": "/assets/img/products/foreo-bear-2.png",
+      "alt": "FOREO BEAR™ 2",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/bear-2-collection"
+    }
   },
   {
     "id": "prod-foreo-faq-401",
@@ -40619,7 +40676,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.foreo.com/bear-2-go-collection"
+    "productUrl": "https://www.foreo.com/bear-2-go-collection",
+    "image": {
+      "src": "/assets/img/products/foreo-bear-2-go.png",
+      "alt": "FOREO BEAR™ 2 go",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.foreo.com/bear-2-go-collection"
+    }
   },
   {
     "id": "prod-foreo-bear-2-eyes-lips",
