@@ -7354,10 +7354,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/mad-hippie-vitamin-c-serum.svg",
-      "alt": "Mad Hippie Vitamin C Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/mad-hippie-vitamin-c-serum.jpg",
+      "alt": "Mad Hippie Vitamin C Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://madhippie.com/products/vitamin-c-serum"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -7594,10 +7596,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/timeless-20-vitamin-c-e-ferulic-acid.svg",
-      "alt": "Timeless 20% Vitamin C + E Ferulic Acid — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/timeless-20-vitamin-c-e-ferulic-acid.png",
+      "alt": "Timeless 20% Vitamin C + E Ferulic Acid",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.timelessha.com/products/20-vitamin-c-e-ferulic-acid-serum-1-oz"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -8746,10 +8750,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-ascorbyl-glucoside-solution-12.svg",
-      "alt": "The Ordinary Ascorbyl Glucoside Solution 12% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-ascorbyl-glucoside-solution-12.png",
+      "alt": "The Ordinary Ascorbyl Glucoside Solution 12%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/ascorbyl-glucoside-solution-12-vitamin-c-100405.html"
     },
     "activeIngredients": [
       "vitamin-c"
@@ -8970,10 +8976,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/maelove-glow-maker.svg",
-      "alt": "Maelove Glow Maker — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/maelove-glow-maker.jpg",
+      "alt": "Maelove Glow Maker",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://maelove.com/products/glow-maker-vitamin-c-serum"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -11742,10 +11750,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/naturium-tranexamic-topical-acid-5.svg",
-      "alt": "Naturium Tranexamic Topical Acid 5% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/naturium-tranexamic-topical-acid-5.jpg",
+      "alt": "Naturium Tranexamic Topical Acid 5%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://naturium.com/products/tranexamic-topical-acid-5"
     },
     "activeIngredients": [
       "tranexamova-kyselina",
@@ -12442,10 +12452,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/pixi-glow-tonic.svg",
-      "alt": "Pixi Glow Tonic — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/pixi-glow-tonic.jpg",
+      "alt": "Pixi Glow Tonic",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.pixibeauty.com/products/glow-tonic-250ml"
     },
     "activeIngredients": [
       "aha"
@@ -13139,10 +13151,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-lactic-acid-10-ha.svg",
-      "alt": "The Ordinary Lactic Acid 10% + HA — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-lactic-acid-10-ha.png",
+      "alt": "The Ordinary Lactic Acid 10% + HA",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/lactic-acid-10-ha-exfoliator-100426.html"
     },
     "activeIngredients": [
       "aha",
@@ -13376,10 +13390,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/cosrx-bha-blackhead-power-liquid.svg",
-      "alt": "COSRX BHA Blackhead Power Liquid — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/cosrx-bha-blackhead-power-liquid.jpg",
+      "alt": "COSRX BHA Blackhead Power Liquid",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.cosrx.com/products/bha-blackhead-power-liquid"
     },
     "activeIngredients": [
       "bha"
@@ -13830,10 +13846,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-inkey-list-pha-toner.svg",
-      "alt": "The INKEY List PHA Toner — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-inkey-list-pha-toner.png",
+      "alt": "The INKEY List PHA Toner",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/pha-toner"
     },
     "activeIngredients": [
       "pha"
@@ -14055,10 +14073,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/naturium-bha-liquid-exfoliant-2.svg",
-      "alt": "Naturium BHA Liquid Exfoliant 2% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/naturium-bha-liquid-exfoliant-2.jpg",
+      "alt": "Naturium BHA Liquid Exfoliant 2%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://naturium.com/products/bha-liquid-exfoliant-2"
     },
     "activeIngredients": [
       "bha"
@@ -15883,10 +15903,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-inkey-list-peptide-moisturizer.svg",
-      "alt": "The INKEY List Peptide Moisturizer — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-inkey-list-peptide-moisturizer.png",
+      "alt": "The INKEY List Peptide Moisturizer",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/peptide-moisturizer"
     },
     "activeIngredients": [
       "peptidy",
@@ -18174,10 +18196,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-hyaluronic-acid-2-b5.svg",
-      "alt": "The Ordinary Hyaluronic Acid 2% + B5 — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-hyaluronic-acid-2-b5.png",
+      "alt": "The Ordinary Hyaluronic Acid 2% + B5",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/hyaluronic-acid-2-b5-serum-with-ceramides-100637.html"
     },
     "activeIngredients": [
       "kyselina-hyaluronova",
