@@ -280,14 +280,6 @@
       "Výsledky jsou postupné"
     ],
     "usage": "3–5× týdně po 10 minutách na čistou suchou pleť. Výsledky po 8–12 týdnech.",
-    "image": {
-      "src": "/assets/img/products/currentbody-led-mask.png",
-      "alt": "CurrentBody Skin LED maska",
-      "type": "photo",
-      "official": "https://www.currentbody.com",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://us.currentbody.com/products/currentbody-skin-led-light-therapy-mask"
-    },
     "body": [
       {
         "h2": "Co od masky čekat"
@@ -467,8 +459,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://us.currentbody.com/products/currentbody-skin-led-light-therapy-mask"
+    }
   },
   {
     "id": "prod-nuface-trinity",
@@ -500,14 +491,6 @@
       "Slabší důkazní základna"
     ],
     "usage": "5× týdně s vodivým gelem, poté udržovací režim. Efekt nejvýraznější bezprostředně po aplikaci.",
-    "image": {
-      "src": "/assets/img/products/nuface-trinity.jpg",
-      "alt": "NuFACE Trinity",
-      "type": "photo",
-      "official": "https://www.mynuface.com",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.mynuface.com/products/trinity-starter-kit-smart-microcurrent-facial-toning-device"
-    },
     "body": [
       {
         "h2": "Realistická očekávání"
@@ -653,8 +636,7 @@
     "recommendation": {
       "yes": "Pro toho, kdo chce dočasné zpevnění a má rád rituál; skvělé před událostí.",
       "no": "Pro hledající trvalé výsledky nebo s kontraindikacemi (kardiostimulátor, těhotenství)."
-    },
-    "productUrl": "https://www.mynuface.com/products/trinity-starter-kit-smart-microcurrent-facial-toning-device"
+    }
   },
   {
     "id": "prod-vit-c-serum",
