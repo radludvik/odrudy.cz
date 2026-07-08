@@ -21472,10 +21472,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/avene-tolerance-control-cream.svg",
-      "alt": "Avène Tolérance Control Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/avene-tolerance-control-cream.png",
+      "alt": "Avène Tolérance Control Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.aveneusa.com/tolerance-control-cream"
     },
     "activeIngredients": [
       "skvalan"
@@ -23548,10 +23550,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/eucerin-hyaluron-filler-serum.svg",
-      "alt": "Eucerin Hyaluron-Filler Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/eucerin-hyaluron-filler-serum.jpg",
+      "alt": "Eucerin Hyaluron-Filler Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://int.eucerin.com/products/hyaluron-filler"
     },
     "activeIngredients": [
       "kyselina-hyaluronova"
