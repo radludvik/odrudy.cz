@@ -36432,7 +36432,8 @@
         "20-plus",
         "30-plus"
       ]
-    }
+    },
+    "productUrl": "https://viridian-nutrition.com/en-us/products/zinc-citrate"
   },
   {
     "id": "product:brainmax-astaxanthin",
@@ -36848,7 +36849,8 @@
         "20-plus",
         "30-plus"
       ]
-    }
+    },
+    "productUrl": "https://www.swansonvitamins.com/p/swanson-premium-biotin-5-mg-100-caps"
   },
   {
     "id": "product:pharma-nord-bio-selen-zinek",
@@ -39009,7 +39011,8 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    }
+    },
+    "productUrl": "https://www.niraskin.com/products/nira-skincare-laser-device-only"
   },
   {
     "id": "prod-nira-pro-pro",
@@ -39113,7 +39116,8 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    }
+    },
+    "productUrl": "https://www.niraskin.com/products/nira-pro-laser"
   },
   {
     "id": "prod-lasemd-ultra",
