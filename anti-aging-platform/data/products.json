@@ -29355,7 +29355,8 @@
         "30-plus",
         "40-plus"
       ]
-    }
+    },
+    "productUrl": "https://beautybio.com/products/glopro-microneedling-regeneration-roller-tool"
   },
   {
     "id": "prod-stacked-skincare-micro-roller",
@@ -29505,7 +29506,8 @@
         "30-plus",
         "40-plus"
       ]
-    }
+    },
+    "productUrl": "https://stackedskincare.com/products/microneedling-face-refining-tool-2-0"
   },
   {
     "id": "prod-geske-microneedle-face-roller",
@@ -30570,14 +30572,6 @@
     "country": "USA",
     "volume": "1 ks",
     "price": "299–699 Kč",
-    "image": {
-      "src": "/assets/img/products/mount-lai-jade-gua-sha.png",
-      "alt": "Mount Lai Jade Gua Sha",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.mountlai.com/products/the-jade-gua-sha-tool"
-    },
     "activeIngredients": [],
     "concentrations": {},
     "inci": null,
@@ -30701,8 +30695,7 @@
         "30-plus",
         "40-plus"
       ]
-    },
-    "productUrl": "https://www.mountlai.com/products/the-jade-gua-sha-tool"
+    }
   },
   {
     "id": "prod-wildling-empress-stone",
@@ -31600,8 +31593,7 @@
         "20-plus",
         "30-plus"
       ]
-    },
-    "productUrl": "https://www.mykitsch.com/products/rose-quartz-facial-roller"
+    }
   },
   {
     "id": "prod-mount-lai-jade-facial-roller",
@@ -31621,14 +31613,6 @@
     "country": "USA",
     "volume": "1 ks",
     "price": "299–699 Kč",
-    "image": {
-      "src": "/assets/img/products/mount-lai-jade-facial-roller.png",
-      "alt": "Mount Lai Jade Facial Roller",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.mountlai.com/products/the-jade-roller"
-    },
     "activeIngredients": [],
     "concentrations": {},
     "inci": null,
@@ -31748,8 +31732,7 @@
         "20-plus",
         "30-plus"
       ]
-    },
-    "productUrl": "https://www.mountlai.com/products/the-jade-roller"
+    }
   },
   {
     "id": "prod-herbivore-jade-facial-roller",
@@ -35867,7 +35850,8 @@
         "30-plus",
         "40-plus"
       ]
-    }
+    },
+    "productUrl": "https://www.brainmarket.cz/brainmax-liposomal-vitamin-c--500-mg--60-rostlinnych-kapsli/"
   },
   {
     "id": "product:now-foods-vitamin-c-1000",
@@ -39469,8 +39453,7 @@
       "overall": {
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
-    },
-    "productUrl": "https://medicube.us/products/age-r-high-focus-shot"
+    }
   },
   {
     "id": "prod-lunafit-7d-ultramax",
