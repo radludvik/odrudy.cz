@@ -25946,10 +25946,12 @@
     "concentrations": {},
     "inci": null,
     "image": {
-      "src": "/assets/img/products/nuface-mini.svg",
-      "alt": "NuFACE Mini — ilustrace",
-      "type": "illustration",
-      "official": "https://www.mynuface.com"
+      "src": "/assets/img/products/nuface-mini.jpg",
+      "alt": "NuFACE Mini",
+      "type": "photo",
+      "official": "https://www.mynuface.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.mynuface.com/products/nuface-mini-starter-kit-smart-petite-microcurrent-facial-toning-kit"
     },
     "affiliate": [
       {
@@ -26098,10 +26100,12 @@
     "concentrations": {},
     "inci": null,
     "image": {
-      "src": "/assets/img/products/ziip-halo.svg",
-      "alt": "ZIIP Halo — ilustrace",
-      "type": "illustration",
-      "official": "https://ziipbeauty.com"
+      "src": "/assets/img/products/ziip-halo.jpg",
+      "alt": "ZIIP Halo",
+      "type": "photo",
+      "official": "https://ziipbeauty.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://ziipbeauty.com/products/ziip-halo-microcurrent-device"
     },
     "affiliate": [
       {
@@ -27162,10 +27166,12 @@
     "volume": "1 ks",
     "price": "2 500–7 000 Kč",
     "image": {
-      "src": "/assets/img/products/refa-carat-microcurrent-roller.svg",
-      "alt": "ReFa Carat Microcurrent Roller — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/refa-carat-microcurrent-roller.jpg",
+      "alt": "ReFa Carat Microcurrent Roller",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.refa.net/en/item/refa_carat/"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -37947,7 +37953,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.therabody.com/products/theraface-mask"
+    "productUrl": "https://www.therabody.com/products/theraface-mask",
+    "image": {
+      "src": "/assets/img/products/therabody-theraface-mask.png",
+      "alt": "Therabody TheraFace Mask",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.therabody.com/products/theraface-mask"
+    }
   },
   {
     "id": "prod-palsar7-ultimate-3d-photon-led-mask",
