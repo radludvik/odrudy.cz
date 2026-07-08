@@ -2207,7 +2207,8 @@
       "terms": [
         "kozni-bariera"
       ]
-    }
+    },
+    "productUrl": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream"
   },
   {
     "id": "prod-lrp-anthelios",
@@ -2424,7 +2425,8 @@
       "studies": [
         "hughes-2013-spf"
       ]
-    }
+    },
+    "productUrl": "https://www.laroche-posay-me.com/en/anthelios/anthelios-uvmune/anthelios-uvmune-400-invisible-fluid-spf50-plus-non-perfumed"
   },
   {
     "id": "prod-the-ordinary-retinol-1-in-squalane",
@@ -6146,7 +6148,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://naturium.com/products/retinol-complex-serum"
   },
   {
     "id": "prod-l-oreal-paris-revitalift-laser-pure-retinol-night-serum",
