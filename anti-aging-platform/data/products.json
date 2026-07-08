@@ -25948,14 +25948,6 @@
     "activeIngredients": [],
     "concentrations": {},
     "inci": null,
-    "image": {
-      "src": "/assets/img/products/nuface-mini.jpg",
-      "alt": "NuFACE Mini",
-      "type": "photo",
-      "official": "https://www.mynuface.com",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.mynuface.com/products/nuface-mini-starter-kit-smart-petite-microcurrent-facial-toning-kit"
-    },
     "affiliate": [
       {
         "label": "Oficiální zdroj značky",
@@ -26093,8 +26085,7 @@
         "40-plus",
         "50-plus"
       ]
-    },
-    "productUrl": "https://www.mynuface.com/products/nuface-mini-starter-kit-smart-petite-microcurrent-facial-toning-kit"
+    }
   },
   {
     "type": "product",
