@@ -21913,8 +21913,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.bioderma.us/all-products/hydrabio/gel-cream"
+    }
   },
   {
     "id": "prod-olay-regenerist-micro-sculpting-cream",
@@ -23549,14 +23548,6 @@
     "country": "Německo",
     "volume": "—",
     "price": "450–900 Kč",
-    "image": {
-      "src": "/assets/img/products/eucerin-hyaluron-filler-serum.jpg",
-      "alt": "Eucerin Hyaluron-Filler Serum",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://int.eucerin.com/products/hyaluron-filler"
-    },
     "activeIngredients": [
       "kyselina-hyaluronova"
     ],
@@ -23761,8 +23752,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://int.eucerin.com/products/hyaluron-filler"
+    }
   },
   {
     "id": "prod-nivea-q10-power-anti-wrinkle",
