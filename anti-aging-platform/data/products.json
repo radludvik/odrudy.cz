@@ -16135,14 +16135,6 @@
     "country": "USA",
     "volume": "—",
     "price": "2 500 Kč+",
-    "image": {
-      "src": "/assets/img/products/drunk-elephant-protini-polypeptide-cream.jpg",
-      "alt": "Drunk Elephant Protini Polypeptide Cream",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.drunkelephant.com/protini-polypeptide-firming-refillable-moisturizer-856556004739.html"
-    },
     "activeIngredients": [
       "peptidy"
     ],
@@ -16339,8 +16331,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.drunkelephant.com/protini-polypeptide-firming-refillable-moisturizer-856556004739.html"
+    }
   },
   {
     "id": "prod-medik8-liquid-peptides",
@@ -18886,8 +18877,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.vichyusa.com/mineral-89-hydrating-and-plumping-serum-mineral89.html"
+    }
   },
   {
     "id": "prod-neutrogena-hydro-boost-water-gel",
