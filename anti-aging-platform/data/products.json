@@ -29226,10 +29226,12 @@
     "volume": "1 ks",
     "price": "2 500–7 000 Kč",
     "image": {
-      "src": "/assets/img/products/beautybio-glopro-microneedling-tool.svg",
-      "alt": "BeautyBio GloPRO Microneedling Tool — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/beautybio-glopro-microneedling-tool.png",
+      "alt": "BeautyBio GloPRO Microneedling Tool",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://beautybio.com/products/glopro-microneedling-regeneration-roller-tool"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -29377,10 +29379,12 @@
     "volume": "1 ks",
     "price": "700–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/stacked-skincare-micro-roller.svg",
-      "alt": "Stacked Skincare Micro-Roller — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/stacked-skincare-micro-roller.jpg",
+      "alt": "Stacked Skincare Micro-Roller",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://stackedskincare.com/products/microneedling-face-refining-tool-2-0"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -35851,7 +35855,14 @@
         "40-plus"
       ]
     },
-    "productUrl": "https://www.brainmarket.cz/brainmax-liposomal-vitamin-c--500-mg--60-rostlinnych-kapsli/"
+    "productUrl": "https://www.brainmarket.cz/brainmax-liposomal-vitamin-c--500-mg--60-rostlinnych-kapsli/",
+    "image": {
+      "src": "/assets/img/products/brainmax-lipozomalni-vitamin-c.jpg",
+      "alt": "Brainmax Lipozomální vitamin C",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.brainmarket.cz/brainmax-liposomal-vitamin-c--500-mg--60-rostlinnych-kapsli/"
+    }
   },
   {
     "id": "product:now-foods-vitamin-c-1000",
