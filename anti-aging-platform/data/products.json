@@ -11048,14 +11048,6 @@
     "country": "USA",
     "volume": "—",
     "price": "450–900 Kč",
-    "image": {
-      "src": "/assets/img/products/glossier-super-pure-niacinamide-zinc.jpg",
-      "alt": "Glossier Super Pure Niacinamide + Zinc",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.glossier.com/products/super-pure"
-    },
     "activeIngredients": [
       "niacinamid"
     ],
@@ -11259,8 +11251,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.glossier.com/products/super-pure"
+    }
   },
   {
     "id": "prod-skinceuticals-discoloration-defense",
@@ -24892,14 +24883,6 @@
     "country": "Velká Británie",
     "volume": "—",
     "price": "199–349 Kč",
-    "image": {
-      "src": "/assets/img/products/the-inkey-list-caffeine-eye-cream.png",
-      "alt": "The INKEY List Caffeine Eye Cream",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.theinkeylist.com/products/caffeine-eye-cream"
-    },
     "activeIngredients": [],
     "concentrations": {},
     "inci": null,
@@ -25072,8 +25055,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.theinkeylist.com/products/caffeine-eye-cream"
+    }
   },
   {
     "id": "prod-roc-retinol-correxion-eye-cream",
