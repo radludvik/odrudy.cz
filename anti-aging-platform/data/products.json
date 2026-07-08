@@ -8052,10 +8052,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-inkey-list-15-vitamin-c-and-egf-serum.svg",
-      "alt": "The INKEY List 15% Vitamin C and EGF Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-inkey-list-15-vitamin-c-and-egf-serum.png",
+      "alt": "The INKEY List 15% Vitamin C and EGF Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/15-vitamin-c-egf-serum"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -11047,10 +11049,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/glossier-super-pure-niacinamide-zinc.svg",
-      "alt": "Glossier Super Pure Niacinamide + Zinc — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/glossier-super-pure-niacinamide-zinc.jpg",
+      "alt": "Glossier Super Pure Niacinamide + Zinc",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.glossier.com/products/super-pure"
     },
     "activeIngredients": [
       "niacinamid"
@@ -20546,10 +20550,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-natural-moisturizing-factors-ha.svg",
-      "alt": "The Ordinary Natural Moisturizing Factors + HA — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-natural-moisturizing-factors-ha.png",
+      "alt": "The Ordinary Natural Moisturizing Factors + HA",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html"
     },
     "activeIngredients": [
       "kyselina-hyaluronova",
@@ -24227,10 +24233,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-caffeine-solution-5-egcg.svg",
-      "alt": "The Ordinary Caffeine Solution 5% + EGCG — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-caffeine-solution-5-egcg.png",
+      "alt": "The Ordinary Caffeine Solution 5% + EGCG",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/caffeine-solution-5-egcg-eye-serum-100412.html"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -24885,10 +24893,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-inkey-list-caffeine-eye-cream.svg",
-      "alt": "The INKEY List Caffeine Eye Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-inkey-list-caffeine-eye-cream.png",
+      "alt": "The INKEY List Caffeine Eye Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/caffeine-eye-cream"
     },
     "activeIngredients": [],
     "concentrations": {},
