@@ -711,8 +711,11 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 /* ---------------------------------------------------------------------------
  * Vizuální systém — obrázky entit, placeholdery, karty s náhledy, bannery
  * ------------------------------------------------------------------------- */
-.ent-img{margin:0;border-radius:var(--radius);overflow:hidden;background:var(--ivory);border:1px solid var(--line);line-height:0}
+.ent-img{margin:0;border-radius:var(--radius);overflow:hidden;background:var(--ivory);border:1px solid var(--line);line-height:0;aspect-ratio:4/3}
 .ent-img>img{display:block;width:100%;height:100%;object-fit:cover}
+/* Produktové packshoty: celý produkt na bílém, konzistentní box (ne useknutý) */
+.ent-img--contain{background:#fff}
+.ent-img--contain>img{object-fit:contain;padding:12px;box-sizing:border-box}
 .ent-img-src{font-size:.7rem;line-height:1.4;color:var(--ink-soft);padding:6px 12px;background:var(--white);border-top:1px solid var(--line)}
 .ent-img-src a{color:var(--gold-deep)}
 .ent-img--ph{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;background:radial-gradient(120% 120% at 30% 20%,var(--white),var(--ivory) 55%,var(--sand));color:var(--gold);overflow:hidden}
