@@ -41185,7 +41185,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://us.drpen.co/products/dr-pen-m8-microneedling-pen"
+    "productUrl": "https://us.drpen.co/products/dr-pen-m8-microneedling-pen",
+    "image": {
+      "src": "/assets/img/products/dr-pen-ultima-m8.png",
+      "alt": "Dr. Pen Ultima M8",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.drpen.co/products/dr-pen-m8-microneedling-pen"
+    }
   },
   {
     "id": "prod-beautifly-skinrenew-pro",
