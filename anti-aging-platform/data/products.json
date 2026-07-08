@@ -7595,14 +7595,6 @@
     "country": "USA",
     "volume": "—",
     "price": "199–349 Kč",
-    "image": {
-      "src": "/assets/img/products/timeless-20-vitamin-c-e-ferulic-acid.png",
-      "alt": "Timeless 20% Vitamin C + E Ferulic Acid",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.timelessha.com/products/20-vitamin-c-e-ferulic-acid-serum-1-oz"
-    },
     "activeIngredients": [
       "vitamin-c",
       "vitamin-e",
@@ -7812,8 +7804,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.timelessha.com/products/20-vitamin-c-e-ferulic-acid-serum-1-oz"
+    }
   },
   {
     "id": "prod-la-roche-posay-pure-vitamin-c10-serum",
@@ -12454,14 +12445,6 @@
     "country": "Velká Británie",
     "volume": "—",
     "price": "450–900 Kč",
-    "image": {
-      "src": "/assets/img/products/pixi-glow-tonic.jpg",
-      "alt": "Pixi Glow Tonic",
-      "type": "photo",
-      "official": null,
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.pixibeauty.com/products/glow-tonic-250ml"
-    },
     "activeIngredients": [
       "aha"
     ],
@@ -12665,8 +12648,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.pixibeauty.com/products/glow-tonic-250ml"
+    }
   },
   {
     "id": "prod-the-ordinary-aha-30-bha-2-peeling-solution",
