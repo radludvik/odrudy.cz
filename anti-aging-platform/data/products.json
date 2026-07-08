@@ -32211,10 +32211,12 @@
     "volume": "1 ks",
     "price": "299–699 Kč",
     "image": {
-      "src": "/assets/img/products/frownies-facial-patches.svg",
-      "alt": "Frownies Facial Patches — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/frownies-facial-patches.jpg",
+      "alt": "Frownies Facial Patches",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.frownies.com/products/facial-patches-forehead-between-eyes"
     },
     "activeIngredients": [],
     "concentrations": {},
