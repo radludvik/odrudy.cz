@@ -17486,10 +17486,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/caudalie-resveratrol-lift-firming-serum.svg",
-      "alt": "Caudalie Resveratrol-Lift Firming Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/caudalie-resveratrol-lift-firming-serum.jpg",
+      "alt": "Caudalie Resveratrol-Lift Firming Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.caudalie.com/p/424NAC/424nac-instant-firming-retinol-alternative-serum.html"
     },
     "activeIngredients": [
       "resveratrol",
@@ -20302,10 +20304,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/skinfix-barrier-triple-lipid-peptide-cream.svg",
-      "alt": "Skinfix Barrier+ Triple Lipid-Peptide Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/skinfix-barrier-triple-lipid-peptide-cream.png",
+      "alt": "Skinfix Barrier+ Triple Lipid-Peptide Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://skinfix.com/products/lipid-peptide-cream"
     },
     "activeIngredients": [
       "ceramidy",
