@@ -248,14 +248,6 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://us.medik8.com/products/crystal-retinal",
-    "image": {
-      "src": "/assets/img/products/medik8-crystal-retinal-6.avif",
-      "alt": "Medik8 Crystal Retinal 6",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
     }
   },
   {
@@ -4317,8 +4309,7 @@
           ]
         }
       ]
-    },
-    "productUrl": "https://www.theinkeylist.com/products/retinol-serum"
+    }
   },
   {
     "id": "prod-roc-retinol-correxion-deep-wrinkle-night-cream",
@@ -5252,7 +5243,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://www.murad.com/products/retinol-youth-renewal-serum"
   },
   {
     "id": "prod-skinceuticals-retinol-0-5",
@@ -7336,7 +7328,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://www.paulaschoice.com/c15-super-booster/777.html"
   },
   {
     "id": "prod-mad-hippie-vitamin-c-serum",
@@ -11015,7 +11008,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://www.theinkeylist.com/products/niacinamide-serum"
   },
   {
     "id": "prod-glossier-super-pure-niacinamide-zinc",
@@ -12181,7 +12175,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://www.goodmolecules.com/s/good-molecules-discoloration-correcting-serum-30ml"
   },
   {
     "id": "prod-the-ordinary-glycolic-acid-7-toning-solution",
@@ -12406,7 +12401,8 @@
           ]
         }
       ]
-    }
+    },
+    "productUrl": "https://theordinary.com/en-us/glycolic-acid-7-exfoliating-toner-100418.html"
   },
   {
     "id": "prod-pixi-glow-tonic",
