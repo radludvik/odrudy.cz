@@ -26242,10 +26242,12 @@
     "concentrations": {},
     "inci": null,
     "image": {
-      "src": "/assets/img/products/tripollar-stop-vx.svg",
-      "alt": "TriPollar STOP Vx — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/tripollar-stop-vx.jpg",
+      "alt": "TriPollar STOP Vx",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://mytripollar.com/products/tripollar-stop-vx"
     },
     "affiliate": [],
     "id": "prod-tripollar-stop",
@@ -37888,7 +37890,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://jovs.com/products/4d-laser-light-therapy-mask"
+    "productUrl": "https://jovs.com/products/4d-laser-light-therapy-mask",
+    "image": {
+      "src": "/assets/img/products/jovs-4d-v2.jpg",
+      "alt": "JOVS 4D v2",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://jovs.com/products/4d-laser-light-therapy-mask"
+    }
   },
   {
     "id": "prod-therabody-theraface-mask",
@@ -40929,7 +40938,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://www.geske.com/int/products/microcurrent-face-lift-pen-6-in-1-geske/gray"
+    "productUrl": "https://www.geske.com/int/products/microcurrent-face-lift-pen-6-in-1-geske/gray",
+    "image": {
+      "src": "/assets/img/products/geske-microcurrent-face-lift-pen-6v1.png",
+      "alt": "GESKE MicroCurrent Face Lift Pen 6v1",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.geske.com/int/products/microcurrent-face-lift-pen-6-in-1-geske/gray"
+    }
   },
   {
     "id": "prod-eta-fenite-4353-90000",
