@@ -8523,10 +8523,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/klairs-freshly-juiced-vitamin-drop.svg",
-      "alt": "Klairs Freshly Juiced Vitamin Drop — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/klairs-freshly-juiced-vitamin-drop.jpg",
+      "alt": "Klairs Freshly Juiced Vitamin Drop",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.klairs.com/products/freshly-juiced-vitamin-drop"
     },
     "activeIngredients": [
       "vitamin-c"
@@ -14537,10 +14539,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/alpha-h-liquid-gold.svg",
-      "alt": "Alpha-H Liquid Gold — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/alpha-h-liquid-gold.jpg",
+      "alt": "Alpha-H Liquid Gold",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.alpha-h.com/products/liquid-gold-exfoliating-treatment-with-glycolic-acid-30ml"
     },
     "activeIngredients": [
       "aha"
@@ -14768,10 +14772,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/sunday-riley-good-genes-lactic-acid-treatment.svg",
-      "alt": "Sunday Riley Good Genes Lactic Acid Treatment — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/sunday-riley-good-genes-lactic-acid-treatment.png",
+      "alt": "Sunday Riley Good Genes Lactic Acid Treatment",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://sundayriley.com/products/good-genes-lactic-acid-treatment"
     },
     "activeIngredients": [
       "aha"
@@ -15235,10 +15241,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-argireline-solution-10.svg",
-      "alt": "The Ordinary Argireline Solution 10% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-argireline-solution-10.jpg",
+      "alt": "The Ordinary Argireline Solution 10%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/argireline-solution-10-serum-100403.html"
     },
     "activeIngredients": [
       "argireline"
@@ -15456,10 +15464,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-buffet-copper-peptides-1.svg",
-      "alt": "The Ordinary Buffet + Copper Peptides 1% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-buffet-copper-peptides-1.png",
+      "alt": "The Ordinary Buffet + Copper Peptides 1%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/multi-peptide-copper-peptides-1-serum-100625.html"
     },
     "activeIngredients": [
       "peptidy",
@@ -16144,10 +16154,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/drunk-elephant-protini-polypeptide-cream.svg",
-      "alt": "Drunk Elephant Protini Polypeptide Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/drunk-elephant-protini-polypeptide-cream.jpg",
+      "alt": "Drunk Elephant Protini Polypeptide Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.drunkelephant.com/protini-polypeptide-firming-refillable-moisturizer-856556004739.html"
     },
     "activeIngredients": [
       "peptidy"
@@ -17749,10 +17761,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-resveratrol-3-ferulic-acid-3.svg",
-      "alt": "The Ordinary Resveratrol 3% + Ferulic Acid 3% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-resveratrol-3-ferulic-acid-3.png",
+      "alt": "The Ordinary Resveratrol 3% + Ferulic Acid 3%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/resveratrol-3-ferulic-acid-3-antioxidant-serum-100438.html"
     },
     "activeIngredients": [
       "resveratrol",
