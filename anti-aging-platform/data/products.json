@@ -5028,10 +5028,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/murad-retinol-youth-renewal-serum.svg",
-      "alt": "Murad Retinol Youth Renewal Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/murad-retinol-youth-renewal-serum.png",
+      "alt": "Murad Retinol Youth Renewal Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.murad.com/products/retinol-youth-renewal-serum"
     },
     "activeIngredients": [
       "retinol",
@@ -7109,10 +7111,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/paula-s-choice-c15-super-booster.svg",
-      "alt": "Paula's Choice C15 Super Booster — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/paula-s-choice-c15-super-booster.png",
+      "alt": "Paula's Choice C15 Super Booster",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.paulaschoice.com/c15-super-booster/777.html"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -10120,10 +10124,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/beauty-of-joseon-glow-serum-propolis-niacinamide.svg",
-      "alt": "Beauty of Joseon Glow Serum Propolis + Niacinamide — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/beauty-of-joseon-glow-serum-propolis-niacinamide.jpg",
+      "alt": "Beauty of Joseon Glow Serum Propolis + Niacinamide",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide"
     },
     "activeIngredients": [
       "niacinamid"
@@ -10574,10 +10580,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/naturium-niacinamide-serum-12.svg",
-      "alt": "Naturium Niacinamide Serum 12% — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/naturium-niacinamide-serum-12.jpg",
+      "alt": "Naturium Niacinamide Serum 12%",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://naturium.com/products/niacinamide-serum-12-plus-zinc-2"
     },
     "activeIngredients": [
       "niacinamid"
@@ -10804,10 +10812,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-inkey-list-niacinamide-serum.svg",
-      "alt": "The INKEY List Niacinamide Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-inkey-list-niacinamide-serum.png",
+      "alt": "The INKEY List Niacinamide Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.theinkeylist.com/products/niacinamide-serum"
     },
     "activeIngredients": [
       "niacinamid"
@@ -11964,10 +11974,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/good-molecules-discoloration-correcting-serum.svg",
-      "alt": "Good Molecules Discoloration Correcting Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/good-molecules-discoloration-correcting-serum.jpg",
+      "alt": "Good Molecules Discoloration Correcting Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.goodmolecules.com/s/good-molecules-discoloration-correcting-serum-30ml"
     },
     "activeIngredients": [
       "tranexamova-kyselina",
@@ -12197,10 +12209,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-glycolic-acid-7-toning-solution.svg",
-      "alt": "The Ordinary Glycolic Acid 7% Toning Solution — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-glycolic-acid-7-toning-solution.png",
+      "alt": "The Ordinary Glycolic Acid 7% Toning Solution",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/glycolic-acid-7-exfoliating-toner-100418.html"
     },
     "activeIngredients": [
       "aha"
