@@ -249,7 +249,14 @@
         }
       ]
     },
-    "productUrl": "https://us.medik8.com/products/crystal-retinal"
+    "productUrl": "https://us.medik8.com/products/crystal-retinal",
+    "image": {
+      "src": "/assets/img/products/medik8-crystal-retinal-6.avif",
+      "alt": "Medik8 Crystal Retinal 6",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
+    }
   },
   {
     "id": "prod-currentbody-led-mask",
@@ -1095,10 +1102,12 @@
     "volume": "30 ml",
     "price": "cca 350 Kč",
     "image": {
-      "src": "/assets/img/products/geek-gorgeous-c-glow.svg",
-      "alt": "Geek & Gorgeous C-Glow — ilustrace",
-      "type": "illustration",
-      "official": "https://geekandgorgeous.com"
+      "src": "/assets/img/products/geek-gorgeous-c-glow.jpg",
+      "alt": "Geek & Gorgeous C-Glow",
+      "type": "photo",
+      "official": "https://geekandgorgeous.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://geekandgorgeous.us/products/c-glow"
     },
     "activeIngredients": [
       "vitamin-c",
@@ -1567,10 +1576,12 @@
     "volume": "30 ml",
     "price": "cca 200 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-niacinamide.svg",
-      "alt": "The Ordinary Niacinamide 10% + Zinc 1% — ilustrace",
-      "type": "illustration",
-      "official": "https://theordinary.com"
+      "src": "/assets/img/products/the-ordinary-niacinamide.png",
+      "alt": "The Ordinary Niacinamide 10% + Zinc 1%",
+      "type": "photo",
+      "official": "https://theordinary.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html"
     },
     "activeIngredients": [
       "niacinamid"
@@ -1789,10 +1800,12 @@
     "volume": "118 ml",
     "price": "cca 800 Kč",
     "image": {
-      "src": "/assets/img/products/paulas-choice-2-bha.svg",
-      "alt": "Paula’s Choice 2% BHA — ilustrace",
-      "type": "illustration",
-      "official": "https://www.paulaschoice.com"
+      "src": "/assets/img/products/paulas-choice-2-bha.png",
+      "alt": "Paula’s Choice 2% BHA Liquid Exfoliant",
+      "type": "photo",
+      "official": "https://www.paulaschoice.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html"
     },
     "activeIngredients": [
       "bha",
@@ -2689,10 +2702,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-granactive-retinoid-2-emulsion.svg",
-      "alt": "The Ordinary Granactive Retinoid 2% Emulsion — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-granactive-retinoid-2-emulsion.png",
+      "alt": "The Ordinary Granactive Retinoid 2% Emulsion",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/granactive-retinoid-2-emulsion-serum-100419.html"
     },
     "activeIngredients": [
       "retinol"
@@ -8275,10 +8290,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/naturium-vitamin-c-complex-serum.svg",
-      "alt": "Naturium Vitamin C Complex Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/naturium-vitamin-c-complex-serum.jpg",
+      "alt": "Naturium Vitamin C Complex Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://naturium.com/products/vitamin-c-complex-serum"
     },
     "activeIngredients": [
       "vitamin-c"
@@ -10336,10 +10353,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/good-molecules-niacinamide-serum.svg",
-      "alt": "Good Molecules Niacinamide Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/good-molecules-niacinamide-serum.jpg",
+      "alt": "Good Molecules Niacinamide Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.goodmolecules.com/s/good-molecules-niacinamide-serum-30ml"
     },
     "activeIngredients": [
       "niacinamid"
@@ -11478,10 +11497,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-alpha-arbutin-2-ha.svg",
-      "alt": "The Ordinary Alpha Arbutin 2% + HA — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-alpha-arbutin-2-ha.jpg",
+      "alt": "The Ordinary Alpha Arbutin 2% + HA",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/alpha-arbutin-2-ha-serum-100401.html"
     },
     "activeIngredients": [
       "alfa-arbutin",
@@ -12635,10 +12656,12 @@
     "volume": "—",
     "price": "199–349 Kč",
     "image": {
-      "src": "/assets/img/products/the-ordinary-aha-30-bha-2-peeling-solution.svg",
-      "alt": "The Ordinary AHA 30% + BHA 2% Peeling Solution — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/the-ordinary-aha-30-bha-2-peeling-solution.png",
+      "alt": "The Ordinary AHA 30% + BHA 2% Peeling Solution",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://theordinary.com/en-us/aha-30-bha-2-peeling-solution-exfoliator-100400.html"
     },
     "activeIngredients": [
       "aha",
