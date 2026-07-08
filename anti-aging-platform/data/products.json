@@ -5715,10 +5715,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/sunday-riley-a-high-dose-retinoid-serum.svg",
-      "alt": "Sunday Riley A+ High-Dose Retinoid Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/sunday-riley-a-high-dose-retinoid-serum.png",
+      "alt": "Sunday Riley A+ High-Dose Retinoid Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://sundayriley.com/products/a-high-dose-retinoid-serum"
     },
     "activeIngredients": [
       "retinol"
@@ -6638,10 +6640,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/sunday-riley-luna-sleeping-night-oil.svg",
-      "alt": "Sunday Riley Luna Sleeping Night Oil — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/sunday-riley-luna-sleeping-night-oil.jpg",
+      "alt": "Sunday Riley Luna Sleeping Night Oil",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://sundayriley.com/products/luna-sleeping-night-oil"
     },
     "activeIngredients": [
       "retinol"
@@ -13576,10 +13580,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/paula-s-choice-9-bha-powerful-pore-booster.svg",
-      "alt": "Paula's Choice 9% BHA Powerful Pore Booster — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/paula-s-choice-9-bha-powerful-pore-booster.png",
+      "alt": "Paula's Choice 9% BHA Powerful Pore Booster",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.paulaschoice.com/skin-perfecting-bha-9-treatment/773.html"
     },
     "activeIngredients": [
       "bha"
@@ -15651,10 +15657,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/niod-copper-amino-isolate-serum-cais.svg",
-      "alt": "Niod Copper Amino Isolate Serum (CAIS) — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/niod-copper-amino-isolate-serum-cais.png",
+      "alt": "Niod Copper Amino Isolate Serum (CAIS)",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://niod.com/en-us/copper-amino-isolate-serum-3-11-cais3-serum-100368.html"
     },
     "activeIngredients": [
       "copper-peptides"
@@ -16780,10 +16788,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/medicube-pdrn-pink-serum.svg",
-      "alt": "Medicube PDRN Pink Serum — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/medicube-pdrn-pink-serum.jpg",
+      "alt": "Medicube PDRN Pink Serum",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://medicube.us/products/rose-pdrn-pink-peptide-serum"
     },
     "activeIngredients": [
       "pdrn",
@@ -20985,10 +20995,12 @@
     "volume": "—",
     "price": "2 500 Kč+",
     "image": {
-      "src": "/assets/img/products/tatcha-the-dewy-skin-cream.svg",
-      "alt": "Tatcha The Dewy Skin Cream — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/tatcha-the-dewy-skin-cream.jpg",
+      "alt": "Tatcha The Dewy Skin Cream",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://tatcha.com/products/the-dewy-skin-cream"
     },
     "activeIngredients": [
       "kyselina-hyaluronova"
@@ -30559,10 +30571,12 @@
     "volume": "1 ks",
     "price": "299–699 Kč",
     "image": {
-      "src": "/assets/img/products/mount-lai-jade-gua-sha.svg",
-      "alt": "Mount Lai Jade Gua Sha — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/mount-lai-jade-gua-sha.png",
+      "alt": "Mount Lai Jade Gua Sha",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.mountlai.com/products/the-jade-gua-sha-tool"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -30709,10 +30723,12 @@
     "volume": "1 ks",
     "price": "700–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/wildling-empress-stone.svg",
-      "alt": "Wildling Empress Stone — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/wildling-empress-stone.png",
+      "alt": "Wildling Empress Stone",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://wildling.com/products/empressstone"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -30859,10 +30875,12 @@
     "volume": "1 ks",
     "price": "299–699 Kč",
     "image": {
-      "src": "/assets/img/products/skin-gym-gua-sha.svg",
-      "alt": "Skin Gym Gua Sha — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/skin-gym-gua-sha.jpg",
+      "alt": "Skin Gym Gua Sha",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.skingymco.com/products/skin-gym-jade-gua-sha-crystal-beauty-tool"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -31158,10 +31176,12 @@
     "volume": "1 ks",
     "price": "700–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/odacite-crystal-contour-gua-sha.svg",
-      "alt": "Odacité Crystal Contour Gua Sha — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/odacite-crystal-contour-gua-sha.png",
+      "alt": "Odacité Crystal Contour Gua Sha",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://odacite.com/products/crystal-contour-gua-sha-tool"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -31308,10 +31328,12 @@
     "volume": "1 ks",
     "price": "299–699 Kč",
     "image": {
-      "src": "/assets/img/products/skin-gym-jade-roller.svg",
-      "alt": "Skin Gym Jade Roller — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/skin-gym-jade-roller.jpg",
+      "alt": "Skin Gym Jade Roller",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.skingymco.com/products/jade-facial-roller"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -31600,10 +31622,12 @@
     "volume": "1 ks",
     "price": "299–699 Kč",
     "image": {
-      "src": "/assets/img/products/mount-lai-jade-facial-roller.svg",
-      "alt": "Mount Lai Jade Facial Roller — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/mount-lai-jade-facial-roller.png",
+      "alt": "Mount Lai Jade Facial Roller",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.mountlai.com/products/the-jade-roller"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -31746,10 +31770,12 @@
     "volume": "1 ks",
     "price": "299–699 Kč",
     "image": {
-      "src": "/assets/img/products/herbivore-jade-facial-roller.svg",
-      "alt": "Herbivore Jade Facial Roller — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/herbivore-jade-facial-roller.png",
+      "alt": "Herbivore Jade Facial Roller",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.herbivorebotanicals.com/products/new-jade-facial-roller"
     },
     "activeIngredients": [],
     "concentrations": {},
@@ -39965,7 +39991,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://medicube.us/products/age-r-ultra-tune-40-68"
+    "productUrl": "https://medicube.us/products/age-r-ultra-tune-40-68",
+    "image": {
+      "src": "/assets/img/products/medicube-age-r-ultra-tune-40-68.jpg",
+      "alt": "medicube AGE-R Ultra Tune 40.68",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://medicube.us/products/age-r-ultra-tune-40-68"
+    }
   },
   {
     "id": "prod-beautyrelax-rflift-premium-br-2530",
@@ -40560,7 +40593,14 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     },
-    "productUrl": "https://medicube.us/products/age-r-booster-pro"
+    "productUrl": "https://medicube.us/products/age-r-booster-pro",
+    "image": {
+      "src": "/assets/img/products/medicube-age-r-booster-pro.jpg",
+      "alt": "medicube AGE-R Booster Pro",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://medicube.us/products/age-r-booster-pro"
+    }
   },
   {
     "id": "prod-foreo-bear-2-go",
