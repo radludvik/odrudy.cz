@@ -20779,10 +20779,12 @@
     "volume": "—",
     "price": "450–900 Kč",
     "image": {
-      "src": "/assets/img/products/embryolisse-lait-creme-concentre.svg",
-      "alt": "Embryolisse Lait-Crème Concentré — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/embryolisse-lait-creme-concentre.jpg",
+      "alt": "Embryolisse Lait-Crème Concentré",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.embryolisse.com/products/lait-creme-concentre-daily-face-and-body-cream"
     },
     "activeIngredients": [
       "skvalan"
