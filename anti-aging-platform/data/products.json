@@ -281,10 +281,12 @@
     ],
     "usage": "3–5× týdně po 10 minutách na čistou suchou pleť. Výsledky po 8–12 týdnech.",
     "image": {
-      "src": "/assets/img/products/currentbody-led-mask.svg",
+      "src": "/assets/img/products/currentbody-led-mask.png",
       "alt": "CurrentBody Skin LED maska",
-      "type": "illustration",
-      "official": "https://www.currentbody.com"
+      "type": "photo",
+      "official": "https://www.currentbody.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.currentbody.com/products/currentbody-skin-led-light-therapy-mask"
     },
     "body": [
       {
@@ -499,10 +501,12 @@
     ],
     "usage": "5× týdně s vodivým gelem, poté udržovací režim. Efekt nejvýraznější bezprostředně po aplikaci.",
     "image": {
-      "src": "/assets/img/products/nuface-trinity.svg",
-      "alt": "NuFACE Trinity microcurrent přístroj",
-      "type": "illustration",
-      "official": "https://www.mynuface.com"
+      "src": "/assets/img/products/nuface-trinity.jpg",
+      "alt": "NuFACE Trinity",
+      "type": "photo",
+      "official": "https://www.mynuface.com",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.mynuface.com/products/trinity-starter-kit-smart-microcurrent-facial-toning-device"
     },
     "body": [
       {
@@ -9887,10 +9891,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/paula-s-choice-10-niacinamide-booster.svg",
-      "alt": "Paula's Choice 10% Niacinamide Booster — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/paula-s-choice-10-niacinamide-booster.png",
+      "alt": "Paula's Choice 10% Niacinamide Booster",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.paulaschoice.com/10pct-niacinamide-booster/798.html"
     },
     "activeIngredients": [
       "niacinamid"
