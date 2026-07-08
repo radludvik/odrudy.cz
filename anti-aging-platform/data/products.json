@@ -249,14 +249,7 @@
         }
       ]
     },
-    "productUrl": "https://us.medik8.com/products/crystal-retinal",
-    "image": {
-      "src": "/assets/img/products/medik8-crystal-retinal-6.avif",
-      "alt": "Medik8 Crystal Retinal 6",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
-    }
+    "productUrl": "https://us.medik8.com/products/crystal-retinal"
   },
   {
     "id": "prod-currentbody-led-mask",
@@ -4306,14 +4299,7 @@
         }
       ]
     },
-    "productUrl": "https://www.theinkeylist.com/products/retinol-serum",
-    "image": {
-      "src": "/assets/img/products/the-inkey-list-retinol-serum.jpg",
-      "alt": "The INKEY List Retinol Serum",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://www.theinkeylist.com/products/retinol-serum"
-    }
+    "productUrl": "https://www.theinkeylist.com/products/retinol-serum"
   },
   {
     "id": "prod-roc-retinol-correxion-deep-wrinkle-night-cream",
