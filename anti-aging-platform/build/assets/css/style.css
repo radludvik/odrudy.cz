@@ -605,9 +605,21 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .inci summary{font-weight:500}
 .inci .small{word-break:break-word;color:var(--ink-soft)}
 
+/* ---------- Statické stránky (patička) ---------- */
+.doc-page{max-width:760px}
+.doc-page .section-block:first-child{margin-top:0}
+.doc-page .rich-list li{margin-bottom:.5rem}
+.contact-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 30px}
+.contact-card h2{margin-top:0}
+.contact-address{font-style:normal;line-height:1.75;margin:.2rem 0 1.1rem;font-size:1.02rem}
+.contact-email{margin:0;display:flex;align-items:baseline;gap:12px}
+.buy-aff{color:var(--ink-soft)}
+.buy-aff a{color:var(--gold-deep)}
+
 /* ---------- Footer ---------- */
 .site-footer{background:var(--ink);color:#d8d2c8;padding:64px 0 28px;margin-top:40px}
-.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.footer-grid{display:grid;grid-template-columns:1.3fr 3fr;gap:48px}
+.footer-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:36px 28px}
 .site-footer .brand-mark{color:#fff}
 .site-footer h4{color:#fff;margin-bottom:1rem}
 .site-footer ul{list-style:none;padding:0;margin:0}
@@ -622,7 +634,11 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 @media (max-width:960px){
   .detail-layout{grid-template-columns:1fr;gap:0}
   .detail-aside{position:static;margin-top:2rem}
-  .footer-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr;gap:32px}
+  .footer-cols{gap:28px 24px}
+}
+@media (max-width:520px){
+  .footer-cols{grid-template-columns:1fr 1fr}
 }
 @media (max-width:820px){
   .nav-toggle{display:block}

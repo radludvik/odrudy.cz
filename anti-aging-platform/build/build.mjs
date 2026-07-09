@@ -474,9 +474,14 @@ ${body}
       <div class="brand-mark">${esc(SITE.name)}</div>
       <p class="muted">${esc(SITE.description)}</p>
     </div>
-    <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li><li><a href="/metodika-hodnoceni/">Jak hodnotíme</a></li></ul></div>
-    <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/oblicejova-joga/">Obličejová jóga</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
-    <div><h4>Nástroje</h4><ul><li><a href="/nastroje/poradce/">Anti-aging poradce</a></li><li><a href="/nastroje/builder-rutiny/">Builder rutiny</a></li><li><a href="/nastroje/kompatibilita/">Kompatibilita látek</a></li><li><a href="/nastroje/vyhledavac-ingredienci/">Vyhledávač ingrediencí</a></li></ul></div>
+    <div class="footer-cols">
+      <div><h4>Databáze</h4><ul><li><a href="/ingredience/">Ingredience</a></li><li><a href="/technologie/">Technologie</a></li><li><a href="/doplnky-stravy/">Doplňky stravy</a></li><li><a href="/produkty/">Produkty</a></li><li><a href="/procedury/">Procedury</a></li><li><a href="/studie/">Studie</a></li></ul></div>
+      <div><h4>Péče</h4><ul><li><a href="/pece-podle-veku/">Podle věku</a></li><li><a href="/pece-podle-typu-pleti/">Podle typu pleti</a></li><li><a href="/pece-podle-problemu/">Podle problému</a></li><li><a href="/rutiny/">Rutiny</a></li><li><a href="/oblicejova-joga/">Obličejová jóga</a></li><li><a href="/slovnik/">Slovník pojmů</a></li></ul></div>
+      <div><h4>Nástroje</h4><ul><li><a href="/nastroje/poradce/">Anti-aging poradce</a></li><li><a href="/nastroje/builder-rutiny/">Builder rutiny</a></li><li><a href="/nastroje/kompatibilita/">Kompatibilita látek</a></li><li><a href="/nastroje/vyhledavac-ingredienci/">Vyhledávač ingrediencí</a></li></ul></div>
+      <div><h4>AntiAgeLab</h4><ul><li><a href="/o-projektu/">O projektu</a></li><li><a href="/metodika-hodnoceni/">Jak hodnotíme</a></li><li><a href="/redakcni-zasady/">Redakční zásady</a></li><li><a href="/financovani/">Jak je AntiAgeLab financován</a></li><li><a href="/kontakt/">Kontakt</a></li></ul></div>
+      <div><h4>Právní informace</h4><ul><li><a href="/ochrana-osobnich-udaju/">Ochrana osobních údajů</a></li><li><a href="/cookies/">Cookies</a></li><li><a href="/podminky-pouzivani/">Podmínky používání</a></li><li><a href="/zdravotni-upozorneni/">Zdravotní upozornění</a></li></ul></div>
+      <div><h4>Nápověda</h4><ul><li><a href="/caste-dotazy/">Často kladené otázky</a></li></ul></div>
+    </div>
   </div>
   <div class="container footer-legal">
     <p class="muted small">Veškerá hodnocení na ${esc(SITE.name)} představují <strong>redakční odbornou analýzu</strong> založenou na veřejně dostupných vědeckých zdrojích a jednotné <a href="/metodika-hodnoceni/">metodice hodnocení</a>. Nejde o laboratorní testování, oficiální certifikaci ani lékařské doporučení. Výsledná skóre vyjadřují redakční názor ${esc(SITE.name)} podle transparentně zveřejněných kritérií a mohou se měnit s přibývajícími kvalitními vědeckými důkazy.</p>
@@ -925,8 +930,10 @@ function buyCtaHero(e) {
   const forwhoHtml = forwho.length
     ? `<div class="hero-buy-forwho"><span class="hero-buy-l">Pro koho</span><ul class="checks">${forwho.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></div>` : '';
   const price = e.price ? `<div class="hero-buy-price"><span class="hero-buy-l">Cena</span> <b>${esc(e.price)}</b></div>` : '';
-  return `<div class="buy-cta buy-cta--hero">${rating}${forwhoHtml}${price}${buyBtn(e)}<p class="buy-sub">Přesměrujeme vás do námi doporučeného obchodu.</p></div>`;
+  return `<div class="buy-cta buy-cta--hero">${rating}${forwhoHtml}${price}${buyBtn(e)}<p class="buy-sub">Přesměrujeme vás do námi doporučeného obchodu. ${BUY_DISCLOSURE}</p></div>`;
 }
+/* Stručné affiliate upozornění u nákupních tlačítek. */
+const BUY_DISCLOSURE = `<span class="buy-aff">Některé odkazy jsou partnerské — <a href="/financovani/">jak to funguje</a>.</span>`;
 /* Rychlý verdikt „Vyplatí se koupit?" — TL;DR z pole recommendation. */
 function verdictBox(e) {
   const r = e.recommendation;
@@ -949,12 +956,12 @@ function quickSummaryAside(e) {
 }
 function buyReco(e) {
   if (!canBuy(e)) return '';
-  const price = e.price ? `<p class="buy-sub">Doporučená cena: ${esc(e.price)}</p>` : '';
-  return `<section class="section-block buy-reco"><span class="buy-reco-badge">★ Doporučeno AntiAgeLab</span><h2>Doporučení AntiAgeLab</h2><p class="buy-reco-text">${buyRecoText(e)}</p>${buyBtn(e)}${price}</section>`;
+  const price = e.price ? `<span class="buy-reco-price">Doporučená cena: ${esc(e.price)}</span>` : '';
+  return `<section class="section-block buy-reco"><span class="buy-reco-badge">★ Doporučeno AntiAgeLab</span><h2>Doporučení AntiAgeLab</h2><p class="buy-reco-text">${buyRecoText(e)}</p>${buyBtn(e)}<p class="buy-sub">${price}${price ? ' · ' : ''}${BUY_DISCLOSURE}</p></section>`;
 }
 function buyEnd(e) {
   if (!canBuy(e)) return '';
-  return `<section class="section-block buy-end"><h2>Rozhodli jste se produkt vyzkoušet?</h2><p>Přejděte do námi doporučeného obchodu — vybrali jsme ho jako spolehlivé místo k nákupu.</p>${buyBtn(e)}</section>`;
+  return `<section class="section-block buy-end"><h2>Rozhodli jste se produkt vyzkoušet?</h2><p>Přejděte do námi doporučeného obchodu — vybrali jsme ho jako spolehlivé místo k nákupu.</p>${buyBtn(e)}<p class="buy-sub">${BUY_DISCLOSURE}</p></section>`;
 }
 function buySticky(e) {
   if (!canBuy(e)) return '';
@@ -2151,7 +2158,8 @@ function exportSearchIndex() {
 
 function exportSitemap() {
   const urls = ['/', '/nastroje/', '/hledat/', '/slovnik/', '/metodika-hodnoceni/', ...Object.values(TYPES).map((c) => c.base), ...entities.map(urlOf),
-    ...['poradce', 'builder-rutiny', 'kompatibilita', 'vyhledavac-ingredienci', 'porovnani-produktu', 'doporuceni-technologii'].map((s) => `/nastroje/${s}/`)];
+    ...['poradce', 'builder-rutiny', 'kompatibilita', 'vyhledavac-ingredienci', 'porovnani-produktu', 'doporuceni-technologii'].map((s) => `/nastroje/${s}/`),
+    '/o-projektu/', '/redakcni-zasady/', '/financovani/', '/kontakt/', '/ochrana-osobnich-udaju/', '/cookies/', '/podminky-pouzivani/', '/zdravotni-upozorneni/', '/caste-dotazy/'];
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(urls)]
     .map((u) => `  <url><loc>${SITE.url}${u}</loc></url>`).join('\n')}\n</urlset>\n`;
   writeFileSync(join(OUT, 'sitemap.xml'), xml);
@@ -2257,6 +2265,164 @@ function methodologyPage() {
 }
 
 /* ----------------------------------------------------------------------------
+ * Statické stránky patičky (o projektu, transparentnost, právní informace)
+ * ------------------------------------------------------------------------- */
+const CONTACT = {
+  company: 'Mangoinvest, s.r.o.',
+  street: 'Rooseveltova 9',
+  city: '602 00 Brno',
+  ico: '02042100',
+  email: 'info@antiagelab.cz',
+};
+function contentPage({ slug, h1, eyebrow, lead, sections, title, description }) {
+  const trail = [{ label: 'Domů', href: '/' }, { label: h1, href: slug }];
+  const body = `<section class="listing-hero"><div class="container">
+      <span class="eyebrow">${esc(eyebrow)}</span>
+      <h1>${esc(h1)}</h1>
+      ${lead ? `<p class="lead">${lead}</p>` : ''}
+    </div></section>
+    <section class="section"><div class="container detail-layout"><article class="detail-main doc-page">${sections}</article></div></section>`;
+  return layout({ title: title || `${h1} | ${SITE.name}`, description: description || (lead ? lead.replace(/<[^>]+>/g, '') : ''), canonical: slug, breadcrumbTrail: trail, body });
+}
+function sect(h, inner) { return `<section class="section-block"><h2>${esc(h)}</h2>${inner}</section>`; }
+function faqAccordion(items) {
+  return `<div class="faq">${items.map((q) => `<details class="faq-item"><summary>${esc(q.q)}</summary><div class="faq-a">${q.a}</div></details>`).join('')}</div>`;
+}
+const M = (s) => `<a href="mailto:${CONTACT.email}">${CONTACT.email}</a>`; // e-mail odkaz
+
+function writeFooterPages() {
+  const updated = 'červenec 2025';
+
+  // 1. O projektu
+  writePage('/o-projektu/', contentPage({
+    slug: '/o-projektu/', eyebrow: 'O projektu', h1: 'O AntiAgeLab',
+    lead: `AntiAgeLab je nezávislá česká znalostní databáze o neinvazivním anti-agingu. Pomáháme vám vyznat se v ingrediencích, technologiích, procedurách i produktech — na jednom místě, srozumitelně a s ohledem na skutečné vědecké důkazy.`,
+    sections:
+      sect('Proč projekt vznikl', `<p>Informace o péči proti stárnutí pleti jsou dnes rozdrobené a často protichůdné. Jeden článek slibuje zázrak, druhý ho vyvrací, reklama tlačí třetí směr. Zorientovat se v tom dá práci i člověku, který se o téma zajímá. AntiAgeLab vznikl proto, abychom roztříštěné poznatky dali dohromady, propojili je a podali tak, aby dávaly smysl — bez senzací a bez planých slibů.</p>`) +
+      sect('Komu je určen', `<p>Každému, kdo chce dělat informovanější rozhodnutí o své pleti. Ať už si vybíráte první sérum s retinolem, zvažujete domácí LED masku, nebo jen chcete rozumět tomu, co znamenají pojmy na etiketě — najdete tu podklady srozumitelné laikovi, ale postavené na odborných zdrojích.</p>`) +
+      sect('Jaký je náš cíl', `<p>Pomoci vám <strong>dělat informovanější rozhodnutí</strong>. Nechceme za vás rozhodovat ani vám nic nutit — chceme vám dát férový, přehledný a ověřitelný podklad, na jehož základě se rozhodnete sami. Úspěch pro nás není prodej, ale to, že odejdete chytřejší, než jste přišli.</p>`) +
+      sect('Proč to není další kosmetický magazín', `<p>Nepíšeme o „10 trendech pro letošní sezónu" a neženeme se za novinkami kvůli novinkám. Místo stovek krátkých článků stavíme <strong>propojenou databázi</strong>: každá ingredience, technologie, procedura a produkt má jednotnou strukturu, je ohodnocená podle stejných pravidel a je provázaná s klinickými studiemi i souvisejícími tématy. Nehodnotíme podle toho, co je právě populární, ale podle toho, co říká výzkum.</p>`) +
+      sect('Z čeho vycházíme', `<p>Naše doporučení vycházejí z <strong>veřejně dostupných odborných zdrojů, klinických studií a jednotné redakční metodiky</strong>. U každého tématu uvádíme, jak silné důkazy za ním stojí, a otevřeně přiznáváme, kde je poznání zatím omezené. Podrobně to popisujeme na stránce <a href="/metodika-hodnoceni/">Jak hodnotíme</a>.</p>`) +
+      sect('Jak se v tom vyznat', `<p>Obsah dělíme do čtyř provázaných oblastí, abyste snadno našli to, co řešíte:</p><ul class="rich-list"><li><a href="/ingredience/"><strong>Ingredience</strong></a> — účinné látky, jejich síla a bezpečnost.</li><li><a href="/technologie/"><strong>Technologie</strong></a> — domácí i profesionální přístroje.</li><li><a href="/procedury/"><strong>Procedury</strong></a> — zákroky u odborníka.</li><li><a href="/produkty/"><strong>Produkty</strong></a> — konkrétní přípravky ohodnocené podle jednotné metodiky.</li></ul><p>Vše je propojené — z ingredience se dostanete k produktům, které ji obsahují, i ke studiím, které ji zkoumaly.</p>`),
+  }));
+
+  // 3. Redakční zásady
+  writePage('/redakcni-zasady/', contentPage({
+    slug: '/redakcni-zasady/', eyebrow: 'Transparentnost', h1: 'Redakční zásady',
+    lead: `Chceme, aby našemu obsahu šlo věřit. Proto otevřeně popisujeme, jak vzniká, jak ověřujeme informace a jak se stavíme k případným chybám a střetu zájmů.`,
+    sections:
+      sect('Jak vzniká obsah', `<p>Každá stránka vzniká rešerší veřejně dostupných odborných zdrojů — klinických studií, systematických přehledů, doporučených postupů odborných společností a regulačních dokumentů. Poznatky shrneme do jednotné struktury a doplníme redakční analýzou podle naší <a href="/metodika-hodnoceni/">metodiky</a>. Nejde o laboratorní testování ani o osobní zkušenost redakce — a tam, kde by si to čtenář mohl splést, to výslovně uvádíme.</p>`) +
+      sect('Jak vybíráme témata', `<p>Přednost mají témata, která lidé reálně řeší, a ingredience či postupy s dostatečnou oporou ve výzkumu. Zařazujeme i populární „trendy" látky — ale hodnotíme je podle skutečných důkazů, ne podle hype.</p>`) +
+      sect('Jak ověřujeme informace', `<p>Tvrzení opíráme o původní zdroje, ne o převyprávění z jiných webů. Přednost má vždy nejsilnější dostupný důkaz (metaanalýza a systematický přehled před jednotlivou studií). Rozporné výsledky uvádíme jako rozporné a nezamlčujeme je.</p>`) +
+      sect('Jak pracujeme se zdroji', `<p>Každý zdroj odkazuje na reálný, dohledatelný záznam (PubMed/PMC/DOI nebo oficiální dokument). <strong>Nevymýšlíme citace</strong> ani čísla. Pokud výrobce něco neuvádí (např. přesné koncentrace), napíšeme to a neodhadujeme.</p>`) +
+      sect('Jak aktualizujeme obsah', `<p>Objeví-li se novější kvalitní přehled nebo metaanalýza, starší nahradíme a hodnocení podle ní přepočítáme. Skóre tak není vytesané do kamene — vyvíjí se spolu s poznáním.</p>`) +
+      sect('Jak řešíme případný střet zájmů', `<p>Výrobci ani prodejci nemají žádný vliv na obsah ani na výsledná hodnocení a <strong>nemohou si lepší hodnocení koupit</strong>. Provoz financujeme mimo jiné z affiliate odkazů — podrobně a bez příkras to vysvětlujeme na stránce <a href="/financovani/">Jak je AntiAgeLab financován</a>. Provize nemá na hodnocení vliv.</p>`) +
+      sect('Jak opravujeme chyby', `<p>Chybu, kterou zjistíme nebo na kterou nás upozorníte, opravíme co nejdříve. Snažíme se, aby byl obsah přesný a aktuální — ale nejsme neomylní.</p>`) +
+      `<section class="section-block callout callout--accent"><p>Pokud narazíte na nepřesnost nebo zastaralou informaci, napište nám na ${M()}. Vážíme si toho.</p></section>`,
+  }));
+
+  // 4. Jak je AntiAgeLab financován
+  writePage('/financovani/', contentPage({
+    slug: '/financovani/', eyebrow: 'Transparentnost', h1: 'Jak je AntiAgeLab financován',
+    lead: `Krátce a bez příkras: jak si na sebe web vydělává a proč to nemá vliv na to, co vám doporučíme.`,
+    sections:
+      sect('Neprodáváme vlastní kosmetiku', `<p>AntiAgeLab neprodává žádné vlastní produkty ani přípravky. Nejsme e-shop a nemáme vlastní značku, kterou bychom potřebovali protlačit. Díky tomu nemáme důvod nadhodnocovat „to naše".</p>`) +
+      sect('Hodnocení si nelze koupit', `<p>Výrobci ani prodejci si u nás <strong>nemohou koupit lepší hodnocení</strong>, lepší umístění ani „sponzorovanou recenzi". Skóre vzniká podle <a href="/metodika-hodnoceni/">jednotné metodiky</a> stejně pro všechny — bez ohledu na to, jestli s danou značkou spolupracujeme, nebo ne.</p>`) +
+      sect('Některé odkazy jsou partnerské (affiliate)', `<p>Provoz webu z něčeho platit musíme. Proto některé odkazy na produkty vedou do e-shopů v rámci partnerských (affiliate) programů. Funguje to takto:</p><ul class="rich-list"><li>Pokud přes takový odkaz nakoupíte, můžeme od obchodu dostat <strong>malou provizi</strong>.</li><li><strong>Cena pro vás se tím nijak nemění</strong> — platíte stejně, jako byste na e-shop přišli napřímo.</li><li>Provize je odměna za doporučení, ne za „lepší recenzi". <strong>Nemá žádný vliv na výsledné hodnocení</strong> ani na pořadí produktů.</li></ul><p>U tlačítek k nákupu proto uvádíme „Koupit u ověřeného prodejce" a označujeme je jako partnerské. Doporučujeme jen to, co bychom doporučili tak jako tak.</p>`) +
+      sect('Proč to děláme takhle', `<p>Věříme, že férový a transparentní web si důvěru udrží dlouhodobě. Kdybychom hodnocení ohýbali podle provizí, ztratili bychom to jediné, na čem nám záleží — vaši důvěru. A to se nevyplatí.</p>`),
+  }));
+
+  // 5. Kontakt
+  writePage('/kontakt/', contentPage({
+    slug: '/kontakt/', eyebrow: 'Kontakt', h1: 'Kontakt',
+    lead: `Uvítáme připomínky, návrhy na zlepšení i upozornění na případné chyby.`,
+    sections:
+      `<section class="section-block"><div class="contact-card">
+        <h2>Provozovatel</h2>
+        <address class="contact-address">
+          <strong>${esc(CONTACT.company)}</strong><br>
+          ${esc(CONTACT.street)}<br>
+          ${esc(CONTACT.city)}<br>
+          IČO: ${esc(CONTACT.ico)}
+        </address>
+        <p class="contact-email"><span class="qs-k">E-mail</span> ${M()}</p>
+      </div></section>` +
+      sect('Napište nám', `<p>Máte tip na téma, našli jste nepřesnost, nebo nám chcete cokoli vzkázat? Ozvěte se na ${M()} — čteme každou zprávu.</p>`),
+  }));
+
+  // 6. Ochrana osobních údajů (GDPR)
+  writePage('/ochrana-osobnich-udaju/', contentPage({
+    slug: '/ochrana-osobnich-udaju/', eyebrow: 'Právní informace', h1: 'Ochrana osobních údajů',
+    lead: `Vážíme si vašeho soukromí. Tady najdete srozumitelně, jaké údaje zpracováváme, proč a jaká máte práva. Zpracování se řídí nařízením <strong>GDPR</strong> a českými právními předpisy.`,
+    sections:
+      sect('Správce osobních údajů', `<p>Správcem je <strong>${esc(CONTACT.company)}</strong>, ${esc(CONTACT.street)}, ${esc(CONTACT.city)}, IČO: ${esc(CONTACT.ico)}. Kontakt ve věcech ochrany údajů: ${M()}.</p>`) +
+      sect('Jaké údaje a proč zpracováváme', `<p>Snažíme se sbírat co nejméně. V praxi jde o:</p><ul class="rich-list"><li><strong>Údaje z komunikace</strong> — když nám napíšete e-mail, zpracujeme vaši adresu a obsah zprávy, abychom vám mohli odpovědět (oprávněný zájem, resp. plnění vašeho požadavku).</li><li><strong>Technické údaje a statistika návštěvnosti</strong> — anonymizované údaje o používání webu (viz Google Analytics níže), abychom web zlepšovali (oprávněný zájem, na základě vašeho souhlasu s analytickými cookies).</li></ul><p>Neprodáváme osobní údaje třetím stranám a nevytváříme z nich profily za účelem individuálního cílení reklamy.</p>`) +
+      sect('Kontaktní e-mail a formulář', `<p>Pokud nás kontaktujete e-mailem, uchováme korespondenci po dobu nezbytnou k vyřízení a poté ji smažeme, pokud nám zákon neukládá jinak.</p>`) +
+      sect('Cookies', `<p>Web používá cookies. Nezbytné cookies zajišťují základní fungování, analytické a případné marketingové cookies používáme jen s vaším souhlasem. Podrobnosti a možnost změnit souhlas najdete na stránce <a href="/cookies/">Cookies</a>.</p>`) +
+      sect('Google Analytics', `<p>Pro měření návštěvnosti používáme Google Analytics (Google Ireland Limited) v režimu s anonymizací IP adresy. Data slouží výhradně ke statistice a zlepšování webu. Analytické cookies se aktivují až po vašem souhlasu. Více v <a href="https://policies.google.com/privacy" rel="nofollow noopener" target="_blank">zásadách ochrany soukromí Google</a>.</p>`) +
+      sect('Affiliate partneři', `<p>Některé odkazy na produkty jsou partnerské (affiliate). Kliknutím na ně můžete být přesměrováni do e-shopu partnera, který si může uložit vlastní cookies pro přiřazení objednávky. Tyto e-shopy jsou samostatnými správci a řídí se vlastními zásadami ochrany údajů. Jak affiliate funguje, popisujeme na stránce <a href="/financovani/">Jak je AntiAgeLab financován</a>.</p>`) +
+      sect('Jak dlouho údaje uchováváme', `<p>Jen po nezbytně nutnou dobu — e-mailovou komunikaci do vyřízení a přiměřenou dobu poté, statistické údaje po dobu platnosti souhlasu, resp. dle nastavení analytického nástroje.</p>`) +
+      sect('Vaše práva', `<p>Podle GDPR máte právo na: přístup ke svým údajům, jejich opravu, výmaz („právo být zapomenut"), omezení zpracování, přenositelnost, vznesení námitky a právo kdykoli odvolat udělený souhlas. Máte také právo podat stížnost u <a href="https://www.uoou.cz/" rel="nofollow noopener" target="_blank">Úřadu pro ochranu osobních údajů</a>. Uplatnit práva můžete na ${M()}.</p>`) +
+      `<section class="section-block callout callout--disclaimer"><p class="small">Tuto stránku můžeme aktualizovat, jak se web vyvíjí. Poslední aktualizace: ${updated}.</p></section>`,
+  }));
+
+  // 7. Cookies
+  writePage('/cookies/', contentPage({
+    slug: '/cookies/', eyebrow: 'Právní informace', h1: 'Cookies',
+    lead: `Jako většina webů používáme cookies. Tady vysvětlujeme, co to je, které používáme a jak nad nimi máte kontrolu.`,
+    sections:
+      sect('Co jsou cookies', `<p>Cookies jsou malé textové soubory, které si web uloží do vašeho prohlížeče. Umožňují například zapamatovat si vaše nastavení nebo měřit, jak se web používá. Samy o sobě vás neidentifikují jako konkrétní osobu.</p>`) +
+      sect('Jaké cookies používáme', `<ul class="rich-list"><li><strong>Nezbytné</strong> — zajišťují základní fungování webu a vaše nastavení souhlasu. Bez nich by web nefungoval správně, proto nevyžadují souhlas.</li><li><strong>Analytické</strong> — anonymizované měření návštěvnosti (Google Analytics), abychom věděli, co zlepšit. Aktivují se jen s vaším souhlasem.</li><li><strong>Marketingové</strong> — používáme je jen v omezené míře v souvislosti s affiliate odkazy (přiřazení objednávky u partnerského e-shopu). Aktivují se jen s vaším souhlasem.</li></ul>`) +
+      sect('Jak funguje cookie lišta', `<p>Při první návštěvě se zobrazí lišta, kde si vyberete, které kategorie cookies povolíte. Nezbytné cookies jsou aktivní vždy, analytické a marketingové jen tehdy, když je schválíte.</p>`) +
+      sect('Jak změnit nebo odvolat souhlas', `<p>Souhlas můžete kdykoli změnit nebo odvolat — buď opětovným vyvoláním nastavení cookies na webu, nebo smazáním cookies přímo ve svém prohlížeči. Většina prohlížečů umožňuje cookies i zcela blokovat; některé funkce webu pak ale nemusí fungovat ideálně.</p>`) +
+      sect('Souvislosti', `<p>Jak nakládáme s osobními údaji obecně, popisujeme v <a href="/ochrana-osobnich-udaju/">Ochraně osobních údajů</a>.</p>`),
+  }));
+
+  // 8. Podmínky používání
+  writePage('/podminky-pouzivani/', contentPage({
+    slug: '/podminky-pouzivani/', eyebrow: 'Právní informace', h1: 'Podmínky používání webu',
+    lead: `Používáním webu AntiAgeLab berete na vědomí následující. Snažíme se to říct lidsky a bez zbytečné právničtiny.`,
+    sections:
+      sect('Obsah slouží k informačním účelům', `<p>Veškerý obsah na AntiAgeLab má <strong>vzdělávací a informační charakter</strong>. Poskytujeme ho v dobré víře a s péčí, ale bez záruky úplnosti, přesnosti či aktuálnosti v každém okamžiku.</p>`) +
+      sect('Nejde o zdravotní péči ani lékařské doporučení', `<p>Obsah <strong>nenahrazuje odbornou lékařskou ani dermatologickou konzultaci</strong> a není individuálním zdravotním doporučením pro konkrétní osobu. Podrobněji na stránce <a href="/zdravotni-upozorneni/">Upozornění ke zdravotním informacím</a>.</p>`) +
+      sect('Používání na vlastní odpovědnost', `<p>Rozhodnutí učiněná na základě informací z webu činíte na vlastní odpovědnost. Neneseme odpovědnost za případnou újmu vzniklou v důsledku spoléhání se na obsah webu. U přípravků i přístrojů se vždy řiďte pokyny výrobce.</p>`) +
+      sect('Duševní vlastnictví a autorská práva', `<p>Texty, hodnocení, struktura databáze a grafické prvky AntiAgeLab jsou chráněny autorským právem. Bez našeho souhlasu je prosím nepřebírejte ve větším rozsahu. Krátké citace s uvedením zdroje a odkazem jsou vítané. Produktové fotografie pocházejí od výrobců a zůstávají jejich vlastnictvím.</p>`) +
+      sect('Odkazy na jiné weby', `<p>Web obsahuje odkazy na stránky třetích stran (např. e-shopy nebo zdroje studií). Za jejich obsah a dostupnost neodpovídáme.</p>`) +
+      `<section class="section-block callout callout--disclaimer"><p class="small">Podmínky můžeme přiměřeně měnit. Aktuální znění je vždy zde. Poslední aktualizace: ${updated}.</p></section>`,
+  }));
+
+  // 9. Zdravotní upozornění
+  writePage('/zdravotni-upozorneni/', contentPage({
+    slug: '/zdravotni-upozorneni/', eyebrow: 'Právní informace', h1: 'Upozornění ke zdravotním informacím',
+    lead: `Bereme zdraví vážně — a proto chceme mít jasno v tom, co AntiAgeLab je a co není.`,
+    sections:
+      sect('Nenahrazujeme lékaře', `<p>AntiAgeLab <strong>nenahrazuje lékaře, dermatologa ani jiného odborníka</strong>. Informace na webu mají vzdělávací charakter a slouží k lepší orientaci, ne ke stanovení diagnózy nebo léčby.</p>`) +
+      sect('Při obtížích se poraďte s odborníkem', `<p>Máte-li konkrétní zdravotní problém, přetrvávající kožní obtíže, těhotenství, kojíte, užíváte léky nebo plánujete výraznější zásah do péče o pleť, <strong>doporučujeme konzultaci s lékařem nebo dermatologem</strong>. Reakce pleti jsou individuální — co sedí jednomu, nemusí sedět druhému.</p>`) +
+      sect('Doplňky stravy', `<p>U doplňků stravy platí:</p><ul class="rich-list"><li>Doplňky stravy <strong>nejsou určeny k léčbě ani prevenci onemocnění</strong> a nenahrazují pestrou stravu ani zdravý životní styl.</li><li>Veškeré informace uvádíme v souladu se <strong>schválenými zdravotními tvrzeními EU</strong>; nepřipisujeme doplňkům léčebné účinky.</li><li>Dodržujte doporučené dávkování a v případě pochybností se poraďte s lékařem či lékárníkem.</li></ul>`) +
+      `<section class="section-block callout callout--disclaimer"><p class="small">V naléhavých případech nebo při náhlých zdravotních obtížích vždy vyhledejte lékařskou pomoc. Obsah webu na to není náhradou.</p></section>`,
+  }));
+
+  // 10. Často kladené otázky
+  writePage('/caste-dotazy/', contentPage({
+    slug: '/caste-dotazy/', eyebrow: 'Nápověda', h1: 'Často kladené otázky',
+    lead: `Nejčastější dotazy k tomu, jak AntiAgeLab funguje. Nenašli jste odpověď? Napište na ${M()}.`,
+    sections: faqAccordion([
+      { q: 'Jak vznikají hodnocení?', a: `<p>Každý produkt, technologii, ingredienci i doplněk hodnotíme podle <strong>jednotné, veřejné metodiky</strong> na základě klinických studií a veřejně dostupných odborných informací. Celkové skóre je vážený průměr několika kritérií a každé je slovně zdůvodněné. Podrobně na stránce <a href="/metodika-hodnoceni/">Jak hodnotíme</a>.</p>` },
+      { q: 'Testuje produkty vaše redakce v laboratoři?', a: `<p>Ne. Jde o <strong>redakční odbornou analýzu</strong> z veřejně dostupných informací a vědeckých poznatků, nikoli o laboratorní test ani osobní zkušenost. Tam, kde by to mohlo být matoucí, to na stránce výslovně uvádíme.</p>` },
+      { q: 'Mohu vašim doporučením věřit?', a: `<p>Snažíme se, aby ano. Hodnotíme všechny stejně, výrobci obsah neovlivňují a nemohou si koupit lepší hodnocení. Otevřeně přiznáváme, kde jsou důkazy slabé. Jak financujeme provoz, popisujeme na stránce <a href="/financovani/">Jak je AntiAgeLab financován</a>.</p>` },
+      { q: 'Jak často obsah aktualizujete?', a: `<p>Průběžně. Když se objeví novější kvalitní přehled nebo metaanalýza, obsah i hodnocení podle něj upravíme. Více v <a href="/redakcni-zasady/">Redakčních zásadách</a>.</p>` },
+      { q: 'Jak vybíráte produkty?', a: `<p>Do databáze zařazujeme relevantní a dostupné produkty napříč cenovými hladinami a značkami. Cílem je srovnatelnost, ne výběr „těch, kdo platí" — protože za zařazení ani za lepší hodnocení se u nás platit nedá.</p>` },
+      { q: 'Co znamenají hvězdičky a skóre?', a: `<p>Skóre 0–10 vyjadřuje redakční hodnocení podle naší metodiky (hvězdičky jsou jeho zjednodušený, pětistupňový přepis). Vyšší číslo znamená lepší celkové vyhodnocení napříč kritérii — ne „nejlepší na trhu". Jak se počítá, ukazujeme v <a href="/metodika-hodnoceni/">metodice</a>.</p>` },
+      { q: 'Proč některé odkazy vedou do internetových obchodů?', a: `<p>Abyste mohli produkt, který vás zaujal, jedním kliknutím pořídit u ověřeného prodejce. Část těchto odkazů je partnerská (affiliate).</p>` },
+      { q: 'Jak fungují affiliate odkazy?', a: `<p>Nakoupíte-li přes partnerský odkaz, můžeme dostat malou provizi. <strong>Cena pro vás se nemění</strong> a provize <strong>nemá vliv na hodnocení</strong>. Detaily na stránce <a href="/financovani/">Jak je AntiAgeLab financován</a>.</p>` },
+      { q: 'Mohu navrhnout nový produkt nebo téma?', a: `<p>Ano, budeme rádi. Napište nám na ${M()} — tipy od čtenářů jsou pro nás cenné.</p>` },
+      { q: 'Jak vás kontaktovat?', a: `<p>Nejlépe e-mailem na ${M()}. Kontaktní údaje provozovatele najdete na stránce <a href="/kontakt/">Kontakt</a>.</p>` },
+    ]),
+    description: 'Odpovědi na nejčastější otázky o hodnocení, výběru produktů a affiliate odkazech na AntiAgeLab.',
+  }));
+}
+
+/* ----------------------------------------------------------------------------
  * BUILD
  * ------------------------------------------------------------------------- */
 function build() {
@@ -2293,6 +2459,7 @@ function build() {
 
   // metodika hodnocení (transparentnost)
   writePage('/metodika-hodnoceni/', methodologyPage());
+  writeFooterPages();                                                          // O projektu, transparentnost, právní informace, FAQ
 
   // 404 stránka (GitHub Pages i Apache ErrorDocument)
   writeFileSync(join(OUT, '404.html'), applyBase(layout({
