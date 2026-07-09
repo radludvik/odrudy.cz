@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HAS_FTP: ${{ secrets.FTP_SERVER != '' }}
+      DEPLOY_PROTO: ${{ secrets.FTP_PROTOCOL || 'ftp' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,12 +43,12 @@ jobs:
           name: antiagelab-web
           path: anti-aging-platform/site
           include-hidden-files: true
-      # Pozn.: selže-li tento krok (typicky hosting blokuje FTP ze zahraničních
+      # Pozn.: selže-li nahrání (typicky hosting blokuje FTP ze zahraničních
       # IP — GitHub servery běží mimo ČR), artefakt výše je i tak hotový a lze
       # ho nahrát ručně (Varianta B v NAVOD-VLASTNI-HOSTING.md).
-      # Volitelné secrets: FTP_PROTOCOL (ftp | ftps | ftps-legacy), FTP_PORT.
+      # Volitelné secrets: FTP_PROTOCOL (ftp | ftps | ftps-legacy | sftp), FTP_PORT.
       - name: Deploy přes FTP (jen když jsou nastavené FTP secrets)
-        if: env.HAS_FTP == 'true'
+        if: env.HAS_FTP == 'true' && env.DEPLOY_PROTO != 'sftp'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -59,3 +60,25 @@ jobs:
           local-dir: anti-aging-platform/site/
           server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}
           log-level: verbose
+      # SFTP/rsync přes SSH — pro hostingy, které blokují FTP ze zahraničí, ale
+      # nabízejí SSH/SFTP (např. Český hosting: port 3320). Aktivuje se secretem
+      # FTP_PROTOCOL = sftp; port určuje FTP_PORT (výchozí 22).
+      # Bezpečné výchozí chování: staré soubory na serveru se NEmažou; zrcadlení
+      # (mazání souborů, které v buildu nejsou) zapne secret RSYNC_DELETE = true.
+      - name: Deploy přes SFTP/rsync (když FTP_PROTOCOL = sftp)
+        if: env.HAS_FTP == 'true' && env.DEPLOY_PROTO == 'sftp'
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT || 22 }}
+          FTP_SERVER_DIR: ${{ secrets.FTP_SERVER_DIR || './' }}
+          RSYNC_DELETE: ${{ secrets.RSYNC_DELETE || 'false' }}
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq sshpass rsync
+          DEL=""
+          [ "$RSYNC_DELETE" = "true" ] && DEL="--delete"
+          sshpass -p "$FTP_PASSWORD" rsync -rltz --stats $DEL \
+            -e "ssh -p $FTP_PORT -o StrictHostKeyChecking=accept-new" \
+            anti-aging-platform/site/ "$FTP_USERNAME@$FTP_SERVER:$FTP_SERVER_DIR"

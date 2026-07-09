@@ -41,6 +41,23 @@ Jednou nastavíš FTP údaje a pak se web nahrává na tvůj hosting **jedním k
 | `FTP_PASSWORD` | tvoje FTP heslo |
 | `FTP_SERVER_DIR` | `www/` *(jen pokud hosting používá podsložku; jinak vynech)* |
 
+Volitelné: `FTP_PROTOCOL` (`ftp` / `ftps` / `sftp`), `FTP_PORT` — viz recept níže a „Řešení problémů".
+
+### 📦 Konkrétní recept: Český hosting (cesky-hosting.cz / thinline.cz)
+
+Český hosting blokuje klasické FTP ze zahraničních IP (GitHub servery běží mimo ČR), ale nabízí **SFTP na portu 3320** — ten použij. Secrets nastav takto:
+
+| Název secretu | Hodnota |
+|---|---|
+| `FTP_SERVER` | `replikantXXXX.thinline.cz` *(tvůj server z administrace, sekce FTP)* |
+| `FTP_USERNAME` | přístupové jméno z administrace (např. `antiagelab_cz`) |
+| `FTP_PASSWORD` | tvoje heslo |
+| `FTP_PROTOCOL` | `sftp` |
+| `FTP_PORT` | `3320` |
+| `FTP_SERVER_DIR` | `www/` *(kořen webu; ověř po přihlášení, že web patří do složky `www`)* |
+
+Pak stačí **Actions → „Build pro vlastní hosting" → Run workflow**. První nahrání trvá déle (~190 MB), další už jen kopírují změny. Chceš-li, aby se na serveru mazaly soubory, které už v novém buildu nejsou (plné zrcadlení), přidej ještě secret `RSYNC_DELETE` = `true` — ale až po ověření, že `FTP_SERVER_DIR` míří na správnou složku.
+
 ### 2. Spusť nasazení
 
 1. **Actions → „Build pro vlastní hosting" → Run workflow**.
@@ -124,7 +141,7 @@ Původní web na `radludvik.github.io/odrudy.cz` může běžet dál souběžně
 | **Vidím starou verzi webu** | Kešování prohlížeče — zkus Ctrl+F5. HTML se kešuje jen krátce, obrázky déle. |
 | **FTP deploy ve workflow selhal** | Zkontroluj secrets (překlepy v serveru/jménu/hesle) a `FTP_SERVER_DIR` (musí končit lomítkem, např. `www/`). Detail chyby je v logu workflow. **Důležité:** i když FTP krok selže, balíček webu (artifact `antiagelab-web`) se v tom samém běhu vytvořil — stáhni ho z detailu běhu a nahraj ručně (Varianta B). |
 | **FTP selhal s `ETIMEDOUT ...:21` (vypršení spojení)** | GitHub se k FTP serveru vůbec nedostal. Nejčastější příčina u českých hostingů: **FTP je povolené jen z českých IP adres** — GitHub servery běží v zahraničí. Řešení: v administraci hostingu povol FTP přístup ze zahraničí / ze všech IP (např. u Wedosu „FTP — povolit zahraniční IP"), nebo se hostingu zeptej, jak FTP zpřístupnit externí službě. Alternativně nastav secrets `FTP_PROTOCOL` (`ftps`) a `FTP_PORT`, pokud hosting používá jiný port. Když nic z toho nejde, použij Variantu B — balíček je hotový i ze selhaného běhu. |
-| **Hosting nabízí jen FTPS/SFTP** | FTPS nastav secretem `FTP_PROTOCOL` = `ftps` (případně `FTP_PORT`, používá-li hosting jiný port než 21). Čisté SFTP (port 22) FTP akce neumí — v tom případě použij Variantu B a nahraj to FTP klientem. |
+| **Hosting nabízí jen FTPS/SFTP** | FTPS nastav secretem `FTP_PROTOCOL` = `ftps` (případně `FTP_PORT`). SFTP nastav `FTP_PROTOCOL` = `sftp` + `FTP_PORT` (např. Český hosting používá port `3320`) — nasazení pak jede přes rsync/SSH. |
 
 ---
 
