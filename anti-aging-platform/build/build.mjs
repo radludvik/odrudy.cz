@@ -543,6 +543,7 @@ function detailExtras(e) {
     html += quickFacts(rows);
     html += evidenceBlock(e);                                                 // 8. Detailní / důkazy
     html += scorecardBlock(e, TECH_SCORE_LABELS);
+    html += buyReco(e);                                                        // CTA po hodnocení
     html += techCombine(e);
     html += techComparisons(e);
   }
@@ -561,6 +562,7 @@ function detailExtras(e) {
     html += dosingRows.length ? `<section class="section-block"><h2>Dávkování a užívání</h2>${quickFacts(dosingRows)}</section>` : '';
     html += twoCol(listBlock('Možné nežádoucí účinky', e.sideEffects), listBlock('Kdy být opatrný / kontraindikace', e.contraindications));
     html += scorecardBlock(e, SUPP_SCORE_LABELS);
+    html += buyReco(e);                                                        // CTA po hodnocení
     html += legalBlock(e);
     html += techCombine(e);
     html += suppComparisons(e);
@@ -591,11 +593,11 @@ function detailExtras(e) {
     html += twoCol(listBlock('Pro koho je vhodný', e.suitableFor), listBlock('Kdy není vhodný', e.notSuitable || e.contraindications));
     html += scorecardBlock(e, isDeviceProduct(e) ? DEVICE_SCORE_LABELS : SCORE_LABELS);
     html += twoCol(listBlock('Silné stránky', e.strengths || e.pros), listBlock('Slabé stránky', e.weaknesses || e.cons));
+    html += buyReco(e);                                                        // CTA po hodnocení a pro/proti
     html += recommendationBlock(e);
     html += alternativesBlock(e);
     html += productCompareBlock(e);
     html += inciBlock(e);
-    if (e.affiliate?.length) html += affiliateBlock(e.affiliate);
   }
   if (e.type === 'procedure') {
     html += decisionTop(e);                                                   // 1–3.
@@ -883,6 +885,49 @@ function compatibilityBlock(list) {
 function affiliateBlock(list) {
   return `<section class="section-block affiliate"><h3>Kde koupit</h3><div class="aff-row">${list
     .map((a) => `<a class="btn btn--primary" href="${attr(a.url)}" rel="nofollow sponsored noopener" target="_blank">${esc(a.label)} ↗</a>`).join('')}</div><p class="muted small">Odkazy mohou být affiliate — nákupem přes ně podpoříte provoz platformy bez vlivu na cenu.</p></section>`;
+}
+
+/* ---- Affiliate CTA „Koupit u ověřeného prodejce" -----------------------------
+ * Jeden doporučený obchod, žádný srovnávač. Cílová URL: kurátorský affiliate
+ * odkaz → oficiální produktová stránka výrobce → zdroj packshotu. Zobrazí se
+ * jen u nakupitelných typů (produkt/doplněk/přístroj), které mají kam vést. */
+const BUY_LABEL = 'Koupit u ověřeného prodejce';
+const BUY_TYPES = new Set(['product', 'supplement', 'technology']);
+function buyHref(e) {
+  if (e.affiliate && e.affiliate.length && e.affiliate[0] && e.affiliate[0].url) return e.affiliate[0].url;
+  return e.affiliateUrl || e.buyUrl || e.productUrl || (e.image && e.image.sourceUrl) || null;
+}
+function canBuy(e) { return BUY_TYPES.has(e.type) && !!buyHref(e); }
+function buyBtn(e, extraCls) {
+  const href = buyHref(e);
+  if (!href) return '';
+  return `<a class="btn btn--gold btn--buy ${extraCls || ''}" href="${attr(href)}" rel="nofollow sponsored noopener" target="_blank" data-buy>${BUY_LABEL} →</a>`;
+}
+function buyRecoText(e) {
+  const o = e.scores && e.scores.overall;
+  const cat = e.category ? categoryLabel(e.category).toLowerCase() : '';
+  const catPart = cat ? ` v kategorii ${cat}` : '';
+  if (o && typeof o.score === 'number')
+    return `${esc(e.name)} získal v našem hodnocení <strong>${fmtScore(o.score)}/10</strong> a patří mezi doporučené volby${catPart}.`;
+  return `${esc(e.name)} patří podle naší redakční analýzy mezi volby, které stojí za zvážení${catPart}.`;
+}
+function buyCtaHero(e) {
+  if (!canBuy(e)) return '';
+  return `<div class="buy-cta buy-cta--hero">${buyBtn(e)}<p class="buy-sub">Přesměrujeme vás do námi doporučeného obchodu.</p></div>`;
+}
+function buyReco(e) {
+  if (!canBuy(e)) return '';
+  const price = e.price ? `<p class="buy-sub">Doporučená cena: ${esc(e.price)}</p>` : '';
+  return `<section class="section-block buy-reco"><span class="buy-reco-badge">★ Doporučeno AntiAgeLab</span><h2>Doporučení AntiAgeLab</h2><p class="buy-reco-text">${buyRecoText(e)}</p>${buyBtn(e)}${price}</section>`;
+}
+function buyEnd(e) {
+  if (!canBuy(e)) return '';
+  return `<section class="section-block buy-end"><h2>Rozhodli jste se produkt vyzkoušet?</h2><p>Přejděte do námi doporučeného obchodu — vybrali jsme ho jako spolehlivé místo k nákupu.</p>${buyBtn(e)}</section>`;
+}
+function buySticky(e) {
+  if (!canBuy(e)) return '';
+  return `<div class="buy-sticky" data-buy-sticky hidden><div class="container buy-sticky-inner"><span class="buy-sticky-label">★ Doporučeno AntiAgeLab</span>${buyBtn(e, 'buy-sticky-btn')}</div></div>` +
+    `<script>(function(){var s=document.querySelector('[data-buy-sticky]');if(!s)return;var h=document.querySelector('.detail-hero');function u(){var b=h?h.getBoundingClientRect().bottom:0;s.hidden=!(b<0);}window.addEventListener('scroll',u,{passive:true});window.addEventListener('resize',u);u();})();</script>`;
 }
 
 /* ---- Produktové bloky (odborná databáze) ---- */
@@ -1428,6 +1473,7 @@ function renderDetail(e) {
         ${e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : ''}
       </div>
       <p class="lead">${esc(e.excerpt || '')}</p>
+      ${buyCtaHero(e)}
     </div>
     ${heroImg}
   </div></section>`;
@@ -1443,6 +1489,7 @@ function renderDetail(e) {
       ${e.type === 'supplement' ? suppFinalReco(e) : ''}
       ${['ingredient', 'procedure'].includes(e.type) ? maybeInstead(e) : ''}
       ${['ingredient', 'technology', 'supplement', 'procedure', 'article'].includes(e.type) ? nextStep(e) : ''}
+      ${buyEnd(e)}
     </article>
     <aside class="detail-aside">
       ${relatedSection(e)}
@@ -1469,7 +1516,7 @@ function renderDetail(e) {
     breadcrumbTrail: trail,
     image: ogImageFor(e),
     jsonld: [pageLd, faqLd].filter(Boolean),
-    body: hero + article + (e.type === 'technology' ? '<script src="/assets/js/tech-advisor.js" defer></script>' : e.type === 'supplement' ? '<script src="/assets/js/supplement-advisor.js" defer></script>' : ''),
+    body: hero + article + buySticky(e) + (e.type === 'technology' ? '<script src="/assets/js/tech-advisor.js" defer></script>' : e.type === 'supplement' ? '<script src="/assets/js/supplement-advisor.js" defer></script>' : ''),
   });
 }
 function suppFinalReco(e) {

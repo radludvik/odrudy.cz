@@ -107,6 +107,32 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 .btn--gold:hover{background:var(--gold-deep);color:#fff}
 .btn--lg{padding:15px 26px;font-size:1rem}
 
+/* ---- Affiliate CTA „Koupit u ověřeného prodejce" ---- */
+.btn--buy{font-weight:600}
+.buy-sub{font-size:.82rem;color:var(--ink-soft);margin:.55rem 0 0}
+.buy-cta--hero{margin-top:22px}
+.buy-cta--hero .btn--buy{padding:15px 30px;font-size:1.02rem}
+/* Doporučovací box po hodnocení */
+.buy-reco{background:linear-gradient(180deg,#fff,var(--porcelain));border:1px solid var(--gold);border-radius:var(--radius);padding:26px 28px;box-shadow:0 10px 30px rgba(176,141,87,.1)}
+.buy-reco-badge{display:inline-flex;align-items:center;gap:.35rem;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--gold-deep);background:rgba(176,141,87,.12);border-radius:60px;padding:5px 12px;margin-bottom:.9rem}
+.buy-reco h2{margin:0 0 .5rem}
+.buy-reco-text{margin:0 0 1.1rem;color:var(--ink);font-size:1.02rem}
+.buy-reco .btn--buy{padding:15px 30px;font-size:1.02rem}
+/* Závěrečný box */
+.buy-end{text-align:center;background:var(--porcelain);border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px}
+.buy-end h2{margin:0 0 .4rem}
+.buy-end p{color:var(--ink-soft);margin:0 0 1.2rem}
+/* Sticky lišta na mobilu */
+.buy-sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:saturate(1.4) blur(8px);border-top:1px solid var(--line);box-shadow:0 -6px 22px rgba(42,39,35,.1);padding:9px 0 calc(9px + env(safe-area-inset-bottom));display:none}
+.buy-sticky-inner{display:flex;align-items:center;gap:14px}
+.buy-sticky-label{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--gold-deep);white-space:nowrap}
+.buy-sticky .btn--buy{flex:1;justify-content:center;padding:14px 20px}
+@media(max-width:760px){
+  .buy-sticky{display:block}
+  .buy-sticky-label{display:none}
+  body:has(.buy-sticky:not([hidden])){padding-bottom:74px}
+}
+
 .hero2-visual{position:relative;grid-column:2;grid-row:1 / span 2;align-self:stretch;min-height:520px}
 .hero2-pic{display:block;width:100%;height:100%}
 .hero2-photo{display:block;width:100%;height:100%;max-height:620px;object-fit:cover;object-position:52% 20%;border-radius:22px;box-shadow:0 30px 64px rgba(42,39,35,.16)}
