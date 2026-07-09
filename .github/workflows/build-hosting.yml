@@ -42,6 +42,10 @@ jobs:
           name: antiagelab-web
           path: anti-aging-platform/site
           include-hidden-files: true
+      # Pozn.: selže-li tento krok (typicky hosting blokuje FTP ze zahraničních
+      # IP — GitHub servery běží mimo ČR), artefakt výše je i tak hotový a lze
+      # ho nahrát ručně (Varianta B v NAVOD-VLASTNI-HOSTING.md).
+      # Volitelné secrets: FTP_PROTOCOL (ftp | ftps | ftps-legacy), FTP_PORT.
       - name: Deploy přes FTP (jen když jsou nastavené FTP secrets)
         if: env.HAS_FTP == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -49,6 +53,9 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ secrets.FTP_PROTOCOL || 'ftp' }}
+          port: ${{ secrets.FTP_PORT || 21 }}
+          timeout: 60000
           local-dir: anti-aging-platform/site/
           server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}
           log-level: verbose

@@ -122,8 +122,9 @@ Původní web na `radludvik.github.io/odrudy.cz` může běžet dál souběžně
 | **404 ukazuje ošklivou chybu hostingu** | Totéž — chybí `.htaccess` (obsahuje `ErrorDocument 404`). |
 | **Obrázky se nenačítají** | Nejspíš se nenahrála celá složka `assets/img/` (je velká, ~30 MB). Nahraj ji znovu; ve FileZille zkontroluj frontu chyb. |
 | **Vidím starou verzi webu** | Kešování prohlížeče — zkus Ctrl+F5. HTML se kešuje jen krátce, obrázky déle. |
-| **FTP deploy ve workflow selhal** | Zkontroluj secrets (překlepy v serveru/jménu/hesle) a `FTP_SERVER_DIR` (musí končit lomítkem, např. `www/`). Detail chyby je v logu workflow. |
-| **Hosting nabízí jen FTPS/SFTP** | FTPS funguje automaticky (workflow ho zkusí). Čisté SFTP (port 22) FTP akce neumí — v tom případě použij Variantu B a nahraj to FTP klientem. |
+| **FTP deploy ve workflow selhal** | Zkontroluj secrets (překlepy v serveru/jménu/hesle) a `FTP_SERVER_DIR` (musí končit lomítkem, např. `www/`). Detail chyby je v logu workflow. **Důležité:** i když FTP krok selže, balíček webu (artifact `antiagelab-web`) se v tom samém běhu vytvořil — stáhni ho z detailu běhu a nahraj ručně (Varianta B). |
+| **FTP selhal s `ETIMEDOUT ...:21` (vypršení spojení)** | GitHub se k FTP serveru vůbec nedostal. Nejčastější příčina u českých hostingů: **FTP je povolené jen z českých IP adres** — GitHub servery běží v zahraničí. Řešení: v administraci hostingu povol FTP přístup ze zahraničí / ze všech IP (např. u Wedosu „FTP — povolit zahraniční IP"), nebo se hostingu zeptej, jak FTP zpřístupnit externí službě. Alternativně nastav secrets `FTP_PROTOCOL` (`ftps`) a `FTP_PORT`, pokud hosting používá jiný port. Když nic z toho nejde, použij Variantu B — balíček je hotový i ze selhaného běhu. |
+| **Hosting nabízí jen FTPS/SFTP** | FTPS nastav secretem `FTP_PROTOCOL` = `ftps` (případně `FTP_PORT`, používá-li hosting jiný port než 21). Čisté SFTP (port 22) FTP akce neumí — v tom případě použij Variantu B a nahraj to FTP klientem. |
 
 ---
 
