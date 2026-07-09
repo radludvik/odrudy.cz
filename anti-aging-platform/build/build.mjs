@@ -2291,12 +2291,12 @@ function faqAccordion(items) {
 const M = (s) => `<a href="mailto:${CONTACT.email}">${CONTACT.email}</a>`; // e-mail odkaz
 
 function writeFooterPages() {
-  const updated = 'červenec 2025';
+  const updated = 'červenec 2026';
 
   // 1. O projektu
   writePage('/o-projektu/', contentPage({
     slug: '/o-projektu/', eyebrow: 'O projektu', h1: 'O AntiAgeLab',
-    lead: `AntiAgeLab je nezávislá česká znalostní databáze o neinvazivním anti-agingu. Pomáháme vám vyznat se v ingrediencích, technologiích, procedurách i produktech — na jednom místě, srozumitelně a s ohledem na skutečné vědecké důkazy.`,
+    lead: `AntiAgeLab je nezávislá znalostní databáze o neinvazivním anti-agingu. Pomáháme vám vyznat se v ingrediencích, technologiích, procedurách i produktech — na jednom místě, srozumitelně a s ohledem na skutečné vědecké důkazy.`,
     sections:
       sect('Proč projekt vznikl', `<p>Informace o péči proti stárnutí pleti jsou dnes rozdrobené a často protichůdné. Jeden článek slibuje zázrak, druhý ho vyvrací, reklama tlačí třetí směr. Zorientovat se v tom dá práci i člověku, který se o téma zajímá. AntiAgeLab vznikl proto, abychom roztříštěné poznatky dali dohromady, propojili je a podali tak, aby dávaly smysl — bez senzací a bez planých slibů.</p>`) +
       sect('Komu je určen', `<p>Každému, kdo chce dělat informovanější rozhodnutí o své pleti. Ať už si vybíráte první sérum s retinolem, zvažujete domácí LED masku, nebo jen chcete rozumět tomu, co znamenají pojmy na etiketě — najdete tu podklady srozumitelné laikovi, ale postavené na odborných zdrojích.</p>`) +
