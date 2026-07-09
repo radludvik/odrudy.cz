@@ -569,14 +569,16 @@ function detailExtras(e) {
     html += recommendPicks(e);                                                // Jednotná doporučovací sekce
   }
   if (e.type === 'product') {
+    html += verdictBox(e);                                                     // Rychlý verdikt „Vyplatí se koupit?" hned nahoře
     const rows = [];
+    // Nejdřív to, co člověka zajímá (cena), technické parametry níže.
+    if (e.price) rows.push(['Doporučená cena', e.price]);
     if (e.brand && e.brand !== '—') rows.push(['Značka', e.brand]);
     if (e.manufacturer && e.manufacturer !== '—' && e.manufacturer !== e.brand) rows.push(['Výrobce', e.manufacturer]);
-    if (e.category) rows.push(['Kategorie', categoryLabel(e.category)]);
     if (e.productType) rows.push(['Typ produktu', e.productType]);
-    if (e.country) rows.push(['Země původu', e.country]);
     if (e.volume) rows.push(['Objem', e.volume]);
-    if (e.price) rows.push(['Doporučená cena', e.price]);
+    if (e.country) rows.push(['Země původu', e.country]);
+    if (e.category) rows.push(['Kategorie', categoryLabel(e.category)]);
     if (e.suppFacts) {
       const sf = e.suppFacts;
       if (sf.forma) rows.push(['Forma', sf.forma]);
@@ -911,9 +913,39 @@ function buyRecoText(e) {
     return `${esc(e.name)} získal v našem hodnocení <strong>${fmtScore(o.score)}/10</strong> a patří mezi doporučené volby${catPart}.`;
   return `${esc(e.name)} patří podle naší redakční analýzy mezi volby, které stojí za zvážení${catPart}.`;
 }
+function relNames(e, type, n) {
+  return [...((e._rel && e._rel[type]) || [])].map((s) => bySlug.get(`${type}:${s}`)).filter(Boolean).slice(0, n).map((x) => x.name);
+}
 function buyCtaHero(e) {
   if (!canBuy(e)) return '';
-  return `<div class="buy-cta buy-cta--hero">${buyBtn(e)}<p class="buy-sub">Přesměrujeme vás do námi doporučeného obchodu.</p></div>`;
+  const o = e.scores && e.scores.overall;
+  const rating = (o && typeof o.score === 'number')
+    ? `<div class="hero-buy-rating">${stars(Math.round(o.score / 2))} <b>Doporučeno AntiAgeLab</b> <span class="muted">${fmtScore(o.score)}/10</span></div>` : '';
+  const forwho = [...relNames(e, 'problem', 3), ...relNames(e, 'skinType', 2)].slice(0, 4);
+  const forwhoHtml = forwho.length
+    ? `<div class="hero-buy-forwho"><span class="hero-buy-l">Pro koho</span><ul class="checks">${forwho.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></div>` : '';
+  const price = e.price ? `<div class="hero-buy-price"><span class="hero-buy-l">Cena</span> <b>${esc(e.price)}</b></div>` : '';
+  return `<div class="buy-cta buy-cta--hero">${rating}${forwhoHtml}${price}${buyBtn(e)}<p class="buy-sub">Přesměrujeme vás do námi doporučeného obchodu.</p></div>`;
+}
+/* Rychlý verdikt „Vyplatí se koupit?" — TL;DR z pole recommendation. */
+function verdictBox(e) {
+  const r = e.recommendation;
+  if (!r || (!r.yes && !r.no)) return '';
+  return `<section class="section-block verdict"><h2>Vyplatí se koupit?</h2><div class="verdict-grid">${r.yes ? `<div class="verdict-col verdict--yes"><h3>✅ Ano, pokud</h3><p>${esc(r.yes)}</p></div>` : ''}${r.no ? `<div class="verdict-col verdict--no"><h3>❌ Spíše ne, pokud</h3><p>${esc(r.no)}</p></div>` : ''}</div></section>`;
+}
+/* Postranní karta „Rychlé shrnutí" — skóre, důkazy, co řeší, cena. */
+function quickSummaryAside(e) {
+  if (!BUY_TYPES.has(e.type)) return '';
+  const o = e.scores && e.scores.overall;
+  const rows = [];
+  if (o && typeof o.score === 'number') rows.push(['Hodnocení', `${stars(Math.round(o.score / 2))} <b>${fmtScore(o.score)}/10</b>`]);
+  if (e.evidenceLevel) rows.push(['Síla důkazů', evidenceBadge(e.evidenceLevel)]);
+  const probs = relNames(e, 'problem', 3); if (probs.length) rows.push(['Řeší', esc(probs.join(', '))]);
+  const skins = relNames(e, 'skinType', 3); if (skins.length) rows.push(['Vhodné pro', esc(skins.join(', '))]);
+  if (e.price) rows.push(['Cena', esc(e.price)]);
+  if (!rows.length) return '';
+  const body = rows.map(([k, v]) => `<div class="qs-row"><span class="qs-k">${k}</span><span class="qs-v">${v}</span></div>`).join('');
+  return `<section class="qs-card"><h3 class="qs-h">★ Rychlé shrnutí</h3>${body}</section>`;
 }
 function buyReco(e) {
   if (!canBuy(e)) return '';
@@ -942,7 +974,7 @@ const PRODUCT_CATEGORIES = {
   'doplnky-stravy': 'Doplňky stravy',
 };
 const SCORE_LABELS = { evidence: 'Klinické důkazy o složení', quality: 'Kvalita složení', potency: 'Síla aktivních látek', sensitive: 'Bezpečnost a snášenlivost', value: 'Poměr cena/výkon', innovation: 'Inovativnost formulace' };
-const ALT_KIND = { better: 'Lepší varianta', cheaper: 'Levnější varianta', stronger: 'Výkonnější varianta', gentler: 'Šetrnější varianta', similar: 'Podobná varianta' };
+const ALT_KIND = { better: '🏆 Nejlepší alternativa', cheaper: '💰 Levnější alternativa', stronger: '⭐ Silnější alternativa', gentler: '🌱 Šetrnější alternativa', similar: '🔄 Podobná alternativa' };
 
 function categoryLabel(c) { return PRODUCT_CATEGORIES[c] || c; }
 function productDisclaimer() {
@@ -1000,10 +1032,15 @@ function alternativesBlock(e) {
   if (!e.alternatives || !e.alternatives.length) return '';
   const items = e.alternatives.map((a) => {
     const it = bySlug.get(`product:${a.slug}`);
-    const name = it ? `<a href="${urlOf(it)}">${esc(it.name)}</a>` : esc(a.name || a.slug);
-    return `<div class="alt"><span class="alt-kind">${esc(ALT_KIND[a.kind] || a.kind)}</span><div class="alt-name">${name}</div>${a.note ? `<p class="muted small">${esc(a.note)}</p>` : ''}</div>`;
+    const name = it ? esc(it.name) : esc(a.name || a.slug);
+    const img = it ? entityImage(it, { cls: 'card-img alt-img' }) : '';        // card-img ⇒ bez zdrojové atribuce (žádný vnořený odkaz)
+    const score = (it && it.scores && it.scores.overall && typeof it.scores.overall.score === 'number') ? `<span class="alt-score">${fmtScore(it.scores.overall.score)}/10</span>` : '';
+    const price = (it && it.price) ? `<span class="alt-price">${esc(it.price)}</span>` : '';
+    const foot = (score || price) ? `<span class="alt-foot">${score}${price}</span>` : '';
+    const inner = `${img}<span class="alt-kind">${esc(ALT_KIND[a.kind] || a.kind)}</span><span class="alt-name">${name}</span>${a.note ? `<p class="alt-note muted small">${esc(a.note)}</p>` : ''}${foot}`;
+    return it ? `<a class="alt alt--card" href="${urlOf(it)}">${inner}</a>` : `<div class="alt alt--card">${inner}</div>`;
   }).join('');
-  return `<section class="section-block"><h2>Alternativy</h2><div class="alt-grid">${items}</div></section>`;
+  return `<section class="section-block alternatives"><h2>Alternativy</h2><p class="muted small">Podobné produkty v naší databázi — porovnané a ohodnocené redakcí.</p><div class="alt-grid alt-grid--cards">${items}</div></section>`;
 }
 function productCompareBlock(e) {
   if (!e.compare || !e.compare.items || !e.compare.dimensions) return '';
@@ -1492,6 +1529,7 @@ function renderDetail(e) {
       ${buyEnd(e)}
     </article>
     <aside class="detail-aside">
+      ${quickSummaryAside(e)}
       ${relatedSection(e)}
     </aside>
   </div>`;

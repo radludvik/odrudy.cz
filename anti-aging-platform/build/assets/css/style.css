@@ -110,8 +110,35 @@ ul{margin:0 0 1.1rem;padding-left:1.2rem}
 /* ---- Affiliate CTA „Koupit u ověřeného prodejce" ---- */
 .btn--buy{font-weight:600}
 .buy-sub{font-size:.82rem;color:var(--ink-soft);margin:.55rem 0 0}
-.buy-cta--hero{margin-top:22px}
+.buy-cta--hero{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
 .buy-cta--hero .btn--buy{padding:15px 30px;font-size:1.02rem}
+/* Hero prodejní karta: hodnocení / pro koho / cena */
+.hero-buy-rating{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem;margin-bottom:.7rem;font-size:.95rem}
+.hero-buy-rating .stars{color:var(--gold);letter-spacing:.06em;font-size:1.05rem}
+.hero-buy-rating b{font-weight:600}
+.hero-buy-forwho{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;margin-bottom:.55rem}
+.hero-buy-l{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.4rem .9rem}
+.checks li{position:relative;padding-left:1.25rem;font-size:.94rem;color:var(--ink)}
+.checks li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:700}
+.hero-buy-price{margin-bottom:1rem;font-size:1rem}
+.hero-buy-price b{font-family:var(--serif);font-size:1.15rem;color:var(--gold-deep)}
+/* Verdikt „Vyplatí se koupit?" */
+.verdict-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.verdict-col{padding:18px 20px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff}
+.verdict--yes{border-left:3px solid var(--ok)}
+.verdict--no{border-left:3px solid var(--bad)}
+.verdict-col h3{margin:0 0 .4rem;font-size:1.02rem}
+.verdict-col p{margin:0;color:var(--ink-soft);font-size:.95rem}
+@media(max-width:640px){.verdict-grid{grid-template-columns:1fr}}
+/* Postranní karta „Rychlé shrnutí" */
+.qs-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin-bottom:26px;box-shadow:0 6px 18px rgba(42,39,35,.05)}
+.qs-h{margin:0 0 .9rem;font-size:1.05rem;color:var(--gold-deep)}
+.qs-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-top:1px solid var(--line)}
+.qs-row:first-of-type{border-top:0}
+.qs-k{font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap}
+.qs-v{text-align:right;font-size:.92rem}
+.qs-v .stars{color:var(--gold);letter-spacing:.04em}
 /* Doporučovací box po hodnocení */
 .buy-reco{background:linear-gradient(180deg,#fff,var(--porcelain));border:1px solid var(--gold);border-radius:var(--radius);padding:26px 28px;box-shadow:0 10px 30px rgba(176,141,87,.1)}
 .buy-reco-badge{display:inline-flex;align-items:center;gap:.35rem;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--gold-deep);background:rgba(176,141,87,.12);border-radius:60px;padding:5px 12px;margin-bottom:.9rem}
@@ -564,6 +591,17 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .alt{padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff}
 .alt-kind{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:.4rem}
 .alt-name{font-weight:500}
+/* Zvýrazněné karty alternativ (s fotkou, skóre a cenou) */
+.alt-grid--cards{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.alt--card{display:flex;flex-direction:column;padding:0;overflow:hidden;transition:transform .18s,box-shadow .18s,border-color .18s;color:var(--ink)}
+.alt--card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:var(--gold)}
+.alt--card .alt-img{aspect-ratio:1/1;margin:0;border:0;border-bottom:1px solid var(--line);border-radius:0}
+.alt--card .alt-kind{margin:16px 18px 0;font-size:.82rem;letter-spacing:.02em;text-transform:none}
+.alt--card .alt-name{margin:.25rem 18px 0;font-family:var(--serif);font-size:1.12rem;font-weight:600;line-height:1.25}
+.alt--card .alt-note{margin:.5rem 18px 0;flex:1}
+.alt--card .alt-foot{display:flex;align-items:center;gap:12px;margin:14px 18px 18px}
+.alt-score{font-family:var(--serif);font-weight:600;color:var(--gold-deep)}
+.alt-price{font-size:.9rem;color:var(--ink-soft)}
 .inci summary{font-weight:500}
 .inci .small{word-break:break-word;color:var(--ink-soft)}
 
