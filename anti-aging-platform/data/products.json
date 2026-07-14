@@ -46754,7 +46754,14 @@
         "note": "Šetrný retinoid pro citlivější pleť."
       }
     ],
-    "productUrl": "https://www.ryor.cz/serum-s-retinolem"
+    "productUrl": "https://www.ryor.cz/serum-s-retinolem",
+    "image": {
+      "src": "/assets/img/products/ryor-serum-s-retinolem.jpg",
+      "alt": "RYOR Sérum s retinolem",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.ryor.cz/serum-s-retinolem"
+    }
   },
   {
     "id": "prod-bione-hyaluron-life-serum",
@@ -46899,7 +46906,14 @@
         "note": "Minimalistická korejská HA hydratace."
       }
     ],
-    "productUrl": "https://www.bione-shop.cz/pletove-serum-s-kyselinou-hyaluronovou-hyaluron-life-40-ml/"
+    "productUrl": "https://www.bione-shop.cz/pletove-serum-s-kyselinou-hyaluronovou-hyaluron-life-40-ml/",
+    "image": {
+      "src": "/assets/img/products/bione-hyaluron-life-serum.jpg",
+      "alt": "Bione Cosmetics Hyaluron Life pleťové sérum",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.bione-shop.cz/pletove-serum-s-kyselinou-hyaluronovou-hyaluron-life-40-ml/"
+    }
   },
   {
     "id": "prod-purito-retinol-retinal-2000-nad-serum",
@@ -47056,7 +47070,14 @@
         "note": "Vyšší koncentrace retinolu."
       }
     ],
-    "productUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/"
+    "productUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/",
+    "image": {
+      "src": "/assets/img/products/purito-retinol-retinal-2000-nad-serum.jpg",
+      "alt": "Purito Seoul Retinol Retinal 2000 NAD+ Serum",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/"
+    }
   },
   {
     "id": "prod-missha-time-revolution-night-repair-ampoule-5x",
@@ -47192,7 +47213,14 @@
         "note": "Dostupná noční regenerace."
       }
     ],
-    "productUrl": "https://misshaus.com/products/time-revolution-night-repair-ampoule-5x"
+    "productUrl": "https://misshaus.com/products/time-revolution-night-repair-ampoule-5x",
+    "image": {
+      "src": "/assets/img/products/missha-time-revolution-night-repair-ampoule-5x.jpg",
+      "alt": "Missha Time Revolution Night Repair Ampoule 5X",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://misshaus.com/products/time-revolution-night-repair-ampoule-5x"
+    }
   },
   {
     "id": "prod-purcell-82-high-dose-peptide-formula",
