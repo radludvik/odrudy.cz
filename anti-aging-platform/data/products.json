@@ -43719,5 +43719,1571 @@
       "source": "výrobce (oficiální)",
       "sourceUrl": "https://www.cosrx.com/products/aha-bha-clarifying-treatment-toner"
     }
+  },
+  {
+    "id": "prod-anua-niacinamide-10-txa-4-serum",
+    "slug": "anua-niacinamide-10-txa-4-serum",
+    "type": "product",
+    "name": "Anua Niacinamide 10% + TXA 4% Serum",
+    "updated": "2026-07-14",
+    "title": "Anua Niacinamide 10% + TXA 4% Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Anua Niacinamide 10% + TXA 4% Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Anua Niacinamide 10% + TXA 4% Serum",
+    "excerpt": "Sérum s 10 % niacinamidu a 4 % kyseliny tranexamové na pigmentové skvrny a sjednocení tónu pleti.",
+    "evidenceLevel": "strong",
+    "brand": "Anua",
+    "manufacturer": "Anua",
+    "category": "sera",
+    "productType": "aktivní sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 500–600 Kč",
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {
+      "niacinamid": "10 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: mastná, smíšená, citlivá",
+      "Cíl: pigmentace, matná pleť, rozšířené póry"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Anua s aktivními látkami: Niacinamid."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „aktivní sérum\" a hlavním látkám (Niacinamid)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 500–600 Kč."
+      },
+      "sensitive": {
+        "score": 7,
+        "note": "Vyšší koncentrace niacinamidu — zavádějte postupně."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Niacinamid",
+      "10% niacinamid + 4% kyselina tranexamová",
+      "Cílené sérum na pigmentace"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje",
+      "Kyselinu tranexamovou zatím nemáme v databázi ingrediencí — popis vychází z niacinamidu"
+    ],
+    "recommendation": {
+      "yes": "Pro pleť s pigmentacemi a nerovnoměrným tónem, která chce silnější, ale stále šetrné sérum.",
+      "no": "Pro toho, komu vyšší koncentrace niacinamidu dráždí pleť."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Anua Niacinamide 10% + TXA 4% Serum je aktivní sérum značky Anua. Sérum s 10 % niacinamidu a 4 % kyseliny tranexamové na pigmentové skvrny a sjednocení tónu pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Niacinamid. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet",
+        "rozsirene-pory"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "citliva"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "axis-y-dark-spot-correcting-glow-serum",
+        "kind": "gentler",
+        "note": "Nižší koncentrace niacinamidu (5 %)."
+      },
+      {
+        "slug": "naturium-tranexamic-topical-acid-5",
+        "kind": "similar",
+        "note": "Alternativa postavená na kyselině tranexamové."
+      }
+    ]
+  },
+  {
+    "id": "prod-anua-rice-70-glow-milky-toner",
+    "slug": "anua-rice-70-glow-milky-toner",
+    "type": "product",
+    "name": "Anua Rice 70 Glow Milky Toner",
+    "updated": "2026-07-14",
+    "title": "Anua Rice 70 Glow Milky Toner: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Anua Rice 70 Glow Milky Toner — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Anua Rice 70 Glow Milky Toner",
+    "excerpt": "Mléčný toner se 70 % rýžového extraktu a niacinamidem pro hydrataci a jemné rozjasnění.",
+    "evidenceLevel": "moderate",
+    "brand": "Anua",
+    "manufacturer": "Anua",
+    "category": "hydratace",
+    "productType": "rozjasňující toner",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 380–440 Kč",
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: suchá, smíšená, citlivá",
+      "Cíl: matná pleť, hrubší textura"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Anua s aktivními látkami: Niacinamid."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „rozjasňující toner\" a hlavním látkám (Niacinamid)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 380–440 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Jemná mléčná textura, obvykle velmi dobře snášená."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Niacinamid",
+      "Hydratace + jemné rozjasnění v jednom kroku",
+      "Příjemná mléčná textura"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro sušší a mdlou pleť jako hydratační a rozjasňující základ rutiny.",
+      "no": "Pro toho, kdo hledá cílený účinek na pigmentace — sáhněte po koncentrovanějším séru."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Anua Rice 70 Glow Milky Toner je rozjasňující toner značky Anua. Mléčný toner se 70 % rýžového extraktu a niacinamidem pro hydrataci a jemné rozjasnění."
+      },
+      {
+        "p": "Účinek staví na složkách: Niacinamid. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "matna-plet",
+        "textura"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "citliva"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "anua-peach-70-niacinamide-serum",
+        "kind": "stronger",
+        "note": "Koncentrovanější niacinamidové sérum."
+      }
+    ]
+  },
+  {
+    "id": "prod-isntree-hyaluronic-acid-toner",
+    "slug": "isntree-hyaluronic-acid-toner",
+    "type": "product",
+    "name": "Isntree Hyaluronic Acid Toner",
+    "updated": "2026-07-14",
+    "title": "Isntree Hyaluronic Acid Toner: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Isntree Hyaluronic Acid Toner — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Isntree Hyaluronic Acid Toner",
+    "excerpt": "Kultovní hydratační toner s více typy kyseliny hyaluronové pro okamžité doplnění vody do pleti.",
+    "evidenceLevel": "strong",
+    "brand": "Isntree",
+    "manufacturer": "Isntree",
+    "category": "hydratace",
+    "productType": "hydratační toner",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 340–390 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: všechny včetně citlivé",
+      "Cíl: dehydratace, jemné linky z vysušení"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Isntree s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „hydratační toner\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 340–390 Kč."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Minimalistické hydratační složení, vhodné i pro citlivou pleť."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "Více molekulových velikostí kyseliny hyaluronové",
+      "Výborný hydratační základ pod aktivní látky"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro dehydratovanou pleť všech typů jako první hydratační vrstva rutiny.",
+      "no": "Pro toho, kdo čeká přímý účinek na vrásky — HA hydratuje a vyplňuje jen opticky."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Isntree Hyaluronic Acid Toner je hydratační toner značky Isntree. Kultovní hydratační toner s více typy kyseliny hyaluronové pro okamžité doplnění vody do pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva",
+        "smisena",
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "haruharu-wonder-black-rice-hyaluronic-toner",
+        "kind": "similar",
+        "note": "Podobný hydratační toner s HA."
+      },
+      {
+        "slug": "the-ordinary-hyaluronic-acid-2-b5",
+        "kind": "similar",
+        "note": "Sérová forma hyaluronové kyseliny."
+      }
+    ]
+  },
+  {
+    "id": "prod-isntree-hyaluronic-acid-aqua-gel-cream",
+    "slug": "isntree-hyaluronic-acid-aqua-gel-cream",
+    "type": "product",
+    "name": "Isntree Hyaluronic Acid Aqua Gel Cream",
+    "updated": "2026-07-14",
+    "title": "Isntree Hyaluronic Acid Aqua Gel Cream: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Isntree Hyaluronic Acid Aqua Gel Cream — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Isntree Hyaluronic Acid Aqua Gel Cream",
+    "excerpt": "Svěží gelový krém s kyselinou hyaluronovou pro lehkou hydrataci mastnější a smíšené pleti.",
+    "evidenceLevel": "strong",
+    "brand": "Isntree",
+    "manufacturer": "Isntree",
+    "category": "hydratace",
+    "productType": "gelový krém",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 390–500 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená",
+      "Cíl: dehydratace bez zatížení pleti"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Isntree s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „gelový krém\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 390–500 Kč."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Lehká gelová textura, nekomedogenní přístup."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "Lehká gelová hydratace",
+      "Nezatěžuje mastnou a smíšenou pleť"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro mastnou a smíšenou pleť, která chce hydrataci bez těžkého filmu.",
+      "no": "Pro velmi suchou pleť — zvolte bohatší krém."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Isntree Hyaluronic Acid Aqua Gel Cream je gelový krém značky Isntree. Svěží gelový krém s kyselinou hyaluronovou pro lehkou hydrataci mastnější a smíšené pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "neutrogena-hydro-boost-water-gel",
+        "kind": "cheaper",
+        "note": "Dostupnější gelová hydratace s HA."
+      }
+    ]
+  },
+  {
+    "id": "prod-isntree-hyaluronic-acid-moist-cream",
+    "slug": "isntree-hyaluronic-acid-moist-cream",
+    "type": "product",
+    "name": "Isntree Hyaluronic Acid Moist Cream",
+    "updated": "2026-07-14",
+    "title": "Isntree Hyaluronic Acid Moist Cream: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Isntree Hyaluronic Acid Moist Cream — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Isntree Hyaluronic Acid Moist Cream",
+    "excerpt": "Bohatší hydratační krém s kyselinou hyaluronovou pro suchou a normální pleť.",
+    "evidenceLevel": "strong",
+    "brand": "Isntree",
+    "manufacturer": "Isntree",
+    "category": "hydratace",
+    "productType": "hydratační krém",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 390–500 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: suchá, normální, citlivá",
+      "Cíl: dehydratace, jemné linky z vysušení"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Isntree s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „hydratační krém\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 390–500 Kč."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Šetrné hydratační složení."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "Bohatší textura pro suchou pleť",
+      "Dlouhodobá hydratace"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro suchou a citlivou pleť jako denní i noční hydratační krém.",
+      "no": "Pro velmi mastnou pleť — zvolte gelovou variantu."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Isntree Hyaluronic Acid Moist Cream je hydratační krém značky Isntree. Bohatší hydratační krém s kyselinou hyaluronovou pro suchou a normální pleť."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "isntree-hyaluronic-acid-aqua-gel-cream",
+        "kind": "similar",
+        "note": "Lehčí gelová varianta stejné řady."
+      },
+      {
+        "slug": "cerave-moisturizing-lotion",
+        "kind": "cheaper",
+        "note": "Dostupnější hydratace s ceramidy."
+      }
+    ]
+  },
+  {
+    "id": "prod-isntree-hyaluronic-acid-watery-sun-gel",
+    "slug": "isntree-hyaluronic-acid-watery-sun-gel",
+    "type": "product",
+    "name": "Isntree Hyaluronic Acid Watery Sun Gel SPF 50+",
+    "updated": "2026-07-14",
+    "title": "Isntree Hyaluronic Acid Watery Sun Gel SPF 50+: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Isntree Hyaluronic Acid Watery Sun Gel SPF 50+ — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Isntree Hyaluronic Acid Watery Sun Gel SPF 50+",
+    "excerpt": "Oblíbený lehký denní SPF 50+ s kyselinou hyaluronovou — ochrana před UV, hlavní příčinou stárnutí pleti.",
+    "evidenceLevel": "strong",
+    "brand": "Isntree",
+    "manufacturer": "Isntree",
+    "category": "spf",
+    "productType": "opalovací gel",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 400–500 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: všechny",
+      "Cíl: prevence fotostárnutí, pigmentací a vrásek"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Isntree s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 8,
+        "note": "Síla odpovídá kategorii „opalovací gel\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 400–500 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Lehká gelová textura bez bílého filmu, dobře snášená."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "SPF 50+ — nejúčinnější anti-aging prevence",
+      "Lehká „watery\" textura příjemná pod make-up"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro každodenní ochranu — SPF je základ každé anti-aging rutiny.",
+      "no": "Prakticky pro nikoho — denní SPF doporučujeme všem; volba textury je věc preference."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Isntree Hyaluronic Acid Watery Sun Gel SPF 50+ je opalovací gel značky Isntree. Oblíbený lehký denní SPF 50+ s kyselinou hyaluronovou — ochrana před UV, hlavní příčinou stárnutí pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "pigmentace",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "sucha",
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "isntree-hyaluronic-acid-natural-sun-cream",
+        "kind": "similar",
+        "note": "Krémová varianta stejné řady."
+      },
+      {
+        "slug": "spf-50-denni",
+        "kind": "similar",
+        "note": "Obecné doporučení denního SPF 50."
+      }
+    ]
+  },
+  {
+    "id": "prod-isntree-hyaluronic-acid-natural-sun-cream",
+    "slug": "isntree-hyaluronic-acid-natural-sun-cream",
+    "type": "product",
+    "name": "Isntree Hyaluronic Acid Natural Sun Cream SPF 50+",
+    "updated": "2026-07-14",
+    "title": "Isntree Hyaluronic Acid Natural Sun Cream SPF 50+: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Isntree Hyaluronic Acid Natural Sun Cream SPF 50+ — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Isntree Hyaluronic Acid Natural Sun Cream SPF 50+",
+    "excerpt": "Denní opalovací krém SPF 50+ s kyselinou hyaluronovou pro hydrataci a UV ochranu v jednom.",
+    "evidenceLevel": "strong",
+    "brand": "Isntree",
+    "manufacturer": "Isntree",
+    "category": "spf",
+    "productType": "opalovací krém",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 400–500 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: suchá, normální, citlivá",
+      "Cíl: prevence fotostárnutí, pigmentací a vrásek"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Isntree s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 8,
+        "note": "Síla odpovídá kategorii „opalovací krém\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 400–500 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Krémová, hydratační textura."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "SPF 50+ — nejúčinnější anti-aging prevence",
+      "Hydratační krémová textura"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro suchou a normální pleť jako denní SPF s hydratací.",
+      "no": "Pro velmi mastnou pleť může být příjemnější gelová varianta."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Isntree Hyaluronic Acid Natural Sun Cream SPF 50+ je opalovací krém značky Isntree. Denní opalovací krém SPF 50+ s kyselinou hyaluronovou pro hydrataci a UV ochranu v jednom."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "pigmentace",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva",
+        "smisena",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "isntree-hyaluronic-acid-watery-sun-gel",
+        "kind": "similar",
+        "note": "Lehčí gelová varianta stejné řady."
+      }
+    ]
+  },
+  {
+    "id": "prod-cosrx-advanced-snail-92-all-in-one-cream",
+    "slug": "cosrx-advanced-snail-92-all-in-one-cream",
+    "type": "product",
+    "name": "COSRX Advanced Snail 92 All In One Cream",
+    "updated": "2026-07-14",
+    "title": "COSRX Advanced Snail 92 All In One Cream: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu COSRX Advanced Snail 92 All In One Cream — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "COSRX Advanced Snail 92 All In One Cream",
+    "excerpt": "Ikonický krém s 92 % šnečího mucinu pro hydrataci, regeneraci a hebkost pleti.",
+    "evidenceLevel": "limited",
+    "brand": "COSRX",
+    "manufacturer": "COSRX",
+    "category": "hydratace",
+    "productType": "regenerační krém",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 449 Kč",
+    "activeIngredients": [
+      "snail-mucin"
+    ],
+    "concentrations": {
+      "snail-mucin": "92 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Šnečí mucin. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "snail-mucin",
+        "text": "Filtrát šnečího sekretu hydratuje, zvláčňuje a podporuje regeneraci pleti; obsahuje glykoproteiny, allantoin a kyselinu hyaluronovou."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: suchá, smíšená, citlivá",
+      "Cíl: hydratace, regenerace, hrubší textura"
+    ],
+    "notSuitable": [
+      "Alergie na měkkýše",
+      "Veganské preference (živočišná složka)"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky COSRX s aktivními látkami: Šnečí mucin."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „regenerační krém\" a hlavním látkám (Šnečí mucin)."
+      },
+      "evidence": {
+        "score": 5,
+        "note": "Vědecká podpora je zatím omezená."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Vlajková loď „snail\" kategorie korejské kosmetiky."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 449 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Obvykle velmi dobře snášen; pozor při alergii na měkkýše."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Šnečí mucin",
+      "92 % šnečího mucinu",
+      "Hydratace a regenerace v jednom kroku"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro dehydratovanou či namáhanou pleť jako regenerační denní/noční krém.",
+      "no": "Pro alergiky na měkkýše a vegany; na vrásky kombinujte s retinoidy."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "COSRX Advanced Snail 92 All In One Cream je regenerační krém značky COSRX. Ikonický krém s 92 % šnečího mucinu pro hydrataci, regeneraci a hebkost pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Šnečí mucin. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [],
+    "relations": {
+      "ingredients": [
+        "snail-mucin"
+      ],
+      "problems": [
+        "textura",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "la-roche-posay-toleriane-double-repair-moisturizer",
+        "kind": "similar",
+        "note": "Dermokosmetická alternativa na obnovu bariéry."
+      }
+    ],
+    "productUrl": "https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream"
+  },
+  {
+    "id": "prod-nerds-10-azelaic-acid-cream-serum",
+    "slug": "nerds-10-azelaic-acid-cream-serum",
+    "type": "product",
+    "name": "nerds. 10% Azelaic Acid Cream Serum",
+    "updated": "2026-07-14",
+    "title": "nerds. 10% Azelaic Acid Cream Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu nerds. 10% Azelaic Acid Cream Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "nerds. 10% Azelaic Acid Cream Serum",
+    "excerpt": "Krémové sérum s 10 % azelaové kyseliny na zarudnutí, pigmentace a nedokonalosti.",
+    "evidenceLevel": "strong",
+    "brand": "nerds.",
+    "manufacturer": "nerds.",
+    "category": "sera",
+    "productType": "krémové sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 300–350 Kč",
+    "activeIngredients": [
+      "azelaova-kyselina"
+    ],
+    "concentrations": {
+      "azelaova-kyselina": "10 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Azelaová kyselina. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "azelaova-kyselina",
+        "text": "Dikarboxylová kyselina s protizánětlivým a antibakteriálním působením; tlumí tvorbu melaninu (pigmentace) a zklidňuje zarudnutí, vhodná i při rosacee."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená, citlivá, aknózní",
+      "Cíl: pigmentace, zarudnutí, textura"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky nerds. s aktivními látkami: Azelaová kyselina."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „krémové sérum\" a hlavním látkám (Azelaová kyselina)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 300–350 Kč."
+      },
+      "sensitive": {
+        "score": 7,
+        "note": "Azelaová kyselina je relativně šetrná, zpočátku může lehce štípat."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Azelaová kyselina",
+      "10% azelaová kyselina za dostupnou cenu",
+      "Vhodné i při sklonu k zarudnutí"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro pleť s pigmentacemi, zarudnutím či nedokonalostmi hledající dostupné azelaové sérum.",
+      "no": "Pro toho, kdo žádný z těchto problémů neřeší."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "nerds. 10% Azelaic Acid Cream Serum je krémové sérum značky nerds.. Krémové sérum s 10 % azelaové kyseliny na zarudnutí, pigmentace a nedokonalosti."
+      },
+      {
+        "p": "Účinek staví na složkách: Azelaová kyselina. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [],
+    "relations": {
+      "ingredients": [
+        "azelaova-kyselina"
+      ],
+      "problems": [
+        "pigmentace",
+        "rosacea",
+        "textura"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "citliva",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "anua-azelaic-acid-10-hyaluron-serum",
+        "kind": "similar",
+        "note": "Podobné azelaové sérum s hyaluronem."
+      }
+    ]
+  },
+  {
+    "id": "prod-haruharu-wonder-black-rice-hyaluronic-toner",
+    "slug": "haruharu-wonder-black-rice-hyaluronic-toner",
+    "type": "product",
+    "name": "haruharu wonder Black Rice Hyaluronic Toner",
+    "updated": "2026-07-14",
+    "title": "haruharu wonder Black Rice Hyaluronic Toner: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu haruharu wonder Black Rice Hyaluronic Toner — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "haruharu wonder Black Rice Hyaluronic Toner",
+    "excerpt": "Hydratační toner s fermentovanou černou rýží a kyselinou hyaluronovou pro výživu a pružnost pleti.",
+    "evidenceLevel": "strong",
+    "brand": "haruharu wonder",
+    "manufacturer": "haruharu wonder",
+    "category": "hydratace",
+    "productType": "hydratační toner",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 330–500 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: suchá, normální, smíšená",
+      "Cíl: dehydratace, mdlá pleť"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky haruharu wonder s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „hydratační toner\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 330–500 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Jemné složení; obsahuje esenciální oleje (existuje i unscented verze)."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "Fermentovaná černá rýže (antioxidanty) + HA",
+      "Oblíbený hydratační základ rutiny"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro dehydratovanou a unavenou pleť jako první vrstva hydratace.",
+      "no": "Pro pleť citlivou na esenciální oleje — zvolte unscented verzi či jinou značku."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "haruharu wonder Black Rice Hyaluronic Toner je hydratační toner značky haruharu wonder. Hydratační toner s fermentovanou černou rýží a kyselinou hyaluronovou pro výživu a pružnost pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "isntree-hyaluronic-acid-toner",
+        "kind": "similar",
+        "note": "Minimalističtější HA toner bez parfemace."
+      }
+    ]
+  },
+  {
+    "id": "prod-revox-b77-just-hyaluronic-acid-5",
+    "slug": "revox-b77-just-hyaluronic-acid-5",
+    "type": "product",
+    "name": "Revox B77 Just Hyaluronic Acid 5%",
+    "updated": "2026-07-14",
+    "title": "Revox B77 Just Hyaluronic Acid 5%: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Revox B77 Just Hyaluronic Acid 5% — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Revox B77 Just Hyaluronic Acid 5%",
+    "excerpt": "Minimalistické hydratační sérum s 5 % kyseliny hyaluronové za velmi dostupnou cenu.",
+    "evidenceLevel": "strong",
+    "brand": "Revox B77",
+    "manufacturer": "Revox B77",
+    "category": "sera",
+    "productType": "hydratační sérum",
+    "country": "EU",
+    "volume": "—",
+    "price": "cca 179 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {
+      "kyselina-hyaluronova": "5 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: všechny",
+      "Cíl: dehydratace, jemné linky z vysušení"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Revox B77 s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „hydratační sérum\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 9,
+        "note": "Cenová hladina: cca 179 Kč."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Jednosložkový minimalismus, velmi dobře snášené."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "Velmi dostupná cena",
+      "Minimalistické složení ve stylu The Ordinary"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro první seznámení s hydratačními séry a napjaté rozpočty.",
+      "no": "Pro toho, kdo čeká víc než hydrataci — HA vrásky neřeší, jen opticky vyplní."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Revox B77 Just Hyaluronic Acid 5% je hydratační sérum značky Revox B77. Minimalistické hydratační sérum s 5 % kyseliny hyaluronové za velmi dostupnou cenu."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva",
+        "smisena",
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "the-ordinary-hyaluronic-acid-2-b5",
+        "kind": "similar",
+        "note": "Referenční dostupné HA sérum."
+      }
+    ]
+  },
+  {
+    "id": "prod-revox-b77-just-vitamin-c-20",
+    "slug": "revox-b77-just-vitamin-c-20",
+    "type": "product",
+    "name": "Revox B77 Just Vitamin C 20%",
+    "updated": "2026-07-14",
+    "title": "Revox B77 Just Vitamin C 20%: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Revox B77 Just Vitamin C 20% — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Revox B77 Just Vitamin C 20%",
+    "excerpt": "Dostupné rozjasňující sérum s 20% komplexem vitaminu C.",
+    "evidenceLevel": "moderate",
+    "brand": "Revox B77",
+    "manufacturer": "Revox B77",
+    "category": "vitamin-c",
+    "productType": "vitamin C sérum",
+    "country": "EU",
+    "volume": "—",
+    "price": "cca 179 Kč",
+    "activeIngredients": [
+      "vitamin-c"
+    ],
+    "concentrations": {
+      "vitamin-c": "20 % (komplex)"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Vitamin C. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "vitamin-c",
+        "text": "Antioxidant, který chrání před volnými radikály, podporuje syntézu kolagenu a rozjasňuje tón pleti."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená, normální",
+      "Cíl: matná pleť, pigmentace"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Revox B77 s aktivními látkami: Vitamin C."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „vitamin C sérum\" a hlavním látkám (Vitamin C)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 9,
+        "note": "Cenová hladina: cca 179 Kč."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Vitamin C může zpočátku dráždit — zavádějte pozvolna."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Vitamin C",
+      "Velmi dostupná cena",
+      "Rozjasnění a antioxidační ochrana na den"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje",
+      "Forma a stabilita vitaminu C u budget sér bývá slabší než u prémiových"
+    ],
+    "recommendation": {
+      "yes": "Pro první seznámení s vitaminem C bez velké investice.",
+      "no": "Pro náročné — stabilnější formy najdete u specializovaných značek."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Revox B77 Just Vitamin C 20% je vitamin C sérum značky Revox B77. Dostupné rozjasňující sérum s 20% komplexem vitaminu C."
+      },
+      {
+        "p": "Účinek staví na složkách: Vitamin C. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Pullar J. et al. — The Roles of Vitamin C in Skin Health",
+        "journal": "Nutrients",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c"
+      ],
+      "problems": [
+        "matna-plet",
+        "pigmentace"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "sucha"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "geek-gorgeous-c-glow",
+        "kind": "stronger",
+        "note": "Stabilnější dostupný vitamin C."
+      },
+      {
+        "slug": "dr-althea-vitamin-c-boosting-serum",
+        "kind": "similar",
+        "note": "Korejská alternativa."
+      }
+    ]
   }
 ]

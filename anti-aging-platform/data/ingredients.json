@@ -3173,5 +3173,78 @@
         "vecerni-rutina"
       ]
     }
+  },
+  {
+    "type": "ingredient",
+    "updated": "2026-07-14",
+    "id": "ing-snail-mucin",
+    "slug": "snail-mucin",
+    "name": "Šnečí mucin (snail mucin)",
+    "inci": "Snail Secretion Filtrate",
+    "title": "Šnečí mucin: hydratace a regenerace",
+    "metaDescription": "Šnečí mucin (snail secretion filtrate) hydratuje, podporuje regeneraci a zklidňuje. Co říkají důkazy a komu se hodí.",
+    "h1": "Šnečí mucin (snail mucin)",
+    "excerpt": "Filtrát šnečího sekretu — hydratace, podpora regenerace a hebkost. Ikona korejské péče.",
+    "evidenceLevel": "limited",
+    "mechanism": "Filtrát šnečího sekretu obsahuje směs glykoproteinů, glykosaminoglykanů (včetně kyseliny hyaluronové), allantoinu a stopové glykolové kyseliny. V praxi hydratuje, zvláčňuje a podporuje regeneraci; přímé klinické důkazy na vrásky jsou zatím omezené (malé studie).",
+    "concentrations": "V esencích a krémech typicky 92–96 % filtrátu.",
+    "indications": [
+      "Dehydratovaná, hrubší pleť",
+      "Podpora regenerace a hebkosti",
+      "Zklidnění po aktivních látkách",
+      "Jemné linky z dehydratace (podpůrně)"
+    ],
+    "contraindications": [
+      "Alergie na měkkýše (opatrnost)",
+      "Nevyhovuje veganským preferencím (živočišný původ)"
+    ],
+    "sideEffects": [
+      "Obvykle velmi dobře snášen"
+    ],
+    "suitableSkinTypes": [
+      "sucha",
+      "citliva",
+      "normalni",
+      "smisena",
+      "mastna",
+      "zrala"
+    ],
+    "suitableAgeGroups": [
+      "20-plus",
+      "30-plus",
+      "40-plus",
+      "50-plus"
+    ],
+    "compatibility": [
+      {
+        "with": "niacinamid",
+        "level": "good",
+        "note": "Hydratace + sjednocení tónu, bezproblémová dvojice."
+      },
+      {
+        "with": "retinol",
+        "level": "good",
+        "note": "Zvláčnění a podpora bariéry během retinizace."
+      }
+    ],
+    "body": [
+      {
+        "h2": "Hydratace a regenerace"
+      },
+      {
+        "p": "Šnečí mucin je hvězda korejské kosmetiky — nejde o zázrak na vrásky, ale o spolehlivou hydratačně-regenerační složku, kterou pleť většinou výborně snáší."
+      },
+      {
+        "note": "Přímé důkazy na omlazení jsou zatím omezené; hydratační a zklidňující přínos je dobře popsaný v praxi.",
+        "evidence": "limited"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je šnečí mucin etický?",
+        "a": "Záleží na výrobci a metodě sběru; jde o složku živočišného původu, takže není veganská. Výrobci obvykle deklarují sběr bez poškození šneků."
+      }
+    ],
+    "sources": []
   }
 ]
