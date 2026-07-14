@@ -46608,5 +46608,724 @@
       "source": "výrobce (oficiální)",
       "sourceUrl": "https://www.cosrx.com/products/ultimate-nourishing-rice-overnight-spa-mask"
     }
+  },
+  {
+    "id": "prod-ryor-serum-s-retinolem",
+    "slug": "ryor-serum-s-retinolem",
+    "type": "product",
+    "name": "RYOR Sérum s retinolem",
+    "updated": "2026-07-14",
+    "title": "RYOR Sérum s retinolem: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu RYOR Sérum s retinolem — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "RYOR Sérum s retinolem",
+    "excerpt": "České olejové sérum s retinolem, kyselinou hyaluronovou a vitaminy C a E pro zralou pleť — dostupné v drogeriích i lékárnách.",
+    "evidenceLevel": "strong",
+    "brand": "RYOR",
+    "manufacturer": "RYOR",
+    "category": "retinoly",
+    "productType": "retinolové sérum",
+    "country": "Česko",
+    "volume": "—",
+    "price": "cca 199–260 Kč",
+    "activeIngredients": [
+      "retinol",
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Retinol, Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "retinol",
+        "text": "Zlatý standard anti-agingu: zrychluje obnovu buněk, stimuluje tvorbu kolagenu a vyhlazuje jemné vrásky i texturu."
+      },
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: zralá, suchá, normální",
+      "Cíl: jemné vrásky, textura, výživa"
+    ],
+    "notSuitable": [
+      "Těhotenství a kojení (retinoidy)",
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky RYOR s aktivními látkami: Retinol, Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „retinolové sérum\" a hlavním látkám (Retinol, Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 199–260 Kč."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Olejový základ retinol změkčuje, přesto zavádějte postupně (2–3× týdně)."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Retinol, Kyselina hyaluronová",
+      "Česká značka s dlouhou tradicí, snadno dostupné",
+      "Vyživující olejový základ s vitaminem E"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje",
+      "Neuvádí koncentraci retinolu",
+      "Obsahuje parfém"
+    ],
+    "recommendation": {
+      "yes": "Pro zralou a sušší pleť, která chce dostupný český retinol s vyživujícím základem.",
+      "no": "Pro těhotné a kojící; pro pleť citlivou na parfemaci."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "RYOR Sérum s retinolem je retinolové sérum značky RYOR. České olejové sérum s retinolem, kyselinou hyaluronovou a vitaminy C a E pro zralou pleť — dostupné v drogeriích i lékárnách."
+      },
+      {
+        "p": "Účinek staví na složkách: Retinol, Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Mukherjee S. et al. — Retinoids in the treatment of skin aging",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      },
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura"
+      ],
+      "skinTypes": [
+        "zrala",
+        "sucha",
+        "smisena"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "revox-b77-just-solo-retinol-niacinamide",
+        "kind": "cheaper",
+        "note": "Retinol s deklarovanou koncentrací za nižší cenu."
+      },
+      {
+        "slug": "the-ordinary-granactive-retinoid-2-emulsion",
+        "kind": "gentler",
+        "note": "Šetrný retinoid pro citlivější pleť."
+      }
+    ],
+    "productUrl": "https://www.ryor.cz/serum-s-retinolem"
+  },
+  {
+    "id": "prod-bione-hyaluron-life-serum",
+    "slug": "bione-hyaluron-life-serum",
+    "type": "product",
+    "name": "Bione Cosmetics Hyaluron Life pleťové sérum",
+    "updated": "2026-07-14",
+    "title": "Bione Cosmetics Hyaluron Life pleťové sérum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Bione Cosmetics Hyaluron Life pleťové sérum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Bione Cosmetics Hyaluron Life pleťové sérum",
+    "excerpt": "České sérum s nízko- i vysokomolekulární kyselinou hyaluronovou, koenzymem Q10 (0,2 %), karnosinem a niacinamidem.",
+    "evidenceLevel": "strong",
+    "brand": "Bione Cosmetics",
+    "manufacturer": "Bione Cosmetics",
+    "category": "hydratace",
+    "productType": "hydratační sérum",
+    "country": "Česko",
+    "volume": "—",
+    "price": "cca 125–180 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova",
+      "niacinamid"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová, Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      },
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: smíšená, mastná, normální",
+      "Cíl: hydratace, jemné vrásky"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Bione Cosmetics s aktivními látkami: Kyselina hyaluronová, Niacinamid."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „hydratační sérum\" a hlavním látkám (Kyselina hyaluronová, Niacinamid)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 9,
+        "note": "Cenová hladina: cca 125–180 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Lehký emulgel bez silikonů, obvykle velmi dobře snášený."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová, Niacinamid",
+      "Dvě molekulové velikosti HA + Q10 a karnosin",
+      "Velmi dostupná česká výroba"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro nenáročnou každodenní hydrataci smíšené až mastné pleti za pár korun.",
+      "no": "Pro cílené řešení vrásek či pigmentací — zvolte koncentrovanější aktiva."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Bione Cosmetics Hyaluron Life pleťové sérum je hydratační sérum značky Bione Cosmetics. České sérum s nízko- i vysokomolekulární kyselinou hyaluronovou, koenzymem Q10 (0,2 %), karnosinem a niacinamidem."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová, Niacinamid. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      },
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova",
+        "niacinamid"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "smisena",
+        "mastna"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "smuuti-skin-watermelon-dew-serum",
+        "kind": "similar",
+        "note": "Podobná HA hydratace s niacinamidem."
+      },
+      {
+        "slug": "isntree-hyaluronic-acid-toner",
+        "kind": "similar",
+        "note": "Minimalistická korejská HA hydratace."
+      }
+    ],
+    "productUrl": "https://www.bione-shop.cz/pletove-serum-s-kyselinou-hyaluronovou-hyaluron-life-40-ml/"
+  },
+  {
+    "id": "prod-purito-retinol-retinal-2000-nad-serum",
+    "slug": "purito-retinol-retinal-2000-nad-serum",
+    "type": "product",
+    "name": "Purito Seoul Retinol Retinal 2000 NAD+ Serum",
+    "updated": "2026-07-14",
+    "title": "Purito Seoul Retinol Retinal 2000 NAD+ Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Purito Seoul Retinol Retinal 2000 NAD+ Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Purito Seoul Retinol Retinal 2000 NAD+ Serum",
+    "excerpt": "Duální retinoidní sérum: retinol (1 000 ppm) + rychleji působící retinal (1 000 ppm) doplněné o NAD+ a ceramidy.",
+    "evidenceLevel": "strong",
+    "brand": "Purito Seoul",
+    "manufacturer": "Purito Seoul",
+    "category": "retinoly",
+    "productType": "retinolové sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 550–700 Kč",
+    "activeIngredients": [
+      "retinol",
+      "niacinamid",
+      "centella"
+    ],
+    "concentrations": {
+      "retinol": "0,2 % retinoidů celkem (retinol 0,1 % + retinal 0,1 %)"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Retinol, Niacinamid, Centella asiatica. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "retinol",
+        "text": "Zlatý standard anti-agingu: zrychluje obnovu buněk, stimuluje tvorbu kolagenu a vyhlazuje jemné vrásky i texturu."
+      },
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      },
+      {
+        "ingredient": "centella",
+        "text": "Extrakt Centella asiatica (madecassosid) zklidňuje podráždění, podporuje hojení a posiluje kožní bariéru."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 25+, 30+, 40+, 50+",
+      "Typ pleti: normální, smíšená, zralá",
+      "Cíl: jemné vrásky, textura, pevnost"
+    ],
+    "notSuitable": [
+      "Těhotenství a kojení (retinoidy)",
+      "Souběh se silnými exfolianty bez rozestupu",
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Purito Seoul s aktivními látkami: Retinol, Niacinamid, Centella asiatica."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „retinolové sérum\" a hlavním látkám (Retinol, Niacinamid, Centella asiatica)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "Kombinace retinol + retinal + NAD+ (100 ppm) v jedné formuli."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 550–700 Kč."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Dvojice retinoidů je účinnější, ale i dráždivější — zavádějte pozvolna, ceramidy a centella dráždění tlumí."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Retinol, Niacinamid, Centella asiatica",
+      "Retinol + retinal se doplňují (dlouhodobý + rychlejší efekt)",
+      "Ceramidy a centella pro lepší snášenlivost"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro středně pokročilé uživatele retinoidů, kteří chtějí viditelnější efekt bez receptu.",
+      "no": "Pro těhotné a kojící; pro úplné začátečníky — začněte nižší koncentrací."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Purito Seoul Retinol Retinal 2000 NAD+ Serum je retinolové sérum značky Purito Seoul. Duální retinoidní sérum: retinol (1 000 ppm) + rychleji působící retinal (1 000 ppm) doplněné o NAD+ a ceramidy."
+      },
+      {
+        "p": "Účinek staví na složkách: Retinol, Niacinamid, Centella asiatica. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Mukherjee S. et al. — Retinoids in the treatment of skin aging",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      },
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol",
+        "niacinamid",
+        "centella"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "hluboke-vrasky",
+        "textura"
+      ],
+      "skinTypes": [
+        "smisena",
+        "zrala",
+        "sucha",
+        "mastna"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "revox-b77-just-solo-retinol-niacinamide",
+        "kind": "cheaper",
+        "note": "Levnější start s retinolem."
+      },
+      {
+        "slug": "paula-s-choice-1-retinol-treatment",
+        "kind": "stronger",
+        "note": "Vyšší koncentrace retinolu."
+      }
+    ],
+    "productUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/"
+  },
+  {
+    "id": "prod-missha-time-revolution-night-repair-ampoule-5x",
+    "slug": "missha-time-revolution-night-repair-ampoule-5x",
+    "type": "product",
+    "name": "Missha Time Revolution Night Repair Ampoule 5X",
+    "updated": "2026-07-14",
+    "title": "Missha Time Revolution Night Repair Ampoule 5X: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Missha Time Revolution Night Repair Ampoule 5X — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Missha Time Revolution Night Repair Ampoule 5X",
+    "excerpt": "Ikonická noční ampule 5. generace s fermentovanými složkami (bifida, laktobacily) a niacinamidem pro obnovu bariéry a vyhlazení.",
+    "evidenceLevel": "moderate",
+    "brand": "Missha",
+    "manufacturer": "Missha",
+    "category": "sera",
+    "productType": "noční ampule",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 700–900 Kč",
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 25+, 30+, 40+, 50+",
+      "Typ pleti: všechny včetně citlivé",
+      "Cíl: povolená pleť, jemné vrásky, regenerace"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Missha s aktivními látkami: Niacinamid."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „noční ampule\" a hlavním látkám (Niacinamid)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Fermentový komplex „Extreme Biome\" (77,2 %) s probiotickými lyzáty."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 700–900 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Jemná fermentová péče, obvykle dobře snášená i citlivou pletí."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Niacinamid",
+      "Fermentové lyzáty + niacinamid pro bariéru a tón",
+      "Dlouholetý bestseller kategorie"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje",
+      "Efekt fermentů má zatím omezenou nezávislou evidenci"
+    ],
+    "recommendation": {
+      "yes": "Pro noční regeneraci a posílení bariéry, zvlášť u citlivější pleti.",
+      "no": "Pro toho, kdo chce měřitelný účinek na vrásky — retinoid dá víc."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Missha Time Revolution Night Repair Ampoule 5X je noční ampule značky Missha. Ikonická noční ampule 5. generace s fermentovanými složkami (bifida, laktobacily) a niacinamidem pro obnovu bariéry a vyhlazení."
+      },
+      {
+        "p": "Účinek staví na složkách: Niacinamid. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "povolena-plet",
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "citliva",
+        "smisena",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "estee-lauder-advanced-night-repair",
+        "kind": "similar",
+        "note": "Západní ikona stejného konceptu."
+      },
+      {
+        "slug": "cosrx-ultimate-nourishing-rice-overnight-spa-mask",
+        "kind": "cheaper",
+        "note": "Dostupná noční regenerace."
+      }
+    ],
+    "productUrl": "https://misshaus.com/products/time-revolution-night-repair-ampoule-5x"
+  },
+  {
+    "id": "prod-purcell-82-high-dose-peptide-formula",
+    "slug": "purcell-82-high-dose-peptide-formula",
+    "type": "product",
+    "name": "PURCELL 82% High Dose Peptide Formula",
+    "updated": "2026-07-14",
+    "title": "PURCELL 82% High Dose Peptide Formula: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu PURCELL 82% High Dose Peptide Formula — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "PURCELL 82% High Dose Peptide Formula",
+    "excerpt": "Vysoce koncentrované peptidové sérum (82 % peptidového komplexu) s hydrolyzovaným kolagenem pro pevnost a jemné vrásky.",
+    "evidenceLevel": "moderate",
+    "brand": "PURCELL",
+    "manufacturer": "PURCELL",
+    "category": "sera",
+    "productType": "peptidové sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 600–800 Kč",
+    "activeIngredients": [
+      "peptidy"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Peptidy. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "peptidy",
+        "text": "Signální peptidy dávají pleti podnět k tvorbě kolagenu a elastinu — postupně zlepšují pevnost a vzhled jemných vrásek."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: všechny včetně citlivé",
+      "Cíl: pevnost, jemné vrásky"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky PURCELL s aktivními látkami: Peptidy."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „peptidové sérum\" a hlavním látkám (Peptidy)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Neobvykle vysoký podíl peptidového komplexu v základu."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 600–800 Kč."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Lehká vodová textura bez dráždivých aktiv — vhodné i pro citlivou pleť."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Peptidy",
+      "Peptidy + hydrolyzovaný kolagen v jednom kroku",
+      "Dobře kombinovatelné s retinoidy i vitaminem C"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje",
+      "„82 %\" popisuje podíl komplexu, ne čistých peptidů — reálná dávka jednotlivých peptidů není deklarovaná"
+    ],
+    "recommendation": {
+      "yes": "Pro pevnost a prevenci u citlivé pleti, která nesnese retinoidy.",
+      "no": "Pro toho, kdo čeká rychlé viditelné výsledky — peptidy působí pozvolna."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "PURCELL 82% High Dose Peptide Formula je peptidové sérum značky PURCELL. Vysoce koncentrované peptidové sérum (82 % peptidového komplexu) s hydrolyzovaným kolagenem pro pevnost a jemné vrásky."
+      },
+      {
+        "p": "Účinek staví na složkách: Peptidy. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Schagen S. — Topical Peptide Treatments",
+        "journal": "Cosmetics",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "peptidy"
+      ],
+      "problems": [
+        "povolena-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "citliva",
+        "sucha",
+        "smisena",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "the-ordinary-buffet",
+        "kind": "cheaper",
+        "note": "Dostupný peptidový mix."
+      },
+      {
+        "slug": "medik8-liquid-peptides",
+        "kind": "similar",
+        "note": "Peptidové sérum vyšší třídy."
+      }
+    ]
   }
 ]
