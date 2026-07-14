@@ -45427,7 +45427,14 @@
         "note": "Regenerační krém s mucinem."
       }
     ],
-    "productUrl": "https://medicube.us/products/collagen-niacinamide-jelly-cream"
+    "productUrl": "https://medicube.us/products/collagen-niacinamide-jelly-cream",
+    "image": {
+      "src": "/assets/img/products/medicube-collagen-niacinamide-jelly-cream.jpg",
+      "alt": "medicube Collagen Niacinamide Jelly Cream",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://medicube.us/products/collagen-niacinamide-jelly-cream"
+    }
   },
   {
     "id": "prod-ziaja-vitamin-cb3-niacinamide-serum",
@@ -46003,7 +46010,14 @@
         "note": "Vyšší koncentrace stejné kombinace."
       }
     ],
-    "productUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-tone-brightening-capsule-ampoule"
+    "productUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-tone-brightening-capsule-ampoule",
+    "image": {
+      "src": "/assets/img/products/skin1004-centella-tone-brightening-capsule-ampoule.png",
+      "alt": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-tone-brightening-capsule-ampoule"
+    }
   },
   {
     "id": "prod-vt-cosmetics-pdrn-reedle-shot-100",
@@ -46143,7 +46157,14 @@
         "note": "Šetrné PDRN sérum."
       }
     ],
-    "productUrl": "https://globalvt-cosmetics.com/products/pdrn-reedle-shot-100"
+    "productUrl": "https://globalvt-cosmetics.com/products/pdrn-reedle-shot-100",
+    "image": {
+      "src": "/assets/img/products/vt-cosmetics-pdrn-reedle-shot-100.jpg",
+      "alt": "VT Cosmetics PDRN Reedle Shot 100",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://globalvt-cosmetics.com/products/pdrn-reedle-shot-100"
+    }
   },
   {
     "id": "prod-dr-althea-pdrn-reju-5000-cream",
@@ -46283,7 +46304,14 @@
         "note": "PDRN v sérové formě."
       }
     ],
-    "productUrl": "https://doctoraltheaglobal.com/products/pdrn-reju-5000-cream"
+    "productUrl": "https://doctoraltheaglobal.com/products/pdrn-reju-5000-cream",
+    "image": {
+      "src": "/assets/img/products/dr-althea-pdrn-reju-5000-cream.jpg",
+      "alt": "Dr. Althea PDRN Reju 5000 Cream",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://doctoraltheaglobal.com/products/pdrn-reju-5000-cream"
+    }
   },
   {
     "id": "prod-smuuti-skin-watermelon-dew-serum",
@@ -46430,7 +46458,14 @@
         "note": "Nejlevnější HA volba."
       }
     ],
-    "productUrl": "https://smuutiskin.com/products/watermelon-dew-serum"
+    "productUrl": "https://smuutiskin.com/products/watermelon-dew-serum",
+    "image": {
+      "src": "/assets/img/products/smuuti-skin-watermelon-dew-serum.jpg",
+      "alt": "Smuuti Skin Watermelon Dew Serum",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://smuutiskin.com/products/watermelon-dew-serum"
+    }
   },
   {
     "id": "prod-cosrx-ultimate-nourishing-rice-overnight-spa-mask",
@@ -46565,6 +46600,13 @@
         "note": "Dostupná noční alternativa s C + B3."
       }
     ],
-    "productUrl": "https://www.cosrx.com/products/ultimate-nourishing-rice-overnight-spa-mask"
+    "productUrl": "https://www.cosrx.com/products/ultimate-nourishing-rice-overnight-spa-mask",
+    "image": {
+      "src": "/assets/img/products/cosrx-ultimate-nourishing-rice-overnight-spa-mask.jpg",
+      "alt": "COSRX Ultimate Nourishing Rice Overnight Spa Mask",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.cosrx.com/products/ultimate-nourishing-rice-overnight-spa-mask"
+    }
   }
 ]
