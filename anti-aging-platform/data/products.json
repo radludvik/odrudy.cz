@@ -43564,7 +43564,14 @@
       ]
     },
     "alternatives": [],
-    "productUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule"
+    "productUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule",
+    "image": {
+      "src": "/assets/img/products/skin1004-madagascar-centella-ampoule.png",
+      "alt": "SKIN1004 Madagascar Centella Ampoule",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule"
+    }
   },
   {
     "id": "prod-cosrx-aha-bha-clarifying-treatment-toner",
