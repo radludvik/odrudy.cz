@@ -42495,5 +42495,1208 @@
         "note": "Redakční hodnocení podle metodiky AntiAgeLab z veřejně dostupných informací — technické parametry, výbava a bezpečnostní prvky, transparentnost výrobce a dokumentace, poměr cena/výkon a vědecká opora dané technologie. Neposuzujeme klinickou účinnost konkrétního přístroje."
       }
     }
+  },
+  {
+    "id": "prod-anua-pdrn-hyaluronic-acid-capsule-100-serum",
+    "slug": "anua-pdrn-hyaluronic-acid-capsule-100-serum",
+    "type": "product",
+    "name": "Anua PDRN Hyaluronic Acid Capsule 100 Serum",
+    "updated": "2026-07-14",
+    "title": "Anua PDRN Hyaluronic Acid Capsule 100 Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Anua PDRN Hyaluronic Acid Capsule 100 Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Anua PDRN Hyaluronic Acid Capsule 100 Serum",
+    "excerpt": "Sérum s polynukleotidy (PDRN) a kyselinou hyaluronovou pro regeneraci, hydrataci a pružnost pleti.",
+    "evidenceLevel": "moderate",
+    "brand": "Anua",
+    "manufacturer": "Anua",
+    "category": "sera",
+    "productType": "aktivní sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 500–600 Kč",
+    "activeIngredients": [
+      "pdrn",
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): PDRN, Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "pdrn",
+        "text": "Polynukleotidy (fragmenty DNA, typicky z lososa) podporují regeneraci a hojení pleti; v topické kosmetice jde o slibnou, ale zatím středně podloženou složku."
+      },
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: suchá, smíšená, citlivá, zralá",
+      "Cíl: jemné vrásky, povolená pleť, textura"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Anua s aktivními látkami: PDRN, Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „aktivní sérum\" a hlavním látkám (PDRN, Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "PDRN je aktuální „skin-longevity\" trend korejské kosmetiky."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 500–600 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Šetrné složení, obvykle dobře snášené i citlivou pletí."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: PDRN, Kyselina hyaluronová",
+      "Kombinace regenerace (PDRN) a hydratace (HA)",
+      "Vhodné i pro citlivou pleť"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro 30+ a pleť řešící jemné vrásky, ztrátu pružnosti a texturu, kdo chce vyzkoušet regenerační PDRN v šetrné formě.",
+      "no": "Pro toho, kdo očekává sílu retinoidů — PDRN je doplněk, ne náhrada ověřených látek."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Anua PDRN Hyaluronic Acid Capsule 100 Serum je aktivní sérum značky Anua (Jižní Korea). Sérum s polynukleotidy (PDRN) a kyselinou hyaluronovou pro regeneraci, hydrataci a pružnost pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: PDRN, Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Squadrito F. et al. — PDRN in tissue repair",
+        "journal": "Front Pharmacol",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "pdrn",
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet",
+        "textura"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "medicube-pdrn-pink-serum",
+        "kind": "similar",
+        "note": "Podobné PDRN sérum ke zvážení."
+      },
+      {
+        "slug": "genabelle-pdrn-rejuvenating-cream",
+        "kind": "similar",
+        "note": "PDRN v krémové formě."
+      }
+    ]
+  },
+  {
+    "id": "prod-anua-peach-70-niacinamide-serum",
+    "slug": "anua-peach-70-niacinamide-serum",
+    "type": "product",
+    "name": "Anua Peach 70% Niacinamide Serum",
+    "updated": "2026-07-14",
+    "title": "Anua Peach 70% Niacinamide Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Anua Peach 70% Niacinamide Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Anua Peach 70% Niacinamide Serum",
+    "excerpt": "Rozjasňující sérum s broskvovým extraktem a niacinamidem pro sjednocení tónu a redukci pórů.",
+    "evidenceLevel": "strong",
+    "brand": "Anua",
+    "manufacturer": "Anua",
+    "category": "sera",
+    "productType": "aktivní sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 439 Kč",
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená, citlivá",
+      "Cíl: pigmentace, rozšířené póry, matná pleť"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Anua s aktivními látkami: Niacinamid."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „aktivní sérum\" a hlavním látkám (Niacinamid)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 439 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Niacinamid je obvykle velmi dobře snášený."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Niacinamid",
+      "Niacinamid s dobrou vědeckou podporou",
+      "Příjemná lehká textura vhodná pod make-up"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro 20+ a pleť řešící nerovnoměrný tón, póry a mdlý vzhled, kdo hledá šetrné rozjasňující sérum.",
+      "no": "Pro toho, kdo řeší hluboké vrásky — tam sáhněte po retinoidech."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Anua Peach 70% Niacinamide Serum je aktivní sérum značky Anua (Jižní Korea). Rozjasňující sérum s broskvovým extraktem a niacinamidem pro sjednocení tónu a redukci pórů."
+      },
+      {
+        "p": "Účinek staví na složkách: Niacinamid. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "pigmentace",
+        "rozsirene-pory",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "citliva"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "beauty-of-joseon-glow-serum-propolis-niacinamide",
+        "kind": "similar",
+        "note": "Podobné korejské niacinamidové sérum."
+      },
+      {
+        "slug": "the-ordinary-niacinamide",
+        "kind": "cheaper",
+        "note": "Levnější klasika se stejnou hlavní látkou."
+      }
+    ]
+  },
+  {
+    "id": "prod-anua-azelaic-acid-10-hyaluron-serum",
+    "slug": "anua-azelaic-acid-10-hyaluron-serum",
+    "type": "product",
+    "name": "Anua Azelaic Acid 10 Hyaluron Serum",
+    "updated": "2026-07-14",
+    "title": "Anua Azelaic Acid 10 Hyaluron Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Anua Azelaic Acid 10 Hyaluron Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Anua Azelaic Acid 10 Hyaluron Serum",
+    "excerpt": "Sérum s 10% azelaovou kyselinou a hyaluronem — na zarudnutí, pigmentové skvrny a nedokonalosti.",
+    "evidenceLevel": "strong",
+    "brand": "Anua",
+    "manufacturer": "Anua",
+    "category": "sera",
+    "productType": "aktivní sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 459–499 Kč",
+    "activeIngredients": [
+      "azelaova-kyselina",
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {
+      "azelaova-kyselina": "10 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Azelaová kyselina, Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "azelaova-kyselina",
+        "text": "Dikarboxylová kyselina s protizánětlivým a antibakteriálním působením; tlumí tvorbu melaninu (pigmentace) a zklidňuje zarudnutí, vhodná i při rosacee."
+      },
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená, citlivá, aknózní",
+      "Cíl: pigmentace, zarudnutí/rosacea, textura"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Anua s aktivními látkami: Azelaová kyselina, Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „aktivní sérum\" a hlavním látkám (Azelaová kyselina, Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 459–499 Kč."
+      },
+      "sensitive": {
+        "score": 7,
+        "note": "Azelaová kyselina je relativně šetrná, zpočátku může lehce štípat."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Azelaová kyselina, Kyselina hyaluronová",
+      "10% koncentrace azelaové kyseliny",
+      "Vhodné i při sklonu k zarudnutí a rosacee"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro pleť s pigmentacemi, zarudnutím či nedokonalostmi, která hůř snáší silnější kyseliny nebo retinoidy.",
+      "no": "Pro toho, kdo nemá žádný z uvedených problémů — azelaová kyselina je cílená látka."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Anua Azelaic Acid 10 Hyaluron Serum je aktivní sérum značky Anua (Jižní Korea). Sérum s 10% azelaovou kyselinou a hyaluronem — na zarudnutí, pigmentové skvrny a nedokonalosti."
+      },
+      {
+        "p": "Účinek staví na složkách: Azelaová kyselina, Kyselina hyaluronová. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [],
+    "relations": {
+      "ingredients": [
+        "azelaova-kyselina",
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "pigmentace",
+        "rosacea",
+        "textura"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "citliva",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "axis-y-dark-spot-correcting-glow-serum",
+        "kind": "similar",
+        "note": "Jiná cesta k sjednocení tónu (niacinamid)."
+      },
+      {
+        "slug": "naturium-tranexamic-topical-acid-5",
+        "kind": "similar",
+        "note": "Alternativa na pigmentace s kyselinou tranexamovou."
+      }
+    ]
+  },
+  {
+    "id": "prod-dr-althea-vitamin-c-boosting-serum",
+    "slug": "dr-althea-vitamin-c-boosting-serum",
+    "type": "product",
+    "name": "Dr. Althea Vitamin C Boosting Serum",
+    "updated": "2026-07-14",
+    "title": "Dr. Althea Vitamin C Boosting Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Dr. Althea Vitamin C Boosting Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Dr. Althea Vitamin C Boosting Serum",
+    "excerpt": "Rozjasňující sérum s vitaminem C pro zářivější tón pleti a antioxidační ochranu.",
+    "evidenceLevel": "moderate",
+    "brand": "Dr. Althea",
+    "manufacturer": "Dr. Althea",
+    "category": "vitamin-c",
+    "productType": "vitamin C sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 550 Kč",
+    "activeIngredients": [
+      "vitamin-c"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Vitamin C. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "vitamin-c",
+        "text": "Antioxidant, který chrání před volnými radikály, podporuje syntézu kolagenu a rozjasňuje tón pleti."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: mastná, smíšená, suchá, zralá",
+      "Cíl: pigmentace, matná pleť, jemné vrásky"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Dr. Althea s aktivními látkami: Vitamin C."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „vitamin C sérum\" a hlavním látkám (Vitamin C)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 550 Kč."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Vitamin C může u citlivé pleti zpočátku dráždit — zavádějte pozvolna."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Vitamin C",
+      "Antioxidační ochrana na den (pod SPF)",
+      "Rozjasnění tónu pleti"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro ranní rutinu jako antioxidační štít a rozjasnění — ideálně pod opalovací krém.",
+      "no": "Pro velmi citlivou/reaktivní pleť, která vitamin C nesnáší — zvažte šetrnější deriváty."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Dr. Althea Vitamin C Boosting Serum je vitamin C sérum značky Dr. Althea (Jižní Korea). Rozjasňující sérum s vitaminem C pro zářivější tón pleti a antioxidační ochranu."
+      },
+      {
+        "p": "Účinek staví na složkách: Vitamin C. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Pullar J. et al. — The Roles of Vitamin C in Skin Health",
+        "journal": "Nutrients",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "vitamin-c"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "sucha",
+        "zrala"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "geek-gorgeous-c-glow",
+        "kind": "cheaper",
+        "note": "Dostupnější stabilní vitamin C."
+      },
+      {
+        "slug": "skinceuticals-ce-ferulic",
+        "kind": "stronger",
+        "note": "Referenční prémiový antioxidační koktejl."
+      }
+    ]
+  },
+  {
+    "id": "prod-sungboon-editor-deep-collagen-retinol-capsule-cream",
+    "slug": "sungboon-editor-deep-collagen-retinol-capsule-cream",
+    "type": "product",
+    "name": "Sungboon Editor Deep Collagen Anti-Wrinkle Retinol Capsule Cream",
+    "updated": "2026-07-14",
+    "title": "Sungboon Editor Deep Collagen Anti-Wrinkle Retinol Capsule Cream: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Sungboon Editor Deep Collagen Anti-Wrinkle Retinol Capsule Cream — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Sungboon Editor Deep Collagen Anti-Wrinkle Retinol Capsule Cream",
+    "excerpt": "Krém proti vráskám s retinolem v kapslích a kolagenem pro vyhlazení a zpevnění pleti.",
+    "evidenceLevel": "strong",
+    "brand": "Sungboon Editor",
+    "manufacturer": "Sungboon Editor",
+    "category": "retinoly",
+    "productType": "retinolový krém",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 689 Kč",
+    "activeIngredients": [
+      "retinol"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Retinol. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "retinol",
+        "text": "Zlatý standard anti-agingu: zrychluje obnovu buněk, stimuluje tvorbu kolagenu a vyhlazuje jemné vrásky i texturu."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: smíšená, suchá, zralá",
+      "Cíl: jemné i hlubší vrásky, textura"
+    ],
+    "notSuitable": [
+      "Těhotenství a kojení (retinoidy)",
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Sungboon Editor s aktivními látkami: Retinol."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „retinolový krém\" a hlavním látkám (Retinol)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Retinol v kapslované formě pro postupné uvolňování."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 689 Kč."
+      },
+      "sensitive": {
+        "score": 5,
+        "note": "Retinol vyžaduje pozvolné zavádění a večerní použití se SPF přes den."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Retinol",
+      "Retinol — zlatý standard anti-agingu",
+      "Kapslovaná forma pro postupné uvolňování"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro 30+ a pleť s vráskami a nerovnou texturou, kdo chce retinol v komfortní krémové formě.",
+      "no": "Pro těhotné a kojící; pro úplné začátečníky bez postupného zavádění."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Sungboon Editor Deep Collagen Anti-Wrinkle Retinol Capsule Cream je retinolový krém značky Sungboon Editor (Jižní Korea). Krém proti vráskám s retinolem v kapslích a kolagenem pro vyhlazení a zpevnění pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Retinol. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Mukherjee S. et al. — Retinoids in the treatment of skin aging",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "hluboke-vrasky",
+        "textura"
+      ],
+      "skinTypes": [
+        "smisena",
+        "sucha",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "the-ordinary-retinol-1-in-squalane",
+        "kind": "cheaper",
+        "note": "Levnější čistý retinol."
+      },
+      {
+        "slug": "medik8-crystal-retinal-6",
+        "kind": "stronger",
+        "note": "Rychleji působící retinaldehyd."
+      }
+    ]
+  },
+  {
+    "id": "prod-genabelle-pdrn-rejuvenating-cream",
+    "slug": "genabelle-pdrn-rejuvenating-cream",
+    "type": "product",
+    "name": "Genabelle PDRN Rejuvenating Cream",
+    "updated": "2026-07-14",
+    "title": "Genabelle PDRN Rejuvenating Cream: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Genabelle PDRN Rejuvenating Cream — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Genabelle PDRN Rejuvenating Cream",
+    "excerpt": "Omlazující krém s PDRN (polynukleotidy) pro regeneraci, výživu a pružnost pleti.",
+    "evidenceLevel": "moderate",
+    "brand": "Genabelle",
+    "manufacturer": "Genabelle",
+    "category": "hydratace",
+    "productType": "aktivní krém",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 600 Kč",
+    "activeIngredients": [
+      "pdrn"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): PDRN. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "pdrn",
+        "text": "Polynukleotidy (fragmenty DNA, typicky z lososa) podporují regeneraci a hojení pleti; v topické kosmetice jde o slibnou, ale zatím středně podloženou složku."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: suchá, smíšená, citlivá, zralá",
+      "Cíl: jemné vrásky, povolená pleť"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Genabelle s aktivními látkami: PDRN."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „aktivní krém\" a hlavním látkám (PDRN)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 8,
+        "note": "PDRN je aktuální regenerační trend korejské kosmetiky."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 600 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Šetrné složení, obvykle dobře snášené."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: PDRN",
+      "Regenerační PDRN v krémové formě",
+      "Vhodný i pro citlivou pleť"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro 30+ jako regenerační a zpevňující krém, zejména pro sušší a citlivější pleť.",
+      "no": "Pro toho, kdo hledá primárně silný účinek na hluboké vrásky — kombinujte s retinoidy."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Genabelle PDRN Rejuvenating Cream je aktivní krém značky Genabelle (Jižní Korea). Omlazující krém s PDRN (polynukleotidy) pro regeneraci, výživu a pružnost pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: PDRN. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Squadrito F. et al. — PDRN in tissue repair",
+        "journal": "Front Pharmacol",
+        "year": 2017,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "pdrn"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "citliva",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "medicube-pdrn-pink-serum",
+        "kind": "similar",
+        "note": "PDRN v sérové formě."
+      },
+      {
+        "slug": "anua-pdrn-hyaluronic-acid-capsule-100-serum",
+        "kind": "similar",
+        "note": "PDRN sérum s hyaluronem."
+      }
+    ]
+  },
+  {
+    "id": "prod-axis-y-dark-spot-correcting-glow-serum",
+    "slug": "axis-y-dark-spot-correcting-glow-serum",
+    "type": "product",
+    "name": "AXIS-Y Dark Spot Correcting Glow Serum",
+    "updated": "2026-07-14",
+    "title": "AXIS-Y Dark Spot Correcting Glow Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu AXIS-Y Dark Spot Correcting Glow Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "AXIS-Y Dark Spot Correcting Glow Serum",
+    "excerpt": "Kultovní sérum s 5% niacinamidem na pigmentové skvrny a rozjasnění pleti.",
+    "evidenceLevel": "strong",
+    "brand": "AXIS-Y",
+    "manufacturer": "AXIS-Y",
+    "category": "sera",
+    "productType": "aktivní sérum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 450–500 Kč",
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {
+      "niacinamid": "5 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená, citlivá",
+      "Cíl: pigmentace, matná pleť"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky AXIS-Y s aktivními látkami: Niacinamid."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „aktivní sérum\" a hlavním látkám (Niacinamid)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 7,
+        "note": "Cenová hladina: cca 450–500 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Niacinamid je obvykle velmi dobře snášený."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Niacinamid",
+      "5% niacinamid na pigmentace",
+      "Oblíbená, dobře snášená receptura"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro pleť s pigmentovými skvrnami a nerovnoměrným tónem, která chce šetrné každodenní sérum.",
+      "no": "Pro toho, kdo čeká rychlé výsledky na hluboké pigmentace — zvažte silnější kombinace."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "AXIS-Y Dark Spot Correcting Glow Serum je aktivní sérum značky AXIS-Y (Jižní Korea). Kultovní sérum s 5% niacinamidem na pigmentové skvrny a rozjasnění pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Niacinamid. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "citliva"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "beauty-of-joseon-glow-serum-propolis-niacinamide",
+        "kind": "similar",
+        "note": "Podobné niacinamidové sérum."
+      },
+      {
+        "slug": "the-ordinary-niacinamide",
+        "kind": "cheaper",
+        "note": "Levnější klasika."
+      }
+    ],
+    "productUrl": "https://axis-y.com/products/dark-spot-correcting-glow-serum"
+  },
+  {
+    "id": "prod-skin1004-madagascar-centella-ampoule",
+    "slug": "skin1004-madagascar-centella-ampoule",
+    "type": "product",
+    "name": "SKIN1004 Madagascar Centella Ampoule",
+    "updated": "2026-07-14",
+    "title": "SKIN1004 Madagascar Centella Ampoule: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu SKIN1004 Madagascar Centella Ampoule — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "SKIN1004 Madagascar Centella Ampoule",
+    "excerpt": "Ikonická jednosložková ampule s extraktem Centella asiatica pro zklidnění a regeneraci pleti.",
+    "evidenceLevel": "moderate",
+    "brand": "SKIN1004",
+    "manufacturer": "SKIN1004",
+    "category": "sera",
+    "productType": "zklidňující ampule",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 320–400 Kč",
+    "activeIngredients": [
+      "centella"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Centella asiatica. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "centella",
+        "text": "Extrakt Centella asiatica (madecassosid, asiaticosid) zklidňuje podráždění, podporuje hojení a posiluje kožní bariéru."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+, 50+",
+      "Typ pleti: citlivá, aknózní, mastná, smíšená",
+      "Cíl: zarudnutí, podrážděná pleť, textura"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky SKIN1004 s aktivními látkami: Centella asiatica."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „zklidňující ampule\" a hlavním látkám (Centella asiatica)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 320–400 Kč."
+      },
+      "sensitive": {
+        "score": 9,
+        "note": "Jednosložkové, mimořádně šetrné — vhodné i pro velmi citlivou pleť."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Centella asiatica",
+      "Jednosložkové, minimalistické složení",
+      "Zklidnění a podpora bariéry — dobrý základ pod aktivní látky"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro citlivou či podrážděnou pleť a jako zklidňující základ rutiny při zavádění retinoidů a kyselin.",
+      "no": "Pro toho, kdo hledá přímý účinek na vrásky či pigmentace — centella je podpůrná složka."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "SKIN1004 Madagascar Centella Ampoule je zklidňující ampule značky SKIN1004 (Jižní Korea). Ikonická jednosložková ampule s extraktem Centella asiatica pro zklidnění a regeneraci pleti."
+      },
+      {
+        "p": "Účinek staví na složkách: Centella asiatica. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [],
+    "relations": {
+      "ingredients": [
+        "centella"
+      ],
+      "problems": [
+        "rosacea",
+        "textura"
+      ],
+      "skinTypes": [
+        "citliva",
+        "aknozni",
+        "mastna",
+        "smisena"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [],
+    "productUrl": "https://skin1004.com/products/madagascar-centella-ampoule"
+  },
+  {
+    "id": "prod-cosrx-aha-bha-clarifying-treatment-toner",
+    "slug": "cosrx-aha-bha-clarifying-treatment-toner",
+    "type": "product",
+    "name": "COSRX AHA/BHA Clarifying Treatment Toner",
+    "updated": "2026-07-14",
+    "title": "COSRX AHA/BHA Clarifying Treatment Toner: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu COSRX AHA/BHA Clarifying Treatment Toner — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "COSRX AHA/BHA Clarifying Treatment Toner",
+    "excerpt": "Jemné každodenní tonikum s nízkou koncentrací AHA a BHA pro hladší texturu a čistší póry.",
+    "evidenceLevel": "moderate",
+    "brand": "COSRX",
+    "manufacturer": "COSRX",
+    "category": "exfolianty",
+    "productType": "exfoliační tonikum",
+    "country": "Jižní Korea",
+    "volume": "—",
+    "price": "cca 280–350 Kč",
+    "activeIngredients": [
+      "aha",
+      "bha"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): AHA, BHA. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "aha",
+        "text": "Ovocné kyseliny (AHA) rozpouštějí vazby mezi odumřelými buňkami na povrchu — vyhlazují texturu a rozjasňují."
+      },
+      {
+        "ingredient": "bha",
+        "text": "Kyselina salicylová proniká do pórů, rozpouští maz a exfoliuje uvnitř póru — zlepšuje texturu a čistotu pórů."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 20+, 30+, 40+",
+      "Typ pleti: mastná, smíšená, aknózní",
+      "Cíl: textura, matná pleť, rozšířené póry"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky COSRX s aktivními látkami: AHA, BHA."
+      },
+      "potency": {
+        "score": 5,
+        "note": "Síla odpovídá kategorii „exfoliační tonikum\" a hlavním látkám (AHA, BHA)."
+      },
+      "evidence": {
+        "score": 7,
+        "note": "Použité látky mají středně silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 8,
+        "note": "Cenová hladina: cca 280–350 Kč."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Nízké koncentrace kyselin — šetrný vstup do exfoliace, přesto zavádějte postupně."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: AHA, BHA",
+      "Šetrný vstup do chemické exfoliace",
+      "Kombinace AHA (povrch) a BHA (póry)"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro začátečníky s chemickou exfoliací a mastnější pleť s nerovnou texturou.",
+      "no": "Pro toho, kdo už používá silnější exfolianty — tenhle je záměrně mírný."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "COSRX AHA/BHA Clarifying Treatment Toner je exfoliační tonikum značky COSRX (Jižní Korea). Jemné každodenní tonikum s nízkou koncentrací AHA a BHA pro hladší texturu a čistší póry."
+      },
+      {
+        "p": "Účinek staví na složkách: AHA, BHA. Produkt jsme do databáze zařadili z aktuální nabídky českých drogerií (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Arif T. — Salicylic acid as a peeling agent",
+        "journal": "Clin Cosmet Investig Dermatol",
+        "year": 2015,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "aha",
+        "bha"
+      ],
+      "problems": [
+        "textura",
+        "matna-plet",
+        "rozsirene-pory"
+      ],
+      "skinTypes": [
+        "mastna",
+        "smisena",
+        "aknozni"
+      ],
+      "ageGroups": [
+        "20-plus",
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "paulas-choice-2-bha",
+        "kind": "stronger",
+        "note": "Silnější a lépe podložená BHA exfoliace."
+      },
+      {
+        "slug": "the-ordinary-glycolic-acid-7-toning-solution",
+        "kind": "stronger",
+        "note": "Výraznější AHA tonikum."
+      }
+    ],
+    "productUrl": "https://www.cosrx.com/products/aha-bha-clarifying-treatment-toner"
   }
 ]
