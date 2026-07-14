@@ -43440,7 +43440,14 @@
         "note": "Levnější klasika."
       }
     ],
-    "productUrl": "https://axis-y.com/products/dark-spot-correcting-glow-serum"
+    "productUrl": "https://axis-y.com/products/dark-spot-correcting-glow-serum",
+    "image": {
+      "src": "/assets/img/products/axis-y-dark-spot-correcting-glow-serum.png",
+      "alt": "AXIS-Y Dark Spot Correcting Glow Serum",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://axis-y.com/products/dark-spot-correcting-glow-serum"
+    }
   },
   {
     "id": "prod-skin1004-madagascar-centella-ampoule",
@@ -43697,6 +43704,13 @@
         "note": "Výraznější AHA tonikum."
       }
     ],
-    "productUrl": "https://www.cosrx.com/products/aha-bha-clarifying-treatment-toner"
+    "productUrl": "https://www.cosrx.com/products/aha-bha-clarifying-treatment-toner",
+    "image": {
+      "src": "/assets/img/products/cosrx-aha-bha-clarifying-treatment-toner.jpg",
+      "alt": "COSRX AHA/BHA Clarifying Treatment Toner",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.cosrx.com/products/aha-bha-clarifying-treatment-toner"
+    }
   }
 ]
