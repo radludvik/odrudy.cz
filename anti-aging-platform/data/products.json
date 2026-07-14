@@ -47070,14 +47070,7 @@
         "note": "Vyšší koncentrace retinolu."
       }
     ],
-    "productUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/",
-    "image": {
-      "src": "/assets/img/products/purito-retinol-retinal-2000-nad-serum.jpg",
-      "alt": "Purito Seoul Retinol Retinal 2000 NAD+ Serum",
-      "type": "photo",
-      "source": "výrobce (oficiální)",
-      "sourceUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/"
-    }
+    "buyUrl": "https://purito.com/product/retinol-retinal-2000-nad-serum/"
   },
   {
     "id": "prod-missha-time-revolution-night-repair-ampoule-5x",
