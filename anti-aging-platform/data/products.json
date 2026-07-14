@@ -44765,7 +44765,14 @@
         "note": "Dermokosmetická alternativa na obnovu bariéry."
       }
     ],
-    "productUrl": "https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream"
+    "productUrl": "https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream",
+    "image": {
+      "src": "/assets/img/products/cosrx-advanced-snail-92-all-in-one-cream.png",
+      "alt": "COSRX Advanced Snail 92 All In One Cream",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream"
+    }
   },
   {
     "id": "prod-nerds-10-azelaic-acid-cream-serum",
