@@ -1,0 +1,51 @@
+name: Fetch URL (utility)
+
+# Pomocný nástroj: stáhne zadanou URL a vypíše textový obsah stránky do logu.
+# Hodí se, když je potřeba přečíst veřejnou stránku (podmínky, dokumentaci),
+# která není dostupná z vývojového prostředí.
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL ke stažení"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stáhni a vypiš text
+        env:
+          URL: ${{ inputs.url }}
+        run: |
+          curl -sSL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" "$URL" -o page.html
+          echo "=== BYTES: $(wc -c < page.html) ==="
+          python3 - <<'EOF'
+          import html.parser, re
+
+          class T(html.parser.HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.parts = []
+                  self.skip = 0
+              def handle_starttag(self, tag, attrs):
+                  if tag in ('script', 'style', 'noscript'):
+                      self.skip += 1
+              def handle_endtag(self, tag):
+                  if tag in ('script', 'style', 'noscript') and self.skip:
+                      self.skip -= 1
+                  if tag in ('p', 'div', 'li', 'h1', 'h2', 'h3', 'h4', 'tr', 'br'):
+                      self.parts.append('\n')
+              def handle_data(self, d):
+                  if not self.skip:
+                      self.parts.append(d)
+
+          t = T()
+          t.feed(open('page.html', encoding='utf-8', errors='replace').read())
+          text = re.sub(r'\n{3,}', '\n\n', ''.join(t.parts))
+          print(text)
+          EOF
