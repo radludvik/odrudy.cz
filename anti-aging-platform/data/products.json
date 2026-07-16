@@ -47461,5 +47461,693 @@
         "note": "Peptidové sérum vyšší třídy."
       }
     ]
+  },
+  {
+    "id": "prod-nuxe-super-serum-10",
+    "slug": "nuxe-super-serum-10",
+    "type": "product",
+    "name": "Nuxe Super Serum [10]",
+    "updated": "2026-07-16",
+    "title": "Nuxe Super Serum [10]: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Nuxe Super Serum [10] — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Nuxe Super Serum [10]",
+    "excerpt": "Univerzální protivráskový koncentrát s přírodní kyselinou hyaluronovou a mikrosférami frakcionovaných rostlinných olejů.",
+    "evidenceLevel": "strong",
+    "brand": "Nuxe",
+    "manufacturer": "Nuxe",
+    "category": "sera",
+    "productType": "sérum proti vráskám",
+    "country": "Francie",
+    "volume": "—",
+    "price": "cca 700–900 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: všechny",
+      "Cíl: jemné vrásky, hydratace, rozjasnění"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Nuxe s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „sérum proti vráskám\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Patentovaný rostlinný komplex s mikrosférami olejů."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 700–900 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Aktivní látky vyžadují pozvolné zavádění."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "Přírodní HA + rostlinné oleje v jednom kroku",
+      "Univerzální „vše v jednom\" sérum"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro celkovou hydrataci a vyhlazení pleti jedním univerzálním sérem.",
+      "no": "Pro toho, kdo chce cílený aktivní účinek (retinoid, vitamin C) — sáhne po specializovaném séru."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Nuxe Super Serum [10] je sérum proti vráskám značky Nuxe. Univerzální protivráskový koncentrát s přírodní kyselinou hyaluronovou a mikrosférami frakcionovaných rostlinných olejů."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme zařadili z aktuální nabídky českého trhu (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "la-roche-posay-hyalu-b5-serum",
+        "kind": "similar",
+        "note": "HA sérum lékárenské značky."
+      },
+      {
+        "slug": "the-ordinary-hyaluronic-acid-2-b5",
+        "kind": "cheaper",
+        "note": "Dostupná HA volba."
+      }
+    ],
+    "affiliateUrl": "https://pletova-sera-emulze.heureka.cz/nuxe-super-serum-10-30-ml/?haff=279706&utm_medium=affiliate"
+  },
+  {
+    "id": "prod-vichy-liftactiv-supreme-ha-epidermic-filler",
+    "slug": "vichy-liftactiv-supreme-ha-epidermic-filler",
+    "type": "product",
+    "name": "Vichy Liftactiv Supreme H.A. Epidermic Filler",
+    "updated": "2026-07-16",
+    "title": "Vichy Liftactiv Supreme H.A. Epidermic Filler: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Vichy Liftactiv Supreme H.A. Epidermic Filler — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Vichy Liftactiv Supreme H.A. Epidermic Filler",
+    "excerpt": "Protivráskové sérum s kyselinou hyaluronovou pro okamžité vyplnění kontur a jemných linek i v okolí očí.",
+    "evidenceLevel": "strong",
+    "brand": "Vichy",
+    "manufacturer": "Vichy",
+    "category": "sera",
+    "productType": "sérum proti vráskám",
+    "country": "Francie",
+    "volume": "—",
+    "price": "cca 550–750 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: všechny",
+      "Cíl: jemné vrásky, povolená pleť, hydratace"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Vichy s aktivními látkami: Kyselina hyaluronová."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „sérum proti vráskám\" a hlavním látkám (Kyselina hyaluronová)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 550–750 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Aktivní látky vyžadují pozvolné zavádění."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová",
+      "HA pro vyplnění vrásek a kontur",
+      "Vhodné i do okolí očí"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro vyhlazení jemných vrásek a povolené pleti hydratačním sérem.",
+      "no": "Pro výraznější vrásky, kde je potřeba retinoid."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Vichy Liftactiv Supreme H.A. Epidermic Filler je sérum proti vráskám značky Vichy. Protivráskové sérum s kyselinou hyaluronovou pro okamžité vyplnění kontur a jemných linek i v okolí očí."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová. Produkt jsme zařadili z aktuální nabídky českého trhu (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet"
+      ],
+      "skinTypes": [
+        "sucha",
+        "smisena",
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "eucerin-hyaluron-filler-serum",
+        "kind": "similar",
+        "note": "HA sérum stejné kategorie."
+      },
+      {
+        "slug": "the-ordinary-hyaluronic-acid-2-b5",
+        "kind": "cheaper",
+        "note": "Dostupná HA volba."
+      }
+    ],
+    "affiliateUrl": "https://pletova-sera-emulze.heureka.cz/vichy-liftactiv-supreme-h-a-epidermic-filler-serum-s-kyselinou-hyaluronovou-30-ml/?haff=279706&utm_medium=affiliate"
+  },
+  {
+    "id": "prod-avene-hyaluron-activ-b3-concentrated-serum",
+    "slug": "avene-hyaluron-activ-b3-concentrated-serum",
+    "type": "product",
+    "name": "Avène Hyaluron Activ B3 koncentrované sérum",
+    "updated": "2026-07-16",
+    "title": "Avène Hyaluron Activ B3 koncentrované sérum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Avène Hyaluron Activ B3 koncentrované sérum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Avène Hyaluron Activ B3 koncentrované sérum",
+    "excerpt": "Koncentrované vyhlazující sérum s vysokým obsahem kyseliny hyaluronové (1,5 %) a niacinamidem pro pružnost a vyplnění vrásek.",
+    "evidenceLevel": "strong",
+    "brand": "Avène",
+    "manufacturer": "Avène",
+    "category": "sera",
+    "productType": "sérum proti vráskám",
+    "country": "Francie",
+    "volume": "—",
+    "price": "cca 550–750 Kč",
+    "activeIngredients": [
+      "kyselina-hyaluronova",
+      "niacinamid"
+    ],
+    "concentrations": {
+      "kyselina-hyaluronova": "1,5 %"
+    },
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Kyselina hyaluronová, Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "kyselina-hyaluronova",
+        "text": "Váže vodu v horních vrstvách pleti — hydratuje, vyplňuje vzhled jemných linek a zlepšuje pružnost."
+      },
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: všechny včetně citlivé",
+      "Cíl: jemné vrásky, povolená pleť, matná pleť"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Avène s aktivními látkami: Kyselina hyaluronová, Niacinamid."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „sérum proti vráskám\" a hlavním látkám (Kyselina hyaluronová, Niacinamid)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 550–750 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Neparfemované, cílené i na citlivou pleť."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Kyselina hyaluronová, Niacinamid",
+      "HA 1,5 % + niacinamid v jednom kroku",
+      "Neparfemované, vhodné pro citlivou pleť"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro pružnost a vyplnění vrásek u citlivější pleti.",
+      "no": "Pro toho, kdo cílí primárně na pigmentace — zvolte specializované sérum."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Avène Hyaluron Activ B3 koncentrované sérum je sérum proti vráskám značky Avène. Koncentrované vyhlazující sérum s vysokým obsahem kyseliny hyaluronové (1,5 %) a niacinamidem pro pružnost a vyplnění vrásek."
+      },
+      {
+        "p": "Účinek staví na složkách: Kyselina hyaluronová, Niacinamid. Produkt jsme zařadili z aktuální nabídky českého trhu (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Papakonstantinou E. — Hyaluronic acid: A key molecule in skin aging",
+        "journal": "Dermatoendocrinol",
+        "year": 2012,
+        "type": "review"
+      },
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "kyselina-hyaluronova",
+        "niacinamid"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "povolena-plet",
+        "matna-plet"
+      ],
+      "skinTypes": [
+        "citliva",
+        "sucha",
+        "smisena",
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "la-roche-posay-hyalu-b5-serum",
+        "kind": "similar",
+        "note": "HA sérum lékárenské značky."
+      },
+      {
+        "slug": "smuuti-skin-watermelon-dew-serum",
+        "kind": "cheaper",
+        "note": "Dostupné HA + niacinamid sérum."
+      }
+    ],
+    "affiliateUrl": "https://pletove-kury-a-koncentraty.heureka.cz/avene-hyaluron-activ-b3-concentrated-plumping-30-ml/?haff=279706&utm_medium=affiliate"
+  },
+  {
+    "id": "prod-svr-ampoule-a-retinol-serum",
+    "slug": "svr-ampoule-a-retinol-serum",
+    "type": "product",
+    "name": "SVR [A] Ampoule liftingové sérum s retinolem",
+    "updated": "2026-07-16",
+    "title": "SVR [A] Ampoule liftingové sérum s retinolem: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu SVR [A] Ampoule liftingové sérum s retinolem — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "SVR [A] Ampoule liftingové sérum s retinolem",
+    "excerpt": "Liftingové sérum v ampulce s vysokou koncentrací retinolu (vitaminu A) pro vyhlazení textury a redukci známek stárnutí.",
+    "evidenceLevel": "strong",
+    "brand": "SVR",
+    "manufacturer": "SVR",
+    "category": "retinoly",
+    "productType": "retinolové sérum",
+    "country": "Francie",
+    "volume": "—",
+    "price": "cca 550–700 Kč",
+    "activeIngredients": [
+      "retinol"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Retinol. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "retinol",
+        "text": "Zlatý standard anti-agingu: zrychluje obnovu buněk, stimuluje tvorbu kolagenu a vyhlazuje jemné vrásky i texturu."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: normální, smíšená, mastná",
+      "Cíl: jemné vrásky, textura, rozšířené póry"
+    ],
+    "notSuitable": [
+      "Těhotenství a kojení (retinoidy)",
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky SVR s aktivními látkami: Retinol."
+      },
+      "potency": {
+        "score": 7,
+        "note": "Síla odpovídá kategorii „retinolové sérum\" a hlavním látkám (Retinol)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 6,
+        "note": "Standardní, ověřená formulace dané kategorie."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 550–700 Kč."
+      },
+      "sensitive": {
+        "score": 6,
+        "note": "Vyšší koncentrace retinolu — zavádějte postupně a používejte SPF."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Retinol",
+      "Vysoká koncentrace retinolu",
+      "Lékárenská značka SVR"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro vyhlazení textury a jemných vrásek retinolem od lékárenské značky.",
+      "no": "Pro těhotné a kojící; pro úplné začátečníky s retinoidy."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "SVR [A] Ampoule liftingové sérum s retinolem je retinolové sérum značky SVR. Liftingové sérum v ampulce s vysokou koncentrací retinolu (vitaminu A) pro vyhlazení textury a redukci známek stárnutí."
+      },
+      {
+        "p": "Účinek staví na složkách: Retinol. Produkt jsme zařadili z aktuální nabídky českého trhu (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Mukherjee S. et al. — Retinoids in the treatment of skin aging",
+        "journal": "Clin Interv Aging",
+        "year": 2006,
+        "type": "review"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "retinol"
+      ],
+      "problems": [
+        "jemne-vrasky",
+        "textura",
+        "rozsirene-pory"
+      ],
+      "skinTypes": [
+        "smisena",
+        "mastna",
+        "sucha"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "la-roche-posay-retinol-b3-serum",
+        "kind": "similar",
+        "note": "Lékárenský retinol s B3."
+      },
+      {
+        "slug": "revox-b77-just-solo-retinol-niacinamide",
+        "kind": "cheaper",
+        "note": "Dostupný retinol pro začátek."
+      }
+    ],
+    "affiliateUrl": "https://pletova-sera-emulze.heureka.cz/svr-ampule-a-liftingove-serum-v-ampulce-s-retinolem-30-ml/?haff=279706&utm_medium=affiliate"
+  },
+  {
+    "id": "prod-vichy-liftactiv-specialist-b3-serum",
+    "slug": "vichy-liftactiv-specialist-b3-serum",
+    "type": "product",
+    "name": "Vichy Liftactiv Specialist B3 Serum",
+    "updated": "2026-07-16",
+    "title": "Vichy Liftactiv Specialist B3 Serum: odborný rozbor a hodnocení | antiagelab.cz",
+    "metaDescription": "Odborná analýza produktu Vichy Liftactiv Specialist B3 Serum — složení, jak funguje, redakční hodnocení, komu se hodí a komu ne, alternativy.",
+    "h1": "Vichy Liftactiv Specialist B3 Serum",
+    "excerpt": "Koncentrované sérum s niacinamidem a patentovaným Melasylem proti pigmentacím, nerovnoměrnému tónu a jemným vráskám.",
+    "evidenceLevel": "strong",
+    "brand": "Vichy",
+    "manufacturer": "Vichy",
+    "category": "sera",
+    "productType": "sérum proti pigmentaci",
+    "country": "Francie",
+    "volume": "—",
+    "price": "cca 600–800 Kč",
+    "activeIngredients": [
+      "niacinamid"
+    ],
+    "concentrations": {},
+    "inci": "Hlavní účinné složky (dle veřejných zdrojů): Niacinamid. Kompletní INCI doplníme z oficiálního zdroje výrobce.",
+    "howItWorks": [
+      {
+        "ingredient": "niacinamid",
+        "text": "Forma vitaminu B3, která podporuje tvorbu ceramidů (silnější bariéra), reguluje produkci mazu, tlumí přenos melaninu do keratinocytů (sjednocení tónu) a působí protizánětlivě."
+      }
+    ],
+    "suitableFor": [
+      "Věk: 30+, 40+, 50+",
+      "Typ pleti: všechny včetně citlivé",
+      "Cíl: pigmentace, matná pleť, jemné vrásky"
+    ],
+    "notSuitable": [
+      "Individuální alergie na složku"
+    ],
+    "scores": {
+      "quality": {
+        "score": 7,
+        "note": "Formulace značky Vichy s aktivními látkami: Niacinamid."
+      },
+      "potency": {
+        "score": 6,
+        "note": "Síla odpovídá kategorii „sérum proti pigmentaci\" a hlavním látkám (Niacinamid)."
+      },
+      "evidence": {
+        "score": 9,
+        "note": "Použité látky mají silnou vědeckou podporu."
+      },
+      "innovation": {
+        "score": 7,
+        "note": "Niacinamid v kombinaci s patentovaným Melasyl™."
+      },
+      "value": {
+        "score": 6,
+        "note": "Cenová hladina: cca 600–800 Kč."
+      },
+      "sensitive": {
+        "score": 8,
+        "note": "Neparfemované, vhodné i pro citlivou pleť."
+      }
+    },
+    "strengths": [
+      "Hlavní účinné látky: Niacinamid",
+      "Niacinamid + patentovaný Melasyl na pigmentace",
+      "Neparfemované, klinicky testované"
+    ],
+    "weaknesses": [
+      "Výrobce neuvádí přesné koncentrace všech aktivních látek",
+      "Kompletní INCI ověřte u oficiálního zdroje"
+    ],
+    "recommendation": {
+      "yes": "Pro nerovnoměrný tón a pigmentové skvrny u citlivější pleti.",
+      "no": "Pro toho, kdo primárně řeší hloubku vrásek — přidejte retinoid."
+    },
+    "body": [
+      {
+        "h2": "Popis produktu"
+      },
+      {
+        "p": "Vichy Liftactiv Specialist B3 Serum je sérum proti pigmentaci značky Vichy. Koncentrované sérum s niacinamidem a patentovaným Melasylem proti pigmentacím, nerovnoměrnému tónu a jemným vráskám."
+      },
+      {
+        "p": "Účinek staví na složkách: Niacinamid. Produkt jsme zařadili z aktuální nabídky českého trhu (7/2026); hodnocení vychází z veřejně dostupných informací o složení."
+      }
+    ],
+    "faq": [],
+    "sources": [
+      {
+        "title": "Bissett D. et al. — Niacinamide: A B vitamin that improves aging facial skin",
+        "journal": "Dermatol Surg",
+        "year": 2005,
+        "type": "rct"
+      }
+    ],
+    "relations": {
+      "ingredients": [
+        "niacinamid"
+      ],
+      "problems": [
+        "pigmentace",
+        "matna-plet",
+        "jemne-vrasky"
+      ],
+      "skinTypes": [
+        "citliva",
+        "sucha",
+        "smisena",
+        "mastna",
+        "zrala"
+      ],
+      "ageGroups": [
+        "30-plus",
+        "40-plus",
+        "50-plus"
+      ],
+      "routines": [
+        "ranni-rutina",
+        "vecerni-rutina"
+      ]
+    },
+    "alternatives": [
+      {
+        "slug": "anua-niacinamide-10-txa-4-serum",
+        "kind": "similar",
+        "note": "Niacinamid + kys. tranexamová na tón."
+      },
+      {
+        "slug": "the-ordinary-niacinamide",
+        "kind": "cheaper",
+        "note": "Dostupný niacinamid."
+      }
+    ],
+    "affiliateUrl": "https://pletova-sera-emulze.heureka.cz/vichy-liftactiv-specialist-b3-serum-30-ml/?haff=279706&utm_medium=affiliate"
   }
 ]
