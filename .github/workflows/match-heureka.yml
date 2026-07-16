@@ -1,0 +1,44 @@
+name: Spárovat produkty s Heurekou
+
+# Vyhledá produkty databáze na Heureka.cz a uloží mapu shod do
+# data/heureka-map.json (commitne na main). Aplikace mapy do products.json
+# (affiliate odkazy) je samostatný, kontrolovaný krok.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max. počet produktů ke zpracování"
+        default: "400"
+      force:
+        description: "Znovu i už spárované (1 = ano)"
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  match:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Vyhledej shody na Heurece
+        run: node build/match-heureka.mjs
+        working-directory: anti-aging-platform
+        env:
+          LIMIT: ${{ inputs.limit }}
+          FORCE: ${{ inputs.force }}
+      - name: Commit mapy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anti-aging-platform/data/heureka-map.json
+          git diff --cached --quiet && echo "Žádné změny" && exit 0
+          git commit -m "Match products to Heureka.cz (CI)"
+          git pull --rebase origin main
+          git push origin main
