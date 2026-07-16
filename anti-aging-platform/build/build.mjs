@@ -76,6 +76,7 @@ function loadAll() {
   const entities = [];
   for (const f of files) {
     const arr = JSON.parse(readFileSync(join(DATA, f), 'utf8'));
+    if (!Array.isArray(arr)) continue; // pomocná data (např. heureka-map.json) nejsou entity
     for (const e of arr) entities.push(e);
   }
   return entities;
@@ -901,8 +902,11 @@ function affiliateBlock(list) {
 const BUY_LABEL = 'Koupit u ověřeného prodejce';
 const BUY_TYPES = new Set(['product', 'supplement', 'technology']);
 function buyHref(e) {
+  // Skutečný affiliate odkaz (Heureka) má přednost před starším polem affiliate[]
+  // (odkazy na e-shopy značek) i před odkazem na výrobce.
+  if (e.affiliateUrl) return e.affiliateUrl;
   if (e.affiliate && e.affiliate.length && e.affiliate[0] && e.affiliate[0].url) return e.affiliate[0].url;
-  return e.affiliateUrl || e.buyUrl || e.productUrl || (e.image && e.image.sourceUrl) || null;
+  return e.buyUrl || e.productUrl || (e.image && e.image.sourceUrl) || null;
 }
 function canBuy(e) { return BUY_TYPES.has(e.type) && !!buyHref(e); }
 function buyBtn(e, extraCls) {
