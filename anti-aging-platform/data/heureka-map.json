@@ -521,5 +521,43 @@
   "brainmax-astaxanthin": {
     "url": "https://doplnky-stravy.heureka.cz/brainmax-astaxanthin-bio-8-mg-60-rostlinnych-kapsli/",
     "title": "BrainMax Astaxanthin BIO 8 mg 60 kapslí"
+  },
+  "swanson-biotin": {
+    "url": "https://doplnky-stravy.heureka.cz/swanson-biotin-5000-mcg-100-kapsli/",
+    "title": "Swanson Biotin 5000 mcg 100 kapslí"
+  },
+  "pharma-nord-bio-selen-zinek": {
+    "url": "https://doplnky-stravy.heureka.cz/pharmanord-bioaktivni-selen-plus-zinek-forte-60-tablet/",
+    "title": "Pharma Nord Bioaktivní Selen+Zinek Forte 60 tablet"
+  },
+  "brainmax-vitamin-d3-k2": {
+    "url": "https://doplnky-stravy.heureka.cz/brainmax-vitamin-d3-k2-50-kapsul/",
+    "title": "BrainMax Vitamin D3 & K2 50 kapslí"
+  },
+  "brainmax-hyaluronova-kyselina": null,
+  "brainmax-spermidin": null,
+  "anua-pdrn-hyaluronic-acid-capsule-100-serum": {
+    "url": "https://pletova-sera-emulze.heureka.cz/anua-pdrn-hyaluronic-acid-capsule-100-serum-hydratacni-a-vyzivujici-serum-s-kolagenem-30-ml/",
+    "title": "Anua PDRN Hyaluronic Acid Capsule 100 Serum 30 ml"
+  },
+  "anua-peach-70-niacinamide-serum": {
+    "url": "https://pletova-sera-emulze.heureka.cz/anua-serum-peach-70-niacinamide-30-ml/",
+    "title": "Anua Peach 70% Niacinamide Serum 30 ml"
+  },
+  "anua-azelaic-acid-10-hyaluron-serum": {
+    "url": "https://pletova-sera-emulze.heureka.cz/anua-zklidnujici-serum-s-azelaovou-a-hyaluronovou-kyselinou-azelaic-acid-10-hyaluron-redness-soothing-serum-30-ml/",
+    "title": "Anua Azelaic Acid 10 Hyaluron Serum 30 ml"
+  },
+  "anua-niacinamide-10-txa-4-serum": {
+    "url": "https://pletova-sera-emulze.heureka.cz/anua-oblicej-sera-olejeniacinamide-10-plus-txa-4-serum-30-ml_2",
+    "title": "Anua Niacinamide 10 + TXA 4 Serum 30 ml"
+  },
+  "anua-rice-70-glow-milky-toner": {
+    "url": "https://pripravky-na-cisteni-pleti.heureka.cz/anua-rice-70-glow-milky-toner-rozjasnujici-pletovy-toner-s-ryzovym-extraktem-250-ml/",
+    "title": "Anua Rice 70 Glow Milky Toner 250 ml"
+  },
+  "dr-althea-vitamin-c-boosting-serum": {
+    "url": "https://pletova-sera-emulze.heureka.cz/dr-althea-vitamin-c-boosting-serum-revitalizacni-pletove-serum-s-vysokym-obsahem-vitaminu-c-30-ml/",
+    "title": "Dr. Althea Vitamin C Boosting Serum 30 ml"
   }
 }
