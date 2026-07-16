@@ -47595,7 +47595,14 @@
       }
     ],
     "affiliateUrl": "https://pletova-sera-emulze.heureka.cz/nuxe-super-serum-10-30-ml/?haff=279706&utm_medium=affiliate",
-    "productUrl": "https://us.nuxe.com/products/super-serum-10-the-universal-age-defying-concentrate-30ml"
+    "productUrl": "https://us.nuxe.com/products/super-serum-10-the-universal-age-defying-concentrate-30ml",
+    "image": {
+      "src": "/assets/img/products/nuxe-super-serum-10.jpg",
+      "alt": "Nuxe Super Serum [10]",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.nuxe.com/products/super-serum-10-the-universal-age-defying-concentrate-30ml"
+    }
   },
   {
     "id": "prod-vichy-liftactiv-supreme-ha-epidermic-filler",
@@ -47881,7 +47888,14 @@
       }
     ],
     "affiliateUrl": "https://pletove-kury-a-koncentraty.heureka.cz/avene-hyaluron-activ-b3-concentrated-plumping-30-ml/?haff=279706&utm_medium=affiliate",
-    "productUrl": "https://www.aveneusa.com/hyaluron-activ-b3-concentrated-plumping-serum"
+    "productUrl": "https://www.aveneusa.com/hyaluron-activ-b3-concentrated-plumping-serum",
+    "image": {
+      "src": "/assets/img/products/avene-hyaluron-activ-b3-concentrated-serum.jpg",
+      "alt": "Avène Hyaluron Activ B3 koncentrované sérum",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://www.aveneusa.com/hyaluron-activ-b3-concentrated-plumping-serum"
+    }
   },
   {
     "id": "prod-svr-ampoule-a-retinol-serum",
@@ -48016,7 +48030,14 @@
       }
     ],
     "affiliateUrl": "https://pletova-sera-emulze.heureka.cz/svr-ampule-a-liftingove-serum-v-ampulce-s-retinolem-30-ml/?haff=279706&utm_medium=affiliate",
-    "productUrl": "https://us.svr.com/products/ampoule-a-lift"
+    "productUrl": "https://us.svr.com/products/ampoule-a-lift",
+    "image": {
+      "src": "/assets/img/products/svr-ampoule-a-retinol-serum.png",
+      "alt": "SVR [A] Ampoule liftingové sérum s retinolem",
+      "type": "photo",
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.svr.com/products/ampoule-a-lift"
+    }
   },
   {
     "id": "prod-vichy-liftactiv-specialist-b3-serum",
