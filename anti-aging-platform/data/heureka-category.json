@@ -147,27 +147,32 @@
     {
       "name": "vichy liftactiv specialist b3 serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/vichy-liftactiv-specialist-b3-serum-30-ml/",
-      "price": "1 335 Kč"
+      "price": "1 335 Kč",
+      "inciDone": true
     },
     {
       "name": "medik8 c tetra luxe pletove serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-c-tetra-luxe-pletove-serum-30-ml/",
-      "price": "1 150 Kč"
+      "price": "1 150 Kč",
+      "inciDone": true
     },
     {
       "name": "medik8 retinal 10 ultra silne nocni serum proti vraskam 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-retinal-10-ultra-silne-nocni-serum-proti-vraskam-30-ml/",
-      "price": "2 900 Kč"
+      "price": "2 900 Kč",
+      "inciDone": true
     },
     {
       "name": "l oreal revitalift filler hyaluronic acid serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/l-oreal-revitalift-filler-hyaluronic-acid-serum-30-ml/",
-      "price": "416 Kč"
+      "price": "416 Kč",
+      "inciDone": true
     },
     {
       "name": "institut esthederm age proteom advanced serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/institut-esthederm-age-proteom-advanced-serum-30-ml/",
-      "price": "2 733 Kč"
+      "price": "2 733 Kč",
+      "inciDone": true
     },
     {
       "name": "some by mi retinol intense reactivating serum 30 ml",
