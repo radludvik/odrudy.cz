@@ -7,77 +7,132 @@
     {
       "name": "eucerin hyaluron filler plus elasticity serum pro vyplneni hlubokych vrasek 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/eucerin-hyaluron-filler-plus-elasticity-serum-pro-vyplneni-hlubokych-vrasek-30-ml/",
-      "price": "1 598 Kč"
+      "price": "1 598 Kč",
+      "inciDone": true
     },
     {
       "name": "sérum Geek & Gorgeous A-Game 10 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/serum-geek-gorgeous-a-game-10-30-ml/",
-      "price": ""
+      "price": "",
+      "inciDone": true
     },
     {
       "name": "medicube pink peptide serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medicube-pink-peptide-serum-30-ml/",
-      "price": "299 Kč"
+      "price": "299 Kč",
+      "incidecoderUrl": "https://incidecoder.com/products/medicube-pdrn-pink-peptide-serum",
+      "inci": "Niacinamide , Hydrolyzed Collagen , Acetyl Hexapeptide-8 , Butylene Glycol , Glycerin , Polyglycerin-3 , Glyceryl Acrylate/​Acrylic Acid Copolymer , Sodium Hyaluronate , Glycereth-26 , Caprylyl Glycol",
+      "actives": [
+        "niacinamid",
+        "kyselina-hyaluronova",
+        "peptidy"
+      ],
+      "inciMatched": [
+        "\\bniacinamide\\b",
+        "hyaluron",
+        "peptide|tripeptide|hexapeptide|oligopeptide|polypeptide"
+      ],
+      "inciDone": true
     },
     {
       "name": "Geek & Gorgeous C-Glow sérum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/geek-gorgeous-c-glow-serum-30-ml/",
-      "price": ""
+      "price": "",
+      "incidecoderUrl": "https://incidecoder.com/products/geek-gorgeous-serum-101-c-glow",
+      "inci": "",
+      "actives": [],
+      "inciMatched": [],
+      "inciDone": true
     },
     {
       "name": "medik8 crystal retinal 3 nocni serum proti starnuti pleti 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-crystal-retinal-3-nocni-serum-proti-starnuti-pleti-30-ml/",
-      "price": "1 037 Kč"
+      "price": "1 037 Kč",
+      "inciDone": true
     },
     {
       "name": "bioderma sensibio defensive serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/bioderma-sensibio-defensive-serum-30-ml/",
-      "price": "990 Kč"
+      "price": "990 Kč",
+      "incidecoderUrl": "https://incidecoder.com/products/bioderma-crealine-sensibio-defensive-moisturizing-concentrated-serum",
+      "inci": "Glycerin , Butylene Glycol , Pentylene Glycol , Caprylyl Glycol , Mannitol , Xylitol , Rhamnose , Biosaccharide Gum-1 , Hydrolyzed Hyaluronic Acid",
+      "actives": [
+        "kyselina-hyaluronova"
+      ],
+      "inciMatched": [
+        "hyaluron"
+      ],
+      "inciDone": true
     },
     {
       "name": "medik8 retinal 6 nocni super silne serum proti vraskam 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-retinal-6-nocni-super-silne-serum-proti-vraskam-30-ml/",
-      "price": "2 133 Kč"
+      "price": "2 133 Kč",
+      "inciDone": true
     },
     {
       "name": "planthe hyaluronove omlazujici serum 50 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/planthe-hyaluronove-omlazujici-serum-50-ml/",
-      "price": "567 Kč"
+      "price": "567 Kč",
+      "inciDone": true
     },
     {
       "name": "eucerin hyaluron filler epigenetic serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/eucerin-hyaluron-filler-epigenetic-serum-30-ml/",
-      "price": "1 566 Kč"
+      "price": "1 566 Kč",
+      "incidecoderUrl": "https://incidecoder.com/products/eucerin-hyaluron-filler-epigenetic-serum",
+      "inci": "",
+      "actives": [
+        "kyselina-hyaluronova"
+      ],
+      "inciMatched": [
+        "hyaluron"
+      ],
+      "inciDone": true
     },
     {
       "name": "renovality hyaluronove serum 50 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/renovality-hyaluronove-serum-50-ml/",
-      "price": "484 Kč"
+      "price": "484 Kč",
+      "incidecoderUrl": "https://incidecoder.com/products/renovality-hyaluronove-serum-s-vitaminom-c-a-b3",
+      "inci": "",
+      "actives": [
+        "kyselina-hyaluronova"
+      ],
+      "inciMatched": [
+        "hyaluron"
+      ],
+      "inciDone": true
     },
     {
       "name": "medik8 liquid peptides serum proti vraskam 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-liquid-peptides-serum-proti-vraskam-30-ml/",
-      "price": "2 700 Kč"
+      "price": "2 700 Kč",
+      "inciDone": true
     },
     {
       "name": "medi peel bor tox peptide ampule 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medi-peel-bor-tox-peptide-ampule-30-ml/",
-      "price": "246 Kč"
+      "price": "246 Kč",
+      "inciDone": true
     },
     {
       "name": "purity vision bio omlazujici serum z ruze 50 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/purity-vision-bio-omlazujici-serum-z-ruze-50-ml/",
-      "price": "447 Kč"
+      "price": "447 Kč",
+      "inciDone": true
     },
     {
       "name": "beviro forever young elixir omlazujici pletove serum 50 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/beviro-forever-young-elixir-omlazujici-pletove-serum-50-ml/",
-      "price": "750 Kč"
+      "price": "750 Kč",
+      "inciDone": true
     },
     {
       "name": "Vichy Liftactiv Supreme H.A. Epidermic Filler sérum s kyselinou hyaluronovou 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/vichy-liftactiv-supreme-h-a-epidermic-filler-serum-s-kyselinou-hyaluronovou-30-ml/",
-      "price": ""
+      "price": "",
+      "inciDone": true
     },
     {
       "name": "vichy liftactiv specialist b3 serum 30 ml",
