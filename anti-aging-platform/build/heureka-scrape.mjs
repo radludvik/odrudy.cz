@@ -135,12 +135,14 @@ async function goNext(page, nextNum) {
   return false;
 }
 
-/* Složení + parametry + přesný název z detailu produktu. */
+/* Popis + parametry + INCI (pokud je) + přesný název z detailu produktu.
+ * INCI Heureka u kosmetiky často neuvádí, ale popis („Text výrobce") obvykle
+ * jmenuje hlavní účinné látky — z toho import pozná aktivní látky. */
 async function extractDetail(page) {
   return page.evaluate(() => {
     const clean = (s) => (s || '').replace(/\s+/g, ' ').trim();
     const title = clean(document.querySelector('h1')?.textContent);
-    // INCI: nejdelší text, který vypadá jako seznam složek (Aqua/Water + hodně čárek)
+    // INCI: nejdelší text vypadající jako seznam složek (Aqua/Water + hodně čárek)
     let inci = '';
     for (const el of document.querySelectorAll('p, td, li, div, span')) {
       const t = clean(el.textContent);
@@ -148,12 +150,19 @@ async function extractDetail(page) {
         if (t.length > inci.length) inci = t;
       }
     }
-    // parametry: řádky tabulky/param sekce (název: hodnota)
-    let params = '';
-    const pel = Array.from(document.querySelectorAll('table, dl, [class*="param"], [class*="Param"]')).map((e) => clean(e.textContent)).join(' | ');
-    params = pel.slice(0, 1500);
+    // popis: nejdelší souvislý textový blok (sekce „Popis"/„Text výrobce")
+    let descFull = '';
+    for (const el of document.querySelectorAll('p, [class*="description" i], [class*="popis" i], [class*="perex" i], [itemprop="description"], section, article')) {
+      const t = clean(el.textContent);
+      if (t.length > 120 && t.length < 6000 && / a | s | pro |vrás|pleť|séru|hydrat|kyselin|vitamin|retin|peptid|niacinamid/i.test(t)) {
+        if (t.length > descFull.length) descFull = t;
+      }
+    }
+    descFull = descFull.slice(0, 3000);
+    // parametry: řádky tabulky/param sekce (často „Účinky", „Typ pleti", „Účinné látky")
+    const params = Array.from(document.querySelectorAll('table, dl, [class*="param" i], [class*="spec" i]')).map((e) => clean(e.textContent)).join(' | ').slice(0, 2000);
     const desc = clean(document.querySelector('meta[name="description"]')?.getAttribute('content'));
-    return { title, inci, params, desc };
+    return { title, inci, descFull, params, desc };
   });
 }
 
@@ -204,6 +213,7 @@ if (DO_DETAIL) {
       const d = await extractDetail(page);
       if (d.title) p.name = d.title;       // přesný název z detailu
       p.inci = d.inci || '';
+      p.descFull = d.descFull || '';
       p.params = d.params || '';
       p.desc = d.desc || '';
       p.detailDone = true;
