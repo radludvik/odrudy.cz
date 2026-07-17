@@ -120,32 +120,26 @@ async function extractList(page) {
   }, host);
 }
 
-/* Přechod na další stránku katalogu. Heureka stránkuje parametrem ?f=<N>
- * (hodnoty monotónně rostou). Najdeme na stránce odkaz s nejmenším ?f
- * VĚTŠÍM než aktuální = další stránka, a klikneme přímo na něj (funguje i
- * když se čísla stránek sbalí do „…", protože šipka „›" i sousední čísla
- * jsou vždy přítomné). Vrací true, když se obsah listingu změnil. */
-async function goNext(page) {
+/* Přechod na stránku `pageNum` katalogu. Heureka stránkuje relativním odkazem
+ * `<cesta>?f=<pageNum>` (data-testid="pagination-specific-page"). Když je odkaz
+ * na stránce viditelný, klikneme na něj; jinak (sbalené „…") navigujeme přímo
+ * na URL. Vrací true, když se obsah listingu skutečně změnil. */
+const BASE_PATH = new URL(BASE_URL).pathname;              // /f:17467:22508611/
+async function goNext(page, pageNum) {
   const sig = () => page.evaluate((h) => Array.from(document.querySelectorAll(`a[href*="${h}/"]`)).slice(0, 10).map((a) => a.href).join('|'), host);
   const before = await sig();
-  const curF = Number(new URL(page.url()).searchParams.get('f') || '0');
-  const nextHref = await page.evaluate(({ h, curF }) => {
-    let best = null;
-    for (const a of document.querySelectorAll(`a[href*="${h}/"]`)) {
-      const m = a.href.match(/[?&]f=(\d+)/);
-      if (!m) continue;
-      const f = Number(m[1]);
-      if (f > curF && (best === null || f < best.f)) best = { f, href: a.href };
-    }
-    return best ? best.href : '';
-  }, { h: host, curF });
-  if (!nextHref) { process.stdout.write(`  (žádný další ?f odkaz > ${curF} — konec)\n`); return false; }
+  const relHref = `${BASE_PATH}?f=${pageNum}`;
+  const absHref = new URL(relHref, BASE_URL).href;
   try {
-    const loc = page.locator(`a[href="${nextHref}"]`).first();
-    await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {});
-    await loc.click({ timeout: 4000 });
+    const loc = page.locator(`a[href="${relHref}"]`).first();
+    if (await loc.count()) {
+      await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {});
+      await loc.click({ timeout: 4000 });
+    } else {
+      await page.goto(absHref, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    }
   } catch {
-    await page.goto(nextHref, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
+    await page.goto(absHref, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
   }
   for (let i = 0; i < 15; i++) { await sleep(1000); if ((await sig()) !== before) return true; }
   return false;
@@ -232,18 +226,10 @@ if (DO_LIST) {
     for (const it of items) { if (!store.has(it.url)) { store.set(it.url, it); added++; } else { const ex = store.get(it.url); if (it.price && !ex.price) ex.price = it.price; } }
     process.stdout.write(`\n[${n}/${PAGES}] ${page.url()}\n  produktů: ${items.length} (nových: ${added}, celkem: ${store.size})\n`);
     save();
-    if (n === 1) {
-      // Jednorázová diagnostika stránkování (ať vidím podobu tlačítka „další").
-      const pagHtml = await page.evaluate(() => {
-        const cands = Array.from(document.querySelectorAll('nav, [class*="pagination" i], [class*="paging" i], [data-testid*="pagination" i]'));
-        const el = cands.filter((e) => /›|»|další|\b2\b/i.test(e.textContent || '')).sort((a, b) => a.textContent.length - b.textContent.length)[0];
-        return el ? el.outerHTML.slice(0, 1800) : '(stránkovací prvek nenalezen)';
-      }).catch(() => '');
-      process.stdout.write(`  --- PAGINATION HTML ---\n${pagHtml}\n  --- /PAGINATION ---\n`);
-    }
+    if (n > 1 && added === 0) { process.stdout.write('  (žádné nové produkty — konec katalogu)\n'); break; }
     if (n >= PAGES) break;
     await sleep(DELAY);
-    if (!(await goNext(page))) { process.stdout.write('  (konec stránkování)\n'); break; }
+    if (!(await goNext(page, n + 1))) { process.stdout.write('  (na další stránku se nepodařilo přejít — konec)\n'); break; }
   }
 }
 
