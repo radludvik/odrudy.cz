@@ -44,10 +44,14 @@ jobs:
           OUT: ${{ inputs.out }}
         run: xvfb-run -a node anti-aging-platform/build/heureka-scrape.mjs
       - name: Nahraj artefakt
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: heureka-category
-          path: ${{ inputs.out }}
+          path: |
+            ${{ inputs.out }}
+            anti-aging-platform/data/heureka-debug.png
+          if-no-files-found: ignore
       - name: Commit výsledku
         run: |
           git config user.name "github-actions[bot]"

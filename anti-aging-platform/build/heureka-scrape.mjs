@@ -37,16 +37,23 @@ function pageUrl(base, n) {
 }
 
 /* Počká, až se stránka „usadí" a projde případnou Cloudflare výzvu.
- * Cloudflare interstitial (titulek „Okamžik…" / „Just a moment") se pod
- * stealth prohlížečem obvykle sám pročistí během ~5–15 s. */
+ * Zkusí i kliknout na Turnstile checkbox, pokud je přítomný. */
 async function waitReady(page) {
-  for (let attempt = 0; attempt < 8; attempt++) {
+  for (let attempt = 0; attempt < 16; attempt++) {
     const title = (await page.title().catch(() => '')) || '';
     const challenged = /just a moment|checking|attention required|okamžik|moment…/i.test(title);
     const hasProducts = await page.locator('a[href*=".heureka.cz/"]').count().catch(() => 0);
     if (!challenged && hasProducts > 3) return true;
-    await sleep(4000);
-    if (attempt === 3) await page.reload({ waitUntil: 'domcontentloaded' }).catch(() => {});
+    // Pokus o kliknutí na Cloudflare Turnstile checkbox (v iframe).
+    try {
+      const frame = page.frames().find((f) => /challenges\.cloudflare\.com/.test(f.url()));
+      if (frame) {
+        const box = frame.locator('input[type="checkbox"], .cb-lb, label');
+        if (await box.count()) await box.first().click({ timeout: 2000 }).catch(() => {});
+      }
+    } catch { /* ignore */ }
+    await sleep(3000);
+    if (attempt === 5) await page.reload({ waitUntil: 'domcontentloaded' }).catch(() => {});
   }
   return false;
 }
@@ -95,7 +102,14 @@ for (let n = 1; n <= PAGES; n++) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => process.stdout.write(`  goto chyba: ${e.message}\n`));
   const ready = await waitReady(page);
   if (!categoryTitle) categoryTitle = (await page.title().catch(() => '')) || '';
-  if (!ready) { process.stdout.write('  ⚠ stránka se nenačetla (Cloudflare?), končím.\n'); break; }
+  if (!ready) {
+    // Diagnostika: screenshot + úryvek textu, ať vidíme typ výzvy.
+    await page.screenshot({ path: 'anti-aging-platform/data/heureka-debug.png', fullPage: false }).catch(() => {});
+    const bodyText = await page.evaluate(() => (document.body ? document.body.innerText.slice(0, 600) : '')).catch(() => '');
+    const frames = page.frames().map((f) => f.url()).filter((u) => u && u !== 'about:blank');
+    process.stdout.write(`  ⚠ nenačteno. title="${(await page.title().catch(() => ''))}"\n  frames=${JSON.stringify(frames)}\n  body="${bodyText.replace(/\n/g, ' ')}"\n`);
+    break;
+  }
   const items = await extract(page);
   process.stdout.write(`  nalezeno na stránce: ${items.length}\n`);
   for (const it of items) if (!all.has(it.url)) all.set(it.url, it);
