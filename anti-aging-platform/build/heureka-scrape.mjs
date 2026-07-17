@@ -170,6 +170,35 @@ const browser = await chromium.launch({ headless: false, args: ['--no-sandbox', 
 const ctx = await browser.newContext({ userAgent: UA, viewport: { width: 1366, height: 900 }, locale: 'cs-CZ' });
 const page = await ctx.newPage();
 
+// ---- DIAG: jen načíst 1. stránku a uložit HTML/odkazy stránkování ----
+if (process.env.DIAG === '1') {
+  process.stdout.write('=== DIAG: analýza stránkování ===\n');
+  await page.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
+  await waitReady(page, `a[href*="${host}/"]`);
+  const info = await page.evaluate(() => {
+    const out = { pagHtml: [], pageHrefs: [], nextLike: [] };
+    // 1) kontejnery, které vypadají jako stránkování
+    for (const el of document.querySelectorAll('nav, ul, div')) {
+      const t = (el.textContent || '').replace(/\s+/g, ' ').trim();
+      if (/^[\s\d…›»]*(\d+\s+){2,}\d+[\s…›»]*$/.test(t) || /›|»|Další/.test(t)) {
+        if (t.length < 120 && el.querySelector('a')) out.pagHtml.push(el.outerHTML.slice(0, 1200));
+      }
+    }
+    // 2) všechny odkazy s page=/p: nebo číslem/šipkou
+    for (const a of document.querySelectorAll('a[href]')) {
+      const h = a.href; const txt = (a.textContent || '').trim();
+      if (/[?;&](page=|p:)\d+/i.test(h)) out.pageHrefs.push({ txt, href: h });
+      if (/^(›|»|\d{1,2}|další)$/i.test(txt)) out.nextLike.push({ txt, href: h, rel: a.getAttribute('rel') || '', aria: a.getAttribute('aria-label') || '' });
+    }
+    return out;
+  }).catch((e) => ({ err: e.message }));
+  writeFileSync('heureka-pagination.html', JSON.stringify(info, null, 2) + '\n');
+  await page.screenshot({ path: 'heureka-pagination.png', fullPage: true }).catch(() => {});
+  process.stdout.write(`Uloženo: heureka-pagination.html (${(info.pagHtml || []).length} kontejnerů, ${(info.pageHrefs || []).length} page-odkazů, ${(info.nextLike || []).length} kandidátů „další") + heureka-pagination.png\n`);
+  await browser.close();
+  process.exit(0);
+}
+
 // ---- Fáze 1: katalog ----
 if (DO_LIST) {
   process.stdout.write('\n=== Fáze 1: katalog ===\n');
