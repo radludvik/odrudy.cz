@@ -125,24 +125,17 @@ async function extractList(page) {
  * na stránce viditelný, klikneme na něj; jinak (sbalené „…") navigujeme přímo
  * na URL. Vrací true, když se obsah listingu skutečně změnil. */
 const BASE_PATH = new URL(BASE_URL).pathname;              // /f:17467:22508611/
+const listSig = () => page.evaluate((h) => Array.from(document.querySelectorAll(`a[href*="${h}/"]`)).slice(0, 10).map((a) => a.href).join('|'), host);
+/* Na další stránku jdeme přímo na URL `<cesta>?f=<pageNum>` (Heureka to
+ * server-side vyrenderuje). Vrací true, když se seznam produktů změnil. */
 async function goNext(page, pageNum) {
-  const sig = () => page.evaluate((h) => Array.from(document.querySelectorAll(`a[href*="${h}/"]`)).slice(0, 10).map((a) => a.href).join('|'), host);
-  const before = await sig();
-  const relHref = `${BASE_PATH}?f=${pageNum}`;
-  const absHref = new URL(relHref, BASE_URL).href;
-  try {
-    const loc = page.locator(`a[href="${relHref}"]`).first();
-    if (await loc.count()) {
-      await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {});
-      await loc.click({ timeout: 4000 });
-    } else {
-      await page.goto(absHref, { waitUntil: 'domcontentloaded', timeout: 45000 });
-    }
-  } catch {
-    await page.goto(absHref, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
-  }
-  for (let i = 0; i < 15; i++) { await sleep(1000); if ((await sig()) !== before) return true; }
-  return false;
+  const before = await listSig();
+  const absHref = new URL(`${BASE_PATH}?f=${pageNum}`, BASE_URL).href;
+  await page.goto(absHref, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
+  await waitReady(page, `a[href*="${host}/"]`);
+  await sleep(800);
+  const after = await listSig();
+  return !!after && after !== before;
 }
 
 /* Popis + parametry + INCI (pokud je) + přesný název z detailu produktu.
