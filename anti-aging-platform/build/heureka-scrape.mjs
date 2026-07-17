@@ -206,10 +206,11 @@ if (DO_DETAIL) {
   process.stdout.write(`Ke stažení složení: ${limit} z ${todo.length} chybějících (celkem ${store.size}).\n`);
   for (let i = 0; i < limit; i++) {
     const p = todo[i];
+    process.stdout.write(`  [${i + 1}/${limit}] otevírám: ${p.url}\n`);
     try {
       await page.goto(p.url, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
       const ready = await waitReady(page, 'h1');
-      if (!ready) { process.stdout.write(`  [${i + 1}/${limit}] ⚠ ${p.url} nenačteno\n`); continue; }
+      if (!ready) { process.stdout.write(`        ⚠ nenačteno (Cloudflare?)\n`); continue; }
       const d = await extractDetail(page);
       if (d.title) p.name = d.title;       // přesný název z detailu
       p.inci = d.inci || '';
@@ -217,10 +218,11 @@ if (DO_DETAIL) {
       p.params = d.params || '';
       p.desc = d.desc || '';
       p.detailDone = true;
-      if ((i + 1) % 5 === 0 || i === limit - 1) { save(); process.stdout.write(`  [${i + 1}/${limit}] ${p.name} — INCI ${p.inci ? 'ano' : '—'}\n`); }
+      save();
+      process.stdout.write(`        ✓ ${p.name} — popis: ${p.descFull ? p.descFull.length + ' zn.' : '—'}, INCI: ${p.inci ? 'ano' : '—'}\n`);
       await sleep(DELAY);
     } catch (e) {
-      process.stdout.write(`  [${i + 1}/${limit}] chyba: ${e.message}\n`);
+      process.stdout.write(`        chyba: ${e.message}\n`);
     }
   }
   save();
