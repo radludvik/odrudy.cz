@@ -27,7 +27,7 @@ import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 chromium.use(stealth());
 
 const BASE_URL = process.env.URL || 'https://pletova-sera-emulze.heureka.cz/f:17467:22508611/';
-const OUT = process.env.OUT || 'anti-aging-platform/data/heureka-category.json';
+const OUT = process.env.OUT || 'heureka-category.json';
 const PAGES = Number(process.env.PAGES || 40);
 const DO_LIST = process.env.LIST !== '0';
 const DO_DETAIL = process.env.DETAIL !== '0';
