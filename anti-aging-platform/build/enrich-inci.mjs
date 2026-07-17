@@ -40,17 +40,21 @@ async function fetchText(url) {
 }
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
-const STOP = new Set(['ml', 'g', 'serum', 'pletove', 'plet', 'pro', 'a', 's', 'na', 'the', 'of']);
-const toks = (s) => norm(s).split(' ').filter((t) => t && !STOP.has(t) && !/^\d+$/.test(t));
+/* České/obecné výplňové slovo → do dotazu i skóre nepatří (kazí hledání). */
+const STOP = new Set(['ml', 'g', 'serum', 'sera', 'emulze', 'koncentrat', 'koncentrovane', 'pletove', 'pletovy', 'plet', 'pleti',
+  'pro', 'a', 's', 'na', 'the', 'of', 'nocni', 'denni', 'krem', 'krema', 'maska', 'proti', 'starnuti', 'vraskam', 'vrasek',
+  'vraskach', 'omlazujici', 'intenzivni', 'hydratacni', 'vyplneni', 'hlubokych', 'ucinkem', 'ucinky', 'ampule', 'esence',
+  'kyselinou', 'kyselina', 'vyzivujici', 'zpevnujici', 'liftingove', 'rozjasnujici', 'regeneracni', 'vitaminem', 'obsahem']);
+const toks = (s) => norm(s).split(' ').filter((t) => t && !STOP.has(t));
 
 /* Najde na incidecoderu URL produktu nejlépe odpovídajícího názvu. */
 async function findProduct(name) {
-  const q = encodeURIComponent(name.replace(/\d+\s*ml|\d+\s*g/gi, '').trim());
-  const { html } = await fetchText(`https://incidecoder.com/search?query=${q}`);
+  const query = toks(name).filter((t) => !/^\d+$/.test(t) || t.length <= 4).join(' '); // značka + model (čísla jako „3", „100" nech)
+  const { html } = await fetchText(`https://incidecoder.com/search?query=${encodeURIComponent(query)}`);
   if (!html) return null;
   const wanted = toks(name);
   const brand = wanted[0];
-  const re = /href="(\/products\/[a-z0-9-]+)"[^>]*>([^<]{3,120})</gi;
+  const re = /href="(\/products\/[a-z0-9-]+)"[^>]*>([^<]{3,140})</gi;
   let m, best = null;
   while ((m = re.exec(html))) {
     const href = m[1];
@@ -61,23 +65,21 @@ async function findProduct(name) {
     const score = wanted.length ? hit / wanted.length : 0;
     if (!best || score > best.score) best = { url: 'https://incidecoder.com' + href, text, score };
   }
-  return best && best.score >= 0.45 ? best : null;
+  return best && best.score >= 0.5 ? best : null;
 }
 
-/* Z HTML produktové stránky vytáhne INCI text (nejdelší blok s Aqua/Water). */
-function extractInci(html) {
-  const text = html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/gi, ' ');
-  // hledej sekvenci "Aqua/Water, ..., ..." — dlouhý seznam oddělený čárkami
-  let best = '';
-  for (const chunk of text.split(/\n|\.\s/)) {
-    const t = chunk.replace(/\s+/g, ' ').trim();
-    if (/\b(aqua|water|glycerin)\b/i.test(t) && (t.match(/,/g) || []).length > 6 && t.length > best.length) best = t.slice(0, 3000);
-  }
-  return best;
+/* Z produktové stránky incidecoderu vytáhne seznam složek — každá je odkaz
+ * /ingredients/<slug> s viditelným názvem. To je přesné INCI produktu. */
+function extractIngredients(html) {
+  const names = [];
+  const re = /href="\/ingredients\/[a-z0-9-]+"[^>]*>([^<]{2,60})</gi;
+  let m;
+  while ((m = re.exec(html))) names.push(m[1].replace(/\s+/g, ' ').trim());
+  return [...new Set(names)];
 }
 
-function detectActives(inci, name) {
-  const hay = `${inci} ${name}`;
+function detectActives(ingredients, name) {
+  const hay = `${ingredients.join(', ')} ${name}`;
   const found = new Set();
   const matched = [];
   for (const [slug, re] of ACTIVE_PATTERNS) {
@@ -86,8 +88,10 @@ function detectActives(inci, name) {
   return { actives: [...found], matched };
 }
 
+const FORCE = process.env.FORCE === '1';
+const ONLY_MISS = process.env.ONLY_MISS === '1';  // znovu jen ty, co se nenašly
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
-const todo = data.products.filter((p) => !p.inciDone);
+const todo = data.products.filter((p) => FORCE || !p.inciDone || (ONLY_MISS && !p.incidecoderUrl));
 const limit = LIMIT > 0 ? Math.min(LIMIT, todo.length) : todo.length;
 process.stdout.write(`Obohacení INCI: ${limit} z ${todo.length} (celkem ${data.products.length}).\n`);
 
@@ -98,10 +102,10 @@ for (let i = 0; i < limit; i++) {
     const found = await findProduct(p.name);
     if (!found) { p.inciDone = true; miss++; process.stdout.write(`  [${i + 1}/${limit}] ✗ ${p.name} (nenalezeno)\n`); await sleep(DELAY); continue; }
     const { html } = await fetchText(found.url);
-    const inci = extractInci(html);
-    const { actives, matched } = detectActives(inci, p.name);
+    const ingredients = extractIngredients(html);
+    const { actives, matched } = detectActives(ingredients, p.name);
     p.incidecoderUrl = found.url;
-    p.inci = inci;
+    p.inci = ingredients.join(', ').slice(0, 3000);
     p.actives = actives;
     p.inciMatched = matched;
     p.inciDone = true;
