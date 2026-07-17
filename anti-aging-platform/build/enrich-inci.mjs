@@ -33,10 +33,20 @@ const ACTIVE_PATTERNS = [
   ['azelaova-kyselina', /azelaic|azeloyl/i],
 ];
 
-async function fetchText(url) {
-  const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'text/html', 'accept-language': 'en,cs' }, redirect: 'follow' });
-  if (!res.ok) return { status: res.status, html: '' };
-  return { status: res.status, html: await res.text() };
+async function fetchText(url, attempt = 0) {
+  try {
+    const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'text/html', 'accept-language': 'en,cs' }, redirect: 'follow' });
+    // 403/429/5xx = pravděpodobné přiškrcení → počkej a zkus znovu (max 3×)
+    if ((res.status === 403 || res.status === 429 || res.status >= 500) && attempt < 3) {
+      await sleep(3000 * (attempt + 1));
+      return fetchText(url, attempt + 1);
+    }
+    if (!res.ok) return { status: res.status, html: '' };
+    return { status: res.status, html: await res.text() };
+  } catch (e) {
+    if (attempt < 3) { await sleep(2000 * (attempt + 1)); return fetchText(url, attempt + 1); }
+    return { status: 0, html: '' };
+  }
 }
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();

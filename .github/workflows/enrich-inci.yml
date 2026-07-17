@@ -19,6 +19,9 @@ on:
       only_miss:
         description: "Znovu jen nenalezené (1 = ano)"
         default: "0"
+      delay:
+        description: "Prodleva mezi produkty (ms) — vyšší = menší riziko přiškrcení"
+        default: "800"
 
 permissions:
   contents: write
@@ -40,6 +43,7 @@ jobs:
           LIMIT: ${{ inputs.limit }}
           FORCE: ${{ inputs.force }}
           ONLY_MISS: ${{ inputs.only_miss }}
+          DELAY: ${{ inputs.delay }}
       - name: Commit výsledku
         run: |
           git config user.name "github-actions[bot]"
