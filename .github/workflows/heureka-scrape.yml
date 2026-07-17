@@ -1,0 +1,58 @@
+name: Heureka scraper
+
+# Načte katalogovou kategorii Heureky přes reálný prohlížeč (Playwright/Chromium),
+# projde Cloudflare výzvu a vytáhne produkty (název, URL, cena, obrázek).
+# Výsledek commitne do data/heureka-category.json a nahraje jako artefakt.
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL kategorie na Heurece"
+        default: "https://pletova-sera-emulze.heureka.cz/f:17467:22508611/"
+        required: true
+      pages:
+        description: "Kolik stránek projít"
+        default: "5"
+      out:
+        description: "Výstupní JSON soubor"
+        default: "anti-aging-platform/data/heureka-category.json"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instaluj Playwright + Chromium
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.48.0 >/dev/null 2>&1
+          npx playwright install --with-deps chromium
+      - name: Spusť scraper
+        env:
+          URL: ${{ inputs.url }}
+          PAGES: ${{ inputs.pages }}
+          OUT: ${{ inputs.out }}
+        run: node anti-aging-platform/build/heureka-scrape.mjs
+      - name: Nahraj artefakt
+        uses: actions/upload-artifact@v4
+        with:
+          name: heureka-category
+          path: ${{ inputs.out }}
+      - name: Commit výsledku
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.out }}" || true
+          git diff --cached --quiet && echo "Žádné změny" && exit 0
+          git commit -m "Heureka scrape: ${{ inputs.url }} (CI)"
+          git pull --rebase origin main
+          git push origin main
