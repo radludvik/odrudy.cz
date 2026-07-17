@@ -27,15 +27,6 @@ const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/* Sestavení URL pro stránku N. Heureka řadí stránkování do cesty jako ;p:N,
- * ale akceptuje i ?page=N — použijeme ?page (robustnější). */
-function pageUrl(base, n) {
-  if (n <= 1) return base;
-  const u = new URL(base);
-  u.searchParams.set('page', String(n));
-  return u.toString();
-}
-
 /* Počká, až se stránka „usadí" a projde případnou Cloudflare výzvu.
  * Zkusí i kliknout na Turnstile checkbox, pokud je přítomný. */
 async function waitReady(page) {
@@ -58,22 +49,23 @@ async function waitReady(page) {
   return false;
 }
 
-async function extract(page) {
-  return page.evaluate(() => {
-    const BAD_SUB = new Set(['www', 'blog', 'info', 'obchody', 'muj', 'ucet', 'm']);
-    const rx = /^https:\/\/([a-z0-9-]+)\.heureka\.cz\/([a-z0-9][a-z0-9-]+)\/(?:$|\?|#)/;
+/* Vytáhne produkty z aktuální stránky (jen z dané podkategorie, ať se
+ * nepletou „Doporučujeme" produkty z jiných kategorií) a zároveň odkazy
+ * stránkování, aby loop mohl jít na reálnou další stránku. */
+async function extract(page, host) {
+  return page.evaluate(({ host }) => {
+    const rx = new RegExp(`^https://${host.replace(/\\./g, '\\.')}/([a-z0-9][a-z0-9-]+)/(?:$|\\?|#)`);
     const seen = new Map();
     for (const a of Array.from(document.querySelectorAll('a[href]'))) {
       const href = a.href;
       const m = href.match(rx);
       if (!m) continue;
-      const [, sub, slug] = m;
-      if (BAD_SUB.has(sub)) continue;
+      const slug = m[1];
       if (/^f:/.test(slug) || slug.length < 6) continue; // filtry, ne produkty
-      const clean = `https://${sub}.heureka.cz/${slug}/`;
-      const name = (a.textContent || '').replace(/\s+/g, ' ').trim();
-      if (!name || name.length < 8) continue;
-      // najdi nejbližší obrázek a cenu v rámci karty produktu
+      const clean = `https://${host}/${slug}/`;
+      let name = (a.textContent || '').replace(/\s+/g, ' ').trim();
+      // odstranění cenových „Cenopád … Kč" přebalů z textu odkazu
+      if (/cenopád|ušetříte/i.test(name) || /^\d/.test(name)) name = '';
       const card = a.closest('article, li, div');
       let image = '';
       let price = '';
@@ -83,11 +75,13 @@ async function extract(page) {
         const pr = card.textContent.match(/(\d[\d\s]{1,7})\s*Kč/);
         if (pr) price = pr[1].replace(/\s+/g, ' ').trim() + ' Kč';
       }
+      // pokud text odkazu nebyl použitelný, odvoď název ze slugu
+      if (!name) name = slug.replace(/-/g, ' ');
       const prev = seen.get(clean);
       if (!prev || name.length > prev.name.length) seen.set(clean, { name, url: clean, price, image });
     }
-    return Array.from(seen.values());
-  });
+    return { items: Array.from(seen.values()) };
+  }, { host });
 }
 
 const browser = await chromium.launch({ headless: false, args: ['--no-sandbox', '--disable-blink-features=AutomationControlled'] });
@@ -104,26 +98,58 @@ function save() {
   writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n');
 }
 
+const host = new URL(BASE_URL).host;                       // pletova-sera-emulze.heureka.cz
+
+/* Přejde na další stránku KLIKNUTÍM na ovládání stránkování (vnitřní
+ * routování webu — funguje i tam, kde ?page= v URL selhává). Vrací true,
+ * když se obsah listingu skutečně změnil. */
+async function goNext(nextNum) {
+  const sig = () => page.evaluate((h) => Array.from(document.querySelectorAll(`a[href*="${h}/"]`)).slice(0, 8).map((a) => a.href).join('|'), host);
+  const before = await sig();
+  const tries = [
+    () => page.locator('a[rel="next"]').first(),
+    () => page.locator('a[aria-label*="alší"]').first(),          // „Další"
+    () => page.getByRole('link', { name: '›' }).first(),
+    () => page.getByRole('link', { name: '»' }).first(),
+    () => page.getByRole('link', { name: String(nextNum), exact: true }).last(),
+  ];
+  for (const make of tries) {
+    try {
+      const loc = make();
+      if (!(await loc.count())) continue;
+      await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {});
+      await loc.click({ timeout: 4000 });
+      for (let i = 0; i < 15; i++) {
+        await sleep(1200);
+        if ((await sig()) !== before) return true;   // obsah se změnil
+      }
+    } catch { /* zkus další způsob */ }
+  }
+  return false;
+}
+
+// první stránka
+await page.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => process.stdout.write(`goto chyba: ${e.message}\n`));
 for (let n = 1; n <= PAGES; n++) {
-  const url = pageUrl(BASE_URL, n);
-  process.stdout.write(`\n[${n}/${PAGES}] ${url}\n`);
   try {
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => process.stdout.write(`  goto chyba: ${e.message}\n`));
     const ready = await waitReady(page);
     if (!categoryTitle) categoryTitle = (await page.title().catch(() => '')) || '';
     if (!ready) {
       await page.screenshot({ path: 'heureka-debug.png', fullPage: false }).catch(() => {});
-      process.stdout.write('  ⚠ stránka se nenačetla (Cloudflare?), končím.\n');
+      process.stdout.write(`\n[${n}/${PAGES}] ⚠ stránka se nenačetla (Cloudflare?), končím.\n`);
       break;
     }
-    const items = await extract(page);
-    process.stdout.write(`  nalezeno na stránce: ${items.length}\n`);
+    const { items } = await extract(page, host);
+    const before = all.size;
     for (const it of items) if (!all.has(it.url)) all.set(it.url, it);
+    process.stdout.write(`\n[${n}/${PAGES}] ${page.url()}\n  produktů: ${items.length} (nových: ${all.size - before}, celkem: ${all.size})\n`);
     save();
-    if (items.length === 0) break;
+    if (n >= PAGES) break;
     await sleep(DELAY);
+    const advanced = await goNext(n + 1);
+    if (!advanced) { process.stdout.write('  (na další stránku se nepodařilo přejít — konec)\n'); break; }
   } catch (e) {
-    process.stdout.write(`  chyba na stránce ${n}: ${e.message} — ukládám dosavadní výsledky a končím.\n`);
+    process.stdout.write(`  chyba na stránce ${n}: ${e.message} — ukládám a končím.\n`);
     break;
   }
 }
