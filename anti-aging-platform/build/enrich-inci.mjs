@@ -47,9 +47,20 @@ const STOP = new Set(['ml', 'g', 'serum', 'sera', 'emulze', 'koncentrat', 'konce
   'kyselinou', 'kyselina', 'vyzivujici', 'zpevnujici', 'liftingove', 'rozjasnujici', 'regeneracni', 'vitaminem', 'obsahem']);
 const toks = (s) => norm(s).split(' ').filter((t) => t && !STOP.has(t));
 
-/* Najde na incidecoderu URL produktu nejlépe odpovídajícího názvu. */
+/* Najde na incidecoderu URL produktu. Nejdřív zkusí přímý slug
+ * (brand-model → /products/brand-model), pak vyhledávání jako zálohu. */
 async function findProduct(name) {
-  const query = toks(name).filter((t) => !/^\d+$/.test(t) || t.length <= 4).join(' '); // značka + model (čísla jako „3", „100" nech)
+  const base = toks(name);                                   // [medik8, crystal, retinal, 3]
+  // 1) přímé slugy (zkus i bez posledního čísla)
+  const cands = [base.join('-')];
+  if (/^\d+$/.test(base[base.length - 1])) cands.push(base.slice(0, -1).join('-'));
+  for (const slug of cands) {
+    if (slug.length < 4) continue;
+    const r = await fetchText(`https://incidecoder.com/products/${slug}`);
+    if (r.status === 200 && /href="\/ingredients\//.test(r.html)) return { url: `https://incidecoder.com/products/${slug}`, direct: true, html: r.html };
+  }
+  // 2) vyhledávání
+  const query = base.filter((t) => !/^\d+$/.test(t) || t.length <= 4).join(' ');
   const { html } = await fetchText(`https://incidecoder.com/search?query=${encodeURIComponent(query)}`);
   if (!html) return null;
   const wanted = toks(name);
@@ -110,7 +121,7 @@ for (let i = 0; i < limit; i++) {
   try {
     const found = await findProduct(p.name);
     if (!found) { p.inciDone = true; miss++; process.stdout.write(`  [${i + 1}/${limit}] ✗ ${p.name} (nenalezeno)\n`); await sleep(DELAY); continue; }
-    const { html } = await fetchText(found.url);
+    const html = found.html || (await fetchText(found.url)).html;
     const ingredients = extractIngredients(html);
     const { actives, matched } = detectActives(ingredients, p.name, pageText(html));
     p.incidecoderUrl = found.url;
