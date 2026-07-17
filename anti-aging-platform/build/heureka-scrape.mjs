@@ -56,6 +56,25 @@ function save() {
   writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n');
 }
 
+/* Odklikne cookies lištu (jinak její overlay blokuje klikání na stránkování).
+ * Zkusí souhlasné tlačítko podle textu i v případném iframe. */
+async function acceptCookies(page) {
+  const labels = /souhlas|rozumím|přijmout|přijímám|accept|allow all|povolit vše|ok, zavřít|zavřít a souhlasit/i;
+  for (const ctx of [page, ...page.frames()]) {
+    for (const role of ['button', 'link']) {
+      try {
+        const loc = ctx.getByRole(role, { name: labels });
+        if (await loc.count()) { await loc.first().click({ timeout: 2500 }).catch(() => {}); await sleep(500); return true; }
+      } catch { /* ignore */ }
+    }
+    try {
+      const btn = ctx.locator('button, a').filter({ hasText: labels });
+      if (await btn.count()) { await btn.first().click({ timeout: 2500 }).catch(() => {}); await sleep(500); return true; }
+    } catch { /* ignore */ }
+  }
+  return false;
+}
+
 /* Počká na načtení a projde případnou Cloudflare výzvu. `sel` = selektor,
  * jehož výskyt značí hotovou stránku. */
 async function waitReady(page, sel) {
@@ -175,6 +194,8 @@ if (process.env.DIAG === '1') {
   process.stdout.write('=== DIAG: analýza stránkování ===\n');
   await page.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
   await waitReady(page, `a[href*="${host}/"]`);
+  if (await acceptCookies(page)) process.stdout.write('(cookies lišta odkliknuta)\n');
+  await sleep(1000);
   const info = await page.evaluate(() => {
     const out = { pagHtml: [], pageHrefs: [], nextLike: [] };
     // 1) kontejnery, které vypadají jako stránkování
@@ -203,6 +224,8 @@ if (process.env.DIAG === '1') {
 if (DO_LIST) {
   process.stdout.write('\n=== Fáze 1: katalog ===\n');
   await page.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => process.stdout.write(`goto chyba: ${e.message}\n`));
+  await waitReady(page, `a[href*="${host}/"]`);
+  if (await acceptCookies(page)) process.stdout.write('  (cookies lišta odkliknuta)\n');
   for (let n = 1; n <= PAGES; n++) {
     const ready = await waitReady(page, `a[href*="${host}/"]`);
     if (!categoryTitle) categoryTitle = (await page.title().catch(() => '')) || '';
