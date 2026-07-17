@@ -3654,10 +3654,12 @@
     "volume": "—",
     "price": "1 000–2 500 Kč",
     "image": {
-      "src": "/assets/img/products/medik8-crystal-retinal-3.svg",
-      "alt": "Medik8 Crystal Retinal 3 — ilustrace",
-      "type": "illustration",
-      "official": null
+      "src": "/assets/img/products/medik8-crystal-retinal-3.avif",
+      "alt": "Medik8 Crystal Retinal 3",
+      "type": "photo",
+      "official": null,
+      "source": "výrobce (oficiální)",
+      "sourceUrl": "https://us.medik8.com/products/crystal-retinal"
     },
     "activeIngredients": [
       "retinal"
