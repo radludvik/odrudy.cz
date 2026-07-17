@@ -120,37 +120,34 @@ async function extractList(page) {
   }, host);
 }
 
-/* Přechod na další stránku katalogu KLIKNUTÍM (routování webu funguje i tam,
- * kde ?page= v URL selhává). Vrací true, když se obsah listingu změnil. */
-async function goNext(page, nextNum) {
+/* Přechod na další stránku katalogu. Heureka stránkuje parametrem ?f=<N>
+ * (hodnoty monotónně rostou). Najdeme na stránce odkaz s nejmenším ?f
+ * VĚTŠÍM než aktuální = další stránka, a klikneme přímo na něj (funguje i
+ * když se čísla stránek sbalí do „…", protože šipka „›" i sousední čísla
+ * jsou vždy přítomné). Vrací true, když se obsah listingu změnil. */
+async function goNext(page) {
   const sig = () => page.evaluate((h) => Array.from(document.querySelectorAll(`a[href*="${h}/"]`)).slice(0, 10).map((a) => a.href).join('|'), host);
   const before = await sig();
-  // Kandidáti na tlačítko „další stránka". Klikáme jen na prvky uvnitř
-  // stránkovací oblasti (ne v hlavní navigaci), ať neutečeme z výpisu.
-  const pag = 'nav[aria-label*="ránkov"], nav[aria-label*="aging"], [class*="pagination"], [class*="Pagination"], [class*="paging"], [data-testid*="pagination"]';
-  const tries = [
-    () => page.locator('a[rel="next"]:not([aria-disabled="true"])').first(),
-    () => page.locator(`${pag} a[aria-label*="alší"], ${pag} button[aria-label*="alší"]`).first(),
-    () => page.locator(`${pag} a`).last(),                                   // poslední odkaz ve stránkovací liště = „›"
-    () => page.getByRole('link', { name: '›' }).first(),
-    () => page.getByRole('link', { name: '»' }).first(),
-    () => page.getByRole('link', { name: String(nextNum), exact: true }).last(),
-  ];
-  for (const make of tries) {
-    try {
-      const loc = make();
-      if (!(await loc.count())) continue;
-      await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {});
-      await loc.click({ timeout: 4000 });
-      for (let i = 0; i < 15; i++) { await sleep(1000); if ((await sig()) !== before) return true; }
-    } catch { /* další strategie */ }
+  const curF = Number(new URL(page.url()).searchParams.get('f') || '0');
+  const nextHref = await page.evaluate(({ h, curF }) => {
+    let best = null;
+    for (const a of document.querySelectorAll(`a[href*="${h}/"]`)) {
+      const m = a.href.match(/[?&]f=(\d+)/);
+      if (!m) continue;
+      const f = Number(m[1]);
+      if (f > curF && (best === null || f < best.f)) best = { f, href: a.href };
+    }
+    return best ? best.href : '';
+  }, { h: host, curF });
+  if (!nextHref) { process.stdout.write(`  (žádný další ?f odkaz > ${curF} — konec)\n`); return false; }
+  try {
+    const loc = page.locator(`a[href="${nextHref}"]`).first();
+    await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {});
+    await loc.click({ timeout: 4000 });
+  } catch {
+    await page.goto(nextHref, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
   }
-  // diagnostika: ulož náhled stránkovací oblasti
-  const html = await page.evaluate(() => {
-    const el = document.querySelector('[class*="pagination"], [class*="Pagination"], nav');
-    return el ? el.outerHTML.slice(0, 1500) : '(pagination element nenalezen)';
-  }).catch(() => '');
-  process.stdout.write(`  ⚠ další stránka: žádná strategie nezabrala. Pagination HTML:\n${html}\n`);
+  for (let i = 0; i < 15; i++) { await sleep(1000); if ((await sig()) !== before) return true; }
   return false;
 }
 
@@ -246,7 +243,7 @@ if (DO_LIST) {
     }
     if (n >= PAGES) break;
     await sleep(DELAY);
-    if (!(await goNext(page, n + 1))) { process.stdout.write('  (konec stránkování)\n'); break; }
+    if (!(await goNext(page))) { process.stdout.write('  (konec stránkování)\n'); break; }
   }
 }
 
