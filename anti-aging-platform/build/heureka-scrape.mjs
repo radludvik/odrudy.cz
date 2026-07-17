@@ -13,8 +13,11 @@
  *
  * Výstup: JSON pole { name, url, price, image } + krátký log do stdout.
  */
-import { chromium } from 'playwright';
+import { chromium } from 'playwright-extra';
+import stealth from 'puppeteer-extra-plugin-stealth';
 import { writeFileSync } from 'node:fs';
+
+chromium.use(stealth());
 
 const URL = process.env.URL || 'https://pletova-sera-emulze.heureka.cz/f:17467:22508611/';
 const PAGES = Number(process.env.PAGES || 5);
@@ -33,15 +36,17 @@ function pageUrl(base, n) {
   return u.toString();
 }
 
-/* Počká, až se stránka „usadí" a projde případnou Cloudflare výzvu. */
+/* Počká, až se stránka „usadí" a projde případnou Cloudflare výzvu.
+ * Cloudflare interstitial (titulek „Okamžik…" / „Just a moment") se pod
+ * stealth prohlížečem obvykle sám pročistí během ~5–15 s. */
 async function waitReady(page) {
-  for (let attempt = 0; attempt < 4; attempt++) {
+  for (let attempt = 0; attempt < 8; attempt++) {
     const title = (await page.title().catch(() => '')) || '';
-    const challenged = /just a moment|checking|attention required|moment…/i.test(title);
+    const challenged = /just a moment|checking|attention required|okamžik|moment…/i.test(title);
     const hasProducts = await page.locator('a[href*=".heureka.cz/"]').count().catch(() => 0);
     if (!challenged && hasProducts > 3) return true;
-    await sleep(3500);
-    if (attempt === 1) await page.reload({ waitUntil: 'domcontentloaded' }).catch(() => {});
+    await sleep(4000);
+    if (attempt === 3) await page.reload({ waitUntil: 'domcontentloaded' }).catch(() => {});
   }
   return false;
 }
@@ -78,7 +83,7 @@ async function extract(page) {
   });
 }
 
-const browser = await chromium.launch({ args: ['--no-sandbox', '--disable-blink-features=AutomationControlled'] });
+const browser = await chromium.launch({ headless: false, args: ['--no-sandbox', '--disable-blink-features=AutomationControlled'] });
 const ctx = await browser.newContext({ userAgent: UA, viewport: { width: 1366, height: 900 }, locale: 'cs-CZ' });
 const page = await ctx.newPage();
 
