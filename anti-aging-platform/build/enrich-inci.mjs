@@ -54,11 +54,12 @@ async function findProduct(name) {
   if (!html) return null;
   const wanted = toks(name);
   const brand = wanted[0];
-  const re = /href="(\/products\/[a-z0-9-]+)"[^>]*>([^<]{3,140})</gi;
+  // zachytíme celý obsah <a> (i s vnořenými značkami) a značky odstraníme
+  const re = /<a\s+href="(\/products\/[a-z0-9-]+)"[^>]*>([\s\S]*?)<\/a>/gi;
   let m, best = null;
   while ((m = re.exec(html))) {
     const href = m[1];
-    const text = m[2].replace(/\s+/g, ' ').trim();
+    const text = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const hay = new Set(toks(text + ' ' + href.replace(/-/g, ' ')));
     if (brand && !hay.has(brand)) continue;                 // značka musí sedět
     const hit = wanted.filter((t) => hay.has(t)).length;
@@ -68,18 +69,26 @@ async function findProduct(name) {
   return best && best.score >= 0.5 ? best : null;
 }
 
-/* Z produktové stránky incidecoderu vytáhne seznam složek — každá je odkaz
- * /ingredients/<slug> s viditelným názvem. To je přesné INCI produktu. */
+/* Seznam složek z produktové stránky — každá je odkaz /ingredients/<slug>. */
 function extractIngredients(html) {
   const names = [];
-  const re = /href="\/ingredients\/[a-z0-9-]+"[^>]*>([^<]{2,60})</gi;
+  const re = /<a\s+href="\/ingredients\/[a-z0-9-]+"[^>]*>([\s\S]*?)<\/a>/gi;
   let m;
-  while ((m = re.exec(html))) names.push(m[1].replace(/\s+/g, ' ').trim());
+  while ((m = re.exec(html))) {
+    const t = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (t.length >= 2 && t.length <= 60) names.push(t);
+  }
   return [...new Set(names)];
 }
 
-function detectActives(ingredients, name) {
-  const hay = `${ingredients.join(', ')} ${name}`;
+/* Celý viditelný text stránky (bez skriptů) — záloha pro detekci látek. */
+function pageText(html) {
+  return html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ');
+}
+
+function detectActives(ingredients, name, fullText) {
+  // primárně ze seznamu složek; když je krátký, doplň z celého textu stránky
+  const hay = `${ingredients.join(', ')} ${name} ${ingredients.length < 5 ? fullText : ''}`;
   const found = new Set();
   const matched = [];
   for (const [slug, re] of ACTIVE_PATTERNS) {
@@ -103,7 +112,7 @@ for (let i = 0; i < limit; i++) {
     if (!found) { p.inciDone = true; miss++; process.stdout.write(`  [${i + 1}/${limit}] ✗ ${p.name} (nenalezeno)\n`); await sleep(DELAY); continue; }
     const { html } = await fetchText(found.url);
     const ingredients = extractIngredients(html);
-    const { actives, matched } = detectActives(ingredients, p.name);
+    const { actives, matched } = detectActives(ingredients, p.name, pageText(html));
     p.incidecoderUrl = found.url;
     p.inci = ingredients.join(', ').slice(0, 3000);
     p.actives = actives;
