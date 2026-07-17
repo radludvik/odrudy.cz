@@ -19,7 +19,7 @@ import { writeFileSync } from 'node:fs';
 
 chromium.use(stealth());
 
-const URL = process.env.URL || 'https://pletova-sera-emulze.heureka.cz/f:17467:22508611/';
+const BASE_URL = process.env.URL || 'https://pletova-sera-emulze.heureka.cz/f:17467:22508611/';
 const PAGES = Number(process.env.PAGES || 5);
 const OUT = process.env.OUT || 'anti-aging-platform/data/heureka-category.json';
 const DELAY = Number(process.env.DELAY || 2500);
@@ -96,29 +96,39 @@ const page = await ctx.newPage();
 
 const all = new Map();
 let categoryTitle = '';
-for (let n = 1; n <= PAGES; n++) {
-  const url = pageUrl(URL, n);
-  process.stdout.write(`\n[${n}/${PAGES}] ${url}\n`);
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => process.stdout.write(`  goto chyba: ${e.message}\n`));
-  const ready = await waitReady(page);
-  if (!categoryTitle) categoryTitle = (await page.title().catch(() => '')) || '';
-  if (!ready) {
-    // Diagnostika: screenshot + úryvek textu, ať vidíme typ výzvy.
-    await page.screenshot({ path: 'anti-aging-platform/data/heureka-debug.png', fullPage: false }).catch(() => {});
-    const bodyText = await page.evaluate(() => (document.body ? document.body.innerText.slice(0, 600) : '')).catch(() => '');
-    const frames = page.frames().map((f) => f.url()).filter((u) => u && u !== 'about:blank');
-    process.stdout.write(`  ⚠ nenačteno. title="${(await page.title().catch(() => ''))}"\n  frames=${JSON.stringify(frames)}\n  body="${bodyText.replace(/\n/g, ' ')}"\n`);
-    break;
-  }
-  const items = await extract(page);
-  process.stdout.write(`  nalezeno na stránce: ${items.length}\n`);
-  for (const it of items) if (!all.has(it.url)) all.set(it.url, it);
-  if (items.length === 0) break;
-  await sleep(DELAY);
+
+/* Průběžný zápis — výsledek se uloží po každé stránce, takže i když
+ * některá stránka spadne, o dosud nasbírané produkty nepřijdeme. */
+function save() {
+  const out = { source: BASE_URL, categoryTitle, scrapedAt: new Date().toISOString(), count: all.size, products: Array.from(all.values()) };
+  writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n');
 }
 
-const out = { source: URL, categoryTitle, scrapedAt: new Date().toISOString(), count: all.size, products: Array.from(all.values()) };
-writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n');
+for (let n = 1; n <= PAGES; n++) {
+  const url = pageUrl(BASE_URL, n);
+  process.stdout.write(`\n[${n}/${PAGES}] ${url}\n`);
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch((e) => process.stdout.write(`  goto chyba: ${e.message}\n`));
+    const ready = await waitReady(page);
+    if (!categoryTitle) categoryTitle = (await page.title().catch(() => '')) || '';
+    if (!ready) {
+      await page.screenshot({ path: 'heureka-debug.png', fullPage: false }).catch(() => {});
+      process.stdout.write('  ⚠ stránka se nenačetla (Cloudflare?), končím.\n');
+      break;
+    }
+    const items = await extract(page);
+    process.stdout.write(`  nalezeno na stránce: ${items.length}\n`);
+    for (const it of items) if (!all.has(it.url)) all.set(it.url, it);
+    save();
+    if (items.length === 0) break;
+    await sleep(DELAY);
+  } catch (e) {
+    process.stdout.write(`  chyba na stránce ${n}: ${e.message} — ukládám dosavadní výsledky a končím.\n`);
+    break;
+  }
+}
+
+save();
 process.stdout.write(`\nHotovo — unikátních produktů: ${all.size}, zapsáno do ${OUT}\n`);
 
 await browser.close();
