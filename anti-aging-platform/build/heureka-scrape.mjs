@@ -106,10 +106,13 @@ async function extractList(page) {
 async function goNext(page, nextNum) {
   const sig = () => page.evaluate((h) => Array.from(document.querySelectorAll(`a[href*="${h}/"]`)).slice(0, 10).map((a) => a.href).join('|'), host);
   const before = await sig();
+  // Kandidáti na tlačítko „další stránka". Klikáme jen na prvky uvnitř
+  // stránkovací oblasti (ne v hlavní navigaci), ať neutečeme z výpisu.
+  const pag = 'nav[aria-label*="ránkov"], nav[aria-label*="aging"], [class*="pagination"], [class*="Pagination"], [class*="paging"], [data-testid*="pagination"]';
   const tries = [
     () => page.locator('a[rel="next"]:not([aria-disabled="true"])').first(),
-    () => page.locator('[class*="pagination"] a, [class*="Pagination"] a, nav a').last(),
-    () => page.locator('a[aria-label*="alší"], button[aria-label*="alší"]').first(),
+    () => page.locator(`${pag} a[aria-label*="alší"], ${pag} button[aria-label*="alší"]`).first(),
+    () => page.locator(`${pag} a`).last(),                                   // poslední odkaz ve stránkovací liště = „›"
     () => page.getByRole('link', { name: '›' }).first(),
     () => page.getByRole('link', { name: '»' }).first(),
     () => page.getByRole('link', { name: String(nextNum), exact: true }).last(),
@@ -171,6 +174,15 @@ if (DO_LIST) {
     for (const it of items) { if (!store.has(it.url)) { store.set(it.url, it); added++; } else { const ex = store.get(it.url); if (it.price && !ex.price) ex.price = it.price; } }
     process.stdout.write(`\n[${n}/${PAGES}] ${page.url()}\n  produktů: ${items.length} (nových: ${added}, celkem: ${store.size})\n`);
     save();
+    if (n === 1) {
+      // Jednorázová diagnostika stránkování (ať vidím podobu tlačítka „další").
+      const pagHtml = await page.evaluate(() => {
+        const cands = Array.from(document.querySelectorAll('nav, [class*="pagination" i], [class*="paging" i], [data-testid*="pagination" i]'));
+        const el = cands.filter((e) => /›|»|další|\b2\b/i.test(e.textContent || '')).sort((a, b) => a.textContent.length - b.textContent.length)[0];
+        return el ? el.outerHTML.slice(0, 1800) : '(stránkovací prvek nenalezen)';
+      }).catch(() => '');
+      process.stdout.write(`  --- PAGINATION HTML ---\n${pagHtml}\n  --- /PAGINATION ---\n`);
+    }
     if (n >= PAGES) break;
     await sleep(DELAY);
     if (!(await goNext(page, n + 1))) { process.stdout.write('  (konec stránkování)\n'); break; }
