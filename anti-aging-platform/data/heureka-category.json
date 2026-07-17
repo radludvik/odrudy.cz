@@ -108,7 +108,17 @@
       "name": "medik8 liquid peptides serum proti vraskam 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-liquid-peptides-serum-proti-vraskam-30-ml/",
       "price": "2 700 Kč",
-      "inciDone": true
+      "inciDone": true,
+      "incidecoderUrl": "https://incidecoder.com/products/medik8-liquid-peptides-2021",
+      "inci": "Aqua (Water), Glycerin, Butylene Glycol, Inulin, Sodium Hyaluronate, Panthenol, Alpha-Glucan Oligosaccharide, Carnosine, Carbomer, Polysorbate 20, Caprylyl Glycol, Phenoxyethanol, Hydroxypropyl Cyclodextrin, Dunaliella Salina (Green Algae) Extract, Ethylhexylglycerin, Citric Acid, Palmitoyl Tripeptide-5, Sodium Benzoate, Acetyl Hexapeptide-8, Tetrapeptide-21, Pentapeptide-18, Palmitoyl Tripeptide-1, Pantolactone, Palmitoyl Tripeptide-38, Palmitoyl Tetrapeptide-7, Glyceryl Caprylate, Lactic Acid/​Glycolic Acid Copolymer, Polyvinyl Alcohol, Phenylpropanol, Copper Palmitoyl Heptapeptide-14, Heptapeptide-15 Palmitate, Potassium Sorbate, Xanthan Gum, Lactic Acid/Glycolic Acid Copolymer",
+      "actives": [
+        "kyselina-hyaluronova",
+        "peptidy"
+      ],
+      "inciMatched": [
+        "hyaluron",
+        "peptide|tripeptide|hexapeptide|oligopeptide|polypeptide"
+      ]
     },
     {
       "name": "medi peel bor tox peptide ampule 30 ml",
