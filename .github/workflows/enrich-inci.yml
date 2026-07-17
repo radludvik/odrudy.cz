@@ -13,6 +13,12 @@ on:
       file:
         description: "Soubor s produkty"
         default: "anti-aging-platform/data/heureka-category.json"
+      force:
+        description: "Přepočítat i už hotové (1 = ano)"
+        default: "0"
+      only_miss:
+        description: "Znovu jen nenalezené (1 = ano)"
+        default: "0"
 
 permissions:
   contents: write
@@ -32,6 +38,8 @@ jobs:
         env:
           FILE: ${{ inputs.file }}
           LIMIT: ${{ inputs.limit }}
+          FORCE: ${{ inputs.force }}
+          ONLY_MISS: ${{ inputs.only_miss }}
       - name: Commit výsledku
         run: |
           git config user.name "github-actions[bot]"
