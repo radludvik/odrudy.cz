@@ -38,29 +38,45 @@
       "name": "Geek & Gorgeous C-Glow sérum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/geek-gorgeous-c-glow-serum-30-ml/",
       "price": "",
-      "incidecoderUrl": "https://incidecoder.com/products/geek-gorgeous-serum-101-c-glow",
-      "inci": "",
-      "actives": [],
-      "inciMatched": [],
+      "incidecoderUrl": "https://incidecoder.com/products/geek-gorgeous-c-glow",
+      "inci": "Water, Ascorbic Acid, Dimethyl Isosorbide, Butylene Glycol, PEG/​PPG/​Polybutylene Glycol-8/​5/​3 Glycerin, Ferulic Acid, Tocopherol, Phenoxyethanol, Ethylhexylglycerin, Sodium Hydroxide, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin",
+      "actives": [
+        "vitamin-c"
+      ],
+      "inciMatched": [
+        "ascorbic acid|ascorbyl|ascorbate|ethyl ascorb"
+      ],
       "inciDone": true
     },
     {
       "name": "medik8 crystal retinal 3 nocni serum proti starnuti pleti 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-crystal-retinal-3-nocni-serum-proti-starnuti-pleti-30-ml/",
       "price": "1 037 Kč",
-      "inciDone": true
+      "inciDone": true,
+      "incidecoderUrl": "https://incidecoder.com/products/medik8-crystal-retinal-3",
+      "inci": "Water, Caprylic/​Capric Triglyceride, Glycerin, Isododecane, Cetearyl Olivate, Sodium Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Alcohol, PPG-12/​Smdi Copolymer, Sorbitan Olivate, Tocopheryl Acetate, Cyclodextrin, Squalane, Hydroxyacetophenone, 3-O-Ethyl Ascorbic Acid, Hydroxypropyl Methylcellulose, Sodium Hyaluronate, Phenoxyethanol, Tetrahexyldecyl Ascorbate, Daucus Carota Sativa (Carrot) Seed Oil, Retinal, Rubus Chamaemorus Seed Oil, Alumina, Isostearic Acid, Lecithin, Polyglyceryl-3 Polyricinoleate, Lonicera Japonica (Honeysuckle) Flower Extract, Lonicera Caprifolium (Honeysuckle) Flower Extract, Polyhydroxystearic Acid, Stearic Acid, Sodium Polyaspartate, Pentylene Glycol, Citric Acid, Polysorbate 60, Disodium EDTA, Ethylhexylglycerin, BHT, Sorbitan Isostearate, Vanilla Planifolia Fruit Extract, Dipteryx Odorata Bean Extract, Coumarin, Red 4, Titanium Dioxide/​Ci 77891, Caprylic/Capric Triglyceride, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, PPG-12/Smdi Copolymer, Titanium Dioxide/Ci 77891",
+      "actives": [
+        "retinol",
+        "vitamin-c",
+        "kyselina-hyaluronova"
+      ],
+      "inciMatched": [
+        "\\bretinal\\b|retinaldehyde",
+        "ascorbic acid|ascorbyl|ascorbate|ethyl ascorb",
+        "hyaluron"
+      ]
     },
     {
       "name": "bioderma sensibio defensive serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/bioderma-sensibio-defensive-serum-30-ml/",
       "price": "990 Kč",
-      "incidecoderUrl": "https://incidecoder.com/products/bioderma-crealine-sensibio-defensive-moisturizing-concentrated-serum",
-      "inci": "Glycerin , Butylene Glycol , Pentylene Glycol , Caprylyl Glycol , Mannitol , Xylitol , Rhamnose , Biosaccharide Gum-1 , Hydrolyzed Hyaluronic Acid",
+      "incidecoderUrl": "https://incidecoder.com/products/bioderma-sensibio-defensive",
+      "inci": "Aqua/​Water/​Eau, Glycerin, Dicaprylyl Ether, Propylheptyl Caprylate, Butylene Glycol, Glyceryl Stearate Citrate, Glycol Palmitate, Squalane, Sucrose Stearate, Mangifera Indica (Mango) Seed Butter, Pentylene Glycol, Acrylates/​C10-30 Alkyl Acrylate Crosspolymer, Caprylyl Glycol, Carnosine, Mannitol, Xylitol, Tocopherol, Salvia Miltiorrhiza Flower/​Leaf/​Root Extract, Rhamnose, Glycine Soja (Soybean) Oil, Polysorbate 60, Sorbitan Isostearate, Palmitoyl Tetrapeptide-10, Aqua/Water/Eau, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Salvia Miltiorrhiza Flower/Leaf/Root Extract",
       "actives": [
-        "kyselina-hyaluronova"
+        "peptidy"
       ],
       "inciMatched": [
-        "hyaluron"
+        "peptide|tripeptide|hexapeptide|oligopeptide|polypeptide"
       ],
       "inciDone": true
     },
@@ -109,8 +125,8 @@
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-liquid-peptides-serum-proti-vraskam-30-ml/",
       "price": "2 700 Kč",
       "inciDone": true,
-      "incidecoderUrl": "https://incidecoder.com/products/medik8-liquid-peptides-2021",
-      "inci": "Aqua (Water), Glycerin, Butylene Glycol, Inulin, Sodium Hyaluronate, Panthenol, Alpha-Glucan Oligosaccharide, Carnosine, Carbomer, Polysorbate 20, Caprylyl Glycol, Phenoxyethanol, Hydroxypropyl Cyclodextrin, Dunaliella Salina (Green Algae) Extract, Ethylhexylglycerin, Citric Acid, Palmitoyl Tripeptide-5, Sodium Benzoate, Acetyl Hexapeptide-8, Tetrapeptide-21, Pentapeptide-18, Palmitoyl Tripeptide-1, Pantolactone, Palmitoyl Tripeptide-38, Palmitoyl Tetrapeptide-7, Glyceryl Caprylate, Lactic Acid/​Glycolic Acid Copolymer, Polyvinyl Alcohol, Phenylpropanol, Copper Palmitoyl Heptapeptide-14, Heptapeptide-15 Palmitate, Potassium Sorbate, Xanthan Gum, Lactic Acid/Glycolic Acid Copolymer",
+      "incidecoderUrl": "https://incidecoder.com/products/medik8-liquid-peptides",
+      "inci": "Aqua (Water), Glycerin, Butylene Glycol, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1, Copper Heptapeptide-14 Pantothenate, Heptapeptide-15 Palmitate, Arginine/​Lysine Polypeptide, Palmitoyl Tripeptide-38, Carnosine, Acetyl Hexapeptide-8, Pentapeptide-18, Palmitoyl Tripeptide-5, Tetrapeptide-21, Sodium Hyaluronate, Inulin, Alpha-Glucan Oligosaccharide, Lactic Acid/​Glycolic Acid Copolymer, Panthenol, Ethylhexylglycerin, Hydroxypropyl Cyclodextrin, Dunaliella Salina (Green Algae) Extract, Polysorbate 20, Caprylyl Glycol, Citric Acid, Glyceryl Caprylate, Pantolactone, Phenylpropanol, Polyvinyl Alcohol, Carbomer, Potassium Sorbate, Sodium Benzoate, Sorbic Acid, Phenoxyethanol, Xanthan Gum, Arginine/Lysine Polypeptide, Lactic Acid/Glycolic Acid Copolymer",
       "actives": [
         "kyselina-hyaluronova",
         "peptidy"
@@ -154,7 +170,15 @@
       "name": "medik8 c tetra luxe pletove serum 30 ml",
       "url": "https://pletova-sera-emulze.heureka.cz/medik8-c-tetra-luxe-pletove-serum-30-ml/",
       "price": "1 150 Kč",
-      "inciDone": true
+      "inciDone": true,
+      "incidecoderUrl": "https://incidecoder.com/products/medik8-c-tetra-luxe",
+      "inci": "Squalane, Simmondsia Chinensis (Jojoba) Seed Oil, Tetrahexyldecyl Ascorbate, Dimethicone, Candida Bombicola/​Glucose/​Methyl Rapeseedate Ferment, Citrus Grandis (Grapefruit) Peel Oil, Ethyl Linoleate, Passiflora Edulis Seed Oil, Tocopheryl Acetate, Helianthus Annuus (Sunflower) Seed Oil, Olea Europaea (Olive) Fruit Oil, Panax Ginseng Root Oil, Prunus Amygdalus (Sweet Almond) Dulcis Oil, Prunus Armeniaca (Apricot) Kernel Oil, PPG-12/​Smdi Copolymer, Limonene, Citral, Linalool, Geraniol, Candida Bombicola/Glucose/Methyl Rapeseedate Ferment, PPG-12/Smdi Copolymer",
+      "actives": [
+        "vitamin-c"
+      ],
+      "inciMatched": [
+        "ascorbic acid|ascorbyl|ascorbate|ethyl ascorb"
+      ]
     },
     {
       "name": "medik8 retinal 10 ultra silne nocni serum proti vraskam 30 ml",
