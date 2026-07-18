@@ -1551,9 +1551,27 @@ function renderDetail(e) {
   } : null;
   let pageLd;
   if (e.type === 'product') {
-    pageLd = { '@context': 'https://schema.org', '@type': 'Product', name: e.name, description: e.metaDescription, url: SITE.url + urlOf(e), category: categoryLabel(e.category || '') };
-    if (e.brand && e.brand !== '—') pageLd.brand = { '@type': 'Brand', name: e.brand };
-    if (e.scores && e.scores.overall) pageLd.review = { '@type': 'Review', reviewRating: { '@type': 'Rating', ratingValue: e.scores.overall.score, bestRating: 10 }, author: { '@type': 'Organization', name: SITE.name }, reviewBody: e.scores.overall.note || e.excerpt || '' };
+    // Redakční recenze (ne prodejní Product) — Google pak neukazuje cenu jako
+    // e-shop, ale hvězdičky našeho hodnocení, což láká na proklik. Cena (offers)
+    // se záměrně neuvádí; recenze je skutečná (redakční skóre, autor AntiAgeLab).
+    const reviewed = { '@type': 'Product', name: e.name, category: categoryLabel(e.category || '') };
+    if (e.brand && e.brand !== '—') reviewed.brand = { '@type': 'Brand', name: e.brand };
+    if (e.image && e.image.src) reviewed.image = SITE.url + applyBase(e.image.src);
+    if (e.scores && e.scores.overall) {
+      pageLd = {
+        '@context': 'https://schema.org', '@type': 'Review',
+        name: `Recenze: ${e.name}`,
+        url: SITE.url + urlOf(e),
+        itemReviewed: reviewed,
+        reviewRating: { '@type': 'Rating', ratingValue: e.scores.overall.score, bestRating: 10, worstRating: 1 },
+        author: { '@type': 'Organization', name: SITE.name },
+        publisher: { '@type': 'Organization', name: SITE.name },
+        datePublished: e.updated || undefined,
+        reviewBody: e.scores.overall.note || e.excerpt || '',
+      };
+    } else {
+      pageLd = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: e.name, description: e.metaDescription, url: SITE.url + urlOf(e) };
+    }
   } else {
     pageLd = { '@context': 'https://schema.org', '@type': e.type === 'article' ? 'Article' : 'MedicalWebPage', name: e.name, description: e.metaDescription, url: SITE.url + urlOf(e) };
   }
