@@ -1613,6 +1613,11 @@ function articleListingInner(items) {
   return intro + groups;
 }
 
+function procedureListingInner(items) {
+  const searchBar = `<div class="list-search"><input type="search" id="procSearch" class="list-search-input" placeholder="Hledat proceduru…" aria-label="Hledat proceduru"></div>`;
+  return `${searchBar}<p class="filter-count"><strong id="procCount">${items.length}</strong> z ${items.length} procedur</p><div class="card-grid" id="procGrid">${items.map(entityCard).join('')}</div><p class="empty" id="procEmpty" hidden>Žádná procedura neodpovídá hledání.</p>`;
+}
+
 /* ----------------------------------------------------------------------------
  * Výpisové (listing) stránky
  * ------------------------------------------------------------------------- */
@@ -1632,7 +1637,9 @@ function renderListing(type) {
             ? '<div id="ingredientDb" class="cmp-app"></div>'
             : type === 'article'
               ? articleListingInner(items)
-              : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
+              : type === 'procedure'
+                ? procedureListingInner(items)
+                : `<div class="card-grid">${items.map(entityCard).join('')}</div>`;
   const banner = bannerImage(type);
   const body = `<section class="listing-hero${banner ? ' has-banner' : ''}">${banner}<div class="container">
       <span class="eyebrow">Databáze</span>
@@ -1647,7 +1654,7 @@ function renderListing(type) {
     description: listingIntro(type),
     canonical: tc.base,
     breadcrumbTrail: trail,
-    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : type === 'faceYoga' ? '<script src="/assets/js/face-yoga-finder.js" defer></script>' : type === 'ingredient' ? '<script src="/assets/js/ingredients-filter.js" defer></script>' : ''),
+    body: body + (type === 'product' ? '<script src="/assets/js/products-filter.js" defer></script>' : type === 'technology' ? '<script src="/assets/js/tech-finder.js" defer></script>' : type === 'supplement' ? '<script src="/assets/js/supplement-finder.js" defer></script>' : type === 'procedure' ? '<script src="/assets/js/procedures-filter.js" defer></script>' : type === 'faceYoga' ? '<script src="/assets/js/face-yoga-finder.js" defer></script>' : type === 'ingredient' ? '<script src="/assets/js/ingredients-filter.js" defer></script>' : ''),
   });
 }
 
@@ -1714,7 +1721,8 @@ function supplementListingInner(items) {
   </div>`;
   // řazení podle síly důkazů sestupně
   const sorted = [...items].sort((a, b) => (b.evidenceStars || 0) - (a.evidenceStars || 0));
-  return intro + guide + `<div class="card-grid" id="suppGrid">${sorted.map(suppCard).join('')}</div>`;
+  const searchBar = `<div class="list-search"><input type="search" id="suppSearch" class="list-search-input" placeholder="Hledat doplněk stravy…" aria-label="Hledat doplněk stravy"></div>`;
+  return intro + guide + searchBar + `<p class="filter-count"><strong id="suppCount">${items.length}</strong> z ${items.length} doplňků</p><div class="card-grid" id="suppGrid">${sorted.map(suppCard).join('')}</div><p class="empty" id="suppEmpty" hidden>Žádný doplněk neodpovídá hledání.</p>`;
 }
 
 /* ---- Technologie: landing s interaktivním průvodcem „Co chcete řešit?" ---- */
@@ -1739,7 +1747,8 @@ function techListingInner(items) {
     <div class="opts opts--pref" id="tfPref"><button type="button" class="opt is-active" data-pref="">Doma i profesionálně</button><button type="button" class="opt" data-pref="ano">Jen domácí péče</button><button type="button" class="opt" data-pref="profesionální">Jen profesionální</button></div>
     <p class="muted small" id="tfHint">Vyberte problém a doporučíme nejvhodnější technologie.</p>
   </div>`;
-  return guide + `<div class="card-grid" id="techGrid">${items.map(techCard).join('')}</div>`;
+  const searchBar = `<div class="list-search"><input type="search" id="techSearch" class="list-search-input" placeholder="Hledat technologii…" aria-label="Hledat technologii"></div>`;
+  return guide + searchBar + `<p class="filter-count"><strong id="techCount">${items.length}</strong> z ${items.length} technologií</p><div class="card-grid" id="techGrid">${items.map(techCard).join('')}</div><p class="empty" id="techEmpty" hidden>Žádná technologie neodpovídá hledání.</p>`;
 }
 
 /* ---- Produktový výpis s filtrem (problém, značka, kategorie, typ pleti,
@@ -1793,9 +1802,10 @@ function productListingInner(items) {
   // Na mobilu jsou filtry sbalené za tlačítko, aby byly produkty hned vidět.
   const toggle = `<button type="button" class="filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="productFilter">Filtrovat a řadit<span class="filter-toggle-caret">▾</span></button>`;
   const count = `<p class="filter-count"><strong id="fcount">${items.length}</strong> z ${items.length} produktů</p>`;
+  const searchBar = `<div class="list-search"><input type="search" id="prodSearch" class="list-search-input" placeholder="Hledat produkt, značku nebo látku…" aria-label="Hledat produkt"></div>`;
   const script = `<script>(function(){var t=document.getElementById('filterToggle'),f=document.getElementById('productFilter');if(!t||!f)return;t.addEventListener('click',function(){var o=f.classList.toggle('is-open');t.setAttribute('aria-expanded',o);t.classList.toggle('is-open',o);});})();</script>`;
 
-  return `${toggle}${filterbar}${count}<div class="card-grid" id="productGrid">${annotated}</div><p class="empty" id="filterEmpty" hidden>Žádný produkt neodpovídá zvoleným filtrům. Zkuste uvolnit kritéria.</p>${script}`;
+  return `${searchBar}${toggle}${filterbar}${count}<div class="card-grid" id="productGrid">${annotated}</div><p class="empty" id="filterEmpty" hidden>Žádný produkt neodpovídá zvoleným filtrům. Zkuste uvolnit kritéria.</p>${script}`;
 }
 function productCard(e, dataAttrs) {
   const ev = e.evidenceLevel ? evidenceBadge(e.evidenceLevel) : '';

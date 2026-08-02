@@ -7,6 +7,9 @@
   var selects = Array.prototype.slice.call(form.querySelectorAll('select[data-filter]'));
   var countEl = document.getElementById('fcount');
   var emptyEl = document.getElementById('filterEmpty');
+  var searchEl = document.getElementById('prodSearch');
+  var term = '';
+  cards.forEach(function (c) { c._text = (c.textContent || '').toLowerCase(); });
   var total = cards.length;
 
   // tokenová shoda (mezerou oddělené sloty v data atributu)
@@ -29,6 +32,7 @@
       if (ok && f.price && card.getAttribute('data-price') !== f.price) ok = false;
       if (ok && f.score) { var sc = card.getAttribute('data-score'); if (sc === '' || +sc < +f.score) ok = false; }
       if (ok && f.ev) { var ev = card.getAttribute('data-ev'); if (ev === '' || +ev < +f.ev) ok = false; }
+      if (ok && term && card._text.indexOf(term) < 0) ok = false;
       card.hidden = !ok;
       if (ok) visible++;
     });
@@ -54,8 +58,9 @@
   })();
 
   selects.forEach(function (s) { s.addEventListener('change', apply); });
+  if (searchEl) searchEl.addEventListener('input', function () { term = this.value.trim().toLowerCase(); apply(); });
   var reset = document.getElementById('filterReset');
-  if (reset) reset.addEventListener('click', function () { selects.forEach(function (s) { s.value = ''; }); apply(); });
+  if (reset) reset.addEventListener('click', function () { selects.forEach(function (s) { s.value = ''; }); if (searchEl) searchEl.value = ''; term = ''; apply(); });
 
   apply();
 })();

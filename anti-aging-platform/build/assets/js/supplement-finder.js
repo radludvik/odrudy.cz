@@ -6,8 +6,11 @@
   if (!finder || !grid) return;
   var hint = document.getElementById('sfHint');
   var cards = Array.prototype.slice.call(grid.querySelectorAll('.supp-card'));
-  cards.forEach(function (c) { try { c._eff = JSON.parse(c.getAttribute('data-effectiveness') || '{}'); } catch (e) { c._eff = {}; } c._ev = +(c.getAttribute('data-ev') || 0); });
-  var concern = '', minEv = 0;
+  cards.forEach(function (c) { try { c._eff = JSON.parse(c.getAttribute('data-effectiveness') || '{}'); } catch (e) { c._eff = {}; } c._ev = +(c.getAttribute('data-ev') || 0); c._text = (c.textContent || '').toLowerCase(); });
+  var concern = '', minEv = 0, term = '';
+  var searchEl = document.getElementById('suppSearch');
+  var countEl = document.getElementById('suppCount');
+  var emptyEl = document.getElementById('suppEmpty');
 
   function render() {
     var list = cards.slice();
@@ -21,11 +24,13 @@
     var shown = 0, recommended = 0;
     list.forEach(function (card) {
       var score = concern ? (card._eff[concern] || 0) : 1;
-      var ok = score > 0 && card._ev >= minEv;
+      var ok = score > 0 && card._ev >= minEv && (!term || card._text.indexOf(term) > -1);
       card.hidden = !ok;
       card.classList.remove('is-recommended');
       if (ok) { shown++; if (concern && recommended < 3 && score >= 3 && card._ev >= 3) { card.classList.add('is-recommended'); recommended++; } }
     });
+    if (countEl) countEl.textContent = shown;
+    if (emptyEl) emptyEl.hidden = shown !== 0;
     if (hint) {
       if (concern) hint.innerHTML = 'Doplňky s nejlepší oporou pro <strong>' + (CL[concern] || concern) + '</strong>' + (minEv >= 4 ? ' (jen silně podložené)' : minEv >= 3 ? ' (slušně podložené a lepší)' : '') + ' — řazeno podle účinnosti a síly důkazů. Zobrazeno ' + shown + '.';
       else if (minEv > 0) hint.textContent = 'Zobrazeny doplňky s vyšší silou důkazů (' + shown + ').';
@@ -49,4 +54,6 @@
       render();
     });
   });
+  if (searchEl) searchEl.addEventListener('input', function () { term = this.value.trim().toLowerCase(); render(); });
+  render();
 })();

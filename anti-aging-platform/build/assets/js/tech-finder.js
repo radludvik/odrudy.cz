@@ -6,8 +6,11 @@
   if (!finder || !grid) return;
   var hint = document.getElementById('tfHint');
   var cards = Array.prototype.slice.call(grid.querySelectorAll('.tech-card'));
-  cards.forEach(function (c) { try { c._eff = JSON.parse(c.getAttribute('data-effectiveness') || '{}'); } catch (e) { c._eff = {}; } c._home = c.getAttribute('data-home') || ''; });
-  var concern = '', pref = '';
+  cards.forEach(function (c) { try { c._eff = JSON.parse(c.getAttribute('data-effectiveness') || '{}'); } catch (e) { c._eff = {}; } c._home = c.getAttribute('data-home') || ''; c._text = (c.textContent || '').toLowerCase(); });
+  var concern = '', pref = '', term = '';
+  var searchEl = document.getElementById('techSearch');
+  var countEl = document.getElementById('techCount');
+  var emptyEl = document.getElementById('techEmpty');
 
   function prefOk(card) {
     if (!pref) return true;
@@ -25,11 +28,13 @@
     var shown = 0, recommended = 0;
     list.forEach(function (card) {
       var score = concern ? (card._eff[concern] || 0) : 1;
-      var ok = prefOk(card) && score > 0;
+      var ok = prefOk(card) && score > 0 && (!term || card._text.indexOf(term) > -1);
       card.hidden = !ok;
       card.classList.remove('is-recommended');
       if (ok) { shown++; if (concern && recommended < 3 && score >= 3) { card.classList.add('is-recommended'); recommended++; } }
     });
+    if (countEl) countEl.textContent = shown;
+    if (emptyEl) emptyEl.hidden = shown !== 0;
     if (hint) {
       if (concern) hint.innerHTML = 'Nejvhodnější technologie na <strong>' + (CL[concern] || concern) + '</strong>' + (pref ? ' (' + (pref === 'ano' ? 'domácí' : 'profesionální') + ')' : '') + ' — řazeno podle účinnosti. Zobrazeno ' + shown + '.';
       else hint.textContent = 'Vyberte problém a doporučíme nejvhodnější technologie.';
@@ -52,4 +57,6 @@
       render();
     });
   });
+  if (searchEl) searchEl.addEventListener('input', function () { term = this.value.trim().toLowerCase(); render(); });
+  render();
 })();

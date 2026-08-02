@@ -566,6 +566,10 @@ table.compare th[scope=row]{background:var(--porcelain);font-weight:600}
 .filter-reset{align-self:end;height:42px;padding:0 18px;font-size:.85rem;white-space:nowrap}
 .filter-count{color:var(--ink-soft);font-size:.9rem;margin:0 0 18px}
 .filter-count strong{color:var(--ink)}
+/* Textové vyhledávání ve výpisech (produkty, technologie, procedury, doplňky) */
+.list-search{position:relative;margin:0 0 16px}
+.list-search-input{width:100%;padding:13px 16px 13px 44px;border:1px solid var(--line);border-radius:var(--radius-sm);font-family:inherit;font-size:1rem;background:var(--porcelain) no-repeat 15px center;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23967a3a' stroke-width='1.7' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.6-3.6'/%3E%3C/svg%3E");background-size:18px;color:var(--ink)}
+.list-search-input:focus{outline:none;border-color:var(--gold)}
 .card-score{font-family:var(--serif);font-size:1rem;color:var(--gold-deep);font-weight:600}
 .product-card .card-foot{justify-content:space-between}
 
